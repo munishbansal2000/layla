@@ -1,0 +1,2407 @@
+{
+  "id": "viator_mjnji57y_izo751",
+  "timestamp": "2025-12-27T00:05:55.822Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 479,
+      "destName": "paris",
+      "tags": [
+        11889
+      ],
+      "sortOrder": "TRAVELER_RATING",
+      "count": 20
+    }
+  },
+  "response": {
+    "products": [
+      {
+        "productCode": "114983P1",
+        "title": "Paris Wine Day Tours exclusive Champagne tour incl. 3 visits",
+        "description": "We have crafted the ultimate Champagne day tour from Paris — a perfect blend of culture, elegance and unforgettable tastings\n\nAfter leaving Paris, enjoy a complimentary French breakfast en route while your guide shares insights into the Champagne region and its heritage\n\nWe begin with a visit to the majestic Reims Cathedral, a UNESCO World Heritage Site where French kings were crowned. Then, head to the iconic Champagne Mumm for a full guided tour of their historic cellars, followed by a tasting\n\nLunch is served in a renowned Art Deco-style restaurant — a gourmet three-course meal with wine and coffee\n\nIn the afternoon, continue with a visit and tasting at a second grand Champagne house. With a different style and cellar design, this offers another experience\n\nTo end the day, we explore the charming village of Hautvillers, birthplace of Champagne and home to Dom Pérignon. There, enjoy a final tasting at a family-owned estate — a warm and authentic experience to toast the perfect day",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Exclusive visits",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/3d/5e/78.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/3d/5e/78.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 3,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 81,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 84,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 720
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 443.22,
+            "fromPriceBeforeDiscount": 443.22
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Intimate-Champagne-Tour-from-Paris-by-a-local/d479-114983P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11928,
+          11930,
+          21972,
+          22111,
+          11938,
+          21574,
+          21911,
+          11891,
+          11889,
+          21860
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": true,
+          "translationSource": "MACHINE",
+          "translationAttribution": "GOOGLE"
+        }
+      },
+      {
+        "productCode": "418073P1",
+        "title": "Champagne Tasting Tour Day Trip From Paris",
+        "description": "What ever your level of appreciation for Champagne we will adapt the tour make it special for you. I am the owner operator, an expert in Champagne and native English speaker. Never scripted, always personalised, we simply love to share the best about Champagne and have you make unforgettable memories on your day trip. Come alone, couples, groups of friends, and families. There will be some history, some culture, some vineyards to explore, and a lot to learn about the processes. The highlight is of course tasting the various champagnes after learning about them. It all makes sense when you are there! You will never look at champagne in the same way after this tour. Meet some producers, be amazed by the big houses, and if you're there at harvest you'll experience the amazing juice coming off a press! ",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "endless vines to walk through",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/11/70/d1/8f.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/11/70/d1/8f.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 23,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 50,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 73,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 600,
+          "variableDurationToMinutes": 660
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 419.19,
+            "fromPriceBeforeDiscount": 419.19
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Champagne-Tasting-Tours-Day-Trip-From-Paris/d479-418073P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11928,
+          12029,
+          11889,
+          21972,
+          21733,
+          21860,
+          21736,
+          21911,
+          11891,
+          21574,
+          11930,
+          367653,
+          367654
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5488576P7",
+        "title": "Epernay and Reims Champagne Private Day Trip from Paris",
+        "description": "In the distant Champagne region, discover the vineyards of Épernay and Reims. Here, every drop of the beverage is a true legend, brimming with history and enchantment. Embark on an extraordinary journey, filled with unexpected discoveries! Explore the lush landscapes where world-famous champagnes are crafted, delve into the fascinating processes of winemaking, and uncover the rich heritage that makes this region unique. From the ancient cellars to the captivating museums, every moment promises a new insight into the magic of Champagne. Join us for an unforgettable adventure in a land where every sip tells a story.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/46/e9/ae.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/46/e9/ae.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 4,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 20,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 24,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 480,
+          "variableDurationToMinutes": 600
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 690.65,
+            "fromPriceBeforeDiscount": 690.65
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Champagne-Day-Epernay-and-Reims-Private-trip-from-Paris/d479-5488576P7?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11930,
+          21733,
+          11889,
+          21574,
+          21911,
+          12029,
+          11928,
+          367654,
+          20757,
+          22083,
+          367661,
+          11891,
+          11941,
+          21972,
+          367653,
+          367658
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "51919P14",
+        "title": "Versailles Palace Family 5hour Discovery from Paris",
+        "description": "This 5-hour Versailles family tour – with skip-the-line tickets – has been specifically designed to provide a hassle-free train trip from Paris and a playful, educational tour for the kids.\n\nYou will be accompanied from Paris by a kid-friendly expert guide who knows how to engage children, taking them on an entertaining, historical time travel adventure. With the help of an activity booklet and our wonderful storyteller, the whole family will learn fascinating stories and anecdotes about French history and Louis XIV’s incredible life.\n\nAfter the Palace marvels, you’ll have the opportunity to stretch your legs in the Sun King’s gardens before heading back to Paris with memorable souvenirs.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Versailles Hall of Mirrors ",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/06/6e/d2/ae.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/06/6e/d2/ae.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 3,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 18,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 21,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 300
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1177.1,
+            "fromPriceBeforeDiscount": 1177.1
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Skip-the-Line-Versailles-Palace-Family-5-hour-Discovery-from-Paris/d479-51919P14?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11919,
+          12029,
+          12032,
+          12046,
+          11941,
+          11929,
+          12028,
+          11889,
+          12031
+        ],
+        "flags": [
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "44598P22",
+        "title": "On the footsteps of Joan of Arc - Private day trip to Rouen",
+        "description": "You will return into medieval times with this private day trip to Rouen by train.\nWith the enthusiastic knowledge of your personal tour guide, this will be your opportunity to discover and learn about this historic Normandy tow's quaint medieval and renaissance architecture.\nJoan of Arc, a tragic heroin of the 100 years war who was burnt in Rouen, William the conqueror, Rollo the Viking, Richard the Lion Heart (the latter being mentioned in the adventures of Robin Hood) are some of the greatest figures who shaped the history of Rouen, of Normandy, and the relationships between France and England for more than 100 years. You'll get thrilled to learn about their lives while walking on their footstep.\nBy the way! You'll also admire the tallest gothic cathedral of France that impressionist artist Claude Monet obsessively painted: Cathedral Notre-Dame of Rouen, being the actual tallest gothic cathedral of France.\n• Included: a visit at Historial Jeanne d’Arc’s Immersive Show",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0c/07/ad/b6.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0c/07/ad/b6.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 13,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 19,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 540,
+          "variableDurationToMinutes": 600
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 360.34,
+            "fromPriceBeforeDiscount": 360.34
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Day-trip-to-Rouen-Normandy-On-the-footstep-to-Joan-of-Arc-Private-tour/d479-44598P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12046,
+          12075,
+          11941,
+          12032,
+          11928,
+          21721,
+          12028,
+          21972,
+          11889,
+          21511,
+          12029
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "419596P1",
+        "title": "Day Trip to Fontainebleau : Horse Riding, Gastronomy and Castle ",
+        "description": "Just an hour away from the busy streets of Paris lies an exquisite treasure waiting to be discovered: Fontainebleau. From François I, Henri IV to Napoléon III, the French Royalty chose it for its expansive forests, abundant wildlife, and its proximity to Paris.\n\nFor both beginners and experienced riders, this Day Trip from Paris is an immersive horse-riding, cultural, and gastronomic experience that takes you through the stunning Forest of Fontainebleau and its Castle for a unique experience away from the city. \n\nRide through the various landscapes, savor a gourmet lunch in a French Bistronomic Restaurant and discover the Royal estate and its secrets : A unique blend of nature, gastronomy, luxury and culture.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Horse-riding in the Forest of Fontainebleau",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/11/81/27/04.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/11/81/27/04.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/11/81/27/04.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/11/81/27/04.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/81/27/04.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/11/81/27/04.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/81/27/04.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/81/27/04.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/11/81/27/04.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/11/81/27/04.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 2,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 17,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 19,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 480
+        },
+        "confirmationType": "MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1943,
+            "fromPriceBeforeDiscount": 1943
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Day-trip-from-Paris-Horse-riding-Gastronomy-and-Castle/d479-419596P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          21444,
+          11941,
+          21439,
+          367661,
+          11928,
+          12046,
+          21733,
+          11930,
+          11903,
+          11889,
+          21911
+        ],
+        "flags": [
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "270435P1",
+        "title": "Private Guided Tour in Champagne from Paris with Moet&Chandon visit.",
+        "description": "We offer you high-end, private and exclusive tour in English with a certified WSET level 3 wine expert (on the way to level 4) . He will travel and stay with you all day long for giving you any explanation on Champagne wine and region (wine making process, history, economy and private funny stories about Champagne).\nWe pick you up at your accommodation in Paris, travel to Champagne region in a luxury Mercedes van, then enjoy a worry-free relaxing experience, your guide will take care of all logistical details for you. You will see both sides of Champagne: a well known famous Champagne house, and an independent family owned winemaker. Both are high-end quality classified as \"Grand Cru\" or \"Premier Cru\" or \"Cru\".",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Taste different Champagnes from Grandes Maisons and winemakers.",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0a/f3/cc/dd.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0a/f3/cc/dd.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 5,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 12,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 17,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 540,
+          "variableDurationToMinutes": 660
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1032.97,
+            "fromPriceBeforeDiscount": 1032.97
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Private-and-exclusive-one-day-guided-tour-in-Champagne-with-tastings-and-lunch/d479-270435P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11891,
+          21733,
+          11889,
+          12028,
+          11941,
+          11928,
+          21911,
+          11930,
+          21574
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "142334P6",
+        "title": "WW1 Belleau Wood and American Monument in Château-Thierry - Day trip from Paris",
+        "description": "• Walk along belleau wood and relive by yourself the fierce fightings who took place there, involving the US Marines against german soldiers\n• Pay tribute to the fallen US soldiers in visiting the beautiful maintained Aisne-Marne American Cemetery\n• Discover the monumental and impressive American Monument who stands above Hill 204 and overlooks the town on Château Thierry\n• Browse thousands of war-related artifacts at the Museum of the Great War in Meaux",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/9c/69/62.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/9c/69/62.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/9c/69/62.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/9c/69/62.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/9c/69/62.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/9c/69/62.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/9c/69/62.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9c/69/62.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/9c/69/62.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/9c/69/62.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 9,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 15,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 780,
+          "variableDurationToMinutes": 840
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 282.26,
+            "fromPriceBeforeDiscount": 282.26
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/WW1-Belleau-Wood-and-American-Monument-in-Chateau-Thierry-Day-trip-from-Paris/d479-142334P6?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          21860,
+          11928,
+          11889,
+          11930,
+          12028
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5562003P16",
+        "title": "Etretat & Monet Gardens Private Tour from Paris Picnic + Gift",
+        "description": "Discover the stunning beauty of Normandy on a private tour that begins with a scenic drive to the dramatic Étretat Cliffs. Walk along the famed arches and needle stone formations while enjoying breathtaking sea vistas. A gourmet picnic awaits you on the cliffs, featuring delicious French cheeses, fresh baguettes, seasonal fruits, and a bottle of chilled wine. The adventure continues to Giverny, where you'll stroll through Claude Monet’s enchanting gardens and visit his charming home, filled with vibrant flowers and serene water lilies that inspired his masterpieces. Experience luxury transportation, expert guidance, and a flexible itinerary tailored to your preferences.\n\n- Scenic drive from Paris to the iconic Étretat Cliffs\n- Private gourmet picnic overlooking the sea with French delicacies\n- Walk through Claude Monet’s Gardens and visit his house in Giverny\n- Comfortable transportation with expert English-speaking driver-guide",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/b7/1e/35.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/b7/1e/35.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 14,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 14,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 660,
+          "variableDurationToMinutes": 780
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 600.56,
+            "fromPriceBeforeDiscount": 600.56
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Etretat-Cliffs-and-Claude-Monets-Gardens-Private-Tour-with-Picnic/d479-5562003P16?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          12029,
+          21733,
+          11930,
+          12028,
+          367658,
+          11889,
+          11928
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "NEW_ON_VIATOR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "35428P6",
+        "title": "Champagne Private VIP Wine Day Trip with Michelin Lunch",
+        "description": "Embark on an exclusive day in Champagne, meticulously crafted for an unforgettable experience amidst the picturesque French countryside. Our hand-picked partners ensure that every moment of this luxurious excursion is a perfect blend of refinement and perfection.  \n\nFrom Champagne Ruinart or high-end experiences at Champagne Moet et Chandon or Champagne Veuve Clicquot, to a visit to a charming cellar specializing in haute couture champagnes. Immerse yourself in sophistication: stroll through UNESCO-listed vineyards, admire their timeless beauty, and savor a Michelin-starred lunch with exceptional Champagne.\nEnjoy a Michelin-starred lunch paired with exceptional Champagne. \nLet our wine expert guide you through the nuances of this region, offering a deeper understanding of this beverage. \n\nEnjoy the convenience of hotel pick-up and drop-off. Join us for a day of exclusivity and genuine appreciation, as we uncover the secrets and stories behind Champagne's effervescent charm.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Enjoy wild tasting with your private guide",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/66/4b/70.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/66/4b/70.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/66/4b/70.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/66/4b/70.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/66/4b/70.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/66/4b/70.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/66/4b/70.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/66/4b/70.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/66/4b/70.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/66/4b/70.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 8,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 6,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 14,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 660
+        },
+        "confirmationType": "INSTANT_THEN_MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1261.18,
+            "fromPriceBeforeDiscount": 1261.18
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Luxury-private-day-tour-to-Champagne-from-Paris/d479-35428P6?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11938,
+          11941,
+          11930,
+          20757,
+          22111,
+          11889,
+          21911,
+          11891,
+          21574,
+          21733,
+          22083,
+          11928
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "268293P2",
+        "title": "Normandy Rouen, Honfleur, Etretat Small group Day Trip from Paris",
+        "description": "Small-group trip for 4 to 8 people to Normandy Highlights. Live guided. Tiered pricing. Hotel Pick up and Drop off offered.\nThree Top sights of Normandy: Normandy's Capital Rouen with its famous Cathedral, famous Medieval harbour-city Honfleur and Etretat famous Chalk Cliffs. Calvados tasting by local producer.\nDuration of 13 hours, longer as usual. \nMercedes E220 business-class car or Mercedes/VW minivan. \nThis tour is also offered as Customised Private Experience. \n15 other day trips from Paris in Small-groups and as Private Experiences offered by Clewel Travel.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0b/f1/39/ac.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0b/f1/39/ac.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 10,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 4,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 14,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 780
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 450.42,
+            "fromPriceBeforeDiscount": 450.42
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Paris-Normandy-Small-Group-Live-Guided-Day-Trip-Minivan/d479-268293P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          11928,
+          367654,
+          11930,
+          12075,
+          11889,
+          12046,
+          367661,
+          21860
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5562003P13",
+        "title": "Champagne Picnic & Tasting. Private Tour from Paris",
+        "description": "Delve into the enchanting Champagne region with a premium tour that goes beyond the conventional. This exclusive experience offers unique insights into the heart of Champagne, perfect for content creators and travelers seeking authenticity. Descend 30 meters underground to explore UNESCO-listed cellars, where the rich history and secrets of Champagne aging come alive. Savor exclusive tastings of local wines and spirits, and indulge in a luxurious picnic amidst breathtaking vineyards with carefully selected regional delicacies. Tailor your journey with a customizable itinerary to make your visit truly unforgettable.\n\nDiscover the Champagne region’s elegance and authenticity\nExplore UNESCO-listed cellars 30 meters underground\nEnjoy a luxurious picnic amidst breathtaking vineyards with local products\nSavor exclusive tastings of Champagne and local spirits\nCustomize your tour, including a visit to a maison of your choice\nIdeal for content creators and travelers seeking unique experiences",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/8e/7e/13.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/8e/7e/13.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 12,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 13,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 480,
+          "variableDurationToMinutes": 600
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 510.48,
+            "fromPriceBeforeDiscount": 510.48
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Champagne-Region-Luxury-Picnic-Tour-with-Tastings/d479-5562003P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          21911,
+          11928,
+          12011,
+          367661,
+          11889,
+          367658,
+          11891,
+          12053,
+          21574,
+          11930
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "NEW_ON_VIATOR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5488576P9",
+        "title": "D-Day Beaches Caen Memorial Private Tour from Paris",
+        "description": "Step back in time and immerse yourself in the monumental events of World War II with our Normandy D-Day Beaches & Caen Memorial Tour. From the solemn grounds of war cemeteries to the strategic bunkers of the Atlantic Wall, this tour offers a poignant exploration of the sacrifices made during the historic D-Day landings. Visit the iconic beaches where the Allied forces landed, explore the detailed exhibits at the Caen Memorial Museum, and reflect on the bravery and resilience of those who fought. This tour provides a deep, emotional connection to one of history's most significant moments, honoring the legacy of the heroes of D-Day.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/4e/df/fe.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/4e/df/fe.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 10,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 11,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 600,
+          "variableDurationToMinutes": 720
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 600.56,
+            "fromPriceBeforeDiscount": 600.56
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Normandy-D-Day-Beaches-Caen-Memorial-Private-Tour-from-Paris/d479-5488576P9?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          11928,
+          11930,
+          21733,
+          11889,
+          367661,
+          12028,
+          11941,
+          367658
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "8647P229",
+        "title": "Private 5-hour tour to Palace of Versailles from Paris Hotel",
+        "description": "Pick up is set from your hotel in Paris and we will head towards Versailles. \n\nYou will leave with your driver and separate official tour guide in a private luxury vehicle. Entrance tickets are included to the Palace of Versailles. \n\nYou will be able to enjoy amongst others and learn all their historical details and facts thanks to your private official tour guide:\n\nRoyal Chapel\nKings Grand Apartment\nHercules Salon\nAbondance Salon\nVenus Salon\nDiana Salon\nMars Salon\nMercury Salon\nApollo Salon \nHall of Mirrors (La Grande Galerie des Glaces)\nWar Room\nQueen’s Grand Apartment \nGuard’s room\nSalon des Nobles\nQueen’s Bedchamber\nPeace Room\nHall of French history\nHall of Battles \n\nAfter you have visited the Palace, your driver and separate official tour guide will drop you back at your hotel in Paris. \n\n- SAVE COVID-19 SAFE - As this is a private tour we take care of maintaining social distance.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/41/a9/18.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/41/a9/18.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/41/a9/18.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/41/a9/18.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/41/a9/18.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/41/a9/18.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/41/a9/18.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/41/a9/18.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/41/a9/18.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/41/a9/18.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 9,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 10,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 300
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 909.69,
+            "fromPriceBeforeDiscount": 909.69
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Private-half-day-tour-of-Chateau-Versailles/d479-8647P229?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11938,
+          11941,
+          12029,
+          12028,
+          11889,
+          367654,
+          11930,
+          11929,
+          367653
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "142334P2",
+        "title": "Canadians in Normandy D-Day beaches Juno Beach and Pegasus Bridge (3/7 pax)",
+        "description": "Similar Tours\n\nHIGHTLIGHTS\n\nStop at the exact location where the original « Pegasus Bridge » used to stand.\n\nPay your respects to the fallen Canadian soldiers at the Canadian War Cemetery in Beny-sur-Mer\n\nSee the famous “Canada House” on Juno Beach, said to be the first house liberated in Normandy.\n\nWalk on the sands of Juno Beach in Normandy just like the Canadian troops did in June 1944.\n\nVisit the Juno Beach Centre, the most comprehensive museum about the Canadian landings in Normandy.\n\nVisit the underground bunker of German General « Richter » in Caen.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "JUNO BEACH. Courseulles Sur Mer, Normandy. \"MIKE\" Sector. Dunes facing the beach.",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/9b/a4/db.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/9b/a4/db.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 4,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 10,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 780,
+          "variableDurationToMinutes": 840
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 288.27,
+            "fromPriceBeforeDiscount": 288.27
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Canadians-in-Normandy-D-Day-beaches-Juno-Beach-and-Pegasus-Bridge/d479-142334P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          21860,
+          11889,
+          12028,
+          12029,
+          11928,
+          11930
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "382111P9",
+        "title": "Private Guided Tour In Normandy - Rouen, Honfleur, Etretat ",
+        "description": "Dedicated to turning your travel wishes into reality, ensuring a personalized and seamless experience tailored to your preferences. We strive to accommodate special requests and make every journey unforgettable.\n\nUp your travel expectations. \n\nExplore the most interesting corners of Normandy on a private tour prepared for you personally\n\nSince all tours are private and can be modified according to your wishes, there is a chance to go to different places in the area. For example: \n- Deauville \n- Giverny \n- Caen etc.\n\nProfessional guide and driver will do everything possible and impossible to make your experience unforgettable. We are adapting to your wishes and we offer skip the lines with the fast tickets. You will have Comfortable air-conditioned cars during the pick up from the hotel or even the airport. \n\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/11/91/9a/18.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/11/91/9a/18.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/11/91/9a/18.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/11/91/9a/18.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/91/9a/18.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/11/91/9a/18.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/91/9a/18.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/91/9a/18.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/11/91/9a/18.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/11/91/9a/18.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 10,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 10,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 780
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1189.12,
+            "fromPriceBeforeDiscount": 1189.12
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Normandy-private-guided-tour-Honfleur-Etretat-Rouen/d479-382111P9?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          11928,
+          21736,
+          11930,
+          20206,
+          21733,
+          11889,
+          21511,
+          367661,
+          12028,
+          11941
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "268293P20",
+        "title": "Private Rouen Giverny Trip from Paris with Michelin Lunch",
+        "description": "Private Day trip from Paris for 2 to 7 people with Hotel Pick up. Live-guided during the whole trip. Normandy's capital Rouen and Claude Monet's house in Giverny with Lunch at a Michelin restaurant. Free time at both places. A very nice & quiet trip of 12 hours duration. Tiered pricing and guaranteed departures.\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/4c/d9/59.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/4c/d9/59.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 7,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 2,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 9,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 720
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 714.67,
+            "fromPriceBeforeDiscount": 714.67
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Private-Rouen-Tour-with-Gourmet-Lunch-and-Calvados-Tasting/d479-268293P20?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          12046,
+          11928,
+          12075,
+          11889,
+          11930,
+          12028
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "35428P5",
+        "title": "Loire Valley Private Day Trip with Chambord Winery Visit & Lunch",
+        "description": "Discover the wonders of the Loire Valley with this Wineries & Castles private full-day tour from Paris! Visit the magnificent Chateau of Chambord, enjoy a gourmet wine & food pairing lunch at a family-run winery of the Touraine Wine region and enjoy a visit and tasting in a second Loire Valley winery. White, red, rosé, sparkling and sweet wines, you’ll be amazed by the diversity of Loire Valley wines! This private tour includes round-trip transportation by air-conditioned black car or minivan.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/1f/19/0b.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/1f/19/0b.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 5,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 4,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 9,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 600,
+          "variableDurationToMinutes": 720
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1097.83,
+            "fromPriceBeforeDiscount": 1097.83
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Private-day-tour-to-Loire-valley-castles-and-wines-from-Paris/d479-35428P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          21574,
+          22083,
+          21733,
+          20206,
+          11930,
+          11928,
+          12011,
+          11889,
+          21911,
+          11891,
+          20757
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "391810P1",
+        "title": "Full-Day Private Tour in Paris with Driver Sightseeing tour ",
+        "description": "Paris is the City of Love, Architecture, and Art. This private tour offers you a full overview of Paris’s Highlights. You are choosing the most complete routes: we will guide you through the City with a private driver in a Luxury Car.\n\nWe will start the tour with the most famous avenue in the world: the Champs Elysées and its Arc de Triomphe.\n\nAdmire Notre Dame Cathedral, the Latin Quarter, The Marais, the island of saint Louis, and discover hidden gems along the River Seine and the most stunning views from Montmartre!\n\nAt the end of your day, it is not only a beautiful trip through Paris you will remember, but a walk through Art, History and French Culture.\n\nAll our guides are native Parisians, they will show you an aspect of the city that you don't know and its secrets. They will also give you a list of recommendations for where to go and what to do for the remaining days you have in Paris: there is nothing like tips and advice from a local friend.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/10/3d/cf/fe.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/10/3d/cf/fe.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 7,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 2,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 9,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 300
+        },
+        "confirmationType": "MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1069,
+            "fromPriceBeforeDiscount": 1069
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/All-Paris-in-one-day-with-a-private-driver/d479-391810P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          367661,
+          11941,
+          12075,
+          11929,
+          11889,
+          367654,
+          11930,
+          21736
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "225787P2",
+        "title": "Paris highlights sightseeing tour with private Transportation",
+        "description": "This tour is the best way to see all Paris in a full day tour!\n\nWith it, you are choosing the most complete routes: I will guide you through every corner in the city of light with a private driver in a private Luxury Car\n\nWith me, all you have to do is relax and enjoy the most beautiful city in the world in a beautiful car.\n\nIt is a sightseeing tour, but of course we will stop in many monuments, to take pictures and enjoy the viewing walk.\n\nI know my city by heart, but I won't only give you a boring history lesson. . . No, I will tell you all the funniest and most amusing anecdotes that have marked the history of Paris. Did you know that The famous Place de la Concorde is actually the largest sundial in the world?\n\nI'll make you more Parisian than real Parisians ;)\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0e/4c/0c/7f.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0e/4c/0c/7f.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 5,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 4,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 9,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 360
+        },
+        "confirmationType": "MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1069,
+            "fromPriceBeforeDiscount": 1069
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/The-prestige-tour/d479-225787P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          12046,
+          21734,
+          12029,
+          11889,
+          11930,
+          12028,
+          367661,
+          11929
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": true,
+          "translationSource": "MACHINE",
+          "translationAttribution": "GOOGLE"
+        }
+      }
+    ],
+    "totalCount": 823,
+    "currency": "USD"
+  },
+  "metadata": {
+    "duration_ms": 496,
+    "success": true,
+    "destination": "paris"
+  }
+}

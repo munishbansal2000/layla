@@ -1,0 +1,419 @@
+{
+  "id": "yelp_mjoymkul_w4zeq8",
+  "timestamp": "2025-12-27T23:57:03.117Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Hanbey",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "J2zuzKS1hKdNcifsznP2gg",
+          "alias": "半兵ヱ-新宿区",
+          "name": "Hanbey",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/1Vt3ddpVc2tGzfAWAKuPjg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%8D%8A%E5%85%B5%E3%83%B1-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 8,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 35.6941,
+            "longitude": 139.7009895
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "歌舞伎町1-23-14",
+            "address2": "第1メトロビル5F",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "歌舞伎町1-23-14",
+              "第1メトロビル5F",
+              "Shinjuku, 東京都 〒160-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81368613555",
+          "display_phone": "+81 3-6861-3555",
+          "distance": 3272.8871607380265,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "3FmER3kFLGdpF2o7m182zw",
+          "alias": "半兵ヱ-世田谷区",
+          "name": "Hanbey",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/hijUMc0rQGsryCi4M63XAg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%8D%8A%E5%85%B5%E3%83%B1-%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6595515960965,
+            "longitude": 139.667501589817
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "北沢2丁目14-2",
+            "address2": "ジョー3ビル 2F 下北沢店",
+            "address3": null,
+            "city": "Setagaya",
+            "zip_code": "155-0031",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "北沢2丁目14-2",
+              "ジョー3ビル 2F 下北沢店",
+              "Setagaya, 東京都 〒155-0031",
+              "Japan"
+            ]
+          },
+          "phone": "+81357798848",
+          "display_phone": "+81 3-5779-8848",
+          "distance": 2193.4233263414067,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.hanbey.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "NDWC8sB7D1H287ZIJfVMzg",
+          "alias": "半兵ヱ-新宿区-2",
+          "name": "Hanbey",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%8D%8A%E5%85%B5%E3%83%B1-%E6%96%B0%E5%AE%BF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "yakitori",
+              "title": "Yakitori"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 35.6936569213867,
+            "longitude": 139.702499389648
+          },
+          "transactions": [],
+          "location": {
+            "address1": "歌舞伎町1-6-3",
+            "address2": "",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "歌舞伎町1-6-3",
+              "Shinjuku, 東京都 〒160-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81368921900",
+          "display_phone": "+81 3-6892-1900",
+          "distance": 3264.652529840841,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.hanbey.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "hg9gbaScKTnEgTo6mGsk2w",
+          "alias": "薄利多賣半兵ヱ-大宮駅舎西口を出て左のラーメン日高2階店-さいたま市",
+          "name": "Hakuri tabai hanbey Omiya Eki Nishiguchi Ramen Hidaka Nikaiten",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E8%96%84%E5%88%A9%E5%A4%9A%E8%B3%A3%E5%8D%8A%E5%85%B5%E3%83%B1-%E5%A4%A7%E5%AE%AE%E9%A7%85%E8%88%8E%E8%A5%BF%E5%8F%A3%E3%82%92%E5%87%BA%E3%81%A6%E5%B7%A6%E3%81%AE%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%97%A5%E9%AB%982%E9%9A%8E%E5%BA%97-%E3%81%95%E3%81%84%E3%81%9F%E3%81%BE%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 35.907398223877,
+            "longitude": 139.618194580078
+          },
+          "transactions": [],
+          "location": {
+            "address1": "大宮区桜木町1-2-4",
+            "address2": "金子ビル2F",
+            "address3": null,
+            "city": "Saitama",
+            "zip_code": "330-0854",
+            "country": "JP",
+            "state": "11",
+            "display_address": [
+              "大宮区桜木町1-2-4",
+              "金子ビル2F",
+              "Saitama, 埼玉県 〒330-0854",
+              "Japan"
+            ]
+          },
+          "phone": "+81486401878",
+          "display_phone": "+81 48-640-1878",
+          "distance": 27257.992768495813,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 7,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 557,
+    "success": true
+  }
+}

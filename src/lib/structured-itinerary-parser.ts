@@ -1,0 +1,407 @@
+// ============================================
+// STRUCTURED ITINERARY PARSER
+// ============================================
+// Parses LLM responses into structured itinerary data
+// Handles both text + JSON format and fallback parsing
+
+import type {
+  StructuredItineraryResponse,
+  StructuredItineraryData,
+  ItineraryResponseMetadata,
+  LLMItineraryResponse,
+  DayWithOptions,
+  SlotWithOptions,
+  ActivityOption,
+  PlaceData,
+} from "@/types/structured-itinerary";
+
+// ============================================
+// MAIN PARSER
+// ============================================
+
+/**
+ * Parse LLM response that contains both text and structured JSON
+ * Expected format:
+ * ---TEXT---
+ * [conversational message]
+ * ---END_TEXT---
+ *
+ * ---JSON---
+ * { structured itinerary data }
+ * ---END_JSON---
+ */
+export function parseStructuredResponse(llmResponse: string): StructuredItineraryResponse {
+  const startTime = Date.now();
+
+  // Try to extract text portion
+  const textMatch = llmResponse.match(/---TEXT---([\s\S]*?)---END_TEXT---/i);
+  const message = textMatch ? textMatch[1].trim() : extractFallbackMessage(llmResponse);
+
+  // Try to extract JSON portion
+  const jsonMatch = llmResponse.match(/---JSON---([\s\S]*?)---END_JSON---/i);
+
+  if (!jsonMatch) {
+    // Try alternative JSON extraction methods
+    const alternativeJson = tryAlternativeJsonExtraction(llmResponse);
+
+    if (alternativeJson) {
+      return buildResponse(message, alternativeJson, null);
+    }
+
+    // No structured data found
+    return {
+      message,
+      itinerary: null,
+      metadata: buildEmptyMetadata(),
+      parseError: "No structured JSON found in response. LLM may need prompt adjustment.",
+    };
+  }
+
+  try {
+    const rawJson = jsonMatch[1].trim();
+    const parsed = JSON.parse(rawJson) as LLMItineraryResponse;
+    const itinerary = transformLLMResponse(parsed);
+
+    console.log(`[Parser] Parsed structured itinerary in ${Date.now() - startTime}ms`);
+    return buildResponse(message, itinerary, null);
+  } catch (e) {
+    const error = e instanceof Error ? e.message : "Unknown parse error";
+    console.error("[Parser] JSON parse error:", error);
+
+    return {
+      message,
+      itinerary: null,
+      metadata: buildEmptyMetadata(),
+      parseError: `JSON parse error: ${error}`,
+    };
+  }
+}
+
+// ============================================
+// ALTERNATIVE EXTRACTION METHODS
+// ============================================
+
+/**
+ * Try to extract JSON from code blocks or raw JSON
+ */
+function tryAlternativeJsonExtraction(response: string): StructuredItineraryData | null {
+  // Try markdown code block
+  const codeBlockMatch = response.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (codeBlockMatch) {
+    try {
+      const parsed = JSON.parse(codeBlockMatch[1].trim());
+      if (isValidItineraryResponse(parsed)) {
+        return transformLLMResponse(parsed);
+      }
+    } catch {
+      // Continue to next method
+    }
+  }
+
+  // Try to find raw JSON object
+  const jsonObjectMatch = response.match(/\{[\s\S]*"days"\s*:\s*\[[\s\S]*\][\s\S]*\}/);
+  if (jsonObjectMatch) {
+    try {
+      const parsed = JSON.parse(jsonObjectMatch[0]);
+      if (isValidItineraryResponse(parsed)) {
+        return transformLLMResponse(parsed);
+      }
+    } catch {
+      // Failed to parse
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Extract a fallback message when no TEXT markers found
+ */
+function extractFallbackMessage(response: string): string {
+  // If the response contains JSON, extract text before it
+  const jsonStart = response.indexOf("{");
+  if (jsonStart > 50) {
+    return response.substring(0, jsonStart).trim();
+  }
+
+  // If response is mostly JSON, generate a default message
+  if (response.trim().startsWith("{")) {
+    return "Here's your personalized itinerary! I've created options for each time slot so you can choose what works best for you.";
+  }
+
+  // Return the whole thing if it's short enough
+  if (response.length < 500) {
+    return response;
+  }
+
+  // Return first 500 chars
+  return response.substring(0, 500) + "...";
+}
+
+// ============================================
+// VALIDATION
+// ============================================
+
+/**
+ * Check if parsed JSON has the expected itinerary structure
+ */
+function isValidItineraryResponse(data: unknown): data is LLMItineraryResponse {
+  if (!data || typeof data !== "object") return false;
+
+  const obj = data as Record<string, unknown>;
+
+  // Must have destination and days array
+  if (typeof obj.destination !== "string") return false;
+  if (!Array.isArray(obj.days)) return false;
+  if (obj.days.length === 0) return false;
+
+  // Check first day structure
+  const firstDay = obj.days[0] as Record<string, unknown>;
+  if (typeof firstDay.dayNumber !== "number") return false;
+  if (!Array.isArray(firstDay.slots)) return false;
+
+  return true;
+}
+
+// ============================================
+// TRANSFORM LLM RESPONSE TO STRUCTURED DATA
+// ============================================
+
+/**
+ * Transform raw LLM response to our internal structured format
+ */
+function transformLLMResponse(raw: LLMItineraryResponse): StructuredItineraryData {
+  return {
+    destination: raw.destination,
+    country: raw.country,
+    days: raw.days.map(transformDay),
+    generalTips: raw.generalTips,
+    estimatedBudget: raw.estimatedBudget
+      ? {
+          total: raw.estimatedBudget.total,
+          currency: raw.estimatedBudget.currency,
+        }
+      : undefined,
+  };
+}
+
+function transformDay(day: LLMItineraryResponse["days"][0]): DayWithOptions {
+  return {
+    dayNumber: day.dayNumber,
+    date: day.date,
+    city: day.city,
+    title: day.title,
+    slots: day.slots.map(transformSlot),
+  };
+}
+
+function transformSlot(slot: LLMItineraryResponse["days"][0]["slots"][0]): SlotWithOptions {
+  return {
+    slotId: slot.slotId || generateSlotId(),
+    slotType: slot.slotType,
+    timeRange: slot.timeRange,
+    options: slot.options.map(transformOption),
+    selectedOptionId: null, // Nothing selected by default
+    commuteFromPrevious: undefined, // Will be calculated later
+  };
+}
+
+function transformOption(option: LLMItineraryResponse["days"][0]["slots"][0]["options"][0]): ActivityOption {
+  const place: PlaceData | null = option.activity.place
+    ? {
+        name: option.activity.place.name,
+        address: option.activity.place.address,
+        neighborhood: option.activity.place.neighborhood,
+        coordinates: option.activity.place.coordinates || { lat: 0, lng: 0 },
+      }
+    : null;
+
+  return {
+    id: option.id || generateOptionId(),
+    rank: option.rank,
+    score: option.score,
+    activity: {
+      name: option.activity.name,
+      description: option.activity.description,
+      category: option.activity.category,
+      duration: option.activity.duration,
+      place,
+      isFree: option.activity.isFree,
+      estimatedCost: option.activity.estimatedCost,
+      tags: option.activity.tags || [],
+      source: option.activity.source || "ai",
+    },
+    matchReasons: option.matchReasons || [],
+    tradeoffs: option.tradeoffs || [],
+  };
+}
+
+// ============================================
+// BUILD RESPONSE
+// ============================================
+
+function buildResponse(
+  message: string,
+  itinerary: StructuredItineraryData | null,
+  parseError: string | null
+): StructuredItineraryResponse {
+  const metadata = itinerary ? buildMetadata(itinerary) : buildEmptyMetadata();
+
+  return {
+    message,
+    itinerary,
+    metadata,
+    parseError: parseError || undefined,
+  };
+}
+
+function buildMetadata(itinerary: StructuredItineraryData): ItineraryResponseMetadata {
+  let totalSlots = 0;
+  let totalOptions = 0;
+  let hasPlaces = false;
+  let hasCommute = false;
+  let hasFoodPreferences = false;
+
+  for (const day of itinerary.days) {
+    for (const slot of day.slots) {
+      totalSlots++;
+      totalOptions += slot.options.length;
+
+      // Check for places
+      for (const option of slot.options) {
+        if (option.activity.place?.coordinates?.lat) {
+          hasPlaces = true;
+        }
+        if (option.dietaryMatch) {
+          hasFoodPreferences = true;
+        }
+      }
+
+      // Check for commute
+      if (slot.commuteFromPrevious) {
+        hasCommute = true;
+      }
+    }
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    hasPlaces,
+    hasCommute,
+    hasFoodPreferences,
+    totalDays: itinerary.days.length,
+    totalSlots,
+    totalOptions,
+  };
+}
+
+function buildEmptyMetadata(): ItineraryResponseMetadata {
+  return {
+    generatedAt: new Date().toISOString(),
+    hasPlaces: false,
+    hasCommute: false,
+    hasFoodPreferences: false,
+    totalDays: 0,
+    totalSlots: 0,
+    totalOptions: 0,
+  };
+}
+
+// ============================================
+// ID GENERATORS
+// ============================================
+
+function generateSlotId(): string {
+  return `slot-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+function generateOptionId(): string {
+  return `opt-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+// ============================================
+// UTILITY FUNCTIONS
+// ============================================
+
+/**
+ * Check if a response contains structured itinerary data
+ */
+export function hasStructuredItinerary(response: StructuredItineraryResponse): boolean {
+  return response.itinerary !== null && response.itinerary.days.length > 0;
+}
+
+/**
+ * Get total activity count across all options
+ */
+export function getTotalActivityCount(itinerary: StructuredItineraryData): number {
+  return itinerary.days.reduce((total, day) => {
+    return total + day.slots.reduce((slotTotal, slot) => {
+      return slotTotal + slot.options.length;
+    }, 0);
+  }, 0);
+}
+
+/**
+ * Get all unique categories from the itinerary
+ */
+export function getCategories(itinerary: StructuredItineraryData): string[] {
+  const categories = new Set<string>();
+
+  for (const day of itinerary.days) {
+    for (const slot of day.slots) {
+      for (const option of slot.options) {
+        categories.add(option.activity.category);
+      }
+    }
+  }
+
+  return Array.from(categories);
+}
+
+/**
+ * Get selected options or top-ranked options for each slot
+ */
+export function getSelectedOrTopOptions(itinerary: StructuredItineraryData): ActivityOption[] {
+  const options: ActivityOption[] = [];
+
+  for (const day of itinerary.days) {
+    for (const slot of day.slots) {
+      if (slot.selectedOptionId) {
+        const selected = slot.options.find((o) => o.id === slot.selectedOptionId);
+        if (selected) {
+          options.push(selected);
+          continue;
+        }
+      }
+      // Fall back to top-ranked option
+      const topRanked = slot.options.find((o) => o.rank === 1) || slot.options[0];
+      if (topRanked) {
+        options.push(topRanked);
+      }
+    }
+  }
+
+  return options;
+}
+
+/**
+ * Update a slot's selected option
+ */
+export function selectOption(
+  itinerary: StructuredItineraryData,
+  slotId: string,
+  optionId: string
+): StructuredItineraryData {
+  return {
+    ...itinerary,
+    days: itinerary.days.map((day) => ({
+      ...day,
+      slots: day.slots.map((slot) => {
+        if (slot.slotId === slotId) {
+          return { ...slot, selectedOptionId: optionId };
+        }
+        return slot;
+      }),
+    })),
+  };
+}

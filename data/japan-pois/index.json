@@ -1,0 +1,95 @@
+{
+  "tokyo": {
+    "file": "tokyo.json",
+    "count": 27942,
+    "categories": {
+      "temple": 2773,
+      "museum": 590,
+      "park": 6175,
+      "landmark": 3165,
+      "cafe": 2063,
+      "shrine": 1537,
+      "shopping": 311,
+      "restaurant": 11242,
+      "activity": 47,
+      "bar": 39
+    }
+  },
+  "kyoto": {
+    "file": "kyoto.json",
+    "count": 5877,
+    "categories": {
+      "restaurant": 1012,
+      "landmark": 2536,
+      "temple": 975,
+      "shrine": 319,
+      "museum": 147,
+      "cafe": 189,
+      "bar": 9,
+      "shopping": 35,
+      "park": 649,
+      "activity": 6
+    }
+  },
+  "osaka": {
+    "file": "osaka.json",
+    "count": 7557,
+    "categories": {
+      "landmark": 1551,
+      "cafe": 380,
+      "temple": 983,
+      "shopping": 123,
+      "restaurant": 2877,
+      "shrine": 283,
+      "museum": 125,
+      "activity": 4,
+      "park": 1225,
+      "bar": 6
+    }
+  },
+  "nara": {
+    "file": "nara.json",
+    "count": 971,
+    "categories": {
+      "temple": 152,
+      "restaurant": 183,
+      "shrine": 144,
+      "cafe": 41,
+      "museum": 44,
+      "landmark": 241,
+      "shopping": 12,
+      "park": 153,
+      "activity": 1
+    }
+  },
+  "hiroshima": {
+    "file": "hiroshima.json",
+    "count": 1202,
+    "categories": {
+      "shopping": 26,
+      "restaurant": 291,
+      "temple": 198,
+      "museum": 30,
+      "landmark": 249,
+      "shrine": 114,
+      "cafe": 40,
+      "bar": 3,
+      "park": 250,
+      "activity": 1
+    }
+  },
+  "hakone": {
+    "file": "hakone.json",
+    "count": 394,
+    "categories": {
+      "landmark": 113,
+      "museum": 30,
+      "activity": 2,
+      "restaurant": 41,
+      "shrine": 36,
+      "cafe": 2,
+      "temple": 77,
+      "park": 93
+    }
+  }
+}

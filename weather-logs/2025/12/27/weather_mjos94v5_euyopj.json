@@ -1,0 +1,68 @@
+{
+  "id": "weather_mjos94v5_euyopj",
+  "timestamp": "2025-12-27T20:58:38.177Z",
+  "type": "current",
+  "request": {
+    "endpoint": "https://api.openweathermap.org/data/2.5/weather",
+    "params": {
+      "lat": "35.6762",
+      "lon": "139.6503",
+      "units": "metric",
+      "appid": "1445b6a2973bc150d17446b318bf9f94"
+    },
+    "lat": 35.6762,
+    "lon": 139.6503
+  },
+  "response": {
+    "data": {
+      "coord": {
+        "lon": 139.6503,
+        "lat": 35.6762
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 2.25,
+        "feels_like": -0.42,
+        "temp_min": 0.4,
+        "temp_max": 2.59,
+        "pressure": 1020,
+        "humidity": 58,
+        "sea_level": 1020,
+        "grnd_level": 1017
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.57,
+        "deg": 290
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1766869118,
+      "sys": {
+        "type": 2,
+        "id": 268395,
+        "country": "JP",
+        "sunrise": 1766872201,
+        "sunset": 1766907319
+      },
+      "timezone": 32400,
+      "id": 1862143,
+      "name": "Horinouchi",
+      "cod": 200
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 72,
+    "success": true
+  }
+}

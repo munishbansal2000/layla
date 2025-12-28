@@ -1,0 +1,36 @@
+{
+  "total_entries": 4,
+  "last_updated": "2025-12-28T17:56:29.284Z",
+  "cache_hits": 8878,
+  "entries": [
+    {
+      "id": "weather_mjq16qqp_vuf127",
+      "timestamp": "2025-12-28T17:56:29.281Z",
+      "type": "forecast",
+      "cacheKey": "forecast:48.86:2.32",
+      "success": true
+    },
+    {
+      "id": "weather_mjq16qp0_4qpg2t",
+      "timestamp": "2025-12-28T17:56:29.220Z",
+      "type": "current",
+      "cacheKey": "current:48.86:2.32",
+      "success": true
+    },
+    {
+      "id": "weather_mjq16qnv_b3bt4r",
+      "timestamp": "2025-12-28T17:56:29.179Z",
+      "type": "geocode",
+      "city": "Paris",
+      "cacheKey": "geocode:paris:france",
+      "success": true
+    },
+    {
+      "id": "weather_mjos94v5_euyopj",
+      "timestamp": "2025-12-27T20:58:38.177Z",
+      "type": "current",
+      "cacheKey": "current:35.68:139.65",
+      "success": true
+    }
+  ]
+}

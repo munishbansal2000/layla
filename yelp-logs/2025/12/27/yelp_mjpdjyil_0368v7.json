@@ -1,0 +1,529 @@
+{
+  "id": "yelp_mjpdjyil_0368v7",
+  "timestamp": "2025-12-28T06:54:55.101Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Katsuya",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "6ygQnrDEicR8aVEOBoSC1g",
+          "alias": "かつや-新宿南口店-新宿区",
+          "name": "Katsuya Shinjuku Minamiguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/CBKRG5EVUDMrSmHcTm_SSA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84-%E6%96%B0%E5%AE%BF%E5%8D%97%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 4,
+          "categories": [
+            {
+              "alias": "westernjapanese",
+              "title": "Western Style Japanese Food"
+            },
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.6883041200806,
+            "longitude": 139.697630027077
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "西新宿1-19-4",
+            "address2": "山本ビル1階",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0023",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "西新宿1-19-4",
+              "山本ビル1階",
+              "Shinjuku, 東京都 〒160-0023",
+              "Japan"
+            ]
+          },
+          "phone": "+81363020670",
+          "display_phone": "+81 3-6302-0670",
+          "distance": 2570.183563562397,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "FrF1dzG55pOL3z-ijHqbSQ",
+          "alias": "かつや渋谷宮益坂店-渋谷区",
+          "name": "Katsuya Shibuya Miyamasuzaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/6jpP2cCU2Ih4uMivOoSz6g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84%E6%B8%8B%E8%B0%B7%E5%AE%AE%E7%9B%8A%E5%9D%82%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            }
+          ],
+          "rating": 3.7,
+          "coordinates": {
+            "latitude": 35.659807514886,
+            "longitude": 139.702867191798
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "渋谷1丁目14-9",
+            "address2": null,
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0002",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "渋谷1丁目14-9",
+              "Shibuya, 東京都 〒150-0002",
+              "Japan"
+            ]
+          },
+          "phone": "+81354686681",
+          "display_phone": "+81 3-5468-6681",
+          "distance": 1310.3801603864208,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0700",
+                  "end": "0200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0700",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0700",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0700",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0700",
+                  "end": "0200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0700",
+                  "end": "0200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "WVXcdeRZlrkfZD1M6fMCsw",
+          "alias": "かつや-新宿西口店-新宿区",
+          "name": "Katsuya Shinjuku Nishiguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0CIrcd15oiNg0inio5T6Cw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84-%E6%96%B0%E5%AE%BF%E8%A5%BF%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6933433912137,
+            "longitude": 139.699344391043
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "西新宿1-2-12",
+            "address2": "",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0023",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "西新宿1-2-12",
+              "Shinjuku, 東京都 〒160-0023",
+              "Japan"
+            ]
+          },
+          "phone": "+81353219150",
+          "display_phone": "+81 3-5321-9150",
+          "distance": 3151.464169723388,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "HWTlQFAD9LmwR439285dRw",
+          "alias": "かつや浅草店-台東区",
+          "name": "KATSUYA Asakusa",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/X43WV0dIIqUBNdomt-zafQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84%E6%B5%85%E8%8D%89%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 17,
+          "categories": [
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.714551,
+            "longitude": 139.793269
+          },
+          "transactions": [],
+          "location": {
+            "address1": "浅草2-9-14",
+            "address2": "大番会館1Ｆ",
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "111-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "浅草2-9-14",
+              "大番会館1Ｆ",
+              "Taitō, 東京都 〒111-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81358271441",
+          "display_phone": "+81 3-5827-1441",
+          "distance": 10742.745146423265,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "7aL_zH4qrooqiHIotKYuWA",
+          "alias": "かつや-秋葉原店-千代田区",
+          "name": "Katsuya Akihabara",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0Cn7oogcvZ0A6naCeDqQyg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84-%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "cafeteria",
+              "title": "Cafeteria"
+            },
+            {
+              "alias": "canteen",
+              "title": "Canteen"
+            },
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.69867,
+            "longitude": 139.770711
+          },
+          "transactions": [],
+          "location": {
+            "address1": "外神田1-4-11",
+            "address2": "",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "101-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "外神田1-4-11",
+              "Chiyoda, 東京都 〒101-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81352977115",
+          "display_phone": "+81 3-5297-7115",
+          "distance": 8109.746146544998,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 17,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 507,
+    "success": true
+  }
+}

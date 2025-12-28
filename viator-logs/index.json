@@ -1,0 +1,134 @@
+{
+  "total_entries": 16,
+  "last_updated": "2025-12-27T22:30:45.622Z",
+  "entries": [
+    {
+      "id": "viator_mjovjlv1_0fodwv",
+      "timestamp": "2025-12-27T22:30:45.613Z",
+      "type": "search",
+      "preview": "Search: Tokyo (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":30,\"destId\":334,\"destName\":\"Tokyo\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12066,12065]}"
+    },
+    {
+      "id": "viator_mjouw4x4_qfzrgk",
+      "timestamp": "2025-12-27T22:12:30.568Z",
+      "type": "search",
+      "preview": "Search: Tokyo Sounds Fantastic (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":30,\"destId\":334,\"destName\":\"Tokyo Sounds Fantastic\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12066,12065]}"
+    },
+    {
+      "id": "viator_mjotwgld_zgkfhj",
+      "timestamp": "2025-12-27T21:44:46.081Z",
+      "type": "search",
+      "preview": "Search: Paris (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":30,\"destId\":479,\"destName\":\"Paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12062,12062,12066,12066,12065,12065,11901]}"
+    },
+    {
+      "id": "viator_mjnji57y_izo751",
+      "timestamp": "2025-12-27T00:05:55.822Z",
+      "type": "search",
+      "preview": "Search: paris (823 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":479,\"destName\":\"paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[11889]}"
+    },
+    {
+      "id": "viator_mjnji34y_dsmxw1",
+      "timestamp": "2025-12-27T00:05:53.122Z",
+      "type": "search",
+      "preview": "Search: paris (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":479,\"destName\":\"paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[11894]}"
+    },
+    {
+      "id": "viator_mjnipmhb_rlmkmz",
+      "timestamp": "2025-12-26T23:43:45.167Z",
+      "type": "search",
+      "preview": "Search: Paris (4527 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":5,\"destId\":479,\"destName\":\"Paris\",\"sortOrder\":\"TRAVELER_RATING\"}"
+    },
+    {
+      "id": "viator_mjnionh1_kobvpo",
+      "timestamp": "2025-12-26T23:42:59.797Z",
+      "type": "search",
+      "preview": "Search: Paris (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":30,\"destId\":479,\"destName\":\"Paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12062,12066,12065,11917]}"
+    },
+    {
+      "id": "viator_mjnijxme_ok8x03",
+      "timestamp": "2025-12-26T23:39:19.670Z",
+      "type": "destinations",
+      "preview": "Destinations: To a local market",
+      "success": false,
+      "cacheKey": "destinations:{\"query\":\"To a local market\"}"
+    },
+    {
+      "id": "viator_mjnijqe2_2wpb3m",
+      "timestamp": "2025-12-26T23:39:10.298Z",
+      "type": "search",
+      "preview": "Search: Paris (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":30,\"destId\":479,\"destName\":\"Paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12065,12065,12062,12062,12066,12066]}"
+    },
+    {
+      "id": "viator_mjnif3wr_wvjy4s",
+      "timestamp": "2025-12-26T23:35:34.539Z",
+      "type": "search",
+      "preview": "Search: Paris (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":30,\"destId\":479,\"destName\":\"Paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12066,12066,12065,12065,12062,12062]}"
+    },
+    {
+      "id": "viator_mjnidcs4_llt9a8",
+      "timestamp": "2025-12-26T23:34:12.724Z",
+      "type": "search",
+      "preview": "Search: paris (20 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":479,\"destName\":\"paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12066]}"
+    },
+    {
+      "id": "viator_mjnidb64_40jq6i",
+      "timestamp": "2025-12-26T23:34:10.636Z",
+      "type": "search",
+      "preview": "Search: paris (0 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":479,\"destName\":\"paris\",\"sortOrder\":\"TRAVELER_RATING\",\"tags\":[12065]}"
+    },
+    {
+      "id": "viator_mjnicntw_6px4it",
+      "timestamp": "2025-12-26T23:33:40.388Z",
+      "type": "search",
+      "preview": "Search: paris (4527 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":479,\"destName\":\"paris\",\"sortOrder\":\"TRAVELER_RATING\"}"
+    },
+    {
+      "id": "viator_mjni75gm_9zrcto",
+      "timestamp": "2025-12-26T23:29:23.302Z",
+      "type": "search",
+      "preview": "Search: paris (1281 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":684,\"destName\":\"paris\",\"sortOrder\":\"TRAVELER_RATING\"}"
+    },
+    {
+      "id": "viator_mjni5se3_0f8i12",
+      "timestamp": "2025-12-26T23:28:19.707Z",
+      "type": "search",
+      "preview": "Search: paris (0 results)",
+      "success": false,
+      "cacheKey": "search:{\"count\":20,\"destId\":684,\"destName\":\"paris\",\"sortOrder\":\"RECOMMENDED\"}"
+    },
+    {
+      "id": "viator_mjni1r2o_0irpxg",
+      "timestamp": "2025-12-26T23:25:11.377Z",
+      "type": "destinations",
+      "preview": "Destinations: paris",
+      "success": false,
+      "cacheKey": "destinations:{\"query\":\"paris\"}"
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "id": "yelp_mjpdjxmb_a4vuon",
+  "timestamp": "2025-12-28T06:54:53.939Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Kushikatsu Tanaka",
+      "location": "Shinjuku, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shinjuku, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "a5oLLi8emBGikedGe5CARA",
+          "alias": "串カツ田中-渋谷桜ヶ丘店-渋谷区",
+          "name": "Kushikatsu tanaka　Shibuyasakuragaokaten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/xsWLc-ANu22aeVUw0kRG6w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E6%B8%8B%E8%B0%B7%E6%A1%9C%E3%83%B6%E4%B8%98%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.6556587219238,
+            "longitude": 139.703201293945
+          },
+          "transactions": [],
+          "location": {
+            "address1": "桜丘4-2",
+            "address2": "",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0031",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "桜丘4-2",
+              "Shibuya, 東京都 〒150-0031",
+              "Japan"
+            ]
+          },
+          "phone": "+81364169125",
+          "display_phone": "+81 3-6416-9125",
+          "distance": 5215.023711986751,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1600",
+                  "end": "0130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1600",
+                  "end": "0130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://kushi-tanaka.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "bBS1EQfS8bVypgjRiuSJhA",
+          "alias": "串カツ田中-新宿三丁目店-新宿区",
+          "name": "Kushikatsutanaka Shinjuku Sanchome",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/v93I6IXEMj70p70pPdSP7g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E6%96%B0%E5%AE%BF%E4%B8%89%E4%B8%81%E7%9B%AE%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6918411254883,
+            "longitude": 139.706039428711
+          },
+          "transactions": [],
+          "location": {
+            "address1": "新宿3-12-4",
+            "address2": "",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0022",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "新宿3-12-4",
+              "Shinjuku, 東京都 〒160-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+81362748594",
+          "display_phone": "+81 3-6274-8594",
+          "distance": 1257.4393128659449,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1600",
+                  "end": "0200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1600",
+                  "end": "0200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://kushi-tanaka.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "j8T0uMsQyAK8eT9oIrvrIw",
+          "alias": "串カツ田中-江古田店-練馬区-2",
+          "name": "Kushikatsu Tanaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/wFShZnIfirkyYEw_oFDzPg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E6%B1%9F%E5%8F%A4%E7%94%B0%E5%BA%97-%E7%B7%B4%E9%A6%AC%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.7383041381836,
+            "longitude": 139.670455932617
+          },
+          "transactions": [],
+          "location": {
+            "address1": "栄町27-7",
+            "address2": "",
+            "address3": "",
+            "city": "Nerima",
+            "zip_code": "176-0006",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "栄町27-7",
+              "Nerima, 東京都 〒176-0006",
+              "Japan"
+            ]
+          },
+          "phone": "+81369149444",
+          "display_phone": "+81 3-6914-9444",
+          "distance": 5568.298593157881,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1400",
+                  "end": "0200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1400",
+                  "end": "0100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "aqB2Qbnd_jh6ZNlZeGQo8g",
+          "alias": "串カツ田中-銀座店-中央区",
+          "name": "Kushikatsu Tanaka Ginza",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/5PjUlHkZG5KzuRSsC3tTDQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "takoyaki",
+              "title": "Takoyaki"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.672119140625,
+            "longitude": 139.770797729492
+          },
+          "transactions": [],
+          "location": {
+            "address1": "銀座7-3-13",
+            "address2": "",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座7-3-13",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81362645094",
+          "display_phone": "+81 3-6264-5094",
+          "distance": 5557.725400597703,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1200",
+                  "end": "0100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1200",
+                  "end": "0100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "nfVva_5KwqeVsR6h3reAoA",
+          "alias": "串カツ田中-新宿歌舞伎町店-新宿区",
+          "name": "Kushikatsu Tanaka Shinjukukabukichō",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Y56f8LRxruW8YpyqQM7sHA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E6%96%B0%E5%AE%BF%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 35.6939993674313,
+            "longitude": 139.702583990981
+          },
+          "transactions": [],
+          "location": {
+            "address1": "歌舞伎町1-15-13",
+            "address2": "",
+            "address3": null,
+            "city": "Shinjuku",
+            "zip_code": "160-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "歌舞伎町1-15-13",
+              "Shinjuku, 東京都 〒160-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81362738498",
+          "display_phone": "+81 3-6273-8498",
+          "distance": 1273.785884067781,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0600",
+                  "end": "0700",
+                  "day": 6
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0600",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 14,
+      "region": {
+        "center": {
+          "longitude": 139.7127914428711,
+          "latitude": 35.701905765117345
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1173,
+    "success": true
+  }
+}

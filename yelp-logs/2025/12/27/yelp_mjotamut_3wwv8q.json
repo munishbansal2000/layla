@@ -1,0 +1,577 @@
+{
+  "id": "yelp_mjotamut_3wwv8q",
+  "timestamp": "2025-12-27T21:27:47.765Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "location": "Paris, France",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "rating",
+      "price": "3"
+    },
+    "location": "Paris, France"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "MUCIZ8uJfiyKi_2KbVZSUg",
+          "alias": "les-trublions-paris",
+          "name": "Les Trublions",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/54Lou_ccp8l1SJtzJZjhSA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/les-trublions-paris?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "french",
+              "title": "French"
+            },
+            {
+              "alias": "modern_european",
+              "title": "Modern European"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 48.8480186,
+            "longitude": 2.34846
+          },
+          "transactions": [],
+          "price": "€€€",
+          "location": {
+            "address1": "34 rue de la Montagne Sainte Geneviève",
+            "address2": "",
+            "address3": "",
+            "city": "Paris",
+            "zip_code": "75005",
+            "country": "FR",
+            "state": "75",
+            "display_address": [
+              "34 rue de la Montagne Sainte Geneviève",
+              "75005 Paris",
+              "France"
+            ]
+          },
+          "phone": "+33142028783",
+          "display_phone": "+33 1 42 02 87 83",
+          "distance": 1614.1418579118942,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2330",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "r5hIJbPCB2Q0_sw1EBS4Zw",
+          "alias": "mr-t-paris",
+          "name": "Mr. T",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/HgY1KrRSJkLVnbXFSUIY4g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/mr-t-paris?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "burgers",
+              "title": "Burgers"
+            },
+            {
+              "alias": "cocktailbars",
+              "title": "Cocktail Bars"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 48.86269,
+            "longitude": 2.3636499
+          },
+          "transactions": [],
+          "price": "€€€",
+          "location": {
+            "address1": "38 rue de Saintonge",
+            "address2": "",
+            "address3": null,
+            "city": "Paris",
+            "zip_code": "75003",
+            "country": "FR",
+            "state": "75",
+            "display_address": [
+              "38 rue de Saintonge",
+              "75003 Paris",
+              "France"
+            ]
+          },
+          "phone": "+33142711534",
+          "display_phone": "+33 1 42 71 15 34",
+          "distance": 1579.8613290843853,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "Yhv2RTggtsKmd5otco_XTw",
+          "alias": "tradi-paris",
+          "name": "Tradi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/8IN1wtYTk_nApyx05dJtWg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/tradi-paris?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 15,
+          "categories": [
+            {
+              "alias": "bistros",
+              "title": "Bistros"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 48.86635,
+            "longitude": 2.34158
+          },
+          "transactions": [],
+          "price": "€€€",
+          "location": {
+            "address1": "4 rue du Mail",
+            "address2": "",
+            "address3": "",
+            "city": "Paris",
+            "zip_code": "75002",
+            "country": "FR",
+            "state": "75",
+            "display_address": [
+              "4 rue du Mail",
+              "75002 Paris",
+              "France"
+            ]
+          },
+          "phone": "+33144820783",
+          "display_phone": "+33 1 44 82 07 83",
+          "distance": 483.4838939376054,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1900",
+                  "end": "0200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1900",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1900",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1900",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1900",
+                  "end": "0200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1900",
+                  "end": "0200",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.tradi.paris/menu",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "7O17125BuwZOv02DV1nY_w",
+          "alias": "la-haute-cloche-paris",
+          "name": "La Haute Cloche",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ZTY_Fw0TUp6GZVSlIiu72w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/la-haute-cloche-paris?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "bistros",
+              "title": "Bistros"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 48.86941,
+            "longitude": 2.30008
+          },
+          "transactions": [],
+          "price": "€€€",
+          "location": {
+            "address1": "13 rue Quentin-Bauchart",
+            "address2": null,
+            "address3": "",
+            "city": "Paris",
+            "zip_code": "75008",
+            "country": "FR",
+            "state": "75",
+            "display_address": [
+              "13 rue Quentin-Bauchart",
+              "75008 Paris",
+              "France"
+            ]
+          },
+          "phone": "+33181298972",
+          "display_phone": "+33 1 81 29 89 72",
+          "distance": 3197.390077333094,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 4
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.lahautecloche.fr/#!ardoise-du-jour/kwok2",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "ASen2utCctS6YWluJAJbPA",
+          "alias": "le-chanard-paris",
+          "name": "Le Chanard",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LXDLAkLP3RAxEp4mnMfzMA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/le-chanard-paris?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 8,
+          "categories": [
+            {
+              "alias": "wine_bars",
+              "title": "Wine Bars"
+            },
+            {
+              "alias": "bistros",
+              "title": "Bistros"
+            },
+            {
+              "alias": "cocktailbars",
+              "title": "Cocktail Bars"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 48.8530299,
+            "longitude": 2.36129
+          },
+          "transactions": [],
+          "price": "€€€",
+          "location": {
+            "address1": "8 rue Saint-Paul",
+            "address2": "",
+            "address3": "",
+            "city": "Paris",
+            "zip_code": "75004",
+            "country": "FR",
+            "state": "75",
+            "display_address": [
+              "8 rue Saint-Paul",
+              "75004 Paris",
+              "France"
+            ]
+          },
+          "phone": "+33148047589",
+          "display_phone": "+33 1 48 04 75 89",
+          "distance": 1717.528101019377,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1900",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1900",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 2300,
+      "region": {
+        "center": {
+          "longitude": 2.3421478271484375,
+          "latitude": 48.86195860677958
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 676,
+    "success": true
+  }
+}

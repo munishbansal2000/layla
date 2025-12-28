@@ -1,0 +1,708 @@
+{
+  "data": {
+    "Q11408660": {
+      "wikidataId": "Q11408660",
+      "name": "Nanto Kagami Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.84596,
+        "lat": 34.67537
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nanto%20Kagami%20jinja%202015.jpg",
+      "website": "https://nantokagamijinjya.org/profile_english.html"
+    },
+    "Q11443184": {
+      "wikidataId": "Q11443184",
+      "name": "Amanoiwatate Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.959422,
+        "lat": 34.726708
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amanoiwatate-jinja05s5s3200.jpg"
+    },
+    "Q11635898": {
+      "wikidataId": "Q11635898",
+      "name": "Akabo Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.84265,
+        "lat": 34.676902
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Akoh%20Shrine1.jpg",
+      "website": "https://nantokagamijinjya.org/profile_akabo.html"
+    },
+    "Q22117766": {
+      "wikidataId": "Q22117766",
+      "name": "Asuka Shrine",
+      "description": "shrine in Nara, Nara",
+      "coordinates": {
+        "lng": 135.829166666,
+        "lat": 34.672527777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nara%20Kyobate%20Temjin%20Honden1.jpg"
+    },
+    "Q22117841": {
+      "wikidataId": "Q22117841",
+      "name": "Igami Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.831222222,
+        "lat": 34.673777777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nara%20Igami%20Shrine.jpg"
+    },
+    "Q22117854": {
+      "wikidataId": "Q22117854",
+      "name": "Isagawa Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.825727,
+        "lat": 34.681305
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Isagawa-jinja%2C%20shaden%2C%20Nara.jpg",
+      "website": "https://isagawa-jinja.jp/"
+    },
+    "Q22118013": {
+      "wikidataId": "Q22118013",
+      "name": "Uneme Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.830219911,
+        "lat": 34.681846784
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Uneme%20Jinja%20in%20Nara.jpg"
+    },
+    "Q22118280": {
+      "wikidataId": "Q22118280",
+      "name": "Kasuga Wakamiya-sha",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.830444444,
+        "lat": 34.672138888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nara%20Kainaduka%20KasugaWakamiya.jpg"
+    },
+    "Q22118604": {
+      "wikidataId": "Q22118604",
+      "name": "Kunugi Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.830547222,
+        "lat": 34.670683333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%A4%9A%E7%A5%9E%E7%A4%BE%E3%80%81%E5%A5%88%E8%89%AF%E3%80%81%E4%BA%AC%E7%B5%82%E5%9C%B0%E5%8C%BA.JPG"
+    },
+    "Q22118758": {
+      "wikidataId": "Q22118758",
+      "name": "Goryō Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.830880555,
+        "lat": 34.676225
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/20160801%20Goryo-jinja.jpg",
+      "website": "https://naramachigoryojinja.amebaownd.com/"
+    },
+    "Q22118895": {
+      "wikidataId": "Q22118895",
+      "name": "Sarutahiko Shrine",
+      "description": "shrine in Nara, Nara",
+      "coordinates": {
+        "lng": 135.83057,
+        "lat": 34.67968
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Douso%20Jinja%20In%20Nara.jpg"
+    },
+    "Q22119125": {
+      "wikidataId": "Q22119125",
+      "name": "Sumiyoshi Shrine",
+      "description": "shrine in Shōnamichō, Nara",
+      "coordinates": {
+        "lng": 135.830638888,
+        "lat": 34.678888888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sumiyoshi%20Shrine%20Nara.jpg"
+    },
+    "Q22119325": {
+      "wikidataId": "Q22119325",
+      "name": "Tajikarao Shrine",
+      "description": "shrine in Hashimotochō, Nara",
+      "coordinates": {
+        "lng": 135.82937,
+        "lat": 34.6821
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tajikarao%20Jinja%20In%20Nara.JPG"
+    },
+    "Q22119427": {
+      "wikidataId": "Q22119427",
+      "name": "Tsukihi Shrine",
+      "description": "shrine in Shimosanjōchō, Nara",
+      "coordinates": {
+        "lng": 135.8232,
+        "lat": 34.68189
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsukihi%20Jinja%20Nara.jpg"
+    },
+    "Q22119448": {
+      "wikidataId": "Q22119448",
+      "name": "Tsuge Mikumari Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.947285,
+        "lat": 34.597358
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuge%20Mikumari%20Jinja%20Shaden.jpg"
+    },
+    "Q22119505": {
+      "wikidataId": "Q22119505",
+      "name": "Tenjin-sha",
+      "description": "Shinto shrine in Takabatake-cho, Nara-shi, Japan",
+      "coordinates": {
+        "lng": 135.837,
+        "lat": 34.67841
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Naramachi%20Tenjin%20SouthGate.JPG"
+    },
+    "Q22120034": {
+      "wikidataId": "Q22120034",
+      "name": "Hayabusa Shrine",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.8276389,
+        "lat": 34.681775
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hayabusa%20Jinja%20Nara.jpg"
+    },
+    "Q22120674": {
+      "wikidataId": "Q22120674",
+      "name": "Yake Kasuga Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.847138888,
+        "lat": 34.671722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nara%20YakeKasuga%20Entrance.jpg"
+    },
+    "Q22120676": {
+      "wikidataId": "Q22120676",
+      "name": "Yasaka Shrine",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.835025,
+        "lat": 34.6889444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasaka%20Shrine%20Nara%20Honden.jpg"
+    },
+    "Q22120767": {
+      "wikidataId": "Q22120767",
+      "name": "Yūga Shrine",
+      "description": "shrine in Takabatakechō, Nara",
+      "coordinates": {
+        "lng": 135.835694444,
+        "lat": 34.678916666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yuga-jinja%2020141001.jpg"
+    },
+    "Q24876134": {
+      "wikidataId": "Q24876134",
+      "name": "Shimada Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.845647,
+        "lat": 34.647556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimada%20Shrine%20Nara%20Keidai%202.jpg"
+    },
+    "Q24899217": {
+      "wikidataId": "Q24899217",
+      "name": "Takahashi Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.802139,
+        "lat": 34.668028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takahashi%20jinja%20torii.JPG"
+    },
+    "Q28683716": {
+      "wikidataId": "Q28683716",
+      "name": "Chintakureifu Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.82822,
+        "lat": 34.67737
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chintakureifu-jinja%20201608.jpg"
+    },
+    "Q38279392": {
+      "wikidataId": "Q38279392",
+      "name": "Sō no Miagata Niimasu Shrine",
+      "description": "Shinto shrine in Mitsugarasu, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.739444444,
+        "lat": 34.687555555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B7%BB%E5%BE%A1%E7%9C%8C%E5%9D%90%E7%A5%9E%E7%A4%BE%20%28%E5%A5%88%E8%89%AF%E5%B8%82%E4%B8%89%E7%A2%93%E7%94%BA%29%20-%20DITRf35VwAANbB9.jpg"
+    },
+    "Q43594837": {
+      "wikidataId": "Q43594837",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.817444,
+        "lat": 34.650417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Haiden%20in%20Hakusan%20Shrine%20%28Kitanosho-cho%2C%20Nara%29.jpg"
+    },
+    "Q48754595": {
+      "wikidataId": "Q48754595",
+      "name": "Sugawara Shrine",
+      "description": "shrine in Higashikujō, Nara",
+      "coordinates": {
+        "lng": 135.810992,
+        "lat": 34.661036
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sugawara%20Shrine%20%28HigashiKujo-cho%2C%20Nara%29.jpg"
+    },
+    "Q48754640": {
+      "wikidataId": "Q48754640",
+      "name": "Shizuri Shrine",
+      "description": "Shinto shrine in Saikujō-chō, Nara, Nara prefcture, Japan",
+      "coordinates": {
+        "lng": 135.804583333,
+        "lat": 34.656805555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Honden%20of%20Shizuri%20Shrine%20%28NishiKujo-cho%202%2C%20Nara%29.jpg"
+    },
+    "Q48754781": {
+      "wikidataId": "Q48754781",
+      "name": "Tatsuichi Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.802888888,
+        "lat": 34.658944444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Honden%20of%20Tatsuichi%20Shrine%20%28Karamomo-cho%2C%20Nara%29.jpg"
+    },
+    "Q48754918": {
+      "wikidataId": "Q48754918",
+      "name": "Kotai Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.7792028,
+        "lat": 34.6791806
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kotai%20Jinja%20%28Hiramatsu-cho%2C%20NARA%29.jpg"
+    },
+    "Q48755963": {
+      "wikidataId": "Q48755963",
+      "name": "Kasuga Shrine",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.805138888,
+        "lat": 34.692555555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga%20Jinja%20Honden%20%28Hokke-cho%2C%20NARA%29.jpg"
+    },
+    "Q48757057": {
+      "wikidataId": "Q48757057",
+      "name": "Daishōgun Shrine (Nara City)",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.7953194,
+        "lat": 34.6811333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daishogun%20Jinja%20%28Nara%29%20Torii.jpg"
+    },
+    "Q48757091": {
+      "wikidataId": "Q48757091",
+      "name": "Kashiwagi-tenmangū",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.797842,
+        "lat": 34.675322
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kashiwagi%20Tenmangu%20Nara.jpg"
+    },
+    "Q48757104": {
+      "wikidataId": "Q48757104",
+      "name": "Mizukagami Tenjinsha",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.786833,
+        "lat": 34.675433
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mizukagami%20Tenjinsha%20Honden.jpg"
+    },
+    "Q48757542": {
+      "wikidataId": "Q48757542",
+      "name": "Kai Tenmangu",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.786305555,
+        "lat": 34.667694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kai%20Tenmangu%20Nara.jpg"
+    },
+    "Q48757552": {
+      "wikidataId": "Q48757552",
+      "name": "Sainami Tenjinsha",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.780805555,
+        "lat": 34.668194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nishinami%20Tenjinsha%20Nara.jpg"
+    },
+    "Q48757903": {
+      "wikidataId": "Q48757903",
+      "name": "Hidachi Shrine",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.8185972,
+        "lat": 34.6954972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hidachi%20Jinja%20Nara%20Haiden.jpg"
+    },
+    "Q48761131": {
+      "wikidataId": "Q48761131",
+      "name": "Isagawa Shrine",
+      "description": "Shinto shrine in Nishinoshin'yachō, Japan",
+      "coordinates": {
+        "lng": 135.830083333,
+        "lat": 34.676305555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Isagawa%20Shrine%20%28NishiShinya-cho%29%20Nara%20Gate.jpg"
+    },
+    "Q48761897": {
+      "wikidataId": "Q48761897",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Gangōji-chō, Japan",
+      "coordinates": {
+        "lng": 135.82975,
+        "lat": 34.675916666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hakusan%20Shrine%20%28Gangouji-cho%29%20Nara%20Keidai.jpg"
+    },
+    "Q48762976": {
+      "wikidataId": "Q48762976",
+      "name": "Kotai Shrine",
+      "description": "Shinto shrine in Nara, Japan",
+      "coordinates": {
+        "lng": 135.7932028,
+        "lat": 34.6793361
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kotai%20Jinja%20%28Shijo%2C%20Nara%29.jpg"
+    },
+    "Q55537244": {
+      "wikidataId": "Q55537244",
+      "name": "Sumiyoshi Shrine",
+      "description": "shrine in Nara, Nara",
+      "coordinates": {
+        "lng": 135.823583333,
+        "lat": 34.682777777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sumiyoshi%20Shrine%20%28Imazushi-cho%2C%20Nara%29%2001.jpg"
+    },
+    "Q55537250": {
+      "wikidataId": "Q55537250",
+      "name": "Katsute Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.824,
+        "lat": 34.684583333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Katte%20Shrine%20%28Aburasaka-cho%2C%20Nara%29.jpg"
+    },
+    "Q56346760": {
+      "wikidataId": "Q56346760",
+      "name": "Saki Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.792602,
+        "lat": 34.695612
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saki%20Shrine%20%28Nara%2C%20Kamehata%29%20Torii.jpg"
+    },
+    "Q56346769": {
+      "wikidataId": "Q56346769",
+      "name": "Saki Shrine",
+      "description": "A candidate shrine for Sakino shrine",
+      "coordinates": {
+        "lng": 135.791013,
+        "lat": 34.69596
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saki%20Shrine%20%28Nara%2C%20Nishihata%29%20Torii.jpg"
+    },
+    "Q59282579": {
+      "wikidataId": "Q59282579",
+      "name": "Tsuge-yamaguchi Shrine",
+      "description": "Shinto shrine in Tsuge-Oyamato chō, Nara, Nara, Japan",
+      "coordinates": {
+        "lng": 135.946066,
+        "lat": 34.579898
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuge%20Yamaguchi%20Jinja%20Haiden.jpg"
+    },
+    "Q85878725": {
+      "wikidataId": "Q85878725",
+      "name": "Yamato-no-kuni Kashima Katori Hongū",
+      "description": "shinto shrine in Naka-machi, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.747805555,
+        "lat": 34.678388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E5%92%8C%E5%9B%BD%E9%B9%BF%E5%B3%B6%E6%9C%AC%E5%AE%AE.jpg",
+      "website": "http://kashima-katori.com/"
+    },
+    "Q110392976": {
+      "wikidataId": "Q110392976",
+      "name": "古都奈良かんざし美術館",
+      "description": "museum in Japan",
+      "coordinates": {
+        "lng": 135.824312,
+        "lat": 34.684162
+      },
+      "website": "https://art-museum-201.business.site/"
+    },
+    "Q112199145": {
+      "wikidataId": "Q112199145",
+      "name": "Misome Shrine",
+      "description": "Shinto shrine in Nara City",
+      "coordinates": {
+        "lng": 135.827103,
+        "lat": 34.684575
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Misome%20Shrine%2C%20Nara%20-%20Honden%202.jpg"
+    },
+    "Q116909162": {
+      "wikidataId": "Q116909162",
+      "name": "Yamagami Hachiman Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.789388888,
+        "lat": 34.698222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamagami%20Hachiman%20Nara%20Torii.jpg"
+    },
+    "Q117844411": {
+      "wikidataId": "Q117844411",
+      "name": "Yagyū no Tokusei Hibun",
+      "description": "日本の石碑文",
+      "coordinates": {
+        "lng": 135.952888888,
+        "lat": 34.724666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nara%20Yagyu%20Hoso%20Jizo%20Tokusei-Hibun%2020140902.jpg"
+    },
+    "Q122312989": {
+      "wikidataId": "Q122312989",
+      "name": "Ōta-daimyōjin",
+      "description": "shrine in Nara",
+      "coordinates": {
+        "lng": 135.82171,
+        "lat": 34.68643
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ota%20Daimyojin%20Shrine%20Nara%2001.jpg"
+    },
+    "Q122314387": {
+      "wikidataId": "Q122314387",
+      "name": "Kitachi Ebisu Shrine",
+      "description": "shrine in Kitaichichō, Nara",
+      "coordinates": {
+        "lng": 135.82257,
+        "lat": 34.68807
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitaichi%20Ebisu%20%28Kitaichi-cho%2C%20Nara%29%2001.jpg"
+    },
+    "Q122315505": {
+      "wikidataId": "Q122315505",
+      "name": "Yashima Shrine",
+      "description": "shrine in Nara",
+      "coordinates": {
+        "lng": 135.82538,
+        "lat": 34.68616
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yashima-jinja%20%28Nashihara-cho%2C%20Nara%29%2002.jpg"
+    },
+    "Q122641681": {
+      "wikidataId": "Q122641681",
+      "name": "Yamato Sumera Shinden",
+      "description": "shrine in Nara, Nara",
+      "coordinates": {
+        "lng": 135.82489,
+        "lat": 34.67999
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamato%20Sumera-shinden%20%28Teramachi%2C%20Nara%29%2001.jpg"
+    },
+    "Q122658202": {
+      "wikidataId": "Q122658202",
+      "name": "Ōkuninushi no Mikoto Shrine",
+      "description": "shrine in Nara, Nara",
+      "coordinates": {
+        "lng": 135.82713,
+        "lat": 34.67947
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C5%8Ckuninushi%20no%20Mikoto-jinja%20%28Higashij%C5%8Ddoch%C5%8D%2C%20Nara%29%2001.jpg"
+    },
+    "Q122780349": {
+      "wikidataId": "Q122780349",
+      "name": "Minamiichi Ebisu Shrine",
+      "description": "shrine in Nara, Nara",
+      "coordinates": {
+        "lng": 135.82988,
+        "lat": 34.68046
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Minamiichi%20Ebisu%20%28Nara%29%2002.jpg"
+    },
+    "Q123553180": {
+      "wikidataId": "Q123553180",
+      "name": "Nara Palace Site Museum",
+      "description": "museum in Nara, Nara, Japan",
+      "coordinates": {
+        "lng": 135.789719,
+        "lat": 34.692291
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nara%20Palace%20Site%20Museum.jpg",
+      "website": "https://www.nabunken.go.jp/heijo/museum/index.html"
+    },
+    "Q124500174": {
+      "wikidataId": "Q124500174",
+      "name": "Hyōshi Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.83306,
+        "lat": 34.68472
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hyoushi%20shrine%202024.jpg"
+    },
+    "Q131456780": {
+      "wikidataId": "Q131456780",
+      "name": "Tomi Shrine",
+      "description": "Shinto shrine in Ishiki-chō, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.765889,
+        "lat": 34.661059
+      }
+    },
+    "Q131460132": {
+      "wikidataId": "Q131460132",
+      "name": "Sō no Miagata Niimasu Shrine",
+      "description": "Shinto shrine in Utahime-chō, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.793389,
+        "lat": 34.704421
+      }
+    },
+    "Q131983732": {
+      "wikidataId": "Q131983732",
+      "name": "Shakuraku Shrine",
+      "description": "shinto shrine in Saidaijiminami-machi, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.781328,
+        "lat": 34.693797
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%9F%B3%E8%90%BD%E7%A5%9E%E7%A4%BE%28%E8%A5%BF%E5%A4%A7%E5%AF%BA%E5%A2%83%E5%86%85%E9%A3%9B%E5%9C%B0%29%20%E5%A5%88%E8%89%AF%E5%B8%82%E8%A5%BF%E5%A4%A7%E5%AF%BA%E5%8D%97%E7%94%BA%202013.8.28%20-%20panoramio.jpg"
+    },
+    "Q136808168": {
+      "wikidataId": "Q136808168",
+      "name": "Nishiyama-Inari jinja",
+      "description": "shinto shrine in Kodono-chō, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.821624,
+        "lat": 34.656075
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nishiyama-Inari%20Shrine%20%28Nara%29%20Haiden.jpg"
+    },
+    "Q714559": {
+      "wikidataId": "Q714559",
+      "name": "Kasuga-taisha",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.848348,
+        "lat": 34.681336
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga-taisha%2C%20chumon-3.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kasuga-taisha",
+      "website": "https://www.kasugataisha.or.jp/"
+    },
+    "Q11258505": {
+      "wikidataId": "Q11258505",
+      "name": "Ayameike Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.759222,
+        "lat": 34.693556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ayameike%20Jinja%20Shrine.JPG"
+    },
+    "Q11445443": {
+      "wikidataId": "Q11445443",
+      "name": "Naratsuhiko Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.834167,
+        "lat": 34.704444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Naratsuhiko-Jinja-Haiden.jpg"
+    },
+    "Q11496939": {
+      "wikidataId": "Q11496939",
+      "name": "Tamukeyama Hachiman Shrine",
+      "description": "shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.845,
+        "lat": 34.6879
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tamukeyama-hachimangu.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tamukeyama_Hachimang%C5%AB",
+      "website": "http://tamukeyama.or.jp/"
+    },
+    "Q11541842": {
+      "wikidataId": "Q11541842",
+      "name": "Enomoto Shrine",
+      "description": "The 121th Shrine of the Engishiki Jinmyōchō",
+      "coordinates": {
+        "lng": 135.8482,
+        "lat": 34.681022
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga-taisha%20Enomoto%20jinja%202015.jpg"
+    },
+    "Q11549570": {
+      "wikidataId": "Q11549570",
+      "name": "Himuro Shrine",
+      "description": "Shinto shrine in Nara Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.838,
+        "lat": 34.6844
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Himurojinjya-honden.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Himuro_Shrine",
+      "website": "https://himurojinja.jp/"
+    },
+    "Q11565493": {
+      "wikidataId": "Q11565493",
+      "name": "Kangō Shrine",
+      "description": "Shinto shrine in Kangō-chō, Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.825222,
+        "lat": 34.683488
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kangou-jinja%2C%20shaden.jpg",
+      "website": "https://kangou-jinja.jp/"
+    },
+    "Q11619171": {
+      "wikidataId": "Q11619171",
+      "name": "Sugawara Tenmangū",
+      "description": "shrine in Nara, Nara prefecture, Japan",
+      "coordinates": {
+        "lng": 135.77839,
+        "lat": 34.685614
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sugahara-jinja%20%28Nara%29%2C%20haiden.jpg",
+      "website": "http://www.sugawaratenmangu.com/"
+    }
+  },
+  "timestamp": "2025-12-28T20:15:23.148Z",
+  "source": "wikidata"
+}

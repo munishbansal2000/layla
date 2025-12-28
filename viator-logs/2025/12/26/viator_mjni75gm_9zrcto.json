@@ -1,0 +1,2357 @@
+{
+  "id": "viator_mjni75gm_9zrcto",
+  "timestamp": "2025-12-26T23:29:23.302Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 684,
+      "destName": "paris",
+      "sortOrder": "TRAVELER_RATING",
+      "count": 20
+    }
+  },
+  "response": {
+    "products": [
+      {
+        "productCode": "56549P1",
+        "title": "Private Valley of Fire Hiking and Sightseeing Adventure",
+        "description": "Spend your day exploring Valley of Fire’s fascinating sandstone formations. Your guide, Adam has been guiding outdoor adventures for over ten years and will customize an adventure to best fit your needs and wants, all while making safety his number one priority. Adam will also capture the magnificent beauty of Valley of Fire through his camera during the duration of your time together at no additional cost.\n\nWhile learning about Valley of Fire’s vast history, vegetation, and beautiful wildlife, you will hike through routes created by Adam.\n\nYour tour will include pickup and drop-off from your hotel, a fun and knowledgeable guide, snacks/water, and a complimentary photo package. We believe in quality over quantity. When booking, you or your group will not be combined with any other group. Should you have any questions or concerns, please do not hesitate to reach out by email or phone at any time.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/3b.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/3b.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 185,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 191,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 360,
+          "variableDurationToMinutes": 600
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 180,
+            "fromPriceBeforeDiscount": 180
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Nevada/Private-Valley-of-Fire-Hiking-and-Sightseeing-Adventure/d22171-56549P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "22171",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11889,
+          21972,
+          367661,
+          12035,
+          11941,
+          22046,
+          11930,
+          21733
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "433254P1",
+        "title": "Get Married: Elvis Wedding + Las Vegas Sign + Photography ",
+        "description": "Celebrate your special day in true Las Vegas style with our Elvis-inspired Wedding Experience. Have the King himself officiate your ceremony, serenading you with \"Love Me Tender.\" Our vibrant wedding chapel offers an immersive rock 'n' roll spectacle, creating unforgettable memories. After the ceremony, capture stunning photos with Elvis at the iconic Las Vegas Sign. We provide courtesy transportation for up to 8 people from the Chapel to the Las Vegas Sign, conveniently located nearby. \n\nWhether you're getting married, renewing vows, getting engaged, or celebrating a commitment, love, or friendship ceremony, Las Vegas Immersive Weddings offers the world's first immersive wedding chapel. Join us and make history as part of our award-winning, boutique-style venue. Our chapel combines vintage charm with a modern twist, featuring wall-to-wall HD video and soundscapes that transport you to the world of Elvis and Vintage Las Vegas. Celebrate with us and make your day truly unforgettable ",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/1f/b9/57.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/1f/b9/57.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 33,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 10,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 43,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 60
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "ACTIVITY",
+        "pricing": {
+          "summary": {
+            "fromPrice": 299,
+            "fromPriceBeforeDiscount": 299
+          },
+          "currency": "USD",
+          "extraChargesSummary": {
+            "fromPrice": 359,
+            "extraCharges": 60
+          }
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Get-Married-by-Elvis-at-the-Fabulous-Las-Vegas-Sign-Photos/d684-433254P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367654,
+          11915,
+          21972,
+          11914,
+          367661,
+          21589,
+          367650,
+          367653
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "126675P5",
+        "title": "VIP Ultimate Speed Boats and Machine Gun Shooting Adventure with Hoover Dam ",
+        "description": "We pick you up from any Las Vegas Strip or Downtown Las Vegas for the Ultimate desert Adventure of a Lifetime\n\nThe BestDesert Machine gun experience in Las Vegas and the Speed boat on the Colorado River.\n\n1st Stop shoot in the Desert NOT in an indoor Gun Range. Shoot 4 powerful weapons including the 50 Cal Barret Sniper Rifle.\n\nPick UP from Hotel in Luxury 2Vegas Vehicle to Desert Mountain range\nGlock Pistol 5 rounds\nUzi Fully Automatic Machine Gun 25 rounds \nMP59 Fully Automatic Machine Gun 25 rounds \n50 CAL Barret Sniper Rifle 1 round\nComplimentary HD Photo & 4K Video Package Included \n\n2nd Stop \nBreakfast on water at harbor Pier restaurant\nEggs\nChoice bacon or sausage \nToast\nHash brown\nCoffee or Orange Juice\n3rd stop \n2/3 Hours on Colorado river Lake Mead\nLifejackets provided\nPrivate Speed Boats\nPrivate Captains \nCliff jumping (at your own risk)\nComplimentary, Beer, Soda\nComplimentary, Champagne \n\nSee Hoover Dam from the water WOW Monet\n\nAn incredible Adventure day ",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0b/cc/57/a0.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0b/cc/57/a0.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 38,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 38,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 450
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "ACTIVITY",
+        "pricing": {
+          "summary": {
+            "fromPrice": 599,
+            "fromPriceBeforeDiscount": 599
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Speed-Boats-Machine-Guns-Hoover-Dam-All-Inclusive-Day-with-Gents-Club-and-Club/d684-126675P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          21464,
+          21972,
+          20757,
+          12062,
+          21442,
+          22083,
+          367661,
+          21447,
+          11923
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "324012P1",
+        "title": "Best Bars on Fremont: Happy Hour and Hidden Gems",
+        "description": "Explore the vibrant Fremont Street district on a guided happy hour adventure featuring three included cocktails at handpicked local bars and hidden gems in downtown Las Vegas.\nStroll past iconic landmarks like historic casinos, vintage neon signs, and Viva Vision—the world’s largest video screen—while your entertaining guide shares the wild, strange, and fascinating history of Las Vegas.\n\nBetween drinks, you’ll get insider tips on the best places to eat, drink, and party like a local. This tour is the perfect mix of cocktails, culture, and classic Vegas charm.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/16/0a/49/66.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/16/0a/49/66.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/16/0a/49/66.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/16/0a/49/66.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/0a/49/66.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/16/0a/49/66.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/0a/49/66.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/0a/49/66.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/16/0a/49/66.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/16/0a/49/66.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 17,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 19,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 36,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 150
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 99,
+            "fromPriceBeforeDiscount": 99
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Best-Bars-on-Fremont-Happy-Hour-and-Hidden-Gems/d684-324012P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          20757,
+          21911,
+          22083,
+          367654,
+          12046,
+          367653,
+          21972,
+          11953,
+          21860,
+          12029
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "159353P3",
+        "title": "Red Rock Canyon Scooter Tour from Las Vegas",
+        "description": "Hop on your scooter and get ready for the time of your life! Ride through Red Rock Canyon, one of the most beautiful and scenic places on Earth on your scooter and be surrounded by some of Mother Nature’s best work! If you’re a novice at riding a scooter – fear not - you’ll receive expert tuition and be riding like a pro in minutes. This tour includes free shuttle service to and from most major Las Vegas strip hotels.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/16/d3/ec/7d.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/16/d3/ec/7d.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 26,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 7,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 33,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 240
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 119,
+            "fromPriceBeforeDiscount": 119
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Red-Rock-Canyon-by-Self-Drive-Scooter/d684-159353P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11929,
+          12068,
+          367661,
+          11903,
+          22046,
+          21860
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "398496P2",
+        "title": "Las Vegas Strip Self-Drive Rental",
+        "description": "Cruise the Las Vegas Strip and Downtown at your own pace in an all-electric EVR 2-seater car, exploring iconic sites like the Welcome to Las Vegas sign and Fremont Street. With a range of 100 city miles per charge and a top speed of 75 mph, these easy-to-drive cars come with a GPS-guided navigation system to take you to all the best spots using a custom QR code. Enjoy your adventure while listening to your favorite tunes and experiencing Las Vegas in a fun, eco-friendly way!",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/dc/48/f5.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/dc/48/f5.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 2,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 29,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 31,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 60,
+          "variableDurationToMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "UNSTRUCTURED",
+        "pricing": {
+          "summary": {
+            "fromPrice": 112.09,
+            "fromPriceBeforeDiscount": 112.09
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Electric-Vehicle-Rental-in-Las-Vegas/d684-398496P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          22110,
+          21704,
+          21720,
+          12041,
+          21972,
+          21751,
+          367661
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "132218P622",
+        "title": "Small Group Seven Magic Mountains, Hoover Dam VIP Experience Tour",
+        "description": "Make the most of your morning with this small-group, half-day Hoover Dam tour from Las Vegas! Snap iconic photos at the Welcome to Las Vegas Sign and Seven Magic Mountains, spot wild Big Horn Sheep at Hemingway Park, and take in sweeping views of Lake Mead. At Hoover Dam, enjoy a top-side photo stop, explore the Power Plant on an official guided tour, gain bonus access to the fascinating Exhibition Center, walk the dam at your own pace, and visit the stunning Memorial Bridge overlook.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/f2/a1/3e.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/f2/a1/3e.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 2,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 27,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 29,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 420,
+          "variableDurationToMinutes": 480
+        },
+        "confirmationType": "INSTANT_THEN_MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 128,
+            "fromPriceBeforeDiscount": 128
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Exclusive-Hoover-Dam-Power-Plant-Tour-w-7-Magic-Mountains/d684-132218P622?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11889,
+          21860,
+          22083,
+          367658,
+          20757,
+          21972,
+          11928,
+          367661,
+          22143,
+          11930,
+          367653,
+          367654
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "NEW_ON_VIATOR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5526300P24",
+        "title": "Las Vegas: VIP Club Crawl with Party Bus, Express Entry & Drinks",
+        "description": "Las Vegas Club Crawl – The Ultimate Night Out\n\nSkip the lines, avoid cover charges, and experience Vegas nightlife like a VIP as you party through 3 iconic venues with a ready-made crew.\n\nHere’s how your night runs:\n\nCheck-in Venue & Party Games – Meet your hosts, grab a welcome drink, and break the ice with fun games and challenges.\n\nFirst Club – Start strong at one of Vegas’ buzzing bars or lounges with great music, drinks, and a lively atmosphere.\n\nParty Bus Ride – Cruise the Strip in a decked-out party bus with booming music, dancing, and a stripper pole to keep the energy high.\n\nFinal Nightclub – Skip the line and step into one of Vegas’ legendary superclubs. Expect world-class DJs, huge light shows, and a packed dance floor.\n\nVenues rotate daily, but past crawls have featured Omnia at Caesars Palace, XS at Encore, Hakkasan at MGM Grand, Marquee at The Cosmopolitan, Jewel at Aria, and Tao at The Venetian.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/17/07/33/92.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/17/07/33/92.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/17/07/33/92.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/17/07/33/92.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/17/07/33/92.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/17/07/33/92.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/17/07/33/92.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/17/07/33/92.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/17/07/33/92.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/17/07/33/92.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 27,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 27,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 240
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 99,
+            "fromPriceBeforeDiscount": 99
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Las-Vegas-VIP-Club-Crawl-with-Express-Entry-and-Drinks/d684-5526300P24?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12054,
+          12057,
+          22111,
+          21911,
+          22143,
+          12046,
+          11929,
+          367658,
+          367661
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "NEW_ON_VIATOR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5606549P1",
+        "title": "Vegas Underworld: Las Vegas True Crime & Mob Walking Tour",
+        "description": "Step into the darker side of Las Vegas on this immersive true crime and mob history walking tour through the heart of Downtown Vegas. Explore legendary locations, historic casinos on Fremont Street, and hidden spots where real crimes, scams, and mob activity once took place.\n\nHear true stories of mob bosses, murders, casino scandals, high-stakes heists, corruption, and the underworld figures who shaped early Las Vegas. Led by a knowledgeable local guide, this tour brings the city’s gritty past to life with vivid storytelling and insider insight.\n\nPerfect for travelers who want to discover the real Las Vegas beyond the Strip.\n\nWhy Travelers Choose This Tour\n• Walk through the historic Downtown area where Vegas first began\n• Learn about notorious mobsters and their role in shaping the city\n• Hear true crime cases, unsolved mysteries, and infamous scandals\n• Great for true crime fans, history lovers, and Vegas newcomers\n• Engaging storytelling from a passionate local guide",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Dive deep into the darkness. Meet your expert guide right outside The Mob Museum before we walk the historic streets of Downtown Las Vegas, uncovering the scandals and true crime that shaped the city.",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/17/0d/b6/82.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/17/0d/b6/82.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 26,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 27,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 150
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 40,
+            "fromPriceBeforeDiscount": 40
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Vegas-Underworld-Tour/d684-5606549P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12028,
+          12046,
+          22083,
+          367661,
+          21439,
+          20757,
+          21972,
+          12029,
+          22143
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "NEW_ON_VIATOR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "10559P9",
+        "title": "Special Air Services Shooting Experience in Las Vegas",
+        "description": "Fire the same firearms used by His Majesty’s Special Air Service (SAS), the elite special forces unit of the United Kingdom, in this exclusive shooting experience. Start off with handguns and build up to the power of assault weapons, including the Sniper Rifle, Glock, MP5, and HK33. This experience offers a one-of-a-kind opportunity to fire top-tier weapons that are standard issue for some of the world’s most skilled operators. Whether you’re a seasoned shooter or a first-timer, this package ensures an unforgettable, adrenaline-pumping adventure. Step into the shoes of an SAS agent with this ultimate shooting experience. All safety equipment and training is provided.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/14/b7/8e/41.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/14/b7/8e/41.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 3,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 24,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 27,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 60
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "ACTIVITY",
+        "pricing": {
+          "summary": {
+            "fromPrice": 229,
+            "fromPriceBeforeDiscount": 229
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Special-Air-Services-Shooting-Experience-in-Las-Vegas/d684-10559P9?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          21447,
+          11923,
+          367661,
+          21972
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "7812P204",
+        "title": "Private: Downtown Las Vegas Food Tour of 6 Dishes & Hidden Gems",
+        "description": "Step off the Strip and discover the real flavors of Downtown Las Vegas on our Secret Food Tour. In this vibrant neighborhood, you’ll taste 6+ iconic dishes that capture the city’s bold and playful spirit. Savor buttery Lobster Montadito, a local favorite pizza slice that gives back to charity, and the famous Elote Dog bursting with flavor. Indulge in a refreshing classic Shrimp Cocktail, a decadent chocolate bite, and a Hawaiian-inspired Musubi with teriyaki glaze. Along the way, your guide will share insider stories about Vegas’ quirky history and evolving food culture. And of course, no tour is complete without our delicious Secret Dish, revealed only on the day. Join us for a one-of-a-kind foodie adventure that shows you a side of Vegas most visitors never taste.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0a/30/11/34.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0a/30/11/34.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0a/30/11/34.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0a/30/11/34.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0a/30/11/34.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0a/30/11/34.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/30/11/34.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/30/11/34.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0a/30/11/34.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0a/30/11/34.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 26,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 26,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 180
+        },
+        "confirmationType": "MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 490,
+            "fromPriceBeforeDiscount": 490
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Private-Tour-Food-Tasting-Tour-Las-Vegas/d684-7812P204?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367661,
+          367657,
+          11929,
+          367656,
+          21911,
+          11941,
+          12046
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "190492P2",
+        "title": "Valley of Fire Guided Hiking Tour From Las Vegas",
+        "description": "Small group tour with a capacity of 14 people for an intimate and colorful experience. Our main purpose is to keep our guests happy all the time. Being in this tour you will have the opportunity to have extra stops if you want extra pictures or just to stretch. Also, we are staying with you all the time so you can enjoy guided hikes so you don't miss a thing.\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/09/4c/4e/7d.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/09/4c/4e/7d.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 20,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 26,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 360
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 149,
+            "fromPriceBeforeDiscount": 149
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Tour-to-Valley-of-Fire-Hoover-Dam-Lake-Mead-Overlook/d684-190492P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11938,
+          21972,
+          11930,
+          21971,
+          11929,
+          11889,
+          21860,
+          367661
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "60124P4",
+        "title": "Sunrise Red Rock Canyon Self-Guided Electric Bike Tour with Hotel Pick-up",
+        "description": "Your self-guided tour will begin with hotel pickup 60 minutes prior to sunrise (varying on a daily basis) and transfer to the starting point in the Las Vegas neighborhood of Summerlin.\n\nYou will be provided with all the necessary equipment.\nThese e-bikes are pedal-assist and you will pedal them just like you do a regular bike except that the electric assist takes the strain out of the hills and headwinds. You will be amazed how easy they are to operate and able to go to a maximum speed of 20mph. After a safety orientation and practice ride, you will be ready to head up to the Red Rock Canyon on a 4-mile bike lane before entering the Red Rock National Conservation Area. Once inside the park, you will glide along the 13-mile canyon paved scenic byway to reach an elevation of 4,800-feet with many places to stop.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/09/9b/53/88.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/09/9b/53/88.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/09/9b/53/88.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/09/9b/53/88.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/9b/53/88.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/09/9b/53/88.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/9b/53/88.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/9b/53/88.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/09/9b/53/88.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/09/9b/53/88.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 24,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 25,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 240
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "ACTIVITY",
+        "pricing": {
+          "summary": {
+            "fromPrice": 154,
+            "fromPriceBeforeDiscount": 154
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/SUNRISE-at-Red-Rock-Canyon-Self-Guided-Electric-Bike-Tour-With-PICK-UP/d684-60124P4?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          21702,
+          20757,
+          11911,
+          21971,
+          21592,
+          22083
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "107180P5",
+        "title": "Always Private Group You Drive UTV Off Road 3 Hours. Near Vegas",
+        "description": "LIVE LIFE!!! Make every second count with the ones you love most! Why book a tour, when you can live an experience? Experience the thrill of driving our 1000cc UTVs as we experience the openness of off-roading through the Mohave Desert, and several abandoned mines around Katherine Mine! We take you up a mountain range at over 4500 ft for views not found anywhere else in Las Vegas where the beauty of nature washes over you! \n\nHARD TO BELIEVE, BUT THIS IS REALLY A DAY WITH NO ONE ELSE EXCEPT THE ONES YOU WANT TO INVITE!\n\nAfter all, we are THE Private VIP UTV Experience! \n\nFREE PHOTOS ALL DAY!!! We take the photos for you and provide them free of charge!\n\nDrive your own UTV for 3 hours at your own comfortable speeds as our utvs are not tuned down! Discover a stunning Lake in the middle of the desert! It is untouched beauty as far as the eyes can see! Every experience is customized to create your event in the most memorable way! ",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/0c/1b/53.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/0c/1b/53.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 9,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 16,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 25,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 180,
+          "variableDurationToMinutes": 240
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 336.5,
+            "fromPriceBeforeDiscount": 336.5
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Feel-Freedom-3-Hours-You-Drive-UTV-Las-Vegas-Desert-Experience/d684-107180P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11923,
+          12035,
+          367661,
+          11929,
+          22046,
+          11938,
+          11941,
+          21421,
+          21972
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "110263P14",
+        "title": "Grand Canyon Tour with Hoover Dam and Joshua Tree",
+        "description": "Live a unique experience visiting the west side of the Grand Canyon, land of the Hualapai natives. This tour will provide us with landscapes and enclaves such as the imposing Hoover Dam, an engineering masterpiece, Lake Mead, the largest artificial reservoir in North America, the Mojave desert and different volcanic formations in Arizona. You will have the opportunity to take the helicopter tour at Grand Canyon West if you upgrade your tour. This helicopter tour will take you 3,500 feet to the bottom of the Canyon. You will disembark from the helicopter and spend 20 to 30 minutes exploring the landing cliff.The activity is done with a guide who speaks Spanish.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0c/07/24/6c.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0c/07/24/6c.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 2,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 22,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 24,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "variableDurationFromMinutes": 540,
+          "variableDurationToMinutes": 660
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 239,
+            "fromPriceBeforeDiscount": 239
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Grand-Canyon-Tour-with-Hoover-Dam-and-Joshua-Tree/d684-110263P14?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11928,
+          11930,
+          12028,
+          21972,
+          11889
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": true,
+          "translationSource": "MACHINE",
+          "translationAttribution": "GOOGLE"
+        }
+      },
+      {
+        "productCode": "480672P3",
+        "title": "Gold Elvis Wedding or Vow Renewal at Las Vegas Sign",
+        "description": "It's the ultimate Vegas tradition: A ceremony with an award-winning gold Elvis performer at the world-famous Las Vegas Sign!",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/72/8c/c5.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/72/8c/c5.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 15,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 9,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 24,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 45
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "ACTIVITY",
+        "pricing": {
+          "summary": {
+            "fromPrice": 98,
+            "fromPriceBeforeDiscount": 98
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Free-product-for-Feb-2025/d684-480672P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367654,
+          21589,
+          11914,
+          20222,
+          367661,
+          21972,
+          11915,
+          367653,
+          367658
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "224423P6",
+        "title": "4-Hour Private Hidden Hot Springs Tour near Death Valley ",
+        "description": "Escape the neon lights of Las Vegas and discover a hidden desert oasis just outside Death Valley National Park. This small-group tour takes you to a remote natural hot spring surrounded by the rugged beauty of the Mojave Desert. Soak under the stars in mineral-rich waters known for their relaxing and therapeutic benefits. Along the way, enjoy scenic views, desert wildlife, and stories about the region’s unique history from your local guide. Perfect for adventure-seekers and stargazers, this unforgettable night experience offers peace, solitude, and a deeper connection with nature.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/10/7f/7b/db.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/10/7f/7b/db.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 20,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 4,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 24,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 240
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 175,
+            "fromPriceBeforeDiscount": 175
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Soak-in-a-secret-hot-spring-near-Death-Valley-National-Park/d684-224423P6?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          22046,
+          367654,
+          11930,
+          21733,
+          11903,
+          367661,
+          11929,
+          11941,
+          21972,
+          367653
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "240046P8",
+        "title": "Hoover Dam Discovery Kayak Tour with Lake Mead Views",
+        "description": "Paddle three scenic miles through the Lake Mead National Recreation Area for rare water-level views of both the Hoover Dam and the Mike O’Callaghan–Pat Tillman Memorial Bridge. Along this guided adventure, you may spot bighorn sheep, wild burros, eagles, and other desert wildlife while learning about the dam’s fascinating history from your expert guide. With space limited for an intimate experience, and all equipment provided, this is an ideal way to immerse yourself in the natural and engineering wonders just outside Las Vegas.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/6d/f4/25.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/6d/f4/25.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 23,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 24,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 300
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 189,
+            "fromPriceBeforeDiscount": 189
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Hoover-Dam-Discovery-via-Lake-Mead-Kayak-Tour/d684-240046P8?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          22046,
+          22144,
+          11930,
+          12047,
+          11889,
+          11903,
+          367661,
+          11929,
+          21860,
+          20255,
+          21972,
+          367658
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "13920P7",
+        "title": "Apocalypse Shooting Experience in Las Vegas ",
+        "description": "Experience the thrill of the Apocalypse Shooting Package, where you can shoot outdoors with the comfort of a climate-controlled indoor firing line. This action-packed experience includes 12 powerful firearms, from handguns to sniper rifles, and targets ranging from 25 to 200 yards, including the exciting chance to shoot at exploding targets. Plus, enjoy the convenience of round-trip transportation from Las Vegas, ensuring a seamless and unforgettable adventure.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/10/62/99/dc.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/10/62/99/dc.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/10/62/99/dc.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/10/62/99/dc.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/62/99/dc.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/10/62/99/dc.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/62/99/dc.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/62/99/dc.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/10/62/99/dc.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/10/62/99/dc.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 21,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 22,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 210
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "ACTIVITY",
+        "pricing": {
+          "summary": {
+            "fromPrice": 1295,
+            "fromPriceBeforeDiscount": 1295
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Apocalypse-12-Shooting-Package/d684-13920P7?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11923,
+          21447,
+          21972,
+          367661
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "89557P6",
+        "title": "Las Vegas Strip Nightclub Crawl ",
+        "description": "Turn Up the Night with the Ultimate Las Vegas Club Crawl!\n\nGet ready for an unforgettable night out as you experience the best of Las Vegas nightlife in style. Kick things off at a chic, upscale lounge where you’ll meet your professional Party Host and mix it up with fellow partygoers. From there, head to a rooftop nightclub with breathtaking views of the Strip—perfect for sipping cocktails and snapping photos.\n\nThen it’s time to level up the party: hop aboard a luxury party bus stocked with music, lights, and complimentary drinks. Cruise to the iconic \"Welcome to Fabulous Las Vegas\" sign for a fun group photo before hitting your final nightclub of the night—no lines, no cover, all VIP.\n\nPlease Note: Nightclub venues and meeting locations may vary weekly based on availability and events. We visit 1 Bar, 1 Rooftop Club, The Vegas Sign, and 1 Nightclub on the Strip. Party Bus Sprinter may be provided for smaller tour groups. ",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "Take a photo moment at the Fabulous Welcome to Las Vegas Sign. ",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0f/7c/9a/5f.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0f/7c/9a/5f.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 15,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 21,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 260
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 99.99,
+            "fromPriceBeforeDiscount": 99.99
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Las-Vegas/Las-Vegas-Strip-Nightlife-Crawl/d684-89557P6?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "684",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11929,
+          11930,
+          21736,
+          21734,
+          12054,
+          12057,
+          12046,
+          367661,
+          21593
+        ],
+        "flags": [],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      }
+    ],
+    "totalCount": 1281,
+    "currency": "USD"
+  },
+  "metadata": {
+    "duration_ms": 511,
+    "success": true,
+    "destination": "paris"
+  }
+}

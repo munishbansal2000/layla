@@ -1,0 +1,4897 @@
+{
+  "data": {
+    "Q545397": {
+      "wikidataId": "Q545397",
+      "name": "Mita Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo Prefecture, Japan",
+      "coordinates": {
+        "lng": 139.741348,
+        "lat": 35.64332
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mita-Hachiman-jinja%20inner%20shrine.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mita_Hachiman_Shrine"
+    },
+    "Q1442645": {
+      "wikidataId": "Q1442645",
+      "name": "Fushimi Sanpō Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74540278,
+        "lat": 35.65422222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fushimi%20sampo%20inari%20jinja%200082.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fushimi_Sanp%C5%8D_Inari_Shrine"
+    },
+    "Q3514129": {
+      "wikidataId": "Q3514129",
+      "name": "Takagi Bonsai Museum",
+      "coordinates": {
+        "lng": 139.772,
+        "lat": 35.7031
+      },
+      "website": "http://www.takagi-bonsai.org"
+    },
+    "Q6128676": {
+      "wikidataId": "Q6128676",
+      "name": "Tokyo Anime Center",
+      "description": "anime museum in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.736417,
+        "lat": 35.693528
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20Anime%20Center%2020160211%282%29.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tokyo_Anime_Center",
+      "website": "https://tokyoanimecenter.jp/en/"
+    },
+    "Q11397714": {
+      "wikidataId": "Q11397714",
+      "name": "前田耕地遺跡",
+      "description": "archaeological site in Japan",
+      "coordinates": {
+        "lng": 139.316055555,
+        "lat": 35.724805555
+      }
+    },
+    "Q11410141": {
+      "wikidataId": "Q11410141",
+      "name": "Itsukushima Shrine (Shinjuku)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71333333,
+        "lat": 35.6975
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nuke-Benten.jpg"
+    },
+    "Q11495425": {
+      "wikidataId": "Q11495425",
+      "name": "Naruko Tenjinsha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.692361,
+        "lat": 35.696139
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Naruko%20tenjin.JPG"
+    },
+    "Q11502590": {
+      "wikidataId": "Q11502590",
+      "name": "新栄教会",
+      "coordinates": {
+        "lng": 139.7003712,
+        "lat": 35.6305837
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shinsakae%20Church%20in%20Meguro.jpg"
+    },
+    "Q11512308": {
+      "wikidataId": "Q11512308",
+      "name": "明治公園",
+      "description": "東京都の公園",
+      "coordinates": {
+        "lng": 139.713472,
+        "lat": 35.676083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Flea%20market%20at%20Meiji%20Park.jpg",
+      "website": "https://www.meiji-park.com/"
+    },
+    "Q11525123": {
+      "wikidataId": "Q11525123",
+      "name": "The University Art Museum, Tokyo University of the Arts",
+      "description": "museum in Toride, Ibaraki and Tokyo",
+      "coordinates": {
+        "lng": 140.114880555,
+        "lat": 35.884352777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/University%20Art%20Museum%2C%20Tokyo%20University%20of%20the%20Arts%202009.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/University_Art_Museum_(Tokyo_University_of_the_Arts)",
+      "website": "https://museum.geidai.ac.jp/"
+    },
+    "Q11549608": {
+      "wikidataId": "Q11549608",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Shinjuku, Japan",
+      "coordinates": {
+        "lng": 139.699306,
+        "lat": 35.717083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20shrine%20shimoochiai%20shinjuku.JPG"
+    },
+    "Q11577234": {
+      "wikidataId": "Q11577234",
+      "name": "Tabata Site",
+      "description": "archaeological site in Machida, Tokyo, Japan Japan",
+      "coordinates": {
+        "lng": 139.363566,
+        "lat": 35.601008
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%94%B0%E7%AB%AF%E9%81%BA%E8%B7%A1.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tabata_Site"
+    },
+    "Q11579312": {
+      "wikidataId": "Q11579312",
+      "name": "Shiromaru Dam",
+      "description": "dam in Tokyo Prefecture, Japan",
+      "coordinates": {
+        "lng": 139.124166666,
+        "lat": 35.811111111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shiromaru%20Dam%20left%20view.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shiromaru_Tyouseiti_Dam"
+    },
+    "Q11580916": {
+      "wikidataId": "Q11580916",
+      "name": "Kaichū Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.69944444,
+        "lat": 35.70111111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaichu%20inari%20jinja%202009.JPG"
+    },
+    "Q11620561": {
+      "wikidataId": "Q11620561",
+      "name": "落合中央公園",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.6932,
+        "lat": 35.7124
+      }
+    },
+    "Q11631928": {
+      "wikidataId": "Q11631928",
+      "name": "Suwa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.707667,
+        "lat": 35.709139
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa%20jinja%20shinjuku.JPG"
+    },
+    "Q11651146": {
+      "wikidataId": "Q11651146",
+      "name": "Yoroi Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.69171,
+        "lat": 35.704487
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoroi-jinjya.jpg"
+    },
+    "Q21019294": {
+      "wikidataId": "Q21019294",
+      "name": "Nishiwaseda Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.713013,
+        "lat": 35.712711
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nishiwaseda%20tensojinja%20shrine%20shinjuku.jpg"
+    },
+    "Q22120359": {
+      "wikidataId": "Q22120359",
+      "name": "町田市立博物館",
+      "coordinates": {
+        "lng": 139.45111111,
+        "lat": 35.56722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Machida-City-Museum.jpg"
+    },
+    "Q34956349": {
+      "wikidataId": "Q34956349",
+      "name": "Tamagawa Dam",
+      "description": "dam in Tokyo, Japan",
+      "coordinates": {
+        "lng": 142.168611111,
+        "lat": 26.646666666
+      }
+    },
+    "Q42311528": {
+      "wikidataId": "Q42311528",
+      "name": "飯倉公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74390731,
+        "lat": 35.655727528
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%A3%AF%E5%80%89%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q42311535": {
+      "wikidataId": "Q42311535",
+      "name": "横川省三記念公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.738733372,
+        "lat": 35.662495377
+      }
+    },
+    "Q42311533": {
+      "wikidataId": "Q42311533",
+      "name": "築地川公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.774117309,
+        "lat": 35.666991708
+      }
+    },
+    "Q42311543": {
+      "wikidataId": "Q42311543",
+      "name": "六本木西公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.729968896,
+        "lat": 35.663288351
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%85%AD%E6%9C%AC%E6%9C%A8%E8%A5%BF%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q42311541": {
+      "wikidataId": "Q42311541",
+      "name": "三河台公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.733951031,
+        "lat": 35.664594493
+      }
+    },
+    "Q42311545": {
+      "wikidataId": "Q42311545",
+      "name": "Nogi Park",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.727595918,
+        "lat": 35.668243052
+      }
+    },
+    "Q42311551": {
+      "wikidataId": "Q42311551",
+      "name": "笄公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.724189811,
+        "lat": 35.656542801
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%AC%84%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q42311549": {
+      "wikidataId": "Q42311549",
+      "name": "青葉公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.724450408,
+        "lat": 35.670285855
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%9D%92%E8%91%89%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q42311587": {
+      "wikidataId": "Q42311587",
+      "name": "杜の公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.741244506,
+        "lat": 35.625314266
+      }
+    },
+    "Q42311585": {
+      "wikidataId": "Q42311585",
+      "name": "港南公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.746920413,
+        "lat": 35.624042142
+      }
+    },
+    "Q42311589": {
+      "wikidataId": "Q42311589",
+      "name": "白金公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.729236638,
+        "lat": 35.646752802
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%99%BD%E9%87%91%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q42311595": {
+      "wikidataId": "Q42311595",
+      "name": "プラタナス公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75212278,
+        "lat": 35.640527954
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B8%AF%E5%8C%BA%E7%AB%8B%E3%83%97%E3%83%A9%E3%82%BF%E3%83%8A%E3%82%B9%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q42311593": {
+      "wikidataId": "Q42311593",
+      "name": "芝浦公園",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.742649835,
+        "lat": 35.633764463
+      }
+    },
+    "Q49497096": {
+      "wikidataId": "Q49497096",
+      "name": "Q49497096",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.737777777,
+        "lat": 35.55
+      }
+    },
+    "Q49509427": {
+      "wikidataId": "Q49509427",
+      "name": "Q49509427",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.858888888,
+        "lat": 35.642777777
+      }
+    },
+    "Q49511323": {
+      "wikidataId": "Q49511323",
+      "name": "Q49511323",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.751388888,
+        "lat": 35.691666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitanomaru%20K%C5%8Den.jpg"
+    },
+    "Q49511849": {
+      "wikidataId": "Q49511849",
+      "name": "Q49511849",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.518055555,
+        "lat": 35.715833333
+      }
+    },
+    "Q49573001": {
+      "wikidataId": "Q49573001",
+      "name": "Ueno Onshi Park",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.7725,
+        "lat": 35.714166666
+      }
+    },
+    "Q49583796": {
+      "wikidataId": "Q49583796",
+      "name": "Q49583796",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.696944444,
+        "lat": 35.671666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fountain%20Yoyogipark.JPG"
+    },
+    "Q65247901": {
+      "wikidataId": "Q65247901",
+      "name": "Mita Kasuga Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.744388888,
+        "lat": 35.649583333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mita%20Kasuga-jinja%20%28Mita%2C%20Minato%29%2001.jpg",
+      "website": "http://phoresto.net/shrine/mitakasuga/"
+    },
+    "Q65272034": {
+      "wikidataId": "Q65272034",
+      "name": "Min-on Music Museum",
+      "coordinates": {
+        "lng": 139.71927,
+        "lat": 35.6823
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Min-On%20Music%20Museum.JPG",
+      "website": "https://museum.min-on.or.jp/"
+    },
+    "Q97278839": {
+      "wikidataId": "Q97278839",
+      "name": "Nakai Goryō Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.680024,
+        "lat": 35.716292
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakai%20goryo%20jinja%20shinjuku.JPG"
+    },
+    "Q97279185": {
+      "wikidataId": "Q97279185",
+      "name": "Tsukimigaoka Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.690958,
+        "lat": 35.712669
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsukimigaokahachiman%20shrine%20shinjuku.jpg"
+    },
+    "Q97279421": {
+      "wikidataId": "Q97279421",
+      "name": "Kuzugaya Goryō Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.676077,
+        "lat": 35.721733
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuzugaya%20goryo%20jinja%20shinjuku.jpg"
+    },
+    "Q104698247": {
+      "wikidataId": "Q104698247",
+      "name": "Historical Materials Section, Yoshioka Yayoi Memorial Room Tokyo Women's Medical University",
+      "coordinates": {
+        "lng": 139.720637,
+        "lat": 35.697551
+      },
+      "website": "http://www.twmu.ac.jp/univ/about/yayoi.php"
+    },
+    "Q104698254": {
+      "wikidataId": "Q104698254",
+      "name": "Tsuri Bunka Shiryoukan",
+      "coordinates": {
+        "lng": 139.719441,
+        "lat": 35.690926
+      },
+      "website": "http://tsurinews.co.jp/shiryokan"
+    },
+    "Q106852423": {
+      "wikidataId": "Q106852423",
+      "name": "Higashiyamafuji Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.702028,
+        "lat": 35.71775
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Higashiyamafujiinari%20shrine%20shinjuku-2.jpg"
+    },
+    "Q106852421": {
+      "wikidataId": "Q106852421",
+      "name": "Tōnomine Naitō Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71525,
+        "lat": 35.684972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%9A%E6%AD%A6%E5%B3%AF%E5%86%85%E8%97%A4%E7%A5%9E%E7%A4%BE%20-%20panoramio.jpg"
+    },
+    "Q106852432": {
+      "wikidataId": "Q106852432",
+      "name": "Meguro Gokoku Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.688873,
+        "lat": 35.634174
+      }
+    },
+    "Q106852451": {
+      "wikidataId": "Q106852451",
+      "name": "Iwado Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.588056,
+        "lat": 35.629444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%B2%A9%E6%88%B8%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%20%E9%B3%A5%E5%B1%85%2001.jpg"
+    },
+    "Q111500639": {
+      "wikidataId": "Q111500639",
+      "name": "下野谷遺跡公園",
+      "description": "東京都西東京市の史跡公園。",
+      "coordinates": {
+        "lng": 139.561888888,
+        "lat": 35.725638888
+      }
+    },
+    "Q113687887": {
+      "wikidataId": "Q113687887",
+      "name": "Keio-inari-daimyojin",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.718993527,
+        "lat": 35.682509206
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%85%B6%E6%87%89%E7%A8%B2%E8%8D%B7%E5%A4%A7%E6%98%8E%E7%A5%9E.jpg"
+    },
+    "Q116949383": {
+      "wikidataId": "Q116949383",
+      "name": "Saint Alban's Church",
+      "description": "church in Tokyo",
+      "coordinates": {
+        "lng": 139.743846925,
+        "lat": 35.660036673
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St.%20Alban%27s%20Church%2C%20Tokyo%2C%20Exterior.jpg"
+    },
+    "Q133693240": {
+      "wikidataId": "Q133693240",
+      "name": "西谷戸横穴墓群",
+      "description": "東京都町田市三輪緑山一丁目に所在する横穴墓群。",
+      "coordinates": {
+        "lng": 139.493444444,
+        "lat": 35.573666666
+      }
+    },
+    "Q133693996": {
+      "wikidataId": "Q133693996",
+      "name": "下三輪玉田谷戸横穴墓群",
+      "description": "東京都町田市三輪町に所在する横穴墓群。",
+      "coordinates": {
+        "lng": 139.500222222,
+        "lat": 35.570472222
+      }
+    },
+    "Q133694418": {
+      "wikidataId": "Q133694418",
+      "name": "三輪白坂横穴墓群",
+      "description": "東京都町田市三輪町に所在する横穴墓群。",
+      "coordinates": {
+        "lng": 139.493444444,
+        "lat": 35.579416666
+      }
+    },
+    "Q133890397": {
+      "wikidataId": "Q133890397",
+      "name": "Q133890397",
+      "coordinates": {
+        "lng": 139.76698,
+        "lat": 35.70229
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%BCste%20von%20Chosaburo%20Mitani%20in%20Tokyo.jpg"
+    },
+    "Q611678": {
+      "wikidataId": "Q611678",
+      "name": "Ōkunitama Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.479,
+        "lat": 35.667333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C5%8Ckunitama%20Shrine.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%8Ckunitama_Shrine",
+      "website": "https://www.ookunitamajinja.or.jp/"
+    },
+    "Q3266956": {
+      "wikidataId": "Q3266956",
+      "name": "Shibakōen",
+      "description": "park in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.748761111,
+        "lat": 35.657363888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zojoji%20frontal%20steps.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shiba_Park",
+      "website": "http://www.tokyo-park.or.jp/park/format/outline001.html"
+    },
+    "Q3296031": {
+      "wikidataId": "Q3296031",
+      "name": "Maruyama Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7337,
+        "lat": 35.63821667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maruyama%20Shrine.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruyama_Shrine"
+    },
+    "Q3514174": {
+      "wikidataId": "Q3514174",
+      "name": "Takanawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73786111,
+        "lat": 35.63529167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takanawa-jinja%20Tokyo.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Takanawa_Shrine"
+    },
+    "Q4791114": {
+      "wikidataId": "Q4791114",
+      "name": "Arisugawa-no-miya Memorial Park",
+      "description": "park in Tokyo",
+      "coordinates": {
+        "lng": 139.72562,
+        "lat": 35.65201
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arisugawa2.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Arisugawa-no-miya_Memorial_Park",
+      "website": "https://www.arisugawa-park.jp/english/"
+    },
+    "Q11370809": {
+      "wikidataId": "Q11370809",
+      "name": "Kamezuka Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74202778,
+        "lat": 35.64570833
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamezuka-Inari%20Shrine%20Torii.JPG"
+    },
+    "Q11390921": {
+      "wikidataId": "Q11390921",
+      "name": "Hachiman-Yagumo Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.335138888,
+        "lat": 35.661222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%85%AB%E5%B9%A1%E5%85%AB%E9%9B%B2%E7%A5%9E%E7%A4%BE%20%E6%8B%9D%E6%AE%BF.jpg",
+      "website": "https://www.hachiman-yakumo.or.jp/"
+    },
+    "Q11404090": {
+      "wikidataId": "Q11404090",
+      "name": "Kitaya Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.700388888,
+        "lat": 35.665611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitaya-Inari-Shrine-Shibuya-03.jpg"
+    },
+    "Q11410989": {
+      "wikidataId": "Q11410989",
+      "name": "Kojirō Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.727861,
+        "lat": 35.638306
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kojirou%20inari%20jinja%200002.jpg"
+    },
+    "Q11411041": {
+      "wikidataId": "Q11411041",
+      "name": "Kojurō Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.733056,
+        "lat": 35.63975
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kojurouinari%20shrine.jpg"
+    },
+    "Q11442850": {
+      "wikidataId": "Q11442850",
+      "name": "Tenmansha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.353138888,
+        "lat": 35.646777777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%8C%97%E9%87%8E%E5%A4%A9%E6%BA%80%E7%A4%BE.jpg"
+    },
+    "Q11464226": {
+      "wikidataId": "Q11464226",
+      "name": "Ono Shrine",
+      "description": "shrine in Fuchū, Tokyo",
+      "coordinates": {
+        "lng": 139.456383,
+        "lat": 35.664217
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fuchu-Ono-jinja%20haiden.jpeg"
+    },
+    "Q11509587": {
+      "wikidataId": "Q11509587",
+      "name": "Hibiya Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.758278,
+        "lat": 35.663333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hibiya%20jinja%28Higashi-Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q11549611": {
+      "wikidataId": "Q11549611",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73127778,
+        "lat": 35.64315278
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shirokane%20Hikawa-jinja%205.jpg"
+    },
+    "Q11549612": {
+      "wikidataId": "Q11549612",
+      "name": "Hikawa Shrine",
+      "description": "building in Tokyo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73111111,
+        "lat": 35.65277778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20shrine%20moto-azabu%201.jpg"
+    },
+    "Q11549613": {
+      "wikidataId": "Q11549613",
+      "name": "Hikawa Shrine (Shibuya-ku)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.67611111,
+        "lat": 35.68555556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20honmachi%20shibuya.JPG"
+    },
+    "Q11579591": {
+      "wikidataId": "Q11579591",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Hachioji, Japan",
+      "coordinates": {
+        "lng": 139.358861111,
+        "lat": 35.629388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%99%BD%E5%B1%B1%E7%A5%9E%E7%A4%BE%20%28%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82%29.jpg"
+    },
+    "Q11617940": {
+      "wikidataId": "Q11617940",
+      "name": "Chanoki Inari",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.745,
+        "lat": 35.647833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chanoki%20Inari.jpg"
+    },
+    "Q11660694": {
+      "wikidataId": "Q11660694",
+      "name": "霊南坂教会",
+      "coordinates": {
+        "lng": 139.742083333,
+        "lat": 35.667083333
+      }
+    },
+    "Q18700589": {
+      "wikidataId": "Q18700589",
+      "name": "Izumo-Taisha-Tokyo-bunshi",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.729027777,
+        "lat": 35.66225
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%87%BA%E9%9B%B2%E5%A4%A7%E7%A4%BE%E6%9D%B1%E4%BA%AC%E5%88%86%E8%A9%9E-1.JPG"
+    },
+    "Q21083961": {
+      "wikidataId": "Q21083961",
+      "name": "Shibuya scramble crossing",
+      "description": "scramble crossing in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.700544444,
+        "lat": 35.659502777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shibuya%20scramble%20crossing%20during%20Halloween%202023%2C%20actually%20less%20crowded%20than%20usual%2C%20high%20police%20presence%202.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shibuya_Crossing"
+    },
+    "Q21654130": {
+      "wikidataId": "Q21654130",
+      "name": "Nozuta Park",
+      "description": "park in Machida, Japan",
+      "coordinates": {
+        "lng": 139.44272,
+        "lat": 35.59224
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NozutaPark202208.jpg",
+      "website": "https://www.nozuta-park.com/"
+    },
+    "Q22120361": {
+      "wikidataId": "Q22120361",
+      "name": "Machida-tenmangū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.451667,
+        "lat": 35.538333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Machida-Tenmangu-Shrine.jpg"
+    },
+    "Q57966286": {
+      "wikidataId": "Q57966286",
+      "name": "Hirata Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.696455555,
+        "lat": 35.682811111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hirata%20Shrine1.jpg"
+    },
+    "Q85878617": {
+      "wikidataId": "Q85878617",
+      "name": "Taga Shrine",
+      "description": "shrine in Hachiōji, Tōkyo",
+      "coordinates": {
+        "lng": 139.313089,
+        "lat": 35.663872
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taga%20jinja%202019a3.jpg"
+    },
+    "Q85881569": {
+      "wikidataId": "Q85881569",
+      "name": "Haruna Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.306667,
+        "lat": 35.628444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Haruna%20jinjya.jpg"
+    },
+    "Q97376109": {
+      "wikidataId": "Q97376109",
+      "name": "Sakurada  Shrine, Minato, Tokyo",
+      "description": "Shinto shrine in Minato, Japan",
+      "coordinates": {
+        "lng": 139.727166666,
+        "lat": 35.659277777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sakurada%20jinja%2C%20Minato%2C%20Tokyo%201.jpg"
+    },
+    "Q97376118": {
+      "wikidataId": "Q97376118",
+      "name": "Shiogama Shrine",
+      "description": "shrine in Shinbashi, Minato-ku",
+      "coordinates": {
+        "lng": 139.754333333,
+        "lat": 35.663222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shiogama%20jinja%28Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q98082797": {
+      "wikidataId": "Q98082797",
+      "name": "Kajiwara Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.276695,
+        "lat": 35.656475
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%A2%B6%E5%8E%9F%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%E6%9C%AC%E6%AE%BF%EF%BC%88%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82%EF%BC%89.jpg"
+    },
+    "Q99557139": {
+      "wikidataId": "Q99557139",
+      "name": "Shusse no Ishidan",
+      "description": "東京都港区の愛宕神社にある石段",
+      "coordinates": {
+        "lng": 139.74889,
+        "lat": 35.66467
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%84%9B%E5%AE%95%E7%A5%9E%E7%A4%BE%E3%83%BB%E5%87%BA%E4%B8%96%E3%81%AE%E7%9F%B3%E6%AE%B5.jpg"
+    },
+    "Q110776578": {
+      "wikidataId": "Q110776578",
+      "name": "Wakamatsu Shrine",
+      "description": "shrine in Hachiōji, Tōkyō",
+      "coordinates": {
+        "lng": 139.306444444,
+        "lat": 35.707
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wakamatsu-jinja%2C%20Hachioji.jpg"
+    },
+    "Q111903401": {
+      "wikidataId": "Q111903401",
+      "name": "Kodakara Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75203,
+        "lat": 35.66892
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kodakara%20Inari%28Nishi-Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q111903466": {
+      "wikidataId": "Q111903466",
+      "name": "Toyoshige Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7516,
+        "lat": 35.66824
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toyoshige%20Inari-jinja%28Nishi-Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q113385781": {
+      "wikidataId": "Q113385781",
+      "name": "Yanagi Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.746012536,
+        "lat": 35.652819919
+      }
+    },
+    "Q113386352": {
+      "wikidataId": "Q113386352",
+      "name": "Mihokashima Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.749236706,
+        "lat": 35.646941084
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miho%20Kashima%20jinja.jpg"
+    },
+    "Q113634745": {
+      "wikidataId": "Q113634745",
+      "name": "Suehiro Inari daimyōjin",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75081,
+        "lat": 35.66476
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suehiro%20Inari%20daimy%C5%8Djin%28Nishi-Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q113634793": {
+      "wikidataId": "Q113634793",
+      "name": "Zensho Inari-daimyōjin",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75081,
+        "lat": 35.66476
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zensho%20Inari%20daimy%C5%8Djin%28Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q113634852": {
+      "wikidataId": "Q113634852",
+      "name": "Tamura Ichō Inari-daimyōjin",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75476,
+        "lat": 35.66416
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tamura%20Ich%C5%8D%20Inari%20daimy%C5%8Djin%28Shinbashi%2C%20Minato%29%2001.jpg"
+    },
+    "Q116768256": {
+      "wikidataId": "Q116768256",
+      "name": "Koyasu Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.341306,
+        "lat": 35.659083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koyasu%20jinja.jpg"
+    },
+    "Q119929548": {
+      "wikidataId": "Q119929548",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Fuchū, Japan",
+      "coordinates": {
+        "lng": 139.500917,
+        "lat": 35.670028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tunehisa-Hachiman%20202502-1.jpg"
+    },
+    "Q119929549": {
+      "wikidataId": "Q119929549",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Shiraitodai, Japan",
+      "coordinates": {
+        "lng": 139.505666666,
+        "lat": 35.671
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachiman%20Jinja%20%28Shiraitodai%201-chome%2C%20Fuchu%2C%20Tokyo%29%2001.JPG"
+    },
+    "Q119929563": {
+      "wikidataId": "Q119929563",
+      "name": "Ichimori Ōtori Shrine (Hachiōji)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.34,
+        "lat": 35.66028
+      }
+    },
+    "Q122983252": {
+      "wikidataId": "Q122983252",
+      "name": "Kurainaridaimyojin Shrine",
+      "description": "Shinto shrine in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.746563465,
+        "lat": 35.652823844
+      }
+    },
+    "Q123118557": {
+      "wikidataId": "Q123118557",
+      "name": "Yagara Hachimangū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.4055,
+        "lat": 35.579305555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yagarahachiman-Shrine.jpg",
+      "website": "http://www.yagarahatimangu.jp/"
+    },
+    "Q123156376": {
+      "wikidataId": "Q123156376",
+      "name": "Kiso-Yasaka Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.427222222,
+        "lat": 35.559666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kiso-Yasaka%20Shrine%20in%20Machida%20city.jpg"
+    },
+    "Q127692420": {
+      "wikidataId": "Q127692420",
+      "name": "Meiji Jingū Museum",
+      "description": "museum in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.702319,
+        "lat": 35.672287
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AEIMG%2020220129%2004.jpg",
+      "website": "https://www.meijijingu.or.jp/en/whattosee/museum/"
+    },
+    "Q130301215": {
+      "wikidataId": "Q130301215",
+      "name": "Kitaya Park",
+      "description": "park in Shibuya",
+      "coordinates": {
+        "lng": 139.699732,
+        "lat": 35.664072
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitaya%20park%20shibuya%20240116.jpg"
+    },
+    "Q130305232": {
+      "wikidataId": "Q130305232",
+      "name": "Saiwai Inari Shrine",
+      "description": "shrine in Shibakōen, Minato0ku",
+      "coordinates": {
+        "lng": 139.745864,
+        "lat": 35.660591
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shrine%20%40%20Minato%20%2813842954424%29.jpg",
+      "website": "http://saiwaijinja.or.jp/"
+    },
+    "Q131924400": {
+      "wikidataId": "Q131924400",
+      "name": "Sanuki Kohaku Inari Shrine",
+      "description": "shrine in Hamamatsuchō, Minato-ku",
+      "coordinates": {
+        "lng": 139.756136,
+        "lat": 35.653996
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanuki%20Kohaku-jinja%28Hamamatsuch%C5%8D%2C%20Minato%29%2008.jpg"
+    },
+    "Q136463408": {
+      "wikidataId": "Q136463408",
+      "name": "MoN Takanawa: The Museum of Narratives",
+      "description": "museum in Minato, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.741829,
+        "lat": 35.63969
+      },
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/MoN_Takanawa",
+      "website": "https://www.montakanawa.jp"
+    },
+    "Q3915473": {
+      "wikidataId": "Q3915473",
+      "name": "Shōwa Memorial Park",
+      "description": "park in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.395,
+        "lat": 35.71
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Showa%20Commemorative%20National%20Government%20Park%201.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Showa_Memorial_Park",
+      "website": "https://www.showakinen-koen.jp/"
+    },
+    "Q6632026": {
+      "wikidataId": "Q6632026",
+      "name": "Yakushi-ike Park",
+      "description": "park in Machida, Japan",
+      "coordinates": {
+        "lng": 139.447778,
+        "lat": 35.578889
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cherry%20blossoms%20Yakushiike%20Park.jpg",
+      "website": "https://machida-shikisainomori.com/"
+    },
+    "Q11422761": {
+      "wikidataId": "Q11422761",
+      "name": "Kokuryō Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.552372,
+        "lat": 35.652797
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kokuryo%20jinjya%2006.JPG"
+    },
+    "Q11463267": {
+      "wikidataId": "Q11463267",
+      "name": "Koishikawa Daijingū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.750111,
+        "lat": 35.709083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koishikawa%20Daijing%C5%AB%2C%20Bunkyo%2003.jpg"
+    },
+    "Q11464227": {
+      "wikidataId": "Q11464227",
+      "name": "Ono Shrine",
+      "description": "Shinto shrine in Machida, Japan",
+      "coordinates": {
+        "lng": 139.438056,
+        "lat": 35.598056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Onojinja.JPG"
+    },
+    "Q11464224": {
+      "wikidataId": "Q11464224",
+      "name": "Ono Shrine",
+      "description": "Shinto shine in Tama, Tōkyō, Japan",
+      "coordinates": {
+        "lng": 139.442272222,
+        "lat": 35.653002777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tama-Ono-jinja%20haiden.jpeg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ono_Shrine",
+      "website": "https://onojinja.or.jp/"
+    },
+    "Q11480773": {
+      "wikidataId": "Q11480773",
+      "name": "Fudaten Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.545814,
+        "lat": 35.656912
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fudaten-Shrine-02.jpg"
+    },
+    "Q11528832": {
+      "wikidataId": "Q11528832",
+      "name": "Kizuki-taisha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.546219,
+        "lat": 35.699744
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kizuki%20Taisha.jpg"
+    },
+    "Q11579594": {
+      "wikidataId": "Q11579594",
+      "name": "Hakusan Shrine (Tama)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.428361,
+        "lat": 35.622444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%90%BD%E5%90%88%E7%99%BD%E5%B1%B1%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q11603911": {
+      "wikidataId": "Q11603911",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Bunkyo-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.74027778,
+        "lat": 35.72194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%B0%B8%E5%B7%9D%E7%A5%9E%E7%A4%BE.JPG"
+    },
+    "Q11619212": {
+      "wikidataId": "Q11619212",
+      "name": "Sugawara Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.447222222,
+        "lat": 35.559166666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sugawara-Shrine.jpg"
+    },
+    "Q11647333": {
+      "wikidataId": "Q11647333",
+      "name": "Konpiragū",
+      "description": "Shinto shrine in Tama, Japan",
+      "coordinates": {
+        "lng": 139.445333,
+        "lat": 35.644806
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE%28%E5%A4%9A%E6%91%A9%E5%B8%82%29.jpg"
+    },
+    "Q11651343": {
+      "wikidataId": "Q11651343",
+      "name": "Teppōzu Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.779722,
+        "lat": 35.672444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Teppozu%20Inari%20Shrine%2001.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Teppozu_Inari_Shrine"
+    },
+    "Q24861920": {
+      "wikidataId": "Q24861920",
+      "name": "Daima Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.540543,
+        "lat": 35.644318
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kadokawa%20Daiei%20Studio%20202502.jpg"
+    },
+    "Q38277566": {
+      "wikidataId": "Q38277566",
+      "name": "Mikawa Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.759111111,
+        "lat": 35.704777777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikawa%20Inari%20Jinja.JPG"
+    },
+    "Q38277801": {
+      "wikidataId": "Q38277801",
+      "name": "Kitano Shrine",
+      "description": "shrine in Bunkyo-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.74681,
+        "lat": 35.70778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano%20Jinja%20%28Bunkyo%29.JPG",
+      "website": "http://ushitenjin.jp/"
+    },
+    "Q42311522": {
+      "wikidataId": "Q42311522",
+      "name": "越前堀児童公園",
+      "description": "park in Chuo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7825,
+        "lat": 35.676388888
+      }
+    },
+    "Q42311550": {
+      "wikidataId": "Q42311550",
+      "name": "Kakigaracho Park",
+      "description": "park in Chuo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.787083333,
+        "lat": 35.68325
+      }
+    },
+    "Q42311590": {
+      "wikidataId": "Q42311590",
+      "name": "Hatoba Park",
+      "description": "park in Chuo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.77513,
+        "lat": 35.66399
+      },
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hatoba_Park",
+      "website": "https://www.city.chuo.lg.jp/sisetugaido/koento/kouen_hiroba_ichiran.html"
+    },
+    "Q42311659": {
+      "wikidataId": "Q42311659",
+      "name": "Sudō park",
+      "description": "park in Bunkyo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.76251,
+        "lat": 35.72639
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/SudoPark%20Bunkyo%20Tokyo%20Japan.jpg"
+    },
+    "Q42311667": {
+      "wikidataId": "Q42311667",
+      "name": "新大塚公園",
+      "description": "park in Bunkyo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73355556,
+        "lat": 35.71777778
+      }
+    },
+    "Q42311685": {
+      "wikidataId": "Q42311685",
+      "name": "Rekisen Park",
+      "description": "park in Bunkyo, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.751111111,
+        "lat": 35.708055555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%A4%AB%E5%B7%9D%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q43594496": {
+      "wikidataId": "Q43594496",
+      "name": "Kodaira Shinmei-gu",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.449027777,
+        "lat": 35.732555555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kodaira%20Sinmeigu-9.jpg"
+    },
+    "Q65286546": {
+      "wikidataId": "Q65286546",
+      "name": "Kotohira-gū Tokyo Branch",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.755923,
+        "lat": 35.703763
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/FNic7yqaIAYd4RS.png"
+    },
+    "Q72707416": {
+      "wikidataId": "Q72707416",
+      "name": "Kohaku Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.550368,
+        "lat": 35.661506
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kohaku-jinja%28Chofu%29.jpg"
+    },
+    "Q93493374": {
+      "wikidataId": "Q93493374",
+      "name": "Suzuki Site",
+      "description": "archaeological site in Kodaira, Japan",
+      "coordinates": {
+        "lng": 139.496527777,
+        "lat": 35.718611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suzuki%20Remains%20Museum.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Site"
+    },
+    "Q97310539": {
+      "wikidataId": "Q97310539",
+      "name": "Yushima Goryōsha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.765113,
+        "lat": 35.704435
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yushima%20Goryo-sha.jpg"
+    },
+    "Q103960303": {
+      "wikidataId": "Q103960303",
+      "name": "Shimofuda Site",
+      "description": "archaeological site in Chōfu, Japan",
+      "coordinates": {
+        "lng": 139.548722222,
+        "lat": 35.643694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimofuda%20Site%2C%20gaikan.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shimofuda_Site",
+      "website": "https://www.city.chofu.tokyo.jp/www/contents/1431941588156/"
+    },
+    "Q104696867": {
+      "wikidataId": "Q104696867",
+      "name": "the Furniture Museum",
+      "coordinates": {
+        "lng": 139.377218,
+        "lat": 35.712727
+      },
+      "website": "https://www.kaguhaku.or.jp/"
+    },
+    "Q106852430": {
+      "wikidataId": "Q106852430",
+      "name": "Fukiage Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.729231,
+        "lat": 35.722592
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fukiage%20Inari%20Jinja.JPG"
+    },
+    "Q106852431": {
+      "wikidataId": "Q106852431",
+      "name": "Koshikake Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.724807,
+        "lat": 35.71903
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koshikake%20Inari%20Jinja.JPG"
+    },
+    "Q106852581": {
+      "wikidataId": "Q106852581",
+      "name": "Oiwa Inari Tamiya Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.783166666,
+        "lat": 35.674638888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oiwa%20inari%20tamiya%20jinja01.jpg"
+    },
+    "Q106852590": {
+      "wikidataId": "Q106852590",
+      "name": "Suwa Shrine",
+      "description": "shrine in Bunkyo, Tokyo",
+      "coordinates": {
+        "lng": 139.745444444,
+        "lat": 35.706861111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa-jinja%20%28Bunkyo-ku%29.jpg"
+    },
+    "Q106852591": {
+      "wikidataId": "Q106852591",
+      "name": "Shusse Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.754785,
+        "lat": 35.70674
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Syusseinari%20Jinja.png"
+    },
+    "Q106852593": {
+      "wikidataId": "Q106852593",
+      "name": "Inari Shrine",
+      "description": "shrine in Bunkyō, Tōkyo",
+      "coordinates": {
+        "lng": 139.740099,
+        "lat": 35.730088
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Sengoku%2C%20Bunkyo%29.JPG"
+    },
+    "Q107410079": {
+      "wikidataId": "Q107410079",
+      "name": "Musashino-hachimangū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.580203,
+        "lat": 35.707719
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Musashino%20Hachiman-g%C5%AB%20%28Musashino%29%2001.jpg"
+    },
+    "Q109160363": {
+      "wikidataId": "Q109160363",
+      "name": "Kachidoki hashi no shiryōkan",
+      "description": "東京都中央区にある橋の資料館",
+      "coordinates": {
+        "lng": 139.77366,
+        "lat": 35.66305
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kachidoki%20hashi%20no%20shiry%C5%8Dkan15.jpg",
+      "website": "https://www.kensetsu.metro.tokyo.lg.jp/jigyo/road/kanri/gaiyo/kachidoki/index.html"
+    },
+    "Q109162634": {
+      "wikidataId": "Q109162634",
+      "name": "Junko Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.77974,
+        "lat": 35.67761
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Junko%20inari%20jinja01.jpg"
+    },
+    "Q109362392": {
+      "wikidataId": "Q109362392",
+      "name": "御殿山遺跡",
+      "description": "archaeological site in Japan",
+      "coordinates": {
+        "lng": 139.574416666,
+        "lat": 35.700361111
+      }
+    },
+    "Q111588242": {
+      "wikidataId": "Q111588242",
+      "name": "Ohayashi Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7577,
+        "lat": 35.72509
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ohayashi%20Inari-jinja%20%28Sendagi%2C%20Bunkyo%29%2001.jpg"
+    },
+    "Q111838589": {
+      "wikidataId": "Q111838589",
+      "name": "Suehiro Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.78406,
+        "lat": 35.68684
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suehiro-jinja%28Nihonbashi-Ningy%C5%8Dch%C5%8D%2C%20Ch%C5%AB%C5%8D%29%2001.jpg"
+    },
+    "Q111839564": {
+      "wikidataId": "Q111839564",
+      "name": "Kasama Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.78532,
+        "lat": 35.6881
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasama%20Inari-jinja%28Nihonbashi-Hamach%C5%8D%2C%20Ch%C5%AB%C5%8D%29%2004.jpg"
+    },
+    "Q111840261": {
+      "wikidataId": "Q111840261",
+      "name": "Ōhiro Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7901,
+        "lat": 35.68557
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C5%8Chiro-jinja%28Nihonbashi-Hamach%C5%8D%2C%20Ch%C5%AB%C5%8D%29%2005.jpg"
+    },
+    "Q111840554": {
+      "wikidataId": "Q111840554",
+      "name": "Kotohira-gū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.79026,
+        "lat": 35.68359
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kotohira-g%C5%AB%28Nihonbashi-Nakasu%2C%20Ch%C5%AB%C5%8D%29%2007.jpg"
+    },
+    "Q118114706": {
+      "wikidataId": "Q118114706",
+      "name": "Fukutoku Shrine",
+      "description": "shrine in Chuo-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.774444,
+        "lat": 35.687306
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%A6%8F%E5%BE%B3%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q119929550": {
+      "wikidataId": "Q119929550",
+      "name": "Kasumine Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.583083333,
+        "lat": 35.649888888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasumine%20Jinja.JPG"
+    },
+    "Q119929551": {
+      "wikidataId": "Q119929551",
+      "name": "Inari Shrine",
+      "description": "Shinto shrine in Chofu, Japan",
+      "coordinates": {
+        "lng": 139.56525,
+        "lat": 35.66083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Shibasaki%2C%20Chofu%29.JPG"
+    },
+    "Q119929558": {
+      "wikidataId": "Q119929558",
+      "name": "Inari Shrine",
+      "description": "東京都小平市鈴木町にある神社",
+      "coordinates": {
+        "lng": 139.495194,
+        "lat": 35.72225
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Suzukicho%2C%20Kodaira%29.JPG"
+    },
+    "Q119929559": {
+      "wikidataId": "Q119929559",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Kodaira, Japan",
+      "coordinates": {
+        "lng": 139.493083,
+        "lat": 35.717889
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20Jinja%20%28Kodaira%29.JPG"
+    },
+    "Q119929557": {
+      "wikidataId": "Q119929557",
+      "name": "Inari Shrine",
+      "description": "Shinto shrine in Kodaira, Japan",
+      "coordinates": {
+        "lng": 139.497278,
+        "lat": 35.737028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Onumacho%2C%20Kodaira%29.JPG"
+    },
+    "Q119929560": {
+      "wikidataId": "Q119929560",
+      "name": "Inari Shrine",
+      "description": "東京都小平市上水本町にある神社",
+      "coordinates": {
+        "lng": 139.467472,
+        "lat": 35.71875
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Josuihoncho%2C%20Kodaira%29.JPG"
+    },
+    "Q119929566": {
+      "wikidataId": "Q119929566",
+      "name": "Hie Shrine",
+      "description": "Shinto shrine in Kodaira, Japan",
+      "coordinates": {
+        "lng": 139.445,
+        "lat": 35.731167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hie-jinja%2C%20Kodaira.jpg"
+    },
+    "Q125874183": {
+      "wikidataId": "Q125874183",
+      "name": "Musashino Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.505055555,
+        "lat": 35.731555555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Musashino%20Jinja.JPG"
+    },
+    "Q128867043": {
+      "wikidataId": "Q128867043",
+      "name": "Inari Shrine",
+      "description": "Shinto shrine in Jōsui-Minamichō, Japan",
+      "coordinates": {
+        "lng": 139.480583,
+        "lat": 35.71575
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Josuiminamicho%2C%20Kodaira%29.JPG"
+    },
+    "Q130307205": {
+      "wikidataId": "Q130307205",
+      "name": "Aoi Shrine",
+      "description": "Shinto shrine in Chofu, Japan",
+      "coordinates": {
+        "lng": 139.501526,
+        "lat": 35.642918
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoi-jinja%20in%20Chofu%2001%20-%20Jan%201%2C%202019.jpg"
+    },
+    "Q132125272": {
+      "wikidataId": "Q132125272",
+      "name": "Kumano Gu (Kodaira)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.490056,
+        "lat": 35.728556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano%20Gu%20%28Kodaira%29.JPG"
+    },
+    "Q6631821": {
+      "wikidataId": "Q6631821",
+      "name": "Chidorigafuchi Park",
+      "description": "park in Chiyoda, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74496,
+        "lat": 35.686
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chidorigafuchi%20Park%2001.jpg"
+    },
+    "Q11370794": {
+      "wikidataId": "Q11370794",
+      "name": "Kamede Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.831056,
+        "lat": 35.69
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamede%20Shrine%2CKohto-ku%2CTokyo.jpg"
+    },
+    "Q11404311": {
+      "wikidataId": "Q11404311",
+      "name": "Kitano Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.70803889,
+        "lat": 35.54014167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano%20Jinja%20%28Ota%2C%20Tokyo%29.JPG"
+    },
+    "Q11444172": {
+      "wikidataId": "Q11444172",
+      "name": "Ōtahime Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.763056,
+        "lat": 35.696389
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Princess%20Oota%20Shrine.JPG"
+    },
+    "Q11487463": {
+      "wikidataId": "Q11487463",
+      "name": "Yayoi Ireido",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.749806,
+        "lat": 35.694167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Ireido%201.JPG"
+    },
+    "Q11538638": {
+      "wikidataId": "Q11538638",
+      "name": "Umedashinmeigu",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.795305555,
+        "lat": 35.767055555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Umeda%20Shinmeigu%20-%20front%20-%20June%208%202015.jpg"
+    },
+    "Q11590603": {
+      "wikidataId": "Q11590603",
+      "name": "St. Frances Xavier Church",
+      "description": "東京都千代田区の教会",
+      "coordinates": {
+        "lng": 139.757361111,
+        "lat": 35.699388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kanda%20church.JPG",
+      "website": "http://www.catholickandachurch.org/"
+    },
+    "Q11603746": {
+      "wikidataId": "Q11603746",
+      "name": "Shinozaki Sengen Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.901923,
+        "lat": 35.714775
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sengen%20jinja%20shinozaki.JPG"
+    },
+    "Q11607557": {
+      "wikidataId": "Q11607557",
+      "name": "Sogo Recreation Park",
+      "description": "park in Edogawa-ku, Japan",
+      "coordinates": {
+        "lng": 139.87219444,
+        "lat": 35.65066667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sogo%20recreation%20park%20fuji%20park%20kasai%20edogawa%20tokyo%202009.JPG"
+    },
+    "Q11643699": {
+      "wikidataId": "Q11643699",
+      "name": "Adachi Urban Agricultural Park",
+      "description": "park in Adachi-ku, Japan",
+      "coordinates": {
+        "lng": 139.745444,
+        "lat": 35.782972
+      }
+    },
+    "Q42311495": {
+      "wikidataId": "Q42311495",
+      "name": "九段坂公園",
+      "description": "park in Chiyoda, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7483607,
+        "lat": 35.6946395
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ToKyotodo%20308%20Chiyoda%20Ward%201.JPG",
+      "website": "https://www.city.chiyoda.lg.jp/shisetsu/koen/kudanzaka-ko.html"
+    },
+    "Q42311503": {
+      "wikidataId": "Q42311503",
+      "name": "Awaji Park",
+      "description": "park in Chiyoda, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7620736,
+        "lat": 35.692434
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Awaji%20park%20in%20Kanda%202023-02-04%20%281%29%20as.jpg"
+    },
+    "Q42312948": {
+      "wikidataId": "Q42312948",
+      "name": "Hozuka Park",
+      "description": "park in Adachi, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.81287,
+        "lat": 35.78666
+      }
+    },
+    "Q55527860": {
+      "wikidataId": "Q55527860",
+      "name": "Ichinoe-Sakaigawa River Shinsui Park",
+      "description": "park in Edogawa-ku, Japan",
+      "coordinates": {
+        "lng": 139.87658333,
+        "lat": 35.69080556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichinoe-Sakaigawa-shinsui-park%20jin-ya-bashi.jpg",
+      "website": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/ichinoe2.html"
+    },
+    "Q55532887": {
+      "wikidataId": "Q55532887",
+      "name": "Hirakawa-tenmangu",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.740733,
+        "lat": 35.682445
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hirakawa%20Tenman-g%C5%AB%20shrine%2C%20Tokyo%20-%20Jul%2031%2C%202022%20%281%29.jpg"
+    },
+    "Q85567286": {
+      "wikidataId": "Q85567286",
+      "name": "Misaki-Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.754306,
+        "lat": 35.701833
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Misaki%20inari%20shrine%202020-02-15%20%282%29%20sa.jpg"
+    },
+    "Q95746491": {
+      "wikidataId": "Q95746491",
+      "name": "Shinkoiwa Katori Shrine",
+      "description": "Shintō shrine in Edogawa city, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.866694,
+        "lat": 35.711667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Katori%20shrine%20of%20Shin-Koiwa.jpg"
+    },
+    "Q95746551": {
+      "wikidataId": "Q95746551",
+      "name": "Higashi‑Komatsugawa Katori Shrine",
+      "description": "Shintō shrine in Edogawa city, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.867394,
+        "lat": 35.709046
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Katori%20shrine%20of%20Higashi-komatsugawa.jpg"
+    },
+    "Q97191546": {
+      "wikidataId": "Q97191546",
+      "name": "Kitano Shrine",
+      "description": "shrine in Kitakoiwa, Edogawa-ku",
+      "coordinates": {
+        "lng": 139.89575,
+        "lat": 35.737388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano-jinja%2C%20Edogawa.jpg"
+    },
+    "Q97191905": {
+      "wikidataId": "Q97191905",
+      "name": "Tenso Shrine",
+      "description": "Shinto shrine in Koto-ku, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.877638888,
+        "lat": 35.658805555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20Jinja%20%28Higashikasai%2C%20Edogawa%29.JPG"
+    },
+    "Q97192261": {
+      "wikidataId": "Q97192261",
+      "name": "Hirai Sengen Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.8425,
+        "lat": 35.700916666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hirai-sengen-jinja%20202408-1.jpg"
+    },
+    "Q97193697": {
+      "wikidataId": "Q97193697",
+      "name": "Shishimizuka Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.892334,
+        "lat": 35.710815
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shishimizuka%20jinja.jpg"
+    },
+    "Q97195467": {
+      "wikidataId": "Q97195467",
+      "name": "Rokusho Shrine",
+      "description": "shrine in Shimomaruko, Ōta-ku",
+      "coordinates": {
+        "lng": 139.683388888,
+        "lat": 35.56925
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rokusho-jinja%20entrance%202023-12-10.jpg"
+    },
+    "Q97195606": {
+      "wikidataId": "Q97195606",
+      "name": "Toyose Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.691808,
+        "lat": 35.562858
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%81%E5%AF%84%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q97195849": {
+      "wikidataId": "Q97195849",
+      "name": "Tenso Shrine",
+      "description": "Shinto shrine in Sannō, Ota-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.72689,
+        "lat": 35.58849
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20Jinja%20%28Sanno%2C%20Ota%2C%20Tokyo%29.JPG"
+    },
+    "Q97195862": {
+      "wikidataId": "Q97195862",
+      "name": "Onazuka Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71237,
+        "lat": 35.56547
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Onazuka-jinja%20%28Nishi-Kamata%2C%20Ota%29%2002.jpg"
+    },
+    "Q97196664": {
+      "wikidataId": "Q97196664",
+      "name": "Tsubaki Shrine (Ōta)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.725388888,
+        "lat": 35.564972222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsubaki%20Jinja%20%28Ota%2C%20Tokyo%29.JPG"
+    },
+    "Q97196707": {
+      "wikidataId": "Q97196707",
+      "name": "Suijin Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75045,
+        "lat": 35.54568
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tamagawa-benzaiten%20%28Haneda%2C%20Ota%29%2005.jpg"
+    },
+    "Q97196810": {
+      "wikidataId": "Q97196810",
+      "name": "Kumano Shrine",
+      "description": "shrine in Sannō, Ōta-ku",
+      "coordinates": {
+        "lng": 139.721494,
+        "lat": 35.584504
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano-jinja%20%28Sann%C5%8D%2C%20Ota%29%2009.jpg"
+    },
+    "Q97197202": {
+      "wikidataId": "Q97197202",
+      "name": "Kifune Shrine",
+      "description": "Shinto shrine in Ota, Japan",
+      "coordinates": {
+        "lng": 139.737917,
+        "lat": 35.570111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kifune%20shrine%20-%20Ota-ku%20Tokyo%20-%20July%2029%202020%20-%20various%2017%2015%2028%20739000.jpeg"
+    },
+    "Q97201845": {
+      "wikidataId": "Q97201845",
+      "name": "Satake Inari Shrine",
+      "description": "Shinto shrine in Adachi-ku, Japan",
+      "coordinates": {
+        "lng": 139.797075,
+        "lat": 35.768908
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Satake%20Inari%20Jinja%20Shrine%2020240106.jpg"
+    },
+    "Q97203272": {
+      "wikidataId": "Q97203272",
+      "name": "Hashido Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.796327,
+        "lat": 35.74033
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hashido%20inari.jpg"
+    },
+    "Q97203419": {
+      "wikidataId": "Q97203419",
+      "name": "Nakacho Hikawa Shrine",
+      "description": "Shinto shrine in Adachi Tokyo",
+      "coordinates": {
+        "lng": 139.802111111,
+        "lat": 35.744027777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakacho%20Hikawa%20jinja%20-%20Adachi%20Tokyo%20Dec%2030%202020%20various%2014%2055%2049%20111000.jpeg"
+    },
+    "Q97203464": {
+      "wikidataId": "Q97203464",
+      "name": "Kawaramachi Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.797869444,
+        "lat": 35.74365
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kawaramachi%20inari%20jinja%20-%20Adachi%20Tokyo%20-%20Dec%2030%202020%20various%2015%2031%2018%20188000.jpeg"
+    },
+    "Q97205022": {
+      "wikidataId": "Q97205022",
+      "name": "Washi Shrine",
+      "description": "Shinto shrine in Adachi-ku, Japan",
+      "coordinates": {
+        "lng": 139.796889,
+        "lat": 35.785056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Washi%20Jinja%20%28Adachi%29.JPG"
+    },
+    "Q106852469": {
+      "wikidataId": "Q106852469",
+      "name": "Funabori Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.859111,
+        "lat": 35.685972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Funahori-inari-jinja%20202406-1.jpg"
+    },
+    "Q106852626": {
+      "wikidataId": "Q106852626",
+      "name": "Kami-Isshiki Tenso Shrine",
+      "description": "Shinto shrine in Edogawa-ku, Japan",
+      "coordinates": {
+        "lng": 139.873861,
+        "lat": 35.732167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kami-Isshiki%20Tenso%20jinja%202.jpg"
+    },
+    "Q113493086": {
+      "wikidataId": "Q113493086",
+      "name": "Kōtoku Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.764545,
+        "lat": 35.69547
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/K%C5%8Dtoku-inari-jinja%2005.jpg"
+    },
+    "Q113667013": {
+      "wikidataId": "Q113667013",
+      "name": "Shintoku Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.76783,
+        "lat": 35.69332
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shintoku%20Inari-jinja%20%28Kanda-Tsukasamachi%2C%20Chiyoda%29%2001.jpg"
+    },
+    "Q113667105": {
+      "wikidataId": "Q113667105",
+      "name": "Onjuku Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.76651,
+        "lat": 35.68996
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Onjuku%20Inari-jinja%20%28Uchikanda%2C%20Chiyoda%29%2002.jpg"
+    },
+    "Q113667160": {
+      "wikidataId": "Q113667160",
+      "name": "Satake Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.76942,
+        "lat": 35.69117
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Satake%20Inari-jinja%20%28Uchikanda%2C%20Chiyoda%29%2002.jpg"
+    },
+    "Q115228136": {
+      "wikidataId": "Q115228136",
+      "name": "Shirouo Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75087,
+        "lat": 35.54732
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shirauo%20Inari-jinja%20%28Haneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115252168": {
+      "wikidataId": "Q115252168",
+      "name": "Tamagawa Benzaiten",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.75053,
+        "lat": 35.5458
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tamagawa-benzaiten%20%28Haneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115258015": {
+      "wikidataId": "Q115258015",
+      "name": "Fujisaki Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74986,
+        "lat": 35.54646
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fujisaki%20Inari-jinja%20%28Haneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115258130": {
+      "wikidataId": "Q115258130",
+      "name": "Kamome Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74709,
+        "lat": 35.54631
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamome%20Inari-jinja%20%28Haneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115258187": {
+      "wikidataId": "Q115258187",
+      "name": "Yagoemon Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74621,
+        "lat": 35.54697
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yagoemon%20Inari-jinja%20%28Haneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115259842": {
+      "wikidataId": "Q115259842",
+      "name": "Nakamura Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73676,
+        "lat": 35.54669
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakamura%20Tenso-jinja%20%28Honhaneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115259910": {
+      "wikidataId": "Q115259910",
+      "name": "Takayama Unari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73669,
+        "lat": 35.54663
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takayama%20Inari-jinja%20%28Honhaneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115263244": {
+      "wikidataId": "Q115263244",
+      "name": "Jūkō Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.72817,
+        "lat": 35.54798
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/J%C5%ABk%C5%8D%20Inari-jinja%20%28Honhaneda%2C%20Ota%29%2001.jpg"
+    },
+    "Q115264439": {
+      "wikidataId": "Q115264439",
+      "name": "Ueda Myōhō Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.72472,
+        "lat": 35.54888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ueda%20My%C5%8Dh%C5%8D%20Inari-jinja%20%28Honhaneda%2C%20Ota%29%2002.jpg"
+    },
+    "Q115294099": {
+      "wikidataId": "Q115294099",
+      "name": "Haginaka Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.72803,
+        "lat": 35.55213
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Haginaka-jinja%20%28Haginaka%2C%20Ota%29%2001.jpg"
+    },
+    "Q117424691": {
+      "wikidataId": "Q117424691",
+      "name": "Edogawa-ku Local Museum",
+      "description": "東京都江戸川区にある区立博物館",
+      "coordinates": {
+        "lng": 139.866305555,
+        "lat": 35.705777777
+      },
+      "website": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shiryoshitsu/index.html"
+    },
+    "Q118732830": {
+      "wikidataId": "Q118732830",
+      "name": "Shirahige Shrine",
+      "description": "shrine in Ichinoe, Edogawa-ku, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.88001,
+        "lat": 35.68755
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shirahige-jinja%20%28Ichinoe%2C%20Edogawa%29%2002.jpg"
+    },
+    "Q128867049": {
+      "wikidataId": "Q128867049",
+      "name": "Tenso Shrine",
+      "description": "Shinto shrine in Adachi-ku, Japan",
+      "coordinates": {
+        "lng": 139.827698,
+        "lat": 35.778576
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20Jinja%20%28Kahei%2C%20Adachi%29.JPG"
+    },
+    "Q130213553": {
+      "wikidataId": "Q130213553",
+      "name": "Hanzōmon Museum",
+      "description": "museum in Ichibancho, Chiyoda-ku",
+      "coordinates": {
+        "lng": 139.741949,
+        "lat": 35.685864
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%8A%E8%94%B5%E9%96%80%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%20%E5%85%A5%E3%82%8A%E5%8F%A3%E4%BB%98%E8%BF%91.jpg",
+      "website": "https://www.hanzomonmuseum.jp/"
+    },
+    "Q133357554": {
+      "wikidataId": "Q133357554",
+      "name": "Shusse Inari Shrine",
+      "description": "shrine in Kanda-Sudachō, Chiyoda",
+      "coordinates": {
+        "lng": 139.769257,
+        "lat": 35.69643
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shusse%20Inari-jinja%20%28Kanda-Sudach%C5%8D%2C%20Chiyoda%29%2001.jpg"
+    },
+    "Q134488947": {
+      "wikidataId": "Q134488947",
+      "name": "新左近川親水公園",
+      "description": "東京都江戸川区にある公園",
+      "coordinates": {
+        "lng": 139.864444444,
+        "lat": 35.653888888
+      }
+    },
+    "Q11391057": {
+      "wikidataId": "Q11391057",
+      "name": "Hachiman‑sha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.62138889,
+        "lat": 35.66083333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachimangu.JPG"
+    },
+    "Q11391065": {
+      "wikidataId": "Q11391065",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Japan",
+      "coordinates": {
+        "lng": 139.61194444,
+        "lat": 35.66277778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachiman-Jinjya.JPG"
+    },
+    "Q11402307": {
+      "wikidataId": "Q11402307",
+      "name": "Kitazawa-hachimangū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.6697,
+        "lat": 35.6563
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitazawa%20hachiman%20shrine%20setagaya%202014.jpg"
+    },
+    "Q11434948": {
+      "wikidataId": "Q11434948",
+      "name": "Ōshima Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.836611111,
+        "lat": 35.686388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oosimainari%20jinja.JPG",
+      "website": "http://www.c2-factory.com/ojimainari/"
+    },
+    "Q11526478": {
+      "wikidataId": "Q11526478",
+      "name": "Higashi Ōjima Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.840904,
+        "lat": 35.690786
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Higasioosima%20jinja%20haiden.JPG"
+    },
+    "Q11587853": {
+      "wikidataId": "Q11587853",
+      "name": "Iwai Shrine",
+      "description": "Shinto shrine in Tokyo Prefecture, Japan",
+      "coordinates": {
+        "lng": 139.735322,
+        "lat": 35.585157
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iwai-jinja%20%28Tokyo%29%2C%20haiden-1.jpg"
+    },
+    "Q11596288": {
+      "wikidataId": "Q11596288",
+      "name": "Hieta Shrine",
+      "description": "Shinto shrine in Tokyo Prefecture, Japan",
+      "coordinates": {
+        "lng": 139.722639,
+        "lat": 35.564611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hieta%20jinja%20honden.JPG"
+    },
+    "Q11659839": {
+      "wikidataId": "Q11659839",
+      "name": "Yukigaya Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.686277777,
+        "lat": 35.596722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%9B%AA%E3%83%B6%E8%B0%B7%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%20%2826210%29.jpg",
+      "website": "https://yukigaya.info/"
+    },
+    "Q11668081": {
+      "wikidataId": "Q11668081",
+      "name": "Magome Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.710138888,
+        "lat": 35.590833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Magome%20hachiman%20jinja%20ota%202015.jpg"
+    },
+    "Q17215324": {
+      "wikidataId": "Q17215324",
+      "name": "Rokugo Shrine",
+      "description": "Shinto shrine in Tokyo Prefecture, Japan",
+      "coordinates": {
+        "lng": 139.713056111,
+        "lat": 35.544166944
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rokugo-Jinja%2C%20Shinmon.png"
+    },
+    "Q17218079": {
+      "wikidataId": "Q17218079",
+      "name": "Shinmei Shrine",
+      "description": "building in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.61722222,
+        "lat": 35.65375
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ShinmeiJinjya.JPG"
+    },
+    "Q17224560": {
+      "wikidataId": "Q17224560",
+      "name": "Okusawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.671253,
+        "lat": 35.605394
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Main%20Hall%20of%20Okusawa%20Shrine%20in%20Tokyo.jpg"
+    },
+    "Q21018911": {
+      "wikidataId": "Q21018911",
+      "name": "Ontake Shrine",
+      "description": "Shinto shrine in Ota, Japan",
+      "coordinates": {
+        "lng": 139.681333333,
+        "lat": 35.586311111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ontake%20jinja%20ota.JPG"
+    },
+    "Q21019097": {
+      "wikidataId": "Q21019097",
+      "name": "Seta-Tamagawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.626111,
+        "lat": 35.619722
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%80%AC%E7%94%B0%E7%8E%89%E5%B7%9D%E7%A5%9E%E7%A4%BE%E6%9C%AC%E5%A0%82.jpg"
+    },
+    "Q21019410": {
+      "wikidataId": "Q21019410",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Setagaya-ku, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.592972222,
+        "lat": 35.628583333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20kitami%20setagaya%202015.jpg"
+    },
+    "Q22119884": {
+      "wikidataId": "Q22119884",
+      "name": "Nitta Shrine (Ōta City)",
+      "description": "shinto shrine",
+      "coordinates": {
+        "lng": 139.6913361,
+        "lat": 35.5658083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nittajinja.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nitta_Shrine_(%C5%8Cta)"
+    },
+    "Q24865214": {
+      "wikidataId": "Q24865214",
+      "name": "Kamata Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.722444444,
+        "lat": 35.56075
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TokyotoOotaku-KamataHachimanjinja-01.jpg",
+      "website": "https://www.kamatahachiman.org/"
+    },
+    "Q28691732": {
+      "wikidataId": "Q28691732",
+      "name": "Mishuku Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.673878,
+        "lat": 35.651314
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%96%E7%94%B0%E8%B0%B7%E4%B8%89%E5%AE%BF%E7%A5%9E%E7%A4%BE%EF%BC%BF%E6%8B%9D%E6%AE%BF.jpg"
+    },
+    "Q47627505": {
+      "wikidataId": "Q47627505",
+      "name": "Sakuragi-iseki",
+      "description": "archaeological site in Setagaya-ku, Japan",
+      "coordinates": {
+        "lng": 139.64255556,
+        "lat": 35.64452778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%A1%9C%E6%9C%A8%E3%81%B5%E3%82%8C%E3%81%82%E3%81%84%E7%B7%91%E5%9C%B0.jpg"
+    },
+    "Q49568965": {
+      "wikidataId": "Q49568965",
+      "name": "多摩川野毛町公園",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 139.64257,
+        "lat": 35.60561
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%9A%E6%91%A9%E5%B7%9D%E9%87%8E%E6%AF%9B%E7%94%BA%E5%85%AC%E5%9C%92.jpg"
+    },
+    "Q51199197": {
+      "wikidataId": "Q51199197",
+      "name": "Komadome-Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.660722222,
+        "lat": 35.640694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%A7%92%E7%95%99%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%E6%8B%9D%E6%AE%BF.jpg"
+    },
+    "Q65270637": {
+      "wikidataId": "Q65270637",
+      "name": "Kasuga Shrine",
+      "description": "Shinto shrine in Chūō, Ota-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.720333333,
+        "lat": 35.581527777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga-jinja%20%28Ch%C5%AB%C5%8D%2C%20Ota%29%2006.jpg",
+      "website": "https://www.kasuga-jinja.jp/"
+    },
+    "Q97171622": {
+      "wikidataId": "Q97171622",
+      "name": "Rokusho Shrine",
+      "description": "shrine in Akatsutsumi, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.643222222,
+        "lat": 35.6585
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rokusho-jinja%20%28Akatsutsumi%2C%20Setagaya%29%2013.jpg"
+    },
+    "Q97171631": {
+      "wikidataId": "Q97171631",
+      "name": "Rokusho Shrine",
+      "description": "shrine in Noge, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.642073,
+        "lat": 35.602821
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rokusho%20Shrine%20%28%E5%85%AD%E6%89%80%E7%A5%9E%E7%A4%BE%29%20-%20panoramio%20%282%29.jpg"
+    },
+    "Q97172024": {
+      "wikidataId": "Q97172024",
+      "name": "Kyōdō Tenso Shrine",
+      "description": "Shinto shrine in Setagaya-ku, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.628027777,
+        "lat": 35.649638888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A9%E7%A5%96%E7%A5%9E%E7%A4%BE%EF%BC%88%E7%B5%8C%E5%A0%82%EF%BC%89%20Kyodo%20Tenso%20shrine%20-%20panoramio.jpg"
+    },
+    "Q97172049": {
+      "wikidataId": "Q97172049",
+      "name": "Usa Shrine",
+      "description": "Shinto shrine in Setagaya-ku, Japan",
+      "coordinates": {
+        "lng": 139.654892,
+        "lat": 35.600002
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%87%E4%BD%90%E7%A5%9E%E7%A4%BE%EF%BC%88%E5%B0%BE%E5%B1%B1%E5%8F%B0%EF%BC%89%20Oyamadai%20Usa%20Shrine%20-%20panoramio.jpg"
+    },
+    "Q97172971": {
+      "wikidataId": "Q97172971",
+      "name": "Tamagawa Shrine (Setagaya-ku)",
+      "description": "Shinto shrine in Setagaya-ku, Japan",
+      "coordinates": {
+        "lng": 139.651028,
+        "lat": 35.611056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tamagawa%20Shrine%20%28%E7%8E%89%E5%B7%9D%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q97173397": {
+      "wikidataId": "Q97173397",
+      "name": "Sugawara Shrine",
+      "description": "Shinto shrine in Setagaya-ku, Japan",
+      "coordinates": {
+        "lng": 139.646606,
+        "lat": 35.66518
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sugawara%20Shrine%20%28%E8%8F%85%E5%8E%9F%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q97173721": {
+      "wikidataId": "Q97173721",
+      "name": "Kamata-tenjinsha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.610935,
+        "lat": 35.622405
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamata%20tenjinja%20setagaya.jpg"
+    },
+    "Q97173845": {
+      "wikidataId": "Q97173845",
+      "name": "Komatsunagi Shrine",
+      "description": "Shinto shrine in Setagaya-ku, Japan",
+      "coordinates": {
+        "lng": 139.68022,
+        "lat": 35.638334
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Komatsunagi%20Shrine%20%28%E9%A7%92%E7%B9%8B%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q97175873": {
+      "wikidataId": "Q97175873",
+      "name": "Shinobusonkū Shrine",
+      "description": "Shinto shrine in Kōtō-ku, Japan",
+      "coordinates": {
+        "lng": 139.826638888,
+        "lat": 35.677583333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%BF%97%E6%BC%94%E5%B0%8A%E7%A9%BA%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q97176573": {
+      "wikidataId": "Q97176573",
+      "name": "Han'ei Inari Shrine",
+      "description": "shrine in Koto-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.804833,
+        "lat": 35.670083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Han-ei%20Inari%20shrine%20Koto-ku%20Tokyo.jpg"
+    },
+    "Q104698211": {
+      "wikidataId": "Q104698211",
+      "name": "Kagawa Archives & Resource Center",
+      "coordinates": {
+        "lng": 139.625857,
+        "lat": 35.667824
+      },
+      "website": "https://t-kagawa.or.jp/"
+    },
+    "Q106852458": {
+      "wikidataId": "Q106852458",
+      "name": "Daita-hachimangū",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.659415,
+        "lat": 35.657201
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daita%20Hachiman%20Shrine%20%28%E4%BB%A3%E7%94%B0%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852462": {
+      "wikidataId": "Q106852462",
+      "name": "Tsurumaki Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.64673,
+        "lat": 35.63643
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%BC%A6%E5%B7%BB%E7%A5%9E%E7%A4%BE%20-%20panoramio%20%281%29.jpg"
+    },
+    "Q106852460": {
+      "wikidataId": "Q106852460",
+      "name": "Kaminoge Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.635833,
+        "lat": 35.610769
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaminoge%20Inari%20Shrine%20%28%E4%B8%8A%E9%87%8E%E6%AF%9B%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852466": {
+      "wikidataId": "Q106852466",
+      "name": "Tōkamori Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.624268,
+        "lat": 35.646873
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokamori%20Inari%20Shrine%20%28%E7%A8%B2%E8%8D%B7%E6%A3%AE%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852464": {
+      "wikidataId": "Q106852464",
+      "name": "Wakabayashi Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.661666666,
+        "lat": 35.648055555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wakabayashi%20Inari%20Shrine%20%28%E8%8B%A5%E6%9E%97%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852465": {
+      "wikidataId": "Q106852465",
+      "name": "Nozawa Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.670204,
+        "lat": 35.632623
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nozawa%20Inari%20Shrine%20%28%E9%87%8E%E6%B2%A2%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852615": {
+      "wikidataId": "Q106852615",
+      "name": "Tenso Shrine",
+      "description": "shrine in Nakamachi, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.644628,
+        "lat": 35.61474
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A9%E7%A5%96%E7%A5%9E%E7%A4%BE%EF%BC%88%E4%B8%AD%E7%94%BA%EF%BC%89%20Nakamachi%20Tenso%20shrine%20-%20panoramio.jpg"
+    },
+    "Q106852619": {
+      "wikidataId": "Q106852619",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Ōkura, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.611472222,
+        "lat": 35.625027777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E8%94%B5%E6%B0%B7%E5%B7%9D%E7%A5%9E%E7%A4%BE%20Ohkura%20Hikawa%20shrine%20-%20panoramio.jpg"
+    },
+    "Q106852616": {
+      "wikidataId": "Q106852616",
+      "name": "Shinmei-sha",
+      "description": "shrine in KamiSoshigaya, Setagaya",
+      "coordinates": {
+        "lng": 139.596888888,
+        "lat": 35.656583333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamisoshigaya%20Shimmei%20Shrine%20%28%E4%B8%8A%E7%A5%96%E5%B8%AB%E8%B0%B7%E7%A5%9E%E6%98%8E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852617": {
+      "wikidataId": "Q106852617",
+      "name": "Shinmei-sha",
+      "description": "shrine in Soshigaya, Setagaya",
+      "coordinates": {
+        "lng": 139.607305555,
+        "lat": 35.650638888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soshigaya%20Shimmei%20Shrine%20%28%E7%A5%96%E5%B8%AB%E8%B0%B7%E7%A5%9E%E6%98%8E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852622": {
+      "wikidataId": "Q106852622",
+      "name": "Mitsumine Shrine",
+      "description": "shrine in Kinuta, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.613333333,
+        "lat": 35.640833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20%28%E9%B3%A5%E5%B1%85%29%20at%20Mitsumine%20Shrine%20%28%E4%B8%89%E5%B3%AF%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852620": {
+      "wikidataId": "Q106852620",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Unane, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.600166666,
+        "lat": 35.621916666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Unane%20Hikawa%20Shrine%20%28%E5%AE%87%E5%A5%88%E6%A0%B9%E6%B0%B7%E5%B7%9D%E7%A5%9E%E7%A4%BE%29%20-%20panoramio.jpg"
+    },
+    "Q106852621": {
+      "wikidataId": "Q106852621",
+      "name": "Tenso Shrine",
+      "description": "shrine in Setagaya, Setagaya-ku",
+      "coordinates": {
+        "lng": 139.647632,
+        "lat": 35.642555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20jinja%20setagaya%20setagaya.jpg"
+    },
+    "Q111903373": {
+      "wikidataId": "Q111903373",
+      "name": "Yukinari Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.80266,
+        "lat": 35.68325
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yukinari%20Inari-jinja%20%28Shirakawa%2C%20Koto%29%2001.jpg"
+    },
+    "Q115294524": {
+      "wikidataId": "Q115294524",
+      "name": "Nakarokugō Kumano Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71624,
+        "lat": 35.55134
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakarokug%C5%8D%20Kumano-jinja%2001.jpg"
+    },
+    "Q115299067": {
+      "wikidataId": "Q115299067",
+      "name": "Misono Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71064,
+        "lat": 35.56302
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Misono-jinja%20%28Nishi-Kamata%2C%20Ota%29%2002.jpg"
+    },
+    "Q115299539": {
+      "wikidataId": "Q115299539",
+      "name": "Shinjuku Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71583,
+        "lat": 35.55752
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shinjuku%20Inari-jinja%20%28Kamata-Honch%C5%8D%2C%20Ota%29%2001.jpg"
+    },
+    "Q115299763": {
+      "wikidataId": "Q115299763",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71028,
+        "lat": 35.55059
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hakusan-jinja%20%28Nishi-Rokug%C5%8D%2C%20Ota%29%2004.jpg"
+    },
+    "Q115313556": {
+      "wikidataId": "Q115313556",
+      "name": "Suwa Shrine",
+      "description": "shrine in Nishi-Rokugō, Ōta-ku",
+      "coordinates": {
+        "lng": 139.7052,
+        "lat": 35.54897
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa-jinja%20%28Nishi-Rokug%C5%8D%2C%20Ota%29%2001.jpg"
+    },
+    "Q115322715": {
+      "wikidataId": "Q115322715",
+      "name": "Michitsuka Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.70608,
+        "lat": 35.5582
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Michitsuka-jinja%20%28Shin-Kamata%2C%20Ota%29%2001.jpg"
+    },
+    "Q115331437": {
+      "wikidataId": "Q115331437",
+      "name": "Tamagawa Suwa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.70237,
+        "lat": 35.5596
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa-jinja%20%28Tamagawa%2C%20Ota%2003.jpg"
+    },
+    "Q115331580": {
+      "wikidataId": "Q115331580",
+      "name": "Yasukata Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7012,
+        "lat": 35.56315
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasukata-jinja%20%28Tamagawa%2C%20Ota%29%2001.jpg"
+    },
+    "Q115466869": {
+      "wikidataId": "Q115466869",
+      "name": "Tokumochi Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.69961,
+        "lat": 35.57314
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokumochi-jinja%20%28Ikegami%2C%20Ota%29%2001.jpg",
+      "website": "http://tokumochi-jinja.tokyo-jinjacho.or.jp/"
+    },
+    "Q118213346": {
+      "wikidataId": "Q118213346",
+      "name": "Kameido Suijin Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.831527777,
+        "lat": 35.701111111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kameido%20Sui%20Jinja.JPG"
+    },
+    "Q120596593": {
+      "wikidataId": "Q120596593",
+      "name": "Honchō Inari Shrine",
+      "description": "shrine in Ikegami, Ota-ku",
+      "coordinates": {
+        "lng": 139.70435,
+        "lat": 35.57754
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Honch%C5%8D%20Inari-jinja%20%28Ikegami%2C%20Ota%29%2001.jpg"
+    },
+    "Q120655312": {
+      "wikidataId": "Q120655312",
+      "name": "Tsutsumikata Shrine",
+      "description": "shrine in Ikegami, Ota-ku",
+      "coordinates": {
+        "lng": 139.7083,
+        "lat": 35.5778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsutsumikata-jinja%20%28Ikegami%2C%20Ota%29%2006.jpg"
+    },
+    "Q120655433": {
+      "wikidataId": "Q120655433",
+      "name": "Ōta Shrine",
+      "description": "shrine in chūō, Ota-ku",
+      "coordinates": {
+        "lng": 139.71138,
+        "lat": 35.57927
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%C5%8Cta-jinja%20%28Ch%C5%AB%C5%8D%2C%20Ota%29%2001.jpg",
+      "website": "http://yoichi.tokyo.jp/"
+    },
+    "Q120679282": {
+      "wikidataId": "Q120679282",
+      "name": "Negahara Shrine",
+      "description": "shrine in Sannō, Ota-ku",
+      "coordinates": {
+        "lng": 139.721,
+        "lat": 35.58234
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Negahara-jinja%20%28Sann%C5%8D%2C%20Ota%29%2008.jpg"
+    },
+    "Q130105058": {
+      "wikidataId": "Q130105058",
+      "name": "Toyozumi Park",
+      "description": "park in Tōyō, Kōtō-ku",
+      "coordinates": {
+        "lng": 139.811326,
+        "lat": 35.674548
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toyozumi%20Park%20%40%20Kiba%20%2814007353125%29.jpg"
+    },
+    "Q134893103": {
+      "wikidataId": "Q134893103",
+      "name": "Hie Shrine",
+      "description": "Shinto shrine in Ota, Japan",
+      "coordinates": {
+        "lng": 139.728028,
+        "lat": 35.591361
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hie%20jinja%20sanno%20ota.JPG"
+    },
+    "Q135085261": {
+      "wikidataId": "Q135085261",
+      "name": "Democracy Museum",
+      "description": "東京にある博物館",
+      "coordinates": {
+        "lng": 139.673479125,
+        "lat": 35.590648911
+      },
+      "website": "https://democracy-museum.com"
+    },
+    "Q11366617": {
+      "wikidataId": "Q11366617",
+      "name": "Nakase Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.617367,
+        "lat": 35.718508
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakase%20tenso%20jinja%20suginami.jpg"
+    },
+    "Q11369362": {
+      "wikidataId": "Q11369362",
+      "name": "Kugayama Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.596528,
+        "lat": 35.688472
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kugayama%20inari%20shrine.JPG"
+    },
+    "Q11417824": {
+      "wikidataId": "Q11417824",
+      "name": "Izumi Kumano Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.647758,
+        "lat": 35.676423
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Izumi%20kumano%20jinja%20suginami%202009.JPG"
+    },
+    "Q11427180": {
+      "wikidataId": "Q11427180",
+      "name": "Horinouchi Kumano Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.652125,
+        "lat": 35.686279
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Horinouchi%20kumano%20jinja%20suginami%202009.JPG"
+    },
+    "Q11465232": {
+      "wikidataId": "Q11465232",
+      "name": "Ozakikumano Shrine",
+      "description": "Shinto shrine in Suginami-ku, Japan",
+      "coordinates": {
+        "lng": 139.631332,
+        "lat": 35.693192
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki%20Kumano%20Jinja.JPG"
+    },
+    "Q11491026": {
+      "wikidataId": "Q11491026",
+      "name": "Kumano Shrine",
+      "description": "Shinto shrine in Itabashi-ku, Japan",
+      "coordinates": {
+        "lng": 139.686917,
+        "lat": 35.776139
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimura%20kumano%20jinja%20itabashi.JPG"
+    },
+    "Q11495429": {
+      "wikidataId": "Q11495429",
+      "name": "Narimune Hakusan Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.637348,
+        "lat": 35.686897
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Narimune%20Hakusan%20Jinja.JPG"
+    },
+    "Q11513668": {
+      "wikidataId": "Q11513668",
+      "name": "Kasuga Shrine (Suginami)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.609361,
+        "lat": 35.692833
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga%20Jinja%20%28Suginami%29.JPG"
+    },
+    "Q11520104": {
+      "wikidataId": "Q11520104",
+      "name": "Hon-Amanuma Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.624832,
+        "lat": 35.712383
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hon%20amanuma%20Inari%20Shrine%20-%20Suginami%20ward%20-%20July%202014.jpg"
+    },
+    "Q11550316": {
+      "wikidataId": "Q11550316",
+      "name": "Eifuku Inari-jina",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.64325,
+        "lat": 35.672444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eifuku%20inari%20jinja%20suginami.JPG"
+    },
+    "Q11577231": {
+      "wikidataId": "Q11577231",
+      "name": "Tabata Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.626138888,
+        "lat": 35.694027777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TORII%20TABATA%20SHRINE.JPG"
+    },
+    "Q11590287": {
+      "wikidataId": "Q11590287",
+      "name": "Shinmei Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.609555555,
+        "lat": 35.7005
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shinmei%20Tenso%20Jinja.JPG"
+    },
+    "Q11602398": {
+      "wikidataId": "Q11602398",
+      "name": "Dairokuten Sakaki Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.789272,
+        "lat": 35.700231
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/DairokutenSakakiJinja.JPG"
+    },
+    "Q11602401": {
+      "wikidataId": "Q11602401",
+      "name": "Dairokuten Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.61219167,
+        "lat": 35.67905
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dairokuten%20jinjya%20%28Takaido-nishi%2C%20Suginami-ku%2C%20Tokyo%29%2005.JPG"
+    },
+    "Q11619016": {
+      "wikidataId": "Q11619016",
+      "name": "Ogikubo Hakusan Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.616165,
+        "lat": 35.705476
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ogikubo%20hakusan%20jinja%20suginami%20tokyo.JPG"
+    },
+    "Q11630006": {
+      "wikidataId": "Q11630006",
+      "name": "Nishitakaido Shōan Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.595917,
+        "lat": 35.699667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nishitakaidoshyouan%20inari%20jinja%20-%20torii%20-%20sept%2026%202015.jpg"
+    },
+    "Q11664824": {
+      "wikidataId": "Q11664824",
+      "name": "Suga Shrine",
+      "description": "Shinto shrine in Suginami-ku, Japan",
+      "coordinates": {
+        "lng": 139.6315,
+        "lat": 35.697944444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suga%20shrine%20suginami.jpg"
+    },
+    "Q11668851": {
+      "wikidataId": "Q11668851",
+      "name": "Kōenji Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.657588,
+        "lat": 35.700006
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koenji%20Tenso%20Jinja.JPG"
+    },
+    "Q17191796": {
+      "wikidataId": "Q17191796",
+      "name": "Amanuma Kumano Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.626799,
+        "lat": 35.708866
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amanuma%20kumanojinja%20suginami.jpg"
+    },
+    "Q17221220": {
+      "wikidataId": "Q17221220",
+      "name": "Yakyū Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.77030556,
+        "lat": 35.70663889
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%AE%AD%E5%BC%93%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q18990038": {
+      "wikidataId": "Q18990038",
+      "name": "Amanuma Moegi Park",
+      "description": "park in Suginami-ku, Japan",
+      "coordinates": {
+        "lng": 139.622111,
+        "lat": 35.707333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amanuma%20moegipark%282%29.JPG"
+    },
+    "Q20045003": {
+      "wikidataId": "Q20045003",
+      "name": "Shin-Koiwa Park",
+      "description": "park in Katsushika, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.85377778,
+        "lat": 35.71561111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shinkoiwa%20park%20entrance%20katsushika%202014.jpg"
+    },
+    "Q21019632": {
+      "wikidataId": "Q21019632",
+      "name": "水元中央公園",
+      "description": "park in Katsushika-ku, Japan",
+      "coordinates": {
+        "lng": 139.85972222,
+        "lat": 35.78138889
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mizumoto%20chuo%20park%20katsushika%202014-2.jpg"
+    },
+    "Q42311907": {
+      "wikidataId": "Q42311907",
+      "name": "水元公園",
+      "description": "park in Katsushika, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.869252777,
+        "lat": 35.786408333
+      }
+    },
+    "Q42312231": {
+      "wikidataId": "Q42312231",
+      "name": "Shōkei Bridge Park",
+      "description": "park in Suginami, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.6231429,
+        "lat": 35.6971012
+      }
+    },
+    "Q42312253": {
+      "wikidataId": "Q42312253",
+      "name": "Sekine Culture Park",
+      "description": "park in Suginami, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.6049933,
+        "lat": 35.7088402
+      }
+    },
+    "Q97206526": {
+      "wikidataId": "Q97206526",
+      "name": "Tenso Shrine",
+      "description": "Shinto shrine in Katsushika-ku, Japan",
+      "coordinates": {
+        "lng": 139.862526,
+        "lat": 35.735739
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A5%A5%E6%88%B8%E5%A4%A9%E7%A5%96%E7%A5%9E%E7%A4%BE%E6%9C%AC%E6%AE%BF.jpg"
+    },
+    "Q97206543": {
+      "wikidataId": "Q97206543",
+      "name": "Tenso Shrine",
+      "description": "葛飾区東新小岩八丁目にある神社",
+      "coordinates": {
+        "lng": 139.850547,
+        "lat": 35.726535
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20jinja%20higashishinkoiwa%20tokyo%202014.jpg"
+    },
+    "Q97206557": {
+      "wikidataId": "Q97206557",
+      "name": "Takasago Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.86492,
+        "lat": 35.75034
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takasago%20Tenso-jinja%20%28Takasago%2C%20Katsushika%29%2012.jpg"
+    },
+    "Q97207227": {
+      "wikidataId": "Q97207227",
+      "name": "Otama Inari Shrine",
+      "description": "Shinto shrine in Katsushika-ku, Japan",
+      "coordinates": {
+        "lng": 139.865667,
+        "lat": 35.718389
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Otama%20Inari%20jinja%201.jpg"
+    },
+    "Q97216001": {
+      "wikidataId": "Q97216001",
+      "name": "Koroku Shrine",
+      "description": "shrine in Minamisenju, Arakawa-ku",
+      "coordinates": {
+        "lng": 139.807114,
+        "lat": 35.738524
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koroku%20Jinja%20%28Arakawa%29.JPG"
+    },
+    "Q106852445": {
+      "wikidataId": "Q106852445",
+      "name": "Ōji Shirahige Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.840974,
+        "lat": 35.727645
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oji%20Shirahige%20jinja.jpg"
+    },
+    "Q106852450": {
+      "wikidataId": "Q106852450",
+      "name": "Kamakura Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.88064,
+        "lat": 35.74739
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamakura%20Hachiman%20Jinja.JPG"
+    },
+    "Q106852448": {
+      "wikidataId": "Q106852448",
+      "name": "Koyano Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.82216,
+        "lat": 35.748043
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koyano%20Jinja.JPG"
+    },
+    "Q106852602": {
+      "wikidataId": "Q106852602",
+      "name": "Hikawa Shrine",
+      "description": "shrin in Horikiri, Katsushika-ku",
+      "coordinates": {
+        "lng": 139.830719,
+        "lat": 35.749901
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20Jinja%20%28Katsushika%29.JPG"
+    },
+    "Q106852603": {
+      "wikidataId": "Q106852603",
+      "name": "Katori Shrine",
+      "description": "shrine in Horikiri, Katsushika",
+      "coordinates": {
+        "lng": 139.832777777,
+        "lat": 35.758277777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Katori%20Jinja%20%28Horikiri%29.jpg"
+    },
+    "Q106852606": {
+      "wikidataId": "Q106852606",
+      "name": "Hosoda Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.8677,
+        "lat": 35.74198
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosoda-jinja%20%28Hosoda%2C%20Katsushika%29%2001.jpg"
+    },
+    "Q106852610": {
+      "wikidataId": "Q106852610",
+      "name": "Fuji Shrine",
+      "description": "shrine in MinamiMizumoto, Katsushika",
+      "coordinates": {
+        "lng": 139.854243,
+        "lat": 35.776488
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fuji-jinja%20%28Katsushika%29%201.jpg"
+    },
+    "Q106852611": {
+      "wikidataId": "Q106852611",
+      "name": "Tenso Shrine",
+      "description": "葛飾区東新小岩四丁目にある神社",
+      "coordinates": {
+        "lng": 139.864111,
+        "lat": 35.727277
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kami-Komatsu%20Tenso%20jinja%201.jpg"
+    },
+    "Q106852609": {
+      "wikidataId": "Q106852609",
+      "name": "Mizumoto Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.856953,
+        "lat": 35.789094
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mizumoto-jinja%20%28Katsushika%29.jpg"
+    },
+    "Q106852612": {
+      "wikidataId": "Q106852612",
+      "name": "Tenso Shrine",
+      "description": "葛飾区新小岩にある神社",
+      "coordinates": {
+        "lng": 139.867055,
+        "lat": 35.722618
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimo-Komatsu%20Tenso%20jinja%202.jpg"
+    },
+    "Q109329118": {
+      "wikidataId": "Q109329118",
+      "name": "Horikiri Tenso Shrine",
+      "description": "Shinto shrine in Katsushika-ku, Japan",
+      "coordinates": {
+        "lng": 139.82886,
+        "lat": 35.7472
+      }
+    },
+    "Q109343922": {
+      "wikidataId": "Q109343922",
+      "name": "Seiryū Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.861928,
+        "lat": 35.751588
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seiryu%20Jinja%20%28Katsushika%29.JPG"
+    },
+    "Q109357580": {
+      "wikidataId": "Q109357580",
+      "name": "Igusa Site",
+      "description": "archaeological site in Suginami, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.597888888,
+        "lat": 35.71825
+      }
+    },
+    "Q109375663": {
+      "wikidataId": "Q109375663",
+      "name": "Nakahara Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.85711,
+        "lat": 35.7462
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakahara%20Hachiman%20Jinja.JPG"
+    },
+    "Q109375788": {
+      "wikidataId": "Q109375788",
+      "name": "Fukumori Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.8565,
+        "lat": 35.74477
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fukumori%20Inari-jinja%20%28Katsushika%2905.jpg"
+    },
+    "Q109405783": {
+      "wikidataId": "Q109405783",
+      "name": "Umeda Inari Shrine",
+      "description": "Shinto shrine in Katsushika-ku, Japan",
+      "coordinates": {
+        "lng": 139.84817,
+        "lat": 35.74074
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Umeda%20Inari-jinja%20%28Katsushika%29%2003.jpg"
+    },
+    "Q109406575": {
+      "wikidataId": "Q109406575",
+      "name": "Tateishi Suwa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.85036,
+        "lat": 35.73854
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tateishi%20Suwa-jinja%20%28Katsushika%29%2006.jpg"
+    },
+    "Q135415298": {
+      "wikidataId": "Q135415298",
+      "name": "Inari Shrine",
+      "description": "shrine in Arakawa, Arakawa-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.778528,
+        "lat": 35.734722
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikawashima%20Inari%20Jinja.JPG"
+    },
+    "Q136650614": {
+      "wikidataId": "Q136650614",
+      "name": "北野神社",
+      "description": "東京都世田谷区若林にある神社",
+      "coordinates": {
+        "lng": 139.660472222,
+        "lat": 35.645111111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wakabayashi%20Kitano%20Temman-gu%20%28%E8%8B%A5%E6%9E%97%E5%8C%97%E9%87%8E%E5%A4%A9%E6%BA%80%E5%AE%AE%29%20-%20panoramio.jpg"
+    },
+    "Q11443190": {
+      "wikidataId": "Q11443190",
+      "name": "Tenso Suwa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.738822,
+        "lat": 35.597285
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20suwa%20jinja%20haiden.JPG"
+    },
+    "Q11459811": {
+      "wikidataId": "Q11459811",
+      "name": "Koyama Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.699544,
+        "lat": 35.611898
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koyama%20hachiman%20shinagawa.JPG"
+    },
+    "Q11465598": {
+      "wikidataId": "Q11465598",
+      "name": "Irugi- Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.725194,
+        "lat": 35.619851
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Irugi%20jinja.JPG"
+    },
+    "Q11496627": {
+      "wikidataId": "Q11496627",
+      "name": "Togoshi Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.720275,
+        "lat": 35.613726
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Togoshi%20hachiman.JPG"
+    },
+    "Q11504590": {
+      "wikidataId": "Q11504590",
+      "name": "Hatagaoka Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.70783,
+        "lat": 35.604643
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hatagaoka%20hachiman%20shinagawa.JPG"
+    },
+    "Q11549615": {
+      "wikidataId": "Q11549615",
+      "name": "Hikawa Shrine (Nerima-ku)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.66472222,
+        "lat": 35.75194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20hikawadai%202009.JPG"
+    },
+    "Q11549616": {
+      "wikidataId": "Q11549616",
+      "name": "Toyotama Hikawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.656281,
+        "lat": 35.728138
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toyotama%20hikawa%20jinja%20toyotamanaka%20nerima.JPG"
+    },
+    "Q11579601": {
+      "wikidataId": "Q11579601",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Nerima, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.650333,
+        "lat": 35.740611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hakusan-jinja%2CNerima.JPG"
+    },
+    "Q11596852": {
+      "wikidataId": "Q11596852",
+      "name": "Inaridai Site",
+      "description": "archaeological site in Itabashi, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.710027777,
+        "lat": 35.761916666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inaridai%20Site%20monument.JPG"
+    },
+    "Q11618315": {
+      "wikidataId": "Q11618315",
+      "name": "Ebara Kotohira Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.716344,
+        "lat": 35.619476
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ebarakotohira%20jinja.JPG"
+    },
+    "Q11618312": {
+      "wikidataId": "Q11618312",
+      "name": "Ebara Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.743333,
+        "lat": 35.616944
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ebara%20jinja.JPG",
+      "website": "http://ebarajinja.org/top.html"
+    },
+    "Q11634808": {
+      "wikidataId": "Q11634808",
+      "name": "Kifune Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.726277777,
+        "lat": 35.6155
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kifune%20jinja%20nishishinagawa%202009.JPG"
+    },
+    "Q11659360": {
+      "wikidataId": "Q11659360",
+      "name": "Kiji Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.726917,
+        "lat": 35.628867
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kizi%20jinja.JPG"
+    },
+    "Q11674200": {
+      "wikidataId": "Q11674200",
+      "name": "Samezu Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.742194,
+        "lat": 35.604694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Samezu%20hachiman%20jinja%20higashishinagawa.JPG"
+    },
+    "Q11677182": {
+      "wikidataId": "Q11677182",
+      "name": "Kashima Shrine (Shinagawa-ku)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.730306,
+        "lat": 35.595611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kashima%20jinja%20shinagawa%202009.JPG"
+    },
+    "Q17217094": {
+      "wikidataId": "Q17217094",
+      "name": "Wada Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.607308,
+        "lat": 35.74188
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wada-inari-jinja1%20torii.jpg"
+    },
+    "Q20042915": {
+      "wikidataId": "Q20042915",
+      "name": "Akinohi Park",
+      "description": "park in Nerima, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.633801,
+        "lat": 35.762412
+      },
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akinohi_Park"
+    },
+    "Q20044710": {
+      "wikidataId": "Q20044710",
+      "name": "四季の香公園",
+      "description": "park in Nerima, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.62586111,
+        "lat": 35.76019444
+      }
+    },
+    "Q21019278": {
+      "wikidataId": "Q21019278",
+      "name": "夏の雲公園",
+      "description": "park in Nerima, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.62869444,
+        "lat": 35.75461111
+      }
+    },
+    "Q21019395": {
+      "wikidataId": "Q21019395",
+      "name": "春の風公園",
+      "description": "park in Nerima, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.6245,
+        "lat": 35.75511111
+      }
+    },
+    "Q42311717": {
+      "wikidataId": "Q42311717",
+      "name": "Yoshiwara Park",
+      "description": "park in Taito, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.79534,
+        "lat": 35.72489
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiwara%20Park01.jpg"
+    },
+    "Q42311721": {
+      "wikidataId": "Q42311721",
+      "name": "Okachimachi park",
+      "description": "park in Taito, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.77746,
+        "lat": 35.70634
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Okachimachi%20Park%20%28Taito%29%2001.jpg"
+    },
+    "Q42311724": {
+      "wikidataId": "Q42311724",
+      "name": "Nihonzutsumi Park",
+      "description": "park in Taito, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.79843,
+        "lat": 35.724
+      }
+    },
+    "Q42311758": {
+      "wikidataId": "Q42311758",
+      "name": "Okakura Tenshin Memorial Park",
+      "description": "park in Taito, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.76644,
+        "lat": 35.72631
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Okakura%20Tenshin%20Memorial%20Park%2004.jpg"
+    },
+    "Q97209677": {
+      "wikidataId": "Q97209677",
+      "name": "Kitano Shrine",
+      "description": "shrine in Tokumaru, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.660361111,
+        "lat": 35.778694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%BE%B3%E4%B8%B8%E5%8C%97%E9%87%8E%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q97209891": {
+      "wikidataId": "Q97209891",
+      "name": "Tenso Shrine",
+      "description": "Shinto shrine in Japan",
+      "coordinates": {
+        "lng": 139.688141,
+        "lat": 35.758469
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso-jinja%20main%20entrance%202025-04-27.jpg"
+    },
+    "Q97209904": {
+      "wikidataId": "Q97209904",
+      "name": "Tenso Shrine (Itabashi-ku)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.66951,
+        "lat": 35.778263
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso-jinja%20entrance%202022-10-23.jpg"
+    },
+    "Q97209982": {
+      "wikidataId": "Q97209982",
+      "name": "Azusawa Shrine",
+      "description": "Shinto shrine in Itabashi-ku, Japan",
+      "coordinates": {
+        "lng": 139.699219,
+        "lat": 35.779888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Azusawa%20Jinja.JPG"
+    },
+    "Q97210526": {
+      "wikidataId": "Q97210526",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Tōshinchō, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.682638888,
+        "lat": 35.754666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9D%B1%E6%96%B0%E7%94%BA%E6%B0%B7%E5%B7%9D%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q97210535": {
+      "wikidataId": "Q97210535",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Akatsuka, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.64,
+        "lat": 35.785333333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%B5%A4%E5%A1%9A%E6%B0%B7%E5%B7%9D%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q97210813": {
+      "wikidataId": "Q97210813",
+      "name": "Suwa Shrine (Itabashi-ku)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.648472222,
+        "lat": 35.784666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%B5%A4%E5%A1%9A%E8%AB%8F%E8%A8%AA%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q97210850": {
+      "wikidataId": "Q97210850",
+      "name": "Kutsuwa Shrine",
+      "description": "shinto shrine Naka-chō, Itabashi, Tōkyō, Japan",
+      "coordinates": {
+        "lng": 139.696112,
+        "lat": 35.752466
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kutsuwa%20Jinja.JPG"
+    },
+    "Q97613626": {
+      "wikidataId": "Q97613626",
+      "name": "Hachiman Shrine",
+      "description": "shrine in Itabashi, Tokyo",
+      "coordinates": {
+        "lng": 139.646881,
+        "lat": 35.779015
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachiman-jinja%20entrance%202022-10-09.jpg"
+    },
+    "Q97613653": {
+      "wikidataId": "Q97613653",
+      "name": "Koyasu Shrine",
+      "description": "Shinto shrine in Itabashi-ku, Japan",
+      "coordinates": {
+        "lng": 139.709457,
+        "lat": 35.747795
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koyasu%20Jinja%20%28Itabashi%29.JPG"
+    },
+    "Q97613665": {
+      "wikidataId": "Q97613665",
+      "name": "Mitake Shrine",
+      "description": "shrine in Sakuragawa, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.674698,
+        "lat": 35.757428
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitake-jinja%20entrance%202022-11-13.jpg"
+    },
+    "Q97613675": {
+      "wikidataId": "Q97613675",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Futabachō, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.701111111,
+        "lat": 35.759333333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20Jinja%20%28Futabacho%2C%20Itabashi%29.jpg"
+    },
+    "Q97613676": {
+      "wikidataId": "Q97613676",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Ōyaguchikamimachi, Itabashi",
+      "coordinates": {
+        "lng": 139.687138888,
+        "lat": 35.747916666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa-jinja%20entrance%202023-01-03.jpg"
+    },
+    "Q97613677": {
+      "wikidataId": "Q97613677",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Hasunumachō, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.7015,
+        "lat": 35.770416666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20Jinja%20%28Hasunumacho%2C%20Itabashi%29.JPG"
+    },
+    "Q97613682": {
+      "wikidataId": "Q97613682",
+      "name": "Kumano Shrine",
+      "description": "shrine in Itabashi, Tokyo",
+      "coordinates": {
+        "lng": 139.693085,
+        "lat": 35.769657
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Higashi%20Kumano-jinja%20entrance%202025-04-27.jpg"
+    },
+    "Q97613683": {
+      "wikidataId": "Q97613683",
+      "name": "Kumano Shrine",
+      "description": "shrine in Maeno5, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.687777777,
+        "lat": 35.771472222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano%20jinja%20west%20maenocho%20itabashi.JPG"
+    },
+    "Q97613684": {
+      "wikidataId": "Q97613684",
+      "name": "Kumano Shrine",
+      "description": "shrine in Kumano, Itabashi-ku",
+      "coordinates": {
+        "lng": 139.70666,
+        "lat": 35.741796
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano%20jinja%20kumanocho%20itabashi.JPG"
+    },
+    "Q97613690": {
+      "wikidataId": "Q97613690",
+      "name": "Inari Shrine",
+      "description": "Shinto shrine in Itabashi-ku, Japan",
+      "coordinates": {
+        "lng": 139.702361,
+        "lat": 35.764417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Miyamotocho%2C%20Itabashi%29.JPG"
+    },
+    "Q97613691": {
+      "wikidataId": "Q97613691",
+      "name": "Inari Shrine",
+      "description": "東京都板橋区若木にある神社",
+      "coordinates": {
+        "lng": 139.675972,
+        "lat": 35.768806
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Wakagi%2C%20Itabashi%29.JPG"
+    },
+    "Q97613689": {
+      "wikidataId": "Q97613689",
+      "name": "Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.651306,
+        "lat": 35.781028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari-jinja%20entrance%202022-10-23.jpg"
+    },
+    "Q97613695": {
+      "wikidataId": "Q97613695",
+      "name": "Sugawara Shrine",
+      "description": "Shinto shrine in Itabashi-ku, Japan",
+      "coordinates": {
+        "lng": 139.631348,
+        "lat": 35.783276
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sugawara-jinja%20entrance%202022-10-23.jpg"
+    },
+    "Q97613692": {
+      "wikidataId": "Q97613692",
+      "name": "Inari Shrine",
+      "description": "東京都板橋区赤塚にある神社",
+      "coordinates": {
+        "lng": 139.643139,
+        "lat": 35.774806
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inari%20Jinja%20%28Akatsuka%2C%20Itabashi%29.JPG"
+    },
+    "Q99541305": {
+      "wikidataId": "Q99541305",
+      "name": "Tsuki no Matsu",
+      "description": "清水観音堂にある月をかたどった松",
+      "coordinates": {
+        "lng": 139.773389,
+        "lat": 35.712587
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/100%20views%20edo%20089.jpg"
+    },
+    "Q104698116": {
+      "wikidataId": "Q104698116",
+      "name": "World Bags & Luggage Museum",
+      "coordinates": {
+        "lng": 139.795286,
+        "lat": 35.708052
+      },
+      "website": "https://www.ace.jp/museum/"
+    },
+    "Q106852471": {
+      "wikidataId": "Q106852471",
+      "name": "Motomishima Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.777944,
+        "lat": 35.722472
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moto-Mishima%20Jinja%2001.JPG"
+    },
+    "Q106852475": {
+      "wikidataId": "Q106852475",
+      "name": "Ichigaoka Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.785722,
+        "lat": 35.698056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%8A%80%E6%9D%8F%E5%B2%A1%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%E6%8B%9D%E6%AE%BF.jpg"
+    },
+    "Q106852473": {
+      "wikidataId": "Q106852473",
+      "name": "Honsha Mishima Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.792389,
+        "lat": 35.708917
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Honsha%20Mishima%20shrine.jpg"
+    },
+    "Q106852582": {
+      "wikidataId": "Q106852582",
+      "name": "Suga Shrine",
+      "description": "shrine in Asakusabashi, Taitō-ku",
+      "coordinates": {
+        "lng": 139.787153,
+        "lat": 35.699206
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AsakusabashiSugaShrine.jpg"
+    },
+    "Q106852639": {
+      "wikidataId": "Q106852639",
+      "name": "Kotohira Shrine",
+      "description": "shrine in Taitō, Taitō-ku",
+      "coordinates": {
+        "lng": 139.7785,
+        "lat": 35.703361
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E7%A5%9E%E7%A4%BE%20%28%E5%8F%B0%E6%9D%B1%E5%8C%BA%29.jpg"
+    },
+    "Q111548907": {
+      "wikidataId": "Q111548907",
+      "name": "Majima Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.76593,
+        "lat": 35.72105
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Majima%20Inari-jinja%20%28Yanaka%2C%20Taito%2901.jpg"
+    },
+    "Q111632741": {
+      "wikidataId": "Q111632741",
+      "name": "Kasamori-inari",
+      "description": "shrine in Yanaka, Taitō-ku",
+      "coordinates": {
+        "lng": 139.7693,
+        "lat": 35.7248
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kudokurin-ji%2005.jpg"
+    },
+    "Q113493364": {
+      "wikidataId": "Q113493364",
+      "name": "入谷朝顔発祥之地碑",
+      "description": "台東区下谷にある記念碑",
+      "coordinates": {
+        "lng": 139.783556,
+        "lat": 35.719852
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iriya%20Asagao%20Hassh%C5%8D%20no%20Chi%20Hi%2003.jpg"
+    },
+    "Q117411837": {
+      "wikidataId": "Q117411837",
+      "name": "Asakusa Fuji Sengen Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.798305555,
+        "lat": 35.719277777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asakusa%20Fuji%20Sengen%20jinja.jpg"
+    },
+    "Q133359134": {
+      "wikidataId": "Q133359134",
+      "name": "Kannō Inari Shrine",
+      "description": "shrine in Nishi-Asakusa, Taito",
+      "coordinates": {
+        "lng": 139.792289,
+        "lat": 35.71449
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kann%C5%8D%20Inari-jinja%20%28Nishi-Asakusa%2C%20Taito%29%2001.jpg"
+    },
+    "Q134149661": {
+      "wikidataId": "Q134149661",
+      "name": "Nishu-asakusa Hachiman Shrine",
+      "description": "shrine in Nishi-asakusa, Taito",
+      "coordinates": {
+        "lng": 139.791503,
+        "lat": 35.712786
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachiman-jinja%20%28Nishi-Asakusa%2C%20Taito%29%2003.jpg"
+    },
+    "Q11353658": {
+      "wikidataId": "Q11353658",
+      "name": "Nanasha Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.741444,
+        "lat": 35.748389
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nanasha-jinja-tokyokitaku.jpg"
+    },
+    "Q11357253": {
+      "wikidataId": "Q11357253",
+      "name": "Sanya Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.702746,
+        "lat": 35.617045
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E8%B0%B7%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE%20%E3%81%94%E6%9C%AC%E6%AE%BF.jpg"
+    },
+    "Q11359993": {
+      "wikidataId": "Q11359993",
+      "name": "Hebikubo Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.715295,
+        "lat": 35.602701
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamishinmei%20tenso%20jinja%20futaba%20shinagawa%20tokyo%202009.JPG"
+    },
+    "Q11361253": {
+      "wikidataId": "Q11361253",
+      "name": "Shimoshinmei Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.72629,
+        "lat": 35.606728
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimoshinmei%20tenso%20jinja%20futaba%20shinagawa%20tokyo%202009.JPG"
+    },
+    "Q11366822": {
+      "wikidataId": "Q11366822",
+      "name": "Nakameguro Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.7,
+        "lat": 35.639444444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakameguro%20hachiman.JPG"
+    },
+    "Q11568958": {
+      "wikidataId": "Q11568958",
+      "name": "Kumano Shrine",
+      "description": "shinto temple in Meguro, Tokyo, Japon",
+      "coordinates": {
+        "lng": 139.669138888,
+        "lat": 35.609888888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano%20jinja%28Meguroku%29%20torii.JPG"
+    },
+    "Q43594517": {
+      "wikidataId": "Q43594517",
+      "name": "Ōi-zaō Gongen Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.731472222,
+        "lat": 35.6075
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oi-Zaougongen-Jinja.jpg"
+    },
+    "Q52728642": {
+      "wikidataId": "Q52728642",
+      "name": "Hachiman Shrine, Nakamura, Nerima",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.641388888,
+        "lat": 35.729722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakamura%20Hachiman%20Shaden.jpg"
+    },
+    "Q52729136": {
+      "wikidataId": "Q52729136",
+      "name": "Takamatsuhachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.633583333,
+        "lat": 35.747027777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takamatsu%20Hachiman%20Jinja.jpg"
+    },
+    "Q85876838": {
+      "wikidataId": "Q85876838",
+      "name": "Oizumi Yasaka Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.60611,
+        "lat": 35.76722
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasaka%20Jinja%20Nerima.jpg"
+    },
+    "Q85878086": {
+      "wikidataId": "Q85878086",
+      "name": "Doshida Hachimangu",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.61333,
+        "lat": 35.76806
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Doshida%20hachimangu%20nerima%20tokyo%202015.jpg"
+    },
+    "Q95742860": {
+      "wikidataId": "Q95742860",
+      "name": "Takinogawahachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.726472,
+        "lat": 35.748417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takinogawa%20Hachiman%20jinja%201.jpg"
+    },
+    "Q95744219": {
+      "wikidataId": "Q95744219",
+      "name": "Kashiwagi Shrine",
+      "description": "shrine in Kamiya, Kita-ku",
+      "coordinates": {
+        "lng": 139.730555555,
+        "lat": 35.769944444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kashiwagi%20Jinja%20%28Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q95745365": {
+      "wikidataId": "Q95745365",
+      "name": "Yakumo Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.723695,
+        "lat": 35.766386
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yakumo%20Jinja%20%28Nakajujo%2C%20Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q95745373": {
+      "wikidataId": "Q95745373",
+      "name": "Yakumo Shrine",
+      "description": "shrine in Iwabuchimachi, Kita-ku",
+      "coordinates": {
+        "lng": 139.725055555,
+        "lat": 35.786
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yakumo%20Jinja%20%28Iwabuchi-machi%2C%20Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q95746304": {
+      "wikidataId": "Q95746304",
+      "name": "Katori Shrine",
+      "description": "shrine in Akabanenishi, Kita-ku",
+      "coordinates": {
+        "lng": 139.720444444,
+        "lat": 35.771194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Katori%20Jinja%20%28Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q97164568": {
+      "wikidataId": "Q97164568",
+      "name": "Kagata Shrine",
+      "description": "Shinto shrine in Shinagawa-ku, Japan",
+      "coordinates": {
+        "lng": 139.742554,
+        "lat": 35.620861
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kagata%20jinja.jpg"
+    },
+    "Q97165015": {
+      "wikidataId": "Q97165015",
+      "name": "Yoriki Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74569,
+        "lat": 35.6181
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoriki-jinja%20%28Higashi-Shinagawa%2C%20Shinagawa%29%2007.jpg"
+    },
+    "Q97166513": {
+      "wikidataId": "Q97166513",
+      "name": "Sodegasaki Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.72911,
+        "lat": 35.63043
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sodegasaki%20shrine%2C%20Shinagawa%2C%20Tokyo%20-%20Jul%209%2C%202005%20%281%29.jpg"
+    },
+    "Q97166574": {
+      "wikidataId": "Q97166574",
+      "name": "Suwa Shrine",
+      "description": "temple in Minami-Shinagawa, Shinagawa-ku",
+      "coordinates": {
+        "lng": 139.74357,
+        "lat": 35.61122
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa-jinja%20%28Minami-Shinagawa%2C%20Shinagawa%29%2001.jpg"
+    },
+    "Q97182547": {
+      "wikidataId": "Q97182547",
+      "name": "Karasumori Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.692722222,
+        "lat": 35.643222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karasumori%20inari-jinja.jpg"
+    },
+    "Q97183073": {
+      "wikidataId": "Q97183073",
+      "name": "Takagi Shrine",
+      "description": "shrine in Meguro-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.688394,
+        "lat": 35.617226
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi-jinja%2C%20Meguro.jpg"
+    },
+    "Q97188173": {
+      "wikidataId": "Q97188173",
+      "name": "Tenso Shrine",
+      "description": "Shinto shrine in Nerima-ku, Japan",
+      "coordinates": {
+        "lng": 139.641846,
+        "lat": 35.764072
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso-jinja%20entrance%202024-04-29.jpg"
+    },
+    "Q97188434": {
+      "wikidataId": "Q97188434",
+      "name": "Atago Shrine",
+      "description": "Shinto shrine in Nerima-ku, Japan",
+      "coordinates": {
+        "lng": 139.643707,
+        "lat": 35.764408
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atago-jinja%20entrance%202024-04-29.jpg"
+    },
+    "Q97213076": {
+      "wikidataId": "Q97213076",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Ukima, Kita-ku",
+      "coordinates": {
+        "lng": 139.695313,
+        "lat": 35.794401
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%2C%20Kita%2C%20Tokyo.jpg"
+    },
+    "Q97213137": {
+      "wikidataId": "Q97213137",
+      "name": "Kumano Shrine",
+      "description": "shrine in Shimo, Kita-ku",
+      "coordinates": {
+        "lng": 139.732361111,
+        "lat": 35.783611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano%20Jinja%20%28Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q97213452": {
+      "wikidataId": "Q97213452",
+      "name": "Suwa Shrine",
+      "description": "shrine in Akabanekita, Kita-ku",
+      "coordinates": {
+        "lng": 139.708555555,
+        "lat": 35.783972222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa%20Jinja%20%28Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q97310655": {
+      "wikidataId": "Q97310655",
+      "name": "Kitano Shrine",
+      "description": "shrine in Arai, Nakano-ku",
+      "coordinates": {
+        "lng": 139.666333333,
+        "lat": 35.715277777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arai-Tenjin%20Kitano%20Shrine%20-%20%E6%96%B0%E4%BA%95%E5%A4%A9%E7%A5%9E%E5%8C%97%E9%87%8E%E7%A5%9E%E7%A4%BE%20-%20panoramio.jpg"
+    },
+    "Q97310653": {
+      "wikidataId": "Q97310653",
+      "name": "Kitano Shrine",
+      "description": "shrine in Nakano, Nakano-ku",
+      "coordinates": {
+        "lng": 139.671916666,
+        "lat": 35.707194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano%20Jinja%20%28Nakano%2C%20Nakano%2C%20Tokyo%29.JPG"
+    },
+    "Q97310667": {
+      "wikidataId": "Q97310667",
+      "name": "Yamato Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.650577,
+        "lat": 35.714144
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamatocho%20hachiman%20jinja%20nakano.jpg"
+    },
+    "Q97310665": {
+      "wikidataId": "Q97310665",
+      "name": "Tada Shrine",
+      "description": "shrine in Nakano-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.66375,
+        "lat": 35.68325
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tada%20jinja%20nakano.jpg"
+    },
+    "Q97310702": {
+      "wikidataId": "Q97310702",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Kamitakada, Nakano-ku",
+      "coordinates": {
+        "lng": 139.676371,
+        "lat": 35.71485
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamitakada%20hikawa%20jinja%20nakano.jpg"
+    },
+    "Q97310706": {
+      "wikidataId": "Q97310706",
+      "name": "Egota Hikawa Shrine",
+      "description": "shrine in Ekoda, Nakano-ku",
+      "coordinates": {
+        "lng": 139.666628,
+        "lat": 35.727309
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B0%B7%E5%B7%9D%E7%A5%9E%E7%A4%BE%20%28%E4%B8%AD%E9%87%8E%E5%8C%BA%E6%B1%9F%E5%8F%A4%E7%94%B0%29%E5%85%A8%E6%99%AF.jpg"
+    },
+    "Q97310704": {
+      "wikidataId": "Q97310704",
+      "name": "Hikawa Shrine",
+      "description": "shrine in Honchō, nakano-ku",
+      "coordinates": {
+        "lng": 139.673388888,
+        "lat": 35.69425
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20honcho%20nakano.jpg"
+    },
+    "Q97310723": {
+      "wikidataId": "Q97310723",
+      "name": "Shiratama Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.682656,
+        "lat": 35.698251
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shiratama%20inari%20jinja%20chuo2%20nakano.jpg"
+    },
+    "Q97310725": {
+      "wikidataId": "Q97310725",
+      "name": "Shinmei Hikawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.670151,
+        "lat": 35.686896
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shinmei%20hikawa%20jinja%20nakano.jpg"
+    },
+    "Q97311489": {
+      "wikidataId": "Q97311489",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Kita-ku, Japan",
+      "coordinates": {
+        "lng": 139.749924,
+        "lat": 35.754333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hakusan%20Jinja%20%28Kita%2C%20Tokyo%29.JPG"
+    },
+    "Q97311494": {
+      "wikidataId": "Q97311494",
+      "name": "Funakata Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.757205,
+        "lat": 35.75418
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Funakata%20Jinja%2001.JPG"
+    },
+    "Q97311493": {
+      "wikidataId": "Q97311493",
+      "name": "Kishū Shrine",
+      "description": "shrine in Kita-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.744826,
+        "lat": 35.764338
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kishu%20Jinja.JPG"
+    },
+    "Q97341894": {
+      "wikidataId": "Q97341894",
+      "name": "Hamakawa Shrine",
+      "description": "shrine in Shinagawa-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.736985,
+        "lat": 35.592851
+      }
+    },
+    "Q97341914": {
+      "wikidataId": "Q97341914",
+      "name": "Tanjō Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.717361,
+        "lat": 35.634194
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanjo%20hatiman.jpg"
+    },
+    "Q104698204": {
+      "wikidataId": "Q104698204",
+      "name": "Bicycle Culture Center",
+      "coordinates": {
+        "lng": 139.717953109,
+        "lat": 35.63404253
+      },
+      "website": "http://cycle-info.bpaj.or.jp/"
+    },
+    "Q106852597": {
+      "wikidataId": "Q106852597",
+      "name": "Hie Shrine",
+      "description": "Shinto shrine in Kita-ku, Japan",
+      "coordinates": {
+        "lng": 139.721481,
+        "lat": 35.765945
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hie%20Jinja%20%28Jujonakahara%2C%20Kita%2C%20Tokyo%29%2001.JPG"
+    },
+    "Q113494396": {
+      "wikidataId": "Q113494396",
+      "name": "Kashoku-Inari",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.742629,
+        "lat": 35.616757
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kashoku-Inari%20%28Kita-Shinagawa%2C%20Shinagawa%29%2001.jpg"
+    },
+    "Q113494547": {
+      "wikidataId": "Q113494547",
+      "name": "Hamakita Sansha-inari",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.74529,
+        "lat": 35.61745
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hamakita%20Sansha-inari%20%28Kita-Shinagawa%2C%20Shinagawa%29%2001.jpg"
+    },
+    "Q121840419": {
+      "wikidataId": "Q121840419",
+      "name": "Gosha Inari Shrine",
+      "description": "shrine in Nakano-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.67122,
+        "lat": 35.69719
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gosha%20Inari-jinja%20%28Honch%C5%8D%2C%20Nakano%29%2002.jpg"
+    },
+    "Q121862598": {
+      "wikidataId": "Q121862598",
+      "name": "Shiratama Inari Shrine",
+      "description": "shrine in Chūō3, Nakano-ku",
+      "coordinates": {
+        "lng": 139.67419,
+        "lat": 35.69913
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shiratama%20Inari-jinja%20%28Ch%C5%AB%C5%8D-3%2C%20Nakano%2C%20Tokyo%29%2001.jpg"
+    },
+    "Q121862925": {
+      "wikidataId": "Q121862925",
+      "name": "Meitoku Inari Shrine",
+      "description": "shrine in Nakano-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.67706,
+        "lat": 35.69917
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meitoku%20Inari-jinja%20%28Nakano%2C%20Tokyo%29%2001.jpg"
+    },
+    "Q131746313": {
+      "wikidataId": "Q131746313",
+      "name": "Fushiminakamachi Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.73925,
+        "lat": 35.598027777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%BC%8F%E8%A6%8B%E4%BB%B2%E7%94%BA%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%E3%80%81%E5%8C%97%E6%B5%9C%E5%B7%9D%E5%85%90%E7%AB%A5%E9%81%8A%E5%9C%92%20%2875642%29.jpg"
+    },
+    "Q136707259": {
+      "wikidataId": "Q136707259",
+      "name": "翡翠原石館",
+      "coordinates": {
+        "lng": 139.735336,
+        "lat": 35.620438
+      }
+    },
+    "Q164895": {
+      "wikidataId": "Q164895",
+      "name": "Tokyo Ten Shrines",
+      "description": "List of ten important shrines of Tokyo",
+      "coordinates": {
+        "lng": 139.75299239,
+        "lat": 35.65758828
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TokyoJisshaGro%C3%9FesEmaBest%C3%BCckt.JPG",
+      "website": "http://10jinja.tokyo/"
+    },
+    "Q2856049": {
+      "wikidataId": "Q2856049",
+      "name": "Koganei Park",
+      "description": "park in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.512614,
+        "lat": 35.715822
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koganei-Park.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Koganei_Park",
+      "website": "https://www.tokyo-park.or.jp/park/koganei/"
+    },
+    "Q11332362": {
+      "wikidataId": "Q11332362",
+      "name": "FARET Tachikawa",
+      "coordinates": {
+        "lng": 139.4137713,
+        "lat": 35.7014576
+      },
+      "website": "https://www.faretart.jp/"
+    },
+    "Q11371508": {
+      "wikidataId": "Q11371508",
+      "name": "Ninomiya Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.313572,
+        "lat": 35.726886
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%8C%E5%AE%AE%E7%A5%9E%E7%A4%BE%20%28%E3%81%82%E3%81%8D%E3%82%8B%E9%87%8E%E5%B8%82%29%20%E6%8B%9D%E6%AE%BF.JPG"
+    },
+    "Q11390936": {
+      "wikidataId": "Q11390936",
+      "name": "Hachiman Daijinja",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.559444444,
+        "lat": 35.694444444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachimandaijinja%20Mitaka%20-%20main%20torii%20-%20Aug%208%202015.jpg"
+    },
+    "Q11391062": {
+      "wikidataId": "Q11391062",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.25502,
+        "lat": 35.724225
+      }
+    },
+    "Q11391783": {
+      "wikidataId": "Q11391783",
+      "name": "Yaegaki Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.513889,
+        "lat": 35.698333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yaegaki.inari.jinjya.jpg"
+    },
+    "Q11405542": {
+      "wikidataId": "Q11405542",
+      "name": "Chihaya Flower Park",
+      "description": "park in Toshima-ku, Japan",
+      "coordinates": {
+        "lng": 139.6935471,
+        "lat": 35.7311626
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chihaya%20Flower%20Park.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chihaya_Flower_Park"
+    },
+    "Q11417905": {
+      "wikidataId": "Q11417905",
+      "name": "Wada Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.235944444,
+        "lat": 35.785722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wadano%20Jinja.JPG"
+    },
+    "Q11443284": {
+      "wikidataId": "Q11443284",
+      "name": "Tenjin-sha",
+      "description": "Shinto shrine in Nishi-tokyo, Japan",
+      "coordinates": {
+        "lng": 139.561111111,
+        "lat": 35.753888888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenjinja.jpg"
+    },
+    "Q11510576": {
+      "wikidataId": "Q11510576",
+      "name": "Hinomiya Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.391891,
+        "lat": 35.684265
+      }
+    },
+    "Q11549604": {
+      "wikidataId": "Q11549604",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Higashinakano, Nakano-ku, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.68305556,
+        "lat": 35.70277778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20higashinakano%20nakano.JPG"
+    },
+    "Q11549605": {
+      "wikidataId": "Q11549605",
+      "name": "Hikawa Shrine",
+      "description": "Shinto shrine in Numabukuro, Nakano-ku, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.66686111,
+        "lat": 35.71960556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20numabukuro%20nakano.JPG"
+    },
+    "Q11549990": {
+      "wikidataId": "Q11549990",
+      "name": "Nagayama Park",
+      "description": "park in Ōme, Japan",
+      "coordinates": {
+        "lng": 139.2625,
+        "lat": 35.79305556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagayama-Kouen-Ground.JPG"
+    },
+    "Q11552243": {
+      "wikidataId": "Q11552243",
+      "name": "Ikebukuro Hikawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.71123,
+        "lat": 35.74364
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hikawa%20jinja%20ikebukurohoncho%202009.JPG"
+    },
+    "Q11557473": {
+      "wikidataId": "Q11557473",
+      "name": "Minamisawa Hikawa Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.52741389,
+        "lat": 35.75353333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B0%B7%E5%B7%9D%E7%A5%9E%E7%A4%BE%28%E6%9D%B1%E4%B9%85%E7%95%99%E7%B1%B3%E5%B8%82%29002.jpg"
+    },
+    "Q11657213": {
+      "wikidataId": "Q11657213",
+      "name": "Akiru Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.222604,
+        "lat": 35.725348
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%98%BF%E4%BC%8E%E7%95%99%E7%A5%9E%E7%A4%BE%20%E6%AD%A3%E9%9D%A2.JPG"
+    },
+    "Q22117774": {
+      "wikidataId": "Q22117774",
+      "name": "Aso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.297916666,
+        "lat": 35.762861111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aso-jinja%20%28Hamura%29%20Haiden.jpg"
+    },
+    "Q22118972": {
+      "wikidataId": "Q22118972",
+      "name": "Yomotogi Inari Shrine",
+      "description": "Shinto shrine in Kita-ku, Japan",
+      "coordinates": {
+        "lng": 139.729194,
+        "lat": 35.749667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yomotogi%20Inari%20jinja%201.jpg"
+    },
+    "Q22119349": {
+      "wikidataId": "Q22119349",
+      "name": "Tanashi Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.5440509,
+        "lat": 35.7298951
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanashi%20jinja3.JPG"
+    },
+    "Q24868471": {
+      "wikidataId": "Q24868471",
+      "name": "Jōdono Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.55025,
+        "lat": 35.743806
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jodonojinja.jpg"
+    },
+    "Q28154526": {
+      "wikidataId": "Q28154526",
+      "name": "Minami-Nagasaki Sports Park",
+      "description": "public park in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.6832443,
+        "lat": 35.724847
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Minami-Nagasaki%20Sports%20Park%20%28eastern%20entrance%29%202016%2012%2001.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Minami-Nagasaki_Sports_Park"
+    },
+    "Q28685916": {
+      "wikidataId": "Q28685916",
+      "name": "Nukui Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.493806,
+        "lat": 35.698611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nukuijinja.jpg"
+    },
+    "Q30926305": {
+      "wikidataId": "Q30926305",
+      "name": "Shinmei Shrine (Higashi Kurume)",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.524277777,
+        "lat": 35.73725
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shinmeisya%20shrine%20Higashikurume%20Tokyo.jpg"
+    },
+    "Q30926309": {
+      "wikidataId": "Q30926309",
+      "name": "Shinmei-sha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.521167,
+        "lat": 35.754139
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9D%B1%E4%B9%85%E7%95%99%E7%B1%B3%E5%B8%82%20%E7%A5%9E%E6%98%8E%E7%A4%BE.jpg"
+    },
+    "Q38277625": {
+      "wikidataId": "Q38277625",
+      "name": "Koganei Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.509333,
+        "lat": 35.695028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Koganei-jinja%20Haiden.jpg"
+    },
+    "Q48763203": {
+      "wikidataId": "Q48763203",
+      "name": "Ōme Plum Park",
+      "description": "park in Ōme, Japan",
+      "coordinates": {
+        "lng": 139.21883333,
+        "lat": 35.78622222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ume%20park%20%E6%A2%85%20%E5%85%AC%E5%9C%92.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%8Cme_Plum_Park"
+    },
+    "Q48763543": {
+      "wikidataId": "Q48763543",
+      "name": "日野市市民の森スポーツ公園",
+      "description": "park in Hino, Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.402333333,
+        "lat": 35.680083333
+      }
+    },
+    "Q52729406": {
+      "wikidataId": "Q52729406",
+      "name": "Saginomiya Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.638333333,
+        "lat": 35.721666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saginomiya%20Hachiman%20Jinja.jpg"
+    },
+    "Q54153275": {
+      "wikidataId": "Q54153275",
+      "name": "Maesawa Hachiman Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.512028,
+        "lat": 35.752694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maesawa%20Hachiman%20Shrine%20ac%20%282%29.jpg"
+    },
+    "Q63788026": {
+      "wikidataId": "Q63788026",
+      "name": "Suwa Shrine, Tachikawa",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.406111111,
+        "lat": 35.695388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suwa%20Shrine%2020190513%282%29.jpg"
+    },
+    "Q64589501": {
+      "wikidataId": "Q64589501",
+      "name": "Tanaka Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.65976,
+        "lat": 35.70061
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%94%B0%E4%B8%AD%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%204.jpg"
+    },
+    "Q65277546": {
+      "wikidataId": "Q65277546",
+      "name": "Higashikurumeshi Chikurin Park",
+      "description": "park in Higashikurume, Japan",
+      "coordinates": {
+        "lng": 139.53378,
+        "lat": 35.75464
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chikurin%20Park%20in%20Higashikurume-shi%20%2850547377101%29.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Higashikurumeshi_Chikurin_Park",
+      "website": "https://www.city.higashikurume.lg.jp/shisetsu/kouen/1001496/1002180.html"
+    },
+    "Q77267791": {
+      "wikidataId": "Q77267791",
+      "name": "Azusami Tenjinsha",
+      "description": "shrine in Sunagawa-cho, Tachikawa, Tokyo",
+      "coordinates": {
+        "lng": 139.403015,
+        "lat": 35.724144
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AzusamiTenjinsha%202019-12-01%20sa%281%29.jpg",
+      "website": "https://azusami-suitengu.net/"
+    },
+    "Q78166404": {
+      "wikidataId": "Q78166404",
+      "name": "Azusami Tenjin-sha",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.36116,
+        "lat": 35.731274
+      }
+    },
+    "Q97182700": {
+      "wikidataId": "Q97182700",
+      "name": "Shirahige Shrine",
+      "description": "Shinto shrine in Sumida-ku, Japan",
+      "coordinates": {
+        "lng": 139.83699,
+        "lat": 35.710629
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shirahige%20Jinja%20%28Tachibana%2C%20Sumida%29.JPG"
+    },
+    "Q97280194": {
+      "wikidataId": "Q97280194",
+      "name": "Hatsunemori Shrine",
+      "description": "shrine in Sumida-ku, Tokyo",
+      "coordinates": {
+        "lng": 139.79398,
+        "lat": 35.690607
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hatsunemori%20Jinja.JPG"
+    },
+    "Q97280443": {
+      "wikidataId": "Q97280443",
+      "name": "Tokunoyama Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.79748,
+        "lat": 35.700994
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokunoyama%20Inari%20Jinja.JPG"
+    },
+    "Q97280595": {
+      "wikidataId": "Q97280595",
+      "name": "Ejima Sugiyama Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.792722222,
+        "lat": 35.691361111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ejima-Sugiyama%20Jinja%2001.JPG",
+      "website": "http://ejimasugiyama.tokyo/"
+    },
+    "Q97280639": {
+      "wikidataId": "Q97280639",
+      "name": "Tsugaru Inari Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.809305555,
+        "lat": 35.697833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B4%A5%E8%BB%BD%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%20-%20panoramio.jpg"
+    },
+    "Q97280790": {
+      "wikidataId": "Q97280790",
+      "name": "Akiba Shrine",
+      "description": "Shinto shrine in Sumida-ku, Japan",
+      "coordinates": {
+        "lng": 139.812861111,
+        "lat": 35.716972222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Akiba%20jinja%2C%20Sumida.jpg"
+    },
+    "Q97378114": {
+      "wikidataId": "Q97378114",
+      "name": "Azuma Shrine",
+      "description": "Shinto shrine in Sumida-ku, Japan",
+      "coordinates": {
+        "lng": 139.82663,
+        "lat": 35.705372
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Azuma%20jinja%201.jpg"
+    },
+    "Q97478942": {
+      "wikidataId": "Q97478942",
+      "name": "Daikoku Shrine",
+      "description": "Shinto shrine in Toshima-ku, Japan",
+      "coordinates": {
+        "lng": 139.746361,
+        "lat": 35.736444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daikoku%20Jinja%20%28Toshima%2C%20Tokyo%29.JPG"
+    },
+    "Q97478947": {
+      "wikidataId": "Q97478947",
+      "name": "Myōgi Shrine",
+      "description": "Shinto shrine in Toshima-ku, Japan",
+      "coordinates": {
+        "lng": 139.745028,
+        "lat": 35.738639
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Myogi%20Jinja%20%28Toshima%2C%20Tokyo%29.JPG"
+    },
+    "Q97478945": {
+      "wikidataId": "Q97478945",
+      "name": "Otsuka Tenso Shrine",
+      "description": "Shinto shrine in Tokyo, Japan",
+      "coordinates": {
+        "lng": 139.727694,
+        "lat": 35.730528
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenso%20Jinja%20%28Minamiotsuka%2C%20Toshima%2C%20Tokyo%29.JPG"
+    },
+    "Q97478963": {
+      "wikidataId": "Q97478963",
+      "name": "Hie Shrine",
+      "description": "Shinto shrine in Toshima-ku, Japan",
+      "coordinates": {
+        "lng": 139.748833,
+        "lat": 35.736556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hie%20Jinja%20%28Toshima%2C%20Tokyo%29.JPG"
+    }
+  },
+  "timestamp": "2025-12-28T20:13:42.326Z",
+  "source": "wikidata"
+}

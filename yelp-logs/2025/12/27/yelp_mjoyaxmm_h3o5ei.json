@@ -1,0 +1,371 @@
+{
+  "id": "yelp_mjoyaxmm_h3o5ei",
+  "timestamp": "2025-12-27T23:47:59.806Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "ramen",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "3",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "aIKn86_X2zJ_k2y7r_LZ2w",
+          "alias": "九州じゃんがら-秋葉原本店-千代田区",
+          "name": "Kyushu Jangara Akihabara Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/RdJSk5BgosAAXQ85b-GyLg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B9%9D%E5%B7%9E%E3%81%98%E3%82%83%E3%82%93%E3%81%8C%E3%82%89-%E7%A7%8B%E8%91%89%E5%8E%9F%E6%9C%AC%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 92,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.700808,
+            "longitude": 139.770676
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "外神田3-11-6",
+            "address2": "",
+            "address3": null,
+            "city": "Chiyoda",
+            "zip_code": "101-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "外神田3-11-6",
+              "Chiyoda, 東京都 〒101-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81332514059",
+          "display_phone": "+81 3-3251-4059",
+          "distance": 1792.9347808251446,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0930",
+                  "end": "2330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0930",
+                  "end": "2330",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "YD4NquiK0mPR_WMse5KPOA",
+          "alias": "六厘舎-千代田区",
+          "name": "Rokurinsha",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LF9MhKH-tidgySJnukWV6A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%85%AD%E5%8E%98%E8%88%8E-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 319,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.680068,
+            "longitude": 139.76781
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "丸の内1-9-1",
+            "address2": "B1F",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "100-0005",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "丸の内1-9-1",
+              "B1F",
+              "Chiyoda, 東京都 〒100-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81332860166",
+          "display_phone": "+81 3-3286-0166",
+          "distance": 558.8738514146524,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "0930",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://rokurinsha.com/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "A9axTK277WBe-8W-sI_hnA",
+          "alias": "一蘭-渋谷店-渋谷区-2",
+          "name": "Ichiran Shibuya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/RlTCz2nPj8btd3bcJeS5zg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 753,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.661131,
+            "longitude": 139.700987
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "神南1-22-7",
+            "address2": "岩本ビルB1F",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0041",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "神南1-22-7",
+              "岩本ビルB1F",
+              "Shibuya, 東京都 〒150-0041",
+              "Japan"
+            ]
+          },
+          "phone": "+815018082546",
+          "display_phone": "+81 50-1808-2546",
+          "distance": 6502.157768804014,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 6700,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1732,
+    "success": true
+  }
+}

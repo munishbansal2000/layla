@@ -1,0 +1,2312 @@
+{
+  "id": "viator_mjnidcs4_llt9a8",
+  "timestamp": "2025-12-26T23:34:12.724Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 479,
+      "destName": "paris",
+      "tags": [
+        12066
+      ],
+      "sortOrder": "TRAVELER_RATING",
+      "count": 20
+    }
+  },
+  "response": {
+    "products": [
+      {
+        "productCode": "343759P28",
+        "title": "Père Lachaise Cemetery Tour: A Stroll Through Immortal History",
+        "description": "Embark on a journey through history with our guided tour at Père Lachaise Cemetery. Located in the heart of Paris, this iconic resting place is a testament to the city's rich heritage and artistic expression. Our guides will introduce you to the final resting sites of renowned figures, from Oscar Wilde to Jim Morrison, sharing their captivating life stories.‍\n\nAs you stroll through this tranquil oasis, admire the artistry in the tombstones and sculptures that adorn the cemetery, each telling a unique tale of love and remembrance. ‍\n\nWhether you're a history enthusiast, art lover, or seeking a peaceful escape from the city, our Père Lachaise Cemetery tour offers an unforgettable experience among a small group of 8 people max. Join us to explore the enduring echoes of eternity within these sacred grounds and discover Paris's cultural and historical legacy.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/11/e7/4b/33.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/11/e7/4b/33.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 7,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 11,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 18,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 61.26,
+            "fromPriceBeforeDiscount": 72.07
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Pere-Lachaise-Cemetery-A-Stroll-Through-Immortal-History/d479-343759P28?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          21972,
+          367653,
+          21860,
+          11893,
+          367654,
+          12066,
+          12046,
+          367661
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "SPECIAL_OFFER"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "5045P85",
+        "title": "Paris Pere Lachaise Cemetery Small Group Guided Tour",
+        "description": "Join a small group as you delve into the enchanting realm of Paris's largest garden, a place that seamlessly intertwines history and charm. Recognized as the world's most visited cemetery, this \"out of time\" experience unveils both grand and lesser-known stories, weaving together the lives of iconic figures and ordinary individuals, tales of shattered dreams, and enduring romances.\n\nEncounter the likes of Eugène Delacroix, Jim Morrison, and Colette, as well as enigmatic figures such as Allen Kardec and the ghostly White Lady. This guided journey invites you to explore the fascinating intersection of great and \"little\" history, where the stories of famous personalities blend with those of unsung heroes.\n\nUpon concluding the tour, you'll have the freedom to continue your stroll and discover other hidden gems within the sprawling 44-hectare garden. Immerse yourself in the rich tapestry of Père Lachaise Cemetery, where every corner holds a unique tale waiting to be unveiled.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/50/ef/65.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/50/ef/65.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/50/ef/65.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/50/ef/65.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/50/ef/65.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/50/ef/65.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/50/ef/65.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/50/ef/65.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/50/ef/65.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/50/ef/65.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 2,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 11,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 13,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 108.64,
+            "fromPriceBeforeDiscount": 108.64
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Pere-Lachaise-Cemetery-2-Hours-Small-Group-Tour/d479-5045P85?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          12046,
+          367661,
+          21860,
+          12028,
+          12066,
+          367658
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "343759P25",
+        "title": "Paris Halloween Walking Tour: Haunted Stories - Small Group",
+        "description": "Halloween in Paris is something special, and we’d love to take you on a walk you won’t forget. In two hours, we’ll slip into the city’s darker side—where legends, ghost stories, and spine-tingling folklore come alive.\n\nThis tour really is for everyone: curious kids, adventurous teens, history buffs, and anyone who just loves a good thrill and Halloween vibe.\n\nAs we wander the medieval streets of Île de la Cité, your guide will share the kind of tales that give you goosebumps: a murderous barber who terrified the neighborhood, ghosts said to linger in royal chambers, and strange immortals who still haunt Parisian lore. Every corner hides a secret, and every landmark—whether it’s the Hôtel de Ville, Notre Dame, or Conciergerie—has something eerie to reveal.\n\nWith a small group (never more than 8), it feels more like exploring the city with friends—friends who happen to love a good spooky story. Together, we’ll share an unforgettable Halloween evening in the City of Light… and shadows.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/03/0d/d1.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/03/0d/d1.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 3,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 7,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 10,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 72.07,
+            "fromPriceBeforeDiscount": 72.07
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Memorable-Halloween-Journey-Explore-the-Dark-Secrets-of-Paris/d479-343759P25?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11893,
+          21860,
+          12066,
+          21592,
+          12046
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "19551P49",
+        "title": "Dark Paris Myths & Legends Private Walking Tour",
+        "description": "Our Dark Paris private tour is the ideal way to unveil the most secret & mysterious legends of the City of Lights. From the Antic Latin Quarter to Notre Dame surroundings, and from the Marais to the Haunted Châtelet. It won’t leave you indifferent. Secure your spot now!\n\nEnjoy a private Paris Evening Tour with a Local Expert Guide.\n\nExplore the medieval heart of Paris, where each street corner hides stories to reveal.\n\nDecipher hidden symbols & gothic statues by the churches where dreadful stories happened. \n\nDiscover back alleys where criminals & alchemists haunted for centuries.\n\nFrom the Middle Ages to the 1960s, unveil the darkness behind the Parisian nightlife.\n\nThe iconic centre of Paris and Notre Dame cathedral will never look the same after this unique experience!",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/11/ec/52/e4.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/11/ec/52/e4.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 5,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 6,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 150
+        },
+        "confirmationType": "INSTANT_THEN_MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 287.07,
+            "fromPriceBeforeDiscount": 287.07
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Dark-Paris-Myths-and-Legends-Small-Group-Walking-Tour-10-max/d479-19551P49?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          11938,
+          12046,
+          367661,
+          12028,
+          11941,
+          12066
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "86644P26",
+        "title": "Private tour of Père Lachaise cemetery",
+        "description": "Immerse yourself in the captivating atmosphere of the Père Lachaise cemetery during an exclusive private tour that will take you to the heart of the fascinating stories and legendary characters who rest there.\n\nExplore the shaded paths, where each grave tells a unique story. Discover the graves of great names in literature, art, music and politics, while learning the captivating stories that mark their lives and legacies.\n\nYou'll marvel at the majestic tombs of iconic figures such as Jim Morrison, Edith Piaf, Oscar Wilde, and many more. Immerse yourself in the mysterious world of artists and visionaries whose works have marked history and influenced future generations.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/28/78/16.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/28/78/16.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/28/78/16.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/28/78/16.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/28/78/16.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/28/78/16.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/28/78/16.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/28/78/16.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/28/78/16.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/28/78/16.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 1,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 2,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 198.19,
+            "fromPriceBeforeDiscount": 198.19
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Private-tour-of-Pere-Lachaise-cemetery/d479-86644P26?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367653,
+          12046,
+          22083,
+          367654,
+          12029,
+          22143,
+          11941,
+          12028,
+          12066,
+          20757
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": true,
+          "translationSource": "MACHINE",
+          "translationAttribution": "GOOGLE"
+        }
+      },
+      {
+        "productCode": "366458P10",
+        "title": "Haunted Walking Tour of Père Lachaise Cemetery",
+        "description": "Step beyond the ordinary and discover Père Lachaise Cemetery as you’ve never seen it before — through its most mysterious stories, haunted legends, and forgotten secrets. This is not a standard history tour: with a passionate, theatrical guide, you’ll walk the same paths where poets, artists, and restless spirits linger.\n\nEncounter breathtaking monuments and chilling tales: the eternal love of Abelard and Héloïse, the strange White Lady, the tragic fate of Gérard de Nerval, the ghostly aura of Jim Morrison, the spiritist rituals at Allan Kardec’s tomb, and even the eerie vampire legend of Baroness Demidov.\n\nYour guide doesn’t just share facts — they bring the cemetery to life with suspense, and a touch of dark humor. Expect to shiver, to marvel, and to experience Père Lachaise as both a place of memory and a stage where history, love, and the supernatural intertwine. With every story, you’ll uncover layers of Paris that most visitors never imagine, making this tour truly unforgettable.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/16/d9/0b/4b.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/16/d9/0b/4b.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 1,
+          "combinedAverageRating": 5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 22.82,
+            "fromPriceBeforeDiscount": 22.82
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Haunted-Walking-Tour-of-Pere-Lachaise-Cemetery-in-Paris/d479-366458P10?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          12046,
+          367661,
+          12066
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "NEW_ON_VIATOR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "52288P2",
+        "title": "The Pere Lachaise Cemetery Private Tour",
+        "description": "The Pere Lachaise is a surprising open-air museum of 70,000 graves, 44 hectares and 5,300 trees. \n\nAvoid the noisy big groups and chose to live this experience in a more intimate way. Chat and get to know more, the guide will reveal you the secrets and the legends of the past and present. The tour can be just for you alone, for your couple, for your family or for your group of friends. And all the special requests will be fulfilled. \n\nMany are the celebrities buried here, local and international. Jim Morrison, Oscar Wilde, Isadora Duncan, Gertrude Stein, Maria Callas, Marcel Proust, Chopin, Moliere, Delacroix, Piaf, Marceau and so many others that often visitors miss. Our guide knows how to find them all and put them in a thread, using shortcuts off the beaten paths and will let you discover unusual spots of landscaped beauty.\n\nThe tour is about 2 hours, but it's you who decide everything, it's your private tour!",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/06/ee/85/a3.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/06/ee/85/a3.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 3,
+              "averageRating": 5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 49,
+              "averageRating": 4.9
+            }
+          ],
+          "totalReviews": 52,
+          "combinedAverageRating": 4.923077
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 387.96,
+            "fromPriceBeforeDiscount": 387.96
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/The-Pere-Lachaise-Cemetery-Private-Tour/d479-52288P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          12029,
+          12046,
+          12028,
+          12066
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "144393P4",
+        "title": "Opera Garnier Mysteries Private Guided Tour with Skip-the-Line Entrance",
+        "description": "This convenient ticket-included tour will allow you to experience the magic of the Opera Garnier in a private, relaxed and informative manner. Your certified guide, holder of the official French national guiding license, will provide you with a wealth of historical and cultural information including anecdotes about the famous Opera's Phantom or the mysterious lake beneath the monument.\nThe skip-the-line tickets, the single-group booking and the audio headsets will ensure you'll have the most comfortable and memorable experience possible.\nThis is a strictly private tour : one booking = one group.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/09/1b/46/87.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/09/1b/46/87.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/09/1b/46/87.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/09/1b/46/87.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/1b/46/87.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/09/1b/46/87.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/1b/46/87.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1b/46/87.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/09/1b/46/87.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/09/1b/46/87.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 31,
+              "averageRating": 4.8
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 30,
+              "averageRating": 4.9
+            }
+          ],
+          "totalReviews": 61,
+          "combinedAverageRating": 4.836066
+        },
+        "duration": {
+          "fixedDurationInMinutes": 90
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 240.23,
+            "fromPriceBeforeDiscount": 240.23
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Opera-Garnier-Tour-with-Expert-Guide-Private-1-5-hour-Entry-Fees-Included/d479-144393P4?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12066,
+          12028,
+          11941,
+          12046,
+          11938,
+          12029
+        ],
+        "flags": [
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "123350P2",
+        "title": "The Darkest Secrets of Paris",
+        "description": "Let's experience Paris’s dark side on a spine-chilling night walk! \nParis is not only the city of love, but also a real haunted city. Many historical murders, crimes and fantastic legends have written the story of the city. \n\nWe will spend two hours together during which we will discover the dark secrets of Notre Dame district, the french version of \"Romeo & Juliette\" tragic couple, the most famous ghosts of the city, and the captivating horror stories about the historical buildings. \nYou will hear about supernatural places and creepy legends from the ghosts to the mysterious 'Vampire of Montparnasse'. We will visit the strangest murder spots and, if we are lucky enough, we will see a real ghost! ;) Just kidding.\nIf you like creepy stories and legends, this is a must do experience!\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/09/36/49/c5.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/09/36/49/c5.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/09/36/49/c5.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/09/36/49/c5.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/09/36/49/c5.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/09/36/49/c5.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/36/49/c5.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/36/49/c5.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/09/36/49/c5.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/09/36/49/c5.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 114,
+              "averageRating": 4.8
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 90,
+              "averageRating": 4.7
+            }
+          ],
+          "totalReviews": 204,
+          "combinedAverageRating": 4.730392
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 39.04,
+            "fromPriceBeforeDiscount": 39.04
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/The-Darkest-Secrets-of-Paris/d479-123350P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          12046,
+          367661,
+          367651,
+          12066
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "3731GRAVES",
+        "title": "Paris: Famous Graves of Pere Lachaise Cemetery Guided Tour",
+        "description": "Visit one of the most romantic and mysterious sites in Paris on a small-group walking tour through Père Lachaise Cemetery. Numbers are limited to a maximum of 25 people on this small-group tour, ensuring you'll receive personalized attention from your knowledgeable guide.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/bb/43/d1.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/bb/43/d1.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 571,
+              "averageRating": 4.4
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 476,
+              "averageRating": 4.8
+            }
+          ],
+          "totalReviews": 1047,
+          "combinedAverageRating": 4.6036296
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 18.02,
+            "fromPriceBeforeDiscount": 18.02
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Paris-Pere-Lachaise-Gravestone-Walking-Tour/d479-3731GRAVES?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12075,
+          367653,
+          12066,
+          367661,
+          12046,
+          12029,
+          21972,
+          21721,
+          367654
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "47475P72",
+        "title": "Paris Ghosts and Dark Stories Tour",
+        "description": "Step into the heart of Paris for a spooky journey through the haunted Île de la Cité. From the historic Pont Neuf to the charming Square du Vert-Galant, you'll discover eerie tales and ghostly legends. Our tour passes the imposing Conciergerie, where Marie Antoinette's spirit is said to linger, the magnificent Sainte-Chapelle with its shadows of spectral monks, and more Parisian landmarks you thought you knew.\n\nAs we stroll down Rue de la Cité, keep your eyes peeled for the elusive \"Wandering Nun.\" You'll hear spine-tingling stories at every turn, from \"The Screams of the Drowned\" along the Seine to tales of unjust execution. Each step brings a new chilling legend to life.\n\nThe adventure concludes at the iconic Notre Dame Cathedral, home to the mysterious phantom bell ringer. Join us for an unforgettable glimpse into Paris' darker secrets and see this beloved city in a whole new light!",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/d6/72/90.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/d6/72/90.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/d6/72/90.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/d6/72/90.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/d6/72/90.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/d6/72/90.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/d6/72/90.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/d6/72/90.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/d6/72/90.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/d6/72/90.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 5,
+              "averageRating": 3.4
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 12,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 17,
+          "combinedAverageRating": 4.529412
+        },
+        "duration": {
+          "fixedDurationInMinutes": 90
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 43.24,
+            "fromPriceBeforeDiscount": 43.24
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Paris-Ghosts-and-Dark-Stories-Tour/d479-47475P72?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367658,
+          367653,
+          12066,
+          12029,
+          367654,
+          21972,
+          12046,
+          367661
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "13405P10",
+        "title": "Private Guided Tour to Père Lachaise Cemetery in Paris",
+        "description": "Discover the secrets of Père Lachaise cemetery on a walking tour with a private guide, who tells you about the lives and deaths of the famous people buried here.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/06/fd/4d/f0.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/06/fd/4d/f0.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 7,
+              "averageRating": 4.4
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 3,
+              "averageRating": 4.7
+            }
+          ],
+          "totalReviews": 10,
+          "combinedAverageRating": 4.5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "MANUAL",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 73.27,
+            "fromPriceBeforeDiscount": 73.27
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Paris-2-Hour-Private-Guided-Tour-to-Pere-Lachaise-Cemetery/d479-13405P10?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          11938,
+          12046,
+          367661,
+          12028,
+          11941,
+          12066
+        ],
+        "flags": [
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "6839P177",
+        "title": "Ghost & Haunted Walking Tour in Eiffel Tower Exterior at Night ",
+        "description": "Gathering at the foot of the iconic structure, your guide will unravel the enigmatic tale surrounding the Eiffel Tower's creation in the late 1800s. For years, engineers grappled with the quest for the perfect design until a mysterious figure emerged, armed with advanced mathematical calculations that baffled all others. Was this elusive persona the namesake himself, Gustave Eiffel, returning from beyond the grave to oversee his magnum opus?\n\nDescending into the shadows beneath the intricate ironwork, we'll seek echoes of the countless souls who met tragic fates during the tower's construction. From harrowing falls to equipment mishaps, the early days of the tower bore witness to no shortage of mortal drama. Some insist that the ghosts of those lost linger within the landmark to this day. \n\nWill you witness paranormal phenomena firsthand amidst the heights of Paris after nightfall? The only way to find out is to join our Eiffel Tower Exterior: Ghost & Haunted Walking Tour",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/49/66/b0.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/49/66/b0.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/49/66/b0.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/49/66/b0.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/49/66/b0.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/49/66/b0.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/49/66/b0.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/49/66/b0.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/49/66/b0.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/49/66/b0.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 1,
+              "averageRating": 4
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 1,
+              "averageRating": 5
+            }
+          ],
+          "totalReviews": 2,
+          "combinedAverageRating": 4.5
+        },
+        "duration": {
+          "fixedDurationInMinutes": 90
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 24.02,
+            "fromPriceBeforeDiscount": 24.02
+          },
+          "currency": "USD",
+          "extraChargesSummary": {
+            "fromPrice": 59.56,
+            "extraCharges": 35.54
+          }
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Eiffel-Tower-Exterior-at-Night-Ghost-and-Haunted-Walking-Tour/d479-6839P177?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12046,
+          22083,
+          12029,
+          12066,
+          20757,
+          21592,
+          367658,
+          12057,
+          367650
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "6839P151",
+        "title": "Paris: Haunted Père Lachaise Cemetery Guided Tour",
+        "description": "Experience a different kind of walking tour and follow your guide on a tour through the largest cemetery in Paris.\nYou will listen to the stories of the fanstasms aroused by the tombs of Jim Morisson or the spiritualist Allan Kardec and many other less known phenomena.\nThis cemetery of Père Lachaise is really the theater of fantastic and paranormal phenomena.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0f/d0/94/09.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0f/d0/94/09.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 220,
+              "averageRating": 4.5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 117,
+              "averageRating": 4.6
+            }
+          ],
+          "totalReviews": 337,
+          "combinedAverageRating": 4.4955487
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 26.42,
+            "fromPriceBeforeDiscount": 26.42
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Paris-Pere-la-Chaise-Cemetery-Ghost-and-Hunted-tour/d479-6839P151?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367654,
+          12046,
+          22083,
+          22143,
+          12066,
+          21972,
+          12029,
+          367661,
+          367653
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "3731PARISGHOST",
+        "title": "Paris by Night Walking Tour: Ghosts, Mysteries and Legends",
+        "description": "For many, Paris by night is a place of romance and moonlit walks along the Seine. For others, it’s a place of mystery and the ghosts of the past that haunt city streets. This walking tour of Paris’ ghosts, mysteries and legends takes you on a journey through the hidden Paris – when the City of Light is finally dark. As you visit tucked-away streets off the beaten path, you’ll hear intriguing ghost stories and legends that will bring a chill to the night's air, as well as little-known facts about Paris and its history.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/06/71/2f/e3.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/06/71/2f/e3.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 649,
+              "averageRating": 4.1
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 265,
+              "averageRating": 4.7
+            }
+          ],
+          "totalReviews": 914,
+          "combinedAverageRating": 4.2778993
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 18.02,
+            "fromPriceBeforeDiscount": 18.02
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Ghosts-Mysteries-and-Legends-Night-Walking-Tour-of-Paris/d479-3731PARISGHOST?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          367654,
+          12046,
+          367661,
+          12028,
+          12066,
+          21972,
+          367653
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "107194P26",
+        "title": "Paris Murder Mystery: Death on the Seine Quest and Tour",
+        "description": "Step into 1880s Paris and become a detective on a thrilling quest to solve the murder of the Mona Lisa. As you follow the clues, the secrets of the city—and its darker side—begin to unfold.\n\nUsing your smartphone, you'll solve 9 interactive puzzles guiding you along the Seine, through hidden corners and iconic landmarks like the Louvre, Pont Neuf, Notre-Dame Cathedral, and the Jardin des Tuileries. Each clue brings you closer to cracking the case, while revealing fascinating horror stories and historical mysteries tied to the City of Lights. This adventure is especially atmospheric when played at night!\n\nWhat makes this tour unique?\nIt’s a self-paced, mystery-driven exploration that combines Paris’s iconic beauty with suspenseful storytelling and interactive puzzle-solving.\n\nPerfect for couples, friends, families, and anyone who loves a good mystery with a Parisian twist. Ready to solve the case and uncover the city's darkest secrets?",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/81/ff/3d.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/81/ff/3d.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 6,
+              "averageRating": 3.5
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 36,
+              "averageRating": 4.3
+            }
+          ],
+          "totalReviews": 42,
+          "combinedAverageRating": 4.1666665
+        },
+        "duration": {
+          "variableDurationFromMinutes": 70,
+          "variableDurationToMinutes": 100
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 5.99,
+            "fromPriceBeforeDiscount": 5.99
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Haunted-Paris-The-Murder-of-Mona-Lisa-1-5-Hour-City-Exploration-Game/d479-107194P26?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12013,
+          367654,
+          12046,
+          367661,
+          11941,
+          12066,
+          367653
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "3234P37",
+        "title": "Paris Murders and Mysteries semi-private tour of the Louvre",
+        "description": "The Louvre Museum is one of the largest collections of artwork on the planet… so it should come as no surprise that within the collection are paintings, sculptures, and pieces that contain fascinating – and sometimes gruesome – secrets and stories.  Dive into the ancient world collections to learn stories of ancient magic and long-forgotten rituals.  Travel through history as you bring to life some of the horrors depicted in some of the Museum’s most iconic paintings.  Look at the Mona Lisa from a new perspective and try to understand her enigmatic story and smile. \n\nYou’ll also dive into the history of the Louvre itself – its medieval origins as a fortress, its standing as a royal palace, and its role as the setting of centuries of betrayal, scandal, and murder.  This in-depth tour will give you a newfound appreciation for the Louvre as you look at things from a darker point of view; get ready to be both shocked and intrigued on this macabre visit!",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/06/df/2c/32.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/06/df/2c/32.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/06/df/2c/32.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/06/df/2c/32.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/06/df/2c/32.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/df/2c/32.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/df/2c/32.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/df/2c/32.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/06/df/2c/32.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/06/df/2c/32.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "VIATOR",
+              "totalCount": 17,
+              "averageRating": 4
+            },
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 3,
+              "averageRating": 4.7
+            }
+          ],
+          "totalReviews": 20,
+          "combinedAverageRating": 4.1
+        },
+        "duration": {
+          "fixedDurationInMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 204.19,
+            "fromPriceBeforeDiscount": 204.19
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Louvre-Murder-and-Mystery-Tour/d479-3234P37?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12066,
+          12028,
+          20757,
+          22083,
+          12046,
+          12029,
+          21860
+        ],
+        "flags": [
+          "LIKELY_TO_SELL_OUT"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "66049P34",
+        "title": "Loire Valley Amboise Royal Castle & Da Vinci Castle",
+        "description": "Dive into history and explore the places where Leonardo Da Vinci spent his last three years in France. Walk through his chambers, bureau and garden and take a look at a part of his inventions rebuilt and expose through the alleys of the beautiful garden of the Clos Luce manor.\n\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/10/44/bc/61.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/10/44/bc/61.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/10/44/bc/61.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/10/44/bc/61.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/44/bc/61.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/10/44/bc/61.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/44/bc/61.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/44/bc/61.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/10/44/bc/61.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/10/44/bc/61.jpg"
+              }
+            ]
+          }
+        ],
+        "reviews": {
+          "sources": [
+            {
+              "provider": "TRIPADVISOR",
+              "totalCount": 1,
+              "averageRating": 3
+            }
+          ],
+          "totalReviews": 1,
+          "combinedAverageRating": 3
+        },
+        "duration": {
+          "variableDurationFromMinutes": 600,
+          "variableDurationToMinutes": 720
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 372.35,
+            "fromPriceBeforeDiscount": 372.35
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Looking-for-Dracula-Day-Trip-from-Bucharest/d479-66049P34?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          11941,
+          11928,
+          367661,
+          11889,
+          12066,
+          21733,
+          11930,
+          12029,
+          21511,
+          367656
+        ],
+        "flags": [
+          "FREE_CANCELLATION"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "157275P77",
+        "title": " Day Tour- Normandy Omaha Beach - Cemetery - Cider Tasting",
+        "description": "Settle into the minibus for the drive north to Normandy. First stop is Omaha Beach. Walk on the same sands that the Allied forces landed on and learn about their acts of heroism. Your next stop is the Overlord Museum, home to an unrivaled collection of military equipment\nA café called La Flamme (with a black front). Your driver-guide will arrive with a grey minibus about 10min before the scheduled departure time of the tour.\n",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/84/e6/69.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/84/e6/69.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/84/e6/69.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/84/e6/69.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/84/e6/69.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/84/e6/69.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/84/e6/69.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/84/e6/69.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/84/e6/69.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/84/e6/69.jpg"
+              }
+            ]
+          }
+        ],
+        "duration": {
+          "fixedDurationInMinutes": 660
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 286,
+            "fromPriceBeforeDiscount": 286
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/Normandy-Day-Small-Group-Omaha-Beach-and-Cemetery-and-Cider-Tasting/d479-157275P77?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12029,
+          12066,
+          367661,
+          11941,
+          12035,
+          367658,
+          12028,
+          11889,
+          11928,
+          21733,
+          20206,
+          11930
+        ],
+        "flags": [
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      },
+      {
+        "productCode": "101073P22",
+        "title": "Headless Horseman in Paris a Self Guided Walking Tour Game",
+        "description": "A spooky, self-guided walking tour game through Montmartre in Paris. You have made some new friends online. They've found an old journal and are trying to solve the mysterious disappearance of its owner. The old notes contain descriptions of a Headless Horseman haunting Paris. Maybe the journal also offers the clues needed to find out what happened? You are invited to join an investigation, but one of your new friends never shows up at your agreed meeting spot. Follow clues through Montmartre. Participate in the story in each location through gamification. Examine items and crack codes while you explore the city's historical surroundings. This audio walking tour game is self-guided via a GPS-based app downloaded to your phone. When you buy the tour you'll receive an email with instructions on how to download the app which serves as your guide and narrator. Listen to the story while you walk, and solve puzzles in each location. You can start, pause and end the tour when you want.",
+        "images": [
+          {
+            "imageSource": "SUPPLIER_PROVIDED",
+            "caption": "",
+            "isCover": true,
+            "variants": [
+              {
+                "height": 100,
+                "width": 100,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/be/37/71.jpg"
+              },
+              {
+                "height": 200,
+                "width": 200,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/be/37/71.jpg"
+              },
+              {
+                "height": 400,
+                "width": 400,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/be/37/71.jpg"
+              },
+              {
+                "height": 240,
+                "width": 360,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/be/37/71.jpg"
+              },
+              {
+                "height": 320,
+                "width": 480,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/be/37/71.jpg"
+              },
+              {
+                "height": 360,
+                "width": 540,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/be/37/71.jpg"
+              },
+              {
+                "height": 446,
+                "width": 674,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/be/37/71.jpg"
+              },
+              {
+                "height": 480,
+                "width": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/be/37/71.jpg"
+              },
+              {
+                "height": 118,
+                "width": 210,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/be/37/71.jpg"
+              },
+              {
+                "height": 75,
+                "width": 75,
+                "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/be/37/71.jpg"
+              }
+            ]
+          }
+        ],
+        "duration": {
+          "variableDurationFromMinutes": 60,
+          "variableDurationToMinutes": 120
+        },
+        "confirmationType": "INSTANT",
+        "itineraryType": "STANDARD",
+        "pricing": {
+          "summary": {
+            "fromPrice": 8.84,
+            "fromPriceBeforeDiscount": 8.84
+          },
+          "currency": "USD"
+        },
+        "productUrl": "https://www.viator.com/tours/Paris/The-Headless-Horseman-in-Paris-a-self-guided-walking-tour-game/d479-101073P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+        "destinations": [
+          {
+            "ref": "479",
+            "primary": true
+          }
+        ],
+        "tags": [
+          12011,
+          12046,
+          367661,
+          11941,
+          12066,
+          367658
+        ],
+        "flags": [
+          "FREE_CANCELLATION",
+          "PRIVATE_TOUR"
+        ],
+        "translationInfo": {
+          "containsMachineTranslatedText": false,
+          "translationSource": "ORIGINAL"
+        }
+      }
+    ],
+    "totalCount": 20,
+    "currency": "USD"
+  },
+  "metadata": {
+    "duration_ms": 454,
+    "success": true,
+    "destination": "paris"
+  }
+}

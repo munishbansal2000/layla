@@ -1,0 +1,22 @@
+{
+  "id": "viator_mjni5se3_0f8i12",
+  "timestamp": "2025-12-26T23:28:19.707Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 684,
+      "destName": "paris",
+      "sortOrder": "RECOMMENDED",
+      "count": 20
+    }
+  },
+  "response": {},
+  "metadata": {
+    "duration_ms": 388,
+    "success": false,
+    "error": "Viator API error: 400 - {\"code\":\"BAD_REQUEST\",\"message\":\"Unknown search sorting field: RECOMMENDED\",\"timestamp\":\"2025-12-26T23:28:19.754666701Z\",\"trackingId\":\"32230921:FEF1_0A280EB3:01BB_694F1A13_411F8CF:196CBA\"}",
+    "destination": "paris"
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "id": "yelp_mjoymix9_0r0qbt",
+  "timestamp": "2025-12-27T23:57:00.621Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Coco Ichibanya",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "FizM06MMml4yxlGHEPt51A",
+          "alias": "coco-ichibanya-ｊｒ恵比寿駅東口店-渋谷区",
+          "name": "Coco Ichibanya JR Ebisu-eki Higashiguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/K8gRILYC6uTPbBOcSfho_w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/coco-ichibanya-%EF%BD%8A%EF%BD%92%E6%81%B5%E6%AF%94%E5%AF%BF%E9%A7%85%E6%9D%B1%E5%8F%A3%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.647056821016,
+            "longitude": 139.711968445244
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "恵比寿1-13-6",
+            "address2": "",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0013",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "恵比寿1-13-6",
+              "Shibuya, 東京都 〒150-0013",
+              "Japan"
+            ]
+          },
+          "phone": "+81354473888",
+          "display_phone": "+81 3-5447-3888",
+          "distance": 2859.3874784054533,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "TjSsp9Dw6wjULhTE7bnelg",
+          "alias": "カレーハウスcoco壱番屋-新宿駅西口店-新宿区-2",
+          "name": "Curry House CoCo Ichibanya Shinjuku Nishiguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/UwUvMK3hWVzB9ubA9ghQtw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%AB%E3%83%AC%E3%83%BC%E3%83%8F%E3%82%A6%E3%82%B9coco%E5%A3%B1%E7%95%AA%E5%B1%8B-%E6%96%B0%E5%AE%BF%E9%A7%85%E8%A5%BF%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 120,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.6931863073738,
+            "longitude": 139.699341000702
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "西新宿1-2-12",
+            "address2": "",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0023",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "西新宿1-2-12",
+              "Shinjuku, 東京都 〒160-0023",
+              "Japan"
+            ]
+          },
+          "phone": "+81333450775",
+          "display_phone": "+81 3-3345-0775",
+          "distance": 3134.4960677280774,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ichibanya.co.jp/menu/index.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "AiVLMJv5aLA0hgoUQgipXw",
+          "alias": "coco壱番屋-渋谷区桜丘町店-渋谷区",
+          "name": "Coco Ichibanya Shibuya Ward Sakuragaokacho ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Wl00EhN19UNkMaFLGzb5PA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/coco%E5%A3%B1%E7%95%AA%E5%B1%8B-%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%A1%9C%E4%B8%98%E7%94%BA%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 40,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.656851,
+            "longitude": 139.700411
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "桜丘町25-17",
+            "address2": "加藤・大谷ビル 1F",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0031",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "桜丘町25-17",
+              "加藤・大谷ビル 1F",
+              "Shibuya, 東京都 〒150-0031",
+              "Japan"
+            ]
+          },
+          "phone": "+81354285503",
+          "display_phone": "+81 3-5428-5503",
+          "distance": 1351.079846356066,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2330",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "mxPoLoxaXu1_ms4XjeVmXw",
+          "alias": "coco壱番屋ｊｒ秋葉原駅昭和通り口店-千代田区",
+          "name": "Coco Ichibanya Jr Akihabara Station Syouwadooriguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ehyK8oX5aMotOUWvTHNPYw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/coco%E5%A3%B1%E7%95%AA%E5%B1%8B%EF%BD%8A%EF%BD%92%E7%A7%8B%E8%91%89%E5%8E%9F%E9%A7%85%E6%98%AD%E5%92%8C%E9%80%9A%E3%82%8A%E5%8F%A3%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 61,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.6984567962002,
+            "longitude": 139.775853614179
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "神田平河町4",
+            "address2": "渡辺ビル",
+            "address3": null,
+            "city": "Chiyoda",
+            "zip_code": "101-0027",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "神田平河町4",
+              "渡辺ビル",
+              "Chiyoda, 東京都 〒101-0027",
+              "Japan"
+            ]
+          },
+          "phone": "+81338510006",
+          "display_phone": "+81 3-3851-0006",
+          "distance": 8517.267062045505,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "xcyBEQsUSYYMx9hu30cGjQ",
+          "alias": "カレーハウスcoco壱番屋-新宿歌舞伎町店-新宿区",
+          "name": "CURRY HOUSE CoCo Ichibanya Shinjuku Kabukicho ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/kd3XCUSrFcTN2KP28li1TA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%AB%E3%83%AC%E3%83%BC%E3%83%8F%E3%82%A6%E3%82%B9coco%E5%A3%B1%E7%95%AA%E5%B1%8B-%E6%96%B0%E5%AE%BF%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 35,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.694521,
+            "longitude": 139.701691
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "歌舞伎町1-18-10",
+            "address2": "吉川ビル",
+            "address3": null,
+            "city": "Shinjuku",
+            "zip_code": "160-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "歌舞伎町1-18-10",
+              "吉川ビル",
+              "Shinjuku, 東京都 〒160-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81351557098",
+          "display_phone": "+81 3-5155-7098",
+          "distance": 3336.401817571674,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 64,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 500,
+    "success": true
+  }
+}

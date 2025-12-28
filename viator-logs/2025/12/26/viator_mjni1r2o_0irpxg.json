@@ -1,0 +1,19 @@
+{
+  "id": "viator_mjni1r2o_0irpxg",
+  "timestamp": "2025-12-26T23:25:11.377Z",
+  "type": "destinations",
+  "request": {
+    "endpoint": "/destinations/search",
+    "method": "POST",
+    "params": {
+      "query": "paris"
+    }
+  },
+  "response": {},
+  "metadata": {
+    "duration_ms": 256,
+    "success": false,
+    "error": "Viator API error: 404 - {\"code\":404,\"message\":\"HTTP 404 Not Found\"}",
+    "destination": "paris"
+  }
+}

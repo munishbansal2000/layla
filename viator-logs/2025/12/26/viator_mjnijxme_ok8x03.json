@@ -1,0 +1,19 @@
+{
+  "id": "viator_mjnijxme_ok8x03",
+  "timestamp": "2025-12-26T23:39:19.670Z",
+  "type": "destinations",
+  "request": {
+    "endpoint": "/destinations/search",
+    "method": "POST",
+    "params": {
+      "query": "To a local market"
+    }
+  },
+  "response": {},
+  "metadata": {
+    "duration_ms": 242,
+    "success": false,
+    "error": "Viator API error: 404 - {\"code\":404,\"message\":\"HTTP 404 Not Found\"}",
+    "destination": "To a local market"
+  }
+}

@@ -1,0 +1,137 @@
+
+🧭 Pre-Trip & Planning Scenarios
+	•	User gives high-level intent (“relaxed cultural trip”, “food-focused”, “kid-friendly”)
+	•	Budget sensitivity (low / medium / high) influencing recommendations
+	•	Pace preference (packed vs breathable days)
+	•	Mobility constraints (walking limits, stroller, elderly traveler)
+	•	Weather-aware itinerary generation
+	•	Seasonal crowd prediction and avoidance
+	•	Visa / customs / vaccination reminders
+	•	Trip anchor identification (must-do events, weddings, conferences)
+	•	Trip theme blending (e.g., museum + café hopping)
+	•	Multi-city or multi-entry trip logic (e.g., Japan rail pass optimization)
+
+⸻
+
+📍 Arrival & Orientation Scenarios
+	•	Jet lag–aware first-day planning
+	•	Airport → hotel routing with luggage handling
+	•	Early check-in / late baggage storage discovery
+	•	SIM/eSIM activation guidance
+	•	Local transit orientation (cards, apps, passes)
+	•	Currency + tipping norms onboarding
+	•	Safety norms and cultural do/don’t micro-briefs
+
+⸻
+
+🗓️ Daily Itinerary Execution Scenarios
+	•	Morning “anchor slot” planning (primary activity of the day)
+	•	Activity clustering by geography to reduce travel fatigue
+	•	Dynamic time buffering between activities
+	•	Meal discovery near current location + dietary needs
+	•	Indoor vs outdoor switching based on weather
+	•	Crowd-based reordering (museum busy now → café first)
+	•	Quiet alternatives when user wants to slow down
+	•	“You have 45 free minutes nearby” suggestions
+	•	Solo vs group behavior adaptation
+
+⸻
+
+🔄 Real-Time Adaptation Scenarios (Core Value)
+	•	User is running late → auto-reshuffle remaining day
+	•	Attraction unexpectedly closed → instant replacements
+	•	Rain starts → pivot to indoor equivalents
+	•	User tired → downgrade intensity without “ruining the plan”
+	•	Transport delay or strike → reroute or reprioritize
+	•	Reservation missed → recovery paths (nearby walk-ins)
+	•	Crowds spike → send avoidance options
+	•	Energy-aware planning (detected via steps / phone usage)
+	•	Time compression (“you only have 2 hours left”)
+	•	Location drift detection (“you’re off-route — adapt?”)
+
+⸻
+
+🎟️ Booking & Enhancement Scenarios
+	•	Turn static activities into experience upgrades
+	•	Guided tours
+	•	Skip-the-line passes
+	•	Audio guides
+	•	Price-tiered options surfaced contextually
+	•	Just-in-time booking (not over-planning)
+	•	Refund-aware decision making
+	•	Waitlist or alternative slot detection
+	•	Multi-person coordination (different interests)
+
+⸻
+
+🧠 Context-Aware Intelligence Scenarios
+	•	Learning user preferences across days
+	•	“You liked X yesterday → similar today”
+	•	Detecting boredom vs curiosity
+	•	Recognizing repeat travel patterns (business vs leisure)
+	•	Adjusting tone (hands-off vs chatty)
+	•	Travel companion vs concierge mode switching
+	•	Kids asleep → adult activity suggestions
+	•	Social vs introspective moments
+
+⸻
+
+🚨 Safety, Health & Risk Scenarios
+	•	Area-specific safety alerts
+	•	Natural disaster or protest avoidance
+	•	Medical help discovery nearby
+	•	Pharmacy / urgent care routing
+	•	Lost phone or wallet recovery steps
+	•	Embassy or consulate info access
+	•	Emergency phrase translations
+
+⸻
+
+🗣️ Language & Cultural Mediation Scenarios
+	•	Real-time translation for menus, signs
+	•	Cultural interpretation (“why this matters here”)
+	•	Ordering help in restaurants
+	•	Politeness & etiquette correction
+	•	Tone softening for local interactions
+	•	Micro-history storytelling while on site
+
+⸻
+
+🤝 Social & Group Travel Scenarios
+	•	Multi-person preference reconciliation
+	•	Split-group suggestions (“meet back here at 6”)
+	•	Shared live itinerary updates
+	•	Voting on next activity
+	•	Conflict-aware compromises
+	•	Child-friendly vs adult options branching
+
+⸻
+
+📸 Memory & Reflection Scenarios
+	•	Auto-suggest photo moments
+	•	Daily recap timelines
+	•	“You walked through history here” insights
+	•	Trip highlights compilation
+	•	Shareable stories or reels
+	•	Journaling prompts tied to locations
+
+⸻
+
+🏁 End-of-Trip & Post-Trip Scenarios
+	•	Last-day luggage logistics
+	•	Airport timing optimization
+	•	Souvenir suggestions near departure
+	•	Missed-experience recommendations for next visit
+	•	Expense summary & budget reflection
+	•	Trip pattern learning for future travel
+	•	“Next time in this city…” suggestions
+
+⸻
+
+🧪 Power-User / Advanced Scenarios
+	•	API-driven external data fusion (events, strikes, ticket inventory)
+	•	Offline-first degraded mode
+	•	Privacy-preserving personalization
+	•	Agent-based negotiation (tours, reservations)
+	•	AR overlays for navigation & discovery
+	•	Multi-agent planning (planner + executor + critic)

@@ -1,0 +1,536 @@
+{
+  "id": "yelp_mjpdm0fb_441i2v",
+  "timestamp": "2025-12-28T06:56:30.887Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Katsu Midori",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "ajsudaGqb7yzbZbah1grWw",
+          "alias": "回し寿司-活-美登利-西武渋谷店-渋谷区",
+          "name": "Mawashi Zushi KATSUMIDORI  SEIBU Shibuya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/I3ywy3yTO_UQJoMgDuZ90g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%9B%9E%E3%81%97%E5%AF%BF%E5%8F%B8-%E6%B4%BB-%E7%BE%8E%E7%99%BB%E5%88%A9-%E8%A5%BF%E6%AD%A6%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 152,
+          "categories": [
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.660236,
+            "longitude": 139.700514
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "宇田川町21-1",
+            "address2": "レストラン街「ダイニング プラザ」A館8F",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0042",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "宇田川町21-1",
+              "レストラン街「ダイニング プラザ」A館8F",
+              "Shibuya, 東京都 〒150-0042",
+              "Japan"
+            ]
+          },
+          "phone": "+81357284282",
+          "display_phone": "+81 3-5728-4282",
+          "distance": 1106.1972689833083,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://katumidori.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "GayVP8bjhjljLoPf1LZ7Nw",
+          "alias": "回し寿司-活-美登利-西武池袋店-豊島区",
+          "name": "Mawashi Sushi Katsu Midori Seibu Ikebukuro",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/A6CpGHmFx_bl9Vkn5dtaMw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%9B%9E%E3%81%97%E5%AF%BF%E5%8F%B8-%E6%B4%BB-%E7%BE%8E%E7%99%BB%E5%88%A9-%E8%A5%BF%E6%AD%A6%E6%B1%A0%E8%A2%8B%E5%BA%97-%E8%B1%8A%E5%B3%B6%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 20,
+          "categories": [
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.7293804,
+            "longitude": 139.7110627
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "南池袋1-28-1",
+            "address2": "西武池袋本店 8F",
+            "address3": "",
+            "city": "Toshima",
+            "zip_code": "171-0022",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "南池袋1-28-1",
+              "西武池袋本店 8F",
+              "Toshima, 東京都 〒171-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+81369141185",
+          "display_phone": "+81 3-6914-1185",
+          "distance": 7295.91165608529,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://katumidori.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "bG9PXt0cErt2Nao60SQmsg",
+          "alias": "梅丘-寿司の美登利総本店-銀座店-中央区-2",
+          "name": "Umegaoka Sushi No Midori Sohonten Ginza",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/7IemUMeXVe_J5O6ITD_sHg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%A2%85%E4%B8%98-%E5%AF%BF%E5%8F%B8%E3%81%AE%E7%BE%8E%E7%99%BB%E5%88%A9%E7%B7%8F%E6%9C%AC%E5%BA%97-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 109,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.6703869811431,
+            "longitude": 139.759601
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "銀座7-2-2",
+            "address2": "東京高速道路山下ビル1F",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座7-2-2",
+              "東京高速道路山下ビル1F",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81355681212",
+          "display_phone": "+81 3-5568-1212",
+          "distance": 6264.104521954212,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.sushinomidori.co.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "H6i5_M_cm53hkWngKKCTFg",
+          "alias": "とんき-目黒店-目黒区-2",
+          "name": "Tonki Meguro",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/AgUr_C9KNkZYKuRS6pnqBg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%A8%E3%82%93%E3%81%8D-%E7%9B%AE%E9%BB%92%E5%BA%97-%E7%9B%AE%E9%BB%92%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 94,
+          "categories": [
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.63363,
+            "longitude": 139.714239
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "下目黒1-1-2",
+            "address2": "",
+            "address3": null,
+            "city": "Meguro",
+            "zip_code": "153-0064",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "下目黒1-1-2",
+              "Meguro, 東京都 〒153-0064",
+              "Japan"
+            ]
+          },
+          "phone": "+81334919928",
+          "display_phone": "+81 3-3491-9928",
+          "distance": 4184.721943032341,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "EOeqMmWnPT54DOTuTvui7w",
+          "alias": "うまい鮨勘-赤坂-港区",
+          "name": "Umai Sushi Kan Akasaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Hby2GBNAdwtx6pXPd-cZ-Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%86%E3%81%BE%E3%81%84%E9%AE%A8%E5%8B%98-%E8%B5%A4%E5%9D%82-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 40,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6730061215117,
+            "longitude": 139.737298463671
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "赤坂3丁目13-10",
+            "address2": null,
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂3丁目13-10",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+81335606711",
+          "display_phone": "+81 3-3560-6711",
+          "distance": 4302.222451592129,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 9,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 502,
+    "success": true
+  }
+}

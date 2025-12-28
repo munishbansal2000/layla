@@ -1,0 +1,29 @@
+{
+  "id": "viator_mjouw4x4_qfzrgk",
+  "timestamp": "2025-12-27T22:12:30.568Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 334,
+      "destName": "Tokyo Sounds Fantastic",
+      "tags": [
+        12066,
+        12065
+      ],
+      "sortOrder": "TRAVELER_RATING",
+      "count": 30
+    }
+  },
+  "response": {
+    "products": [],
+    "totalCount": 0,
+    "currency": "USD"
+  },
+  "metadata": {
+    "duration_ms": 559,
+    "success": true,
+    "destination": "Tokyo Sounds Fantastic"
+  }
+}

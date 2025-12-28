@@ -1,0 +1,127 @@
+{
+  "total_entries": 39,
+  "last_updated": "2025-12-28T17:04:15.013Z",
+  "cache_hits": 46,
+  "entries": [
+    {
+      "id": "yelp_mjpzbkbk_g6wjut",
+      "timestamp": "2025-12-28T17:04:15.008Z",
+      "type": "search",
+      "location": "Tsukiji, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tsukiji, Tokyo&sort_by=best_match&term=Sushi Zanmai",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbkb6_e7vad2",
+      "timestamp": "2025-12-28T17:04:14.994Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Hanbey",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbhqu_41guwo",
+      "timestamp": "2025-12-28T17:04:11.670Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Naritaya Shinjuku",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbh76_ry0q3g",
+      "timestamp": "2025-12-28T17:04:10.962Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Katsuya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbh0f_iz1qa3",
+      "timestamp": "2025-12-28T17:04:10.719Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Coco Ichibanya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbg01_law04a",
+      "timestamp": "2025-12-28T17:04:09.409Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Kushikatsu Tanaka",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbfuj_6lejgm",
+      "timestamp": "2025-12-28T17:04:09.211Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Tendon Tenya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbfsc_3cm7h4",
+      "timestamp": "2025-12-28T17:04:09.132Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Uobei Shibuya Dogenzaka",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbd4j_1sft8m",
+      "timestamp": "2025-12-28T17:04:05.683Z",
+      "type": "search",
+      "location": "Akasaka, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Akasaka, Tokyo&sort_by=best_match&term=Ippudo Ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbd0n_t18bh4",
+      "timestamp": "2025-12-28T17:04:05.543Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Katsu Midori",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbb6l_z0p399",
+      "timestamp": "2025-12-28T17:04:03.165Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Naritaya Ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjpzbau5_4hutpv",
+      "timestamp": "2025-12-28T17:04:02.717Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Asakusa Imahan",
+      "success": true
+    },
+    {
+      "id": "yelp_mjoyg3j0_y1tz9t",
+      "timestamp": "2025-12-27T23:52:00.732Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Ichiran Ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjoyaxmm_h3o5ei",
+      "timestamp": "2025-12-27T23:47:59.806Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=3&location=Tokyo&sort_by=best_match&term=ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjotamut_3wwv8q",
+      "timestamp": "2025-12-27T21:27:47.765Z",
+      "type": "search",
+      "location": "Paris, France",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Paris, France&price=3&sort_by=rating",
+      "success": true
+    }
+  ]
+}

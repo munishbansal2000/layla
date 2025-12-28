@@ -1,0 +1,28 @@
+{
+  "id": "viator_mjnji34y_dsmxw1",
+  "timestamp": "2025-12-27T00:05:53.122Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 479,
+      "destName": "paris",
+      "tags": [
+        11894
+      ],
+      "sortOrder": "TRAVELER_RATING",
+      "count": 20
+    }
+  },
+  "response": {
+    "products": [],
+    "totalCount": 0,
+    "currency": "USD"
+  },
+  "metadata": {
+    "duration_ms": 394,
+    "success": true,
+    "destination": "paris"
+  }
+}

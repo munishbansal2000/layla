@@ -1,0 +1,522 @@
+{
+  "id": "yelp_mjpdm0h1_56wpci",
+  "timestamp": "2025-12-28T06:56:30.949Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Ippudo Ramen",
+      "location": "Akasaka, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Akasaka, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "n9j2Py6a0DUdQ6QDr-8ssQ",
+          "alias": "一風堂-銀座店-中央区-4",
+          "name": "IPPUDO Ginza",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/UaUv0Rmk2BzZidmTpxpqJQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA-4?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 250,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "dumplings",
+              "title": "Dumplings"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.670699,
+            "longitude": 139.767429
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "銀座4-10-3",
+            "address2": "セントラルビル 1F",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座4-10-3",
+              "セントラルビル 1F",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81335471010",
+          "display_phone": "+81 3-3547-1010",
+          "distance": 2974.1922485798,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.ippudo.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "GJNwR3btQ8tSkkULTEg4bw",
+          "alias": "一風堂-六本木店-港区",
+          "name": "IPPUDO Roppongi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/laa8pkzKqs8jqkvTCo_KEw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E5%85%AD%E6%9C%AC%E6%9C%A8%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 75,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.663788,
+            "longitude": 139.73227
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "六本木4-9-11",
+            "address2": "第2小田切ビル1F",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "106-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "六本木4-9-11",
+              "第2小田切ビル1F",
+              "Minato, 東京都 〒106-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81357757561",
+          "display_phone": "+81 3-5775-7561",
+          "distance": 830.5528748467607,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ippudo.com/products/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "qjVnGAOm06Rgz9ArOfd3Zg",
+          "alias": "1-2ppudo-ルミネエスト新宿店-新宿区",
+          "name": "IPPUDO Lumine Est Shinjuku",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/xTv0m8j0TFUKmOE8IuN3dQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/1-2ppudo-%E3%83%AB%E3%83%9F%E3%83%8D%E3%82%A8%E3%82%B9%E3%83%88%E6%96%B0%E5%AE%BF%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 29,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.691369,
+            "longitude": 139.701079
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "新宿3-38-1",
+            "address2": "7F",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0022",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "新宿3-38-1",
+              "7F",
+              "Shinjuku, 東京都 〒160-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+81363804473",
+          "display_phone": "+81 3-6380-4473",
+          "distance": 3772.1230274360473,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.ippudo.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "gWk4uEtfBsB9g8_SwauuiQ",
+          "alias": "一風堂-恵比寿店-渋谷区",
+          "name": "IPPUDO Ebisu",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/UHpj0qpLzUblol2vMwWkJg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E6%81%B5%E6%AF%94%E5%AF%BF%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 42,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.6486568229245,
+            "longitude": 139.713198986706
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "広尾1-3-13",
+            "address2": "ハイネス恵比寿",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0012",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "広尾1-3-13",
+              "ハイネス恵比寿",
+              "Shibuya, 東京都 〒150-0012",
+              "Japan"
+            ]
+          },
+          "phone": "+81354202225",
+          "display_phone": "+81 3-5420-2225",
+          "distance": 3145.8631534616134,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.ippudo.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "O1MUw34luVNjw8AUAbul3A",
+          "alias": "一風堂-新宿アイランドタワー店-新宿区",
+          "name": "IPPUDO Shinjuku i-Land Tower",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/wye-K5ZlO-CuJC8gnwurlA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E6%96%B0%E5%AE%BF%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89%E3%82%BF%E3%83%AF%E3%83%BC%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 43,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.693808,
+            "longitude": 139.693237
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "西新宿6-4-1",
+            "address2": "新宿アイランドタワー B1F",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "163-1390",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "西新宿6-4-1",
+              "新宿アイランドタワー B1F",
+              "Shinjuku, 東京都 〒163-1390",
+              "Japan"
+            ]
+          },
+          "phone": "+81359905288",
+          "display_phone": "+81 3-5990-5288",
+          "distance": 4506.354177330814,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 17,
+      "region": {
+        "center": {
+          "longitude": 139.73450660705566,
+          "latitude": 35.67103296383196
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 567,
+    "success": true
+  }
+}

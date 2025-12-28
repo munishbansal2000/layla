@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OpenAI logs (contains API requests/responses)
+/openai-logs
+
+# API keys documentation (contains sensitive keys)
+docs/apis.md
+
+# Large data files
+data/japan-pois-enhanced/*.json

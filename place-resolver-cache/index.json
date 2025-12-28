@@ -1,0 +1,1387 @@
+{
+  "entries": {
+    "asakusa imahan|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Asakusa Imahan",
+        "category": "restaurant",
+        "neighborhood": "Asakusa",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Asakusa Imahan",
+          "category": "restaurant",
+          "neighborhood": "Asakusa",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Asakusa Imahan Kokusaitōri Honten",
+          "address": "西浅草3-1-12",
+          "neighborhood": "Taitō",
+          "coordinates": {
+            "lat": 35.7139949316521,
+            "lng": 139.792136328246
+          },
+          "rating": 4.8,
+          "reviewCount": 26,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/7SWAM1Dz5UCQG46jo7GLFQ/o.jpg"
+          ],
+          "confidence": 0.9,
+          "source": "yelp",
+          "sourceId": "4cbT_9WDWFsFy-RqiqqN-A",
+          "priceLevel": 4,
+          "phone": "+81 3-3841-1114",
+          "website": "https://www.yelp.com/biz/%E6%B5%85%E8%8D%89%E4%BB%8A%E5%8D%8A-%E5%9B%BD%E9%9A%9B%E9%80%9A%E3%82%8A%E6%9C%AC%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Asakusa Imahan Tokyo Station Grand Roof",
+            "address": "丸の内1-9-1",
+            "neighborhood": "Chiyoda",
+            "coordinates": {
+              "lat": 35.680076,
+              "lng": 139.767994
+            },
+            "rating": 5,
+            "reviewCount": 1,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/20OTUjONWBpiFaEegIn7wg/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "bcN4l8XsSyM41dm2R-zNow",
+            "priceLevel": 1,
+            "phone": "+81 3-5220-2955",
+            "website": "https://www.yelp.com/biz/%E6%B5%85%E8%8D%89%E4%BB%8A%E5%8D%8A-%E6%9D%B1%E4%BA%AC%E9%A7%85%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%AB%E3%83%BC%E3%83%95%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Imahan",
+            "address": "有楽町駅前（バス）",
+            "neighborhood": "Tokyo",
+            "coordinates": {
+              "lat": 35.6758265233241,
+              "lng": 139.762235646739
+            },
+            "rating": 4.6,
+            "reviewCount": 9,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/_02JH1TaSq35nxnKdO-TgA/o.jpg"
+            ],
+            "confidence": 0.85,
+            "source": "yelp",
+            "sourceId": "fCBS904GtSBJqt-5gkMD7g",
+            "priceLevel": 3,
+            "phone": "",
+            "website": "https://www.yelp.com/biz/imahan-%E6%9D%B1%E4%BA%AC?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 12,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:01.109Z"
+    },
+    "naritaya ramen|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Naritaya Ramen",
+        "category": "restaurant",
+        "neighborhood": "Asakusa",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Naritaya Ramen",
+          "category": "restaurant",
+          "neighborhood": "Asakusa",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "NARITAYA",
+          "address": "浅草2-7-13",
+          "neighborhood": "Taitō",
+          "coordinates": {
+            "lat": 35.714748,
+            "lng": 139.795078
+          },
+          "rating": 4.2,
+          "reviewCount": 9,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/04cYmLPNFyKYIgZfEyXfwg/o.jpg"
+          ],
+          "confidence": 0.85,
+          "source": "yelp",
+          "sourceId": "IMyOeirwUfvb3YBRr7x5LQ",
+          "priceLevel": 2,
+          "phone": "+81 3-4285-9806",
+          "website": "https://www.yelp.com/biz/%E6%88%90%E7%94%B0%E5%B1%8B-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Asakusa Naritaya",
+            "address": "浅草2-7-13",
+            "neighborhood": "Taitō",
+            "coordinates": {
+              "lat": 35.7147415332991,
+              "lng": 139.795064916008
+            },
+            "rating": 5,
+            "reviewCount": 1,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/1uyiZZFyAZiMF1de71XNgA/o.jpg"
+            ],
+            "confidence": 0.7999999999999999,
+            "source": "yelp",
+            "sourceId": "c4YIxYSsEgY-r-GvAg-_Ug",
+            "priceLevel": 2,
+            "phone": "+81 3-4285-9806",
+            "website": "https://www.yelp.com/biz/%E6%B5%85%E8%8D%89-%E6%88%90%E7%94%B0%E5%B1%8B-%E5%8F%B0%E6%9D%B1%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Itabashi Taishōken Naritaya",
+            "address": "板橋2-60-1",
+            "neighborhood": "Itabashi",
+            "coordinates": {
+              "lat": 35.7499573260231,
+              "lng": 139.711353
+            },
+            "rating": 5,
+            "reviewCount": 1,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/WcVv7Tv1PQBMUgXAgweY5A/o.jpg"
+            ],
+            "confidence": 0.7999999999999999,
+            "source": "yelp",
+            "sourceId": "l78AchrtOTUn31_QLkhRZQ",
+            "priceLevel": 2,
+            "phone": "+81 3-3962-4607",
+            "website": "https://www.yelp.com/biz/%E6%9D%BF%E6%A9%8B%E5%A4%A7%E5%8B%9D%E8%BB%92%E3%81%AA%E3%82%8A%E3%81%9F%E3%82%84-%E6%9D%BF%E6%A9%8B%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 13,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:01.110Z"
+    },
+    "ippudo ramen|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Ippudo Ramen",
+        "category": "restaurant",
+        "neighborhood": "Akasaka",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Ippudo Ramen",
+          "category": "restaurant",
+          "neighborhood": "Akasaka",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "IPPUDO Ginza",
+          "address": "銀座4-10-3",
+          "neighborhood": "Chūō",
+          "coordinates": {
+            "lat": 35.670699,
+            "lng": 139.767429
+          },
+          "rating": 4.6,
+          "reviewCount": 250,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/UaUv0Rmk2BzZidmTpxpqJQ/o.jpg"
+          ],
+          "confidence": 0.7999999999999999,
+          "source": "yelp",
+          "sourceId": "n9j2Py6a0DUdQ6QDr-8ssQ",
+          "priceLevel": 1,
+          "phone": "+81 3-3547-1010",
+          "website": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA-4?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "IPPUDO Roppongi",
+            "address": "六本木4-9-11",
+            "neighborhood": "Minato",
+            "coordinates": {
+              "lat": 35.663788,
+              "lng": 139.73227
+            },
+            "rating": 4.5,
+            "reviewCount": 75,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/laa8pkzKqs8jqkvTCo_KEw/o.jpg"
+            ],
+            "confidence": 0.7999999999999999,
+            "source": "yelp",
+            "sourceId": "GJNwR3btQ8tSkkULTEg4bw",
+            "priceLevel": 1,
+            "phone": "+81 3-5775-7561",
+            "website": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E5%85%AD%E6%9C%AC%E6%9C%A8%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "IPPUDO Lumine Est Shinjuku",
+            "address": "新宿3-38-1",
+            "neighborhood": "Shinjuku",
+            "coordinates": {
+              "lat": 35.691369,
+              "lng": 139.701079
+            },
+            "rating": 4.4,
+            "reviewCount": 29,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/xTv0m8j0TFUKmOE8IuN3dQ/o.jpg"
+            ],
+            "confidence": 0.7999999999999999,
+            "source": "yelp",
+            "sourceId": "qjVnGAOm06Rgz9ArOfd3Zg",
+            "priceLevel": 1,
+            "phone": "+81 3-6380-4473",
+            "website": "https://www.yelp.com/biz/1-2ppudo-%E3%83%AB%E3%83%9F%E3%83%8D%E3%82%A8%E3%82%B9%E3%83%88%E6%96%B0%E5%AE%BF%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 19,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:03.855Z"
+    },
+    "katsu midori|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Katsu Midori",
+        "category": "restaurant",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Katsu Midori",
+          "category": "restaurant",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Mawashi Sushi Katsu Midori Seibu Ikebukuro",
+          "address": "南池袋1-28-1",
+          "neighborhood": "Toshima",
+          "coordinates": {
+            "lat": 35.7293804,
+            "lng": 139.7110627
+          },
+          "rating": 4.4,
+          "reviewCount": 20,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/A6CpGHmFx_bl9Vkn5dtaMw/o.jpg"
+          ],
+          "confidence": 0.9,
+          "source": "yelp",
+          "sourceId": "GayVP8bjhjljLoPf1LZ7Nw",
+          "priceLevel": 2,
+          "phone": "+81 3-6914-1185",
+          "website": "https://www.yelp.com/biz/%E5%9B%9E%E3%81%97%E5%AF%BF%E5%8F%B8-%E6%B4%BB-%E7%BE%8E%E7%99%BB%E5%88%A9-%E8%A5%BF%E6%AD%A6%E6%B1%A0%E8%A2%8B%E5%BA%97-%E8%B1%8A%E5%B3%B6%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Umegaoka Sushi No Midori Sohonten Ginza",
+            "address": "銀座7-2-2",
+            "neighborhood": "Chūō",
+            "coordinates": {
+              "lat": 35.6703869811431,
+              "lng": 139.759601
+            },
+            "rating": 4.5,
+            "reviewCount": 109,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/7IemUMeXVe_J5O6ITD_sHg/o.jpg"
+            ],
+            "confidence": 0.7999999999999999,
+            "source": "yelp",
+            "sourceId": "bG9PXt0cErt2Nao60SQmsg",
+            "priceLevel": 2,
+            "phone": "+81 3-5568-1212",
+            "website": "https://www.yelp.com/biz/%E6%A2%85%E4%B8%98-%E5%AF%BF%E5%8F%B8%E3%81%AE%E7%BE%8E%E7%99%BB%E5%88%A9%E7%B7%8F%E6%9C%AC%E5%BA%97-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Mawashi Zushi KATSUMIDORI  SEIBU Shibuya",
+            "address": "宇田川町21-1",
+            "neighborhood": "Shibuya",
+            "coordinates": {
+              "lat": 35.660236,
+              "lng": 139.700514
+            },
+            "rating": 4.5,
+            "reviewCount": 152,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/I3ywy3yTO_UQJoMgDuZ90g/o.jpg"
+            ],
+            "confidence": 0.3,
+            "source": "yelp",
+            "sourceId": "ajsudaGqb7yzbZbah1grWw",
+            "priceLevel": 2,
+            "phone": "+81 3-5728-4282",
+            "website": "https://www.yelp.com/biz/%E5%9B%9E%E3%81%97%E5%AF%BF%E5%8F%B8-%E6%B4%BB-%E7%BE%8E%E7%99%BB%E5%88%A9-%E8%A5%BF%E6%AD%A6%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 19,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:03.856Z"
+    },
+    "uobei shibuya dogenzaka|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Uobei Shibuya Dogenzaka",
+        "category": "restaurant",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Uobei Shibuya Dogenzaka",
+          "category": "restaurant",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Uobei Shibuya Dogenzaka",
+          "address": "道玄坂2-29-11",
+          "neighborhood": "Shibuya",
+          "coordinates": {
+            "lat": 35.6594621430771,
+            "lng": 139.697798
+          },
+          "rating": 4.2,
+          "reviewCount": 192,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/4c-66l4GXqILfdB2myaBSw/o.jpg"
+          ],
+          "confidence": 1,
+          "source": "yelp",
+          "sourceId": "Iu3b6DI_V9jHFrIdJfgieA",
+          "priceLevel": 1,
+          "phone": "+81 3-3462-0241",
+          "website": "https://www.yelp.com/biz/%E9%AD%9A%E3%81%B9%E3%81%84-%E6%B8%8B%E8%B0%B7%E9%81%93%E7%8E%84%E5%9D%82%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "GENKI SUSHI Shibuya",
+            "address": "宇田川町24-8",
+            "neighborhood": "Shibuya",
+            "coordinates": {
+              "lat": 35.660405,
+              "lng": 139.699389
+            },
+            "rating": 4,
+            "reviewCount": 330,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/w_tJjinX6qo7GBfBnVyF6A/o.jpg"
+            ],
+            "confidence": 0.5,
+            "source": "yelp",
+            "sourceId": "3VLI7sLm-9ndmKFfRTE-Bw",
+            "priceLevel": 1,
+            "phone": "+81 3-3461-1281",
+            "website": "https://www.yelp.com/biz/%E5%85%83%E6%B0%97%E5%AF%BF%E5%8F%B8-%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 20,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:06.870Z"
+    },
+    "tendon tenya|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Tendon Tenya",
+        "category": "restaurant",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Tendon Tenya",
+          "category": "restaurant",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "TEMPURA TENDON TENYA Harajuku",
+          "address": "神宮前4-31",
+          "neighborhood": "Shibuya",
+          "coordinates": {
+            "lat": 35.669333,
+            "lng": 139.706232
+          },
+          "rating": 4,
+          "reviewCount": 22,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/2JECbfheuHlbb2Njrin7NA/o.jpg"
+          ],
+          "confidence": 0.9,
+          "source": "yelp",
+          "sourceId": "gMSG87lkMVbOmpabCihguA",
+          "priceLevel": 1,
+          "phone": "+81 3-5413-7983",
+          "website": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC-%E3%81%A6%E3%82%93%E3%82%84-%E5%8E%9F%E5%AE%BF%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "TEMPURA TENDON TENYA Shibuya Chikatetsu Building",
+            "address": "渋谷1-16-14",
+            "neighborhood": "Shibuya",
+            "coordinates": {
+              "lat": 35.661425,
+              "lng": 139.702544
+            },
+            "rating": 4.3,
+            "reviewCount": 16,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/GUJR0mtt7bnjVVhauIEJKw/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "OZW0XwVbBfsObQEK5-4vFQ",
+            "priceLevel": 2,
+            "phone": "+81 3-3486-3382",
+            "website": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84-%E6%B8%8B%E8%B0%B7%E5%9C%B0%E4%B8%8B%E9%89%84%E3%83%93%E3%83%AB%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "TEMPURA TENDON TENYA Ginza",
+            "address": "銀座3-9-4",
+            "neighborhood": "Chūō",
+            "coordinates": {
+              "lat": 35.671873,
+              "lng": 139.768251
+            },
+            "rating": 4.4,
+            "reviewCount": 34,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/XtdZuM-ljWcHohvJi_tHoA/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "WnYeW1GG9wMAdMgBfFErgA",
+            "priceLevel": 1,
+            "phone": "+81 3-5565-6903",
+            "website": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 21,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:06.871Z"
+    },
+    "kushikatsu tanaka|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Kushikatsu Tanaka",
+        "category": "restaurant",
+        "neighborhood": "Shinjuku",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Kushikatsu Tanaka",
+          "category": "restaurant",
+          "neighborhood": "Shinjuku",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Kushikatsu Tanaka",
+          "address": "栄町27-7",
+          "neighborhood": "Nerima",
+          "coordinates": {
+            "lat": 35.7383041381836,
+            "lng": 139.670455932617
+          },
+          "rating": 4,
+          "reviewCount": 2,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/wFShZnIfirkyYEw_oFDzPg/o.jpg"
+          ],
+          "confidence": 1,
+          "source": "yelp",
+          "sourceId": "j8T0uMsQyAK8eT9oIrvrIw",
+          "priceLevel": 2,
+          "phone": "+81 3-6914-9444",
+          "website": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E6%B1%9F%E5%8F%A4%E7%94%B0%E5%BA%97-%E7%B7%B4%E9%A6%AC%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Kushikatsu tanaka　Shibuyasakuragaokaten",
+            "address": "桜丘4-2",
+            "neighborhood": "Shibuya",
+            "coordinates": {
+              "lat": 35.6556587219238,
+              "lng": 139.703201293945
+            },
+            "rating": 4.2,
+            "reviewCount": 5,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/xsWLc-ANu22aeVUw0kRG6w/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "a5oLLi8emBGikedGe5CARA",
+            "priceLevel": 2,
+            "phone": "+81 3-6416-9125",
+            "website": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E6%B8%8B%E8%B0%B7%E6%A1%9C%E3%83%B6%E4%B8%98%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Kushikatsu Tanaka Ginza",
+            "address": "銀座7-3-13",
+            "neighborhood": "Chūō",
+            "coordinates": {
+              "lat": 35.672119140625,
+              "lng": 139.770797729492
+            },
+            "rating": 4,
+            "reviewCount": 1,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/5PjUlHkZG5KzuRSsC3tTDQ/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "aqB2Qbnd_jh6ZNlZeGQo8g",
+            "priceLevel": 2,
+            "phone": "+81 3-6264-5094",
+            "website": "https://www.yelp.com/biz/%E4%B8%B2%E3%82%AB%E3%83%84%E7%94%B0%E4%B8%AD-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 22,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:06.872Z"
+    },
+    "katsuya|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Katsuya",
+        "category": "restaurant",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Katsuya",
+          "category": "restaurant",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Katsuya Shinjuku Minamiguchi",
+          "address": "西新宿1-19-4",
+          "neighborhood": "Shinjuku",
+          "coordinates": {
+            "lat": 35.6883041200806,
+            "lng": 139.697630027077
+          },
+          "rating": 4.5,
+          "reviewCount": 4,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/CBKRG5EVUDMrSmHcTm_SSA/o.jpg"
+          ],
+          "confidence": 0.9,
+          "source": "yelp",
+          "sourceId": "6ygQnrDEicR8aVEOBoSC1g",
+          "priceLevel": 1,
+          "phone": "+81 3-6302-0670",
+          "website": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84-%E6%96%B0%E5%AE%BF%E5%8D%97%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Katsuya Shibuya Miyamasuzaka",
+            "address": "渋谷1丁目14-9",
+            "neighborhood": "Shibuya",
+            "coordinates": {
+              "lat": 35.659807514886,
+              "lng": 139.702867191798
+            },
+            "rating": 3.7,
+            "reviewCount": 3,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/6jpP2cCU2Ih4uMivOoSz6g/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "FrF1dzG55pOL3z-ijHqbSQ",
+            "priceLevel": 1,
+            "phone": "+81 3-5468-6681",
+            "website": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84%E6%B8%8B%E8%B0%B7%E5%AE%AE%E7%9B%8A%E5%9D%82%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Katsuya Shinjuku Nishiguchi",
+            "address": "西新宿1-2-12",
+            "neighborhood": "Shinjuku",
+            "coordinates": {
+              "lat": 35.6933433912137,
+              "lng": 139.699344391043
+            },
+            "rating": 4,
+            "reviewCount": 1,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/0CIrcd15oiNg0inio5T6Cw/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "WVXcdeRZlrkfZD1M6fMCsw",
+            "priceLevel": 1,
+            "phone": "+81 3-5321-9150",
+            "website": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A4%E3%82%84-%E6%96%B0%E5%AE%BF%E8%A5%BF%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 17,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:08.705Z"
+    },
+    "coco ichibanya|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Coco Ichibanya",
+        "category": "restaurant",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Coco Ichibanya",
+          "category": "restaurant",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Coco Ichibanya JR Ebisu-eki Higashiguchi",
+          "address": "恵比寿1-13-6",
+          "neighborhood": "Shibuya",
+          "coordinates": {
+            "lat": 35.647056821016,
+            "lng": 139.711968445244
+          },
+          "rating": 4.5,
+          "reviewCount": 6,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/K8gRILYC6uTPbBOcSfho_w/o.jpg"
+          ],
+          "confidence": 0.9,
+          "source": "yelp",
+          "sourceId": "FizM06MMml4yxlGHEPt51A",
+          "priceLevel": 1,
+          "phone": "+81 3-5447-3888",
+          "website": "https://www.yelp.com/biz/coco-ichibanya-%EF%BD%8A%EF%BD%92%E6%81%B5%E6%AF%94%E5%AF%BF%E9%A7%85%E6%9D%B1%E5%8F%A3%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Curry House CoCo Ichibanya Shinjuku Nishiguchi",
+            "address": "西新宿1-2-12",
+            "neighborhood": "Shinjuku",
+            "coordinates": {
+              "lat": 35.6931863073738,
+              "lng": 139.699341000702
+            },
+            "rating": 4.4,
+            "reviewCount": 120,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/UwUvMK3hWVzB9ubA9ghQtw/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "TjSsp9Dw6wjULhTE7bnelg",
+            "priceLevel": 1,
+            "phone": "+81 3-3345-0775",
+            "website": "https://www.yelp.com/biz/%E3%82%AB%E3%83%AC%E3%83%BC%E3%83%8F%E3%82%A6%E3%82%B9coco%E5%A3%B1%E7%95%AA%E5%B1%8B-%E6%96%B0%E5%AE%BF%E9%A7%85%E8%A5%BF%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Coco Ichibanya Shibuya Ward Sakuragaokacho ",
+            "address": "桜丘町25-17",
+            "neighborhood": "Shibuya",
+            "coordinates": {
+              "lat": 35.656851,
+              "lng": 139.700411
+            },
+            "rating": 4.7,
+            "reviewCount": 40,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/Wl00EhN19UNkMaFLGzb5PA/o.jpg"
+            ],
+            "confidence": 0.9,
+            "source": "yelp",
+            "sourceId": "AiVLMJv5aLA0hgoUQgipXw",
+            "priceLevel": 1,
+            "phone": "+81 3-5428-5503",
+            "website": "https://www.yelp.com/biz/coco%E5%A3%B1%E7%95%AA%E5%B1%8B-%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%A1%9C%E4%B8%98%E7%94%BA%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 18,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:08.706Z"
+    },
+    "hanbey|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Hanbey",
+        "category": "restaurant",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Hanbey",
+          "category": "restaurant",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Hanbey",
+          "address": "歌舞伎町1-23-14",
+          "neighborhood": "Shinjuku",
+          "coordinates": {
+            "lat": 35.6941,
+            "lng": 139.7009895
+          },
+          "rating": 4.1,
+          "reviewCount": 8,
+          "photos": [
+            "https://s3-media0.fl.yelpcdn.com/bphoto/1Vt3ddpVc2tGzfAWAKuPjg/o.jpg"
+          ],
+          "confidence": 1,
+          "source": "yelp",
+          "sourceId": "J2zuzKS1hKdNcifsznP2gg",
+          "priceLevel": 2,
+          "phone": "+81 3-6861-3555",
+          "website": "https://www.yelp.com/biz/%E5%8D%8A%E5%85%B5%E3%83%B1-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+        },
+        "alternatives": [
+          {
+            "name": "Hanbey",
+            "address": "北沢2丁目14-2",
+            "neighborhood": "Setagaya",
+            "coordinates": {
+              "lat": 35.6595515960965,
+              "lng": 139.667501589817
+            },
+            "rating": 4,
+            "reviewCount": 3,
+            "photos": [
+              "https://s3-media0.fl.yelpcdn.com/bphoto/hijUMc0rQGsryCi4M63XAg/o.jpg"
+            ],
+            "confidence": 1,
+            "source": "yelp",
+            "sourceId": "3FmER3kFLGdpF2o7m182zw",
+            "priceLevel": 1,
+            "phone": "+81 3-5779-8848",
+            "website": "https://www.yelp.com/biz/%E5%8D%8A%E5%85%B5%E3%83%B1-%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          },
+          {
+            "name": "Hanbey",
+            "address": "歌舞伎町1-6-3",
+            "neighborhood": "Shinjuku",
+            "coordinates": {
+              "lat": 35.6936569213867,
+              "lng": 139.702499389648
+            },
+            "rating": 3,
+            "reviewCount": 1,
+            "photos": [
+              "/images/placeholder-restaurant.jpg"
+            ],
+            "confidence": 1,
+            "source": "yelp",
+            "sourceId": "NDWC8sB7D1H287ZIJfVMzg",
+            "priceLevel": 2,
+            "phone": "+81 3-6892-1900",
+            "website": "https://www.yelp.com/biz/%E5%8D%8A%E5%85%B5%E3%83%B1-%E6%96%B0%E5%AE%BF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw"
+          }
+        ],
+        "provider": "yelp",
+        "duration": 24,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:18:10.650Z"
+    },
+    "senso-ji temple|tokyo|japan|temple": {
+      "place": {
+        "name": "Senso-ji Temple",
+        "category": "temple",
+        "neighborhood": "Asakusa",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Senso-ji Temple",
+          "category": "temple",
+          "neighborhood": "Asakusa",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Senso-ji Temple",
+          "address": "Asakusa Tokyo, Japan",
+          "neighborhood": "Asakusa",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 537,
+          "photos": [
+            "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 3,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.437Z"
+    },
+    "ueno park|tokyo|japan|park": {
+      "place": {
+        "name": "Ueno Park",
+        "category": "park",
+        "neighborhood": "Ueno",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Ueno Park",
+          "category": "park",
+          "neighborhood": "Ueno",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Ueno Park",
+          "address": "Ueno Tokyo, Japan",
+          "neighborhood": "Ueno",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 359,
+          "photos": [
+            "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 4,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.437Z"
+    },
+    "tokyo national museum|tokyo|japan|museum": {
+      "place": {
+        "name": "Tokyo National Museum",
+        "category": "museum",
+        "neighborhood": "Ueno",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Tokyo National Museum",
+          "category": "museum",
+          "neighborhood": "Ueno",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Tokyo National Museum",
+          "address": "Ueno Tokyo, Japan",
+          "neighborhood": "Ueno",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 1768,
+          "photos": [
+            "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 4,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.437Z"
+    },
+    "yanaka district|tokyo|japan|neighborhood": {
+      "place": {
+        "name": "Yanaka District",
+        "category": "neighborhood",
+        "neighborhood": "Yanaka",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Yanaka District",
+          "category": "neighborhood",
+          "neighborhood": "Yanaka",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Yanaka District",
+          "address": "Yanaka Tokyo, Japan",
+          "neighborhood": "Yanaka",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 351,
+          "photos": [
+            "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.643Z"
+    },
+    "tsukiji outer market|tokyo|japan|market": {
+      "place": {
+        "name": "Tsukiji Outer Market",
+        "category": "market",
+        "neighborhood": "Tsukiji",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Tsukiji Outer Market",
+          "category": "market",
+          "neighborhood": "Tsukiji",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Tsukiji Outer Market",
+          "address": "Tsukiji Tokyo, Japan",
+          "neighborhood": "Tsukiji",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.1,
+          "reviewCount": 591,
+          "photos": [
+            "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 2,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.643Z"
+    },
+    "shibuya scramble crossing|tokyo|japan|landmark": {
+      "place": {
+        "name": "Shibuya Scramble Crossing",
+        "category": "landmark",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Shibuya Scramble Crossing",
+          "category": "landmark",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Shibuya Scramble Crossing",
+          "address": "Shibuya Tokyo, Japan",
+          "neighborhood": "Shibuya",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.5,
+          "reviewCount": 221,
+          "photos": [
+            "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 2,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.643Z"
+    },
+    "meiji shrine|tokyo|japan|temple": {
+      "place": {
+        "name": "Meiji Shrine",
+        "category": "temple",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Meiji Shrine",
+          "category": "temple",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Meiji Shrine",
+          "address": "Shibuya Tokyo, Japan",
+          "neighborhood": "Shibuya",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 917,
+          "photos": [
+            "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 0,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.851Z"
+    },
+    "shinjuku gyoen national garden|tokyo|japan|park": {
+      "place": {
+        "name": "Shinjuku Gyoen National Garden",
+        "category": "park",
+        "neighborhood": "Shinjuku",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Shinjuku Gyoen National Garden",
+          "category": "park",
+          "neighborhood": "Shinjuku",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Shinjuku Gyoen National Garden",
+          "address": "Shinjuku Tokyo, Japan",
+          "neighborhood": "Shinjuku",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.3,
+          "reviewCount": 618,
+          "photos": [
+            "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:48.851Z"
+    },
+    "naritaya shinjuku|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Naritaya Shinjuku",
+        "category": "restaurant",
+        "neighborhood": "Shinjuku",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Naritaya Shinjuku",
+          "category": "restaurant",
+          "neighborhood": "Shinjuku",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Naritaya Shinjuku",
+          "address": "Shinjuku Tokyo, Japan",
+          "neighborhood": "Shinjuku",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 77,
+          "photos": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:49.068Z"
+    },
+    "harajuku takeshita street|tokyo|japan|neighborhood": {
+      "place": {
+        "name": "Harajuku Takeshita Street",
+        "category": "neighborhood",
+        "neighborhood": "Harajuku",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Harajuku Takeshita Street",
+          "category": "neighborhood",
+          "neighborhood": "Harajuku",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Harajuku Takeshita Street",
+          "address": "Harajuku Tokyo, Japan",
+          "neighborhood": "Harajuku",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.5,
+          "reviewCount": 266,
+          "photos": [
+            "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:49.068Z"
+    },
+    "yoyogi park|tokyo|japan|park": {
+      "place": {
+        "name": "Yoyogi Park",
+        "category": "park",
+        "neighborhood": "Shibuya",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Yoyogi Park",
+          "category": "park",
+          "neighborhood": "Shibuya",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Yoyogi Park",
+          "address": "Shibuya Tokyo, Japan",
+          "neighborhood": "Shibuya",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.1,
+          "reviewCount": 590,
+          "photos": [
+            "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:49.069Z"
+    },
+    "tokyo tower|tokyo|japan|viewpoint": {
+      "place": {
+        "name": "Tokyo Tower",
+        "category": "viewpoint",
+        "neighborhood": "Minato",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Tokyo Tower",
+          "category": "viewpoint",
+          "neighborhood": "Minato",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Tokyo Tower",
+          "address": "Minato Tokyo, Japan",
+          "neighborhood": "Minato",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.3,
+          "reviewCount": 477,
+          "photos": [
+            "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:49.275Z"
+    },
+    "akihabara shopping district|tokyo|japan|neighborhood": {
+      "place": {
+        "name": "Akihabara Shopping District",
+        "category": "neighborhood",
+        "neighborhood": "Akihabara",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Akihabara Shopping District",
+          "category": "neighborhood",
+          "neighborhood": "Akihabara",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Akihabara Shopping District",
+          "address": "Akihabara Tokyo, Japan",
+          "neighborhood": "Akihabara",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.4,
+          "reviewCount": 167,
+          "photos": [
+            "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:49.275Z"
+    },
+    "sushi zanmai|tokyo|japan|restaurant": {
+      "place": {
+        "name": "Sushi Zanmai",
+        "category": "restaurant",
+        "neighborhood": "Tsukiji",
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "result": {
+        "original": {
+          "name": "Sushi Zanmai",
+          "category": "restaurant",
+          "neighborhood": "Tsukiji",
+          "city": "Tokyo",
+          "country": "Japan"
+        },
+        "resolved": {
+          "name": "Sushi Zanmai",
+          "address": "Tsukiji Tokyo, Japan",
+          "neighborhood": "Tsukiji",
+          "coordinates": {
+            "lat": 0,
+            "lng": 0
+          },
+          "confidence": 0.7,
+          "source": "ai",
+          "rating": 4.2,
+          "reviewCount": 338,
+          "photos": [
+            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+            "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+          ]
+        },
+        "alternatives": [],
+        "provider": "ai-fallback",
+        "duration": 1,
+        "cached": false
+      },
+      "timestamp": "2025-12-28T17:54:49.275Z"
+    }
+  },
+  "lastUpdated": "2025-12-28T18:00:57.762Z",
+  "totalHits": 34,
+  "totalMisses": 52
+}

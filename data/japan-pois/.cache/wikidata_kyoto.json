@@ -1,0 +1,1417 @@
+{
+  "data": {
+    "Q276781": {
+      "wikidataId": "Q276781",
+      "name": "Umenomiya Taisha",
+      "description": "Shinto shrines in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.694893,
+        "lat": 35.004071
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Umenomiya-taisha%20shaden.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Umenomiya_Taisha",
+      "website": "http://www.umenomiya.or.jp/"
+    },
+    "Q501266": {
+      "wikidataId": "Q501266",
+      "name": "Nonomiya Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.67416667,
+        "lat": 35.01777778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nonomiya-jinja%20haiden.jpeg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nonomiya_Shrine",
+      "website": "http://www.nonomiya.com/eng.html"
+    },
+    "Q710302": {
+      "wikidataId": "Q710302",
+      "name": "Matsunoo Taisha",
+      "description": "Shinto shrine in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.685014,
+        "lat": 34.999975
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsunoo-taisha%20honden-1.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Matsunoo_Taisha",
+      "website": "http://www.matsunoo.or.jp/en/"
+    },
+    "Q713021": {
+      "wikidataId": "Q713021",
+      "name": "Atago Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.63444722,
+        "lat": 35.05994444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20Atago-shrine%20Kyoto.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Atago_Shrine_(Kyoto)",
+      "website": "http://atagojinjya.jp/"
+    },
+    "Q1306606": {
+      "wikidataId": "Q1306606",
+      "name": "Kamo Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.75277778,
+        "lat": 35.06027778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/KamigamoJinjya%20Saiden.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kamo_shrines"
+    },
+    "Q3594020": {
+      "wikidataId": "Q3594020",
+      "name": "Ōharano Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.65611111,
+        "lat": 34.96027778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oharano%20jinja%20Chumon.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C5%8Charano_Shrine",
+      "website": "https://oharano-jinja.jp/"
+    },
+    "Q11049290": {
+      "wikidataId": "Q11049290",
+      "name": "Iwaya Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.826111111,
+        "lat": 34.97
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20iwaya%20haiden.jpg"
+    },
+    "Q11354048": {
+      "wikidataId": "Q11354048",
+      "name": "Sannomiya Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.690444,
+        "lat": 34.971722
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sannomiya%20Jinja%28katagihara%29%20Haiden.jpg"
+    },
+    "Q11360904": {
+      "wikidataId": "Q11360904",
+      "name": "Shimogoryō Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.767778,
+        "lat": 35.016944
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimogoryo%20torii.jpg"
+    },
+    "Q11372506": {
+      "wikidataId": "Q11372506",
+      "name": "Gojō Tenjinsha",
+      "description": "Shinto shrine in Shimogyō-ku",
+      "coordinates": {
+        "lng": 135.755083,
+        "lat": 34.998639
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2013%201105%20Gojoten%20Jinja%20Shrine%20torii.jpg"
+    },
+    "Q11375001": {
+      "wikidataId": "Q11375001",
+      "name": "Kyoto Municipal Museum of School History",
+      "coordinates": {
+        "lng": 135.765694,
+        "lat": 35.00075
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20Museum%20of%20School%20History%20gate.JPG",
+      "website": "http://kyo-gakurehaku.jp/guide/english.html"
+    },
+    "Q11375127": {
+      "wikidataId": "Q11375127",
+      "name": "Kyoto City Nishikyogoku Comprehensive Sports Park",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 135.714889,
+        "lat": 34.993139
+      }
+    },
+    "Q11375592": {
+      "wikidataId": "Q11375592",
+      "name": "Museum of Kyoto",
+      "description": "museum in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.762222222,
+        "lat": 35.009166666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20of%20Kyoto%2020101204-002.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Museum_of_Kyoto",
+      "website": "https://www.bunpaku.or.jp/en/"
+    },
+    "Q11381859": {
+      "wikidataId": "Q11381859",
+      "name": "Sumiyoshi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.752806,
+        "lat": 34.999972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Samegai.JPG"
+    },
+    "Q11414206": {
+      "wikidataId": "Q11414206",
+      "name": "Kisshoin Tenmangu",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.734416666,
+        "lat": 34.973361111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Kissh%C3%B4-in%20Ten%27man-g%C3%BB%20-%20Le%20torii%20d%27entr%C3%A9e.jpg"
+    },
+    "Q11432214": {
+      "wikidataId": "Q11432214",
+      "name": "Oi Shrine (Kyoto)",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.677985,
+        "lat": 35.014238
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oi-jinja%20%28Kyoto%29%20shaden.JPG"
+    },
+    "Q11438245": {
+      "wikidataId": "Q11438245",
+      "name": "Ōishi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.795556,
+        "lat": 34.97
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/141206%20Oishi-jinja%20Ako%20Hyogo%20pref%20Japan02s3.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Oishi_Shrine"
+    },
+    "Q11442798": {
+      "wikidataId": "Q11442798",
+      "name": "Amatsu Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.732305555,
+        "lat": 35.030638888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amatsu%20Shrine%2C%20Kinugasa.jpg"
+    },
+    "Q11470816": {
+      "wikidataId": "Q11470816",
+      "name": "Yamashina Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.795571,
+        "lat": 34.968689
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamashina%20honden.jpg"
+    },
+    "Q11489342": {
+      "wikidataId": "Q11489342",
+      "name": "Mikane Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.754972222,
+        "lat": 35.011833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikane%20Jinja%20007.jpg",
+      "website": "https://mikane-jinja.or.jp/en/"
+    },
+    "Q11505112": {
+      "wikidataId": "Q11505112",
+      "name": "Himukai-daijingū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.795118,
+        "lat": 35.006252
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Himukai-daijingu%20geku1.jpg"
+    },
+    "Q11518370": {
+      "wikidataId": "Q11518370",
+      "name": "Konoshima Nimasu Amateru Mitama Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.713489,
+        "lat": 35.014535
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Konoshima-jinja%20haisho.JPG"
+    },
+    "Q11538723": {
+      "wikidataId": "Q11538723",
+      "name": "Nagi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.744081,
+        "lat": 35.003364
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagi-jinja%20shaden.JPG"
+    },
+    "Q11548940": {
+      "wikidataId": "Q11548940",
+      "name": "Suika Tenmangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.751916666,
+        "lat": 35.03625
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suika.jpg"
+    },
+    "Q11566981": {
+      "wikidataId": "Q11566981",
+      "name": "Hiyoke Tenmangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.767222,
+        "lat": 35.00325
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hiyoke%20tenmangu.JPG"
+    },
+    "Q11594015": {
+      "wikidataId": "Q11594015",
+      "name": "Fukuōji Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.709111,
+        "lat": 35.029028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%A6%8F%E7%8E%8B%E5%AD%90%E7%A5%9E%E7%A4%BE-02.jpg"
+    },
+    "Q11629957": {
+      "wikidataId": "Q11629957",
+      "name": "Saiin Kasuga Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.729444444,
+        "lat": 35.005
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saiin%20Kasuga-jinja%2020050413.jpg",
+      "website": "http://www.kasuga.or.jp/"
+    },
+    "Q11630696": {
+      "wikidataId": "Q11630696",
+      "name": "Sumiya",
+      "description": "京都の島原にあった揚屋",
+      "coordinates": {
+        "lng": 135.743139,
+        "lat": 34.992111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sumiya%20Kyoto%2001.JPG",
+      "website": "http://sumiyaho.sakura.ne.jp/"
+    },
+    "Q11637305": {
+      "wikidataId": "Q11637305",
+      "name": "Kurumazaki Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.689166666,
+        "lat": 35.015833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%BB%8A%E6%8A%98%E7%A5%9E%E7%A4%BE.jpg",
+      "website": "http://www.kurumazakijinja.or.jp/"
+    },
+    "Q11660689": {
+      "wikidataId": "Q11660689",
+      "name": "Reikōden Tenmangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.755694444,
+        "lat": 35.028055555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Reik%C5%8Dden%20Tenmang%C5%AB%20Kyoto%20JPN%20001.JPG"
+    },
+    "Q11676429": {
+      "wikidataId": "Q11676429",
+      "name": "Saginomori Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.798525,
+        "lat": 35.049563888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Haiden%2C%20Saginomori%20Jinja%2020150219152420.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saginomori_Shrine"
+    },
+    "Q17191533": {
+      "wikidataId": "Q17191533",
+      "name": "Ato Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.691996,
+        "lat": 35.020589
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ato-jinja%20shaden.JPG"
+    },
+    "Q17191862": {
+      "wikidataId": "Q17191862",
+      "name": "Ayako Tenmangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.7615,
+        "lat": 34.992666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Ayako%20Ten%27man-g%C3%BB%20-%20Le%20torii%20en%20pierre%20de%20l%27entr%C3%A9e.jpg"
+    },
+    "Q17209556": {
+      "wikidataId": "Q17209556",
+      "name": "Kan Daijin Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.756083,
+        "lat": 35.000694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Kan-daijin-jinja%20-%20Le%20haiden%20%28La%20construction%20du%20culte%29.jpg"
+    },
+    "Q17218077": {
+      "wikidataId": "Q17218077",
+      "name": "Shinmei Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.761611111,
+        "lat": 35.002694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Shin%27mei-jinja%20-%20Le%20haiden%20%28La%20construction%20du%20culte%29.jpg"
+    },
+    "Q17994598": {
+      "wikidataId": "Q17994598",
+      "name": "Sumiyoshi Otomo Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.717047,
+        "lat": 35.031797
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sumiyoshi%20Otomo%20Shrine140606NI4.JPG"
+    },
+    "Q18338914": {
+      "wikidataId": "Q18338914",
+      "name": "Hanchō Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.757805555,
+        "lat": 35.000222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanjo%20shrineNI1407251.JPG"
+    },
+    "Q21019665": {
+      "wikidataId": "Q21019665",
+      "name": "Osake Shrine",
+      "description": "The 47th Shrine of the Engishiki Jinmyōchō",
+      "coordinates": {
+        "lng": 135.708713,
+        "lat": 35.014643
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Osake-jinja%20%28Kyoto%29%20honden.JPG"
+    },
+    "Q21019704": {
+      "wikidataId": "Q21019704",
+      "name": "Yamaguni Shrine",
+      "description": "The 1938th Shrine of the Engishiki Jinmyōchō",
+      "coordinates": {
+        "lng": 135.655454,
+        "lat": 35.173001
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%B1%B1%E5%9B%BD%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q24006041": {
+      "wikidataId": "Q24006041",
+      "name": "Kaminoki Benzaiten Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.695777777,
+        "lat": 35.01525
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaminoki%20benzaiten.jpg"
+    },
+    "Q24859535": {
+      "wikidataId": "Q24859535",
+      "name": "Takenobu Inari Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.746444,
+        "lat": 35.007556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takenobu-inari%20Mibu%2C%20Kyoto%20-%20panoramio.jpg"
+    },
+    "Q60987195": {
+      "wikidataId": "Q60987195",
+      "name": "Saga Arashiyama Museum of Arts and Culture",
+      "description": "a museum in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.673888888,
+        "lat": 35.013611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saga%20Arashiyama%20Museum%20of%20Arts%20and%20Culture.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saga_Arashiyama_Museum_of_Arts_and_Culture",
+      "website": "https://www.samac.jp/en/"
+    },
+    "Q63147928": {
+      "wikidataId": "Q63147928",
+      "name": "Mishima Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.778833,
+        "lat": 34.991972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E5%B6%8B%E7%A5%9E%E7%A4%BE%20%E6%9D%B1%E5%B1%B1.jpg"
+    },
+    "Q65249543": {
+      "wikidataId": "Q65249543",
+      "name": "Kitakan Daijin Shrine",
+      "description": "Shinto shrine in Shimogyō-ku, Japan",
+      "coordinates": {
+        "lng": 135.755944,
+        "lat": 35.00175
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitakandaijin-jinja%2C%20Kyoto.jpg"
+    },
+    "Q65269024": {
+      "wikidataId": "Q65269024",
+      "name": "Origami Inari Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.803361,
+        "lat": 34.972278
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Origami-Inari-Shrine.jpg"
+    },
+    "Q85875581": {
+      "wikidataId": "Q85875581",
+      "name": "Nakatomi Shrine",
+      "description": "Shinto shrine in Yamashina-ku, Japan",
+      "coordinates": {
+        "lng": 135.804868,
+        "lat": 34.970393
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakatomi-jinja%2C%20shaden.jpg"
+    },
+    "Q85879932": {
+      "wikidataId": "Q85879932",
+      "name": "Iwagami Shrine",
+      "description": "Shinto shrine in Ukyō Ward, Japan",
+      "coordinates": {
+        "lng": 135.611277777,
+        "lat": 35.176583333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iwagami-jinjyashrine.jpg"
+    },
+    "Q98101174": {
+      "wikidataId": "Q98101174",
+      "name": "Higashiyama Summit Park",
+      "coordinates": {
+        "lng": 135.78875,
+        "lat": 35
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20View%20from%20%22Higashiyama%20Sancho-Kouen%22%20%28Mountain%20Top%20Park%29.jpg"
+    },
+    "Q111551908": {
+      "wikidataId": "Q111551908",
+      "name": "Gosho-Hachimangu",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.762611111,
+        "lat": 35.0105
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Goshohachimangu-kyoto-026.jpg"
+    },
+    "Q114885578": {
+      "wikidataId": "Q114885578",
+      "name": "Yakuso Jinshi",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.758583333,
+        "lat": 35.013694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yakuso%20Jinshi%20%28Kyoto%29%2003.jpg"
+    },
+    "Q115617516": {
+      "wikidataId": "Q115617516",
+      "name": "Dōso Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.75364,
+        "lat": 34.98685
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D%C5%8Dso-jinja%20%28Shimogyo-ku%2C%20Kyoto%29%2001.jpg"
+    },
+    "Q123114960": {
+      "wikidataId": "Q123114960",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Nakagyō, Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.765917,
+        "lat": 35.011861
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hakusan%20jinja%20Nakagyo-ku%20Kyoto%20004.jpg"
+    },
+    "Q123115002": {
+      "wikidataId": "Q123115002",
+      "name": "Nyakuichi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.732917,
+        "lat": 34.984417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nyakuichi%20shrine.jpg"
+    },
+    "Q130471553": {
+      "wikidataId": "Q130471553",
+      "name": "Heian-kyo",
+      "description": "garden in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.69270805,
+        "lat": 35.028142453
+      }
+    },
+    "Q135098806": {
+      "wikidataId": "Q135098806",
+      "name": "Mimorono Shrine",
+      "coordinates": {
+        "lng": 135.773386,
+        "lat": 34.967202
+      }
+    },
+    "Q276830": {
+      "wikidataId": "Q276830",
+      "name": "Seimei Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.751027777,
+        "lat": 35.02775
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seimei%20Jinja%2C%20Worship%20Place%20and%20Main%20Sanctuary%20002.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Seimei_Shrine",
+      "website": "https://www.seimeijinja.jp/ch/"
+    },
+    "Q500955": {
+      "wikidataId": "Q500955",
+      "name": "Imamiya Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.74205278,
+        "lat": 35.04577778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Imamiya%20Shrine%20gate.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Imamiya_Shrine",
+      "website": "http://www.imamiyajinja.org/eng/imamiya_ENG/TOP.html"
+    },
+    "Q662176": {
+      "wikidataId": "Q662176",
+      "name": "Kitano Tenmangū",
+      "description": "Shinto shrine in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.735008,
+        "lat": 35.029195
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano-tenmangu%20Kyoto%20Japan41s3s4592.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kitano_Tenmang%C5%AB",
+      "website": "https://www.kitanotenmangu.or.jp/"
+    },
+    "Q692714": {
+      "wikidataId": "Q692714",
+      "name": "Yasaka Shrine",
+      "description": "Shinto shrine in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.778529,
+        "lat": 35.003645
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20Yasaka-jinja%20B%C3%BChne%20%26%20Nebentor%202.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yasaka_Shrine",
+      "website": "https://www.yasaka-jinja.or.jp/en/"
+    },
+    "Q700448": {
+      "wikidataId": "Q700448",
+      "name": "Kamigamo Shrine",
+      "description": "Shinto shrine in Kita-ku, Kyōto, Japan",
+      "coordinates": {
+        "lng": 135.752752,
+        "lat": 35.060507
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamo-wakeikazuchi-jinja24n3200.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kamigamo_Shrine",
+      "website": "https://www.kamigamojinja.jp/english/"
+    },
+    "Q709822": {
+      "wikidataId": "Q709822",
+      "name": "Toyokuni Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.773,
+        "lat": 34.9914
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toyokuni%20jinja01s1024.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyokuni_Shrine_(Kyoto)"
+    },
+    "Q714828": {
+      "wikidataId": "Q714828",
+      "name": "Fushimi Inari-taisha",
+      "description": "Shinto shrines in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.773386,
+        "lat": 34.967202
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fushimiinari-taisha%2C%20naihaiden-1.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha",
+      "website": "https://inari.jp/"
+    },
+    "Q738971": {
+      "wikidataId": "Q738971",
+      "name": "Hirano Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.732271,
+        "lat": 35.032448
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hirano-jinja%20%28Kyoto%2C%20Kyoto%29%20honden%203%20%26%204.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hirano_Shrine",
+      "website": "https://www.hiranojinja.com/home/english-page"
+    },
+    "Q3195151": {
+      "wikidataId": "Q3195151",
+      "name": "Kenkun Shrine",
+      "description": "Shinto shrine in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.74305556,
+        "lat": 35.03861111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takeisao-jinja%20Honden.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kenkun_Shrine",
+      "website": "http://kenkun-jinja.org/english/"
+    },
+    "Q3201026": {
+      "wikidataId": "Q3201026",
+      "name": "Kyoto Ryōzen-Gokoku Shrine",
+      "description": "Shinto shrine in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.782912,
+        "lat": 35.000031
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20Ryozen%20Gokoku%20Shrine01-r.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kyoto_Ryozen_Gokoku_Shrine",
+      "website": "http://www.gokoku.or.jp/en/index.html"
+    },
+    "Q6540880": {
+      "wikidataId": "Q6540880",
+      "name": "Gokōnomiya Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.767501211,
+        "lat": 34.934484496
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gokonomiya%20haiden.jpeg",
+      "website": "http://www.gokounomiya.kyoto.jp/"
+    },
+    "Q10928238": {
+      "wikidataId": "Q10928238",
+      "name": "Jishu Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.785144,
+        "lat": 34.995239
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jishu-jinja%20honden.jpg",
+      "website": "https://www.jishujinja.or.jp/"
+    },
+    "Q11294371": {
+      "wikidataId": "Q11294371",
+      "name": "St. Joseph Roman Catholic Church, Nishijin, Kyoto",
+      "description": "Roman Catholic church in Kyoto city, Japan",
+      "coordinates": {
+        "lng": 135.755886,
+        "lat": 35.026738
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20joseph.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/St._Joseph_Roman_Catholic_Church,_Nishijin,_Kyoto"
+    },
+    "Q11359018": {
+      "wikidataId": "Q11359018",
+      "name": "Kamigoryō Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.761685,
+        "lat": 35.03653
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamigoryo%20Shrine140516NI2.JPG"
+    },
+    "Q11369376": {
+      "wikidataId": "Q11369376",
+      "name": "Kuga Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.747964,
+        "lat": 35.05203
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuga-jinja%20%28Kyoto%29%20shaden.JPG"
+    },
+    "Q11375124": {
+      "wikidataId": "Q11375124",
+      "name": "Kyoto City Archaeological Museum",
+      "description": "archive organization in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.749382,
+        "lat": 35.031957
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/KyotoArchaeologicalMuseum.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kyoto_City_Archaeological_Museum",
+      "website": "https://www.kyoto-arc.or.jp/museum/"
+    },
+    "Q11392320": {
+      "wikidataId": "Q11392320",
+      "name": "Rokusonnō Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.74495,
+        "lat": 34.984619
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rokusonnnou-Jinja%20shinmon.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rokusonn%C5%8D_Shrine"
+    },
+    "Q11410134": {
+      "wikidataId": "Q11410134",
+      "name": "Itsukushima Shrine",
+      "description": "Shinto shrine in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.762055555,
+        "lat": 35.018138888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Itsukushima%20Shrine%2C%20Kyoto%2002.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Itsukushima_Shrine_(Kyoto)"
+    },
+    "Q11426034": {
+      "wikidataId": "Q11426034",
+      "name": "Jōnan-gū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.746556,
+        "lat": 34.951119
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonangu%20shrine.jpg",
+      "website": "https://www.jonangu.com/"
+    },
+    "Q11434526": {
+      "wikidataId": "Q11434526",
+      "name": "Daishōgun Hachi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.733944444,
+        "lat": 35.026666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daishogunhachi-jinja%20Kyoto%20Japan04s3.jpg",
+      "website": "https://daishogun.or.jp/english/"
+    },
+    "Q11434527": {
+      "wikidataId": "Q11434527",
+      "name": "Daishōgun Shrine (Kita-ku, Kyoto)",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.742333333,
+        "lat": 35.058611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taishogun-jinja.JPG"
+    },
+    "Q11437955": {
+      "wikidataId": "Q11437955",
+      "name": "Ōta Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.758392,
+        "lat": 35.060013
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ota-jinja%20%28Kyoto%29%20haiden.JPG",
+      "website": "https://www.kamigamojinja.jp/shaden/oota/"
+    },
+    "Q11450246": {
+      "wikidataId": "Q11450246",
+      "name": "Yasui Kompira-gu",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.775778,
+        "lat": 34.999917
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasui%20Kompira-gu%20Kyoto%20Japan%20Ema.jpg"
+    },
+    "Q11451877": {
+      "wikidataId": "Q11451877",
+      "name": "Munakata Shrine",
+      "description": "Shinto shrine in Kamigyō-ku, Japan",
+      "coordinates": {
+        "lng": 135.761277777,
+        "lat": 35.019
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Munakata-jinja%20%28Kyoto%20Gyoen%29%2C%20haisho.jpg"
+    },
+    "Q11492949": {
+      "wikidataId": "Q11492949",
+      "name": "Koretaka Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.714938,
+        "lat": 35.124756
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%83%9F%E5%96%AC%E7%A5%9E%E7%A4%BE.JPG"
+    },
+    "Q11499684": {
+      "wikidataId": "Q11499684",
+      "name": "Shikichi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.731527777,
+        "lat": 35.036388888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Shikichi-jinja%20-%20Le%20haiden%20%28La%20construction%20du%20culte%29.jpg"
+    },
+    "Q11516217": {
+      "wikidataId": "Q11516217",
+      "name": "Tsukiyomi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.686028,
+        "lat": 34.996566
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsukiyomi-jinja%20%28Kyoto%2C%20Kyoto%29%20keidai.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tsukiyomi_Shrine_(Kyoto)",
+      "website": "http://www.matsunoo.or.jp/tukiyomi/index/"
+    },
+    "Q11538748": {
+      "wikidataId": "Q11538748",
+      "name": "Nashinoki Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.767361111,
+        "lat": 35.025
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nashinoki%20Shrine%20Haiden%203.jpg",
+      "website": "https://www.nashinoki.jp/"
+    },
+    "Q11551131": {
+      "wikidataId": "Q11551131",
+      "name": "Ebumi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.813451,
+        "lat": 35.113561
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ebumi%20Shrine.jpg"
+    },
+    "Q11604632": {
+      "wikidataId": "Q11604632",
+      "name": "Awata Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.785416666,
+        "lat": 35.008222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Awata-jinja%20Shrine%2C%20Kyoto.jpg",
+      "website": "https://awatajinja.jp/"
+    },
+    "Q11607305": {
+      "wikidataId": "Q11607305",
+      "name": "Ayatokunaka Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.716005,
+        "lat": 34.963917
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ayatokunaka%20jinja.JPG"
+    },
+    "Q11613316": {
+      "wikidataId": "Q11613316",
+      "name": "Yodo Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.717985,
+        "lat": 34.905349
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inabaj1.jpg",
+      "website": "http://www.yodojinja.com/"
+    },
+    "Q11616253": {
+      "wikidataId": "Q11616253",
+      "name": "Wakamiya Hachimangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.774889,
+        "lat": 34.995389
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%8B%A5%E5%AE%AE%E5%85%AB%E5%B9%A1%E5%AE%AE%20-%20%E6%9C%AC%E6%AE%BF.jpg"
+    },
+    "Q11624431": {
+      "wikidataId": "Q11624431",
+      "name": "Fujinomori Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.771694,
+        "lat": 34.951361
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fujimori-jinja%20Main%20Sanctuary%20003.jpg",
+      "website": "http://www.fujinomorijinjya.or.jp/"
+    },
+    "Q11641865": {
+      "wikidataId": "Q11641865",
+      "name": "Tofu Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.7075,
+        "lat": 35.087778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tofu%20Shrine1.JPG"
+    },
+    "Q15229013": {
+      "wikidataId": "Q15229013",
+      "name": "Iwatayama Monkey Park",
+      "description": "park in Kyoto",
+      "coordinates": {
+        "lng": 135.674681,
+        "lat": 35.008938
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Iwatayama%20Monkey%20Park%2C%20Kyoto%203-25%20%2826396971592%29.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Iwatayama_Monkey_Park",
+      "website": "http://www.monkeypark.jp/"
+    },
+    "Q17193235": {
+      "wikidataId": "Q17193235",
+      "name": "Ichitani Munakata Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.676462,
+        "lat": 35.011424
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichitani-munakata-jinja1.jpg"
+    },
+    "Q17233113": {
+      "wikidataId": "Q17233113",
+      "name": "Rakusai Park",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 135.707222,
+        "lat": 34.908056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rakusai%20Park.png"
+    },
+    "Q17988913": {
+      "wikidataId": "Q17988913",
+      "name": "Imamiya- Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.718556,
+        "lat": 35.0205
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanazono%20Imamiya%20Shrine140606NI1.JPG"
+    },
+    "Q48763373": {
+      "wikidataId": "Q48763373",
+      "name": "Aizuchi Inari Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.784111111,
+        "lat": 35.00975
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aizuchiinaripic01.jpg"
+    },
+    "Q48763821": {
+      "wikidataId": "Q48763821",
+      "name": "Mizorogaike-Kifune Shrine",
+      "description": "Shinto shrine in Kita-ku, Japan",
+      "coordinates": {
+        "lng": 135.76623972,
+        "lat": 35.05953944
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B7%B1%E6%B3%A5%E6%B1%A0%E8%B2%B4%E8%88%A9%E7%A5%9E%E7%A4%BE%20%E4%B8%80%E3%81%AE%E9%B3%A5%E5%B1%85.jpg"
+    },
+    "Q54153258": {
+      "wikidataId": "Q54153258",
+      "name": "Daishōgun Shrine (Kyoto City Higashiyama Ward)",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.776916666,
+        "lat": 35.009138888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taish%C5%8Dgun%20Shrine%2C%20Higashiyama%20ward%2C%20Kyoto%20-%20May%202%2C%202014.jpg"
+    },
+    "Q54153288": {
+      "wikidataId": "Q54153288",
+      "name": "Takio Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.77063917,
+        "lat": 34.98256139
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takio-jinja2.jpg"
+    },
+    "Q65248501": {
+      "wikidataId": "Q65248501",
+      "name": "Kyoto Ebisu Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.771722,
+        "lat": 34.999861
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20Ebisu%20Shrine.jpg"
+    },
+    "Q65278999": {
+      "wikidataId": "Q65278999",
+      "name": "Hazukashi Shrine",
+      "description": "shrine in Fushimi-ku, Kyoto",
+      "coordinates": {
+        "lng": 135.723111,
+        "lat": 34.929539
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hazukashi-jinja%2C%20haiden-1.jpg"
+    },
+    "Q76259441": {
+      "wikidataId": "Q76259441",
+      "name": "Kinsatsu-gu",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.761427777,
+        "lat": 34.936883333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E6%9C%AD%E5%AE%AE%E6%AD%A3%E9%96%80%E3%81%A8%E7%8B%9B%E7%8A%AC.jpg",
+      "website": "http://www.kinsatsugu.jp/"
+    },
+    "Q101244809": {
+      "wikidataId": "Q101244809",
+      "name": "Kyoto City Disaster Prevention Center",
+      "description": "building in Minami-ku, Japan",
+      "coordinates": {
+        "lng": 135.746388888,
+        "lat": 34.973888888
+      },
+      "website": "http://kyotobousai-c.com/"
+    },
+    "Q123114940": {
+      "wikidataId": "Q123114940",
+      "name": "Kumano Nyakuōji Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.796308,
+        "lat": 35.015691
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano-nyakuoji-jinja.jpg"
+    },
+    "Q123114982": {
+      "wikidataId": "Q123114982",
+      "name": "Ōtoyo Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.796333,
+        "lat": 35.018306
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Otoyo%20Shrine%20%282635596648%29.jpg"
+    },
+    "Q123688246": {
+      "wikidataId": "Q123688246",
+      "name": "鴨川デルタ",
+      "description": "賀茂川と高野川の合流地点",
+      "coordinates": {
+        "lng": 135.7717,
+        "lat": 35.0299
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%B4%A8%E5%B7%9D%E3%83%87%E3%83%AB%E3%82%BF3.jpg"
+    },
+    "Q124408640": {
+      "wikidataId": "Q124408640",
+      "name": "Kubizuka Daimyōjin",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.639416666,
+        "lat": 34.987138888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kubizuka%20Daimyoujin%20Annual%20festival%20April%2015%2C%202019%20IMG%2020190415%20095838.jpg"
+    },
+    "Q276779": {
+      "wikidataId": "Q276779",
+      "name": "Kifune Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.762988,
+        "lat": 35.121733
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%B2%B4%E8%88%B9%E7%A5%9E%E7%A4%BE%20Kibune%20Jinja%20%28KYOTO-JAPAN%29%20%284951368080%29.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kifune_Shrine",
+      "website": "http://kifunejinja.jp/history-e.html"
+    },
+    "Q701620": {
+      "wikidataId": "Q701620",
+      "name": "Shimogamo Shrine",
+      "description": "Shinto shrine in Sakyō-ku, Kyōto, Japan",
+      "coordinates": {
+        "lng": 135.773012,
+        "lat": 35.039069
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimogamo%2001.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shimogamo_Shrine",
+      "website": "https://www.shimogamo-jinja.or.jp/english/"
+    },
+    "Q713177": {
+      "wikidataId": "Q713177",
+      "name": "Yoshida Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.78463333,
+        "lat": 35.02535
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshida-jinja%20%28Kyoto%29%2C%20keidaitorii.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yoshida_Shrine",
+      "website": "https://www.yoshidajinja.com/"
+    },
+    "Q3196329": {
+      "wikidataId": "Q3196329",
+      "name": "Kibune",
+      "description": "location located in Sakyo-ku, Kyoto",
+      "coordinates": {
+        "lng": 135.76277778,
+        "lat": 35.12166667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kibune%20Kawadoko01s5s4272.jpg",
+      "website": "http://kibune.jp/"
+    },
+    "Q11395508": {
+      "wikidataId": "Q11395508",
+      "name": "Shusse Inari Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.83138889,
+        "lat": 35.11683333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ShusseinariHonden8772.jpg"
+    },
+    "Q11472971": {
+      "wikidataId": "Q11472971",
+      "name": "Okazaki Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.788778,
+        "lat": 35.017417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Okazaki-jinja%20haiden.jpg",
+      "website": "https://okazakijinja.jp/"
+    },
+    "Q11477104": {
+      "wikidataId": "Q11477104",
+      "name": "Sudō Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.800666666,
+        "lat": 35.065611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sudou%20jinja%20honden.jpg"
+    },
+    "Q11491512": {
+      "wikidataId": "Q11491512",
+      "name": "Shikobuchi-sha",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.818889,
+        "lat": 35.265361
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/1-shicobuchi.JPG"
+    },
+    "Q11577577": {
+      "wikidataId": "Q11577577",
+      "name": "Yuki Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.771417,
+        "lat": 35.116083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yuki-jinja%2020100605.jpg",
+      "website": "http://www.yukijinjya.jp/"
+    },
+    "Q11632526": {
+      "wikidataId": "Q11632526",
+      "name": "Goō Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.765,
+        "lat": 35.021944444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Go-oh%20shrine01.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Go%C5%8D_Shrine",
+      "website": "http://www.gooujinja.or.jp/"
+    },
+    "Q17214466": {
+      "wikidataId": "Q17214466",
+      "name": "Kuzuryū-taisha",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.811646,
+        "lat": 35.074013
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B9%9D%E9%A0%AD%E7%AB%9C%E5%A4%A7%E7%A4%BE%20%E6%9C%AC%E6%AE%BF.jpg",
+      "website": "https://www.kuzuryutaisha.or.jp/"
+    },
+    "Q17218563": {
+      "wikidataId": "Q17218563",
+      "name": "Hachidai Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.796666666,
+        "lat": 35.043611111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hatidaijinja.jpg",
+      "website": "https://www.hatidai-jinja.com/"
+    },
+    "Q17218661": {
+      "wikidataId": "Q17218661",
+      "name": "Suga Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.781358888,
+        "lat": 35.018263111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sugajinja%28Kyoto-shi%292.jpg"
+    },
+    "Q17218751": {
+      "wikidataId": "Q17218751",
+      "name": "Sugawara-in Tenman-gû",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.759028,
+        "lat": 35.019639
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Sugawara-in-Ten%27man-g%C3%BB%20-%20Le%20b%C3%A2timent%20principal%20%22Honden%22.jpg"
+    },
+    "Q17225038": {
+      "wikidataId": "Q17225038",
+      "name": "Kadode Hachimangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.746306,
+        "lat": 35.030417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Shint%C3%B4%20Kadode%20Hachiman-g%C3%BB%20-%20Le%20haiden%20%28La%20construction%20du%20culte%292.jpg"
+    },
+    "Q17993668": {
+      "wikidataId": "Q17993668",
+      "name": "Shirakumo Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.761222222,
+        "lat": 35.02175
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shirakkumojinja%28Kyoto-shi%29.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shirakumo_Shrine"
+    },
+    "Q18339063": {
+      "wikidataId": "Q18339063",
+      "name": "Lake Biwa Canal Museum",
+      "description": "京都市左京区にある琵琶湖疏水に関する博物館",
+      "coordinates": {
+        "lng": 135.788156,
+        "lat": 35.012017
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lake%20biwa%20Canal%20Museum.jpg",
+      "website": "https://biwakososui-museum.city.kyoto.lg.jp/"
+    },
+    "Q18339120": {
+      "wikidataId": "Q18339120",
+      "name": "Fukunaga Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.758139,
+        "lat": 35.027925
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fukunaga-jinja%20%28Kyoto%29%20shaden.JPG"
+    },
+    "Q21019695": {
+      "wikidataId": "Q21019695",
+      "name": "Manzoku Inari Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.778527777,
+        "lat": 35.010694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Manzoku-Inari-jinja%20Shint%C3%B4%20Shrine%20-%20Haiden%20Sanctuary.jpg"
+    },
+    "Q43594565": {
+      "wikidataId": "Q43594565",
+      "name": "Hataeda-hachimangu",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.771028,
+        "lat": 35.068611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%B9%A1%E6%9E%9D%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E4%BA%8C%E3%81%AE%E9%B3%A5%E5%B1%85.jpg"
+    },
+    "Q43594574": {
+      "wikidataId": "Q43594574",
+      "name": "Nagatani Hachimangū",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.795444,
+        "lat": 35.078583
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%95%B7%E8%B0%B7%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E9%B3%A5%E5%B1%85.jpg"
+    },
+    "Q43594910": {
+      "wikidataId": "Q43594910",
+      "name": "Iwakura Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.78175,
+        "lat": 35.080194
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%81%E4%BA%8C%E6%89%80%E6%98%8E%E7%A5%9E%28%E5%B7%A6%29%E3%83%BB%E5%85%AB%E6%89%80%E6%98%8E%E7%A5%9E%28%E5%8F%B3%29.jpg"
+    },
+    "Q48762420": {
+      "wikidataId": "Q48762420",
+      "name": "Kino Atago Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.774166666,
+        "lat": 35.0725
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9C%A8%E9%87%8E%E6%84%9B%E5%AE%95%E7%A5%9E%E7%A4%BE%20%E5%A2%83%E5%86%85.jpg"
+    },
+    "Q48762959": {
+      "wikidataId": "Q48762959",
+      "name": "Ume-no-Miya Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.788916666,
+        "lat": 35.076638888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Umenomiya%20shrine%2C%20Iwakura%2C%20Kyoto.jpg"
+    },
+    "Q106852479": {
+      "wikidataId": "Q106852479",
+      "name": "Hachi Shrine",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.797194,
+        "lat": 35.02775
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachi-jinja1.jpg"
+    },
+    "Q107020571": {
+      "wikidataId": "Q107020571",
+      "name": "Main Shrine, Kitano-tenmangu",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.735,
+        "lat": 35.03124
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano-tenmangu%20Kyoto%20Japan41s3s4592.jpg"
+    },
+    "Q125688027": {
+      "wikidataId": "Q125688027",
+      "name": "Ichidani Nanano Shichino Kasuga Shrine (Kamigyo Kyoto)",
+      "description": "Shinto shrine in Kyoto Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.747388888,
+        "lat": 35.036194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichidani%20nanano%20Shichino%20Kasuga%20jinja%20%28Kamigyo%20Kyoto%29%20Kamo-Shinosai-in%20hdsr%20S5%2024.jpg",
+      "website": "https://www.ichiidaninananojinja.com/"
+    },
+    "Q127588655": {
+      "wikidataId": "Q127588655",
+      "name": "Kitano Tenmangū Hōmotsuden",
+      "description": "museum in Kyoto, Japan",
+      "coordinates": {
+        "lng": 135.7356157,
+        "lat": 35.0305859
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitano-tenmangu%20Kyoto%20Japan23s3s4500.jpg",
+      "website": "https://kitanotenmangu.or.jp/guidance/houmotsuden/"
+    }
+  },
+  "timestamp": "2025-12-28T20:15:05.606Z",
+  "source": "wikidata"
+}

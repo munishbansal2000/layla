@@ -1,0 +1,29 @@
+{
+  "id": "viator_mjovjlv1_0fodwv",
+  "timestamp": "2025-12-27T22:30:45.613Z",
+  "type": "search",
+  "request": {
+    "endpoint": "/products/search",
+    "method": "POST",
+    "params": {
+      "destId": 334,
+      "destName": "Tokyo",
+      "tags": [
+        12066,
+        12065
+      ],
+      "sortOrder": "TRAVELER_RATING",
+      "count": 30
+    }
+  },
+  "response": {
+    "products": [],
+    "totalCount": 0,
+    "currency": "USD"
+  },
+  "metadata": {
+    "duration_ms": 623,
+    "success": true,
+    "destination": "Tokyo"
+  }
+}

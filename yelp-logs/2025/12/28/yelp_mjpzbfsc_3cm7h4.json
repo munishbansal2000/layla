@@ -1,0 +1,226 @@
+{
+  "id": "yelp_mjpzbfsc_3cm7h4",
+  "timestamp": "2025-12-28T17:04:09.132Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Uobei Shibuya Dogenzaka",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Iu3b6DI_V9jHFrIdJfgieA",
+          "alias": "魚べい-渋谷道玄坂店-渋谷区",
+          "name": "Uobei Shibuya Dogenzaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/4c-66l4GXqILfdB2myaBSw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%AD%9A%E3%81%B9%E3%81%84-%E6%B8%8B%E8%B0%B7%E9%81%93%E7%8E%84%E5%9D%82%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 192,
+          "categories": [
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.6594621430771,
+            "longitude": 139.697798
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "道玄坂2-29-11",
+            "address2": "第6セントラルビル 1F",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0043",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "道玄坂2-29-11",
+              "第6セントラルビル 1F",
+              "Shibuya, 東京都 〒150-0043",
+              "Japan"
+            ]
+          },
+          "phone": "+81334620241",
+          "display_phone": "+81 3-3462-0241",
+          "distance": 977.3699177878486,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.genkisushi.co.jp/uobei/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "3VLI7sLm-9ndmKFfRTE-Bw",
+          "alias": "元気寿司-渋谷店-渋谷区",
+          "name": "GENKI SUSHI Shibuya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/w_tJjinX6qo7GBfBnVyF6A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%85%83%E6%B0%97%E5%AF%BF%E5%8F%B8-%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 330,
+          "categories": [
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.660405,
+            "longitude": 139.699389
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "宇田川町24-8",
+            "address2": "レジャープラザビル 1F",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0042",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "宇田川町24-8",
+              "レジャープラザビル 1F",
+              "Shibuya, 東京都 〒150-0042",
+              "Japan"
+            ]
+          },
+          "phone": "+81334611281",
+          "display_phone": "+81 3-3461-1281",
+          "distance": 1013.0177912743842,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 332,
+    "success": true
+  }
+}

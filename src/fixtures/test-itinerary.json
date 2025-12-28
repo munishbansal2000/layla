@@ -1,0 +1,1651 @@
+{
+    "destination": "Japan",
+    "country": "Japan",
+    "tripType": "multi-city",
+    "cities": ["Tokyo", "Kyoto", "Osaka"],
+    "accommodations": {
+        "Tokyo": {
+            "name": "Shibuya Excel Hotel Tokyu",
+            "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+            "neighborhood": "Shibuya",
+            "coordinates": { "lat": 35.6594, "lng": 139.6989 },
+            "checkIn": "15:00",
+            "checkOut": "11:00",
+            "type": "hotel",
+            "rating": 4.3
+        },
+        "Kyoto": {
+            "name": "Hotel Granvia Kyoto",
+            "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku, Kyoto",
+            "neighborhood": "Kyoto Station",
+            "coordinates": { "lat": 34.9853, "lng": 135.7585 },
+            "checkIn": "15:00",
+            "checkOut": "11:00",
+            "type": "hotel",
+            "rating": 4.5
+        },
+        "Osaka": {
+            "name": "Cross Hotel Osaka",
+            "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka",
+            "neighborhood": "Namba",
+            "coordinates": { "lat": 34.6721, "lng": 135.5014 },
+            "checkIn": "15:00",
+            "checkOut": "11:00",
+            "type": "hotel",
+            "rating": 4.4
+        }
+    },
+    "days": [{
+            "dayNumber": 1,
+            "date": "2025-04-15",
+            "city": "Tokyo",
+            "title": "Exploring Shibuya & Harajuku",
+            "accommodation": {
+                "name": "Shibuya Excel Hotel Tokyu",
+                "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+                "neighborhood": "Shibuya",
+                "coordinates": { "lat": 35.6594, "lng": 139.6989 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.3
+            },
+            "commuteFromHotel": {
+                "duration": 15,
+                "distance": 1200,
+                "method": "walk",
+                "instructions": "Walk from Shibuya Excel Hotel to Meiji Shrine via Yoyogi Park"
+            },
+            "commuteToHotel": {
+                "duration": 5,
+                "distance": 300,
+                "method": "walk",
+                "instructions": "Short walk back to hotel from Uobei Shibuya"
+            },
+            "slots": [{
+                    "slotId": "day1-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "09:00", "end": "12:00" },
+                    "options": [{
+                            "id": "opt-1-1",
+                            "rank": 1,
+                            "score": 92,
+                            "activity": {
+                                "name": "Meiji Shrine",
+                                "description": "Start your day at this serene Shinto shrine surrounded by a tranquil forest.",
+                                "category": "temple",
+                                "duration": 90,
+                                "place": {
+                                    "name": "Meiji Jingu",
+                                    "address": "1-1 Yoyogikamizonocho, Shibuya City",
+                                    "neighborhood": "Harajuku",
+                                    "coordinates": { "lat": 35.6764, "lng": 139.6993 },
+                                    "rating": 4.7,
+                                    "reviewCount": 45230
+                                },
+                                "isFree": true,
+                                "tags": ["spiritual", "nature", "cultural", "peaceful"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Perfect for morning visit", "Highly rated spiritual site"],
+                            "tradeoffs": []
+                        },
+                        {
+                            "id": "opt-1-2",
+                            "rank": 2,
+                            "score": 85,
+                            "activity": {
+                                "name": "Yoyogi Park Morning Walk",
+                                "description": "A peaceful morning stroll through one of Tokyo's largest parks.",
+                                "category": "park",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Yoyogi Park",
+                                    "address": "2-1 Yoyogikamizonocho, Shibuya City",
+                                    "neighborhood": "Shibuya",
+                                    "coordinates": { "lat": 35.6717, "lng": 139.6949 },
+                                    "rating": 4.5,
+                                    "reviewCount": 28100
+                                },
+                                "isFree": true,
+                                "tags": ["nature", "relaxing", "outdoor"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Free activity", "Close to Harajuku"],
+                            "tradeoffs": ["Less cultural depth"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": null
+                },
+                {
+                    "slotId": "day1-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:00", "end": "13:30" },
+                    "options": [{
+                            "id": "opt-1-3",
+                            "rank": 1,
+                            "score": 88,
+                            "activity": {
+                                "name": "Afuri Ramen Harajuku",
+                                "description": "Famous for their yuzu shio (citrus salt) ramen.",
+                                "category": "restaurant",
+                                "duration": 45,
+                                "place": {
+                                    "name": "Afuri Harajuku",
+                                    "address": "1-17-1 Jingumae, Shibuya",
+                                    "neighborhood": "Harajuku",
+                                    "coordinates": { "lat": 35.6702, "lng": 139.7054 },
+                                    "rating": 4.4,
+                                    "reviewCount": 3200
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 1200, "currency": "JPY" },
+                                "tags": ["ramen", "quick-meal", "popular"],
+                                "source": "yelp"
+                            },
+                            "matchReasons": ["Highly rated local favorite", "Quick service"],
+                            "tradeoffs": ["Can be crowded"]
+                        },
+                        {
+                            "id": "opt-1-4",
+                            "rank": 2,
+                            "score": 82,
+                            "activity": {
+                                "name": "Takeshita Street Food Tour",
+                                "description": "Explore Harajuku's famous street with crepes, cotton candy, and unique snacks.",
+                                "category": "market",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Takeshita Street",
+                                    "address": "Jingumae, Shibuya",
+                                    "neighborhood": "Harajuku",
+                                    "coordinates": { "lat": 35.6716, "lng": 139.7027 },
+                                    "rating": 4.3,
+                                    "reviewCount": 15000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 2000, "currency": "JPY" },
+                                "tags": ["street-food", "shopping", "instagram"],
+                                "source": "viator"
+                            },
+                            "matchReasons": ["Unique Tokyo experience", "Great for photos"],
+                            "tradeoffs": ["Very crowded on weekends"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 10,
+                        "distance": 800,
+                        "method": "walk",
+                        "instructions": "Walk south from Meiji Shrine through Harajuku"
+                    }
+                },
+                {
+                    "slotId": "day1-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:00", "end": "18:00" },
+                    "options": [{
+                            "id": "opt-1-5",
+                            "rank": 1,
+                            "score": 90,
+                            "activity": {
+                                "name": "Shibuya Crossing & Hachiko",
+                                "description": "Experience the world's busiest pedestrian crossing.",
+                                "category": "landmark",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Shibuya Crossing",
+                                    "address": "Shibuya Station",
+                                    "neighborhood": "Shibuya",
+                                    "coordinates": { "lat": 35.6595, "lng": 139.7004 },
+                                    "rating": 4.6,
+                                    "reviewCount": 52000
+                                },
+                                "isFree": true,
+                                "tags": ["iconic", "must-see", "photography"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Iconic Tokyo landmark", "Best in afternoon light"],
+                            "tradeoffs": []
+                        },
+                        {
+                            "id": "opt-1-6",
+                            "rank": 2,
+                            "score": 86,
+                            "activity": {
+                                "name": "Shibuya Sky Observation Deck",
+                                "description": "360-degree panoramic views of Tokyo from the rooftop.",
+                                "category": "attraction",
+                                "duration": 90,
+                                "place": {
+                                    "name": "Shibuya Sky",
+                                    "address": "Shibuya Scramble Square, 2-24-12 Shibuya",
+                                    "neighborhood": "Shibuya",
+                                    "coordinates": { "lat": 35.658, "lng": 139.7016 },
+                                    "rating": 4.7,
+                                    "reviewCount": 8500
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 2200, "currency": "JPY" },
+                                "tags": ["views", "sunset", "modern"],
+                                "source": "viator"
+                            },
+                            "matchReasons": ["Amazing sunset views", "Modern Tokyo experience"],
+                            "tradeoffs": ["Entry fee required"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 15,
+                        "distance": 1200,
+                        "method": "walk",
+                        "instructions": "Walk south from Harajuku to Shibuya Station"
+                    }
+                },
+                {
+                    "slotId": "day1-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "19:00", "end": "21:00" },
+                    "options": [{
+                        "id": "opt-1-7",
+                        "rank": 1,
+                        "score": 91,
+                        "activity": {
+                            "name": "Uobei Shibuya",
+                            "description": "High-tech conveyor belt sushi where you order via tablet.",
+                            "category": "restaurant",
+                            "duration": 60,
+                            "place": {
+                                "name": "Uobei Shibuya Dogenzaka",
+                                "address": "2-29-11 Dogenzaka, Shibuya",
+                                "neighborhood": "Shibuya",
+                                "coordinates": { "lat": 35.6593, "lng": 139.6986 },
+                                "rating": 4.3,
+                                "reviewCount": 4200
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2500, "currency": "JPY" },
+                            "tags": ["sushi", "tech", "affordable"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Unique dining experience", "Great value sushi"],
+                        "tradeoffs": ["Can have queues"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 5,
+                        "distance": 400,
+                        "method": "walk",
+                        "instructions": "Short walk from Shibuya Crossing"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "date": "2025-04-16",
+            "city": "Tokyo",
+            "title": "Traditional Tokyo & Asakusa",
+            "accommodation": {
+                "name": "Shibuya Excel Hotel Tokyu",
+                "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+                "neighborhood": "Shibuya",
+                "coordinates": { "lat": 35.6594, "lng": 139.6989 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.3
+            },
+            "commuteFromHotel": {
+                "duration": 35,
+                "distance": 12000,
+                "method": "transit",
+                "instructions": "Take Ginza Line from Shibuya to Asakusa",
+                "trainLines": ["Ginza Line"]
+            },
+            "commuteToHotel": {
+                "duration": 35,
+                "distance": 12000,
+                "method": "transit",
+                "instructions": "Take Ginza Line from Asakusa to Shibuya",
+                "trainLines": ["Ginza Line"]
+            },
+            "slots": [{
+                    "slotId": "day2-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "08:00", "end": "11:30" },
+                    "options": [{
+                        "id": "opt-2-1",
+                        "rank": 1,
+                        "score": 95,
+                        "activity": {
+                            "name": "Senso-ji Temple",
+                            "description": "Tokyo's oldest and most significant Buddhist temple.",
+                            "category": "temple",
+                            "duration": 120,
+                            "place": {
+                                "name": "Senso-ji Temple",
+                                "address": "2-3-1 Asakusa, Taito City",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7147, "lng": 139.7966 },
+                                "rating": 4.6,
+                                "reviewCount": 78000
+                            },
+                            "isFree": true,
+                            "tags": ["temple", "historic", "must-see", "cultural"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["#1 attraction in Tokyo", "Best visited early morning"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "opt-2-1",
+                    "commuteFromPrevious": null
+                },
+                {
+                    "slotId": "day2-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:00", "end": "13:30" },
+                    "options": [{
+                            "id": "opt-2-2",
+                            "rank": 1,
+                            "score": 87,
+                            "activity": {
+                                "name": "Asakusa Hoppy Street",
+                                "description": "A lively alley filled with izakayas and street food.",
+                                "category": "restaurant",
+                                "duration": 75,
+                                "place": {
+                                    "name": "Hoppy Street",
+                                    "address": "2-5 Asakusa, Taito City",
+                                    "neighborhood": "Asakusa",
+                                    "coordinates": { "lat": 35.7127, "lng": 139.7933 },
+                                    "rating": 4.4,
+                                    "reviewCount": 2800
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 1800, "currency": "JPY" },
+                                "tags": ["local", "izakaya", "authentic"],
+                                "source": "yelp"
+                            },
+                            "matchReasons": ["Authentic local experience", "Great atmosphere"],
+                            "tradeoffs": ["Alcohol-focused"]
+                        },
+                        {
+                            "id": "opt-2-2b",
+                            "rank": 2,
+                            "score": 84,
+                            "activity": {
+                                "name": "Unagi (Eel) at Ichimon",
+                                "description": "Traditional grilled eel restaurant near the temple.",
+                                "category": "restaurant",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Unagi Ichimon",
+                                    "address": "1-12-6 Asakusa, Taito City",
+                                    "neighborhood": "Asakusa",
+                                    "coordinates": { "lat": 35.7135, "lng": 139.7945 },
+                                    "rating": 4.5,
+                                    "reviewCount": 890
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 3500, "currency": "JPY" },
+                                "tags": ["traditional", "unagi", "local-favorite"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Traditional Japanese cuisine", "High quality"],
+                            "tradeoffs": ["More expensive"]
+                        }
+                    ],
+                    "selectedOptionId": null
+                },
+                {
+                    "slotId": "day2-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:00", "end": "17:00" },
+                    "options": [{
+                            "id": "opt-2-3",
+                            "rank": 1,
+                            "score": 88,
+                            "activity": {
+                                "name": "Tokyo Skytree",
+                                "description": "The tallest structure in Japan at 634m.",
+                                "category": "attraction",
+                                "duration": 120,
+                                "place": {
+                                    "name": "Tokyo Skytree",
+                                    "address": "1-1-2 Oshiage, Sumida City",
+                                    "neighborhood": "Sumida",
+                                    "coordinates": { "lat": 35.7101, "lng": 139.8107 },
+                                    "rating": 4.5,
+                                    "reviewCount": 42000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 3100, "currency": "JPY" },
+                                "tags": ["views", "landmark", "modern"],
+                                "source": "viator"
+                            },
+                            "matchReasons": ["Best views of Tokyo", "Shopping mall below"],
+                            "tradeoffs": ["Can be crowded", "Expensive entry"]
+                        },
+                        {
+                            "id": "opt-2-4",
+                            "rank": 2,
+                            "score": 82,
+                            "activity": {
+                                "name": "Sumida River Cruise",
+                                "description": "Scenic boat ride from Asakusa to Odaiba.",
+                                "category": "activity",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Tokyo Cruise",
+                                    "address": "Asakusa Pier, Taito City",
+                                    "neighborhood": "Asakusa",
+                                    "coordinates": { "lat": 35.7116, "lng": 139.7985 },
+                                    "rating": 4.4,
+                                    "reviewCount": 3500
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 1200, "currency": "JPY" },
+                                "tags": ["cruise", "scenic", "relaxing"],
+                                "source": "viator"
+                            },
+                            "matchReasons": ["Unique perspective of Tokyo", "Relaxing activity"],
+                            "tradeoffs": ["Weather dependent"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 20,
+                        "distance": 1500,
+                        "method": "transit",
+                        "instructions": "Take Tobu Skytree Line from Asakusa",
+                        "trainLines": ["Tobu Skytree Line"]
+                    }
+                },
+                {
+                    "slotId": "day2-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:30", "end": "20:30" },
+                    "options": [{
+                        "id": "opt-2-5",
+                        "rank": 1,
+                        "score": 89,
+                        "activity": {
+                            "name": "Soba Noodles at Namiki Yabusoba",
+                            "description": "A 100+ year old soba restaurant.",
+                            "category": "restaurant",
+                            "duration": 60,
+                            "place": {
+                                "name": "Namiki Yabusoba",
+                                "address": "2-11-9 Kaminarimon, Taito City",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7108, "lng": 139.7943 },
+                                "rating": 4.3,
+                                "reviewCount": 890
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1500, "currency": "JPY" },
+                            "tags": ["traditional", "soba", "historic"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Historic establishment", "Authentic experience"],
+                        "tradeoffs": ["Limited menu", "Cash only"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 15,
+                        "distance": 1200,
+                        "method": "transit",
+                        "instructions": "Return to Asakusa via subway"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "date": "2025-04-17",
+            "city": "Tokyo",
+            "title": "Akihabara & Modern Culture",
+            "accommodation": {
+                "name": "Shibuya Excel Hotel Tokyu",
+                "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+                "neighborhood": "Shibuya",
+                "coordinates": { "lat": 35.6594, "lng": 139.6989 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.3
+            },
+            "commuteFromHotel": {
+                "duration": 25,
+                "distance": 8000,
+                "method": "transit",
+                "instructions": "Take JR Yamanote Line from Shibuya to Akihabara",
+                "trainLines": ["JR Yamanote Line"]
+            },
+            "commuteToHotel": {
+                "duration": 20,
+                "distance": 6000,
+                "method": "transit",
+                "instructions": "Take JR Yamanote Line from Shinjuku to Shibuya",
+                "trainLines": ["JR Yamanote Line"]
+            },
+            "slots": [{
+                    "slotId": "day3-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "10:00", "end": "12:30" },
+                    "options": [{
+                        "id": "opt-3-1",
+                        "rank": 1,
+                        "score": 86,
+                        "activity": {
+                            "name": "Akihabara Electric Town",
+                            "description": "Explore Tokyo's electronics and anime district.",
+                            "category": "shopping",
+                            "duration": 150,
+                            "place": {
+                                "name": "Akihabara",
+                                "address": "Akihabara, Chiyoda City",
+                                "neighborhood": "Akihabara",
+                                "coordinates": { "lat": 35.7023, "lng": 139.7745 },
+                                "rating": 4.5,
+                                "reviewCount": 35000
+                            },
+                            "isFree": true,
+                            "tags": ["shopping", "anime", "electronics", "gaming"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Unique to Tokyo", "Great for gaming fans"],
+                        "tradeoffs": ["Can be overwhelming"]
+                    }],
+                    "selectedOptionId": null
+                },
+                {
+                    "slotId": "day3-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:30", "end": "14:00" },
+                    "options": [{
+                        "id": "opt-3-2",
+                        "rank": 1,
+                        "score": 84,
+                        "activity": {
+                            "name": "Maid Cafe Experience",
+                            "description": "A quintessential Akihabara experience.",
+                            "category": "cafe",
+                            "duration": 60,
+                            "place": {
+                                "name": "@home cafe",
+                                "address": "1-11-4 Sotokanda, Chiyoda City",
+                                "neighborhood": "Akihabara",
+                                "coordinates": { "lat": 35.6984, "lng": 139.7712 },
+                                "rating": 4.1,
+                                "reviewCount": 1200
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2500, "currency": "JPY" },
+                            "tags": ["unique", "themed", "experience"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Only in Japan experience", "Fun and memorable"],
+                        "tradeoffs": ["Entry fee applies", "Very tourist-oriented"]
+                    }],
+                    "selectedOptionId": null
+                },
+                {
+                    "slotId": "day3-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:30", "end": "18:00" },
+                    "options": [{
+                        "id": "opt-3-3",
+                        "rank": 1,
+                        "score": 91,
+                        "activity": {
+                            "name": "teamLab Planets",
+                            "description": "Immersive digital art museum.",
+                            "category": "museum",
+                            "duration": 120,
+                            "place": {
+                                "name": "teamLab Planets TOKYO",
+                                "address": "6-1-16 Toyosu, Koto City",
+                                "neighborhood": "Toyosu",
+                                "coordinates": { "lat": 35.6499, "lng": 139.7895 },
+                                "rating": 4.7,
+                                "reviewCount": 22000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3800, "currency": "JPY" },
+                            "tags": ["art", "immersive", "instagram", "must-see"],
+                            "source": "viator"
+                        },
+                        "matchReasons": ["World-famous immersive art", "Unique to Tokyo"],
+                        "tradeoffs": ["Advance booking required"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 25,
+                        "distance": 5000,
+                        "method": "transit",
+                        "instructions": "Take Yurikamome Line to Toyosu",
+                        "trainLines": ["Yurikamome Line"]
+                    }
+                },
+                {
+                    "slotId": "day3-evening",
+                    "slotType": "evening",
+                    "timeRange": { "start": "19:00", "end": "22:00" },
+                    "options": [{
+                        "id": "opt-3-4",
+                        "rank": 1,
+                        "score": 93,
+                        "activity": {
+                            "name": "Shinjuku Golden Gai",
+                            "description": "A labyrinth of over 200 tiny bars in narrow alleys.",
+                            "category": "nightlife",
+                            "duration": 120,
+                            "place": {
+                                "name": "Golden Gai",
+                                "address": "1 Kabukicho, Shinjuku City",
+                                "neighborhood": "Shinjuku",
+                                "coordinates": { "lat": 35.6938, "lng": 139.7039 },
+                                "rating": 4.4,
+                                "reviewCount": 8900
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3000, "currency": "JPY" },
+                            "tags": ["nightlife", "bars", "authentic", "local"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Quintessential Tokyo nightlife", "Unique atmosphere"],
+                        "tradeoffs": ["Some bars have cover charges"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 30,
+                        "distance": 8000,
+                        "method": "transit",
+                        "instructions": "Take Yurikamome to Shimbashi, then JR to Shinjuku",
+                        "trainLines": ["Yurikamome", "JR Yamanote Line"]
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 4,
+            "date": "2025-04-18",
+            "city": "Kyoto",
+            "title": "Travel Day: Tokyo → Kyoto & Gion District",
+            "accommodation": {
+                "name": "Hotel Granvia Kyoto",
+                "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku, Kyoto",
+                "neighborhood": "Kyoto Station",
+                "coordinates": { "lat": 34.9853, "lng": 135.7585 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.5
+            },
+            "commuteFromHotel": {
+                "duration": 15,
+                "distance": 2000,
+                "method": "transit",
+                "instructions": "Take subway from Kyoto Station to Shijo for Nishiki Market"
+            },
+            "commuteToHotel": {
+                "duration": 20,
+                "distance": 3000,
+                "method": "transit",
+                "instructions": "Take bus from Gion back to Kyoto Station"
+            },
+            "cityTransition": {
+                "from": "Tokyo",
+                "to": "Kyoto",
+                "method": "shinkansen",
+                "duration": 135,
+                "departureTime": "08:00",
+                "arrivalTime": "10:15",
+                "trainName": "Nozomi Shinkansen",
+                "estimatedCost": { "amount": 13320, "currency": "JPY" },
+                "departureStation": "Tokyo Station",
+                "arrivalStation": "Kyoto Station",
+                "commuteToStation": {
+                    "duration": 25,
+                    "distance": 8000,
+                    "method": "transit",
+                    "instructions": "Take JR Yamanote Line from Shibuya to Tokyo Station",
+                    "trainLines": ["JR Yamanote Line"]
+                },
+                "commuteFromStation": {
+                    "duration": 5,
+                    "distance": 200,
+                    "method": "walk",
+                    "instructions": "Hotel Granvia is directly connected to Kyoto Station"
+                }
+            },
+            "slots": [{
+                    "slotId": "day4-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "08:00", "end": "10:15" },
+                    "options": [{
+                        "id": "opt-4-0",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Shinkansen to Kyoto",
+                            "description": "Bullet train journey from Tokyo to Kyoto. Enjoy views of Mt. Fuji on clear days!",
+                            "category": "transport",
+                            "duration": 135,
+                            "place": {
+                                "name": "Tokyo Station",
+                                "address": "1-9-1 Marunouchi, Chiyoda City",
+                                "neighborhood": "Marunouchi",
+                                "coordinates": { "lat": 35.6812, "lng": 139.7671 },
+                                "rating": 4.4,
+                                "reviewCount": 15000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 13320, "currency": "JPY" },
+                            "tags": ["transport", "shinkansen", "scenic"],
+                            "source": "ai"
+                        },
+                        "matchReasons": ["Fastest way to Kyoto", "Iconic Japanese experience"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "opt-4-0",
+                    "commuteFromPrevious": null
+                },
+                {
+                    "slotId": "day4-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "11:30", "end": "13:00" },
+                    "options": [{
+                        "id": "opt-4-1",
+                        "rank": 1,
+                        "score": 89,
+                        "activity": {
+                            "name": "Nishiki Market",
+                            "description": "Kyoto's 400-year-old kitchen. Sample local delicacies.",
+                            "category": "market",
+                            "duration": 90,
+                            "place": {
+                                "name": "Nishiki Market",
+                                "address": "Nishikikoji Street, Nakagyo-ku",
+                                "neighborhood": "Downtown Kyoto",
+                                "coordinates": { "lat": 35.005, "lng": 135.7646 },
+                                "rating": 4.4,
+                                "reviewCount": 28000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2000, "currency": "JPY" },
+                            "tags": ["market", "food", "local", "historic"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Best food market in Kyoto", "Central location"],
+                        "tradeoffs": ["Can be crowded"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 15,
+                        "distance": 2000,
+                        "method": "transit",
+                        "instructions": "Take subway from Kyoto Station to Shijo"
+                    }
+                },
+                {
+                    "slotId": "day4-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:00", "end": "17:30" },
+                    "options": [{
+                            "id": "opt-4-2",
+                            "rank": 1,
+                            "score": 96,
+                            "activity": {
+                                "name": "Fushimi Inari Shrine",
+                                "description": "Iconic shrine with thousands of vermillion torii gates.",
+                                "category": "temple",
+                                "duration": 180,
+                                "place": {
+                                    "name": "Fushimi Inari Taisha",
+                                    "address": "68 Fukakusa Yabunouchicho, Fushimi Ward",
+                                    "neighborhood": "Fushimi",
+                                    "coordinates": { "lat": 34.9671, "lng": 135.7727 },
+                                    "rating": 4.7,
+                                    "reviewCount": 125000
+                                },
+                                "isFree": true,
+                                "tags": ["temple", "iconic", "hiking", "photography"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["#1 attraction in Kyoto", "Stunning photo opportunities"],
+                            "tradeoffs": ["Can be crowded", "Lots of walking uphill"]
+                        },
+                        {
+                            "id": "opt-4-2b",
+                            "rank": 2,
+                            "score": 88,
+                            "activity": {
+                                "name": "Kiyomizu-dera Temple",
+                                "description": "UNESCO World Heritage temple with stunning city views.",
+                                "category": "temple",
+                                "duration": 120,
+                                "place": {
+                                    "name": "Kiyomizu-dera",
+                                    "address": "1-294 Kiyomizu, Higashiyama Ward",
+                                    "neighborhood": "Higashiyama",
+                                    "coordinates": { "lat": 34.9949, "lng": 135.785 },
+                                    "rating": 4.6,
+                                    "reviewCount": 85000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 400, "currency": "JPY" },
+                                "tags": ["temple", "UNESCO", "views", "historic"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["UNESCO World Heritage", "Beautiful views"],
+                            "tradeoffs": ["Entry fee", "Crowded in afternoon"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 25,
+                        "distance": 4500,
+                        "method": "transit",
+                        "instructions": "Take JR Nara Line from Shijo to Inari",
+                        "trainLines": ["JR Nara Line"]
+                    }
+                },
+                {
+                    "slotId": "day4-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:30", "end": "21:00" },
+                    "options": [{
+                            "id": "opt-4-3",
+                            "rank": 1,
+                            "score": 92,
+                            "activity": {
+                                "name": "Gion District Evening Stroll",
+                                "description": "Walk through Kyoto's famous geisha district at dusk.",
+                                "category": "activity",
+                                "duration": 90,
+                                "place": {
+                                    "name": "Gion District",
+                                    "address": "Gionmachi, Higashiyama Ward",
+                                    "neighborhood": "Gion",
+                                    "coordinates": { "lat": 35.0037, "lng": 135.7756 },
+                                    "rating": 4.5,
+                                    "reviewCount": 32000
+                                },
+                                "isFree": true,
+                                "tags": ["geisha", "historic", "evening", "romantic"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Best time to see geishas", "Atmospheric lighting"],
+                            "tradeoffs": ["Geisha sightings not guaranteed"]
+                        },
+                        {
+                            "id": "opt-4-4",
+                            "rank": 2,
+                            "score": 88,
+                            "activity": {
+                                "name": "Kaiseki Dinner at Gion Nanba",
+                                "description": "Traditional multi-course Japanese dinner.",
+                                "category": "restaurant",
+                                "duration": 120,
+                                "place": {
+                                    "name": "Gion Nanba",
+                                    "address": "570-126 Gionmachi Minamigawa, Higashiyama",
+                                    "neighborhood": "Gion",
+                                    "coordinates": { "lat": 35.0035, "lng": 135.7745 },
+                                    "rating": 4.6,
+                                    "reviewCount": 450
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 15000, "currency": "JPY" },
+                                "tags": ["kaiseki", "fine-dining", "traditional"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Authentic Kyoto cuisine", "Intimate setting"],
+                            "tradeoffs": ["Expensive", "Reservation required"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 30,
+                        "distance": 6000,
+                        "method": "transit",
+                        "instructions": "Take JR back to Kyoto, then bus to Gion"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 5,
+            "date": "2025-04-19",
+            "city": "Kyoto",
+            "title": "Arashiyama & Western Kyoto",
+            "accommodation": {
+                "name": "Hotel Granvia Kyoto",
+                "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku, Kyoto",
+                "neighborhood": "Kyoto Station",
+                "coordinates": { "lat": 34.9853, "lng": 135.7585 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.5
+            },
+            "commuteFromHotel": {
+                "duration": 25,
+                "distance": 8000,
+                "method": "transit",
+                "instructions": "Take JR Sagano Line from Kyoto Station to Saga-Arashiyama",
+                "trainLines": ["JR Sagano Line"]
+            },
+            "commuteToHotel": {
+                "duration": 30,
+                "distance": 7000,
+                "method": "transit",
+                "instructions": "Take bus from Pontocho back to Kyoto Station"
+            },
+            "slots": [{
+                    "slotId": "day5-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "07:30", "end": "10:30" },
+                    "options": [{
+                        "id": "opt-5-1",
+                        "rank": 1,
+                        "score": 97,
+                        "activity": {
+                            "name": "Arashiyama Bamboo Grove",
+                            "description": "Ethereal bamboo forest path. Best visited at sunrise.",
+                            "category": "nature",
+                            "duration": 60,
+                            "place": {
+                                "name": "Arashiyama Bamboo Grove",
+                                "address": "Sagaogurayama, Ukyo Ward",
+                                "neighborhood": "Arashiyama",
+                                "coordinates": { "lat": 35.0168, "lng": 135.6713 },
+                                "rating": 4.5,
+                                "reviewCount": 95000
+                            },
+                            "isFree": true,
+                            "tags": ["nature", "iconic", "photography", "peaceful"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Iconic Kyoto experience", "Best before crowds"],
+                        "tradeoffs": ["Early start required for best experience"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": null
+                },
+                {
+                    "slotId": "day5-mid-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "10:30", "end": "12:00" },
+                    "options": [{
+                        "id": "opt-5-2",
+                        "rank": 1,
+                        "score": 90,
+                        "activity": {
+                            "name": "Tenryu-ji Temple",
+                            "description": "UNESCO World Heritage Zen temple with stunning garden.",
+                            "category": "temple",
+                            "duration": 60,
+                            "place": {
+                                "name": "Tenryu-ji Temple",
+                                "address": "68 Saga Tenryuji Susukinobabacho, Ukyo Ward",
+                                "neighborhood": "Arashiyama",
+                                "coordinates": { "lat": 35.0156, "lng": 135.6745 },
+                                "rating": 4.5,
+                                "reviewCount": 18000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 500, "currency": "JPY" },
+                            "tags": ["temple", "UNESCO", "zen", "garden"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["UNESCO site", "Beautiful gardens"],
+                        "tradeoffs": ["Entry fee"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 5,
+                        "distance": 300,
+                        "method": "walk",
+                        "instructions": "Short walk from Bamboo Grove"
+                    }
+                },
+                {
+                    "slotId": "day5-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:30", "end": "14:00" },
+                    "options": [{
+                        "id": "opt-5-3",
+                        "rank": 1,
+                        "score": 85,
+                        "activity": {
+                            "name": "Tofu Cuisine at Sagano",
+                            "description": "Traditional Kyoto-style tofu kaiseki in a riverside setting.",
+                            "category": "restaurant",
+                            "duration": 75,
+                            "place": {
+                                "name": "Yudofu Sagano",
+                                "address": "45 Sagatenryuji Susukinobabacho, Ukyo Ward",
+                                "neighborhood": "Arashiyama",
+                                "coordinates": { "lat": 35.0151, "lng": 135.674 },
+                                "rating": 4.3,
+                                "reviewCount": 650
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3500, "currency": "JPY" },
+                            "tags": ["tofu", "traditional", "vegetarian"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Local Kyoto specialty", "Scenic setting"],
+                        "tradeoffs": ["May not suit all tastes"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 3,
+                        "distance": 200,
+                        "method": "walk",
+                        "instructions": "Walk from Tenryu-ji"
+                    }
+                },
+                {
+                    "slotId": "day5-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:30", "end": "17:30" },
+                    "options": [{
+                            "id": "opt-5-4",
+                            "rank": 1,
+                            "score": 94,
+                            "activity": {
+                                "name": "Kinkaku-ji (Golden Pavilion)",
+                                "description": "Iconic Zen temple covered in gold leaf.",
+                                "category": "temple",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Kinkaku-ji",
+                                    "address": "1 Kinkakujicho, Kita Ward",
+                                    "neighborhood": "Kita",
+                                    "coordinates": { "lat": 35.0394, "lng": 135.7292 },
+                                    "rating": 4.6,
+                                    "reviewCount": 72000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 400, "currency": "JPY" },
+                                "tags": ["temple", "iconic", "UNESCO", "photography"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Must-see Kyoto landmark", "Stunning reflection in pond"],
+                            "tradeoffs": ["Very crowded", "Brief visit"]
+                        },
+                        {
+                            "id": "opt-5-5",
+                            "rank": 2,
+                            "score": 88,
+                            "activity": {
+                                "name": "Ryoan-ji Temple",
+                                "description": "Famous Zen rock garden.",
+                                "category": "temple",
+                                "duration": 45,
+                                "place": {
+                                    "name": "Ryoan-ji",
+                                    "address": "13 Ryoanji Goryonoshitacho, Ukyo Ward",
+                                    "neighborhood": "Ukyo",
+                                    "coordinates": { "lat": 35.0345, "lng": 135.7182 },
+                                    "rating": 4.4,
+                                    "reviewCount": 12000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 500, "currency": "JPY" },
+                                "tags": ["zen", "garden", "meditative"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["World's most famous rock garden", "Contemplative"],
+                            "tradeoffs": ["Small viewing area"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 35,
+                        "distance": 7000,
+                        "method": "transit",
+                        "instructions": "Take bus 11 from Arashiyama to Kinkaku-ji"
+                    }
+                },
+                {
+                    "slotId": "day5-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "19:00", "end": "21:00" },
+                    "options": [{
+                        "id": "opt-5-6",
+                        "rank": 1,
+                        "score": 87,
+                        "activity": {
+                            "name": "Pontocho Alley Dining",
+                            "description": "Atmospheric dining alley along the Kamo River.",
+                            "category": "restaurant",
+                            "duration": 90,
+                            "place": {
+                                "name": "Pontocho",
+                                "address": "Pontocho, Nakagyo Ward",
+                                "neighborhood": "Downtown Kyoto",
+                                "coordinates": { "lat": 35.0054, "lng": 135.7708 },
+                                "rating": 4.4,
+                                "reviewCount": 8500
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 5000, "currency": "JPY" },
+                            "tags": ["dining", "atmospheric", "riverside"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Beautiful evening atmosphere", "Many restaurant options"],
+                        "tradeoffs": ["Can be expensive"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 25,
+                        "distance": 6000,
+                        "method": "transit",
+                        "instructions": "Take bus from Kinkaku-ji to Shijo-Kawaramachi"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 6,
+            "date": "2025-04-20",
+            "city": "Osaka",
+            "title": "Travel Day: Kyoto → Osaka & Dotonbori",
+            "accommodation": {
+                "name": "Cross Hotel Osaka",
+                "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka",
+                "neighborhood": "Namba",
+                "coordinates": { "lat": 34.6721, "lng": 135.5014 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.4
+            },
+            "commuteFromHotel": {
+                "duration": 20,
+                "distance": 4000,
+                "method": "transit",
+                "instructions": "Take Midosuji Line from Shinsaibashi to Osaka Station",
+                "trainLines": ["Midosuji Line"]
+            },
+            "commuteToHotel": {
+                "duration": 5,
+                "distance": 300,
+                "method": "walk",
+                "instructions": "Short walk back to hotel from Dotonbori"
+            },
+            "cityTransition": {
+                "from": "Kyoto",
+                "to": "Osaka",
+                "method": "train",
+                "duration": 30,
+                "departureTime": "10:00",
+                "arrivalTime": "10:30",
+                "trainName": "JR Special Rapid",
+                "estimatedCost": { "amount": 570, "currency": "JPY" },
+                "departureStation": "Kyoto Station",
+                "arrivalStation": "Osaka Station",
+                "commuteToStation": {
+                    "duration": 5,
+                    "distance": 200,
+                    "method": "walk",
+                    "instructions": "Walk from Hotel Granvia to Kyoto Station (directly connected)"
+                },
+                "commuteFromStation": {
+                    "duration": 25,
+                    "distance": 5000,
+                    "method": "transit",
+                    "instructions": "Take Midosuji Line from Osaka/Umeda Station to Shinsaibashi (Cross Hotel)",
+                    "trainLines": ["Midosuji Line"]
+                }
+            },
+            "slots": [{
+                    "slotId": "day6-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "10:00", "end": "10:30" },
+                    "options": [{
+                        "id": "opt-6-0",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Train to Osaka",
+                            "description": "Quick JR Special Rapid train from Kyoto to Osaka.",
+                            "category": "transport",
+                            "duration": 30,
+                            "place": {
+                                "name": "Kyoto Station",
+                                "address": "Higashishiokoji Kamadonocho, Shimogyo Ward",
+                                "neighborhood": "Kyoto Station",
+                                "coordinates": { "lat": 34.9858, "lng": 135.7587 },
+                                "rating": 4.3,
+                                "reviewCount": 25000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 570, "currency": "JPY" },
+                            "tags": ["transport", "train"],
+                            "source": "ai"
+                        },
+                        "matchReasons": ["Fast and convenient"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "opt-6-0",
+                    "commuteFromPrevious": null
+                },
+                {
+                    "slotId": "day6-late-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "11:00", "end": "12:30" },
+                    "options": [{
+                        "id": "opt-6-1",
+                        "rank": 1,
+                        "score": 93,
+                        "activity": {
+                            "name": "Osaka Castle",
+                            "description": "Iconic castle and museum with panoramic city views.",
+                            "category": "landmark",
+                            "duration": 120,
+                            "place": {
+                                "name": "Osaka Castle",
+                                "address": "1-1 Osakajo, Chuo Ward",
+                                "neighborhood": "Chuo",
+                                "coordinates": { "lat": 34.6873, "lng": 135.526 },
+                                "rating": 4.4,
+                                "reviewCount": 68000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 600, "currency": "JPY" },
+                            "tags": ["castle", "history", "views", "landmark"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Osaka's most famous landmark", "Beautiful grounds"],
+                        "tradeoffs": ["Crowded", "Mostly reconstructed interior"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 20,
+                        "distance": 4000,
+                        "method": "transit",
+                        "instructions": "Take Osaka Loop Line to Osakajokoen",
+                        "trainLines": ["JR Osaka Loop Line"]
+                    }
+                },
+                {
+                    "slotId": "day6-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "13:00", "end": "14:30" },
+                    "options": [{
+                        "id": "opt-6-2",
+                        "rank": 1,
+                        "score": 91,
+                        "activity": {
+                            "name": "Kuromon Market",
+                            "description": "Osaka's Kitchen - fresh seafood, street food, and more.",
+                            "category": "market",
+                            "duration": 90,
+                            "place": {
+                                "name": "Kuromon Ichiba Market",
+                                "address": "2-4-1 Nipponbashi, Chuo Ward",
+                                "neighborhood": "Namba",
+                                "coordinates": { "lat": 34.6676, "lng": 135.506 },
+                                "rating": 4.3,
+                                "reviewCount": 35000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3000, "currency": "JPY" },
+                            "tags": ["market", "seafood", "street-food"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Best seafood in Osaka", "Great for grazing"],
+                        "tradeoffs": ["Can be expensive", "Crowded midday"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 20,
+                        "distance": 3500,
+                        "method": "transit",
+                        "instructions": "Take Chuo Line to Namba"
+                    }
+                },
+                {
+                    "slotId": "day6-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "15:00", "end": "18:00" },
+                    "options": [{
+                            "id": "opt-6-3",
+                            "rank": 1,
+                            "score": 89,
+                            "activity": {
+                                "name": "Shinsekai & Tsutenkaku Tower",
+                                "description": "Retro entertainment district with iconic tower.",
+                                "category": "neighborhood",
+                                "duration": 120,
+                                "place": {
+                                    "name": "Shinsekai",
+                                    "address": "Ebisuhigashi, Naniwa Ward",
+                                    "neighborhood": "Shinsekai",
+                                    "coordinates": { "lat": 34.6524, "lng": 135.5063 },
+                                    "rating": 4.2,
+                                    "reviewCount": 18000
+                                },
+                                "isFree": true,
+                                "tags": ["retro", "local", "tower", "atmosphere"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Authentic Osaka atmosphere", "Great for kushikatsu"],
+                            "tradeoffs": ["Can feel touristy"]
+                        },
+                        {
+                            "id": "opt-6-4",
+                            "rank": 2,
+                            "score": 86,
+                            "activity": {
+                                "name": "Shitennoji Temple",
+                                "description": "Japan's oldest officially administered temple.",
+                                "category": "temple",
+                                "duration": 60,
+                                "place": {
+                                    "name": "Shitennoji Temple",
+                                    "address": "1-11-18 Shitennoji, Tennoji Ward",
+                                    "neighborhood": "Tennoji",
+                                    "coordinates": { "lat": 34.6533, "lng": 135.5168 },
+                                    "rating": 4.3,
+                                    "reviewCount": 8500
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 300, "currency": "JPY" },
+                                "tags": ["temple", "historic", "peaceful"],
+                                "source": "google-places"
+                            },
+                            "matchReasons": ["Japan's oldest temple", "Less crowded"],
+                            "tradeoffs": ["Not as famous"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 10,
+                        "distance": 1500,
+                        "method": "walk",
+                        "instructions": "Walk south from Kuromon Market"
+                    }
+                },
+                {
+                    "slotId": "day6-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "19:00", "end": "22:00" },
+                    "options": [{
+                        "id": "opt-6-5",
+                        "rank": 1,
+                        "score": 95,
+                        "activity": {
+                            "name": "Dotonbori Food Adventure",
+                            "description": "Neon-lit food paradise. Try takoyaki, okonomiyaki, and more!",
+                            "category": "activity",
+                            "duration": 180,
+                            "place": {
+                                "name": "Dotonbori",
+                                "address": "Dotonbori, Chuo Ward",
+                                "neighborhood": "Namba",
+                                "coordinates": { "lat": 34.6687, "lng": 135.5019 },
+                                "rating": 4.5,
+                                "reviewCount": 95000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3500, "currency": "JPY" },
+                            "tags": ["food", "nightlife", "neon", "must-see"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Osaka's #1 attraction", "Best at night", "Food heaven"],
+                        "tradeoffs": ["Very crowded", "Tourist-heavy"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 15,
+                        "distance": 2000,
+                        "method": "transit",
+                        "instructions": "Take Sakaisuji Line to Namba"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 7,
+            "date": "2025-04-21",
+            "city": "Osaka",
+            "title": "Day Trip to Nara & Final Evening",
+            "accommodation": {
+                "name": "Cross Hotel Osaka",
+                "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka",
+                "neighborhood": "Namba",
+                "coordinates": { "lat": 34.6721, "lng": 135.5014 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.4
+            },
+            "commuteFromHotel": {
+                "duration": 55,
+                "distance": 35000,
+                "method": "transit",
+                "instructions": "Take Kintetsu Nara Line from Namba to Kintetsu Nara",
+                "trainLines": ["Kintetsu Nara Line"]
+            },
+            "commuteToHotel": {
+                "duration": 25,
+                "distance": 5000,
+                "method": "transit",
+                "instructions": "Take Midosuji Line from Umeda to Shinsaibashi",
+                "trainLines": ["Midosuji Line"]
+            },
+            "slots": [{
+                    "slotId": "day7-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "08:30", "end": "12:00" },
+                    "options": [{
+                        "id": "opt-7-1",
+                        "rank": 1,
+                        "score": 94,
+                        "activity": {
+                            "name": "Nara Park & Deer",
+                            "description": "Meet the friendly deer and explore Japan's first permanent capital.",
+                            "category": "nature",
+                            "duration": 180,
+                            "place": {
+                                "name": "Nara Park",
+                                "address": "Zoshicho, Nara",
+                                "neighborhood": "Nara",
+                                "coordinates": { "lat": 34.6851, "lng": 135.843 },
+                                "rating": 4.6,
+                                "reviewCount": 85000
+                            },
+                            "isFree": true,
+                            "tags": ["nature", "deer", "park", "family-friendly"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Unique deer experience", "Beautiful park"],
+                        "tradeoffs": ["1 hour from Osaka", "Can be crowded"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 50,
+                        "distance": 35000,
+                        "method": "transit",
+                        "instructions": "Take Kintetsu Nara Line from Namba to Kintetsu Nara",
+                        "trainLines": ["Kintetsu Nara Line"]
+                    }
+                },
+                {
+                    "slotId": "day7-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:30", "end": "14:00" },
+                    "options": [{
+                        "id": "opt-7-2",
+                        "rank": 1,
+                        "score": 86,
+                        "activity": {
+                            "name": "Kakinoha-zushi at Hiraso",
+                            "description": "Nara's famous persimmon leaf wrapped sushi.",
+                            "category": "restaurant",
+                            "duration": 60,
+                            "place": {
+                                "name": "Hiraso",
+                                "address": "30-1 Imamikadomachi, Nara",
+                                "neighborhood": "Nara",
+                                "coordinates": { "lat": 34.6847, "lng": 135.832 },
+                                "rating": 4.4,
+                                "reviewCount": 320
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1500, "currency": "JPY" },
+                            "tags": ["local-specialty", "sushi", "traditional"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["Nara specialty", "Unique flavor"],
+                        "tradeoffs": ["Limited seating"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 10,
+                        "distance": 800,
+                        "method": "walk",
+                        "instructions": "Walk from Nara Park"
+                    }
+                },
+                {
+                    "slotId": "day7-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:30", "end": "16:30" },
+                    "options": [{
+                        "id": "opt-7-3",
+                        "rank": 1,
+                        "score": 93,
+                        "activity": {
+                            "name": "Todai-ji Temple",
+                            "description": "Houses the world's largest bronze Buddha statue.",
+                            "category": "temple",
+                            "duration": 90,
+                            "place": {
+                                "name": "Todai-ji",
+                                "address": "406-1 Zoshicho, Nara",
+                                "neighborhood": "Nara",
+                                "coordinates": { "lat": 34.6891, "lng": 135.8399 },
+                                "rating": 4.7,
+                                "reviewCount": 52000
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 600, "currency": "JPY" },
+                            "tags": ["temple", "UNESCO", "Buddha", "must-see"],
+                            "source": "google-places"
+                        },
+                        "matchReasons": ["World's largest wooden building", "UNESCO site"],
+                        "tradeoffs": ["Entry fee", "Crowded"]
+                    }],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 15,
+                        "distance": 1200,
+                        "method": "walk",
+                        "instructions": "Walk through Nara Park"
+                    }
+                },
+                {
+                    "slotId": "day7-evening",
+                    "slotType": "evening",
+                    "timeRange": { "start": "18:30", "end": "21:30" },
+                    "options": [{
+                            "id": "opt-7-4",
+                            "rank": 1,
+                            "score": 88,
+                            "activity": {
+                                "name": "Umeda Sky Building Sunset",
+                                "description": "Floating Garden Observatory with stunning sunset views.",
+                                "category": "attraction",
+                                "duration": 90,
+                                "place": {
+                                    "name": "Umeda Sky Building",
+                                    "address": "1-1-88 Oyodonaka, Kita Ward",
+                                    "neighborhood": "Umeda",
+                                    "coordinates": { "lat": 34.7052, "lng": 135.4906 },
+                                    "rating": 4.5,
+                                    "reviewCount": 18000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 1500, "currency": "JPY" },
+                                "tags": ["views", "sunset", "architecture"],
+                                "source": "viator"
+                            },
+                            "matchReasons": ["Best sunset views in Osaka", "Unique architecture"],
+                            "tradeoffs": ["Entry fee"]
+                        },
+                        {
+                            "id": "opt-7-5",
+                            "rank": 2,
+                            "score": 85,
+                            "activity": {
+                                "name": "Final Osaka Bar Hopping",
+                                "description": "Explore the local bars of Umeda or return to Namba.",
+                                "category": "nightlife",
+                                "duration": 120,
+                                "place": {
+                                    "name": "Umeda",
+                                    "address": "Kita Ward",
+                                    "neighborhood": "Umeda",
+                                    "coordinates": { "lat": 34.7024, "lng": 135.4959 },
+                                    "rating": 4.3,
+                                    "reviewCount": 5000
+                                },
+                                "isFree": false,
+                                "estimatedCost": { "amount": 4000, "currency": "JPY" },
+                                "tags": ["nightlife", "bars", "local"],
+                                "source": "yelp"
+                            },
+                            "matchReasons": ["Great way to end the trip", "Many options"],
+                            "tradeoffs": ["Can add up cost-wise"]
+                        }
+                    ],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": {
+                        "duration": 60,
+                        "distance": 40000,
+                        "method": "transit",
+                        "instructions": "Return to Osaka via Kintetsu Line to Namba, then Midosuji Line to Umeda",
+                        "trainLines": ["Kintetsu Nara Line", "Midosuji Line"]
+                    }
+                }
+            ]
+        }
+    ],
+    "generalTips": [
+        "Get a JR Pass for the Shinkansen and JR trains - saves money on Tokyo-Kyoto-Osaka route",
+        "Get a Suica or ICOCA card for easy transit payments",
+        "Download Google Maps offline for each city",
+        "Most shops accept credit cards, but keep ¥10,000-20,000 cash for small vendors",
+        "Book teamLab Planets at least 1 week in advance",
+        "Cherry blossom season (late March - early April) requires earlier bookings",
+        "Temple visits are best in early morning to avoid crowds",
+        "Many restaurants are cash-only, especially traditional ones",
+        "Convenience stores (7-Eleven, Lawson, FamilyMart) have great food and ATMs"
+    ],
+    "estimatedBudget": {
+        "total": { "min": 150000, "max": 250000 },
+        "currency": "JPY",
+        "breakdown": {
+            "activities": { "min": 25000, "max": 40000 },
+            "food": { "min": 50000, "max": 80000 },
+            "transport": { "min": 45000, "max": 70000 },
+            "accommodation": { "min": 30000, "max": 60000 }
+        }
+    },
+    "validationRules": {
+        "maxActivitiesPerDay": 6,
+        "minBreakBetweenActivities": 15,
+        "maxCommuteTimePerDay": 180,
+        "requiredSlotTypes": ["morning", "lunch", "afternoon", "dinner"]
+    }
+}

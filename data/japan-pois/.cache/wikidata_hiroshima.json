@@ -1,0 +1,286 @@
+{
+  "data": {
+    "Q81821": {
+      "wikidataId": "Q81821",
+      "name": "Hiroshima City Asa Zoological Park",
+      "description": "zoo",
+      "coordinates": {
+        "lng": 132.44069,
+        "lat": 34.497856
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%89%E4%BD%90%E5%8B%95%E7%89%A9%E5%85%AC%E5%9C%9201.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hiroshima_City_Asa_Zoological_Park",
+      "website": "http://www.asazoo.jp/en/"
+    },
+    "Q84008": {
+      "wikidataId": "Q84008",
+      "name": "Hiroshima Gokoku Shrine",
+      "description": "Shinto shrine in Naka-ku, Hiroshima, Japan",
+      "coordinates": {
+        "lng": 132.45875,
+        "lat": 34.40116667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Temple%20inside%20Hiroshima%20Castle.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hiroshima_Gokoku_Shrine",
+      "website": "https://www.h-gokoku.or.jp/"
+    },
+    "Q114718": {
+      "wikidataId": "Q114718",
+      "name": "Children's Peace Monument",
+      "description": "monument",
+      "coordinates": {
+        "lng": 132.452776,
+        "lat": 34.394142
+      },
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Children%27s_Peace_Monument",
+      "website": "https://hpmmuseum.jp/"
+    },
+    "Q11449626": {
+      "wikidataId": "Q11449626",
+      "name": "Unaki Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.479125,
+        "lat": 34.475506
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Unaki%20shrine.JPG"
+    },
+    "Q11482176": {
+      "wikidataId": "Q11482176",
+      "name": "Flame of Peace",
+      "description": "広島平和記念公園にある火",
+      "coordinates": {
+        "lng": 132.452755555,
+        "lat": 34.393458333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Peace%20Flame%20Hiroshima%2020120128.JPG"
+    },
+    "Q11484670": {
+      "wikidataId": "Q11484670",
+      "name": "広島広域公園",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 132.393472222,
+        "lat": 34.439083333
+      }
+    },
+    "Q11511676": {
+      "wikidataId": "Q11511676",
+      "name": "Asahiyama Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.424722,
+        "lat": 34.397222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asahiyama%20shrine%2001.JPG",
+      "website": "https://asahiyamajinja.com/"
+    },
+    "Q11547466": {
+      "wikidataId": "Q11547466",
+      "name": "Hijiyama Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.473194444,
+        "lat": 34.388416666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%AF%94%E6%B2%BB%E5%B1%B1%E7%A5%9E%E7%A4%BE02.JPG",
+      "website": "http://hijiyama-jinja.jp/"
+    },
+    "Q11553443": {
+      "wikidataId": "Q11553443",
+      "name": "Kōchi Shrine (Saeki-ku)",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.351417,
+        "lat": 34.412833
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kouchi%20shrine%20hiroshima%20city.jpg",
+      "website": "http://kochijinja.org/"
+    },
+    "Q11580269": {
+      "wikidataId": "Q11580269",
+      "name": "Shirakami-sha Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.456389,
+        "lat": 34.390444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shirakami-sha%20Shrine%20-%20Sarah%20Stierch.JPG"
+    },
+    "Q11642702": {
+      "wikidataId": "Q11642702",
+      "name": "Nihohime Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.487306,
+        "lat": 34.376083
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nihohime%20Shrine%2020140811-1.JPG",
+      "website": "https://nihohime.com/"
+    },
+    "Q11666999": {
+      "wikidataId": "Q11666999",
+      "name": "Nigitsu Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.46994,
+        "lat": 34.40519
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NigitsuShrine-2.JPG",
+      "website": "https://www.nigitsu.jp/"
+    },
+    "Q17220634": {
+      "wikidataId": "Q17220634",
+      "name": "Sumiyoshi Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.447388888,
+        "lat": 34.384722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hiroshima%20Sumiyoshi-jinja%2020170211-1.JPG"
+    },
+    "Q17992427": {
+      "wikidataId": "Q17992427",
+      "name": "Shioya Shrine (Hiroshima)",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.364916666,
+        "lat": 34.362833333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shioya%20shrine.JPG"
+    },
+    "Q27923716": {
+      "wikidataId": "Q27923716",
+      "name": "Nagasako Park",
+      "description": "park in Hiroshima",
+      "coordinates": {
+        "lng": 132.57825,
+        "lat": 34.24763889
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%91%89%E6%B5%B7%E8%BB%8D%E5%A2%93%E5%9C%B0.jpg",
+      "website": "https://www.city.kure.lg.jp/soshiki/67/m000030.html"
+    },
+    "Q30925170": {
+      "wikidataId": "Q30925170",
+      "name": "Shinjōnomiya Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.460056,
+        "lat": 34.417306
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20of%20Shinjo-no-miya%20Shrine%2C%20Hiroshima%2C%20Japan.jpg"
+    },
+    "Q112054094": {
+      "wikidataId": "Q112054094",
+      "name": "Tsuruhane Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.471444444,
+        "lat": 34.404055555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%B6%B4%E7%BE%BD%E6%A0%B9%E7%A5%9E%E7%A4%BE.png",
+      "website": "http://www.tsuruhanejinja-hiroshima.jp/"
+    },
+    "Q124496766": {
+      "wikidataId": "Q124496766",
+      "name": "Okazaki Shrine",
+      "description": "Shinto shrine in Tomochūō 1-chōme, Asaminami-ku, Hiroshima, Japan",
+      "coordinates": {
+        "lng": 132.403622222,
+        "lat": 34.463361111
+      }
+    },
+    "Q124496767": {
+      "wikidataId": "Q124496767",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.295444,
+        "lat": 34.504861
+      }
+    },
+    "Q124496770": {
+      "wikidataId": "Q124496770",
+      "name": "Kumano Shrine",
+      "description": "Shinto shrine in Gion, Asaminami-ku, Hiroshima, Japan",
+      "coordinates": {
+        "lng": 132.461027777,
+        "lat": 34.437461111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kumano%20Shrine%20%28Gion%2C%20Hiroshima%29%20No.1.jpg"
+    },
+    "Q124496768": {
+      "wikidataId": "Q124496768",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Saeki-ku, Japan",
+      "coordinates": {
+        "lng": 132.300167,
+        "lat": 34.505722
+      }
+    },
+    "Q124496769": {
+      "wikidataId": "Q124496769",
+      "name": "Tanakayama Shrine (Asaminami-ku)",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.44997,
+        "lat": 34.477173
+      },
+      "website": "https://tanakayama.jp/"
+    },
+    "Q124496775": {
+      "wikidataId": "Q124496775",
+      "name": "Kusatsu Hachiman Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.401639,
+        "lat": 34.382972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusatsu-Hachiman%20Shrine%20No.1.jpg"
+    },
+    "Q124496776": {
+      "wikidataId": "Q124496776",
+      "name": "Omoto Shrine",
+      "description": "Shinto shrine in Hiroshima Prefecture, Japan",
+      "coordinates": {
+        "lng": 132.320056,
+        "lat": 34.443917
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Omoto%20shrine.jpeg"
+    },
+    "Q124496777": {
+      "wikidataId": "Q124496777",
+      "name": "Tsubushi Ōmoto Shrine",
+      "description": "Shinto shrine in Saeki-ku, Hiroshima, Japan",
+      "coordinates": {
+        "lng": 132.353694,
+        "lat": 34.550417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B4%A5%E4%BC%8F%E5%A4%A7%E5%85%83%E7%A5%9E%E7%A4%BE.jpeg"
+    },
+    "Q132159552": {
+      "wikidataId": "Q132159552",
+      "name": "Funairi Shrine",
+      "description": "shinto shrine in Naka-ku, Hiroshima, Japan",
+      "coordinates": {
+        "lng": 132.435782,
+        "lat": 34.375298
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Funairi%20Shrine%20No.1.jpg"
+    },
+    "Q41977": {
+      "wikidataId": "Q41977",
+      "name": "Hiroshima Castle",
+      "description": "castle",
+      "coordinates": {
+        "lng": 132.459027777,
+        "lat": 34.40275
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/HiroshimaCastle.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hiroshima_Castle",
+      "website": "https://hiroshimacastle.jp/language"
+    }
+  },
+  "timestamp": "2025-12-28T20:22:29.407Z",
+  "source": "wikidata"
+}

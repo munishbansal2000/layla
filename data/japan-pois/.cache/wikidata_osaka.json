@@ -1,0 +1,1626 @@
+{
+  "data": {
+    "Q11356851": {
+      "wikidataId": "Q11356851",
+      "name": "Sanja Shrine (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.46016667,
+        "lat": 34.66647222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sansya-jinja%20haiden.jpg"
+    },
+    "Q11362944": {
+      "wikidataId": "Q11362944",
+      "name": "Nakai Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.53586111,
+        "lat": 34.61936111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakai-jinja%201.jpg"
+    },
+    "Q11364503": {
+      "wikidataId": "Q11364503",
+      "name": "Nakajima-so Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.506333,
+        "lat": 34.733944
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakajima-sosha2.jpg"
+    },
+    "Q11369149": {
+      "wikidataId": "Q11369149",
+      "name": "Kubo Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52058333,
+        "lat": 34.65352778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kubojinja01.jpg"
+    },
+    "Q11372578": {
+      "wikidataId": "Q11372578",
+      "name": "Gosha Shrine",
+      "description": "Shinto shrine in Osaka",
+      "coordinates": {
+        "lng": 135.43233333,
+        "lat": 34.70652778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gosya%20Nishiyodo%2001.jpg"
+    },
+    "Q11377299": {
+      "wikidataId": "Q11377299",
+      "name": "Imazu Hie Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.5794,
+        "lat": 34.69245278
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Imaduhiejinjya.jpg"
+    },
+    "Q11390699": {
+      "wikidataId": "Q11390699",
+      "name": "Yasaka Shrine",
+      "description": "Shinto shrine in Fukushima-ku, Osaka, Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.47088889,
+        "lat": 34.69875
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasaka-jinja%28Fukushima%2COsak.jpg"
+    },
+    "Q11390700": {
+      "wikidataId": "Q11390700",
+      "name": "Osaka Yasaka Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.47930556,
+        "lat": 34.66127778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasaka%20Taishoku%2001.jpg"
+    },
+    "Q11391824": {
+      "wikidataId": "Q11391824",
+      "name": "Yasaka Shrine",
+      "description": "Shinto shrine in Kita-ku, Osaka, Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.4845,
+        "lat": 34.70269444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasak-osaka-kita%2001.jpg"
+    },
+    "Q11408695": {
+      "wikidataId": "Q11408695",
+      "name": "Minaminagara",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.514694,
+        "lat": 34.711417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%97%E9%95%B7%E6%9F%84%E5%85%AB%E5%B9%A1%E5%AE%AE.jpg"
+    },
+    "Q11428502": {
+      "wikidataId": "Q11428502",
+      "name": "Tsukamoto Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.473861,
+        "lat": 34.715167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tukamoto%2001.jpg"
+    },
+    "Q11432381": {
+      "wikidataId": "Q11432381",
+      "name": "Ōyosami Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.518163,
+        "lat": 34.594833
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oyosami-jinja%2C%20haiden.jpg"
+    },
+    "Q11447413": {
+      "wikidataId": "Q11447413",
+      "name": "Himejima Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.453167,
+        "lat": 34.704611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Himesima01.jpg"
+    },
+    "Q11456939": {
+      "wikidataId": "Q11456939",
+      "name": "Tomishima Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.495417,
+        "lat": 34.713417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tomisimajinja01.jpg"
+    },
+    "Q11471104": {
+      "wikidataId": "Q11471104",
+      "name": "Yamasaka Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52188889,
+        "lat": 34.62325
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamasaka-jinja%201.jpg"
+    },
+    "Q11479957": {
+      "wikidataId": "Q11479957",
+      "name": "Tatsumi Shrine Osaka",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.554033,
+        "lat": 34.64178
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tatsumi%20Shrine%20Osaka.JPG"
+    },
+    "Q11486438": {
+      "wikidataId": "Q11486438",
+      "name": "Hirota Shrine",
+      "description": "building in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.50275,
+        "lat": 34.65675
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hirotajinja01.jpg"
+    },
+    "Q11489190": {
+      "wikidataId": "Q11489190",
+      "name": "Mitsugū",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.499278,
+        "lat": 34.671417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitsugu%20view%20looking%20in%20through%20torii%20-%202010.jpg"
+    },
+    "Q11517581": {
+      "wikidataId": "Q11517581",
+      "name": "Asahi Shinmeisha",
+      "description": "Shinto shrine in Osaka, Japan",
+      "coordinates": {
+        "lng": 135.4525,
+        "lat": 34.679722
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asahi-jinmeisya02.jpg"
+    },
+    "Q11523763": {
+      "wikidataId": "Q11523763",
+      "name": "Kumata Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.55494444,
+        "lat": 34.62894444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/051223%20Kumata-jinja%20Osaka%20Japan02bs45.jpg"
+    },
+    "Q11528773": {
+      "wikidataId": "Q11528773",
+      "name": "Higashi-Kōzu-gū",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52169444,
+        "lat": 34.66822222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Higashi-kodugu%20haiden.jpg"
+    },
+    "Q11529025": {
+      "wikidataId": "Q11529025",
+      "name": "Matsunokidaimyōjin",
+      "description": "Shinto shrine in Osaka, Japan",
+      "coordinates": {
+        "lng": 135.50344444,
+        "lat": 34.64579167
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9D%BE%E4%B9%83%E6%9C%A8%E5%A4%A7%E6%98%8E%E7%A5%9E.JPG"
+    },
+    "Q11545333": {
+      "wikidataId": "Q11545333",
+      "name": "Todorokihimenomikoto Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.497317,
+        "lat": 34.604759
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Todorokihimenomikoto%20shrine.jpg"
+    },
+    "Q11547445": {
+      "wikidataId": "Q11547445",
+      "name": "Himekoso Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.53416667,
+        "lat": 34.66702778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Himekoso%20Shrine%20torii.jpeg"
+    },
+    "Q11553804": {
+      "wikidataId": "Q11553804",
+      "name": "Koboreinari Shrine (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51980556,
+        "lat": 34.64994444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kawahori-inao%20jinja.jpg"
+    },
+    "Q11555994": {
+      "wikidataId": "Q11555994",
+      "name": "Tsumori Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.48294444,
+        "lat": 34.64097222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B4%A5%E5%AE%88%E7%A5%9E%E7%A4%BE%E6%9C%AC%E6%AE%BF.JPG"
+    },
+    "Q11561383": {
+      "wikidataId": "Q11561383",
+      "name": "Kiyomihara Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.55488889,
+        "lat": 34.65994444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kiyomihara%20Shrine.JPG"
+    },
+    "Q11574978": {
+      "wikidataId": "Q11574978",
+      "name": "Ubusuna Shrine (Konohana, Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.44130556,
+        "lat": 34.67627778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ubusuna-jinja01.jpg"
+    },
+    "Q11577264": {
+      "wikidataId": "Q11577264",
+      "name": "Tamino Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.448333,
+        "lat": 34.718611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taminojinja01.jpg"
+    },
+    "Q11590314": {
+      "wikidataId": "Q11590314",
+      "name": "Shinmei Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.45575,
+        "lat": 34.6395
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sinmeijinja01.jpg"
+    },
+    "Q11590486": {
+      "wikidataId": "Q11590486",
+      "name": "Kamitsu Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.4845,
+        "lat": 34.720694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamitsujinja01.jpg"
+    },
+    "Q11605640": {
+      "wikidataId": "Q11605640",
+      "name": "Susanoo-no-Mikoto Shrine",
+      "description": "building in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.48327778,
+        "lat": 34.70080556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Susa-osaka%2002.jpg"
+    },
+    "Q11616107": {
+      "wikidataId": "Q11616107",
+      "name": "Kokeyama Ryūō Shrine",
+      "description": "Shinto shrine in Osaka, Japan",
+      "coordinates": {
+        "lng": 135.49744444,
+        "lat": 34.64033333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E8%8B%94%E5%B1%B1%E9%BE%8D%E7%8E%8B.JPG"
+    },
+    "Q11621385": {
+      "wikidataId": "Q11621385",
+      "name": "Kamata Shrine (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.50005556,
+        "lat": 34.74225
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamata%2001.jpg"
+    },
+    "Q11633578": {
+      "wikidataId": "Q11633578",
+      "name": "Toyosaki Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.50158333,
+        "lat": 34.71491667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toyosakijinja01.jpg"
+    },
+    "Q11643571": {
+      "wikidataId": "Q11643571",
+      "name": "Miyakojima Shrine",
+      "description": "Shinto shrine in Osaka, Japan",
+      "coordinates": {
+        "lng": 135.52333333,
+        "lat": 34.70916667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miyakojima%20shrine.jpg"
+    },
+    "Q11653078": {
+      "wikidataId": "Q11653078",
+      "name": "Nagara Hachimangū",
+      "description": "Shinto shrine in Osaka, Japan",
+      "coordinates": {
+        "lng": 135.514099,
+        "lat": 34.716068
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagarayahata01.jpg"
+    },
+    "Q11657249": {
+      "wikidataId": "Q11657249",
+      "name": "Abe Ōji Shrine",
+      "description": "The 5th Ōji Shrine in the Ninety‑Nine Ōji Shrines",
+      "coordinates": {
+        "lng": 135.509138888,
+        "lat": 34.631030555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abeoji-jinja1.jpg"
+    },
+    "Q11657712": {
+      "wikidataId": "Q11657712",
+      "name": "Achihayao Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.565312,
+        "lat": 34.688766
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ajihayao-jinja01.JPG"
+    },
+    "Q11657965": {
+      "wikidataId": "Q11657965",
+      "name": "Abeno Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.5,
+        "lat": 34.6283
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abeno-jinja-haiden1.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abeno_Shrine"
+    },
+    "Q11659527": {
+      "wikidataId": "Q11659527",
+      "name": "Namba-yasaka Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49669444,
+        "lat": 34.66122222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Namba-yasaka-jinja%20haiden1.jpg",
+      "website": "http://nambayasaka.jp/"
+    },
+    "Q11667143": {
+      "wikidataId": "Q11667143",
+      "name": "Kaguhashi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.457,
+        "lat": 34.731861
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaguwasi01.jpg"
+    },
+    "Q11675499": {
+      "wikidataId": "Q11675499",
+      "name": "Karasuya",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.45444444,
+        "lat": 34.68944444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Karasunomiya.jpg"
+    },
+    "Q11676164": {
+      "wikidataId": "Q11676164",
+      "name": "Tsurumi Shrine (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.56536111,
+        "lat": 34.70122222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsurumijinjya.JPG"
+    },
+    "Q11676338": {
+      "wikidataId": "Q11676338",
+      "name": "Takāi Shrine (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.53116667,
+        "lat": 34.61083333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takaai-jinja%201.jpg"
+    },
+    "Q11679010": {
+      "wikidataId": "Q11679010",
+      "name": "Hanakawa Shrine",
+      "description": "Shinto shrine in Osaka, Japan",
+      "coordinates": {
+        "lng": 135.465361,
+        "lat": 34.706056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanakawa01.jpg"
+    },
+    "Q18459139": {
+      "wikidataId": "Q18459139",
+      "name": "Sanadayama Park",
+      "description": "park in Tennōji-ku, Japan",
+      "coordinates": {
+        "lng": 135.528055555,
+        "lat": 34.668888888
+      }
+    },
+    "Q60914152": {
+      "wikidataId": "Q60914152",
+      "name": "Ubuyu Inari Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52613,
+        "lat": 34.66671
+      }
+    },
+    "Q118141449": {
+      "wikidataId": "Q118141449",
+      "name": "Osaka Fureai no Mizube",
+      "coordinates": {
+        "lng": 135.521447222,
+        "lat": 34.702344444
+      }
+    },
+    "Q118141461": {
+      "wikidataId": "Q118141461",
+      "name": "自然再生ゾーン",
+      "coordinates": {
+        "lng": 135.520375,
+        "lat": 34.703063888
+      }
+    },
+    "Q128866948": {
+      "wikidataId": "Q128866948",
+      "name": "生野神社",
+      "description": "大阪市にある神社",
+      "coordinates": {
+        "lng": 135.536111,
+        "lat": 34.650889
+      }
+    },
+    "Q3472342": {
+      "wikidataId": "Q3472342",
+      "name": "Sankō Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52944444,
+        "lat": 34.67305556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanko-jinja.jpeg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sank%C5%8D_Shrine",
+      "website": "http://www.eonet.ne.jp/~sankou/"
+    },
+    "Q6541903": {
+      "wikidataId": "Q6541903",
+      "name": "Liberty Osaka",
+      "description": "Human rights museum in South Osaka city",
+      "coordinates": {
+        "lng": 135.486666666,
+        "lat": 34.654444444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Liberty%20Osaka%20Human%20Rights%20Museum.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Liberty_Osaka",
+      "website": "https://www.liberty.or.jp/"
+    },
+    "Q11420142": {
+      "wikidataId": "Q11420142",
+      "name": "Shikanjimasumiyoshi Shrine (Konohana-ku)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.45697222,
+        "lat": 34.68286111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shikanjima-sumiyosi01.jpg"
+    },
+    "Q11423045": {
+      "wikidataId": "Q11423045",
+      "name": "Tosa Inari Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.48522222,
+        "lat": 34.67494444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tosa-Inari-Jinja-Haiden1.jpg"
+    },
+    "Q11434447": {
+      "wikidataId": "Q11434447",
+      "name": "Omiya Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.545111111,
+        "lat": 34.725530555
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Omiyajinjya.jpg"
+    },
+    "Q11440634": {
+      "wikidataId": "Q11440634",
+      "name": "Eco Museum of Osaka",
+      "description": "大阪市鶴見区の鶴見緑地にあった環境教育施設",
+      "coordinates": {
+        "lng": 135.578583,
+        "lat": 34.712111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikiiki%20chikyukan1.jpg",
+      "website": "http://chikyukan.com/"
+    },
+    "Q11441761": {
+      "wikidataId": "Q11441761",
+      "name": "Ōsumi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.55072222,
+        "lat": 34.74988889
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Osumi01.jpg"
+    },
+    "Q11488984": {
+      "wikidataId": "Q11488984",
+      "name": "Miyukimori-tenjin-gu",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.534639,
+        "lat": 34.660161
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miyukimori%20Tenjingu%20Worship%20Hall%20001.jpg"
+    },
+    "Q11505066": {
+      "wikidataId": "Q11505066",
+      "name": "Hiyoshi Shrine (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.53138889,
+        "lat": 34.73027778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hiyoshi-jinja%20%28Asahi-ku%2C%20Osaka%2901.jpg"
+    },
+    "Q11508057": {
+      "wikidataId": "Q11508057",
+      "name": "Japan Folk Art Museum",
+      "coordinates": {
+        "lng": 135.49863611,
+        "lat": 34.66115
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Japan%20folk%20art%20museum.jpg",
+      "website": "http://www.nihon-kogeikan.or.jp"
+    },
+    "Q11513661": {
+      "wikidataId": "Q11513661",
+      "name": "Kasuga Shrine",
+      "description": "shinto shrine in Ōsaka, Japan",
+      "coordinates": {
+        "lng": 135.53202778,
+        "lat": 34.74886111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga%20kamisinjo01.jpg"
+    },
+    "Q11529909": {
+      "wikidataId": "Q11529909",
+      "name": "Matsuyamajinsha",
+      "description": "Shinto shrine in Higashiyodogawa-ku, Japan",
+      "coordinates": {
+        "lng": 135.54047222,
+        "lat": 34.75452778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsuyama01.jpg"
+    },
+    "Q11534678": {
+      "wikidataId": "Q11534678",
+      "name": "Kunishima Shrine (Higashiyodogawa-ku)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51416667,
+        "lat": 34.73111111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9F%B4%E5%B3%B6%E7%A5%9E%E7%A4%BE%20%E6%9C%AC%E6%AE%BF.png"
+    },
+    "Q11537573": {
+      "wikidataId": "Q11537573",
+      "name": "Kuwazu Tenjinsha",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.53,
+        "lat": 34.63827778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuwazu-tenjinja.jpg",
+      "website": "http://www.city.osaka.lg.jp/higashisumiyoshi/page/0000033842.html"
+    },
+    "Q11563799": {
+      "wikidataId": "Q11563799",
+      "name": "Yuzatosumiyoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.535222,
+        "lat": 34.612694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yuzato%20sumiyosi%201.jpg"
+    },
+    "Q11566022": {
+      "wikidataId": "Q11566022",
+      "name": "Miotsukushi Sumiyoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.45425,
+        "lat": 34.68961111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miotukusi-sumitosi1.jpg"
+    },
+    "Q11617266": {
+      "wikidataId": "Q11617266",
+      "name": "Ibarasumiyoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.478,
+        "lat": 34.675306
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibarasumiyosi01.jpg"
+    },
+    "Q11619169": {
+      "wikidataId": "Q11619169",
+      "name": "Sugawara Tenmangu (Higashiyodogawa-ku)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52922222,
+        "lat": 34.73808333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenma%20sugawara01.jpg"
+    },
+    "Q11631925": {
+      "wikidataId": "Q11631925",
+      "name": "Suwa Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.56333333,
+        "lat": 34.684
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka%20Joutou%20Suwa%20shrine.jpg"
+    },
+    "Q11658015": {
+      "wikidataId": "Q11658015",
+      "name": "Amamikoso Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.529697,
+        "lat": 34.595436
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amamikoso-jinja02.JPG",
+      "website": "http://www.city.osaka.lg.jp/higashisumiyoshi/page/0000032765.html"
+    },
+    "Q17227955": {
+      "wikidataId": "Q17227955",
+      "name": "Oomiya (Higashiyodogawa-ku)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.54711111,
+        "lat": 34.74208333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Owada%20Sumiyoshi%2001.jpg"
+    },
+    "Q24860362": {
+      "wikidataId": "Q24860362",
+      "name": "Yodogawa Shrine",
+      "description": "Shinto shrine in Miyakojima Ward, Japan",
+      "coordinates": {
+        "lng": 135.521277777,
+        "lat": 34.718194444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yodogawa%20Shrine.jpg"
+    },
+    "Q48761292": {
+      "wikidataId": "Q48761292",
+      "name": "Hakusan Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.541027777,
+        "lat": 34.685222222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakahama%20Shirayama%20Shrine.jpg"
+    },
+    "Q55524744": {
+      "wikidataId": "Q55524744",
+      "name": "Kusunoku-ōkami",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51738889,
+        "lat": 34.67169444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusunokiookami.jpg"
+    },
+    "Q58213337": {
+      "wikidataId": "Q58213337",
+      "name": "Hachiman Daijingū (Osaka)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.559611111,
+        "lat": 34.725666666
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachimandaijingu.jpg"
+    },
+    "Q59282586": {
+      "wikidataId": "Q59282586",
+      "name": "Shikinai Tatehara Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.555385,
+        "lat": 34.613031
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tatehara%20Shrine%20Kire%20Tomoshibi%20no%20Yube.png"
+    },
+    "Q60990360": {
+      "wikidataId": "Q60990360",
+      "name": "Tajima Shrine",
+      "description": "Shinto shrine in Ikuno-ku, Japan",
+      "coordinates": {
+        "lng": 135.542277777,
+        "lat": 34.648361111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tajima%20Shrine%20Osaka%20City.jpg"
+    },
+    "Q85880831": {
+      "wikidataId": "Q85880831",
+      "name": "Asahi Shrine (Hirano-ku)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.558083333,
+        "lat": 34.631527777
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%AD%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q85884071": {
+      "wikidataId": "Q85884071",
+      "name": "Noe Suijin Shrine",
+      "description": "Shinto shrine in Jōtō-ku, Japan",
+      "coordinates": {
+        "lng": 135.538806,
+        "lat": 34.70861
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Noe%20Sui-jinja.jpg"
+    },
+    "Q85884515": {
+      "wikidataId": "Q85884515",
+      "name": "Susanoo no mikoto Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.543722222,
+        "lat": 34.713972222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tori-i%20of%20Susano-o-no-mikoto%20shrine%20%28Joto-ku%2C%20Osaka%29.jpg"
+    },
+    "Q97184452": {
+      "wikidataId": "Q97184452",
+      "name": "Minami Osaka Church",
+      "coordinates": {
+        "lng": 135.515638888,
+        "lat": 34.635638888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nihon%20Christ%20MinamiOsaka%20Church.jpg",
+      "website": "https://www.mochurch.net/"
+    },
+    "Q116733984": {
+      "wikidataId": "Q116733984",
+      "name": "Buson Park",
+      "description": "大阪市の公園",
+      "coordinates": {
+        "lng": 135.519824,
+        "lat": 34.718951
+      }
+    },
+    "Q117848511": {
+      "wikidataId": "Q117848511",
+      "name": "Akaruhimenomikoto Shrine",
+      "description": "The 476th Shrine of the Engishiki Jinmyōchō",
+      "coordinates": {
+        "lng": 135.558672,
+        "lat": 34.622546
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Akahirume%20jinja.jpg"
+    },
+    "Q119459992": {
+      "wikidataId": "Q119459992",
+      "name": "Akatenugui Inari Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.488888888,
+        "lat": 34.665083333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Akatenugui-Inari%20jinja%2C%20Osaka.jpg"
+    },
+    "Q128866947": {
+      "wikidataId": "Q128866947",
+      "name": "瓜破天神社",
+      "description": "大阪府大阪市平野区瓜破に鎮座する神社",
+      "coordinates": {
+        "lng": 135.554694,
+        "lat": 34.602056
+      }
+    },
+    "Q128866944": {
+      "wikidataId": "Q128866944",
+      "name": "Sainoki Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.497806,
+        "lat": 34.731056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E3%81%95%E3%81%84%E3%81%AE%E6%9C%A8%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q128866957": {
+      "wikidataId": "Q128866957",
+      "name": "Nakatomi Sumuchi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.539139,
+        "lat": 34.604
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakatomisumuchi-jinja-01.jpg"
+    },
+    "Q128866962": {
+      "wikidataId": "Q128866962",
+      "name": "横堤八幡宮",
+      "description": "大阪府大阪市鶴見区横堤にある神社",
+      "coordinates": {
+        "lng": 135.57225,
+        "lat": 34.698417
+      }
+    },
+    "Q128866960": {
+      "wikidataId": "Q128866960",
+      "name": "生野八坂神社",
+      "description": "大阪府大阪市生野区生野東にある神社",
+      "coordinates": {
+        "lng": 135.535639,
+        "lat": 34.646194
+      }
+    },
+    "Q128866965": {
+      "wikidataId": "Q128866965",
+      "name": "Hachiman Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.580083,
+        "lat": 34.698722
+      }
+    },
+    "Q128866971": {
+      "wikidataId": "Q128866971",
+      "name": "Ubusuna Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.469278,
+        "lat": 34.647444
+      }
+    },
+    "Q128866973": {
+      "wikidataId": "Q128866973",
+      "name": "Yasaka Shrine",
+      "description": "Shinto shrine in Taishō-ku, Japan",
+      "coordinates": {
+        "lng": 135.476472,
+        "lat": 34.656306
+      }
+    },
+    "Q128866978": {
+      "wikidataId": "Q128866978",
+      "name": "Minamiokajima Tenmangū",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.472472,
+        "lat": 34.634694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Minamiokajima%20tenmangu.jpg"
+    },
+    "Q128866976": {
+      "wikidataId": "Q128866976",
+      "name": "Izuo Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.471667,
+        "lat": 34.659611
+      }
+    },
+    "Q128866985": {
+      "wikidataId": "Q128866985",
+      "name": "Wakamiya Hachiman Daijingū",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.544806,
+        "lat": 34.697972
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wakamiya-Hachiman.jpg"
+    },
+    "Q129490433": {
+      "wikidataId": "Q129490433",
+      "name": "Sugahara Shrine",
+      "description": "Shinto shrine in Hirano-ku, Japan",
+      "coordinates": {
+        "lng": 135.567566,
+        "lat": 34.626522
+      }
+    },
+    "Q131274485": {
+      "wikidataId": "Q131274485",
+      "name": "川辺八幡神社",
+      "description": "大阪府大阪市平野区長吉川辺に鎮座する神社",
+      "coordinates": {
+        "lng": 135.570167,
+        "lat": 34.595917
+      }
+    },
+    "Q134892429": {
+      "wikidataId": "Q134892429",
+      "name": "Yaei Shrine",
+      "description": "shrine in Ikuno-ku, Osaka",
+      "coordinates": {
+        "lng": 135.532861,
+        "lat": 34.660528
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%A5%E3%81%AE%E5%BD%8C%E6%A6%AE%E7%A5%9E%E7%A4%BE%E6%9D%B1%E5%8F%82%E9%81%93%20-%20panoramio.jpg"
+    },
+    "Q135185614": {
+      "wikidataId": "Q135185614",
+      "name": "Yokono Shrine former site",
+      "description": "former site of Yokono Shrine",
+      "coordinates": {
+        "lng": 135.545768,
+        "lat": 34.645596
+      }
+    },
+    "Q135185705": {
+      "wikidataId": "Q135185705",
+      "name": "Akaruhimenomikoto Shrine former site",
+      "description": "The former shrine site of Akaruhimenomikoto Shrine",
+      "coordinates": {
+        "lng": 135.488739,
+        "lat": 34.604361
+      }
+    },
+    "Q704855": {
+      "wikidataId": "Q704855",
+      "name": "Hōkoku Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.52694444,
+        "lat": 34.68416667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/H%C5%8Dkoku%20Shrine%20%28Osaka%29.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/H%C5%8Dkoku_Shrine_(Osaka)",
+      "website": "https://www.osaka-hokokujinja.org/"
+    },
+    "Q705949": {
+      "wikidataId": "Q705949",
+      "name": "Sumiyoshi Taisha",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.492934,
+        "lat": 34.612513
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sumiyoshi-taisha%2C%20keidai.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sumiyoshi-taisha",
+      "website": "https://www.sumiyoshitaisha.net/"
+    },
+    "Q11305182": {
+      "wikidataId": "Q11305182",
+      "name": "Samuhara Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.490972,
+        "lat": 34.678944
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Samuhara%20shrine.JPG",
+      "website": "https://www.samuhara.or.jp/"
+    },
+    "Q11372507": {
+      "wikidataId": "Q11372507",
+      "name": "Gojyonomiya",
+      "description": "Shinto shrine in Shinpoin-cho",
+      "coordinates": {
+        "lng": 135.518583,
+        "lat": 34.657028
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gojomiya%2001.jpg"
+    },
+    "Q11390949": {
+      "wikidataId": "Q11390949",
+      "name": "Yahataya Park",
+      "description": "park in Minato-ku, Japan",
+      "coordinates": {
+        "lng": 135.447167,
+        "lat": 34.660472
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yahataya-park.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yahataya_Park"
+    },
+    "Q11407698": {
+      "wikidataId": "Q11407698",
+      "name": "Minami-Temma Park",
+      "description": "public urban park",
+      "coordinates": {
+        "lng": 135.514528,
+        "lat": 34.691879
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Minami-Temma-Park-20090411-02.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Minami-Temma_Park"
+    },
+    "Q11408096": {
+      "wikidataId": "Q11408096",
+      "name": "南津守中央公園",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 135.4825,
+        "lat": 34.626361
+      }
+    },
+    "Q11425667": {
+      "wikidataId": "Q11425667",
+      "name": "Ikasuri Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49877,
+        "lat": 34.680936
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikasuri-jinja%2C%20keidai.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ikasuri_Shrine",
+      "website": "http://www.ikasuri.or.jp/"
+    },
+    "Q11427801": {
+      "wikidataId": "Q11427801",
+      "name": "Horikoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51322222,
+        "lat": 34.65147222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Horikoshi-jinja1.jpg",
+      "website": "https://www.horikoshijinja.or.jp/"
+    },
+    "Q11433513": {
+      "wikidataId": "Q11433513",
+      "name": "Oowadasumiyoshi Shrine (Nishiyodogawa-ku)",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.443778,
+        "lat": 34.708722
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Owada%20Sumiyoshi%2001.jpg"
+    },
+    "Q11436877": {
+      "wikidataId": "Q11436877",
+      "name": "Ōe Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51202778,
+        "lat": 34.65694444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe-jinja%20%28Osaka%2C%20Osaka%291.jpg",
+      "website": "http://www.ooejinja.net/"
+    },
+    "Q11437478": {
+      "wikidataId": "Q11437478",
+      "name": "Daikai Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.493209,
+        "lat": 34.613928
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Daikai-jinja%2C%20heiden-1.jpg",
+      "website": "http://www.sumiyoshitaisha.net/grounds/sessya.html#anchor01"
+    },
+    "Q11439926": {
+      "wikidataId": "Q11439926",
+      "name": "Osaka Museum of Housing and Living",
+      "coordinates": {
+        "lng": 135.511694,
+        "lat": 34.710306
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenjimbashi6%20on%20Tenjimbashisuji-Mall.JPG",
+      "website": "http://konjyakukan.com/"
+    },
+    "Q11440090": {
+      "wikidataId": "Q11440090",
+      "name": "Osaka Nanko Bird Sanctuary",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 135.399694,
+        "lat": 34.634833
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E9%98%AA%E5%8D%97%E6%B8%AF%E9%87%8E%E9%B3%A5%E5%9C%92PB130375.jpg",
+      "website": "http://www.osaka-nankou-bird-sanctuary.com/"
+    },
+    "Q11440995": {
+      "wikidataId": "Q11440995",
+      "name": "Osaka Prefectural Archive of Kamigata Comedy and Performing Arts",
+      "coordinates": {
+        "lng": 135.503056,
+        "lat": 34.664611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wahha.jpg",
+      "website": "http://wahha-kamigata.jp/"
+    },
+    "Q11441628": {
+      "wikidataId": "Q11441628",
+      "name": "Osaka Gokoku Shrine",
+      "description": "building in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.473917,
+        "lat": 34.610139
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Osaka-gokoku-jinja%20haiden.jpg",
+      "website": "https://www.osakagokoku.or.jp/"
+    },
+    "Q11442196": {
+      "wikidataId": "Q11442196",
+      "name": "Tengachaya Teahouse Ruins",
+      "description": "archaeological site in Japan",
+      "coordinates": {
+        "lng": 135.49669444,
+        "lat": 34.63008333
+      }
+    },
+    "Q11443201": {
+      "wikidataId": "Q11443201",
+      "name": "Tenmangu",
+      "description": "building in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49781944,
+        "lat": 34.62994444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenmangu%20%28Nishinari%2C%20Osaka%295.jpg"
+    },
+    "Q11443281": {
+      "wikidataId": "Q11443281",
+      "name": "Tenjin-sha",
+      "description": "Shinto shrine in Fukushima-ku, Osaka, Japan",
+      "coordinates": {
+        "lng": 135.4825,
+        "lat": 34.6885
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fukushima-Tenjinsya-02.jpg"
+    },
+    "Q11450228": {
+      "wikidataId": "Q11450228",
+      "name": "Yasui Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51093056,
+        "lat": 34.65448056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yasui-jinja-shaden1.jpg"
+    },
+    "Q11464751": {
+      "wikidataId": "Q11464751",
+      "name": "Sukunahikona Shrine",
+      "description": "Shinto shrine in Chūō-ku, Osaka",
+      "coordinates": {
+        "lng": 135.50597222,
+        "lat": 34.68861111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sukunahikona-jinja1.jpg",
+      "website": "http://www.sinnosan.jp/"
+    },
+    "Q11489357": {
+      "wikidataId": "Q11489357",
+      "name": "Goryō Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49916667,
+        "lat": 34.68741667
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Goryo-jinja%28Osaka%292.jpg",
+      "website": "https://goryojinja.jp"
+    },
+    "Q11499708": {
+      "wikidataId": "Q11499708",
+      "name": "Shikitsu Matsunomiya",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49730556,
+        "lat": 34.65722222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shikitsu-Matsunomiya1.jpg"
+    },
+    "Q11507798": {
+      "wikidataId": "Q11507798",
+      "name": "日本基督教団東梅田教会",
+      "description": "church building in Kita-ku, Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.506111,
+        "lat": 34.70175
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Higashi-Umeda%20Church.jpeg",
+      "website": "http://www1.odn.ne.jp/higashiumeda/"
+    },
+    "Q11507802": {
+      "wikidataId": "Q11507802",
+      "name": "UCCJ Naniwa Church",
+      "description": "church building in Chūō-ku, Osaka",
+      "coordinates": {
+        "lng": 135.50375,
+        "lat": 34.6895
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/UCCJ%20Naniwa%20Church%2020250831.jpg"
+    },
+    "Q11513663": {
+      "wikidataId": "Q11513663",
+      "name": "Kasuga Shrine",
+      "description": "building in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.479875,
+        "lat": 34.689804
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasuga-Shrine-Fukushimaku-20090419.jpg"
+    },
+    "Q11536933": {
+      "wikidataId": "Q11536933",
+      "name": "Momogaike Park",
+      "description": "park in Japan",
+      "coordinates": {
+        "lng": 135.521444444,
+        "lat": 34.630944444
+      }
+    },
+    "Q11538005": {
+      "wikidataId": "Q11538005",
+      "name": "Sakurajima Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.42361111,
+        "lat": 34.63930556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%A1%9C%E5%B3%B6%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%BD%8F%E4%B9%8B%E6%B1%9F%E5%8C%BA%E5%8D%97%E6%B8%AF%E5%8C%971%E4%B8%81%E7%9B%AE%20Sakurajima-jinja%202013.9.23%20-%20panoramio.jpg"
+    },
+    "Q11541236": {
+      "wikidataId": "Q11541236",
+      "name": "Kusunaga Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49258333,
+        "lat": 34.68430556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%A5%A0%E6%B0%B8%E7%A5%9E%E7%A4%BE%20Kusunaga%20Shrine%20-%20panoramio.jpg"
+    },
+    "Q11558471": {
+      "wikidataId": "Q11558471",
+      "name": "Naniwa Shrine",
+      "description": "Shinto shrine in Naniwa-ku, Ōsaka, Japan",
+      "coordinates": {
+        "lng": 135.48605556,
+        "lat": 34.65536111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B5%AA%E9%80%9F%E7%A5%9E%E7%A4%BE%E6%9C%AC%E6%AE%BF.JPG"
+    },
+    "Q11559710": {
+      "wikidataId": "Q11559710",
+      "name": "Yodogawatenjin Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.515306,
+        "lat": 34.710333
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yodogawatenjin01.jpg"
+    },
+    "Q11574477": {
+      "wikidataId": "Q11574477",
+      "name": "Ikukunitama Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.512995,
+        "lat": 34.665111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikukunitama-jinja%20haiden-2.JPG",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ikukunitama_Shrine",
+      "website": "https://ikutamajinja.jp"
+    },
+    "Q11574575": {
+      "wikidataId": "Q11574575",
+      "name": "Ikune Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.493889,
+        "lat": 34.615438
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikune-jinja%20%28Sumiyoshi%2C%20Osaka%29%2C%20haiden.jpg",
+      "website": "http://ikune.a.la9.jp/"
+    },
+    "Q11574576": {
+      "wikidataId": "Q11574576",
+      "name": "Ikune Shrine",
+      "description": "building in Nishinari-ku, Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49013889,
+        "lat": 34.62597222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikune%20jinja%20%28Nishinari%2C%20Osaka%29%20haiden2.jpg",
+      "website": "http://ikune.net/"
+    },
+    "Q11607146": {
+      "wikidataId": "Q11607146",
+      "name": "Tsunashiki Tenjinsha",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.50508333,
+        "lat": 34.70355556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%B6%B1%E6%95%B7%E5%A4%A9%E6%BA%80%E7%A5%9E%E7%A4%BE%EF%BC%88%E6%AD%A3%E9%9D%A2%EF%BC%89.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tsunashiki_Tenjin_Shrine",
+      "website": "http://www.tunashiki.com/"
+    },
+    "Q11645989": {
+      "wikidataId": "Q11645989",
+      "name": "Noda-Ebisu Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.4793,
+        "lat": 34.6884
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%8E%E7%94%B0%E6%81%B5%E7%BE%8E%E9%A0%88%E6%9C%AC%E6%AE%BF.JPG"
+    },
+    "Q11646162": {
+      "wikidataId": "Q11646162",
+      "name": "Nozatosumiyoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.462806,
+        "lat": 34.709611
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nozatosumiyosi01.jpg"
+    },
+    "Q11659562": {
+      "wikidataId": "Q11659562",
+      "name": "Namba Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.49955556,
+        "lat": 34.67897222
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nanba%20Shrine%20honsha.jpg",
+      "website": "https://www.nanba-jinja.or.jp/"
+    },
+    "Q11660942": {
+      "wikidataId": "Q11660942",
+      "name": "Tsuyu‑no‑Tenjinsha",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.50083333,
+        "lat": 34.69930556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuyu-tenjinsha%20haiden.jpg",
+      "website": "http://www.tuyutenjin.com/en/"
+    },
+    "Q11671792": {
+      "wikidataId": "Q11671792",
+      "name": "Kōzu-gū",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.51386111,
+        "lat": 34.66886111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E6%B4%A5%E5%AE%AE.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/K%C5%8Dzu-g%C5%AB",
+      "website": "http://www.kouzu.or.jp/"
+    },
+    "Q11675799": {
+      "wikidataId": "Q11675799",
+      "name": "Kasasagi Morinomiya",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.53330556,
+        "lat": 34.68077778
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kasasagimorinomiya1.jpg",
+      "website": "https://morinomiya.net/"
+    },
+    "Q17221703": {
+      "wikidataId": "Q17221703",
+      "name": "大阪北教会",
+      "description": "church building in Kita-ku, Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.490861,
+        "lat": 34.691667
+      }
+    },
+    "Q24874608": {
+      "wikidataId": "Q24874608",
+      "name": "Kamisumuji Shrine",
+      "description": "The 472th Shrine of the Engishiki Jinmyōchō",
+      "coordinates": {
+        "lng": 135.509538,
+        "lat": 34.611694
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamisumuji-jinja%20Haiden.jpg",
+      "website": "https://www.kamisumudi-jinjya.or.jp/"
+    },
+    "Q48748382": {
+      "wikidataId": "Q48748382",
+      "name": "Hōenzaka Site",
+      "description": "archaeological site in Ōtemae, Japan",
+      "coordinates": {
+        "lng": 135.52091667,
+        "lat": 34.68223056
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Houenzaka%20Ruins-2.jpg"
+    },
+    "Q59282575": {
+      "wikidataId": "Q59282575",
+      "name": "Sakuranomiya",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.523556,
+        "lat": 34.70111
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sakuranomiya%20Shinto%20Shrine%20in%20201504.JPG"
+    },
+    "Q60838117": {
+      "wikidataId": "Q60838117",
+      "name": "Asasawa Shrine",
+      "description": "Shinto shrine in Sumiyoshi-ku, Japan",
+      "coordinates": {
+        "lng": 135.493149,
+        "lat": 34.610828
+      }
+    },
+    "Q60990573": {
+      "wikidataId": "Q60990573",
+      "name": "Minatosumiyoshi Shrine",
+      "description": "Shinto shrine in Minato-ku, Japan",
+      "coordinates": {
+        "lng": 135.438472222,
+        "lat": 34.653444444
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B8%AF%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%E6%8B%9D%E6%AE%BF.jpg"
+    },
+    "Q70532158": {
+      "wikidataId": "Q70532158",
+      "name": "Mandaiike Park",
+      "description": "park in Sumiyoshi-ku, Japan",
+      "coordinates": {
+        "lng": 135.50218,
+        "lat": 34.61935
+      }
+    },
+    "Q105720031": {
+      "wikidataId": "Q105720031",
+      "name": "Hori Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.522308,
+        "lat": 34.607456
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/HoriShrine%27sWorshiphall.jpg"
+    },
+    "Q106852477": {
+      "wikidataId": "Q106852477",
+      "name": "Santsu Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.451389,
+        "lat": 34.662556
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitsu-jinja%2C%20Osaka.jpg"
+    },
+    "Q106852498": {
+      "wikidataId": "Q106852498",
+      "name": "Shikinagayoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.570563,
+        "lat": 34.604068
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E5%BF%97%E7%B4%80%E9%95%B7%E5%90%89%E7%A5%9E%E7%A4%BE.jpg"
+    },
+    "Q128755659": {
+      "wikidataId": "Q128755659",
+      "name": "Hachiōji Shrine",
+      "description": "Shinto shrine in Higashinari-ku, Japan",
+      "coordinates": {
+        "lng": 135.539993862,
+        "lat": 34.677442647
+      }
+    },
+    "Q128866951": {
+      "wikidataId": "Q128866951",
+      "name": "Fukusakisumiyoshi Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.459139,
+        "lat": 34.659
+      }
+    },
+    "Q128866955": {
+      "wikidataId": "Q128866955",
+      "name": "Misaki Tenmangū",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.456116,
+        "lat": 34.660877
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Misaki-tenman-gu.jpg"
+    },
+    "Q128866967": {
+      "wikidataId": "Q128866967",
+      "name": "Takasaki Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.474167,
+        "lat": 34.601417
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takasaki%20Shrine-01.jpg"
+    },
+    "Q128866969": {
+      "wikidataId": "Q128866969",
+      "name": "Takasago Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.477778,
+        "lat": 34.60025
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takasago%20Shrine-01.jpg"
+    },
+    "Q128866983": {
+      "wikidataId": "Q128866983",
+      "name": "Yasaka Shrine",
+      "description": "Shinto shrine in Higashinari-ku, Japan",
+      "coordinates": {
+        "lng": 135.538056,
+        "lat": 34.675444
+      }
+    },
+    "Q128866980": {
+      "wikidataId": "Q128866980",
+      "name": "熊野大神宮",
+      "description": "大阪府大阪市東成区大今里にある神社",
+      "coordinates": {
+        "lng": 135.548222,
+        "lat": 34.668556
+      }
+    },
+    "Q128866981": {
+      "wikidataId": "Q128866981",
+      "name": "Fukae Inari Shrine",
+      "description": "Shinto shrine in Osaka Prefecture, Japan",
+      "coordinates": {
+        "lng": 135.56102,
+        "lat": 34.669586
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fukae%20Inari-jinja.jpg"
+    },
+    "Q133959805": {
+      "wikidataId": "Q133959805",
+      "name": "the Grand Ring",
+      "description": "wooden structure at the Expo 2025 Osaka",
+      "coordinates": {
+        "lng": 135.38,
+        "lat": 34.648888888
+      },
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%A9%BA%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E5%A4%A7%E9%98%AA%E3%83%BB%E9%96%A2%E8%A5%BF%E4%B8%87%E5%8D%9A2025.jpg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Grand_Ring"
+    }
+  },
+  "timestamp": "2025-12-28T20:15:17.516Z",
+  "source": "wikidata"
+}

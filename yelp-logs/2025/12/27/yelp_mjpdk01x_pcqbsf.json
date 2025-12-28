@@ -1,0 +1,523 @@
+{
+  "id": "yelp_mjpdk01x_pcqbsf",
+  "timestamp": "2025-12-28T06:54:57.093Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Sushi Zanmai",
+      "location": "Tsukiji, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tsukiji, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "99Sj_zOKkFWglZ3w0_2VDw",
+          "alias": "すしざんまい-本店-中央区",
+          "name": "SUSHIZANMAI Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LIo5jPtqF8egXHQvacqL2Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E6%9C%AC%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 200,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.665917,
+            "longitude": 139.770608
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "築地4-11-9",
+            "address2": "",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "築地4-11-9",
+              "Chūō, 東京都 〒104-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81335411117",
+          "display_phone": "+81 3-3541-1117",
+          "distance": 224.5816985526215,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "pQEivYML06LCeAPCMx8hFQ",
+          "alias": "すしざんまい-築地駅前店-中央区",
+          "name": "Sushizanmai Tsukiji Ekimae",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/3fHzSMW35iJEj68b-CPdIQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E7%AF%89%E5%9C%B0%E9%A7%85%E5%89%8D%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 49,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6675715648913,
+            "longitude": 139.772446538519
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "築地3-11-9",
+            "address2": "築地スクエアビル 1F",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "築地3-11-9",
+              "築地スクエアビル 1F",
+              "Chūō, 東京都 〒104-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81335249833",
+          "display_phone": "+81 3-3524-9833",
+          "distance": 398.14515169997213,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "G6rB1dtHCe2clJbbBcyeoA",
+          "alias": "廻るすしざんまい-築地店-中央区",
+          "name": "Mawaru SUSHIZANMAI Tsukiji",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/xWjQyReCVWpwi_h3-dDAdw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%BB%BB%E3%82%8B%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E7%AF%89%E5%9C%B0%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 27,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.665759,
+            "longitude": 139.770626766678
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "築地4-10-2",
+            "address2": null,
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "築地4-10-2",
+              "Chūō, 東京都 〒104-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81355508010",
+          "display_phone": "+81 3-5550-8010",
+          "distance": 207.83023960021612,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "f4ID03rRApju5HX4IMsJzw",
+          "alias": "すしざんまい-別館-中央区",
+          "name": "Sushizanmai Bekkan",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Gw-PrPFtHqdst73Vn05w2w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E5%88%A5%E9%A4%A8-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 28,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.6654311950778,
+            "longitude": 139.770408741468
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "築地4丁目10-6",
+            "address2": "三輝ビル",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "築地4丁目10-6",
+              "三輝ビル",
+              "Chūō, 東京都 〒104-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81351483737",
+          "display_phone": "+81 3-5148-3737",
+          "distance": 185.8737217891434,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "hZgjDYhqCr5IYHPqxXfiGw",
+          "alias": "すしざんまい-匠銀座6丁目店-中央区",
+          "name": "Sushizanmai Takumi Ginza 6-Chome",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XJV9jSmNDk0sJ7645TZGNQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E5%8C%A0%E9%8A%80%E5%BA%A76%E4%B8%81%E7%9B%AE%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 35.671335,
+            "longitude": 139.761655
+          },
+          "transactions": [],
+          "location": {
+            "address1": "銀座6-4-6",
+            "address2": "646ビル1F",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座6-4-6",
+              "646ビル1F",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81362554177",
+          "display_phone": "+81 3-6255-4177",
+          "distance": 1207.9508097812065,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 21,
+      "region": {
+        "center": {
+          "longitude": 139.77158546447754,
+          "latitude": 35.66405995929159
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 453,
+    "success": true
+  }
+}

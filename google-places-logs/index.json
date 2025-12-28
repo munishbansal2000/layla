@@ -1,0 +1,23 @@
+{
+  "total_entries": 2,
+  "last_updated": "2025-12-27T23:52:00.244Z",
+  "cache_hits": 1,
+  "entries": [
+    {
+      "id": "gp_mjoyg35a_cy9ys1",
+      "timestamp": "2025-12-27T23:52:00.238Z",
+      "type": "text-search",
+      "location": "Senso-ji Temple Asakusa Tokyo",
+      "cacheKey": "text-search:maxResultCount=5&textQuery=Senso-ji Temple Asakusa Tokyo",
+      "success": true
+    },
+    {
+      "id": "gp_mjosm7ml_bvdsam",
+      "timestamp": "2025-12-27T21:08:48.285Z",
+      "type": "nearby-search",
+      "location": "35.6762,139.6503",
+      "cacheKey": "nearby-search:includedTypes=restaurant&languageCode=en&locationRestriction=[object Object]&maxResultCount=3&rankPreference=POPULARITY",
+      "success": true
+    }
+  ]
+}

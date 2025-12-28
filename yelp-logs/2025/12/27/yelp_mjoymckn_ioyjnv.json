@@ -1,0 +1,279 @@
+{
+  "id": "yelp_mjoymckn_ioyjnv",
+  "timestamp": "2025-12-27T23:56:52.391Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Asakusa Imahan",
+      "location": "Asakusa, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Asakusa, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "4cbT_9WDWFsFy-RqiqqN-A",
+          "alias": "浅草今半-国際通り本店-台東区",
+          "name": "Asakusa Imahan Kokusaitōri Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/7SWAM1Dz5UCQG46jo7GLFQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%B5%85%E8%8D%89%E4%BB%8A%E5%8D%8A-%E5%9B%BD%E9%9A%9B%E9%80%9A%E3%82%8A%E6%9C%AC%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 26,
+          "categories": [
+            {
+              "alias": "sukiyaki",
+              "title": "Sukiyaki"
+            },
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "steak",
+              "title": "Steakhouses"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.7139949316521,
+            "longitude": 139.792136328246
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "西浅草3-1-12",
+            "address2": "",
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "111-0035",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "西浅草3-1-12",
+              "Taitō, 東京都 〒111-0035",
+              "Japan"
+            ]
+          },
+          "phone": "+81338411114",
+          "display_phone": "+81 3-3841-1114",
+          "distance": 610.7831176788591,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "bcN4l8XsSyM41dm2R-zNow",
+          "alias": "浅草今半-東京駅グランルーフ店-千代田区",
+          "name": "Asakusa Imahan Tokyo Station Grand Roof",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/20OTUjONWBpiFaEegIn7wg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%B5%85%E8%8D%89%E4%BB%8A%E5%8D%8A-%E6%9D%B1%E4%BA%AC%E9%A7%85%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%AB%E3%83%BC%E3%83%95%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "sukiyaki",
+              "title": "Sukiyaki"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.680076,
+            "longitude": 139.767994
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "丸の内1-9-1",
+            "address2": "グランルーフ B1F",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "078-0321",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "丸の内1-9-1",
+              "グランルーフ B1F",
+              "Chiyoda, 東京都 〒078-0321",
+              "Japan"
+            ]
+          },
+          "phone": "+81352202955",
+          "display_phone": "+81 3-5220-2955",
+          "distance": 4966.145187233164,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "fCBS904GtSBJqt-5gkMD7g",
+          "alias": "imahan-東京",
+          "name": "Imahan",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/_02JH1TaSq35nxnKdO-TgA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/imahan-%E6%9D%B1%E4%BA%AC?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 9,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.6758265233241,
+            "longitude": 139.762235646739
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "有楽町駅前（バス）",
+            "address2": "",
+            "address3": "",
+            "city": "Tokyo",
+            "zip_code": "",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "有楽町駅前（バス）",
+              "Tokyo",
+              "Japan"
+            ]
+          },
+          "phone": "",
+          "display_phone": "",
+          "distance": 5640.959396942006,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://bento.imahan.com/pc/topMenu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 5,
+      "region": {
+        "center": {
+          "longitude": 139.7958755493164,
+          "latitude": 35.71857260989867
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1104,
+    "success": true
+  }
+}

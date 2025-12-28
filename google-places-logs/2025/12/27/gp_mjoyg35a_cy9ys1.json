@@ -1,0 +1,198 @@
+{
+  "id": "gp_mjoyg35a_cy9ys1",
+  "timestamp": "2025-12-27T23:52:00.238Z",
+  "type": "text-search",
+  "request": {
+    "endpoint": "https://places.googleapis.com/v1/places:searchText",
+    "params": {
+      "textQuery": "Senso-ji Temple Asakusa Tokyo",
+      "maxResultCount": 5
+    },
+    "location": "Senso-ji Temple Asakusa Tokyo"
+  },
+  "response": {
+    "data": {
+      "places": [
+        {
+          "id": "ChIJ8T1GpMGOGGARDYGSgpooDWw",
+          "types": [
+            "tourist_attraction",
+            "place_of_worship",
+            "point_of_interest",
+            "establishment"
+          ],
+          "nationalPhoneNumber": "03-3842-0181",
+          "internationalPhoneNumber": "+81 3-3842-0181",
+          "formattedAddress": "2-chōme-3-1 Asakusa, Taito City, Tokyo 111-0032, Japan",
+          "location": {
+            "latitude": 35.7147651,
+            "longitude": 139.7966553
+          },
+          "rating": 4.5,
+          "websiteUri": "https://www.senso-ji.jp/",
+          "userRatingCount": 89906,
+          "displayName": {
+            "text": "Sensō-ji",
+            "languageCode": "en"
+          },
+          "primaryTypeDisplayName": {
+            "text": "Place of Worship",
+            "languageCode": "en-US"
+          },
+          "primaryType": "place_of_worship",
+          "editorialSummary": {
+            "text": "Completed in 645, this temple, Tokyo's oldest, was built to honor Kannon, the goddess of mercy.",
+            "languageCode": "en"
+          },
+          "photos": [
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHoAWllGPL2ycMhhxKYO_XKThzSM2NzRoo-Rag54hMRS1DSZOjXszkbYDhNJDPOKYQJouiFeJzA5ypsmgFtYZ1QC2djtwZi4fyMPMRF7ViRObNh5523sJ9Bt-PDo4PWJVZYTTzx-tab0rnfDMoQpaps59Cq4Mt-EgkGzRyTTFfQQZFa4vDt6AE4m2R4S1oUkFGmxVq9o3sovyHG-saEMfbU9yeszOQv6xwG79dnDHsu7h9-AW43ghTn8mMl61Igp-OhQjzxJGFJ9yZmSnrERVewO-ku3XqRFAeTjwrTJhq6ALmONcyp0ADr9p8u9AdTuT6Vm2dkbGwO3L_ecucvMiF_i32S23ZYFcXyjG2zRSLIk-QF_1R0fjufx-_UyxScrxMs25Om_vFcgOwtVsNCC3zCpIf9EnEb23MKEH-9YcV-3MA",
+              "widthPx": 4800,
+              "heightPx": 3200,
+              "authorAttributions": [
+                {
+                  "displayName": "JUN T",
+                  "uri": "https://maps.google.com/maps/contrib/108805575448160241682",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVTm-rMtWEUnLCg_zY5nB_bT53rGKGvZC1pfMUa7vngQ9KD8isw=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDRocu-Tg&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDRocu-Tg!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHqnOKWwVRByXgQSwGJq9NpdZViXLvzFqp9AWu5IXsDT_q81iqI8huUZ1t83AQ7fIo6TAeX8VZ81BP-Wy-RHI49-3fY73JfGEMnRfcYjIbrVbN2HJBbEQ-BLINRwSyvoY6W5l2bYW76CcLE9ej6deGecYH_Z1IGzWA3gQV1mSbVsi0aL56rqnZBfrpLKCWExodHOC21AgVNlw54mx-1s_AUd_cfixx_8o5xE-yWOlMlK9m58Yn5YFkGGjZIao2Ak8QGbMzw-XQF6CKunWgY-3UYv9lzMCykpEATA21H1yI_26LU0eVapJaFuJjWfUKssB1JVdFciaxk6qQkup7YQlM1SlCpK70gN63FUpJggCeZdt7-uDgdH5HffJLeHfa8nYTVOhlg2mddY-YCXph_BQujovsxOGFbSGI_zSN0Z24-brL0",
+              "widthPx": 4800,
+              "heightPx": 3600,
+              "authorAttributions": [
+                {
+                  "displayName": "Iago Nobre Rocha",
+                  "uri": "https://maps.google.com/maps/contrib/105288711386490376133",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVh4C1RMCHSTtiIkErw9TeskgTacnhv8LegWGC3OMbEmjkpF0pQrA=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIC3vKjznAE&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC3vKjznAE!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHorB5ij2Z6r8BEOWd3Mfqdm92ytVDss2oFgBTm0zp7PlQngauOL6Lz__Hag86T-7Azghw4iKPRblVhKa4ZdD0JAiu6IltfZmHIXAl8GZzTcKjciuZitDfLVEB8k_vL_3n27INA5ZI9KFGAoetS02I_isZLfVJNpJd7XVD3eSODz_PfMFK8xKJ3Zwg_Ox0AXGUUM-WseoVSHiZg2uJINhUWYX_1m-v_4PXf-sPKPWVdSf9no60aPsp9AAgigfllwkyWncWJjC5v2trdmUNJW6KWNE-_kHfHima8jikIChjYC0ocqwD_3PW3jR-O5B9I1X3I52iQJADTt4u4bLMLfiOb-L9RAfIm35ZTSQXKqHEvEgC4yKQH7rSmCticZMczgKZ0rHA2oIw1pHn72R1ljzeUG6EkCk-tNtG978E6kMNs",
+              "widthPx": 4800,
+              "heightPx": 3204,
+              "authorAttributions": [
+                {
+                  "displayName": "Jayasimha Nuggehalli",
+                  "uri": "https://maps.google.com/maps/contrib/109849026903893201606",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWMXAEEHiLM7pFphnnOtEUX1J9deWiTz_JLLqYPEnCRzXkpwb5ghA=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDc0rC_PQ&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDc0rC_PQ!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHpwEmP8KTF589HPsvezI1uR1za0IeLit_y8ktfUBpoTxuCd1oCUma86vhg81RXOwB5RgZKPta_qhievMA-CAbGvHIW3cpRpK8DqnS5tyLx8pD51fnPdNuOECznFeycU1lEFSOwqHD8ffM_eT6khikYVPP2PVZybZ22k8rVijbFTvBjIqXSzaAnoF0nl1Ym6UOgwLcEcNGa_W_guLhCy4XqWtHNqq5v4plCbkT3FlC4voz47Hmt8qPrKjBMBLjR1fgq0NjGQ5O0IVqM0BLbK08DxWaHNuybPQYhyH8hS8TBqWL4AV9IhYMwovNwp3cgbggRULJ5pZBrOWh8_DXHxl2p_ubRsClQpk4n9XDeO4GrE20JGmmwLANxXvnch06uaiaEfrfEAZEYYUWVXuI-UN_71pml13T7MuXVP6ZJ8ZYPkQkfUS-iyIrSxtIl24Q",
+              "widthPx": 4800,
+              "heightPx": 3600,
+              "authorAttributions": [
+                {
+                  "displayName": "Shih Meng-heng",
+                  "uri": "https://maps.google.com/maps/contrib/109921852069994883610",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXDeptncUZsnhJXtXWgm0z16DHI7NDHQraS3uMNmpIhUgpge5sS=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCa5WvkyBNgkcom09Z2c0MP&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCa5WvkyBNgkcom09Z2c0MP!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHrOsJcEf4j2WyEe5lArTMt-qyJrkJtnbQONdxBl58YgEcYBtxLnik9G8CoYq2X-7yyKLZUTOVODZ4q3Rmi96cYJIheOvEeeyyzVZgack56THqEIsisoBTYpprz9AOsl0g17Pr677DQNKE5AT2LVV7jXOHnagE3AJLkdU-mbOshe21jl3CMBG0WW4JogYzY-xzuEnZFxEDWHtvTidrvfQfMesWqpfy_GcbHeBEWB9-Numz6vclgRjGkFzv0NQAlQ6tbB4IQ5El736_B4Kq_Q4UOAY8YEfll4z3FuYknjOYLarw9pEF50YNqBIkJYylaoLgigkc0y1Ppw9qnDhztgh4b_kXsGUGUjOzRnjwi4Vjo1L0_GHDuL1XCka4pehYFpZmHrGQwrntHdJJvKy2Fn5xYilKpXbL2n2UQ4F3NKmByYAjPJ",
+              "widthPx": 4000,
+              "heightPx": 3000,
+              "authorAttributions": [
+                {
+                  "displayName": "相乐希达",
+                  "uri": "https://maps.google.com/maps/contrib/101625307765001084299",
+                  "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJUngLVXriFnJ4TgQJTJAdJGgduUvE4RCLBN_SsYi_Ayu5jaw=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDSj97J7AE&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDSj97J7AE!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHq0eBrmRkcUwjRRJOCQTHSejXpEe_aL55QGn5H_SWXKJVgNqgeJ8MJaeW4503-vPhbawV3KBmPpmWg7OiQRnHsX20lmiMHolLYWFI4rTGWJGihkc-XLVX2cs4FiX4mAg7EtIb4ZZ-rNjbrCn2sAlu-692fJoHAfiy0Yoz9IchKZvNju8H-YwrD737tcuHoEXh-3e7S7GDDx5dU71mbMrqWf0ET0uQXjAreUS0fSItuX3zrhzl1BfjLhNszymevpU_ixUmanz14Szb94qQ-eaezVTuEjZUrLS0hTGRqDbu_EhBshP6-2Ck8Nc32OQe-eGf-eWj6xU3-o6RQ3MFy8VWACmkaq3g_zd3i57gBY4WskU6hD-T22hJ6O-IUoWdy1PWxoOYqvAx2BD8dTDIIe4qA47EZKROVQbrtCfxz-cY1Bcuxi",
+              "widthPx": 4800,
+              "heightPx": 3600,
+              "authorAttributions": [
+                {
+                  "displayName": "Neo Tseng (慶)",
+                  "uri": "https://maps.google.com/maps/contrib/111851995576184902638",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWaoF2kQDYo1hK3lp-eWf2ErNOagSD9kj9opVskRciQVjEmVguZkQ=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICjzd-0uQE&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICjzd-0uQE!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHrF4GY0i8pfJYQGny1VS2Oq9_Av7vGaGTVnCdHwWjaefRC7hblBSood7rzLJVsZB0vPgq7ZPV62TqL385LlhnqJrrMMPnorfBPtNXz9e1jgK-QPX-qwzJhSaP5MpIgN7eJqtUeqPb5rr_oxnAStFqqHkCK6G_bA30TVH_DId8m8v6MqgQ8vMNdz1l7UCpxOGUNJjwBW2YTyHns-guSWrjafT3_3ItVLCZzUt6IxOmB4Ol-PTzEVVfcAjz-o-gSouo7xHI5yKJRAYsQQ_l4YIQupi0QCMy4iF00v5l3fLxvf_R_Ija_fT2ufrRG0ykBsWStcIKrODXp4PtXyGEnjtEsn5b2yoz0260t6UOe25oQoH1-PDkFaI0ANTcrZd7-yWuOaU27g5Hg4Q-sHiDoUoVcxS_6BdR6UP48bgsgwRazwww",
+              "widthPx": 4032,
+              "heightPx": 3024,
+              "authorAttributions": [
+                {
+                  "displayName": "林旭明《飛哥領隊》",
+                  "uri": "https://maps.google.com/maps/contrib/111847206963111789270",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX53b-nxFAB3LurGMS_baOrZhgyvXVP6WnScS9MaXpVYiIAljIKbw=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIC1kL_nJg&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC1kL_nJg!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHo6FwHDeVFwWcu1Vn_28qqJS6IAcbB3OI_1B0M64o2VXZwze7dRJsDTmR-ixp9zP8yuhZYTleVcIq1Jukunlidhuzv_TI5fezh912n851mQyl6azrt90int33nxk8j0xan1ii5_-FYTVrt3V-ji76uZcwH-XaYq0z5x5J5ZmqcWbQqADE5krKvnxTep5oaLxAGxG9VUwbsFeqI9-PNzvNTncTAie60twKN3aRYtcCX5BEC3OChMLQkWU6nw6Z-MxwOHmvS24YKcCn39pFnyOCxYj2LIapo4MGPi6B1_3cn7OBxSMCpTny6ezWFYLwJCtuu676rCOs0jiRIV242sFqesQrq6cXlu4lRWlxL-TiXAWShXCEySAW04M2tITs6_Z6DQGwG7ZneGPjJkhwngJ1BwtI5hk1VtyKjf-QeStq-4jQ",
+              "widthPx": 3614,
+              "heightPx": 4800,
+              "authorAttributions": [
+                {
+                  "displayName": "Ming Wu",
+                  "uri": "https://maps.google.com/maps/contrib/118376292031600784548",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVGtXIkFMEA4S1LWIIksgIylGtZz832d7oiRniVpDjGGZjPYH0P1A=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICl3qeNWQ&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICl3qeNWQ!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHrWRYDKYlTMBN12D2DxAABd3R6nxixOvMKmO53sGR51jUEAeDmBOw82t2KuUNSA9YZHB_Wk5vcPx1VhfkK8sAwIMpIAEyLE7USCQpShd-GYo-Z82ygdcQY7b2GqUwDBU8VNkq5ioQEDNn8IkU0QWnzgrxyiYEH5siiTneXuh3Pyf-kdo9WD79Y6LAwWQlys9bNAquOQiu4WOEYEPss6acJX24NiysnHNIVqaERlUyq60UXVqWA58qKGiFwJH5ijyT5l2R-ew2m4Ik3FIbfqpkvtqlWsIGnuBy0X2wHiDJr-u6rPVSCkUDNTUrzAsItWXN__0gLWc3tknC1SAi5fFscqhVEsyWqBoI2nTQ2OpTdhfYqVUAu_IwLhhDZOoIkiNa04vkZMX6WkQWZ9YmFSnAPFD5aqD5npVEUC-bQK72TDW0I",
+              "widthPx": 4800,
+              "heightPx": 3600,
+              "authorAttributions": [
+                {
+                  "displayName": "好喝阿薩姆",
+                  "uri": "https://maps.google.com/maps/contrib/100084601460685545660",
+                  "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI8QYUP1KIAjVnRSwzZJ9hPnM7iW717pcDQuzvaDO4e5hcCug=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICt8JL4jAE&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICt8JL4jAE!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            },
+            {
+              "name": "places/ChIJ8T1GpMGOGGARDYGSgpooDWw/photos/AZLasHozX6LNBIRY95jrPP16d4CuChA9V6zjqYxNBDgUWIJydSTa4FK_AmZAW8OSOJxhf-5tc0BvJuh0Q1kJxtVYzBE9nlcJTOkkQSrwopC0ED8dY0uVm5g71HNKDL9gKafcFU9mcnr7f_ySNKGJt7tU26ebLFXq1C0m6K7m6lbwDTkUmxDqMh8zVsgASl89S9FH0SgzhPl8VNU0iC9b3D9L5jrDou6tW3VOyiUd4qUbZP4_ouuUd9-wnefaLM2U62NtBiX8YsUZuG68l8TOQIbdC6ExBAgSSkvHVhWKuG_I042ZrdPNCb6CBRmiIgSWZ5MZicZyufw9TTKDyvKQhsAo8SgYCiFLW7POx6hfoAjockbcsD90Y04NO8k7U-JCtaZmQy1NXX2eLrYGC_zIH8bE56QTADplhlmIKIyPLdaQQXT2kavd",
+              "widthPx": 3600,
+              "heightPx": 4800,
+              "authorAttributions": [
+                {
+                  "displayName": "Yaro",
+                  "uri": "https://maps.google.com/maps/contrib/104176626147971321723",
+                  "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWi5W9QYPK5EDqRnIMoQBmjZJF5kluqISGATAedcbxdQhvnG2Nw=s100-p-k-no-mo"
+                }
+              ],
+              "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDT64HyhAE&hl=en-US",
+              "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDT64HyhAE!2e10!4m2!3m1!1s0x60188ec1a4463df1:0x6c0d289a8292810d"
+            }
+          ]
+        }
+      ]
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 386,
+    "success": true
+  }
+}
