@@ -1,8 +1,819 @@
 {
-  "total_entries": 39,
-  "last_updated": "2025-12-28T17:04:15.013Z",
-  "cache_hits": 46,
+  "total_entries": 146,
+  "last_updated": "2025-12-30T06:11:03.623Z",
+  "cache_hits": 153,
   "entries": [
+    {
+      "id": "yelp_mjs6v9du_28e6lh",
+      "timestamp": "2025-12-30T06:11:03.618Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6866999&limit=10&longitude=135.5257429&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v93s_vo68vq",
+      "timestamp": "2025-12-30T06:11:03.256Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.703802&limit=10&longitude=135.4942563&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v8dy_ioc8z4",
+      "timestamp": "2025-12-30T06:11:02.326Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6838455&limit=10&longitude=135.8483084&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v806_grs7wq",
+      "timestamp": "2025-12-30T06:11:01.830Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.997695&limit=10&longitude=135.7740148&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v7ox_9d9j5c",
+      "timestamp": "2025-12-30T06:11:01.425Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.014681&limit=10&longitude=135.6725827&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v78g_i5cd4p",
+      "timestamp": "2025-12-30T06:11:00.832Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.69017&limit=10&longitude=139.7060551&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v6us_16yq94",
+      "timestamp": "2025-12-30T06:11:00.340Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.6715932&limit=10&longitude=139.7030663&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6v6cl_296zdd",
+      "timestamp": "2025-12-30T06:10:59.685Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.6622042&limit=10&longitude=139.6681299&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gzsd_2s5hvs",
+      "timestamp": "2025-12-30T05:59:57.997Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6858154&limit=10&longitude=135.525947&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gzf3_cbjs4n",
+      "timestamp": "2025-12-30T05:59:57.519Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6356314&limit=10&longitude=135.5156523&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gz7e_63mih5",
+      "timestamp": "2025-12-30T05:59:57.242Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.666272&limit=10&longitude=135.5070387&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gz09_log7ju",
+      "timestamp": "2025-12-30T05:59:56.985Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6684636&limit=10&longitude=135.842079&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gyp0_ja1woz",
+      "timestamp": "2025-12-30T05:59:56.580Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6815214&limit=10&longitude=135.8464926&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gybt_nyxxo0",
+      "timestamp": "2025-12-30T05:59:56.106Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6908703&limit=10&longitude=135.8758904&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gxtk_r61fkq",
+      "timestamp": "2025-12-30T05:59:55.448Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.9853&limit=10&longitude=135.7585&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gxbz_1zbb5e",
+      "timestamp": "2025-12-30T05:59:54.815Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.0334933&limit=10&longitude=135.7180571&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gwve_g94dz1",
+      "timestamp": "2025-12-30T05:59:54.218Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.5675985&limit=10&longitude=139.7097284&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gw9q_yu89l1",
+      "timestamp": "2025-12-30T05:59:53.438Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.6996534&limit=10&longitude=139.7049386&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs6gvwe_xp659y",
+      "timestamp": "2025-12-30T05:59:52.958Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.6743193&limit=10&longitude=139.7785075&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66tk7_90oyxm",
+      "timestamp": "2025-12-30T05:52:03.367Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6356344&limit=10&longitude=135.5156431&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66sxg_i2i9n9",
+      "timestamp": "2025-12-30T05:52:02.548Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6653277&limit=10&longitude=135.5069795&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66sgb_clr42k",
+      "timestamp": "2025-12-30T05:52:01.931Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=34.6621071&limit=10&longitude=135.5001269&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66rx8_8s5ygf",
+      "timestamp": "2025-12-30T05:52:01.244Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.0059744&limit=10&longitude=135.7567293&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66rnm_fjqac0",
+      "timestamp": "2025-12-30T05:52:00.898Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.0021092&limit=10&longitude=135.7800589&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66rfc_ux5ocb",
+      "timestamp": "2025-12-30T05:52:00.600Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.0308839&limit=10&longitude=135.7194647&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66r5w_h4ol26",
+      "timestamp": "2025-12-30T05:52:00.260Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.033463&limit=10&longitude=135.7180884&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66qp0_nmxtt6",
+      "timestamp": "2025-12-30T05:51:59.652Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.0068778&limit=10&longitude=135.7727304&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs66q2j_zqgh82",
+      "timestamp": "2025-12-30T05:51:58.843Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.6594&limit=10&longitude=139.6989&radius=1500&sort_by=rating",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5w9zx_mqtznl",
+      "timestamp": "2025-12-30T05:43:51.453Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=ichoya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5w9aq_ozr2p1",
+      "timestamp": "2025-12-30T05:43:50.546Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=ベトナム料理 コムゴン",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5w7n5_nln46b",
+      "timestamp": "2025-12-30T05:43:48.401Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=Aoniyoshi",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5w5qb_l0tz9a",
+      "timestamp": "2025-12-30T05:43:45.923Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=旬彩ひより",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5w2zj_2w2jht",
+      "timestamp": "2025-12-30T05:43:42.367Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=Trattoria Piano",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5vvpw_dfs1ef",
+      "timestamp": "2025-12-30T05:43:32.948Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=和食 一茶",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5vve2_l9urbs",
+      "timestamp": "2025-12-30T05:43:32.522Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=吟松",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5vrzc_ydew88",
+      "timestamp": "2025-12-30T05:43:28.104Z",
+      "type": "search",
+      "location": "Nara",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Nara&sort_by=best_match&term=Curry & Cafe 香炉里（こるり）",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gywm_4xcqz6",
+      "timestamp": "2025-12-30T05:31:57.238Z",
+      "type": "search",
+      "location": "Osaka, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka, Osaka&sort_by=best_match&term=Hajime Yakiniku",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gulg_0fcd6i",
+      "timestamp": "2025-12-30T05:31:51.652Z",
+      "type": "search",
+      "location": "Osaka, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka, Osaka&sort_by=best_match&term=Endo Sushi",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5guid_jhp7hz",
+      "timestamp": "2025-12-30T05:31:51.541Z",
+      "type": "search",
+      "location": "Namba, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Namba, Osaka&sort_by=best_match&term=Matsusakagyu Yakiniku M",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5glds_awjp5n",
+      "timestamp": "2025-12-30T05:31:39.712Z",
+      "type": "search",
+      "location": "Gion, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Gion, Kyoto&sort_by=best_match&term=Gion Karyo",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gl9k_rckv96",
+      "timestamp": "2025-12-30T05:31:39.560Z",
+      "type": "search",
+      "location": "Sakyo, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Sakyo, Kyoto&sort_by=best_match&term=Omen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gl84_9i9l6h",
+      "timestamp": "2025-12-30T05:31:39.508Z",
+      "type": "search",
+      "location": "Higashiyama, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Higashiyama, Kyoto&sort_by=best_match&term=Kikunoi Honten",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gg2v_tv8rvy",
+      "timestamp": "2025-12-30T05:31:32.839Z",
+      "type": "search",
+      "location": "Arashiyama, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Arashiyama, Kyoto&sort_by=best_match&term=Yudofu Sagano",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gds5_xzxn7o",
+      "timestamp": "2025-12-30T05:31:29.861Z",
+      "type": "search",
+      "location": "Chuo, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Chuo, Tokyo&sort_by=best_match&term=Sushi Zanmai",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gdko_t1ooea",
+      "timestamp": "2025-12-30T05:31:29.592Z",
+      "type": "search",
+      "location": "Ginza, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Ginza, Tokyo&sort_by=best_match&term=Ginza Kyubey",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gb3w_bd1unt",
+      "timestamp": "2025-12-30T05:31:26.396Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Katsu Midori",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5gag4_xmh60y",
+      "timestamp": "2025-12-30T05:31:25.540Z",
+      "type": "search",
+      "location": "Ueno, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Ueno, Tokyo&sort_by=best_match&term=Ueno Yabu Soba",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs52eai_56zqtu",
+      "timestamp": "2025-12-30T05:20:37.338Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=Ebinoya Kuromonichiba",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs52d7n_t0eqbp",
+      "timestamp": "2025-12-30T05:20:35.939Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=フグ料理大政",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs52b0g_kaz1yp",
+      "timestamp": "2025-12-30T05:20:33.088Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=KINEYA",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs529rq_7u25kk",
+      "timestamp": "2025-12-30T05:20:31.478Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=マネリパヤン",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs526mc_rfvrko",
+      "timestamp": "2025-12-30T05:20:27.396Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=密教",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51z9x_kzi3rj",
+      "timestamp": "2025-12-30T05:20:17.877Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=みなみ食堂",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51z86_m3ebkl",
+      "timestamp": "2025-12-30T05:20:17.814Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=グリル　アイ",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51uh8_5mmf36",
+      "timestamp": "2025-12-30T05:20:11.660Z",
+      "type": "search",
+      "location": "Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Osaka&sort_by=best_match&term=本せきぐち",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51t9u_4ihegs",
+      "timestamp": "2025-12-30T05:20:10.098Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=鷲尾町 割烹ほたる",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51rj5_ig2il4",
+      "timestamp": "2025-12-30T05:20:07.841Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=鮨 忠保",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51of6_fhirow",
+      "timestamp": "2025-12-30T05:20:03.810Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=Ogihiroya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51ndj_kgshxp",
+      "timestamp": "2025-12-30T05:20:02.455Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=魏飯夷堂",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs51ay0_9htjb3",
+      "timestamp": "2025-12-30T05:19:46.344Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=歳時記 年神",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs515dv_hldca4",
+      "timestamp": "2025-12-30T05:19:39.139Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=札幌かに家",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs514u8_eldomw",
+      "timestamp": "2025-12-30T05:19:38.432Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=ぎおん徳屋",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs514ra_acaemx",
+      "timestamp": "2025-12-30T05:19:38.326Z",
+      "type": "search",
+      "location": "Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto&sort_by=best_match&term=Pontakosakura",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5146a_fsndr4",
+      "timestamp": "2025-12-30T05:19:37.570Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=Singapore Bak Kut Teh",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs5136k_gwdhpi",
+      "timestamp": "2025-12-30T05:19:36.284Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=THE SPICE",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs510al_qo2brj",
+      "timestamp": "2025-12-30T05:19:32.541Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=中華料理 やまだ",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50zan_vzscih",
+      "timestamp": "2025-12-30T05:19:31.247Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=Sekkomon",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50xc4_bdx18d",
+      "timestamp": "2025-12-30T05:19:28.708Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=焼肉4.3.3",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50vk5_4xfhfq",
+      "timestamp": "2025-12-30T05:19:26.405Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=Cité Bourgogne",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50txb_akcnsa",
+      "timestamp": "2025-12-30T05:19:24.287Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=PANELLA",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50s05_06tnyr",
+      "timestamp": "2025-12-30T05:19:21.797Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=Sumire",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50o5w_ch1ei9",
+      "timestamp": "2025-12-30T05:19:16.820Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=Bistro TOM",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs50nx3_nxps86",
+      "timestamp": "2025-12-30T05:19:16.503Z",
+      "type": "search",
+      "location": "Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Tokyo&sort_by=best_match&term=LaVasara",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vwmn_eok9kf",
+      "timestamp": "2025-12-30T04:47:34.895Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Naritaya Ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vwcr_0ltaxn",
+      "timestamp": "2025-12-30T04:47:34.539Z",
+      "type": "search",
+      "location": "Chiyoda, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Chiyoda, Tokyo&sort_by=best_match&term=Akihabara Electric Town",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vwc4_ohafxw",
+      "timestamp": "2025-12-30T04:47:34.516Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Tsurutontan Udon Noodle Brasserie",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vvx1_kwc3qm",
+      "timestamp": "2025-12-30T04:47:33.973Z",
+      "type": "search",
+      "location": "Harajuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Harajuku, Tokyo&sort_by=best_match&term=Harajuku Takeshita Street",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vvdy_l3t6cr",
+      "timestamp": "2025-12-30T04:47:33.286Z",
+      "type": "search",
+      "location": "Dotonbori, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Dotonbori, Osaka&sort_by=best_match&term=Tsuruhashi Fugetsu",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vtpu_5f0q3g",
+      "timestamp": "2025-12-30T04:47:31.122Z",
+      "type": "search",
+      "location": "Dotonbori, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Dotonbori, Osaka&sort_by=best_match&term=Dotonbori Konamon Museum",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vtpc_5kzmua",
+      "timestamp": "2025-12-30T04:47:31.104Z",
+      "type": "search",
+      "location": "Dotonbori, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Dotonbori, Osaka&sort_by=best_match&term=Ichiran Ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vtm9_540kc5",
+      "timestamp": "2025-12-30T04:47:30.993Z",
+      "type": "search",
+      "location": "Shinsaibashi, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinsaibashi, Osaka&sort_by=best_match&term=Kushikatsu Daruma",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vsog_8pnnnh",
+      "timestamp": "2025-12-30T04:47:29.776Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Yakiniku Jumbo",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vsgj_th54rx",
+      "timestamp": "2025-12-30T04:47:29.491Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Ippudo",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3vrx4_7sr8pm",
+      "timestamp": "2025-12-30T04:47:28.792Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Kagetsudo",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fyyf_fo8i6g",
+      "timestamp": "2025-12-30T04:35:11.415Z",
+      "type": "search",
+      "location": "Gion, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Gion, Kyoto&sort_by=best_match&term=Gion Nanba",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fyxt_dg8ztd",
+      "timestamp": "2025-12-30T04:35:11.393Z",
+      "type": "search",
+      "location": "Higashiyama, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Higashiyama, Kyoto&sort_by=best_match&term=Ippudo Kyoto",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fvh4_5o90nv",
+      "timestamp": "2025-12-30T04:35:06.904Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Asakusa Tori-Ten",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fv1q_nruemk",
+      "timestamp": "2025-12-30T04:35:06.350Z",
+      "type": "search",
+      "location": "Higashiyama, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Higashiyama, Kyoto&sort_by=best_match&term=Gyukatsu Kyoto Katsugyu",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fv0g_0lfhmf",
+      "timestamp": "2025-12-30T04:35:06.304Z",
+      "type": "search",
+      "location": "Sakyo, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Sakyo, Kyoto&sort_by=best_match&term=Nanzenji Junsei",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3ftkf_qx2guf",
+      "timestamp": "2025-12-30T04:35:04.431Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Tempura Tenya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3ftg7_s2er9z",
+      "timestamp": "2025-12-30T04:35:04.279Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Daikokuya Tempura",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3ftfc_vb0l31",
+      "timestamp": "2025-12-30T04:35:04.248Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Asakusa Imahan",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fsip_p68quj",
+      "timestamp": "2025-12-30T04:35:03.073Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Sushi Zanmai Shibuya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fsg0_3usqsf",
+      "timestamp": "2025-12-30T04:35:02.976Z",
+      "type": "search",
+      "location": "Asakusa, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Nakamise Street",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fsbr_hunjcd",
+      "timestamp": "2025-12-30T04:35:02.823Z",
+      "type": "search",
+      "location": "Minato, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Minato, Tokyo&sort_by=best_match&term=Narisawa",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs3fq2n_vib0h9",
+      "timestamp": "2025-12-30T04:34:59.903Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Uobei Shibuya Dogenzaka",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32ssb_cyrqvp",
+      "timestamp": "2025-12-30T04:24:56.891Z",
+      "type": "search",
+      "location": "Namba, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Namba, Osaka&sort_by=best_match&term=Kushikatsu Tanaka",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32so8_2r2k01",
+      "timestamp": "2025-12-30T04:24:56.744Z",
+      "type": "search",
+      "location": "Dotonbori, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Dotonbori, Osaka&sort_by=best_match&term=Mizuno",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32mno_qsblar",
+      "timestamp": "2025-12-30T04:24:48.948Z",
+      "type": "search",
+      "location": "Dotonbori, Osaka",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Dotonbori, Osaka&sort_by=best_match&term=Kushikatsu Daruma",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32mh0_9ia3d7",
+      "timestamp": "2025-12-30T04:24:48.708Z",
+      "type": "search",
+      "location": "Kyoto, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Kyoto, Kyoto&sort_by=best_match&term=Kyoto Gogyo",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32gqr_3dx2c1",
+      "timestamp": "2025-12-30T04:24:41.283Z",
+      "type": "search",
+      "location": "Gion, Kyoto",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Gion, Kyoto&sort_by=best_match&term=Gion Kappa",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32cdd_sjefuw",
+      "timestamp": "2025-12-30T04:24:35.617Z",
+      "type": "search",
+      "location": "Shinjuku, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shinjuku, Tokyo&sort_by=best_match&term=Yakiniku Jumbo Hanare",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs32a4g_wk9sx0",
+      "timestamp": "2025-12-30T04:24:32.704Z",
+      "type": "search",
+      "location": "Akihabara, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Akihabara, Tokyo&sort_by=best_match&term=Tendon Tenya",
+      "success": true
+    },
+    {
+      "id": "yelp_mjs329yx_vnsehm",
+      "timestamp": "2025-12-30T04:24:32.505Z",
+      "type": "search",
+      "location": "Shibuya, Tokyo",
+      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Ichiran Ramen",
+      "success": true
+    },
+    {
+      "id": "yelp_mjqlmxkz_kaqxk2",
+      "timestamp": "2025-12-29T03:28:56.963Z",
+      "type": "search",
+      "cacheKey": "search:categories=restaurants&latitude=35.7147&limit=4&longitude=139.7966&radius=2000&sort_by=rating&term=ramen lunch",
+      "success": true
+    },
     {
       "id": "yelp_mjpzbkbk_g6wjut",
       "timestamp": "2025-12-28T17:04:15.008Z",
@@ -60,14 +871,6 @@
       "success": true
     },
     {
-      "id": "yelp_mjpzbfsc_3cm7h4",
-      "timestamp": "2025-12-28T17:04:09.132Z",
-      "type": "search",
-      "location": "Shibuya, Tokyo",
-      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Uobei Shibuya Dogenzaka",
-      "success": true
-    },
-    {
       "id": "yelp_mjpzbd4j_1sft8m",
       "timestamp": "2025-12-28T17:04:05.683Z",
       "type": "search",
@@ -76,35 +879,11 @@
       "success": true
     },
     {
-      "id": "yelp_mjpzbd0n_t18bh4",
-      "timestamp": "2025-12-28T17:04:05.543Z",
-      "type": "search",
-      "location": "Shibuya, Tokyo",
-      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Katsu Midori",
-      "success": true
-    },
-    {
       "id": "yelp_mjpzbb6l_z0p399",
       "timestamp": "2025-12-28T17:04:03.165Z",
       "type": "search",
       "location": "Asakusa, Tokyo",
       "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Naritaya Ramen",
-      "success": true
-    },
-    {
-      "id": "yelp_mjpzbau5_4hutpv",
-      "timestamp": "2025-12-28T17:04:02.717Z",
-      "type": "search",
-      "location": "Asakusa, Tokyo",
-      "cacheKey": "search:categories=restaurants&limit=5&location=Asakusa, Tokyo&sort_by=best_match&term=Asakusa Imahan",
-      "success": true
-    },
-    {
-      "id": "yelp_mjoyg3j0_y1tz9t",
-      "timestamp": "2025-12-27T23:52:00.732Z",
-      "type": "search",
-      "location": "Shibuya, Tokyo",
-      "cacheKey": "search:categories=restaurants&limit=5&location=Shibuya, Tokyo&sort_by=best_match&term=Ichiran Ramen",
       "success": true
     },
     {

@@ -1,0 +1,1039 @@
+{
+  "success": true,
+  "data": {
+    "message": "Welcome to your 3-day adventure in Japan! This itinerary is designed for couples who want to explore food, culture, all while balancing activities with relaxation. From iconic landmarks to hidden gems, every day brings new highlights. Let's dive in! 🌸",
+    "itinerary": {
+      "destination": "Japan",
+      "country": "Japan",
+      "days": [
+        {
+          "dayNumber": 1,
+          "date": "2026-01-15",
+          "city": "Tokyo",
+          "title": "Cultural Exploration in Tokyo",
+          "slots": [
+            {
+              "slotId": "day1-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Senso-ji Temple",
+                    "description": "Tokyo's oldest temple, located in Asakusa.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Senso-ji Temple",
+                      "address": "Asakusa Tokyo, Japan",
+                      "neighborhood": "Asakusa",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 537,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Cultural significance",
+                    "Iconic landmark"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Meiji Shrine",
+                    "description": "A Shinto shrine dedicated to Emperor Meiji.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Meiji Shrine",
+                      "address": "Shibuya Tokyo, Japan",
+                      "neighborhood": "Shibuya",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 917,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Natural surroundings",
+                    "Peaceful atmosphere"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day1-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ichiran Ramen",
+                    "description": "Famous for its tonkotsu ramen and unique dining experience.",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Ichiran ramen",
+                      "address": "Tokyo, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 35.6679219,
+                        "lng": 139.7052087
+                      },
+                      "rating": 4.3,
+                      "reviewCount": 342,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Local favorite",
+                    "Quick and delicious"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Tendon Tenya",
+                    "description": "Casual dining chain specializing in tempura rice bowls.",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "TEMPURA TENDON TENYA Harajuku",
+                      "address": "神宮前4-31",
+                      "neighborhood": "Shibuya",
+                      "coordinates": {
+                        "lat": 35.669333,
+                        "lng": 139.706232
+                      },
+                      "rating": 4,
+                      "reviewCount": 22,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/2JECbfheuHlbb2Njrin7NA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Affordable",
+                    "Tasty seafood"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal"
+            },
+            {
+              "slotId": "day1-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tokyo National Museum",
+                    "description": "The oldest and largest museum in Japan, showcasing art and antiquities.",
+                    "category": "museum",
+                    "duration": 120,
+                    "place": {
+                      "name": "Tokyo National Museum",
+                      "address": "Ueno Tokyo, Japan",
+                      "neighborhood": "Ueno",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 1768,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Rich cultural heritage",
+                    "Diverse exhibits"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Ueno Park",
+                    "description": "A large public park with museums, a zoo, and beautiful landscapes.",
+                    "category": "park",
+                    "duration": 120,
+                    "place": {
+                      "name": "Ueno Park",
+                      "address": "Ueno Tokyo, Japan",
+                      "neighborhood": "Ueno",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 359,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Relaxing atmosphere",
+                    "Great for a stroll"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day1-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ginza Kyubey",
+                    "description": "Renowned sushi restaurant known for its fresh ingredients and craftsmanship.",
+                    "category": "restaurant",
+                    "duration": 120,
+                    "place": {
+                      "name": "Ginza Kyubey",
+                      "address": "Ginza Tokyo, Japan",
+                      "neighborhood": "Ginza",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 3.8,
+                      "reviewCount": 365,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "High-quality sushi",
+                    "Traditional setting"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Yakiniku Jumbo Hanare",
+                    "description": "Premium wagyu beef grilled at your table.",
+                    "category": "restaurant",
+                    "duration": 120,
+                    "place": {
+                      "name": "Yakiniku Joan",
+                      "address": "Tokyo, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 35.7294479,
+                        "lng": 139.7154731
+                      },
+                      "rating": 3.9,
+                      "reviewCount": 324,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Interactive dining experience",
+                    "Delicious flavors"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal"
+            }
+          ]
+        },
+        {
+          "dayNumber": 2,
+          "date": "2026-01-16",
+          "city": "Kyoto",
+          "title": "Historical Journey in Kyoto",
+          "slots": [
+            {
+              "slotId": "day2-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kinkaku-ji (Golden Pavilion)",
+                    "description": "A stunning Zen Buddhist temple covered in gold leaf.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kinkaku-ji (Golden Pavilion)",
+                      "address": "Kyoto Kyoto, Japan",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.5,
+                      "reviewCount": 1126,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Iconic scenery",
+                    "Cultural heritage"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Ryoan-ji Temple",
+                    "description": "Famous for its rock garden and serene atmosphere.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Myoken-ji Temple",
+                      "address": "Kyoto, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 35.0345977,
+                        "lng": 135.7548991
+                      },
+                      "rating": 4.2,
+                      "reviewCount": 670,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Peaceful environment",
+                    "Artistic landscape"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day2-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Nishiki Market",
+                    "description": "A bustling market offering various local foods and delicacies.",
+                    "category": "market",
+                    "duration": 60,
+                    "place": {
+                      "name": "Nishiki Market",
+                      "address": "錦小路通",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 35.0050295,
+                        "lng": 135.7647092
+                      },
+                      "rating": 4.2,
+                      "reviewCount": 1630,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Local flavors",
+                    "Culinary experience"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Gion Kappa",
+                    "description": "Known for its Kyoto-style kaiseki cuisine.",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "gion kotora",
+                      "address": "Kyoto, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 35.0027848,
+                        "lng": 135.7770537
+                      },
+                      "rating": 4.5,
+                      "reviewCount": 126,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Traditional dining",
+                    "Local specialty"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal"
+            },
+            {
+              "slotId": "day2-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Fushimi Inari Taisha",
+                    "description": "Famous for its thousands of vermillion torii gates.",
+                    "category": "temple",
+                    "duration": 120,
+                    "place": {
+                      "name": "Fushimi Inari Taisha",
+                      "address": "Kyoto, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 34.966983,
+                        "lng": 135.7747604
+                      },
+                      "rating": 4,
+                      "reviewCount": 2265,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Unique attraction",
+                    "Cultural experience"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Ginkaku-ji (Silver Pavilion)",
+                    "description": "A Zen temple known for its beautiful gardens.",
+                    "category": "temple",
+                    "duration": 120,
+                    "place": {
+                      "name": "Ginkaku-ji (Silver Pavilion)",
+                      "address": "Kyoto Kyoto, Japan",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.8,
+                      "reviewCount": 1582,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Scenic gardens",
+                    "Cultural significance"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 923.309620057702,
+                "distance": 4329,
+                "method": "transit",
+                "instructions": "Take transit (4 km)"
+              }
+            },
+            {
+              "slotId": "day2-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Gion Karyo",
+                    "description": "Authentic kaiseki dining experience in a traditional setting.",
+                    "category": "restaurant",
+                    "duration": 120,
+                    "place": {
+                      "name": "Gion Karyo",
+                      "address": "Gion Kyoto, Japan",
+                      "neighborhood": "Gion",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.5,
+                      "reviewCount": 261,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Fine dining",
+                    "Cultural immersion"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Kyoto Gogyo",
+                    "description": "Specializes in burnt miso ramen, a unique dish.",
+                    "category": "restaurant",
+                    "duration": 120,
+                    "place": {
+                      "name": "Kyoto Gogyo",
+                      "address": "Jumonjicho Yanaginobamba-dori Takoyakushi Sagaru 452",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 35.0053069,
+                        "lng": 135.7639228
+                      },
+                      "rating": 4.1,
+                      "reviewCount": 423,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Local specialty",
+                    "Casual dining"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal"
+            }
+          ]
+        },
+        {
+          "dayNumber": 3,
+          "date": "2026-01-17",
+          "city": "Osaka",
+          "title": "Culinary Delights in Osaka",
+          "slots": [
+            {
+              "slotId": "day3-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Osaka Castle",
+                    "description": "Historic castle with beautiful gardens and museums.",
+                    "category": "castle",
+                    "duration": 90,
+                    "place": {
+                      "name": "Osaka Castle",
+                      "address": "1",
+                      "neighborhood": "中央区",
+                      "coordinates": {
+                        "lat": 34.6873727,
+                        "lng": 135.5258547
+                      },
+                      "rating": 4.1,
+                      "reviewCount": 878,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Historical significance",
+                    "Scenic views"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Shitenno-ji Temple",
+                    "description": "One of Japan's oldest temples with beautiful architecture.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Saizenji Temple",
+                      "address": "Osaka, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 34.7061126,
+                        "lng": 135.4961163
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 1544,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural heritage",
+                    "Serene atmosphere"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day3-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Dotonbori Street",
+                    "description": "Famous for street food and vibrant atmosphere.",
+                    "category": "street food",
+                    "duration": 60,
+                    "place": {
+                      "name": "Dotonbori Bridge",
+                      "address": "Osaka, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 34.6690406,
+                        "lng": 135.5003322
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 1677,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Local street food",
+                    "Energetic vibe"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Kushikatsu Daruma",
+                    "description": "Famous for its deep-fried skewers, a must-try Osaka dish.",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Kushikatsu Kodaruma",
+                      "address": "Osaka, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 34.7193558,
+                        "lng": 135.4831187
+                      },
+                      "rating": 3.8,
+                      "reviewCount": 140,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Iconic local dish",
+                    "Fun dining experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 746.2145332959501,
+                "distance": 3099,
+                "method": "transit",
+                "instructions": "Take transit (3 km)"
+              }
+            },
+            {
+              "slotId": "day3-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Osaka Aquarium Kaiyukan",
+                    "description": "One of the largest aquariums in the world with diverse marine life.",
+                    "category": "aquarium",
+                    "duration": 120,
+                    "place": {
+                      "name": "Osaka Aquarium Kaiyukan",
+                      "address": "Minato Osaka, Japan",
+                      "neighborhood": "Minato",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4.3,
+                      "reviewCount": 162,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Family-friendly",
+                    "Educational experience"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Sumiyoshi Taisha",
+                    "description": "One of Japan's oldest shrines, featuring unique architecture.",
+                    "category": "shrine",
+                    "duration": 120,
+                    "place": {
+                      "name": "Sumiyoshi Taisha",
+                      "address": "89",
+                      "neighborhood": "住吉区",
+                      "coordinates": {
+                        "lat": 34.6127108,
+                        "lng": 135.4930041
+                      },
+                      "rating": 4.3,
+                      "reviewCount": 136,
+                      "photos": [
+                        "http://commons.wikimedia.org/wiki/Special:FilePath/Sumiyoshi-taisha%2C%20keidai.jpg",
+                        "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural significance",
+                    "Architectural beauty"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day3-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Mizuno",
+                    "description": "Famous for its okonomiyaki, a savory Japanese pancake.",
+                    "category": "restaurant",
+                    "duration": 120,
+                    "place": {
+                      "name": "Mizuno",
+                      "address": "Dotonbori Osaka, Japan",
+                      "neighborhood": "Dotonbori",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "rating": 4,
+                      "reviewCount": 239,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Local specialty",
+                    "Casual atmosphere"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Kushikatsu Tanaka",
+                    "description": "A popular chain serving deep-fried skewers.",
+                    "category": "restaurant",
+                    "duration": 120,
+                    "place": {
+                      "name": "Kushikatsu karatto",
+                      "address": "Osaka, Japan",
+                      "neighborhood": "",
+                      "coordinates": {
+                        "lat": 34.6741793,
+                        "lng": 135.5018077
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 311,
+                      "photos": [
+                        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
+                        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Variety of options",
+                    "Fun dining experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal"
+            }
+          ]
+        }
+      ],
+      "generalTips": [
+        "Use a Japan Rail Pass for intercity travel.",
+        "Learn basic Japanese phrases to enhance your experience."
+      ],
+      "estimatedBudget": {
+        "total": {
+          "min": 150000,
+          "max": 250000
+        },
+        "currency": "JPY"
+      }
+    },
+    "metadata": {
+      "generatedAt": "2025-12-30T03:53:48.957Z",
+      "provider": "llm",
+      "source": "llm-openai",
+      "totalDays": 3,
+      "totalSlots": 12,
+      "totalOptions": 24,
+      "hasPlaces": true,
+      "hasCommute": true,
+      "hasFoodPreferences": false,
+      "placeResolution": {
+        "totalPlaces": 24,
+        "resolved": 24,
+        "failed": 0,
+        "providers": {
+          "ai-fallback": 10,
+          "local-poi": 13,
+          "yelp": 1
+        },
+        "avgConfidence": 0.8166666666666665,
+        "totalDuration": 823
+      },
+      "commuteCalculation": {
+        "totalCommutes": 2,
+        "avgDuration": 834.762076676826,
+        "methodCounts": {
+          "transit": 2
+        }
+      }
+    }
+  }
+}

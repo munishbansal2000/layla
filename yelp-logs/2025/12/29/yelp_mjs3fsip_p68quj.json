@@ -1,0 +1,521 @@
+{
+  "id": "yelp_mjs3fsip_p68quj",
+  "timestamp": "2025-12-30T04:35:03.073Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Sushi Zanmai Shibuya",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "5Mi_aI6n3tBLildep1hJAg",
+          "alias": "すしざんまい-渋谷東急本店前店-渋谷区",
+          "name": "Sushizanmai Shibuya Tokyu-Honten Mae",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/rb36RaJ-KRwll0zBs_cAVA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E6%B8%8B%E8%B0%B7%E6%9D%B1%E6%80%A5%E6%9C%AC%E5%BA%97%E5%89%8D%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 36,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6610201218074,
+            "longitude": 139.696551704084
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "宇田川町34-5",
+            "address2": "サイトウビル1F",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0042",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "宇田川町34-5",
+              "サイトウビル1F",
+              "Shibuya, 東京都 〒150-0042",
+              "Japan"
+            ]
+          },
+          "phone": "+81357842820",
+          "display_phone": "+81 3-5784-2820",
+          "distance": 774.3961108969892,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "p9gQmxvUI9dXnT7eONngeQ",
+          "alias": "すしざんまい-渋谷東口店-渋谷区",
+          "name": "SUSHIZANMAI Shibuya Higashiguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/NxrAaKT0NbqOd0TK5CVyJg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E6%B8%8B%E8%B0%B7%E6%9D%B1%E5%8F%A3%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 14,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 35.658464,
+            "longitude": 139.703219
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "渋谷2-22-11",
+            "address2": "渋谷フランセ奥野ビル1・2階",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0002",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "渋谷2-22-11",
+              "渋谷フランセ奥野ビル1・2階",
+              "Shibuya, 東京都 〒150-0002",
+              "Japan"
+            ]
+          },
+          "phone": "+81354687339",
+          "display_phone": "+81 3-5468-7339",
+          "distance": 1419.5413483292025,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.kiyomura.co.jp/menu/detail/21/?category=1",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "k5Ay3GYV4y-gQoz20kZoIQ",
+          "alias": "梅丘寿司の美登利総本店-渋谷店-渋谷区",
+          "name": "Umegaoka Sushinomidori Sōhonten Shibuya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/T3vNf8YkFRJ9rGy8FoDK-Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%A2%85%E4%B8%98%E5%AF%BF%E5%8F%B8%E3%81%AE%E7%BE%8E%E7%99%BB%E5%88%A9%E7%B7%8F%E6%9C%AC%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 165,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.658344,
+            "longitude": 139.698986
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "道玄坂1-12-3",
+            "address2": "4Ｆ",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0043",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "道玄坂1-12-3",
+              "4Ｆ",
+              "Shibuya, 東京都 〒150-0043",
+              "Japan"
+            ]
+          },
+          "phone": "+81354580002",
+          "display_phone": "+81 3-5458-0002",
+          "distance": 1141.551899315738,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.sushinomidori.co.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "exITlx8o-J4eUVS6DiDJJA",
+          "alias": "魚がし日本一-立喰寿司-渋谷センター街店-渋谷区",
+          "name": "Uogashi Nihonichi Tachigui Sushi SHIBUYA CENTER GAI",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0dbkfhB-NZSGSV3JIt04LQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%AD%9A%E3%81%8C%E3%81%97%E6%97%A5%E6%9C%AC%E4%B8%80-%E7%AB%8B%E5%96%B0%E5%AF%BF%E5%8F%B8-%E6%B8%8B%E8%B0%B7%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E8%A1%97%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 56,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.660459,
+            "longitude": 139.698813
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "宇田川町25-6",
+            "address2": "",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0042",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "宇田川町25-6",
+              "Shibuya, 東京都 〒150-0042",
+              "Japan"
+            ]
+          },
+          "phone": "+81357285451",
+          "display_phone": "+81 3-5728-5451",
+          "distance": 968.3809772251129,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "ajsudaGqb7yzbZbah1grWw",
+          "alias": "回し寿司-活-美登利-西武渋谷店-渋谷区",
+          "name": "Mawashi Zushi KATSUMIDORI  SEIBU Shibuya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/I3ywy3yTO_UQJoMgDuZ90g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%9B%9E%E3%81%97%E5%AF%BF%E5%8F%B8-%E6%B4%BB-%E7%BE%8E%E7%99%BB%E5%88%A9-%E8%A5%BF%E6%AD%A6%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 152,
+          "categories": [
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.660236,
+            "longitude": 139.700514
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "宇田川町21-1",
+            "address2": "レストラン街「ダイニング プラザ」A館8F",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0042",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "宇田川町21-1",
+              "レストラン街「ダイニング プラザ」A館8F",
+              "Shibuya, 東京都 〒150-0042",
+              "Japan"
+            ]
+          },
+          "phone": "+81357284282",
+          "display_phone": "+81 3-5728-4282",
+          "distance": 1106.1972689833083,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://katumidori.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 14,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 853,
+    "success": true
+  }
+}

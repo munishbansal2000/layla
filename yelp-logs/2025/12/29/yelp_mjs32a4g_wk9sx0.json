@@ -1,0 +1,494 @@
+{
+  "id": "yelp_mjs32a4g_wk9sx0",
+  "timestamp": "2025-12-30T04:24:32.704Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Tendon Tenya",
+      "location": "Akihabara, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Akihabara, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Xrd8JywRKZx-6rcFor0dFw",
+          "alias": "天丼てんや-秋葉原店-千代田区",
+          "name": "TEMPURA TENDON TENYA Akihabara",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ihyPfm5WkauQ0kQBi3i_vw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84-%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 33,
+          "categories": [
+            {
+              "alias": "soba",
+              "title": "Soba"
+            },
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.701621,
+            "longitude": 139.771807
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "外神田4-5-4",
+            "address2": "亀松ビル",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "101-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "外神田4-5-4",
+              "亀松ビル",
+              "Chiyoda, 東京都 〒101-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81335263241",
+          "display_phone": "+81 3-3526-3241",
+          "distance": 191.6404331001501,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.tenya.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "WnYeW1GG9wMAdMgBfFErgA",
+          "alias": "天丼てんや-銀座店-中央区",
+          "name": "TEMPURA TENDON TENYA Ginza",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XtdZuM-ljWcHohvJi_tHoA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84-%E9%8A%80%E5%BA%A7%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 34,
+          "categories": [
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "soba",
+              "title": "Soba"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.671873,
+            "longitude": 139.768251
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "銀座3-9-4",
+            "address2": "草野ビル",
+            "address3": "",
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座3-9-4",
+              "草野ビル",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81355656903",
+          "display_phone": "+81 3-5565-6903",
+          "distance": 3143.257886142378,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.tenya.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "DAVEO5QZFshFDtW-NCPXeg",
+          "alias": "天丼てんや-浅草店-台東区-2",
+          "name": "TEMPURA TENDON TENYA Asakusa",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/nHwMdSoTBzhhgtsVxoSOUA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84-%E6%B5%85%E8%8D%89%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 8,
+          "categories": [
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            },
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.711491,
+            "longitude": 139.792798
+          },
+          "transactions": [],
+          "location": {
+            "address1": "浅草1-9-2",
+            "address2": "",
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "111-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "浅草1-9-2",
+              "Taitō, 東京都 〒111-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81358285918",
+          "display_phone": "+81 3-5828-5918",
+          "distance": 2251.236566889492,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.tenya.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "6eUNYjzDgEt5jW3xt9OyWg",
+          "alias": "tendon-tenya-yokosuka-central-横須賀市",
+          "name": "Tendon Tenya Yokosuka Central",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/j9x4PbhVJZXpwr5ZOF3irQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/tendon-tenya-yokosuka-central-%E6%A8%AA%E9%A0%88%E8%B3%80%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.2793655395508,
+            "longitude": 139.670776367188
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "若松町1丁目5−1",
+            "address2": "",
+            "address3": "",
+            "city": "Yokosuka",
+            "zip_code": "238-0007",
+            "country": "JP",
+            "state": "14",
+            "display_address": [
+              "若松町1丁目5−1",
+              "Yokosuka, 神奈川県 〒238-0007",
+              "Japan"
+            ]
+          },
+          "phone": "+81468201921",
+          "display_phone": "+81 46-820-1921",
+          "distance": 47656.995501406374,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "2CUk5fqng1HCGq8bh6DVrg",
+          "alias": "天丼てんや-赤坂見附店-港区",
+          "name": "TEMPURA TENDON TENYA Akasaka Mitsuke",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/S0HMAdKLXky7UDnWZSytmA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%A4%A9%E4%B8%BC%E3%81%A6%E3%82%93%E3%82%84-%E8%B5%A4%E5%9D%82%E8%A6%8B%E9%99%84%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            },
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 3.9,
+          "coordinates": {
+            "latitude": 35.677091,
+            "longitude": 139.736494
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "赤坂3-9-4",
+            "address2": "サカタニビル",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂3-9-4",
+              "サカタニビル",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+81335893472",
+          "display_phone": "+81 3-3589-3472",
+          "distance": 4114.02472945692,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.tenya.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 77,
+      "region": {
+        "center": {
+          "longitude": 139.7723150253296,
+          "latitude": 35.699947640340994
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 815,
+    "success": true
+  }
+}

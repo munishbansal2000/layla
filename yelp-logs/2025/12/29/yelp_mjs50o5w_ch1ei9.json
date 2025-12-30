@@ -1,0 +1,251 @@
+{
+  "id": "yelp_mjs50o5w_ch1ei9",
+  "timestamp": "2025-12-30T05:19:16.820Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Bistro TOM",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "orGmuN_PrCDkUhM1jXvYeg",
+          "alias": "ビストロ-トム-台東区",
+          "name": "Bistro TOM",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%93%E3%82%B9%E3%83%88%E3%83%AD-%E3%83%88%E3%83%A0-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "french",
+              "title": "French"
+            },
+            {
+              "alias": "wine_bars",
+              "title": "Wine Bars"
+            },
+            {
+              "alias": "bistros",
+              "title": "Bistros"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.720727,
+            "longitude": 139.765265
+          },
+          "transactions": [],
+          "location": {
+            "address1": "谷中2-3-16",
+            "address2": "",
+            "address3": "",
+            "city": "Taitō",
+            "zip_code": "110-0001",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "谷中2-3-16",
+              "Taitō, 東京都 〒110-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81338244530",
+          "display_phone": "+81 3-3824-4530",
+          "distance": 3973.468120663244,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "OP4qnK5BUCEQRO_A7O2J_Q",
+          "alias": "ivy-place-渋谷区",
+          "name": "IVY PLACE",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LclUeNkutiveASQVisO-GQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/ivy-place-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 67,
+          "categories": [
+            {
+              "alias": "italian",
+              "title": "Italian"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "beer_and_wine",
+              "title": "Beer, Wine & Spirits"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.6495910922673,
+            "longitude": 139.699790895775
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "猿楽町16-15",
+            "address2": null,
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0033",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "猿楽町16-15",
+              "Shibuya, 東京都 〒150-0033",
+              "Japan"
+            ]
+          },
+          "phone": "+81364153232",
+          "display_phone": "+81 3-6415-3232",
+          "distance": 7213.789661347243,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1021,
+    "success": true
+  }
+}

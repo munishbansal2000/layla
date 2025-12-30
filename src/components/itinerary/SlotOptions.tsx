@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useMemo, useEffect } from "react";
 import {
   motion,
   AnimatePresence,
@@ -29,6 +29,7 @@ import type {
   ActivityOption,
   StructuredCommuteInfo,
 } from "@/types/structured-itinerary";
+import { ViatorEnhancementList } from "./ViatorEnhancementCard";
 
 // ============================================
 // SLOT OPTIONS - Main Container
@@ -39,6 +40,27 @@ interface SlotOptionsProps {
   onSelectOption: (slotId: string, optionId: string) => void;
   isFirst?: boolean;
   prevActivityCoords?: { lat: number; lng: number };
+  dayIndex?: number;
+  allDaySlots?: SlotWithOptions[];
+  city?: string;
+  autoExpandSlotId?: string; // Auto-expand fill suggestions for this slot ID (triggered from chat)
+  onFillSlotWithActivity?: (
+    dayIndex: number,
+    slotId: string,
+    activity: {
+      name: string;
+      category?: string;
+      duration?: number;
+      icon?: string;
+      place?: {
+        name: string;
+        neighborhood?: string;
+        rating?: number;
+        coordinates?: { lat: number; lng: number };
+      };
+    }
+  ) => void;
+  onAutoExpandHandled?: () => void; // Callback when auto-expand has been handled
 }
 
 export function SlotOptions({
@@ -46,8 +68,49 @@ export function SlotOptions({
   onSelectOption,
   isFirst,
   prevActivityCoords,
+  dayIndex = 0,
+  allDaySlots = [],
+  city,
+  autoExpandSlotId,
+  onFillSlotWithActivity,
+  onAutoExpandHandled,
 }: SlotOptionsProps) {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  // Auto-expand when triggered from chat
+  // The parent (DayContent) now resolves criteria-based markers to specific slot IDs,
+  // so we only need to check for exact matches here
+  useEffect(() => {
+    if (!autoExpandSlotId) return;
+
+    const matches = autoExpandSlotId === slot.slotId;
+
+    console.log("[SlotOptions] Auto-expand check:", {
+      autoExpandSlotId,
+      currentSlotId: slot.slotId,
+      matches,
+      showSuggestions,
+      hasOptions: slot.options.length > 0,
+      slotType: slot.slotType,
+      dayIndex,
+    });
+
+    if (matches && !showSuggestions) {
+      console.log("[SlotOptions] ✅ Auto-expanding slot:", slot.slotId);
+      setShowSuggestions(true);
+      // Notify parent that we've handled the auto-expand
+      onAutoExpandHandled?.();
+    }
+  }, [
+    autoExpandSlotId,
+    slot.slotId,
+    slot.slotType,
+    slot.options.length,
+    showSuggestions,
+    onAutoExpandHandled,
+    dayIndex,
+  ]);
 
   const slotTypeLabels: Record<string, { label: string; icon: string }> = {
     morning: { label: "Morning", icon: "🌅" },
@@ -125,6 +188,634 @@ export function SlotOptions({
           onNavigate={handleNavigate}
           onSelect={handleSelect}
         />
+      )}
+
+      {/* Empty Slot - Fill the Slot UI */}
+      {!currentOption && (
+        <div className="p-4 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-900/50">
+          <div className="flex items-center justify-center gap-2 text-gray-500 dark:text-gray-400 mb-3">
+            <Clock className="w-4 h-4" />
+            <span className="text-sm font-medium">Free Time</span>
+          </div>
+
+          {!showSuggestions ? (
+            <button
+              onClick={() => setShowSuggestions(true)}
+              className="w-full py-3 px-4 border-2 border-dashed border-purple-300 dark:border-purple-700 rounded-lg text-purple-600 dark:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors flex items-center justify-center gap-2 group"
+            >
+              <span className="text-lg group-hover:scale-110 transition-transform">
+                +
+              </span>
+              <span className="font-medium">Fill this slot</span>
+            </button>
+          ) : (
+            <FillSlotSuggestions
+              slot={slot}
+              dayIndex={dayIndex}
+              allDaySlots={allDaySlots}
+              city={city}
+              onFillSlotWithActivity={onFillSlotWithActivity}
+              onClose={() => setShowSuggestions(false)}
+            />
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ============================================
+// FILL SLOT SUGGESTIONS - Suggestions panel for empty slots
+// ============================================
+
+const ACTIVITY_SUGGESTIONS: Record<
+  string,
+  Array<{
+    id: string;
+    name: string;
+    category: string;
+    duration: number;
+    icon: string;
+  }>
+> = {
+  morning: [
+    {
+      id: "morning-temple",
+      name: "Visit a temple",
+      category: "Cultural",
+      duration: 90,
+      icon: "⛩️",
+    },
+    {
+      id: "morning-garden",
+      name: "Explore a garden",
+      category: "Nature",
+      duration: 60,
+      icon: "🌸",
+    },
+    {
+      id: "morning-museum",
+      name: "Visit a museum",
+      category: "Cultural",
+      duration: 120,
+      icon: "🏛️",
+    },
+  ],
+  breakfast: [
+    {
+      id: "breakfast-cafe",
+      name: "Local café",
+      category: "Food",
+      duration: 45,
+      icon: "☕",
+    },
+    {
+      id: "breakfast-market",
+      name: "Morning market",
+      category: "Food",
+      duration: 60,
+      icon: "🥐",
+    },
+  ],
+  lunch: [
+    {
+      id: "lunch-ramen",
+      name: "Try local ramen",
+      category: "Food",
+      duration: 60,
+      icon: "🍜",
+    },
+    {
+      id: "lunch-sushi",
+      name: "Sushi restaurant",
+      category: "Food",
+      duration: 75,
+      icon: "🍣",
+    },
+    {
+      id: "lunch-izakaya",
+      name: "Casual izakaya",
+      category: "Food",
+      duration: 90,
+      icon: "🍶",
+    },
+  ],
+  afternoon: [
+    {
+      id: "afternoon-shopping",
+      name: "Shopping district",
+      category: "Shopping",
+      duration: 120,
+      icon: "🛍️",
+    },
+    {
+      id: "afternoon-park",
+      name: "Relax in a park",
+      category: "Nature",
+      duration: 60,
+      icon: "🌳",
+    },
+    {
+      id: "afternoon-temple",
+      name: "Temple visit",
+      category: "Cultural",
+      duration: 90,
+      icon: "⛩️",
+    },
+  ],
+  dinner: [
+    {
+      id: "dinner-kaiseki",
+      name: "Kaiseki dinner",
+      category: "Food",
+      duration: 120,
+      icon: "🍱",
+    },
+    {
+      id: "dinner-yakitori",
+      name: "Yakitori restaurant",
+      category: "Food",
+      duration: 90,
+      icon: "🍗",
+    },
+    {
+      id: "dinner-tempura",
+      name: "Tempura specialty",
+      category: "Food",
+      duration: 75,
+      icon: "🍤",
+    },
+  ],
+  evening: [
+    {
+      id: "evening-bar",
+      name: "Cocktail bar",
+      category: "Nightlife",
+      duration: 90,
+      icon: "🍸",
+    },
+    {
+      id: "evening-walk",
+      name: "Night walk",
+      category: "Sightseeing",
+      duration: 45,
+      icon: "🌙",
+    },
+  ],
+};
+
+interface FillSlotSuggestionsProps {
+  slot: SlotWithOptions;
+  dayIndex: number;
+  allDaySlots?: SlotWithOptions[];
+  city?: string;
+  onFillSlotWithActivity?: (
+    dayIndex: number,
+    slotId: string,
+    activity: {
+      name: string;
+      category?: string;
+      duration?: number;
+      icon?: string;
+      place?: {
+        name: string;
+        neighborhood?: string;
+        rating?: number;
+        coordinates?: { lat: number; lng: number };
+      };
+    }
+  ) => void;
+  onClose: () => void;
+}
+
+// Type for API suggestions
+interface APISuggestion {
+  id: string;
+  type: string;
+  activity: {
+    name: string;
+    category: string;
+    duration: number;
+    description?: string;
+    place?: {
+      name: string;
+      neighborhood?: string;
+      rating?: number;
+      coordinates?: { lat: number; lng: number };
+      photos?: string[];
+    };
+  };
+  distance?: number | null;
+  bookingInfo?: {
+    hasTickets: boolean;
+    ticketType: string;
+  };
+  // Time conflict information
+  timeConflict?: {
+    hasConflict: boolean;
+    slotDuration: number;
+    activityDuration: number;
+    overflowMinutes: number;
+    severity: "minor" | "moderate" | "major";
+    suggestion?: string;
+  };
+}
+
+function FillSlotSuggestions({
+  slot,
+  dayIndex,
+  allDaySlots = [],
+  city,
+  onFillSlotWithActivity,
+  onClose,
+}: FillSlotSuggestionsProps) {
+  const [refreshKey, setRefreshKey] = useState(0);
+  const [apiSuggestions, setApiSuggestions] = useState<APISuggestion[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  // Analyze existing activities in the day
+  const existingCategories = useMemo(() => {
+    const categories = new Set<string>();
+    for (const daySlot of allDaySlots) {
+      if (daySlot.slotId === slot.slotId) continue; // Skip current slot
+      if (daySlot.options.length === 0) continue;
+
+      const selectedOption =
+        daySlot.options.find((o) => o.id === daySlot.selectedOptionId) ||
+        daySlot.options[0];
+      if (selectedOption?.activity?.category) {
+        categories.add(selectedOption.activity.category.toLowerCase());
+      }
+    }
+    return categories;
+  }, [allDaySlots, slot.slotId, refreshKey]);
+
+  // Determine which meal slots are already filled in the day
+  const existingMealSlots = useMemo(() => {
+    const mealSlots: ("breakfast" | "lunch" | "dinner")[] = [];
+    const mealSlotTypes = ["breakfast", "lunch", "dinner"];
+
+    for (const daySlot of allDaySlots) {
+      if (daySlot.slotId === slot.slotId) continue; // Skip current slot
+      if (daySlot.options.length === 0) continue; // Skip empty slots
+
+      // Check if this slot type is a meal slot and has an activity
+      if (mealSlotTypes.includes(daySlot.slotType)) {
+        mealSlots.push(daySlot.slotType as "breakfast" | "lunch" | "dinner");
+      }
+    }
+    return mealSlots;
+  }, [allDaySlots, slot.slotId]);
+
+  // Get existing activity names to exclude from suggestions
+  const existingActivityNames = useMemo(() => {
+    const names: string[] = [];
+    for (const daySlot of allDaySlots) {
+      if (daySlot.options.length === 0) continue;
+      const selectedOption =
+        daySlot.options.find((o) => o.id === daySlot.selectedOptionId) ||
+        daySlot.options[0];
+      if (selectedOption?.activity?.name) {
+        names.push(selectedOption.activity.name.toLowerCase());
+      }
+    }
+    return names;
+  }, [allDaySlots]);
+
+  // Get coordinates from previous activity if available
+  const prevCoordinates = useMemo(() => {
+    for (const daySlot of allDaySlots) {
+      if (daySlot.slotId === slot.slotId) break;
+      if (daySlot.options.length === 0) continue;
+      const selectedOption =
+        daySlot.options.find((o) => o.id === daySlot.selectedOptionId) ||
+        daySlot.options[0];
+      if (selectedOption?.activity?.place?.coordinates) {
+        return selectedOption.activity.place.coordinates;
+      }
+    }
+    return undefined;
+  }, [allDaySlots, slot.slotId]);
+
+  // Calculate slot duration in minutes
+  const slotDuration = useMemo(() => {
+    const [startHour, startMin] = slot.timeRange.start.split(":").map(Number);
+    const [endHour, endMin] = slot.timeRange.end.split(":").map(Number);
+    return endHour * 60 + endMin - (startHour * 60 + startMin);
+  }, [slot.timeRange]);
+
+  // Fetch suggestions from API
+  useEffect(() => {
+    if (!city) return;
+
+    const abortController = new AbortController();
+
+    const fetchSuggestions = async () => {
+      setIsLoading(true);
+      setError(null);
+
+      try {
+        const response = await fetch("/api/japan-itinerary/suggestions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            city: city.toLowerCase(),
+            slotType: slot.slotType,
+            coordinates: prevCoordinates,
+            maxDistance: 2000,
+            limit: 8, // Request more to include some with time conflicts
+            excludeNames: existingActivityNames,
+            existingMealSlots: existingMealSlots,
+            slotDuration: slotDuration,
+            includeTimeConflicts: true,
+          }),
+          signal: abortController.signal,
+        });
+
+        const data = await response.json();
+
+        if (data.success && data.data?.suggestions) {
+          setApiSuggestions(data.data.suggestions);
+        } else {
+          setError("Failed to load suggestions");
+        }
+      } catch (err) {
+        // Don't log abort errors - they're expected in Strict Mode
+        if (err instanceof Error && err.name === "AbortError") {
+          return;
+        }
+        console.error("Failed to fetch suggestions:", err);
+        setError("Failed to load suggestions");
+      } finally {
+        if (!abortController.signal.aborted) {
+          setIsLoading(false);
+        }
+      }
+    };
+
+    fetchSuggestions();
+
+    // Cleanup: abort fetch if component unmounts or dependencies change
+    return () => {
+      abortController.abort();
+    };
+  }, [
+    city,
+    slot.slotType,
+    prevCoordinates,
+    existingActivityNames,
+    refreshKey,
+    slotDuration,
+  ]);
+
+  // Category to icon mapping
+  const categoryIcons: Record<string, string> = {
+    temple: "⛩️",
+    shrine: "⛩️",
+    museum: "🏛️",
+    park: "🌸",
+    garden: "🌸",
+    restaurant: "🍽️",
+    ramen: "🍜",
+    sushi: "🍣",
+    cafe: "☕",
+    shopping: "🛍️",
+    market: "🏬",
+    viewpoint: "🗼",
+    landmark: "🏯",
+    nightlife: "🌙",
+    bar: "🍸",
+    experience: "✨",
+    default: "📍",
+  };
+
+  const getIconForCategory = (category: string): string => {
+    const lowerCat = category.toLowerCase();
+    for (const [key, icon] of Object.entries(categoryIcons)) {
+      if (lowerCat.includes(key)) return icon;
+    }
+    return categoryIcons.default;
+  };
+
+  // Convert API suggestions to display format
+  const suggestions = useMemo(() => {
+    if (apiSuggestions.length > 0) {
+      return apiSuggestions.map((s) => ({
+        id: s.id,
+        name: s.activity.name,
+        category: s.activity.category,
+        duration: s.activity.duration,
+        icon: getIconForCategory(s.activity.category),
+        description: s.activity.description,
+        neighborhood: s.activity.place?.neighborhood,
+        rating: s.activity.place?.rating,
+        hasTickets: s.bookingInfo?.hasTickets || false,
+        // Preserve full place data for directions
+        place: s.activity.place,
+        // Time conflict info
+        timeConflict: s.timeConflict,
+      }));
+    }
+
+    // Fallback to generic suggestions if no API suggestions
+    const baseSuggestions =
+      ACTIVITY_SUGGESTIONS[slot.slotType] || ACTIVITY_SUGGESTIONS.afternoon;
+    return baseSuggestions.map((s) => ({
+      ...s,
+      description: undefined,
+      neighborhood: undefined,
+      rating: undefined,
+      hasTickets: false,
+      place: undefined,
+      timeConflict: undefined,
+    }));
+  }, [apiSuggestions, slot.slotType]);
+
+  const handleSelectSuggestion = (suggestion: (typeof suggestions)[0]) => {
+    if (onFillSlotWithActivity) {
+      onFillSlotWithActivity(dayIndex, slot.slotId, {
+        name: suggestion.name,
+        category: suggestion.category,
+        duration: suggestion.duration,
+        icon: suggestion.icon,
+        place: suggestion.place
+          ? {
+              name: suggestion.place.name,
+              neighborhood: suggestion.place.neighborhood,
+              rating: suggestion.place.rating,
+              coordinates: suggestion.place.coordinates,
+            }
+          : undefined,
+      });
+    }
+    onClose();
+  };
+
+  const handleRefresh = () => {
+    setRefreshKey((prev) => prev + 1);
+  };
+
+  // Check what categories are already present for display
+  const categoryHints = useMemo(() => {
+    if (existingCategories.size === 0) return null;
+    const cats = Array.from(existingCategories).slice(0, 3);
+    return cats.map((c) => c.charAt(0).toUpperCase() + c.slice(1)).join(", ");
+  }, [existingCategories]);
+
+  return (
+    <div className="space-y-2">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
+            {city ? `Suggestions for ${city}:` : "Smart suggestions:"}
+          </span>
+          <button
+            onClick={handleRefresh}
+            disabled={isLoading}
+            className="p-1 text-gray-400 hover:text-purple-500 dark:hover:text-purple-400 transition-colors disabled:opacity-50"
+            title="Refresh suggestions"
+          >
+            <svg
+              className={cn("w-3.5 h-3.5", isLoading && "animate-spin")}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+              />
+            </svg>
+          </button>
+        </div>
+        <button
+          onClick={onClose}
+          className="text-xs text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+        >
+          Cancel
+        </button>
+      </div>
+
+      {/* Context hint */}
+      {categoryHints && (
+        <div className="text-xs text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-800 px-2 py-1 rounded">
+          Already planned: {categoryHints}
+        </div>
+      )}
+
+      {/* Loading state */}
+      {isLoading && (
+        <div className="flex items-center justify-center py-8">
+          <div className="animate-spin rounded-full h-6 w-6 border-2 border-purple-500 border-t-transparent"></div>
+          <span className="ml-2 text-sm text-gray-500">
+            Loading suggestions...
+          </span>
+        </div>
+      )}
+
+      {/* Error state */}
+      {error && !isLoading && (
+        <div className="text-xs text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20 px-2 py-1 rounded">
+          {error} - showing generic suggestions
+        </div>
+      )}
+
+      {/* Suggestions grid */}
+      {!isLoading && (
+        <div className="grid gap-2">
+          {suggestions.map((suggestion, index) => {
+            const isDeprioritized = existingCategories.has(
+              suggestion.category.toLowerCase()
+            );
+            return (
+              <button
+                key={`${suggestion.id}-${refreshKey}`}
+                onClick={() => handleSelectSuggestion(suggestion)}
+                className={cn(
+                  "flex items-center gap-3 p-3 rounded-lg border transition-all text-left",
+                  isDeprioritized
+                    ? "border-gray-200 dark:border-gray-700 opacity-60 hover:opacity-100"
+                    : suggestion.timeConflict?.hasConflict
+                    ? "border-amber-300 dark:border-amber-600 bg-amber-50/30 dark:bg-amber-900/10 hover:bg-amber-100/50 dark:hover:bg-amber-900/20"
+                    : index === 0
+                    ? "border-purple-300 dark:border-purple-700 bg-purple-50/50 dark:bg-purple-900/20 hover:bg-purple-100/50 dark:hover:bg-purple-900/30"
+                    : "border-gray-200 dark:border-gray-700 hover:border-purple-300 dark:hover:border-purple-700 hover:bg-purple-50/50 dark:hover:bg-purple-900/10"
+                )}
+              >
+                <span className="text-2xl">{suggestion.icon}</span>
+                <div className="flex-1 min-w-0">
+                  <div className="font-medium text-sm text-gray-900 dark:text-white flex items-center gap-2 flex-wrap">
+                    <span className="truncate">{suggestion.name}</span>
+                    {index === 0 &&
+                      !isDeprioritized &&
+                      !suggestion.timeConflict?.hasConflict && (
+                        <span className="px-1.5 py-0.5 text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-400 rounded flex-shrink-0">
+                          Recommended
+                        </span>
+                      )}
+                    {isDeprioritized && (
+                      <span className="px-1.5 py-0.5 text-xs bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400 rounded flex-shrink-0">
+                        Similar exists
+                      </span>
+                    )}
+                    {suggestion.hasTickets && (
+                      <span className="px-1.5 py-0.5 text-xs bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 rounded flex-shrink-0">
+                        🎫
+                      </span>
+                    )}
+                    {/* Time conflict badge */}
+                    {suggestion.timeConflict?.hasConflict && (
+                      <span
+                        className={cn(
+                          "px-1.5 py-0.5 text-xs rounded flex-shrink-0 flex items-center gap-1",
+                          suggestion.timeConflict.severity === "minor"
+                            ? "bg-yellow-100 dark:bg-yellow-900/50 text-yellow-700 dark:text-yellow-400"
+                            : suggestion.timeConflict.severity === "moderate"
+                            ? "bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-400"
+                            : "bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-400"
+                        )}
+                      >
+                        ⏱️ +{suggestion.timeConflict.overflowMinutes}min
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+                    <span className="px-1.5 py-0.5 bg-gray-100 dark:bg-gray-700 rounded">
+                      {suggestion.category}
+                    </span>
+                    <span>{suggestion.duration} min</span>
+                    {suggestion.neighborhood && (
+                      <>
+                        <span>•</span>
+                        <span className="truncate">
+                          {suggestion.neighborhood}
+                        </span>
+                      </>
+                    )}
+                    {suggestion.rating && (
+                      <>
+                        <span>•</span>
+                        <span className="flex items-center gap-0.5">
+                          ⭐ {suggestion.rating}
+                        </span>
+                      </>
+                    )}
+                  </div>
+                  {/* Time conflict hint */}
+                  {suggestion.timeConflict?.hasConflict &&
+                    suggestion.timeConflict.suggestion && (
+                      <div className="text-xs text-amber-600 dark:text-amber-400 mt-1">
+                        💡 {suggestion.timeConflict.suggestion}
+                      </div>
+                    )}
+                </div>
+              </button>
+            );
+          })}
+        </div>
       )}
     </div>
   );
@@ -640,6 +1331,15 @@ function CarouselActivityCard({
             "Select This Option"
           )}
         </button>
+
+        {/* Viator Tour Enhancements */}
+        {option.viatorEnhancements && option.viatorEnhancements.length > 0 && (
+          <ViatorEnhancementList
+            enhancements={option.viatorEnhancements}
+            activityName={activity.name}
+            maxVisible={2}
+          />
+        )}
       </div>
     </div>
   );
@@ -1130,7 +1830,7 @@ export function CommuteBlock({
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 text-sm">
           <span className="font-medium text-gray-700 dark:text-gray-300">
-            {commute.duration} min
+            {Math.round(commute.duration)} min
           </span>
           <span className="text-gray-400">•</span>
           <span className="text-gray-500 dark:text-gray-400 capitalize">

@@ -1,0 +1,516 @@
+{
+  "id": "yelp_mjs3fyxt_dg8ztd",
+  "timestamp": "2025-12-30T04:35:11.393Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Ippudo Kyoto",
+      "location": "Higashiyama, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Higashiyama, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Np_WVa4YFtUKf87sacNavA",
+          "alias": "一風堂-錦小路店-京都市",
+          "name": "IPPUDO Nishiki Koji",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LO3RARFmRednxIJk4Xle9A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E9%8C%A6%E5%B0%8F%E8%B7%AF%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 237,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.0048648025,
+            "longitude": 135.76133412
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中京区東洞院通錦小路下る阪東屋町653-1",
+            "address2": "錦ビル1F",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "604-8143",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区東洞院通錦小路下る阪東屋町653-1",
+              "錦ビル1F",
+              "Kyoto, 京都府 〒604-8143",
+              "Japan"
+            ]
+          },
+          "phone": "+81752138800",
+          "display_phone": "+81 75-213-8800",
+          "distance": 2224.9725335404137,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ippudo.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "zEvdE51xOcNONyzxdykfHg",
+          "alias": "一蘭-京都河原町店-京都市-2",
+          "name": "ICHIRAN Kyoto Kawaramachi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/g6aQEwwdFVkRo5UAmGjb5g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E4%BA%AC%E9%83%BD%E6%B2%B3%E5%8E%9F%E7%94%BA%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 223,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.005816,
+            "longitude": 135.768064
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中京区蛸薬師通新京極東入裏寺町598",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "604-8041",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区蛸薬師通新京極東入裏寺町598",
+              "Kyoto, 京都府 〒604-8041",
+              "Japan"
+            ]
+          },
+          "phone": "+815018089543",
+          "display_phone": "+81 50-1808-9543",
+          "distance": 1949.8901498026255,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "OZQXp4RwyvXJBc7M664eGQ",
+          "alias": "らーめん千の風京都-京都市",
+          "name": "らーめん千の風京都",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Q1Qdv2BzQXmFgFjhWkWYlA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E5%8D%83%E3%81%AE%E9%A2%A8%E4%BA%AC%E9%83%BD-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 146,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "dumplings",
+              "title": "Dumplings"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.00459,
+            "longitude": 135.767529
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中京区新京極通り四条上ル中之町580",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "604-8042",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区新京極通り四条上ル中之町580",
+              "Kyoto, 京都府 〒604-8042",
+              "Japan"
+            ]
+          },
+          "phone": "+81752550181",
+          "display_phone": "+81 75-255-0181",
+          "distance": 1855.6555967514118,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://ramensennokazekyoto.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "5wAMjZ975ItoVb15VhVDVA",
+          "alias": "本家-第一旭-たかばし本店-京都市-3",
+          "name": "Honke Daiichiasahi Takabashi Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/z1Yji2CVx4DIfQwydPQoYA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%AC%E5%AE%B6-%E7%AC%AC%E4%B8%80%E6%97%AD-%E3%81%9F%E3%81%8B%E3%81%B0%E3%81%97%E6%9C%AC%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82-3?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 133,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "chinese",
+              "title": "Chinese"
+            },
+            {
+              "alias": "dumplings",
+              "title": "Dumplings"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 34.986676,
+            "longitude": 135.762502
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "下京区東塩小路向畑町845",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "600-8213",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "下京区東塩小路向畑町845",
+              "Kyoto, 京都府 〒600-8213",
+              "Japan"
+            ]
+          },
+          "phone": "+81753516321",
+          "display_phone": "+81 75-351-6321",
+          "distance": 1481.9396558949643,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0600",
+                  "end": "0100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0600",
+                  "end": "0100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0600",
+                  "end": "0100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0600",
+                  "end": "0100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0600",
+                  "end": "0100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0600",
+                  "end": "0100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "SGVNkv_lyAVTFFdFpoWyTg",
+          "alias": "無双心-祇園店-京都市-2",
+          "name": "Musōshin Gion",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/1sHaZpNKeUA9f8GbWfE_Ww/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%84%A1%E5%8F%8C%E5%BF%83-%E7%A5%87%E5%9C%92%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 53,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            },
+            {
+              "alias": "cafeteria",
+              "title": "Cafeteria"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.0016587857417,
+            "longitude": 135.772963017225
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "東山区大和大路四条下ル小松町558-2",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "605-0933",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区大和大路四条下ル小松町558-2",
+              "Kyoto, 京都府 〒605-0933",
+              "Japan"
+            ]
+          },
+          "phone": "+81755510345",
+          "display_phone": "+81 75-551-0345",
+          "distance": 1343.5824076976512,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1115",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 15,
+      "region": {
+        "center": {
+          "longitude": 135.77814102172852,
+          "latitude": 34.99034465387382
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 482,
+    "success": true
+  }
+}

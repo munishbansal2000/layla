@@ -201,6 +201,42 @@ export interface ViatorSearchResponse {
   currency: string;
 }
 
+// ---- Freetext Search Types ----
+
+export interface ViatorFreetextSearchParams {
+  searchTerm: string;
+  currency?: string;
+  count?: number;
+  start?: number;
+}
+
+export interface ViatorAttraction {
+  id: number;
+  name: string;
+  primaryDestinationId: number;
+  destinationName: string;
+  description?: string;
+  productsCount: number;
+  reviews?: ViatorReviews;
+  images?: ViatorImage[];
+  url?: string;
+}
+
+export interface ViatorFreetextSearchResponse {
+  products: {
+    results: ViatorProduct[];
+    totalCount: number;
+  };
+  attractions?: {
+    results: ViatorAttraction[];
+    totalCount: number;
+  };
+  destinations?: {
+    results: ViatorDestination[];
+    totalCount: number;
+  };
+}
+
 export interface ViatorProductDetails extends ViatorProduct {
   overview?: string;
   whatIsIncluded?: string[];
@@ -1086,6 +1122,166 @@ export const VIATOR_TAGS = {
   ADVENTURE: 11917,
   FAMILY_FRIENDLY: 11899,
 } as const;
+
+// ============================================
+// FREETEXT SEARCH - POI-specific search
+// ============================================
+
+/**
+ * Search for products using freetext search (POI-specific)
+ * This is the recommended method for finding tours related to specific attractions
+ */
+export async function searchProductsFreetext(
+  params: ViatorFreetextSearchParams
+): Promise<ViatorFreetextSearchResponse> {
+  const cacheParams = {
+    searchTerm: params.searchTerm,
+    count: params.count,
+  };
+
+  // Check cache in test mode
+  if (isViatorTestMode()) {
+    console.log(`[Viator] Test mode - checking cache for freetext: "${params.searchTerm}"`);
+    const replayMatch = await findViatorReplayMatch("freetext", cacheParams, VIATOR_CACHE_MAX_AGE_MS);
+
+    if (replayMatch.found && replayMatch.entry) {
+      console.log(`[Viator] Cache HIT - returning cached freetext results`);
+      return replayMatch.entry.response as ViatorFreetextSearchResponse;
+    }
+    console.log(`[Viator] Cache MISS - calling API`);
+  }
+
+  const startTime = Date.now();
+
+  try {
+    const response = await viatorFetch<ViatorFreetextSearchResponse>(
+      "/search/freetext",
+      {
+        method: "POST",
+        body: JSON.stringify({
+          searchTerm: params.searchTerm,
+          searchTypes: [
+            { searchType: "PRODUCTS", pagination: { start: params.start || 1, count: params.count || 10 } },
+          ],
+          currency: params.currency || "USD",
+        }),
+      }
+    );
+
+    const durationMs = Date.now() - startTime;
+
+    // Log for caching
+    const logEntry = createViatorLogEntry(
+      "freetext",
+      "/search/freetext",
+      "POST",
+      cacheParams,
+      response,
+      durationMs,
+      true,
+      undefined,
+      { searchTerm: params.searchTerm }
+    );
+    logViatorRequest(logEntry).catch(console.error);
+
+    return response;
+  } catch (error) {
+    const durationMs = Date.now() - startTime;
+    const errorMessage = error instanceof Error ? error.message : "Unknown error";
+
+    const logEntry = createViatorLogEntry(
+      "freetext",
+      "/search/freetext",
+      "POST",
+      cacheParams,
+      {},
+      durationMs,
+      false,
+      errorMessage,
+      { searchTerm: params.searchTerm }
+    );
+    logViatorRequest(logEntry).catch(console.error);
+
+    throw error;
+  }
+}
+
+/**
+ * Search for attractions (POIs) using freetext search
+ * Returns attraction entities with IDs that can be used to find related products
+ */
+export async function searchAttractions(
+  searchTerm: string,
+  count: number = 5
+): Promise<ViatorAttraction[]> {
+  const cacheParams = { searchTerm, count, type: "attractions" };
+
+  // Check cache in test mode
+  if (isViatorTestMode()) {
+    console.log(`[Viator] Test mode - checking cache for attractions: "${searchTerm}"`);
+    const replayMatch = await findViatorReplayMatch("attractions", cacheParams, VIATOR_CACHE_MAX_AGE_MS);
+
+    if (replayMatch.found && replayMatch.entry) {
+      console.log(`[Viator] Cache HIT - returning cached attractions`);
+      return (replayMatch.entry.response.attractions as ViatorAttraction[]) || [];
+    }
+    console.log(`[Viator] Cache MISS - calling API`);
+  }
+
+  const startTime = Date.now();
+
+  try {
+    const response = await viatorFetch<{
+      attractions?: { results: ViatorAttraction[]; totalCount: number };
+    }>("/search/freetext", {
+      method: "POST",
+      body: JSON.stringify({
+        searchTerm,
+        searchTypes: [
+          { searchType: "ATTRACTIONS", pagination: { start: 1, count } },
+        ],
+        currency: "USD",
+      }),
+    });
+
+    const attractions = response.attractions?.results || [];
+    const durationMs = Date.now() - startTime;
+
+    // Log for caching
+    const logEntry = createViatorLogEntry(
+      "attractions",
+      "/search/freetext",
+      "POST",
+      cacheParams,
+      { attractions },
+      durationMs,
+      true,
+      undefined,
+      { searchTerm }
+    );
+    logViatorRequest(logEntry).catch(console.error);
+
+    return attractions;
+  } catch (error) {
+    const durationMs = Date.now() - startTime;
+    const errorMessage = error instanceof Error ? error.message : "Unknown error";
+
+    const logEntry = createViatorLogEntry(
+      "attractions",
+      "/search/freetext",
+      "POST",
+      cacheParams,
+      {},
+      durationMs,
+      false,
+      errorMessage,
+      { searchTerm }
+    );
+    logViatorRequest(logEntry).catch(console.error);
+
+    throw error;
+  }
+}
 
 // ============================================
 // TAG ID TO NAME MAPPING

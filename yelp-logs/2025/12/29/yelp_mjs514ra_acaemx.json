@@ -1,0 +1,33 @@
+{
+  "id": "yelp_mjs514ra_acaemx",
+  "timestamp": "2025-12-30T05:19:38.326Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Pontakosakura",
+      "location": "Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [],
+      "total": 0,
+      "region": {
+        "center": {
+          "longitude": 135.7635498046875,
+          "latitude": 35.00858416531922
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 544,
+    "success": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "yelp_mjs32ssb_cyrqvp",
+  "timestamp": "2025-12-30T04:24:56.891Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Kushikatsu Tanaka",
+      "location": "Namba, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Namba, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [],
+      "total": 0,
+      "region": {
+        "center": {
+          "longitude": 135.5009937286377,
+          "latitude": 34.66575763351648
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 559,
+    "success": true
+  }
+}

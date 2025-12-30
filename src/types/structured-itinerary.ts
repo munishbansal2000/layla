@@ -27,18 +27,38 @@ export interface PlaceData {
 // COMMUTE INFO (for structured itinerary)
 // ============================================
 
+/**
+ * Commute type classification for UI rendering
+ */
+export type CommuteType =
+  | "arrival"           // Airport/station to first hotel (Day 1)
+  | "departure"         // Last hotel to airport/station (Final day)
+  | "hotel-to-activity" // Morning: hotel to first activity
+  | "activity-to-hotel" // Evening: last activity back to hotel
+  | "between-activities"// During the day between spots
+  | "city-transfer"     // Between cities (includes station/airport transfers)
+  | "to-station"        // Hotel to station/airport for city transfer
+  | "from-station";     // Station/airport to hotel after city transfer
+
 export interface StructuredCommuteInfo {
   fromPlaceId?: string;
   toPlaceId?: string;
   duration: number; // minutes
   distance: number; // meters
-  method: "walk" | "transit" | "taxi" | "drive";
+  method: "walk" | "transit" | "taxi" | "drive" | "shinkansen" | "flight" | "bus" | "ferry";
   instructions: string;
   trainLines?: string[];
   cost?: {
     amount: number;
     currency: string;
   };
+
+  // Commute type for UI rendering
+  commuteType?: CommuteType;
+
+  // Endpoints for display
+  fromName?: string;  // e.g., "Narita Airport", "Hotel Gracery Shinjuku"
+  toName?: string;    // e.g., "Hotel Gracery Shinjuku", "Senso-ji Temple"
 }
 
 // ============================================
@@ -49,6 +69,75 @@ export interface DietaryMatch {
   meetsRequirements: boolean;
   matchedPreferences: string[];
   warnings: string[];
+}
+
+// ============================================
+// VIATOR TOUR ENHANCEMENTS
+// ============================================
+
+/**
+ * Enhancement type for categorizing Viator tours
+ */
+export type ViatorEnhancementType =
+  | "skip-the-line"     // Skip queues at popular attractions
+  | "guided-tour"       // Professional guide included
+  | "audio-guide"       // Self-paced with audio narration
+  | "private-tour"      // Exclusive private experience
+  | "food-tour"         // Culinary experience
+  | "day-trip"          // Full/half day excursion
+  | "experience"        // Unique local experience
+  | "combo-ticket"      // Multiple attractions bundled
+  | "night-tour"        // Evening/night experiences
+  | "workshop";         // Hands-on learning experience
+
+/**
+ * Viator tour enhancement for an activity
+ * Represents an optional paid experience that enhances the base activity
+ */
+export interface ViatorEnhancement {
+  productCode: string;
+  title: string;
+  description: string;
+  enhancementType: ViatorEnhancementType;
+
+  // Pricing
+  price: {
+    amount: number;
+    currency: string;
+    originalAmount?: number; // For discounts
+  };
+
+  // Duration in minutes
+  duration: number;
+
+  // Ratings
+  rating?: number;
+  reviewCount?: number;
+
+  // Booking
+  bookingUrl: string;
+  confirmationType: "instant" | "manual";
+
+  // Images
+  imageUrl?: string;
+
+  // Why this tour is a good match
+  matchReason: string;
+
+  // Flags
+  flags: {
+    skipTheLine?: boolean;
+    freeCancellation?: boolean;
+    likelyToSellOut?: boolean;
+    newOnViator?: boolean;
+    privateOption?: boolean;
+  };
+
+  // Best time of day for this tour
+  bestTimeOfDay?: "morning" | "afternoon" | "evening" | "flexible";
+
+  // Tags from Viator
+  tags?: string[];
 }
 
 // ============================================
@@ -80,7 +169,7 @@ export interface ActivityOption {
     tags: string[];
 
     // Source of this activity
-    source: "ai" | "yelp" | "viator" | "google-places" | "local-data" | "klook";
+    source: "ai" | "yelp" | "viator" | "google-places" | "local-data" | "klook" | "osm";
   };
 
   // For restaurants: dietary preference match
@@ -89,6 +178,16 @@ export interface ActivityOption {
   // Why this was recommended
   matchReasons: string[];
   tradeoffs: string[];
+
+  // ============================================
+  // VIATOR TOUR ENHANCEMENTS
+  // ============================================
+  /**
+   * Optional Viator tour enhancements for this activity
+   * These are paid experiences that can enhance the base free activity
+   * (e.g., skip-the-line tickets, guided tours, audio guides)
+   */
+  viatorEnhancements?: ViatorEnhancement[];
 }
 
 // ============================================
@@ -304,6 +403,32 @@ export interface StructuredItineraryData {
       food?: { min: number; max: number };
       transport?: { min: number; max: number };
     };
+  };
+
+  // ============================================
+  // ARRIVAL/DEPARTURE INFO
+  // ============================================
+
+  /** Arrival details (airport/station arrival on first day) */
+  arrival?: {
+    port: string;          // e.g., "Narita International Airport (NRT)"
+    portType: "airport" | "station" | "port";
+    arrivalTime?: string;  // e.g., "14:00"
+    flightNumber?: string;
+    trainName?: string;
+    /** Commute from arrival port to first hotel */
+    commuteToHotel?: StructuredCommuteInfo;
+  };
+
+  /** Departure details (departure from last day) */
+  departure?: {
+    port: string;          // e.g., "Kansai International Airport (KIX)"
+    portType: "airport" | "station" | "port";
+    departureTime?: string; // e.g., "18:00"
+    flightNumber?: string;
+    trainName?: string;
+    /** Commute from last hotel to departure port */
+    commuteFromHotel?: StructuredCommuteInfo;
   };
 }
 

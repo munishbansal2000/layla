@@ -1,0 +1,33 @@
+{
+  "id": "yelp_mjs5w9zx_mqtznl",
+  "timestamp": "2025-12-30T05:43:51.453Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "ichoya",
+      "location": "Nara",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Nara"
+  },
+  "response": {
+    "data": {
+      "businesses": [],
+      "total": 0,
+      "region": {
+        "center": {
+          "longitude": 135.89263916015625,
+          "latitude": 34.65788994989545
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 587,
+    "success": true
+  }
+}

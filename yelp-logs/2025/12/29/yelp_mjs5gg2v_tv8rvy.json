@@ -1,0 +1,128 @@
+{
+  "id": "yelp_mjs5gg2v_tv8rvy",
+  "timestamp": "2025-12-30T05:31:32.839Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Yudofu Sagano",
+      "location": "Arashiyama, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Arashiyama, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "dBFpAytwLdoWu1bniobuow",
+          "alias": "湯豆腐-嵯峨野-京都市",
+          "name": "Yudofu Sagano",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ZODEsAxZo6fdHAzlxLb8og/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%B9%AF%E8%B1%86%E8%85%90-%E5%B5%AF%E5%B3%A8%E9%87%8E-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.0147183,
+            "longitude": 135.674509
+          },
+          "transactions": [],
+          "location": {
+            "address1": "右京区嵯峨天龍寺芒ノ馬場町45",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "616-8385",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨天龍寺芒ノ馬場町45",
+              "Kyoto, 京都府 〒616-8385",
+              "Japan"
+            ]
+          },
+          "phone": "+81758716946",
+          "display_phone": "+81 75-871-6946",
+          "distance": 918.3449884227052,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.kyoto-sagano.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 2,
+      "region": {
+        "center": {
+          "longitude": 135.66673278808594,
+          "latitude": 35.00946039815018
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 400,
+    "success": true
+  }
+}

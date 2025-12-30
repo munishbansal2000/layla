@@ -1,0 +1,515 @@
+{
+  "id": "yelp_mjs5gds5_xzxn7o",
+  "timestamp": "2025-12-30T05:31:29.861Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Sushi Zanmai",
+      "location": "Chuo, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Chuo, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "99Sj_zOKkFWglZ3w0_2VDw",
+          "alias": "すしざんまい-本店-中央区",
+          "name": "SUSHIZANMAI Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LIo5jPtqF8egXHQvacqL2Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E6%9C%AC%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 200,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.665917,
+            "longitude": 139.770608
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "築地4-11-9",
+            "address2": "",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "築地4-11-9",
+              "Chūō, 東京都 〒104-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81335411117",
+          "display_phone": "+81 3-3541-1117",
+          "distance": 10124.301136459479,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "1TTpEVJtlUHT9JHVrpMUhA",
+          "alias": "すしざんまい-錦糸町店-墨田区",
+          "name": "Sushizanmai Kinshichou",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XrT1NEmYJv9phDVh4YgV3Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E9%8C%A6%E7%B3%B8%E7%94%BA%E5%BA%97-%E5%A2%A8%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.6948732473436,
+            "longitude": 139.814833233541
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "江東橋3丁目8-13",
+            "address2": null,
+            "address3": null,
+            "city": "Sumida",
+            "zip_code": "130-0022",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "江東橋3丁目8-13",
+              "Sumida, 東京都 〒130-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+81356256788",
+          "display_phone": "+81 3-5625-6788",
+          "distance": 5255.7591203292495,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "pQEivYML06LCeAPCMx8hFQ",
+          "alias": "すしざんまい-築地駅前店-中央区",
+          "name": "Sushizanmai Tsukiji Ekimae",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/3fHzSMW35iJEj68b-CPdIQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E7%AF%89%E5%9C%B0%E9%A7%85%E5%89%8D%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 49,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6675715648913,
+            "longitude": 139.772446538519
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "築地3-11-9",
+            "address2": "築地スクエアビル 1F",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "築地3-11-9",
+              "築地スクエアビル 1F",
+              "Chūō, 東京都 〒104-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81335249833",
+          "display_phone": "+81 3-3524-9833",
+          "distance": 9895.092211384894,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "UX4yqQN95Q4_hOaaldgwjg",
+          "alias": "すしざんまい-東新宿店-新宿区",
+          "name": "Sushi-Zanmai Higashi Shinjuku",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/UvU0aMTq9xCkgSjVDtfj-g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E6%9D%B1%E6%96%B0%E5%AE%BF%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 72,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 35.698391,
+            "longitude": 139.705207
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "大久保1丁目1-13",
+            "address2": "ベルバウム1階･地下1階",
+            "address3": null,
+            "city": "Shinjuku",
+            "zip_code": "169-0072",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "大久保1丁目1-13",
+              "ベルバウム1階･地下1階",
+              "Shinjuku, 東京都 〒169-0072",
+              "Japan"
+            ]
+          },
+          "phone": "+81351556655",
+          "display_phone": "+81 3-5155-6655",
+          "distance": 15040.012686768667,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1000",
+                  "end": "0600",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "tVnM-RBSOaaeVeLgyt1j6w",
+          "alias": "すしざんまい-浅草雷門店-台東区",
+          "name": "Sushizanmai Asakusakaminarimon",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/FqEjIxCoFKbG9PapUxhGhw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E3%81%96%E3%82%93%E3%81%BE%E3%81%84-%E6%B5%85%E8%8D%89%E9%9B%B7%E9%96%80%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 37,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.7112256125179,
+            "longitude": 139.795545595344
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "浅草1丁目3-6",
+            "address2": null,
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "111-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "浅草1丁目3-6",
+              "Taitō, 東京都 〒111-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81358261375",
+          "display_phone": "+81 3-5826-1375",
+          "distance": 6890.165017025259,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 68,
+      "region": {
+        "center": {
+          "longitude": 139.8715353012085,
+          "latitude": 35.70554087975147
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 726,
+    "success": true
+  }
+}

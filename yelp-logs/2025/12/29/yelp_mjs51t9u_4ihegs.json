@@ -1,0 +1,164 @@
+{
+  "id": "yelp_mjs51t9u_4ihegs",
+  "timestamp": "2025-12-30T05:20:10.098Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "鷲尾町 割烹ほたる",
+      "location": "Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "5ZD5vdgUMFL4LK7gEPDPjQ",
+          "alias": "鷲尾町-割烹ほたる-京都市",
+          "name": "Washiochō Kappō Hotaru",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/37AfzijBL_pzYAK3LvIbvw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B7%B2%E5%B0%BE%E7%94%BA-%E5%89%B2%E7%83%B9%E3%81%BB%E3%81%9F%E3%82%8B-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 35.001696,
+            "longitude": 135.779163
+          },
+          "transactions": [],
+          "location": {
+            "address1": "東山区鷲尾町502-1",
+            "address2": null,
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "605-0072",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区鷲尾町502-1",
+              "Kyoto, 京都府 〒605-0072",
+              "Japan"
+            ]
+          },
+          "phone": "+81752032867",
+          "display_phone": "+81 75-203-2867",
+          "distance": 1615.1964695181425,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.7635498046875,
+          "latitude": 35.00858416531922
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1593,
+    "success": true
+  }
+}

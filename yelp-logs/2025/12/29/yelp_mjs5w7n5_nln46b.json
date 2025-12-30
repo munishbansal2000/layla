@@ -1,0 +1,79 @@
+{
+  "id": "yelp_mjs5w7n5_nln46b",
+  "timestamp": "2025-12-30T05:43:48.401Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Aoniyoshi",
+      "location": "Nara",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Nara"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "m4c-y6xRu7yW_7V7GQAqEw",
+          "alias": "aoniyoshi-奈良市",
+          "name": "Aoniyoshi",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/aoniyoshi-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 34.6826286315918,
+            "longitude": 135.828414916992
+          },
+          "transactions": [],
+          "location": {
+            "address1": "東向南町26",
+            "address2": "",
+            "address3": "",
+            "city": "Nara",
+            "zip_code": "630-8216",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "東向南町26",
+              "Nara, 奈良県 〒630-8216",
+              "Japan"
+            ]
+          },
+          "phone": "+81742261611",
+          "display_phone": "+81 742-26-1611",
+          "distance": 6491.754102855718,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.89263916015625,
+          "latitude": 34.65788994989545
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 705,
+    "success": true
+  }
+}

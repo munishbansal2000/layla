@@ -1,7 +1,23 @@
 {
-  "total_entries": 16,
-  "last_updated": "2025-12-27T22:30:45.622Z",
+  "total_entries": 21,
+  "last_updated": "2025-12-30T06:11:04.381Z",
   "entries": [
+    {
+      "id": "viator_mjs6v9yv_hl8dug",
+      "timestamp": "2025-12-30T06:11:04.375Z",
+      "type": "freetext",
+      "preview": "freetext: {\"searchTerm\":\"House & Garden by Ryue Nishizawa To",
+      "success": true,
+      "cacheKey": "freetext:{}"
+    },
+    {
+      "id": "viator_mjqg461g_4y8fg9",
+      "timestamp": "2025-12-29T00:54:23.380Z",
+      "type": "search",
+      "preview": "Search: tokyo (3677 results)",
+      "success": true,
+      "cacheKey": "search:{\"count\":20,\"destId\":334,\"destName\":\"tokyo\",\"sortOrder\":\"TRAVELER_RATING\"}"
+    },
     {
       "id": "viator_mjovjlv1_0fodwv",
       "timestamp": "2025-12-27T22:30:45.613Z",

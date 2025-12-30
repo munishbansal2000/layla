@@ -1,0 +1,134 @@
+{
+  "destination": "Tokyo",
+  "country": "Japan",
+  "tripType": "single-city",
+  "cities": [
+    "Tokyo"
+  ],
+  "accommodations": {
+    "Tokyo": {
+      "name": "Shibuya Excel Hotel Tokyu",
+      "address": "1-12-2 Dogenzaka, Shibuya",
+      "neighborhood": "Shibuya",
+      "coordinates": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "type": "hotel",
+      "rating": 4.5
+    }
+  },
+  "days": [
+    {
+      "dayNumber": 1,
+      "date": "2025-03-14",
+      "city": "Tokyo",
+      "title": "Travel Day - Arriving in Tokyo",
+      "accommodation": {
+        "name": "Shibuya Excel Hotel Tokyu",
+        "address": "1-12-2 Dogenzaka, Shibuya",
+        "neighborhood": "Shibuya",
+        "coordinates": {
+          "lat": 35.6762,
+          "lng": 139.6503
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.5
+      },
+      "commuteFromHotel": {
+        "duration": 20,
+        "distance": 2000,
+        "method": "transit",
+        "instructions": "Take the JR Yamanote Line from Shibuya Station to Shinagawa Station."
+      },
+      "commuteToHotel": {
+        "duration": 15,
+        "distance": 1500,
+        "method": "walk",
+        "instructions": "Walk from hotel to Shibuya Station"
+      },
+      "slots": [
+        {
+          "slotId": "day1-morning",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [
+            {
+              "id": "opt-1-1",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "teamLab Planets in Tokyo",
+                "description": "Experience the immersive digital art exhibition at teamLab's gallery.",
+                "category": "activity",
+                "duration": 150,
+                "place": {
+                  "name": "teamLab Planets",
+                  "address": "2F, Meguca Shibuya 109 Bldg, 3-4-7 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0022",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.6822,
+                    "lng": 139.6994
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 1000
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 7000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "cultural",
+                  "outdoor"
+                ],
+                "source": "booked"
+              },
+              "matchReasons": [
+                "Booked activity",
+                "Unique art experience"
+              ],
+              "tradeoffs": [
+                "Long wait time"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": null
+        }
+      ]
+    }
+  ],
+  "generalTips": [
+    "Explore the neighborhood around Shibuya Station for local shops and cafes.",
+    "Use JR Pass if you plan to travel between cities in Japan."
+  ],
+  "estimatedBudget": {
+    "total": {
+      "min": 120000,
+      "max": 150000
+    },
+    "currency": "JPY",
+    "breakdown": {
+      "activities": {
+        "min": 7000,
+        "max": 8000
+      },
+      "food": {
+        "min": 40000,
+        "max": 60000
+      },
+      "transport": {
+        "min": 30000,
+        "max": 50000
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "yelp_mjs5glds_awjp5n",
+  "timestamp": "2025-12-30T05:31:39.712Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Gion Karyo",
+      "location": "Gion, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Gion, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "lGiw5XrlbXAhp57tqFRD2w",
+          "alias": "祇園-迦陵-京都市",
+          "name": "Gion Karyō",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/vqodJnukJDLgOZo4al4L2g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%A5%87%E5%9C%92-%E8%BF%A6%E9%99%B5-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 27,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "comfortfood",
+              "title": "Comfort Food"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.0017972585662,
+            "longitude": 135.774510984706
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "東山区祇園町南側570-235",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "605-0074",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区祇園町南側570-235",
+              "Kyoto, 京都府 〒605-0074",
+              "Japan"
+            ]
+          },
+          "phone": "+81755320025",
+          "display_phone": "+81 75-532-0025",
+          "distance": 499.7214333023059,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1530",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1530",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1530",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1530",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1530",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.7789134979248,
+          "latitude": 35.0044791241568
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 614,
+    "success": true
+  }
+}

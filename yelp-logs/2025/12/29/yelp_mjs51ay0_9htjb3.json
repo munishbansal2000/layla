@@ -1,0 +1,136 @@
+{
+  "id": "yelp_mjs51ay0_9htjb3",
+  "timestamp": "2025-12-30T05:19:46.344Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "歳時記 年神",
+      "location": "Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "2-D20WVb4eJ22-ZXf8Ao4w",
+          "alias": "歳時記-年神-京都市-2",
+          "name": "SAIJIKI TOSHIGAMI",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/8XeFGoncWNAfeRphXCd-9A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%AD%B3%E6%99%82%E8%A8%98-%E5%B9%B4%E7%A5%9E-%E4%BA%AC%E9%83%BD%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 9,
+          "categories": [
+            {
+              "alias": "sakebars",
+              "title": "Sake Bars"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.001797,
+            "longitude": 135.777356
+          },
+          "transactions": [],
+          "location": {
+            "address1": "東山区東大路通松原上ル月見町6番地",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "605-0829",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区東大路通松原上ル月見町6番地",
+              "Kyoto, 京都府 〒605-0829",
+              "Japan"
+            ]
+          },
+          "phone": "+81757416126",
+          "display_phone": "+81 75-741-6126",
+          "distance": 1466.554940746613,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.toshigami.com/corce.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.7635498046875,
+          "latitude": 35.00858416531922
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 683,
+    "success": true
+  }
+}

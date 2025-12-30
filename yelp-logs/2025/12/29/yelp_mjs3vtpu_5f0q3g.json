@@ -1,0 +1,33 @@
+{
+  "id": "yelp_mjs3vtpu_5f0q3g",
+  "timestamp": "2025-12-30T04:47:31.122Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Dotonbori Konamon Museum",
+      "location": "Dotonbori, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Dotonbori, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [],
+      "total": 0,
+      "region": {
+        "center": {
+          "longitude": 135.5031394958496,
+          "latitude": 34.66865195241771
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 586,
+    "success": true
+  }
+}

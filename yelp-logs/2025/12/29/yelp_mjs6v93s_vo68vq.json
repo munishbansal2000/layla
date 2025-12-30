@@ -1,0 +1,1034 @@
+{
+  "id": "yelp_mjs6v93s_vo68vq",
+  "timestamp": "2025-12-30T06:11:03.256Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "latitude": "34.703802",
+      "longitude": "135.4942563",
+      "radius": "1500",
+      "categories": "restaurants",
+      "limit": "10",
+      "sort_by": "rating"
+    }
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Ulj-RuxsAbse6tj1tNakYA",
+          "alias": "スモーブローキッチン中之島店-大阪市",
+          "name": "Smorrebrod kitchen Nakanoshima",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/rF0uPt2gAG23OCyXRZ1DMw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%96%E3%83%AD%E3%83%BC%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E4%B8%AD%E4%B9%8B%E5%B3%B6%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.6934006418646,
+            "longitude": 135.503138007935
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中之島1-2-10",
+            "address2": "中之島図書館内 2階",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0005",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中之島1-2-10",
+              "中之島図書館内 2階",
+              "Osaka, 大阪府 〒530-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81662228719",
+          "display_phone": "+81 6-6222-8719",
+          "distance": 1413.136292461157,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "x3DXypiwFzVL74zn1_-jTw",
+          "alias": "タケリア-ラ-フォンダ-大阪市",
+          "name": "TAQUERIA LA FONDA",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/cql1nkrI9DvnT_t-FSVHyA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%BF%E3%82%B1%E3%83%AA%E3%82%A2-%E3%83%A9-%E3%83%95%E3%82%A9%E3%83%B3%E3%83%80-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 15,
+          "categories": [
+            {
+              "alias": "mexican",
+              "title": "Mexican"
+            },
+            {
+              "alias": "bars",
+              "title": "Bars"
+            },
+            {
+              "alias": "gastropubs",
+              "title": "Gastropubs"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.684061,
+            "longitude": 135.514384
+          },
+          "transactions": [],
+          "location": {
+            "address1": "中央区徳井町2-2-14",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "540-0025",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区徳井町2-2-14",
+              "Osaka, 大阪府 〒540-0025",
+              "Japan"
+            ]
+          },
+          "phone": "+81669435657",
+          "display_phone": "+81 6-6943-5657",
+          "distance": 2864.3815712433197,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2330",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "7BkEpX81AVLKbGKNcRhUSQ",
+          "alias": "玄品ふぐ-梅田東通の関-大阪市",
+          "name": "Genpinfugu Umedahigashidoorinoseki",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/iIWhH-eX6W_0xJwYWi2aIA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%8E%84%E5%93%81%E3%81%B5%E3%81%90-%E6%A2%85%E7%94%B0%E6%9D%B1%E9%80%9A%E3%81%AE%E9%96%A2-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.702769,
+            "longitude": 135.502679
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区堂山町4-17",
+            "address2": "固城ビル",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0027",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区堂山町4-17",
+              "固城ビル",
+              "Osaka, 大阪府 〒530-0027",
+              "Japan"
+            ]
+          },
+          "phone": "+81663110129",
+          "display_phone": "+81 6-6311-0129",
+          "distance": 778.4777627459185,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.tettiri.com/shina/index.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "qCiO0c-38ec3UACBLJnpOg",
+          "alias": "弧柳-大阪市-北区",
+          "name": "Koryuu",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/3hjvl-ZbCgRrXpX0n4onmQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%BC%A7%E6%9F%B3-%E5%A4%A7%E9%98%AA%E5%B8%82-%E5%8C%97%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.6964346,
+            "longitude": 135.4982042
+          },
+          "transactions": [],
+          "location": {
+            "address1": "堂島1丁目5-1",
+            "address2": "エスパス北新地23　1Ｆ",
+            "address3": null,
+            "city": "大阪市 北区",
+            "zip_code": "530-0003",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "堂島1丁目5-1",
+              "エスパス北新地23　1Ｆ",
+              "大阪市 北区, 大阪府 〒530-0003",
+              "Japan"
+            ]
+          },
+          "phone": "+81663475660",
+          "display_phone": "+81 6-6347-5660",
+          "distance": 895.1934218101161,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "0000",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.koryu.net/index.php?data=./data/l2/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "JGgUifCS_C0GmfQpPOHyCQ",
+          "alias": "とんかつ-まい泉-ルクアイーレ店-大阪市",
+          "name": "Tonkatsu Maisen LUCUA 1100",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/_4SwLsVV6QWMtrFRDa9PUA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4-%E3%81%BE%E3%81%84%E6%B3%89-%E3%83%AB%E3%82%AF%E3%82%A2%E3%82%A4%E3%83%BC%E3%83%AC%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "tonkatsu",
+              "title": "Tonkatsu"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.702925,
+            "longitude": 135.495543
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区梅田3-1-3",
+            "address2": "10F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0001",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区梅田3-1-3",
+              "10F",
+              "Osaka, 大阪府 〒530-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81661511463",
+          "display_phone": "+81 6-6151-1463",
+          "distance": 152.7903364472066,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "y-jhDf_X33ou2fKfsCjEvA",
+          "alias": "thai-ya-tai-大阪市-2",
+          "name": "Thai-Ya-Tai",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/W36XeTxkZy62SfJp_O4aog/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/thai-ya-tai-%E5%A4%A7%E9%98%AA%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "thai",
+              "title": "Thai"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.6989398693438,
+            "longitude": 135.503880116808
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区曽根崎1-6-23",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0001",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区曽根崎1-6-23",
+              "Osaka, 大阪府 〒530-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+815058699598",
+          "display_phone": "+81 50-5869-9598",
+          "distance": 1032.6194685788792,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "m-X5PZMNQkFDNlChL_iMuA",
+          "alias": "ジェイティード-カフェ-大阪市",
+          "name": "JTRRD cafe",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/2CvlnqWkODbsv9voU-jqaw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%86%E3%82%A3%E3%83%BC%E3%83%89-%E3%82%AB%E3%83%95%E3%82%A7-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.692803,
+            "longitude": 135.515445
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区天満3-4-5",
+            "address2": "タツタビル 1F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0043",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区天満3-4-5",
+              "タツタビル 1F",
+              "Osaka, 大阪府 〒530-0043",
+              "Japan"
+            ]
+          },
+          "phone": "+81668824835",
+          "display_phone": "+81 6-6882-4835",
+          "distance": 2290.862698452338,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1700",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1700",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1700",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1700",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1700",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "Dsa186epCHiga_UBEY3M-Q",
+          "alias": "めぐりめし恵-大阪市",
+          "name": "Meguri Meshi Megumi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/qZN_mdnVK18xfKgfoVmGvA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%81%E3%81%90%E3%82%8A%E3%82%81%E3%81%97%E6%81%B5-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "desserts",
+              "title": "Desserts"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            },
+            {
+              "alias": "cafeteria",
+              "title": "Cafeteria"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.699913,
+            "longitude": 135.512819
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区与力町2-8",
+            "address2": "東寺町ビル",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0036",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区与力町2-8",
+              "東寺町ビル",
+              "Osaka, 大阪府 〒530-0036",
+              "Japan"
+            ]
+          },
+          "phone": "+81663570038",
+          "display_phone": "+81 6-6357-0038",
+          "distance": 1751.1627953039126,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "Jp8BcEWGUKlllTgcVpuGCA",
+          "alias": "木暮-大阪市",
+          "name": "Kogure",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/mclqasV8sWficq10-XLtPQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%A8%E6%9A%AE-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.7036048845038,
+            "longitude": 135.502860170205
+          },
+          "transactions": [],
+          "location": {
+            "address1": "堂山町8-16",
+            "address2": null,
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0027",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "堂山町8-16",
+              "Osaka, 大阪府 〒530-0027",
+              "Japan"
+            ]
+          },
+          "phone": "+81663615707",
+          "display_phone": "+81 6-6361-5707",
+          "distance": 786.8199920127566,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "9SjbwL5HeOoXsdZKVyfKgA",
+          "alias": "たかま-大阪市-北区",
+          "name": "Takama",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/7-PvVxwOV-IjdkkhPIPCIQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%9F%E3%81%8B%E3%81%BE-%E5%A4%A7%E9%98%AA%E5%B8%82-%E5%8C%97%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "soba",
+              "title": "Soba"
+            },
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.7141895001282,
+            "longitude": 135.510943037382
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "天神橋7丁目12-14",
+            "address2": null,
+            "address3": null,
+            "city": "大阪市 北区",
+            "zip_code": "531-0041",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "天神橋7丁目12-14",
+              "大阪市 北区, 大阪府 〒531-0041",
+              "Japan"
+            ]
+          },
+          "phone": "+81668828844",
+          "display_phone": "+81 6-6882-8844",
+          "distance": 1913.2858365509246,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 8500,
+      "region": {
+        "center": {
+          "longitude": 135.4942563,
+          "latitude": 34.703802
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 568,
+    "success": true
+  }
+}

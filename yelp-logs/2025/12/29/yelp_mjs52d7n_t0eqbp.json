@@ -1,0 +1,33 @@
+{
+  "id": "yelp_mjs52d7n_t0eqbp",
+  "timestamp": "2025-12-30T05:20:35.939Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "フグ料理大政",
+      "location": "Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [],
+      "total": 0,
+      "region": {
+        "center": {
+          "longitude": 135.48751831054688,
+          "latitude": 34.67822047791179
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1165,
+    "success": true
+  }
+}

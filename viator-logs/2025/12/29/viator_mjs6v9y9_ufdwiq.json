@@ -1,0 +1,1204 @@
+{
+  "id": "viator_mjs6v9y9_ufdwiq",
+  "timestamp": "2025-12-30T06:11:04.353Z",
+  "type": "freetext",
+  "request": {
+    "endpoint": "/search/freetext",
+    "method": "POST",
+    "params": {
+      "searchTerm": "Sensō-ji Tokyo",
+      "count": 10
+    }
+  },
+  "response": {
+    "products": {
+      "totalCount": 164,
+      "results": [
+        {
+          "productCode": "175777P13",
+          "title": "Asakusa Senso-ji Temple and Old Tokyo Walking Tour",
+          "description": "The Asakusa Walking Tour in Tokyo offers a captivating exploration of the historic district, blending traditional and modern elements. The focal point, Senso-ji Temple, Tokyo's oldest Buddhist temple, stands with its Thunder Gate and Nakamise Shopping Street. Participants delve into the temple's history, exploring intricate architecture and partaking in rituals. Guides share compelling stories, enriching the understanding of Senso-ji's cultural significance. Meandering through Asakusa reveals charming shops, crafts, and local eateries, creating a vibrant tapestry. This immersive tour promises a sensory journey through Tokyo's cultural heritage, balancing ancient allure with dynamic energy.",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "Asakusa",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/16/3e/fb/95.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/16/3e/fb/95.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 177,
+                "averageRating": 4.7
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 325,
+                "averageRating": 4.9
+              }
+            ],
+            "totalReviews": 502,
+            "combinedAverageRating": 4.8207173
+          },
+          "duration": {
+            "fixedDurationInMinutes": 120
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 20,
+              "fromPriceBeforeDiscount": 20
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Asakusa/Asakusa-Sensoji-Temple-Walking-Tour-Tokyo/d59194-175777P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "59194",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367658,
+            367661,
+            12029,
+            22143,
+            12028,
+            21972,
+            367652,
+            367654,
+            12046,
+            21860,
+            367653,
+            367659
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "456539P20",
+          "title": "Tokyo: Asakusa Senso-ji Temple & Old Town Walking Tour",
+          "description": "Step into Tokyo’s past on this immersive Asakusa walking tour. Visit Senso-ji, the city’s oldest temple, pass through Kaminarimon Gate, and stroll Nakamise Street lined with shops, lanterns, and local treats. Once the heart of Edo-era culture, Asakusa still echoes with tradition. Your guide will share stories of geisha districts, hidden shrines, and the area’s evolution—revealing both famous sights and hidden gems for a deeper connection to Japan’s living history.\n\n【Tour Highlights】\n\n・Insightful stories and cultural context shared along the way\n\n・Engaging commentary on history and tradition during the tour\n\n・Learn fascinating cultural insights and historical details as you explore\n\n・Expert narration highlighting Asakusa’s rich heritage\n\n・A guided journey filled with history, legends, and cultural background",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/b7/0c/d3.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/b7/0c/d3.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 5,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 209,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 214,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 120
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 19.64,
+              "fromPriceBeforeDiscount": 19.64
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Asakusa/Asakusa-Private-Food-Walking-Tour-for-Family-Lunch-and-5-bites/d59194-456539P20?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "59194",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367658,
+            367653,
+            12029,
+            22143,
+            21911,
+            21972,
+            367654,
+            367661,
+            12046,
+            12011
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "NEW_ON_VIATOR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "470703P2",
+          "title": "Tokyo 4‑Day Self‑Guided PDF Tour of Senso‑ji, Shibuya and more",
+          "description": "Lost on what to do in Tokyo? We have created the ultimate Tokyo itinerary, visiting both iconic landmarks, temples, food market, but also including some local hidden secrets!\n\nImportant Info:\nAfter purchasing this tour, you will receive an e-mail from us with the PDF file of your itinerary. Please give it 2-3 business days before arriving as we get a lot of e-mails and might take more then 1 day before we can get back to you\n\nEmbark on an exclusive 4 days tour in Tokyo! Here's a sneak peek into the adventure awaiting you:\n\nYour day begins with the flexibility to choose a start time that suits you best, allowing for a stress-free and enjoyable experience! (Somedays we might suggest a start time depending on the season and how touristy some locations are)",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/d3/4b/d3.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/d3/4b/d3.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 5,
+                "averageRating": 4
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 2,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 7,
+            "combinedAverageRating": 4.285714
+          },
+          "duration": {
+            "fixedDurationInMinutes": 5760
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "MULTI_DAY_TOUR",
+          "pricing": {
+            "summary": {
+              "fromPrice": 3.27,
+              "fromPriceBeforeDiscount": 3.27
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Tokyo-The-Ultimate-Self-Guided-Tour-PDF-Itinerary/d334-470703P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367654,
+            22143,
+            11922,
+            12046,
+            21439,
+            367661,
+            12028,
+            367653,
+            367658
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "477979P3",
+          "title": "Tokyo: Private Asakusa & Senso-ji Temple Tour with 3 food stops",
+          "description": "Discover the best of Asakusa through its many unique sides!\n\nYou’ll learn about the rich history and spiritual depth of Senso-ji Temple by a friendly yet knowledgeable expert guide, feel the lively energy of Nakamise Street with its colorful shops and friendly vendors, and enjoy three local foods loved by Japanese people—already included in the tour. \nThe area is filled with traditional goods and unique items that show Asakusa’s character, and you can also experience Japan’s kitchen culture by seeing beautifully crafted tableware made with traditional techniques in the nearby Kappabashi district.\n\nDiscover Japan through the eyes of a local guide!\n\n・Visit Senso-ji Temple and learn its rich, fascinating history from a friendly and knowledgeable local guide.\n・Stroll through Nakamise Street and enjoy three hand-picked street foods selected by your local guide.\n・Hear cultural insights and stories that a Japanese local guide is especially able to share.",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "Enjoy our best Asakusa tour!",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/16/53/d9/c6.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/16/53/d9/c6.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 10,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 5,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 15,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 120
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 52.37,
+              "fromPriceBeforeDiscount": 52.37
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Asakusa/Tokyo-Sensoji-Temple-and-Street-Food-Private-Tour-with-guide/d59194-477979P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "59194",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367658,
+            367653,
+            12029,
+            22143,
+            20245,
+            11941,
+            21911,
+            367654,
+            21972,
+            12046,
+            367661
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "442381P20",
+          "title": "Tokyo: Asakusa Senso-ji Temple 1.5 hour guided tour",
+          "description": "Lost on what to do to enjoy in Japan? \nFear not! Let gotcha be your guide and support you!\n\nStep into Tokyo's cultural heart with our Senso-ji Tour! Join our knowledgeable guide for an immersive exploration of Asakusa's iconic Senso-ji Temple. Delve into Japan's vibrant past and present as our expert shares captivating stories and historical insights about this revered site. Uncover the temple's rich history, witness traditional rituals, and immerse yourself in the spiritual ambiance. Experience the essence of Japanese culture in just one hour, making your visit to Senso-ji Temple an enlightening and memorable journey through Japan's heritage.\n\nHave a wonderful experience with gotcha!!",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "Lightning Gate",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/3f/6d/70.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/3f/6d/70.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 3,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 5,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 8,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 90
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 34.56,
+              "fromPriceBeforeDiscount": 43.2
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Asakusa-SENSOJI-Temple-Shrine-Tour/d334-442381P20?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12028,
+            12029,
+            367653,
+            21860,
+            367654,
+            20757,
+            12046,
+            22083
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "SPECIAL_OFFER",
+            "LIKELY_TO_SELL_OUT"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "5522662P23",
+          "title": "Full Tokyo: Meiji Shrine, Imperial Palace, Asakusa & Skytree",
+          "description": "Explore Tokyo's top landmarks in a single unforgettable day. Begin with the bustling energy of Shibuya Crossing, one of the world’s busiest intersections, then find calm at the serene Meiji Shrine, nestled in a lush forest. Capture photos of the majestic Imperial Palace. Experience the vibrant district of Akihabara, visit the historic Senso-ji Temple in Asakusa, and end with panoramic views from the iconic Tokyo Skytree. A complete Tokyo adventure awaits!",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/4d/eb/1b.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/4d/eb/1b.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 7,
+                "averageRating": 4.9
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 63,
+                "averageRating": 4.9
+              }
+            ],
+            "totalReviews": 70,
+            "combinedAverageRating": 4.928571
+          },
+          "duration": {
+            "fixedDurationInMinutes": 420
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 39,
+              "fromPriceBeforeDiscount": 39
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Full-Tokyo-Meiji-Shrine-Imperial-Palace-Akihabara-and-Senso-ji/d334-5522662P23?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367658,
+            11928,
+            367661,
+            21972,
+            12075,
+            12029,
+            12032,
+            367654,
+            367653
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "5523026P11",
+          "title": "Tokyo: Asakusa History Walking & Local Food Culture",
+          "description": "Step into the heart of Tokyo’s past with a local guide. Visit Senso-ji — Tokyo’s oldest temple, founded in 628 — and stroll through streets where locals have enjoyed traditional treats for generations.\n\nHighlights:\n・Senso-ji Temple – Tokyo’s oldest temple\n・Recommend local street food\n・Pro chef knife shop\n・Samurai sword & ninja gear store",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/16/38/a7/26.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/16/38/a7/26.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 12,
+                "averageRating": 4.8
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 170,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 182,
+            "combinedAverageRating": 4.9835167
+          },
+          "duration": {
+            "fixedDurationInMinutes": 120
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 19.64,
+              "fromPriceBeforeDiscount": 19.64
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Asakusa/Tokyo-Asakusa-and-Sensoji-Temple-Walking-Tour-with-a-Local/d59194-5523026P11?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "59194",
+              "primary": true
+            }
+          ],
+          "tags": [
+            21911,
+            12029,
+            367654,
+            22143,
+            12046,
+            12053,
+            367661,
+            21972,
+            367653,
+            367658
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "366784P58",
+          "title": "Tokyo Asakusa & Senso-ji Tour with Audioguide",
+          "description": "Our Audio Guide is a convenient mobile companion for a self-guided tour of Tokyo's Asakusa neighborhood. This app features a pre-planned walking route that leads you through the main attractions of Asakusa, complete with engaging audio commentary about the city's history. You don't need a network connection to use the audio guide. The itinerary covers 32 points and concludes at the Sumida Riverside. After the tour, feel free to explore the park, take a river cruise or take in the view restaurant at Asahi Beer Tower (not included).",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/fc/45/68.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/fc/45/68.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 1,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 1,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 90
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 8.39,
+              "fromPriceBeforeDiscount": 8.39
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Self-Guided-Walking-Tour-of-Senso-ji-Temple-and-Asakusa-in-Tokyo/d334-366784P58?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367654,
+            12011,
+            22143,
+            12046,
+            21439,
+            367661,
+            12028,
+            367653,
+            367658
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "442381P19",
+          "title": "Tokyo, Sumida River Walk to Asakusa Senso-ji temple Tour",
+          "description": "Lost on what to do to enjoy in Japan? \nFear not! Let gotcha be your guide and support you!\n\nImmerse yourself in Tokyo's heartbeat with our unique tours! From sumptuous sweets to historic temples and serene river walk, our experiences merge cultural delights, expert guidance, and local insights. Discover hidden gems, and dive into Japan's rich heritage. Our guides offer dual perspectives, ensuring an unforgettable journey through Asakusa's flavors and Senso-ji's history. Experience Tokyo differently—book with us for a curated adventure that blends cultural immersion, and captivating narratives, creating lasting memories of Japan's enchantment.\n\nHave a wonderful experience with gotcha!!",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/4a/3e/4c.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/4a/3e/4c.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 2,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 4,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 6,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 90
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 43.2,
+              "fromPriceBeforeDiscount": 43.2
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/From-River-Walk-to-Temple-Tour/d334-442381P19?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12028,
+            12029,
+            367653,
+            21860,
+            367654,
+            20757,
+            12046,
+            22083
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "LIKELY_TO_SELL_OUT"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "18568P93",
+          "title": "Tokyo Self-Guided Audio Tour",
+          "description": "Experience Tokyo like never before with complete freedom to discover the city's most captivating destinations at your own rhythm. Our expertly crafted audio experience unlocks exclusive historical insights and hidden stories that even seasoned locals rarely know, transforming every step into an authentic cultural journey. Unlike rigid group tours that rush you through crowded schedules, you choose which attractions captivate you most, spending as much or as little time as you desire at each remarkable location. The professionally narrated content features crystal-clear storytelling delivered through an engaging, warm voice that draws you into Tokyo's fascinating past and vibrant present. Each carefully researched narrative reveals secrets behind iconic landmarks while providing context that deepens your appreciation for Japan's rich heritage, ensuring you'll walk away with profound understanding rather than surface-level sightseeing memories.",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/0e/c6/88/19.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/0e/c6/88/19.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 6,
+                "averageRating": 1.8
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 6,
+                "averageRating": 4.7
+              }
+            ],
+            "totalReviews": 12,
+            "combinedAverageRating": 3.25
+          },
+          "duration": {
+            "variableDurationFromMinutes": 180,
+            "variableDurationToMinutes": 540
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 6,
+              "fromPriceBeforeDiscount": 6
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Take-a-short-trip-to-Gedee-Car-Museum-in-Coimbatore/d334-18568P93?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12029,
+            11938,
+            367654,
+            12013,
+            367653,
+            12028,
+            11889,
+            367661,
+            12011,
+            11941,
+            12046
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "duration_ms": 703,
+    "success": true,
+    "searchTerm": "Sensō-ji Tokyo"
+  }
+}

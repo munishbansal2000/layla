@@ -1,0 +1,521 @@
+{
+  "id": "yelp_mjs51uh8_5mmf36",
+  "timestamp": "2025-12-30T05:20:11.660Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "本せきぐち",
+      "location": "Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "KNvOWGEhA5rF7MxR10MEyQ",
+          "alias": "炭火焼-和魂-大阪市",
+          "name": "Sumibiyaki Wakon",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/TimEUcZqFUHqh3k-OMpIcg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%82%AD%E7%81%AB%E7%84%BC-%E5%92%8C%E9%AD%82-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "yakitori",
+              "title": "Yakitori"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 34.6705394638373,
+            "longitude": 135.499259990769
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区西心斎橋2-9-5",
+            "address2": "日宝三ツ寺会館 1F6号",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0086",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区西心斎橋2-9-5",
+              "日宝三ツ寺会館 1F6号",
+              "Osaka, 大阪府 〒542-0086",
+              "Japan"
+            ]
+          },
+          "phone": "+81662113355",
+          "display_phone": "+81 6-6211-3355",
+          "distance": 1371.99647390546,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0500",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "ZPDeRoqHgRIlC0EM1rqBEg",
+          "alias": "鶏ダイニング-月のおどり-大阪市",
+          "name": "Tsuki no Odori -Yakitori Chicken Dining-",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XgafjzQxCqrcY22vbVUtPw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%8F%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0-%E6%9C%88%E3%81%AE%E3%81%8A%E3%81%A9%E3%82%8A-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "yakitori",
+              "title": "Yakitori"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 3.8,
+          "coordinates": {
+            "latitude": 34.6688627,
+            "longitude": 135.5049628
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区道頓堀1-1-11",
+            "address2": "24Kビル 2F",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "542-0071",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区道頓堀1-1-11",
+              "24Kビル 2F",
+              "Osaka, 大阪府 〒542-0071",
+              "Japan"
+            ]
+          },
+          "phone": "+81662139988",
+          "display_phone": "+81 6-6213-9988",
+          "distance": 1904.6119426860494,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "DI4rYoOBgf_1P1hBx9nq9w",
+          "alias": "和菜厨房暖-大阪市",
+          "name": "Wasaichuuboudan",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/RwOnEpCznWID2hbpN6B4NA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%92%8C%E8%8F%9C%E5%8E%A8%E6%88%BF%E6%9A%96-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.7076846895848,
+            "longitude": 135.511208512752
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "北区天神橋5丁目830",
+            "address2": "ナガタビル",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0041",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区天神橋5丁目830",
+              "ナガタビル",
+              "Osaka, 大阪府 〒530-0041",
+              "Japan"
+            ]
+          },
+          "phone": "+81663570303",
+          "display_phone": "+81 6-6357-0303",
+          "distance": 3927.472996995371,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "SzYNeoRPN5T3CI44wFMj3Q",
+          "alias": "奢酌楽-大阪市",
+          "name": "Juggler",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/5AWHukNO18rhj_wAi-BFnw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%A5%A2%E9%85%8C%E6%A5%BD-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "bars",
+              "title": "Bars"
+            },
+            {
+              "alias": "bistros",
+              "title": "Bistros"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 34.6461906,
+            "longitude": 135.5204926
+          },
+          "transactions": [],
+          "location": {
+            "address1": "西田辺町2-1-19",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "545-0014",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "西田辺町2-1-19",
+              "Osaka, 大阪府 〒545-0014",
+              "Japan"
+            ]
+          },
+          "phone": "+81666064222",
+          "display_phone": "+81 6-6606-4222",
+          "distance": 7197.771881698128,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "CeuWBOb3rJlyPx3iK4qMPA",
+          "alias": "馳走-蔵〼-大阪市-3",
+          "name": "Chisou Kuramasu",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/rKeIl0Yya3lPpn2rQufIOA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%A6%B3%E8%B5%B0-%E8%94%B5%E3%80%BC-%E5%A4%A7%E9%98%AA%E5%B8%82-3?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 15,
+          "categories": [
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "raw_food",
+              "title": "Live/Raw Food"
+            },
+            {
+              "alias": "sakebars",
+              "title": "Sake Bars"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 34.6715873,
+            "longitude": 135.4900835
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "西区南堀江3-3-1",
+            "address2": "脇本ビル 1F",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "550-0015",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "西区南堀江3-3-1",
+              "脇本ビル 1F",
+              "Osaka, 大阪府 〒550-0015",
+              "Japan"
+            ]
+          },
+          "phone": "+81665353212",
+          "display_phone": "+81 6-6535-3212",
+          "distance": 773.9784458330645,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 20,
+      "region": {
+        "center": {
+          "longitude": 135.48751831054688,
+          "latitude": 34.67822047791179
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1159,
+    "success": true
+  }
+}

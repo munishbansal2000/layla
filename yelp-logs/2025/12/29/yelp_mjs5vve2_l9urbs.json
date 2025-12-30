@@ -1,0 +1,476 @@
+{
+  "id": "yelp_mjs5vve2_l9urbs",
+  "timestamp": "2025-12-30T05:43:32.522Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "吟松",
+      "location": "Nara",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Nara"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "B9PntIuTetsg5FfCc4fQBA",
+          "alias": "松吟庵-東三国店-大阪市",
+          "name": "Syoginan Higashimikuni ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ZdpJ7tSipBu_IFWTIcBoaQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%BE%E5%90%9F%E5%BA%B5-%E6%9D%B1%E4%B8%89%E5%9B%BD%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "soba",
+              "title": "Soba"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 34.7403106689453,
+            "longitude": 135.499313354492
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "淀川区東三国1-33-21",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "532-0002",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "淀川区東三国1-33-21",
+              "Osaka, 大阪府 〒532-0002",
+              "Japan"
+            ]
+          },
+          "phone": "+81663357486",
+          "display_phone": "+81 6-6335-7486",
+          "distance": 37104.153884703795,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "CiOC3mic7cTmwjk2Y7jsqQ",
+          "alias": "天橋立松吟-宮津市",
+          "name": "Amanohashidate Matsugin",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/undAdg-NJzKF4S7cD4YZvw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%A4%A9%E6%A9%8B%E7%AB%8B%E6%9D%BE%E5%90%9F-%E5%AE%AE%E6%B4%A5%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 35.0212466,
+            "longitude": 135.7555968
+          },
+          "transactions": [],
+          "location": {
+            "address1": "文珠470-1",
+            "address2": "観光センター2階",
+            "address3": "",
+            "city": "Miyazu",
+            "zip_code": "626-0001",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "文珠470-1",
+              "観光センター2階",
+              "Miyazu, 京都府 〒626-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81772223285",
+          "display_phone": "+81 772-22-3285",
+          "distance": 42294.868366164344,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0830",
+                  "end": "1730",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "DmubRyx6evoP-FRsprAzvg",
+          "alias": "吟松高畑店-奈良市",
+          "name": "吟松高畑店",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/JJKyU8dCn5xDQQMvyChdOQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%90%9F%E6%9D%BE%E9%AB%98%E7%95%91%E5%BA%97-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 34.6771793405,
+            "longitude": 135.847703177
+          },
+          "transactions": [],
+          "location": {
+            "address1": "高畑町1412-1",
+            "address2": null,
+            "address3": null,
+            "city": "Nara",
+            "zip_code": "630-8301",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "高畑町1412-1",
+              "Nara, 奈良県 〒630-8301",
+              "Japan"
+            ]
+          },
+          "phone": "+81742260188",
+          "display_phone": "+81 742-26-0188",
+          "distance": 4635.635759095827,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "pK3PjgjEy3ccyx7CvRNlTA",
+          "alias": "吟松奈良町店-奈良市",
+          "name": "吟松奈良町店",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%90%9F%E6%9D%BE%E5%A5%88%E8%89%AF%E7%94%BA%E5%BA%97-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 34.6771019933,
+            "longitude": 135.830156657
+          },
+          "transactions": [],
+          "location": {
+            "address1": "西新屋町18",
+            "address2": null,
+            "address3": null,
+            "city": "Nara",
+            "zip_code": "630-8334",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "西新屋町18",
+              "Nara, 奈良県 〒630-8334",
+              "Japan"
+            ]
+          },
+          "phone": "+81742231355",
+          "display_phone": "+81 742-23-1355",
+          "distance": 6100.545392804053,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "PgpDiqCVnYBkhHA7XPeZhQ",
+          "alias": "東山-京都市東山区",
+          "name": "Touzan",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/3g315kP6U3-YjbKfrAEg0A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B1%E5%B1%B1-%E4%BA%AC%E9%83%BD%E5%B8%82%E6%9D%B1%E5%B1%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "bars",
+              "title": "Bars"
+            },
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 34.9883387,
+            "longitude": 135.7729735
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "三十三間堂廻り644番地2",
+            "address2": "ハイアットリージェンシー京都 ガーデンフロア",
+            "address3": "",
+            "city": "京都市東山区",
+            "zip_code": "605-0941",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "三十三間堂廻り644番地2",
+              "ハイアットリージェンシー京都 ガーデンフロア",
+              "京都市東山区, 京都府 〒605-0941",
+              "Japan"
+            ]
+          },
+          "phone": "+81755413201",
+          "display_phone": "+81 75-541-3201",
+          "distance": 38333.44406722185,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 9,
+      "region": {
+        "center": {
+          "longitude": 135.89263916015625,
+          "latitude": 34.65788994989545
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 917,
+    "success": true
+  }
+}

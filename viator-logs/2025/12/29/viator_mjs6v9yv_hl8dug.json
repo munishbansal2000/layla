@@ -1,0 +1,352 @@
+{
+  "id": "viator_mjs6v9yv_hl8dug",
+  "timestamp": "2025-12-30T06:11:04.375Z",
+  "type": "freetext",
+  "request": {
+    "endpoint": "/search/freetext",
+    "method": "POST",
+    "params": {
+      "searchTerm": "House & Garden by Ryue Nishizawa Tokyo",
+      "count": 10
+    }
+  },
+  "response": {
+    "products": {
+      "totalCount": 3,
+      "results": [
+        {
+          "productCode": "297993P5",
+          "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
+          "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/e3/49/e1.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/e3/49/e1.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 6,
+                "averageRating": 4.8
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 9,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 15,
+            "combinedAverageRating": 4.9333334
+          },
+          "duration": {
+            "variableDurationFromMinutes": 360,
+            "variableDurationToMinutes": 480
+          },
+          "confirmationType": "MANUAL",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 425.49,
+              "fromPriceBeforeDiscount": 425.49
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367660,
+            11941,
+            12046,
+            12013,
+            21519,
+            21764,
+            12032,
+            21768,
+            367654,
+            12056,
+            367653,
+            12031,
+            21774,
+            367661,
+            11889
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "104654P21",
+          "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
+          "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/9a/ce/19.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/9a/ce/19.jpg"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "fixedDurationInMinutes": 300
+          },
+          "confirmationType": "INSTANT_THEN_MANUAL",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 275.27,
+              "fromPriceBeforeDiscount": 275.27
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12029,
+            12032,
+            11930,
+            11889,
+            367661,
+            11929,
+            12028,
+            11941
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "104654P22",
+          "title": "Private Walking Tour of Tokyo with a water bus ride",
+          "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/80/27/2a.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/80/27/2a.jpg"
+                }
+              ]
+            }
+          ],
+          "duration": {
+            "fixedDurationInMinutes": 480
+          },
+          "confirmationType": "INSTANT_THEN_MANUAL",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 297.29,
+              "fromPriceBeforeDiscount": 297.29
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12029,
+            12032,
+            11928,
+            11930,
+            11889,
+            367661,
+            12028,
+            11941
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "duration_ms": 718,
+    "success": true,
+    "searchTerm": "House & Garden by Ryue Nishizawa Tokyo"
+  }
+}

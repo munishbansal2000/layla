@@ -1,0 +1,1817 @@
+{
+  "success": true,
+  "data": {
+    "message": "Welcome to your 9-day adventure in Japan! This itinerary is designed for couples who want to explore food, culture, all while balancing activities with relaxation. From iconic landmarks to hidden gems, every day brings new highlights. Let's dive in! 🌸",
+    "itinerary": {
+      "destination": "Japan",
+      "country": "Japan",
+      "days": [
+        {
+          "dayNumber": 1,
+          "date": "2026-01-15",
+          "city": "Tokyo",
+          "title": "Exploring the Heart of Tokyo",
+          "slots": [
+            {
+              "slotId": "day1-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Senso-ji Temple",
+                    "description": "Tokyo's oldest temple, famous for its vibrant market street.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Sensō-ji",
+                      "address": "金龍山 浅草寺, 1, 浅草二丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
+                      "neighborhood": "浅草二丁目",
+                      "coordinates": {
+                        "lat": 35.7134032,
+                        "lng": 139.7955265
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural significance",
+                    "Iconic landmark"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Nakamise Street",
+                    "description": "A shopping street leading to Senso-ji, known for traditional snacks.",
+                    "category": "market",
+                    "duration": 60,
+                    "place": {
+                      "name": "Nakamise Street",
+                      "address": "仲見世通り, 浅草一丁目, 浅草, 台東区, 東京都, 110-0032, 日本",
+                      "neighborhood": "浅草一丁目",
+                      "coordinates": {
+                        "lat": 35.7125206,
+                        "lng": 139.7965171
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good for snacks",
+                    "Cultural experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day1-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Asakusa Imahan",
+                    "description": "Famous for its high-quality sukiyaki.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Asakusa Imahan Kokusaitōri Honten",
+                      "address": "西浅草3-1-12",
+                      "neighborhood": "Taitō",
+                      "coordinates": {
+                        "lat": 35.7139949316521,
+                        "lng": 139.792136328246
+                      },
+                      "rating": 4.8,
+                      "reviewCount": 26,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/7SWAM1Dz5UCQG46jo7GLFQ/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Local cuisine",
+                    "Highly rated"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 6,
+                "distance": 313,
+                "method": "walk",
+                "instructions": "Walk 0.3 km"
+              }
+            },
+            {
+              "slotId": "day1-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tokyo National Museum",
+                    "description": "Japan's oldest and largest museum, showcasing art and antiquities.",
+                    "category": "museum",
+                    "duration": 120,
+                    "place": {
+                      "name": "Tokyo National Museum",
+                      "address": "東京国立博物館, 9, 上野公園, 台東区, 東京都, 110-8712, 日本",
+                      "neighborhood": "上野公園",
+                      "coordinates": {
+                        "lat": 35.7190448,
+                        "lng": 139.7759676
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural experience",
+                    "Educational"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 9,
+                "distance": 1564,
+                "method": "walk",
+                "instructions": "Walk 1.6 km"
+              }
+            },
+            {
+              "slotId": "day1-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ueno Yabu Soba",
+                    "description": "Specializes in soba noodles with a cozy atmosphere.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ueno Yabusoba",
+                      "address": "上野6-9-16",
+                      "neighborhood": "Taitō",
+                      "coordinates": {
+                        "lat": 35.710199,
+                        "lng": 139.775461
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 19,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/kk1qRuKf9hZOdbB4gxKAkw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Local flavor",
+                    "Well-reviewed"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 7,
+                "distance": 985,
+                "method": "walk",
+                "instructions": "Walk 1 km"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 2,
+          "date": "2026-01-16",
+          "city": "Tokyo",
+          "title": "Modern and Traditional Tokyo",
+          "slots": [
+            {
+              "slotId": "day2-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Meiji Shrine",
+                    "description": "A tranquil Shinto shrine surrounded by a beautiful forest.",
+                    "category": "shrine",
+                    "duration": 90,
+                    "place": {
+                      "name": "Meiji Shrine",
+                      "address": "明治神宮, 1, 代々木神園町, 渋谷区, 東京都, 151-8557, 日本",
+                      "neighborhood": "代々木神園町",
+                      "coordinates": {
+                        "lat": 35.6748417,
+                        "lng": 139.6996266
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Peaceful experience",
+                    "Cultural significance"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day2-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Katsu Midori",
+                    "description": "Famous for its delicious katsu and sushi.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Mawashi Sushi Katsu Midori Seibu Ikebukuro",
+                      "address": "南池袋1-28-1",
+                      "neighborhood": "Toshima",
+                      "coordinates": {
+                        "lat": 35.7293804,
+                        "lng": 139.7110627
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 20,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/A6CpGHmFx_bl9Vkn5dtaMw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Highly rated",
+                    "Local flavor"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 20,
+                "distance": 6152,
+                "method": "transit",
+                "instructions": "Take transit (6 km)"
+              }
+            },
+            {
+              "slotId": "day2-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Shibuya Crossing",
+                    "description": "The famous pedestrian scramble and iconic Tokyo landmark.",
+                    "category": "landmark",
+                    "duration": 60,
+                    "place": {
+                      "name": "Shibuya Sta.",
+                      "address": "渋谷駅前交差点, 渋谷センター街, 宇田川町, 渋谷区, 東京都, 150-8377, 日本",
+                      "neighborhood": "宇田川町",
+                      "coordinates": {
+                        "lat": 35.6594951,
+                        "lng": 139.7004982
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Iconic experience",
+                    "Photography opportunities"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 24,
+                "distance": 7829,
+                "method": "transit",
+                "instructions": "Take transit (8 km)"
+              }
+            },
+            {
+              "slotId": "day2-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ichiran Ramen",
+                    "description": "Famous for its delicious tonkotsu ramen in a unique setting.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ichiran Shibuya",
+                      "address": "神南1-22-7",
+                      "neighborhood": "Shibuya",
+                      "coordinates": {
+                        "lat": 35.661131,
+                        "lng": 139.700987
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 753,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/RlTCz2nPj8btd3bcJeS5zg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Highly recommended",
+                    "Unique dining experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 5,
+                "distance": 187,
+                "method": "walk",
+                "instructions": "Walk 0.2 km"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 3,
+          "date": "2026-01-17",
+          "city": "Tokyo",
+          "title": "Cultural Gems of Tokyo",
+          "slots": [
+            {
+              "slotId": "day3-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tsukiji Outer Market",
+                    "description": "A bustling market known for fresh seafood and local delicacies.",
+                    "category": "market",
+                    "duration": 90,
+                    "place": {
+                      "name": "Tsukiji Outer Market",
+                      "address": "築地場外市場, 築地西通り, 築地四丁目, 築地, 中央区, 東京都, 104-0045, 日本",
+                      "neighborhood": "築地四丁目",
+                      "coordinates": {
+                        "lat": 35.6653884,
+                        "lng": 139.7704732
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Food experience",
+                    "Local culture"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day3-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Sushi Zanmai",
+                    "description": "Popular sushi chain known for fresh and affordable sushi.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "sushi Zanmai",
+                      "address": "sushi Zanmai, 外苑東通り, 六本木三丁目, 六本木, 港区, 東京都, 106-0032, 日本",
+                      "neighborhood": "六本木三丁目",
+                      "coordinates": {
+                        "lat": 35.6624603,
+                        "lng": 139.7343216
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Fresh seafood",
+                    "Highly rated"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 13,
+                "distance": 3282,
+                "method": "transit",
+                "instructions": "Take transit (3 km)"
+              }
+            },
+            {
+              "slotId": "day3-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tokyo Tower",
+                    "description": "An iconic tower offering panoramic views of the city.",
+                    "category": "landmark",
+                    "duration": 120,
+                    "place": {
+                      "name": "Tokyo Tower",
+                      "address": "東京タワー, 東京タワー通り, 芝公園四丁目, 芝公園, 港区, 東京都, 106-0041, 日本",
+                      "neighborhood": "芝公園四丁目",
+                      "coordinates": {
+                        "lat": 35.6584491,
+                        "lng": 139.745536
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Spectacular views",
+                    "Iconic structure"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 8,
+                "distance": 1107,
+                "method": "walk",
+                "instructions": "Walk 1.1 km"
+              }
+            },
+            {
+              "slotId": "day3-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ginza Kyubey",
+                    "description": "Renowned sushi restaurant known for quality and craftsmanship.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ginza Kyubey New Otani Tower",
+                      "address": "紀尾井町 4-1",
+                      "neighborhood": "Chiyoda",
+                      "coordinates": {
+                        "lat": 35.6810509,
+                        "lng": 139.7351855
+                      },
+                      "rating": 4.5,
+                      "reviewCount": 10,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/YY-XF5TDMWz_LpEOxSh9nA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Fine dining",
+                    "Highly acclaimed"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 11,
+                "distance": 2681,
+                "method": "transit",
+                "instructions": "Take transit (3 km)"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 4,
+          "date": "2026-01-18",
+          "city": "Kyoto",
+          "title": "Journey to Kyoto",
+          "slots": [
+            {
+              "slotId": "day4-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kinkaku-ji (Golden Pavilion)",
+                    "description": "A stunning Zen Buddhist temple covered in gold leaf.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kinkaku-ji",
+                      "address": "金閣寺, 金閣寺町, 北区, 京都市, 京都府, 603-8361, 日本",
+                      "neighborhood": "北区",
+                      "coordinates": {
+                        "lat": 35.0395293,
+                        "lng": 135.7295373
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Iconic site",
+                    "Beautiful gardens"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day4-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kyoto Gogyo",
+                    "description": "Famous for its burnt miso ramen, a unique twist on ramen.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kyoto GOGYO",
+                      "address": "中京区柳馬場通蛸薬師下ル十文字町452",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.005337,
+                        "lng": 135.76378
+                      },
+                      "rating": 4,
+                      "reviewCount": 106,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/VK7xUqzb73AhwPsJc_7p0Q/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Unique dish",
+                    "Highly recommended"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 17,
+                "distance": 4917,
+                "method": "transit",
+                "instructions": "Take transit (5 km)"
+              }
+            },
+            {
+              "slotId": "day4-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Arashiyama Bamboo Grove",
+                    "description": "A picturesque bamboo forest offering a serene stroll.",
+                    "category": "nature",
+                    "duration": 120,
+                    "place": {
+                      "name": "Arashiyama Bamboo Grove",
+                      "address": "嵐山竹林, 竹林の道, 嵯峨野々宮町, 右京区, 京都市, 京都府, 616-0000, 日本",
+                      "neighborhood": "右京区",
+                      "coordinates": {
+                        "lat": 35.0167419,
+                        "lng": 135.6711482
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Natural beauty",
+                    "Calming experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 25,
+                "distance": 8531,
+                "method": "transit",
+                "instructions": "Take transit (9 km)"
+              }
+            },
+            {
+              "slotId": "day4-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Nishiki Market",
+                    "description": "A vibrant market known for various local foods and specialties.",
+                    "category": "market",
+                    "duration": 90,
+                    "place": {
+                      "name": "Nishiki Market",
+                      "address": "錦市場, 錦小路通, 東魚屋町, 中京区, 京都市, 京都府, 600-8006, 日本",
+                      "neighborhood": "中京区",
+                      "coordinates": {
+                        "lat": 35.0050244,
+                        "lng": 135.7655699
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Local experience",
+                    "Great dining options"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 26,
+                "distance": 8697,
+                "method": "transit",
+                "instructions": "Take transit (9 km)"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 5,
+          "date": "2026-01-19",
+          "city": "Kyoto",
+          "title": "Cultural Treasures of Kyoto",
+          "slots": [
+            {
+              "slotId": "day5-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Fushimi Inari Taisha",
+                    "description": "Famous for its thousands of vermilion torii gates.",
+                    "category": "shrine",
+                    "duration": 90,
+                    "place": {
+                      "name": "Fushimi Inari Shrine",
+                      "address": "伏見稲荷大社 境内案内図, 十石橋, 深草開土口町, 伏見区, 京都市, 京都府, 612-0807, 日本",
+                      "neighborhood": "伏見区",
+                      "coordinates": {
+                        "lat": 34.9672545,
+                        "lng": 135.7737731
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural icon",
+                    "Unique experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day5-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Yudofu Sagano",
+                    "description": "Specializes in yudofu (tofu hot pot), a local delicacy.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Yudofu Sagano",
+                      "address": "右京区嵯峨天龍寺芒ノ馬場町45",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.0147183,
+                        "lng": 135.674509
+                      },
+                      "rating": 4.2,
+                      "reviewCount": 13,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/ZODEsAxZo6fdHAzlxLb8og/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Vegetarian-friendly",
+                    "Authentic experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 30,
+                "distance": 10470,
+                "method": "transit",
+                "instructions": "Take transit (10 km)"
+              }
+            },
+            {
+              "slotId": "day5-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kiyomizu-dera",
+                    "description": "A historic temple offering stunning views of Kyoto.",
+                    "category": "temple",
+                    "duration": 120,
+                    "place": {
+                      "name": "Kiyomizu-dera",
+                      "address": "清水寺, Kiyomizu Slope, 月見町, 清水一丁目, 東山区, 京都市, 京都府, 605-0862, 日本",
+                      "neighborhood": "東山区",
+                      "coordinates": {
+                        "lat": 34.994303,
+                        "lng": 135.7844389
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural heritage",
+                    "Scenic views"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 30,
+                "distance": 10267,
+                "method": "transit",
+                "instructions": "Take transit (10 km)"
+              }
+            },
+            {
+              "slotId": "day5-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Gion Karyo",
+                    "description": "A traditional kaiseki restaurant in the historic Gion area.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Gion Karyō",
+                      "address": "東山区祇園町南側570-235",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.0017972585662,
+                        "lng": 135.774510984706
+                      },
+                      "rating": 4.2,
+                      "reviewCount": 27,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/vqodJnukJDLgOZo4al4L2g/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Culinary experience",
+                    "Local flavors"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 8,
+                "distance": 1230,
+                "method": "walk",
+                "instructions": "Walk 1.2 km"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 6,
+          "date": "2026-01-20",
+          "city": "Kyoto",
+          "title": "Art and Nature in Kyoto",
+          "slots": [
+            {
+              "slotId": "day6-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Philosopher's Path",
+                    "description": "A scenic walkway lined with cherry blossoms and temples.",
+                    "category": "nature",
+                    "duration": 90,
+                    "place": {
+                      "name": "Philosopher's Path",
+                      "address": "",
+                      "neighborhood": "Sakyo",
+                      "coordinates": {
+                        "lat": 35.0245,
+                        "lng": 135.785
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Scenic stroll",
+                    "Cultural experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day6-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Omen",
+                    "description": "Known for its udon and beautiful setting.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Omen Shijō Pontochō",
+                      "address": "中京区四条通先斗町西入ル柏屋町171-1",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.003937,
+                        "lng": 135.770858
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 71,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/2BYtNtHxsxjz13tv23cTKg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Local dish",
+                    "Great ambiance"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 11,
+                "distance": 2624,
+                "method": "transit",
+                "instructions": "Take transit (3 km)"
+              }
+            },
+            {
+              "slotId": "day6-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Nanzen-ji Temple",
+                    "description": "A large Zen temple with beautiful gardens.",
+                    "category": "temple",
+                    "duration": 120,
+                    "place": {
+                      "name": "Nanzen-ji",
+                      "address": "南禅寺, 極楽橋, 永観堂町, 鹿ヶ谷徳善谷町飛地, 左京区, 京都市, 京都府, 606-8444, 日本",
+                      "neighborhood": "左京区",
+                      "coordinates": {
+                        "lat": 35.0115254,
+                        "lng": 135.7927213
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural significance",
+                    "Peaceful atmosphere"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 10,
+                "distance": 2163,
+                "method": "transit",
+                "instructions": "Take transit (2 km)"
+              }
+            },
+            {
+              "slotId": "day6-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kikunoi Honten",
+                    "description": "A renowned kaiseki restaurant offering exquisite multi-course meals.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kikunoi Honten",
+                      "address": "東山区下河原通八坂鳥居前下る下河原町459",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.0014936424474,
+                        "lng": 135.782047459669
+                      },
+                      "rating": 4.3,
+                      "reviewCount": 21,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/R3xEV2k681h694_67Y0AcQ/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Fine dining",
+                    "Culinary adventure"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 9,
+                "distance": 1480,
+                "method": "walk",
+                "instructions": "Walk 1.5 km"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 7,
+          "date": "2026-01-21",
+          "city": "Osaka",
+          "title": "Welcome to Osaka",
+          "slots": [
+            {
+              "slotId": "day7-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Osaka Castle",
+                    "description": "A historic castle with beautiful gardens and a museum.",
+                    "category": "landmark",
+                    "duration": 90,
+                    "place": {
+                      "name": "Osaka Castle",
+                      "address": "大阪城, 1, 大阪城, 中央区, 大阪市, 大阪府, 540-0002, 日本",
+                      "neighborhood": "中央区",
+                      "coordinates": {
+                        "lat": 34.6873735,
+                        "lng": 135.5258555
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Historical significance",
+                    "Beautiful scenery"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day7-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Dotonbori Konamon Museum",
+                    "description": "Learn about and taste Osaka's famous takoyaki.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Dotombori Konamon Museum",
+                      "address": "コナモン ミュージアム, 道頓堀, 道頓堀一丁目, 中央区, 大阪市, 大阪府, 542-0071, 日本",
+                      "neighborhood": "中央区",
+                      "coordinates": {
+                        "lat": 34.6688243,
+                        "lng": 135.5021691
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Local cuisine",
+                    "Interactive experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 12,
+                "distance": 2991,
+                "method": "transit",
+                "instructions": "Take transit (3 km)"
+              }
+            },
+            {
+              "slotId": "day7-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Shitenno-ji Temple",
+                    "description": "One of Japan's oldest temples with beautiful architecture.",
+                    "category": "temple",
+                    "duration": 90,
+                    "place": {
+                      "name": "Shitennoji Temple",
+                      "address": "四天王寺前, 国道25号, 大道一丁目, 天王寺区, 大阪市, 大阪府, 543-0051, 日本",
+                      "neighborhood": "天王寺区",
+                      "coordinates": {
+                        "lat": 34.6537001,
+                        "lng": 135.5137442
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural experience",
+                    "Historic site"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 10,
+                "distance": 1987,
+                "method": "walk",
+                "instructions": "Walk 2 km"
+              }
+            },
+            {
+              "slotId": "day7-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kushikatsu Daruma",
+                    "description": "Famous for its deep-fried skewers, a must-try in Osaka.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kushikatsu daruma",
+                      "address": "中央区難波1丁目5-24",
+                      "neighborhood": "Osaka",
+                      "coordinates": {
+                        "lat": 34.6677837333924,
+                        "lng": 135.502180939546
+                      },
+                      "rating": 4.1,
+                      "reviewCount": 20,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/NguNdsUkQMVUq3BNyEjJNg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Local delicacy",
+                    "Highly rated"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 10,
+                "distance": 1890,
+                "method": "walk",
+                "instructions": "Walk 1.9 km"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 8,
+          "date": "2026-01-22",
+          "city": "Osaka",
+          "title": "Osaka's Culinary Delights",
+          "slots": [
+            {
+              "slotId": "day8-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tsutenkaku Tower",
+                    "description": "An iconic tower with observation decks and great views of Osaka.",
+                    "category": "landmark",
+                    "duration": 90,
+                    "place": {
+                      "name": "Tsutenkaku Tower",
+                      "address": "通天閣, 合邦通, 恵美須東一丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+                      "neighborhood": "浪速区",
+                      "coordinates": {
+                        "lat": 34.652541,
+                        "lng": 135.506541
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Great views",
+                    "Historic landmark"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day8-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Endo Sushi",
+                    "description": "A popular sushi restaurant known for its fresh seafood.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Endo",
+                      "address": "岡崎西天王町60",
+                      "neighborhood": "京都市左京区",
+                      "coordinates": {
+                        "lat": 35.0161666870117,
+                        "lng": 135.780181884766
+                      },
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/yn5IqAldsBG9or8iRl5Sug/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Fresh ingredients",
+                    "Highly recommended"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 119,
+                "distance": 47525,
+                "method": "transit",
+                "instructions": "Take transit (48 km)"
+              }
+            },
+            {
+              "slotId": "day8-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Osaka Aquarium Kaiyukan",
+                    "description": "One of the largest aquariums in the world with diverse marine life.",
+                    "category": "aquarium",
+                    "duration": 120,
+                    "place": {
+                      "name": "Osaka Aquarium Kaiyukan",
+                      "address": "海遊館, 北海岸通, 海岸通一丁目, 港区, 大阪市, 大阪府, 552-0022, 日本",
+                      "neighborhood": "港区",
+                      "coordinates": {
+                        "lat": 34.6545464,
+                        "lng": 135.4289211
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Family-friendly",
+                    "Unique experience"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 128,
+                "distance": 51426,
+                "method": "transit",
+                "instructions": "Take transit (51 km)"
+              }
+            },
+            {
+              "slotId": "day8-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Matsusakagyu Yakiniku M",
+                    "description": "Offers high-quality Matsusaka beef in a traditional setting.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Matsusakagyu Yakiniku M Hozenji Yokocho ",
+                      "address": "中央区難波1-1-19",
+                      "neighborhood": "Osaka",
+                      "coordinates": {
+                        "lat": 34.668139,
+                        "lng": 135.502569
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 144,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/jHZ_9AF2cKQGXH-GeVgKjQ/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Fine dining",
+                    "Local specialty"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 22,
+                "distance": 6903,
+                "method": "transit",
+                "instructions": "Take transit (7 km)"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 9,
+          "date": "2026-01-23",
+          "city": "Osaka",
+          "title": "Final Day in Osaka",
+          "slots": [
+            {
+              "slotId": "day9-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Shinsekai District",
+                    "description": "A nostalgic district famous for its retro atmosphere and street food.",
+                    "category": "district",
+                    "duration": 90,
+                    "place": {
+                      "name": "Shinsekai",
+                      "address": "新世界, 新世界本通　東仲の町, 恵美須東二丁目, 浪速区, 大阪市, 大阪府, 556-0002, 日本",
+                      "neighborhood": "浪速区",
+                      "coordinates": {
+                        "lat": 34.6520901,
+                        "lng": 135.5061908
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Cultural experience",
+                    "Local street food"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day9-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kushikatsu Daruma",
+                    "description": "Famous for its deep-fried skewers, a must-try in Osaka.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kushikatsu daruma",
+                      "address": "中央区難波1丁目5-24",
+                      "neighborhood": "Osaka",
+                      "coordinates": {
+                        "lat": 34.6677837333924,
+                        "lng": 135.502180939546
+                      },
+                      "rating": 4.1,
+                      "reviewCount": 20,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/NguNdsUkQMVUq3BNyEjJNg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Local delicacy",
+                    "Highly rated"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 9,
+                "distance": 1783,
+                "method": "walk",
+                "instructions": "Walk 1.8 km"
+              }
+            },
+            {
+              "slotId": "day9-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Osaka Science Museum",
+                    "description": "An interactive museum with exhibits on science and technology.",
+                    "category": "museum",
+                    "duration": 120,
+                    "place": {
+                      "name": "Osaka Science Museum",
+                      "address": "大阪市立科学館, 1, 中之島四丁目, 北区, 大阪市, 大阪府, 530-6190, 日本",
+                      "neighborhood": "北区",
+                      "coordinates": {
+                        "lat": 34.6912073,
+                        "lng": 135.4914612
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Educational",
+                    "Family-friendly"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 12,
+                "distance": 2783,
+                "method": "transit",
+                "instructions": "Take transit (3 km)"
+              }
+            },
+            {
+              "slotId": "day9-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Hajime Yakiniku",
+                    "description": "A premium yakiniku restaurant known for its high-quality meat.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "ITAMAE YAKINIKU HAJIME",
+                      "address": "登美ヶ丘2-3-13",
+                      "neighborhood": "Nara",
+                      "coordinates": {
+                        "lat": 34.713586,
+                        "lng": 135.750013
+                      },
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/n6vI2_dKdIapyng2wDLRJw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Luxury dining",
+                    "Local specialty"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 62,
+                "distance": 23766,
+                "method": "transit",
+                "instructions": "Take transit (24 km)"
+              }
+            }
+          ]
+        }
+      ],
+      "generalTips": [
+        "Travel with a Japan Rail Pass for convenience.",
+        "Try to learn a few basic Japanese phrases."
+      ],
+      "estimatedBudget": {
+        "total": {
+          "min": 200000,
+          "max": 300000
+        },
+        "currency": "JPY"
+      }
+    },
+    "metadata": {
+      "generatedAt": "2025-12-30T05:31:24.452Z",
+      "provider": "llm",
+      "source": "llm-openai",
+      "totalDays": 9,
+      "totalSlots": 36,
+      "totalOptions": 37,
+      "hasPlaces": true,
+      "hasCommute": true,
+      "hasFoodPreferences": false,
+      "hasViatorEnhancements": false,
+      "placeResolution": {
+        "totalPlaces": 37,
+        "resolved": 36,
+        "failed": 1,
+        "providers": {
+          "osm": 21,
+          "yelp": 15
+        },
+        "avgConfidence": 0.9171296296296296,
+        "totalDuration": 32784
+      },
+      "commuteCalculation": {
+        "totalCommutes": 27,
+        "avgDuration": 24.185185185185187,
+        "methodCounts": {
+          "walk": 10,
+          "transit": 17
+        }
+      }
+    }
+  }
+}

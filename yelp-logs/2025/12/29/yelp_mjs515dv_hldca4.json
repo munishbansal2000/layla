@@ -1,0 +1,559 @@
+{
+  "id": "yelp_mjs515dv_hldca4",
+  "timestamp": "2025-12-30T05:19:39.139Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "札幌かに家",
+      "location": "Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "tInc-cUUZnDSjRCHI-92zg",
+          "alias": "札幌かに家-京都店-kyōto-shi",
+          "name": "Sapporokaniya Kyōto",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/x_o1bTfYiPw3HxiUmRNEPg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%AD%E5%B9%8C%E3%81%8B%E3%81%AB%E5%AE%B6-%E4%BA%AC%E9%83%BD%E5%BA%97-ky%C5%8Dto-shi?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "hotpot",
+              "title": "Hot Pot"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.001925,
+            "longitude": 135.77721
+          },
+          "transactions": [],
+          "location": {
+            "address1": "東山区東大路通祇園石段下ル南入ル",
+            "address2": "",
+            "address3": null,
+            "city": "Kyōto-shi",
+            "zip_code": "605-0829",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区東大路通祇園石段下ル南入ル",
+              "Kyōto-shi, 京都府 〒605-0829",
+              "Japan"
+            ]
+          },
+          "phone": "+81755411110",
+          "display_phone": "+81 75-541-1110",
+          "distance": 1447.8379310404498,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "5DLKDD_egR45moVIa7Q-gw",
+          "alias": "札幌かに家-大丸梅田店-大阪市",
+          "name": "Sapporo Kaniya Daimaru Umeda",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/w0xwx6Goo5uI74gem4MBdQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%AD%E5%B9%8C%E3%81%8B%E3%81%AB%E5%AE%B6-%E5%A4%A7%E4%B8%B8%E6%A2%85%E7%94%B0%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.701728,
+            "longitude": 135.496456
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区梅田3-1-1",
+            "address2": "B1F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0001",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区梅田3-1-1",
+              "B1F",
+              "Osaka, 大阪府 〒530-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81663431231",
+          "display_phone": "+81 6-6343-1231",
+          "distance": 41930.7573202283,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2030",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "tcRYe2ks_3A5Wox6xox7fw",
+          "alias": "札幌かに本家-八事店-名古屋市",
+          "name": "Sapporo Kanihonke Yagoto",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/EI0wJGJ-OYhb5uxVMYXZtw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%AD%E5%B9%8C%E3%81%8B%E3%81%AB%E6%9C%AC%E5%AE%B6-%E5%85%AB%E4%BA%8B%E5%BA%97-%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.138914,
+            "longitude": 136.962188
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "昭和区八事本町100-37",
+            "address2": null,
+            "address3": null,
+            "city": "Nagoya",
+            "zip_code": "466-0825",
+            "country": "JP",
+            "state": "23",
+            "display_address": [
+              "昭和区八事本町100-37",
+              "Nagoya, 愛知県 〒466-0825",
+              "Japan"
+            ]
+          },
+          "phone": "+81528313456",
+          "display_phone": "+81 52-831-3456",
+          "distance": 110037.76807669387,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "d_Gk5yrXg9T9UDhr8ChcSg",
+          "alias": "札幌かに本家グループ-名古屋市-中区",
+          "name": "Sapporokanihonkegurūpukanayamaten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/uontedDV_gcdJnd10bMldQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%AD%E5%B9%8C%E3%81%8B%E3%81%AB%E6%9C%AC%E5%AE%B6%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97-%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82-%E4%B8%AD%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 3.7,
+          "coordinates": {
+            "latitude": 35.1444863848,
+            "longitude": 136.903063917
+          },
+          "transactions": [],
+          "location": {
+            "address1": "金山2丁目16-18",
+            "address2": "金山店",
+            "address3": null,
+            "city": "名古屋市 中区",
+            "zip_code": "460-0022",
+            "country": "JP",
+            "state": "23",
+            "display_address": [
+              "金山2丁目16-18",
+              "金山店",
+              "名古屋市 中区, 愛知県 〒460-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+81523217890",
+          "display_phone": "+81 52-321-7890",
+          "distance": 104790.68817305328,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.kani-honke.co.jp/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "yT644fEp-_GxNp_pwvgGcQ",
+          "alias": "札幌かに本家-名古屋市",
+          "name": "Sapporo kanihonke",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/vLVVlgl3QQdJO_m_5wT80w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%AD%E5%B9%8C%E3%81%8B%E3%81%AB%E6%9C%AC%E5%AE%B6-%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+            "latitude": 35.1670249861,
+            "longitude": 136.904961267
+          },
+          "transactions": [],
+          "location": {
+            "address1": "中区栄3丁目8-28",
+            "address2": "",
+            "address3": null,
+            "city": "Nagoya",
+            "zip_code": "460-0008",
+            "country": "JP",
+            "state": "23",
+            "display_address": [
+              "中区栄3丁目8-28",
+              "Nagoya, 愛知県 〒460-0008",
+              "Japan"
+            ]
+          },
+          "phone": "+81522631161",
+          "display_phone": "+81 52-263-1161",
+          "distance": 105337.39233059049,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 8,
+      "region": {
+        "center": {
+          "longitude": 135.7635498046875,
+          "latitude": 35.00858416531922
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1355,
+    "success": true
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "id": "yelp_mjs5gulg_0fcd6i",
+  "timestamp": "2025-12-30T05:31:51.652Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Endo Sushi",
+      "location": "Osaka, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Q3Fq3ueiy10nWKpCOFaMgQ",
+          "alias": "中央市場-ゑんどう-大阪市",
+          "name": "Chūōichiba Endō",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/-IUCAQqpn8xqbosm6AnWUQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%A0%B4-%E3%82%91%E3%82%93%E3%81%A9%E3%81%86-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 64,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 34.6842744246036,
+            "longitude": 135.479524494886
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "福島区野田1-1-86",
+            "address2": "",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "553-0005",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "福島区野田1-1-86",
+              "Osaka, 大阪府 〒553-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81664697108",
+          "display_phone": "+81 6-6469-7108",
+          "distance": 2614.618694176513,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0500",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0500",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0500",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0500",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0500",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0500",
+                  "end": "1400",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.endo-sushi.com/12513124911251712540.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "rxnN19qiT4OlD_GrjZPK4g",
+          "alias": "京都-天ぷら圓堂-岡崎邸-京都市左京区",
+          "name": "Endo",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/yn5IqAldsBG9or8iRl5Sug/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BA%AC%E9%83%BD-%E5%A4%A9%E3%81%B7%E3%82%89%E5%9C%93%E5%A0%82-%E5%B2%A1%E5%B4%8E%E9%82%B8-%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            },
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.0161666870117,
+            "longitude": 135.780181884766
+          },
+          "transactions": [],
+          "location": {
+            "address1": "岡崎西天王町60",
+            "address2": "",
+            "address3": null,
+            "city": "京都市左京区",
+            "zip_code": "606-8341",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "岡崎西天王町60",
+              "京都市左京区, 京都府 〒606-8341",
+              "Japan"
+            ]
+          },
+          "phone": "+81757521488",
+          "display_phone": "+81 75-752-1488",
+          "distance": 44503.718515924236,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "FHw6SfOXCGHR2UnBjiYYTA",
+          "alias": "ゑんどう-大阪市-都島区",
+          "name": "Endou",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/9VkR5hOhqJ2wthl8o-im9g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%91%E3%82%93%E3%81%A9%E3%81%86-%E5%A4%A7%E9%98%AA%E5%B8%82-%E9%83%BD%E5%B3%B6%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6970880509442,
+            "longitude": 135.532343688837
+          },
+          "transactions": [],
+          "location": {
+            "address1": "東野田町2丁目1-38　京阪モール 5F",
+            "address2": "京橋店",
+            "address3": null,
+            "city": "大阪市 都島区",
+            "zip_code": "534-0024",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "東野田町2丁目1-38　京阪モール 5F",
+              "京橋店",
+              "大阪市 都島区, 大阪府 〒534-0024",
+              "Japan"
+            ]
+          },
+          "phone": "+81663525564",
+          "display_phone": "+81 6-6352-5564",
+          "distance": 2650.4656511888243,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.endo-sushi.com/12513124911251712540.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "pb9y6KJtckqSDFi2q-dGmA",
+          "alias": "すし岩-京都市",
+          "name": "Sushi Iwa",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/gd3Gn2tG57fCZKfmVhPdRg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97%E5%B2%A9-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 57,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 34.9902729023337,
+            "longitude": 135.761781347076
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "下京区下珠数屋町通間之町西入西玉水町282",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "600-8155",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "下京区下珠数屋町通間之町西入西玉水町282",
+              "Kyoto, 京都府 〒600-8155",
+              "Japan"
+            ]
+          },
+          "phone": "+81753715782",
+          "display_phone": "+81 75-371-5782",
+          "distance": 41180.03321293956,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "2EDAXip1N3oRi_pNh__IgQ",
+          "alias": "京都-天ぷら圓堂-岡ざき邸-京都市",
+          "name": "京都 天ぷら圓堂 岡ざき邸",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ZLpoE0i4nxNlegEaMmxySQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BA%AC%E9%83%BD-%E5%A4%A9%E3%81%B7%E3%82%89%E5%9C%93%E5%A0%82-%E5%B2%A1%E3%81%96%E3%81%8D%E9%82%B8-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 11,
+          "categories": [
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.016151,
+            "longitude": 135.780199
+          },
+          "transactions": [],
+          "location": {
+            "address1": "左京区岡崎西天王町60-3",
+            "address2": null,
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "606-8341",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "左京区岡崎西天王町60-3",
+              "Kyoto, 京都府 〒606-8341",
+              "Japan"
+            ]
+          },
+          "phone": "+81757521488",
+          "display_phone": "+81 75-752-1488",
+          "distance": 44503.143460391824,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.okazaki-endo.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 11,
+      "region": {
+        "center": {
+          "longitude": 135.50811767578125,
+          "latitude": 34.68399691750767
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 623,
+    "success": true
+  }
+}

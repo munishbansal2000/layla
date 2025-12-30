@@ -1,0 +1,534 @@
+{
+  "id": "yelp_mjs52b0g_kaz1yp",
+  "timestamp": "2025-12-30T05:20:33.088Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "KINEYA",
+      "location": "Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "eoJWt-DixU7hq_l7u7Jeqg",
+          "alias": "杵屋-京都ポルタ店-京都市",
+          "name": "Kineya Kyoto Porta",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/_LIrSopxoIbrfXtN9LZXOA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B5%E5%B1%8B-%E4%BA%AC%E9%83%BD%E3%83%9D%E3%83%AB%E3%82%BF%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "udon",
+              "title": "Udon"
+            },
+            {
+              "alias": "soba",
+              "title": "Soba"
+            }
+          ],
+          "rating": 3.3,
+          "coordinates": {
+            "latitude": 34.986747,
+            "longitude": 135.757652
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "下京区烏丸通塩小路下ル東塩小路町902",
+            "address2": "京都ポルタ地下街B1F",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "600-8216",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "下京区烏丸通塩小路下ル東塩小路町902",
+              "京都ポルタ地下街B1F",
+              "Kyoto, 京都府 〒600-8216",
+              "Japan"
+            ]
+          },
+          "phone": "+81753432562",
+          "display_phone": "+81 75-343-2562",
+          "distance": 42247.243338555316,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "J1JboYn8VkoUnlMJrA8Hvw",
+          "alias": "杵屋天保山ハーバービレッジ3f店-大阪市",
+          "name": "Kineya Tempozan Harbor Village 3rd Floor",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/5m44k9cLfLkzJDxcOHpVTA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B5%E5%B1%8B%E5%A4%A9%E4%BF%9D%E5%B1%B1%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%83%93%E3%83%AC%E3%83%83%E3%82%B83f%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "soba",
+              "title": "Soba"
+            },
+            {
+              "alias": "udon",
+              "title": "Udon"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            }
+          ],
+          "rating": 3.7,
+          "coordinates": {
+            "latitude": 34.656049,
+            "longitude": 135.429618
+          },
+          "transactions": [],
+          "location": {
+            "address1": "港区海岸通1-1-10",
+            "address2": "天保山マーケットプレース3F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "552-0022",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "港区海岸通1-1-10",
+              "天保山マーケットプレース3F",
+              "Osaka, 大阪府 〒552-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+81665765634",
+          "display_phone": "+81 6-6576-5634",
+          "distance": 5841.021825668907,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "BJgJO0zn_v9VG4vnRIeplg",
+          "alias": "杵屋-なんばcity本館店-大阪市",
+          "name": "Kineya Namba",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/i4qPV8A-_NwXnxxoFmIw_A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B5%E5%B1%8B-%E3%81%AA%E3%82%93%E3%81%B0city%E6%9C%AC%E9%A4%A8%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "udon",
+              "title": "Udon"
+            },
+            {
+              "alias": "soba",
+              "title": "Soba"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6637420654297,
+            "longitude": 135.501724243164
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区難波5-1-60",
+            "address2": "なんばCITY本館B2",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "542-0076",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区難波5-1-60",
+              "なんばCITY本館B2",
+              "Osaka, 大阪府 〒542-0076",
+              "Japan"
+            ]
+          },
+          "phone": "+81666442516",
+          "display_phone": "+81 6-6644-2516",
+          "distance": 2179.3811102011996,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "688I0ZfsnxFZwPpyPvGCaQ",
+          "alias": "杵屋麦丸-北加賀屋店-大阪市",
+          "name": "Kineya Mugimaru Kitakagaya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/BO6hZdmJcINuqXN8s-xmuQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B5%E5%B1%8B%E9%BA%A6%E4%B8%B8-%E5%8C%97%E5%8A%A0%E8%B3%80%E5%B1%8B%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "soba",
+              "title": "Soba"
+            },
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 34.6250343322754,
+            "longitude": 135.478363037109
+          },
+          "transactions": [],
+          "location": {
+            "address1": "住之江区北加賀屋3-1-20",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "559-0011",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "住之江区北加賀屋3-1-20",
+              "Osaka, 大阪府 〒559-0011",
+              "Japan"
+            ]
+          },
+          "phone": "+81666824681",
+          "display_phone": "+81 6-6682-4681",
+          "distance": 5947.095561342814,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "yScdUicqWhw19MLULxZfGQ",
+          "alias": "杵屋-住吉大社ショップ南海店-大阪市",
+          "name": "Kineya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/aIirtq27gG__9v8r8RgN6Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B5%E5%B1%8B-%E4%BD%8F%E5%90%89%E5%A4%A7%E7%A4%BE%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E5%8D%97%E6%B5%B7%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "soba",
+              "title": "Soba"
+            },
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 34.6131505925899,
+            "longitude": 135.490412225795
+          },
+          "transactions": [],
+          "location": {
+            "address1": "住吉区長峡町3-14",
+            "address2": "ショップ南海住吉1F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "558-0044",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "住吉区長峡町3-14",
+              "ショップ南海住吉1F",
+              "Osaka, 大阪府 〒558-0044",
+              "Japan"
+            ]
+          },
+          "phone": "+81666788601",
+          "display_phone": "+81 6-6678-8601",
+          "distance": 7240.274445820243,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 13,
+      "region": {
+        "center": {
+          "longitude": 135.48751831054688,
+          "latitude": 34.67822047791179
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 581,
+    "success": true
+  }
+}

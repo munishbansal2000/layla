@@ -1,0 +1,551 @@
+{
+  "id": "yelp_mjs3vvdy_l3t6cr",
+  "timestamp": "2025-12-30T04:47:33.286Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Tsuruhashi Fugetsu",
+      "location": "Dotonbori, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Dotonbori, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "z5BzO0LeSQ2JuAeRTqahww",
+          "alias": "鶴橋風月-なんば御堂筋グランドビル店-大阪市",
+          "name": "Tsuruhashi FUGETSU Namba Midosuji Grand Building",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Gzt06z3YpsmXuOk38LPevQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%B4%E6%A9%8B%E9%A2%A8%E6%9C%88-%E3%81%AA%E3%82%93%E3%81%B0%E5%BE%A1%E5%A0%82%E7%AD%8B%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%93%E3%83%AB%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 2.7,
+          "coordinates": {
+            "latitude": 34.667641,
+            "longitude": 135.49979
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区難波2-2-3",
+            "address2": "御堂筋グランドビルB1",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0076",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区難波2-2-3",
+              "御堂筋グランドビルB1",
+              "Osaka, 大阪府 〒542-0076",
+              "Japan"
+            ]
+          },
+          "phone": "+81662145215",
+          "display_phone": "+81 6-6214-5215",
+          "distance": 326.2975553767465,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://fugetsu.jp/?page_id=83",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "4PCJKG-yJ6W7UWcjiKo0lQ",
+          "alias": "鶴橋風月-梅田店-大阪市",
+          "name": "Tsuruhashi FUGETSU Umeda",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/kquNnDdrSKiP91yVFZ3dAg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%B4%E6%A9%8B%E9%A2%A8%E6%9C%88-%E6%A2%85%E7%94%B0%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            },
+            {
+              "alias": "soba",
+              "title": "Soba"
+            },
+            {
+              "alias": "teppanyaki",
+              "title": "Teppanyaki"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.701829,
+            "longitude": 135.500521
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "北区曽根崎2-16-22",
+            "address2": "",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0057",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区曽根崎2-16-22",
+              "Osaka, 大阪府 〒530-0057",
+              "Japan"
+            ]
+          },
+          "phone": "+81663142233",
+          "display_phone": "+81 6-6314-2233",
+          "distance": 3696.8762262837686,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ideaosaka.co.jp/app/menu/index.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "eCiJpMDM6V4FkrWU0uDguQ",
+          "alias": "鶴橋風月-本店-大阪市-天王寺区",
+          "name": "Tsuruhashi fugetsu",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/HMZEA64RPsnQ2v0mqERXzg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%B4%E6%A9%8B%E9%A2%A8%E6%9C%88-%E6%9C%AC%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82-%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 34.6656101761091,
+            "longitude": 135.52976970793
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "下味原町2-18",
+            "address2": null,
+            "address3": null,
+            "city": "大阪市 天王寺区",
+            "zip_code": "543-0025",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "下味原町2-18",
+              "大阪市 天王寺区, 大阪府 〒543-0025",
+              "Japan"
+            ]
+          },
+          "phone": "+81667717938",
+          "display_phone": "+81 6-6771-7938",
+          "distance": 2458.825333266741,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ideaosaka.co.jp/app/menu/index.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "xgHFvo0UTE0LEpAzf2mBzA",
+          "alias": "鶴橋風月新世界店-大阪市",
+          "name": "Tsuruhashi Fugetsu Shin Sekai",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/eQ6LWxmV4QwfjBObAC1Hfw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%B4%E6%A9%8B%E9%A2%A8%E6%9C%88%E6%96%B0%E4%B8%96%E7%95%8C%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.650978338171,
+            "longitude": 135.506746482722
+          },
+          "transactions": [],
+          "location": {
+            "address1": "浪速区恵美須東2-1-17",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "浪速区恵美須東2-1-17",
+              "Osaka, 大阪府",
+              "Japan"
+            ]
+          },
+          "phone": "+81643965440",
+          "display_phone": "+81 6-4396-5440",
+          "distance": 1992.712477686249,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "L3B_AWNF8XqJGrg0f-LkVw",
+          "alias": "鶴橋風月modern北浜店-大阪市",
+          "name": "Tsuruhashi Fugetsu Modern Kitahama",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%B4%E6%A9%8B%E9%A2%A8%E6%9C%88modern%E5%8C%97%E6%B5%9C%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6881430786766,
+            "longitude": 135.506371557713
+          },
+          "transactions": [],
+          "location": {
+            "address1": "中央区道修町2-2-15",
+            "address2": "ロイヤルメゾン北浜2F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "541-0048",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区道修町2-2-15",
+              "ロイヤルメゾン北浜2F",
+              "Osaka, 大阪府 〒541-0048",
+              "Japan"
+            ]
+          },
+          "phone": "+81662104434",
+          "display_phone": "+81 6-6210-4434",
+          "distance": 2187.370260523637,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 10,
+      "region": {
+        "center": {
+          "longitude": 135.5031394958496,
+          "latitude": 34.66865195241771
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 695,
+    "success": true
+  }
+}

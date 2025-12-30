@@ -182,9 +182,17 @@
                     }
                 },
                 {
+                    "slotId": "day1-free-time",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:00", "end": "15:30" },
+                    "options": [],
+                    "selectedOptionId": null,
+                    "commuteFromPrevious": null
+                },
+                {
                     "slotId": "day1-afternoon",
                     "slotType": "afternoon",
-                    "timeRange": { "start": "14:00", "end": "18:00" },
+                    "timeRange": { "start": "15:30", "end": "18:00" },
                     "options": [{
                             "id": "opt-1-5",
                             "rank": 1,

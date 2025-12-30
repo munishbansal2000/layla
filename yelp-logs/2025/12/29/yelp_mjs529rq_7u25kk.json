@@ -1,0 +1,608 @@
+{
+  "id": "yelp_mjs529rq_7u25kk",
+  "timestamp": "2025-12-30T05:20:31.478Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "マネリパヤン",
+      "location": "Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "6i7JV2NCLWH-XQ7cubqxAQ",
+          "alias": "cafe-malacca-大阪市-6",
+          "name": "Cafe Malacca",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/gnJ1KAsdRiBrulexAZ_naA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/cafe-malacca-%E5%A4%A7%E9%98%AA%E5%B8%82-6?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "coffee",
+              "title": "Coffee & Tea"
+            },
+            {
+              "alias": "asianfusion",
+              "title": "Asian Fusion"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.707457,
+            "longitude": 135.508474
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "北区黒崎町5-14",
+            "address2": "カフェマラッカ",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0023",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区黒崎町5-14",
+              "カフェマラッカ",
+              "Osaka, 大阪府 〒530-0023",
+              "Japan"
+            ]
+          },
+          "phone": "+81669406276",
+          "display_phone": "+81 6-6940-6276",
+          "distance": 3773.503534682033,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.cafemalacca.com/menu",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "O152W54CctXWYfUtapMnEg",
+          "alias": "azu-curry-大阪市-2",
+          "name": "AZU CURRY",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ocfiT5mbE4SsyxUawLFt7Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/azu-curry-%E5%A4%A7%E9%98%AA%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 19,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 34.695594,
+            "longitude": 135.497027
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "北区堂島浜1-4-4",
+            "address2": "アクア堂島フォンターナ 1F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0004",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区堂島浜1-4-4",
+              "アクア堂島フォンターナ 1F",
+              "Osaka, 大阪府 〒530-0004",
+              "Japan"
+            ]
+          },
+          "phone": "+819065506833",
+          "display_phone": "+81 90-6550-6833",
+          "distance": 2118.4641398080867,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 4
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "vfOTni3cXuht6O2DJxrIIA",
+          "alias": "宮崎郷土料理-どぎゃん-本店-大阪市",
+          "name": "Miyazaki Kyōdo Ryōri Dogyan Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/EG60jahzxg8_2zcLt8fW3Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%AE%AE%E5%B4%8E%E9%83%B7%E5%9C%9F%E6%96%99%E7%90%86-%E3%81%A9%E3%81%8E%E3%82%83%E3%82%93-%E6%9C%AC%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "yakitori",
+              "title": "Yakitori"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6785061,
+            "longitude": 135.5025044
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区博労町3-1-13",
+            "address2": "戎センタービル2F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "541-0059",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区博労町3-1-13",
+              "戎センタービル2F",
+              "Osaka, 大阪府 〒541-0059",
+              "Japan"
+            ]
+          },
+          "phone": "+815055226354",
+          "display_phone": "+81 50-5522-6354",
+          "distance": 1370.72661784286,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "LbJ5bqvELmFbZKwUNwOkUQ",
+          "alias": "旧ヤム邸-中之島洋館-大阪市",
+          "name": "Kyuuyamutei Nakanoshima yōkan",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/YpkEwFZNdjiIsc31N4yu0Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%97%A7%E3%83%A4%E3%83%A0%E9%82%B8-%E4%B8%AD%E4%B9%8B%E5%B3%B6%E6%B4%8B%E9%A4%A8-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 34.693181915746,
+            "longitude": 135.492782611917
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "北区中之島3-6-32",
+            "address2": "ダイビル本館 2F",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0005",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区中之島3-6-32",
+              "ダイビル本館 2F",
+              "Osaka, 大阪府 〒530-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81661366600",
+          "display_phone": "+81 6-6136-6600",
+          "distance": 1731.8668265049735,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2200",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "4fi4rsvCmJmFsl2rBmdzMA",
+          "alias": "ハラールラーメン-ならまち-じんにいや-奈良市",
+          "name": "Halal Ramen Naramachi Jinniyah",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/9wvnA7gIN05QvAmugLGLYg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%8F%E3%83%A9%E3%83%BC%E3%83%AB%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3-%E3%81%AA%E3%82%89%E3%81%BE%E3%81%A1-%E3%81%98%E3%82%93%E3%81%AB%E3%81%84%E3%82%84-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "halal",
+              "title": "Halal"
+            },
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "gourmet",
+              "title": "Specialty Food"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.676064,
+            "longitude": 135.827991
+          },
+          "transactions": [],
+          "location": {
+            "address1": "南城戸町28-34",
+            "address2": null,
+            "address3": "",
+            "city": "Nara",
+            "zip_code": "630-8341",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "南城戸町28-34",
+              "Nara, 奈良県 〒630-8341",
+              "Japan"
+            ]
+          },
+          "phone": "+81742938906",
+          "display_phone": "+81 742-93-8906",
+          "distance": 31134.885877314122,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1800",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1800",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1800",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1800",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1800",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://halalramen.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 12,
+      "region": {
+        "center": {
+          "longitude": 135.48751831054688,
+          "latitude": 34.67822047791179
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 873,
+    "success": true
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "yelp_mjs514u8_eldomw",
+  "timestamp": "2025-12-30T05:19:38.432Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "ぎおん徳屋",
+      "location": "Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "psrS-swSIWQXwZfiuDskZQ",
+          "alias": "ぎおん徳屋-京都市",
+          "name": "Gion TOKUYA",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/MMSCEn2g18qn1C9nJ1WRTg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8E%E3%81%8A%E3%82%93%E5%BE%B3%E5%B1%8B-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 17,
+          "categories": [
+            {
+              "alias": "desserts",
+              "title": "Desserts"
+            },
+            {
+              "alias": "jpsweets",
+              "title": "Japanese Sweets"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.0024851157,
+            "longitude": 135.774899124
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "東山区祇園町　南側570-127",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "605-0074",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区祇園町　南側570-127",
+              "Kyoto, 京都府 〒605-0074",
+              "Japan"
+            ]
+          },
+          "phone": "+81755615554",
+          "display_phone": "+81 75-561-5554",
+          "distance": 1236.3019104977448,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1800",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://gion-tokuya.jp/menu/index.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.7635498046875,
+          "latitude": 35.00858416531922
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 649,
+    "success": true
+  }
+}

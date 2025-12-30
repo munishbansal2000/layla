@@ -1,0 +1,312 @@
+{
+  "id": "yelp_mjs3fyyf_fo8i6g",
+  "timestamp": "2025-12-30T04:35:11.415Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Gion Nanba",
+      "location": "Gion, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Gion, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "DE23Rz1E9H0_i8KSnlYuoA",
+          "alias": "祇園なん波-京都市",
+          "name": "Gion Nanba",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/8Jkh87Nd-uTbMCsoCCrViQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%A5%87%E5%9C%92%E3%81%AA%E3%82%93%E6%B3%A2-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 14,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 35.0039985811,
+            "longitude": 135.776025083
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "東山区祇園町北側279-7",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "605-0073",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区祇園町北側279-7",
+              "Kyoto, 京都府 〒605-0073",
+              "Japan"
+            ]
+          },
+          "phone": "+81755250768",
+          "display_phone": "+81 75-525-0768",
+          "distance": 268.4505762928962,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://gionnanba.com/menu",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "rJG8p3jSOt1i0r-yF-Pr7Q",
+          "alias": "伊藤ダイニン-京都店-京都市",
+          "name": "Itoh dining Kyoto",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/3_djzZAU9U3bh9X4f4dPOA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BC%8A%E8%97%A4%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3-%E4%BA%AC%E9%83%BD%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 32,
+          "categories": [
+            {
+              "alias": "steak",
+              "title": "Steakhouses"
+            },
+            {
+              "alias": "teppanyaki",
+              "title": "Teppanyaki"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.0054519753285,
+            "longitude": 135.774048028836
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "東山区八坂新地末吉町80",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "605-0085",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区八坂新地末吉町80",
+              "Kyoto, 京都府 〒605-0085",
+              "Japan"
+            ]
+          },
+          "phone": "+81755253235",
+          "display_phone": "+81 75-525-3235",
+          "distance": 456.15886410025314,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1400",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 135.7789134979248,
+          "latitude": 35.0044791241568
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 505,
+    "success": true
+  }
+}

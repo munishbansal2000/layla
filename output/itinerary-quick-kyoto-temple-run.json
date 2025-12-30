@@ -1,0 +1,515 @@
+{
+  "destination": "Japan",
+  "country": "Japan",
+  "tripType": "single-city",
+  "cities": [
+    "Kyoto"
+  ],
+  "accommodations": {
+    "Kyoto": {
+      "name": "Hotel Granvia Kyoto",
+      "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku",
+      "neighborhood": "Shimogyo-ku",
+      "coordinates": {
+        "lat": 35.0066,
+        "lng": 135.7462
+      },
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "type": "hotel",
+      "rating": 4.5
+    }
+  },
+  "days": [
+    {
+      "dayNumber": 1,
+      "date": "2025-05-10",
+      "city": "Kyoto",
+      "title": "Arrival in Kyoto and Temple Exploration",
+      "accommodation": {
+        "name": "Hotel Granvia Kyoto",
+        "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku",
+        "neighborhood": "Shimogyo-ku",
+        "coordinates": {
+          "lat": 35.0066,
+          "lng": 135.7462
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.5
+      },
+      "commuteFromHotel": {
+        "duration": 10,
+        "distance": 1000,
+        "method": "walk",
+        "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+      },
+      "slots": [
+        {
+          "slotId": "day1-morning",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [
+            {
+              "id": "opt-1-1",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Kinkaku-ji Temple (Golden Pavilion)",
+                "description": "A Zen temple famous for its stunning golden pavilion and beautiful gardens.",
+                "category": "attraction",
+                "duration": 120,
+                "place": {
+                  "name": "Kinkaku-ji Temple",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 34.9952,
+                    "lng": 135.7633
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 1000
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 200,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "cultural",
+                  "outdoor"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": null
+        },
+        {
+          "slotId": "day1-breakfast",
+          "slotType": "breakfast",
+          "timeRange": {
+            "start": "12:00",
+            "end": "14:00"
+          },
+          "options": [
+            {
+              "id": "opt-1-2",
+              "rank": 1,
+              "score": 80,
+              "activity": {
+                "name": "Kyoto-style Breakfast at Gion Nanba",
+                "description": "Enjoy a traditional Kyoto-style breakfast in a cozy teahouse.",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Gion Nanba",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0003,
+                    "lng": 135.7552
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 100
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "food",
+                  "traditional"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 10,
+            "distance": 1000,
+            "method": "walk",
+            "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+          }
+        },
+        {
+          "slotId": "day1-lunch",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "14:00",
+            "end": "16:00"
+          },
+          "options": [
+            {
+              "id": "opt-1-3",
+              "rank": 1,
+              "score": 70,
+              "activity": {
+                "name": "Lunch at Gion Sasaki",
+                "description": "Enjoy a traditional Japanese lunch in a cozy restaurant.",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Gion Sasaki",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0003,
+                    "lng": 135.7552
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 100
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "food",
+                  "traditional"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 5,
+            "distance": 500,
+            "method": "walk",
+            "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "date": "2025-05-11",
+      "city": "Kyoto",
+      "title": "Traditional Tea Ceremony and Zen Gardens",
+      "accommodation": {
+        "name": "Hotel Granvia Kyoto",
+        "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku",
+        "neighborhood": "Shimogyo-ku",
+        "coordinates": {
+          "lat": 35.0066,
+          "lng": 135.7462
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.5
+      },
+      "commuteFromHotel": {
+        "duration": 10,
+        "distance": 1000,
+        "method": "walk",
+        "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+      },
+      "slots": [
+        {
+          "slotId": "day2-morning",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [
+            {
+              "id": "opt-2-1",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Tea Ceremony Experience in Kyoto (90 min)",
+                "description": "Participate in a traditional Japanese tea ceremony.",
+                "category": "activity",
+                "duration": 90,
+                "place": {
+                  "name": "Traditional Tea House in Gion",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0013,
+                    "lng": 135.7532
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 100
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "cultural",
+                  "traditional"
+                ],
+                "source": "anchored"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": null
+        },
+        {
+          "slotId": "day2-afternoon",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "16:00"
+          },
+          "options": [
+            {
+              "id": "opt-2-2",
+              "rank": 1,
+              "score": 90,
+              "activity": {
+                "name": "Ryoan-ji Temple (Rock Garden)",
+                "description": "Visit a Zen temple famous for its beautiful rock garden.",
+                "category": "attraction",
+                "duration": 120,
+                "place": {
+                  "name": "Ryoan-ji Temple",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 34.9962,
+                    "lng": 135.7623
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 1000
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 200,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "cultural",
+                  "outdoor"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 10,
+            "distance": 1000,
+            "method": "walk",
+            "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+          }
+        },
+        {
+          "slotId": "day2-lunch",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "14:00"
+          },
+          "options": [
+            {
+              "id": "opt-2-3",
+              "rank": 1,
+              "score": 80,
+              "activity": {
+                "name": "Lunch at Gion Nanba",
+                "description": "Enjoy a traditional Japanese lunch in a cozy restaurant.",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Gion Nanba",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0003,
+                    "lng": 135.7552
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 100
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "food",
+                  "traditional"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 5,
+            "distance": 500,
+            "method": "walk",
+            "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+          }
+        },
+        {
+          "slotId": "day2-dinner",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "18:00",
+            "end": "20:00"
+          },
+          "options": [
+            {
+              "id": "opt-2-4",
+              "rank": 1,
+              "score": 70,
+              "activity": {
+                "name": "Dinner at Gion Sasaki",
+                "description": "Enjoy a traditional Japanese dinner in a cozy restaurant.",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Gion Sasaki",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0003,
+                    "lng": 135.7552
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 100
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "food",
+                  "traditional"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 10,
+            "distance": 1000,
+            "method": "walk",
+            "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+          }
+        },
+        {
+          "slotId": "day2-evening",
+          "slotType": "evening",
+          "timeRange": {
+            "start": "20:00",
+            "end": "22:00"
+          },
+          "options": [
+            {
+              "id": "opt-2-5",
+              "rank": 1,
+              "score": 60,
+              "activity": {
+                "name": "Stroll through Gion District",
+                "description": "Take a leisurely stroll through the charming Gion district.",
+                "category": "nature",
+                "duration": 120,
+                "place": {
+                  "name": "Gion District",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0003,
+                    "lng": 135.7552
+                  },
+                  "rating": 4.5,
+                  "reviewCount": 100
+                },
+                "isFree": true,
+                "estimatedCost": {
+                  "amount": 0,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "nature",
+                  "relaxing"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 5,
+            "distance": 500,
+            "method": "walk",
+            "instructions": "Walk east on Karasuma-dori toward Shiokoji-sagaru"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "date": "2025-05-12",
+      "city": "Kyoto",
+      "title": "Check-out and Departure",
+      "accommodation": null,
+      "commuteFromHotel": null
+    }
+  ],
+  "anchoredActivities": [
+    {
+      "id": "2",
+      "name": "Tea Ceremony Experience in Kyoto (90 min)",
+      "description": "Participate in a traditional Japanese tea ceremony.",
+      "category": "activity",
+      "duration": 90,
+      "place": {
+        "name": "Traditional Tea House in Gion",
+        "address": "",
+        "neighborhood": "",
+        "coordinates": {
+          "lat": 35.0013,
+          "lng": 135.7532
+        },
+        "rating": 4.5,
+        "reviewCount": 100
+      },
+      "isFree": false,
+      "estimatedCost": {
+        "amount": 2000,
+        "currency": "JPY"
+      },
+      "tags": [
+        "cultural",
+        "traditional"
+      ],
+      "source": "anchored"
+    }
+  ]
+}

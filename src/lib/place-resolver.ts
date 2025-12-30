@@ -141,21 +141,24 @@ const DEFAULT_OPTIONS: PlaceResolutionOptions = {
 };
 
 // Category to provider mapping (Yelp prioritized for restaurants since it works)
+// OSM added as fallback for all categories since it has streets/areas/small venues
 const CATEGORY_PROVIDER_MAP: Record<string, string[]> = {
-  restaurant: ["yelp", "google"],
-  cafe: ["yelp", "google"],
-  bar: ["yelp", "google"],
-  food: ["yelp", "google"],
-  tour: ["viator", "google"],
-  activity: ["viator", "google"],
-  experience: ["viator", "google"],
+  restaurant: ["yelp", "osm", "google"],
+  cafe: ["yelp", "osm", "google"],
+  bar: ["yelp", "osm", "google"],
+  food: ["yelp", "osm", "google"],
+  tour: ["viator", "osm", "google"],
+  activity: ["viator", "osm", "google"],
+  experience: ["viator", "osm", "google"],
   temple: ["osm", "google"],
   shrine: ["osm", "google"],
   museum: ["osm", "google"],
   park: ["osm", "google"],
   landmark: ["osm", "google"],
-  hotel: ["google"],
-  shopping: ["yelp", "google"],
+  hotel: ["google", "osm"],
+  shopping: ["osm", "yelp", "google"],  // OSM first for streets/areas
+  observation: ["osm", "google"],
+  attraction: ["osm", "google"],
   default: ["osm", "google"],
 };
 
@@ -667,18 +670,139 @@ async function tryFoursquare(place: UnresolvedPlace): Promise<ResolvedPlace[]> {
  * Try OpenStreetMap/Nominatim
  */
 async function tryOpenStreetMap(place: UnresolvedPlace): Promise<ResolvedPlace[]> {
-  const query = place.neighborhood
-    ? `${place.name}, ${place.neighborhood}, ${place.city}, ${place.country}`
-    : `${place.name}, ${place.city}, ${place.country}`;
+  // Strategy: Try multiple query variations for better matching
+  const queries: string[] = [];
 
-  const results = await searchNominatim({
-    q: query,
-    format: "jsonv2",
-    addressdetails: 1,
-    limit: 5,
-  });
+  // Clean the place name first (remove parentheses like "(Golden Pavilion)")
+  let cleanName = place.name
+    .replace(/\s*\([^)]*\)\s*/g, "") // Remove text in parentheses
+    .trim();
 
-  return results.map((osm) => osmToResolvedPlace(osm, place.name));
+  // Handle semicolon-separated names (OSM stores alternative names this way)
+  // e.g., "Daiun-in;Daiun-In Temple" -> use first name "Daiun-in"
+  if (cleanName.includes(";")) {
+    const alternatives = cleanName.split(";").map(n => n.trim()).filter(n => n.length > 0);
+    if (alternatives.length > 0) {
+      // Use the first (primary) name for main queries
+      cleanName = alternatives[0];
+      // Also add other alternatives to the query list later
+      console.log(`[PlaceResolver] OSM: Split semicolon names - primary: "${cleanName}", alternatives: [${alternatives.slice(1).join(", ")}]`);
+    }
+  }
+
+  // 1. Clean name with city (most reliable)
+  queries.push(`${cleanName}, ${place.city}`);
+
+  // 2. Just the clean name (for famous landmarks)
+  queries.push(cleanName);
+
+  // 3. Original name with city (in case parentheses help)
+  if (cleanName !== place.name) {
+    queries.push(`${place.name}, ${place.city}`);
+  }
+
+  // 4. Name without common suffixes (Temple, Shrine, etc.)
+  const nameWithoutSuffix = cleanName
+    .replace(/\s+(Temple|Shrine|Castle|Museum|Park|Station|Market)$/i, "")
+    .trim();
+  if (nameWithoutSuffix !== cleanName && nameWithoutSuffix.length > 2) {
+    queries.push(`${nameWithoutSuffix}, ${place.city}`);
+    queries.push(nameWithoutSuffix);
+  }
+
+  // 5. Normalize romanization (handle macrons: ō→o, ū→u, etc.)
+  const normalizedName = normalizeJapaneseRomanization(cleanName);
+  if (normalizedName !== cleanName) {
+    queries.push(`${normalizedName}, ${place.city}`);
+    queries.push(normalizedName);
+  }
+
+  // 6. Remove hyphens from Japanese names (Shitenno-ji → Shitennoji)
+  const noHyphenName = cleanName.replace(/-/g, "");
+  if (noHyphenName !== cleanName) {
+    queries.push(`${noHyphenName}, ${place.city}`);
+    // Also try without suffix
+    const noHyphenNoSuffix = noHyphenName.replace(/\s*(Temple|Shrine|Castle|Museum|Park|ji|jinja)$/i, "").trim();
+    if (noHyphenNoSuffix !== noHyphenName && noHyphenNoSuffix.length > 2) {
+      queries.push(`${noHyphenNoSuffix}, ${place.city}`);
+    }
+  }
+
+  // 7. For streets/areas: try with neighborhood if available
+  if (place.neighborhood) {
+    queries.push(`${cleanName}, ${place.neighborhood}, ${place.city}`);
+  }
+
+  // 8. Handle "X Street" or "X Town" patterns - also try without "Street"/"Town"
+  const streetPattern = /\s+(Street|Town|District|Area|Electric Town)$/i;
+  if (streetPattern.test(cleanName)) {
+    const withoutStreet = cleanName.replace(streetPattern, "").trim();
+    queries.push(`${withoutStreet}, ${place.city}`);
+    // Also try with neighborhood for streets
+    if (place.neighborhood) {
+      queries.push(`${withoutStreet}, ${place.neighborhood}, ${place.city}`);
+    }
+  }
+
+  // 9. Handle "Harajuku Takeshita Street" → "Takeshita Street, Harajuku"
+  const words = cleanName.split(/\s+/);
+  if (words.length >= 2) {
+    // Try last word(s) + first word as location
+    const possibleNeighborhood = words[0];
+    const restOfName = words.slice(1).join(" ");
+    if (restOfName.length > 2) {
+      queries.push(`${restOfName}, ${possibleNeighborhood}, ${place.city}`);
+    }
+  }
+
+  // Try each query until we get good results
+  console.log(`[PlaceResolver] OSM trying ${queries.length} queries for "${place.name}":`, queries.slice(0, 5));
+
+  for (const query of queries) {
+    const results = await searchNominatim({
+      q: query,
+      format: "jsonv2",
+      addressdetails: 1,
+      namedetails: 1,
+      limit: 5,
+      countrycodes: place.country === "Japan" ? "jp" : undefined,
+    });
+
+    if (results.length > 0) {
+      const resolved = results.map((osm) => osmToResolvedPlace(osm, place.name));
+      console.log(`[PlaceResolver] OSM query "${query}" returned ${results.length} results, confidences: [${resolved.map(r => r.confidence.toFixed(2)).join(', ')}]`);
+
+      // Return if we have a high-confidence match
+      const highConfidence = resolved.filter(r => r.confidence >= 0.7);
+      if (highConfidence.length > 0) {
+        console.log(`[PlaceResolver] OSM found "${place.name}" with query: "${query}" -> "${highConfidence[0].name}"`);
+        return highConfidence;
+      }
+    } else {
+      console.log(`[PlaceResolver] OSM query "${query}" returned 0 results`);
+    }
+  }
+
+  // No high-confidence match found - return empty (will fall through to next provider)
+  console.log(`[PlaceResolver] OSM no high-confidence match for: "${place.name}" after trying all queries`);
+  return [];
+}
+
+/**
+ * Normalize Japanese romanization for better matching
+ * Handles: macrons (ō→o), common variations (shi→si), etc.
+ */
+function normalizeJapaneseRomanization(name: string): string {
+  return name
+    // Remove macrons (long vowels)
+    .replace(/ō/g, "o").replace(/Ō/g, "O")
+    .replace(/ū/g, "u").replace(/Ū/g, "U")
+    .replace(/ā/g, "a").replace(/Ā/g, "A")
+    .replace(/ē/g, "e").replace(/Ē/g, "E")
+    .replace(/ī/g, "i").replace(/Ī/g, "I")
+    // Common romanization variations
+    .replace(/ou/g, "o")  // Toukyou → Tokyo
+    .replace(/uu/g, "u"); // Kyuushu → Kyushu
 }
 
 /**
@@ -783,8 +907,23 @@ function osmToResolvedPlace(
   osm: NominatimPlace,
   queryName: string
 ): ResolvedPlace {
+  // Get the best name for matching - prefer English/romanized over Japanese characters
+  const nameDetails = osm.namedetails as Record<string, string> | undefined;
+  const bestName =
+    nameDetails?.["name:en"] ||      // English name (e.g., "Ryōan-ji")
+    nameDetails?.["name:ja_rm"] ||   // Romanized Japanese (e.g., "Ryōan-ji")
+    nameDetails?.name ||             // Primary name (might be Japanese: "龍安寺")
+    osm.display_name.split(",")[0];  // Fallback to display name
+
+  // For display, prefer English name but fall back to original
+  const displayName = nameDetails?.["name:en"] || nameDetails?.name || osm.display_name.split(",")[0];
+
+  // Normalize both names for comparison (remove macrons, etc.)
+  const normalizedQuery = normalizeJapaneseRomanization(queryName.toLowerCase());
+  const normalizedResult = normalizeJapaneseRomanization(bestName.toLowerCase());
+
   return {
-    name: osm.namedetails?.name || osm.display_name.split(",")[0],
+    name: displayName,
     address: osm.display_name,
     neighborhood: osm.address?.suburb || osm.address?.neighbourhood || "",
     coordinates: {
@@ -792,7 +931,7 @@ function osmToResolvedPlace(
       lng: parseFloat(osm.lon),
     },
     photos: [],
-    confidence: calculateConfidence(queryName, osm.namedetails?.name || osm.display_name),
+    confidence: calculateConfidence(normalizedQuery, normalizedResult),
     source: "osm",
     sourceId: `${osm.osm_type}/${osm.osm_id}`,
     website: osm.extratags?.website,
@@ -953,7 +1092,11 @@ export async function resolveItineraryPlaces(
           activity: {
             name: string;
             category: string;
-            place?: { neighborhood?: string } | null;
+            source?: string;
+            place?: {
+              neighborhood?: string;
+              coordinates?: { lat: number; lng: number };
+            } | null;
           };
         }>;
       }>;
@@ -970,10 +1113,23 @@ export async function resolveItineraryPlaces(
     place: UnresolvedPlace;
   }> = [];
 
+  // Sources that already have their own place data and shouldn't be resolved
+  const skipResolutionSources = ["klook", "viator", "local-data"];
+
   // Extract all places from itinerary
   for (const day of itinerary.days) {
     for (const slot of day.slots) {
       for (const option of slot.options) {
+        // Skip resolution for activities from sources that already have place data
+        if (option.activity.source && skipResolutionSources.includes(option.activity.source)) {
+          // Check if they have valid coordinates already
+          const coords = option.activity.place?.coordinates;
+          if (coords && coords.lat !== 0 && coords.lng !== 0) {
+            console.log(`[PlaceResolver] Skipping resolution for "${option.activity.name}" (source: ${option.activity.source}, has coordinates)`);
+            continue;
+          }
+        }
+
         placesToResolve.push({
           dayNumber: day.dayNumber,
           slotId: slot.slotId,

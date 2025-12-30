@@ -82,6 +82,191 @@ export function parseStructuredResponse(llmResponse: string): StructuredItinerar
 // ============================================
 
 /**
+ * Try to repair common JSON issues (trailing commas, missing quotes, etc.)
+ * This is especially useful for Gemini outputs which can have subtle issues
+ */
+function tryRepairJson(jsonStr: string): string {
+  let repaired = jsonStr;
+
+  // Remove trailing commas before } or ] (very common LLM issue)
+  repaired = repaired.replace(/,(\s*[}\]])/g, '$1');
+
+  // Remove multiple trailing commas
+  repaired = repaired.replace(/,+(\s*[}\]])/g, '$1');
+
+  // Fix unescaped newlines in strings
+  repaired = repaired.replace(/"([^"\\]*(?:\\.[^"\\]*)*)"/g, (match) => {
+    return match.replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/\t/g, '\\t');
+  });
+
+  // Remove any control characters that might break parsing
+  repaired = repaired.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/g, '');
+
+  // Fix missing commas between array elements (common in long arrays)
+  repaired = repaired.replace(/\}(\s*)\{/g, '},$1{');
+  repaired = repaired.replace(/\](\s*)\[/g, '],$1[');
+
+  // Fix missing commas after string values followed by keys
+  repaired = repaired.replace(/"(\s+)"/g, '",$1"');
+
+  // Remove BOM if present
+  repaired = repaired.replace(/^\uFEFF/, '');
+
+  return repaired;
+}
+
+/**
+ * More aggressive JSON repair for severely malformed JSON
+ */
+function aggressiveJsonRepair(jsonStr: string): string {
+  let repaired = tryRepairJson(jsonStr);
+
+  // Try to balance braces/brackets
+  const openBraces = (repaired.match(/\{/g) || []).length;
+  const closeBraces = (repaired.match(/\}/g) || []).length;
+  const openBrackets = (repaired.match(/\[/g) || []).length;
+  const closeBrackets = (repaired.match(/\]/g) || []).length;
+
+  // Add missing closing braces/brackets
+  for (let i = 0; i < openBraces - closeBraces; i++) {
+    repaired += '}';
+  }
+  for (let i = 0; i < openBrackets - closeBrackets; i++) {
+    repaired += ']';
+  }
+
+  // Truncate at last valid closing brace if there are too many
+  if (closeBraces > openBraces) {
+    const lastValidPos = findLastValidPosition(repaired);
+    if (lastValidPos > 0) {
+      repaired = repaired.substring(0, lastValidPos + 1);
+    }
+  }
+
+  return repaired;
+}
+
+/**
+ * Find the last position where the JSON could be valid
+ */
+function findLastValidPosition(jsonStr: string): number {
+  let braceCount = 0;
+  let bracketCount = 0;
+  let lastValidPos = -1;
+  let inString = false;
+  let escaped = false;
+
+  for (let i = 0; i < jsonStr.length; i++) {
+    const char = jsonStr[i];
+
+    if (escaped) {
+      escaped = false;
+      continue;
+    }
+
+    if (char === '\\') {
+      escaped = true;
+      continue;
+    }
+
+    if (char === '"') {
+      inString = !inString;
+      continue;
+    }
+
+    if (inString) continue;
+
+    if (char === '{') braceCount++;
+    else if (char === '}') {
+      braceCount--;
+      if (braceCount === 0 && bracketCount === 0) {
+        lastValidPos = i;
+      }
+    }
+    else if (char === '[') bracketCount++;
+    else if (char === ']') bracketCount--;
+  }
+
+  return lastValidPos;
+}
+
+/**
+ * Try multiple JSON parsing strategies
+ */
+function tryParseJson(jsonStr: string): unknown | null {
+  // Strategy 1: Direct parse
+  try {
+    return JSON.parse(jsonStr);
+  } catch {
+    // Continue to next strategy
+  }
+
+  // Strategy 2: Basic repair
+  try {
+    const repaired = tryRepairJson(jsonStr);
+    return JSON.parse(repaired);
+  } catch {
+    // Continue to next strategy
+  }
+
+  // Strategy 3: Aggressive repair
+  try {
+    const repaired = aggressiveJsonRepair(jsonStr);
+    return JSON.parse(repaired);
+  } catch {
+    // Continue to next strategy
+  }
+
+  // Strategy 4: Extract just the itinerary portion if truncated
+  try {
+    // Find the last complete day object
+    const daysMatch = jsonStr.match(/"days"\s*:\s*\[([\s\S]*)/);
+    if (daysMatch) {
+      const daysContent = daysMatch[1];
+      // Find complete day objects
+      const dayObjects: string[] = [];
+      let depth = 0;
+      let start = -1;
+
+      for (let i = 0; i < daysContent.length; i++) {
+        const char = daysContent[i];
+        if (char === '{') {
+          if (depth === 0) start = i;
+          depth++;
+        } else if (char === '}') {
+          depth--;
+          if (depth === 0 && start >= 0) {
+            dayObjects.push(daysContent.substring(start, i + 1));
+            start = -1;
+          }
+        }
+      }
+
+      if (dayObjects.length > 0) {
+        // Reconstruct with complete days only
+        const destMatch = jsonStr.match(/"destination"\s*:\s*"([^"]+)"/);
+        const destination = destMatch ? destMatch[1] : "Unknown";
+
+        const reconstructed = {
+          destination,
+          days: dayObjects.map(d => {
+            try { return JSON.parse(d); } catch { return null; }
+          }).filter(d => d !== null),
+        };
+
+        if (reconstructed.days.length > 0) {
+          return reconstructed;
+        }
+      }
+    }
+  } catch {
+    // Final fallback failed
+  }
+
+  return null;
+}
+
+/**
  * Try to extract JSON from code blocks or raw JSON
  */
 function tryAlternativeJsonExtraction(response: string): StructuredItineraryData | null {
@@ -89,12 +274,21 @@ function tryAlternativeJsonExtraction(response: string): StructuredItineraryData
   const codeBlockMatch = response.match(/```(?:json)?\s*([\s\S]*?)```/);
   if (codeBlockMatch) {
     try {
-      const parsed = JSON.parse(codeBlockMatch[1].trim());
+      const repaired = tryRepairJson(codeBlockMatch[1].trim());
+      const parsed = JSON.parse(repaired);
       if (isValidItineraryResponse(parsed)) {
         return transformLLMResponse(parsed);
       }
     } catch {
-      // Continue to next method
+      // Try without repair
+      try {
+        const parsed = JSON.parse(codeBlockMatch[1].trim());
+        if (isValidItineraryResponse(parsed)) {
+          return transformLLMResponse(parsed);
+        }
+      } catch {
+        // Continue to next method
+      }
     }
   }
 
@@ -102,12 +296,21 @@ function tryAlternativeJsonExtraction(response: string): StructuredItineraryData
   const jsonObjectMatch = response.match(/\{[\s\S]*"days"\s*:\s*\[[\s\S]*\][\s\S]*\}/);
   if (jsonObjectMatch) {
     try {
-      const parsed = JSON.parse(jsonObjectMatch[0]);
+      const repaired = tryRepairJson(jsonObjectMatch[0]);
+      const parsed = JSON.parse(repaired);
       if (isValidItineraryResponse(parsed)) {
         return transformLLMResponse(parsed);
       }
     } catch {
-      // Failed to parse
+      // Try without repair
+      try {
+        const parsed = JSON.parse(jsonObjectMatch[0]);
+        if (isValidItineraryResponse(parsed)) {
+          return transformLLMResponse(parsed);
+        }
+      } catch {
+        // Failed to parse
+      }
     }
   }
 

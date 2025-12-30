@@ -1,0 +1,959 @@
+{
+  "id": "yelp_mjs6v7ox_9d9j5c",
+  "timestamp": "2025-12-30T06:11:01.425Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "latitude": "35.014681",
+      "longitude": "135.6725827",
+      "radius": "1500",
+      "categories": "restaurants",
+      "limit": "10",
+      "sort_by": "rating"
+    }
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "xCVrP_KEGOotwm58PZpztQ",
+          "alias": "イクス-嵐山本店-右京区",
+          "name": "Ex Cafe Kyoto Arashiyama",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/k0v7paZMjWl9acOZoa6Y5w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%A4%E3%82%AF%E3%82%B9-%E5%B5%90%E5%B1%B1%E6%9C%AC%E5%BA%97-%E5%8F%B3%E4%BA%AC%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "desserts",
+              "title": "Desserts"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.0146650584,
+            "longitude": 135.678098307
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "嵯峨天龍寺造路町35-3",
+            "address2": null,
+            "address3": null,
+            "city": "右京区",
+            "zip_code": "616-8384",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "嵯峨天龍寺造路町35-3",
+              "右京区, 京都府 〒616-8384",
+              "Japan"
+            ]
+          },
+          "phone": "+81758826366",
+          "display_phone": "+81 75-882-6366",
+          "distance": 502.30457150372024,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1730",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "kTA6MyR73mL0K55c7-HnGg",
+          "alias": "カフェ-タカハシ-京都市",
+          "name": "Cafe Takahashi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/FHUynrHGH5neoujeNw8eCw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%AB%E3%83%95%E3%82%A7-%E3%82%BF%E3%82%AB%E3%83%8F%E3%82%B7-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.014554,
+            "longitude": 135.675313
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "右京区嵯峨天龍寺芒ノ馬場町10-2",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "616-8385",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨天龍寺芒ノ馬場町10-2",
+              "Kyoto, 京都府 〒616-8385",
+              "Japan"
+            ]
+          },
+          "phone": "+81758810086",
+          "display_phone": "+81 75-881-0086",
+          "distance": 249.0468671888927,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1700",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1700",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1700",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1700",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "1700",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "gGp66dQsHdeWjieuVzzmYg",
+          "alias": "京-翠嵐-京都市",
+          "name": "Kyo SUIRAN",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/a2WzCH7xb206deMKj9SgNA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BA%AC-%E7%BF%A0%E5%B5%90-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "french",
+              "title": "French"
+            },
+            {
+              "alias": "teppanyaki",
+              "title": "Teppanyaki"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.013627,
+            "longitude": 135.673282
+          },
+          "transactions": [],
+          "location": {
+            "address1": "嵯峨天龍寺芒ノ馬場町12",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "616-8385",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "嵯峨天龍寺芒ノ馬場町12",
+              "Kyoto, 京都府 〒616-8385",
+              "Japan"
+            ]
+          },
+          "phone": "+81758721555",
+          "display_phone": "+81 75-872-1555",
+          "distance": 133.3846506032359,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1000",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "P98v4iemrzT1lmuLo1jgvA",
+          "alias": "steak-otsuka-京都市右京区嵯峨天龍寺若宮町２１-３-3",
+          "name": "STEAK OTSUKA ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/NzFm_8Wb2hfdLVqlzWl7Jw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/steak-otsuka-%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8C%BA%E5%B5%AF%E5%B3%A8%E5%A4%A9%E9%BE%8D%E5%AF%BA%E8%8B%A5%E5%AE%AE%E7%94%BA%EF%BC%92%EF%BC%91-%EF%BC%93-3?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 18,
+          "categories": [
+            {
+              "alias": "steak",
+              "title": "Steakhouses"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.020371942715,
+            "longitude": 135.680460045289
+          },
+          "transactions": [],
+          "location": {
+            "address1": "",
+            "address2": null,
+            "address3": null,
+            "city": "京都市右京区嵯峨天龍寺若宮町２１－３",
+            "zip_code": "616-8371",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "京都市右京区嵯峨天龍寺若宮町２１－３, 京都府 〒616-8371",
+              "Japan"
+            ]
+          },
+          "phone": "+81758647989",
+          "display_phone": "+81 75-864-7989",
+          "distance": 956.5783873218801,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.steak-otsuka.com/menu_e",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "E40okGnKo57zlTMJfQsARg",
+          "alias": "cafe-horizon-京都市",
+          "name": "cafe HORIZON",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/6ZyAkc8oBXuiOFg8peCirQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/cafe-horizon-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 15,
+          "categories": [
+            {
+              "alias": "coffee",
+              "title": "Coffee & Tea"
+            },
+            {
+              "alias": "breakfast_brunch",
+              "title": "Breakfast & Brunch"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.0166838704435,
+            "longitude": 135.680141821504
+          },
+          "transactions": [],
+          "location": {
+            "address1": "右京区嵯峨天龍寺車道町48-3",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "623-0045",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨天龍寺車道町48-3",
+              "Kyoto, 京都府 〒623-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+819073485423",
+          "display_phone": "+81 90-7348-5423",
+          "distance": 723.5229820751312,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1800",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1800",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1800",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1800",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1800",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1800",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "rlXOUYqr0v5eMvFi2rCfIw",
+          "alias": "pizzeria-lugara-京都市",
+          "name": "Pizzeria Lugara",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/vuyIMXJrCSRkM8U2noYcUA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/pizzeria-lugara-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "pizza",
+              "title": "Pizza"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.018956,
+            "longitude": 135.676154
+          },
+          "transactions": [],
+          "location": {
+            "address1": "右京区嵯峨天龍寺瀬戸川町18-25",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "616-8376",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨天龍寺瀬戸川町18-25",
+              "Kyoto, 京都府 〒616-8376",
+              "Japan"
+            ]
+          },
+          "phone": "+81752039391",
+          "display_phone": "+81 75-203-9391",
+          "distance": 575.9664582510189,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "1Hxz-J_3p55AzXUnHB2kjA",
+          "alias": "嵐山カレー-京都市",
+          "name": "Arashiyamakarē",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/CwwTL48wkk8r4nQzl5Pp5w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%B5%90%E5%B1%B1%E3%82%AB%E3%83%AC%E3%83%BC-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 10,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.0180687,
+            "longitude": 135.6811031
+          },
+          "transactions": [],
+          "location": {
+            "address1": "右京区嵯峨天龍寺車道町8-5",
+            "address2": "ニチエーマンション　1Ｆ",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "616-8371",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨天龍寺車道町8-5",
+              "ニチエーマンション　1Ｆ",
+              "Kyoto, 京都府 〒616-8371",
+              "Japan"
+            ]
+          },
+          "phone": "",
+          "display_phone": "",
+          "distance": 862.5339805869187,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "SgcufkIyUyGd1xIkVYVHZA",
+          "alias": "すし-成田屋-京都市",
+          "name": "Sushi Naritaya ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/1yXY1ZoHwxJXnaml4EQXyg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%99%E3%81%97-%E6%88%90%E7%94%B0%E5%B1%8B-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 100,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.014515,
+            "longitude": 135.677058
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "右京区嵯峨天龍寺芒の馬場町3-25",
+            "address2": "嵐山スクエア　ウエストパーク",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "616-8385",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨天龍寺芒の馬場町3-25",
+              "嵐山スクエア　ウエストパーク",
+              "Kyoto, 京都府 〒616-8385",
+              "Japan"
+            ]
+          },
+          "phone": "+819085798383",
+          "display_phone": "+81 90-8579-8383",
+          "distance": 407.9797523153562,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "kxXObeYhAHW_4zatTNSqMA",
+          "alias": "松籟庵-京都市",
+          "name": "Shōraian",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/WoVNpFYw6TdOMWCOXvxsNw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%BE%E7%B1%9F%E5%BA%B5-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 17,
+          "categories": [
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "tofu",
+              "title": "Tofu Shops"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.0137550185,
+            "longitude": 135.671997208
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "右京区嵯峨亀ノ尾町官有地内",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "616-8386",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "右京区嵯峨亀ノ尾町官有地内",
+              "Kyoto, 京都府 〒616-8386",
+              "Japan"
+            ]
+          },
+          "phone": "+81758610123",
+          "display_phone": "+81 75-861-0123",
+          "distance": 115.95142434421592,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.syouraian.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "rvi5yrVkR0hQUQZsNjcUtw",
+          "alias": "momi-cafe-京都市",
+          "name": "MOMI CAFE",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/4AW6HOM6UtHJdd3XTDnNhQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/momi-cafe-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "coffee",
+              "title": "Coffee & Tea"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.0225785,
+            "longitude": 135.6717088
+          },
+          "transactions": [],
+          "location": {
+            "address1": "嵯峨二尊院門前北中院町15",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "嵯峨二尊院門前北中院町15",
+              "Kyoto, 京都府",
+              "Japan"
+            ]
+          },
+          "phone": "+81758826982",
+          "display_phone": "+81 75-882-6982",
+          "distance": 881.7595347709098,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1700",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 239,
+      "region": {
+        "center": {
+          "longitude": 135.6725827,
+          "latitude": 35.014681
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 580,
+    "success": true
+  }
+}

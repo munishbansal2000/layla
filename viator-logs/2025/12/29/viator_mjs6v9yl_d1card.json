@@ -1,0 +1,1208 @@
+{
+  "id": "viator_mjs6v9yl_d1card",
+  "timestamp": "2025-12-30T06:11:04.365Z",
+  "type": "freetext",
+  "request": {
+    "endpoint": "/search/freetext",
+    "method": "POST",
+    "params": {
+      "searchTerm": "Neko Shrine & café Tokyo",
+      "count": 10
+    }
+  },
+  "response": {
+    "products": {
+      "totalCount": 47,
+      "results": [
+        {
+          "productCode": "30791P157",
+          "title": "Tokyo, Shaped Around You: A Private Experience with a Local",
+          "description": "This experience is designed around you — not a fixed route or a highlights checklist.\n\nBefore your time together, your local host learns what you’re curious about, what you’ve already seen, and how you like to explore a city. From there, you shape the experience together and adjust as you go.\n\nRather than rushing between sights, the focus is on understanding Tokyo through neighborhoods, everyday places, and conversation. You may spend time in well-known areas or quieter local streets, but the emphasis is always on context, insight, and moving at a pace that suits you.\n\nThis experience works best for travelers who value flexibility, local perspective, and depth over trying to see everything in one day.",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/1b/e3/4d.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/1b/e3/4d.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 338,
+                "averageRating": 4.8
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 831,
+                "averageRating": 4.9
+              }
+            ],
+            "totalReviews": 1169,
+            "combinedAverageRating": 4.8656974
+          },
+          "duration": {
+            "variableDurationFromMinutes": 120,
+            "variableDurationToMinutes": 300
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 93.05,
+              "fromPriceBeforeDiscount": 105.74
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Explore-the-City-with-a-Local/d334-30791P157?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12029,
+            21972,
+            12046,
+            11889,
+            11938,
+            11941,
+            12075,
+            12028,
+            367652,
+            367661,
+            367659,
+            367654,
+            367653
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR",
+            "SPECIAL_OFFER"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "63670P18",
+          "title": "Yanaka Historical Walking Tour in Tokyo's Old Town",
+          "description": "-Feel the Shinto vibe as you cross a vibrant red arch in Nezu Shrine, a portal into another world\n\nWe'll head for Nezu shrine, one of the oldest shrines in Tokyo. While your guide shares Japanese cultural and historical tidbits, we'll take great photos in and around the tunnel. \n\n- Craft a lucky cat for your travel memory in an cafe of the old folk house\n\nAfter a nice long walk, we will rest in a cafe with a drink and sweert. This is the first cafe in Japan that provides workshops to craft lucky cat statues that will bring luck and happiness. Let's paint your statue with your favorite color and patterns, and make your cat keep your memory from Japan for good.\n\n- Dive into the local lifestyle! Stroll the backstreets of a quiet local area.\n\nAfter visiting the famous Himalayan Cedar tree, we'll visit Yanaka Ginza, a long local shopping street which represents the flavors of Tokyo's old neighborhoods. ",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/ba/67/f5.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/ba/67/f5.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 14,
+                "averageRating": 4.9
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 167,
+                "averageRating": 4.9
+              }
+            ],
+            "totalReviews": 181,
+            "combinedAverageRating": 4.8784533
+          },
+          "duration": {
+            "fixedDurationInMinutes": 210
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 80.52,
+              "fromPriceBeforeDiscount": 80.52
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Yanaka-Historical-Walking-Tour/d334-63670P18?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            21911,
+            21860,
+            22083,
+            12046,
+            20757,
+            12028,
+            12053,
+            11928,
+            367661,
+            11938,
+            367654,
+            11929
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "LIKELY_TO_SELL_OUT"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "176858P1",
+          "title": "Akihabara Tailor-made Private Tour for Anime Fans",
+          "description": "\"It's my first time visiting Akihabara, but I have no idea how to have real experiences I saw in anime...\"\n\"I really wanna have an Akiba experience but I'm running out of time...\"\n\"There's something I wanna get, but have no idea how/where to buy...\"\n\nFor those who have such demands, I offer the tour that you can finish within 5 hours!\nAfter meeting at JR Akihabara station and a short introduction, we'll go around places.\nAs a native Japanese Otaku, I'm sure that I can give you the right information related to Akihabara.\n\nAlso, we'll go to a maid cafe that I recommend the most out of 10 kinds of maid cafes I experienced in Akihabara, which is not well-known but is a must-see in my opinion!\n\nI recommend you prepare some wishlists of what you're looking for/where you want to go, so I can arrange the tour as you'd like!\n",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/07/ba/78/b9.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/07/ba/78/b9.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 19,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 116,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 135,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "variableDurationFromMinutes": 180,
+            "variableDurationToMinutes": 240
+          },
+          "confirmationType": "MANUAL",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 130.92,
+              "fromPriceBeforeDiscount": 130.92
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Akiba-Tailor-made-Tour-for-Anime-Fans/d334-176858P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            12030,
+            367654,
+            12046,
+            21520,
+            367661,
+            11929,
+            11941,
+            367653
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "134410P3",
+          "title": "Sacred Morning Walk and Brunch Meiji Shrine",
+          "description": "The morning at Meiji Shrine offers a tranquil oasis in the heart of Tokyo, enveloped in a serene atmosphere and mystical forest that make it hard to believe you're in the midst of the city’s hustle. Here lies a beautiful and little-known history, and this tour is filled with fascinating insights that you might never discover on your own. We promise a unique experience and special ambiance that can only be enjoyed at this time of day.\nAn experienced and knowledgeable guide will meticulously share the history of Meiji Shrine, the secrets of its forest, and the etiquette of visiting shrines. \n\nAfter the walk, you can savor brunch at a charming, hidden café in Harajuku.\n",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/13/d3/f5/e2.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/13/d3/f5/e2.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 5,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 5,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 10,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 90
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "ACTIVITY",
+          "pricing": {
+            "summary": {
+              "fromPrice": 32.73,
+              "fromPriceBeforeDiscount": 32.73
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Sacred-morning-walk-and-brunch-Meiji-Shrine/d334-134410P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            21860,
+            12046,
+            22083,
+            12029,
+            20757,
+            21577,
+            21576,
+            11890
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "LIKELY_TO_SELL_OUT"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "22178P66",
+          "title": "Old Town Tokyo: Shinagawa-Juku Walking Tour",
+          "description": "Step into a peaceful area rich in history, where the spirit of the Edo period lives on. Shinagawa was once part of the Old Tokaido Road, the path samurais traveled to visit the Shogun in Kyoto a journey filled with tradition and stories.\nExplore traditional boats, quaint shops, and sacred sites as you experience a side of Tokyo rarely seen by visitors.\n\n・Experience Yakatabune, traditional boats that once floated along Tokyo’s waterways\n・Wander through charming streets lined with authentic Japanese shops and explore historic temples\n・Climb a small hill to visit Shinagawa Shrine and uncover the unique secret behind its construction",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/14/7b/9b/bd.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/14/7b/9b/bd.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 1,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 31,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 32,
+            "combinedAverageRating": 4.96875
+          },
+          "duration": {
+            "fixedDurationInMinutes": 180
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 94.26,
+              "fromPriceBeforeDiscount": 94.26
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Old-Town-Tokyo-Shinagawa-Juku-Walking-Tour/d334-22178P66?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            21911,
+            12046,
+            21972,
+            367661,
+            11929,
+            12028,
+            20224,
+            20245,
+            21860
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "467578P6",
+          "title": "Akihabara - Discover the Otaku Culture & Experience the Maid Cafe",
+          "description": "Akihabara is not only Anime and Mangas. We have many other threads of OTAKU and Akihabara is one that caters to so many of them. \n\nWhile the focus is of course the Anime and Mangas, figurines, dolls, cosplay, trading cards and the 2.5 dimensional world that this consists, we will be look deeper and explore the backstreets of Akihabara and check out the Akiba food culture, game consoles, pop culture snacks, cosplay, purikura, arcade games & more. \n\nShould time allow, we may visit other otaku spots to help you get a bigger picture of the otaku world. We may visit one of the top three shrines of EDO Tokyo to give you a glimpse of the historical and traditional culture aspect apart of the pop culture available here in Akihabara\n\nWednesday may give you an opportunity to see the one and only Maid Cafe Theatre performed by actual maids cafe maids and only available from Vas Tours. Note that the traveler must reserve well beforehand as tickets are difficult to go. Let us know.",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/6e/0c/3a.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/6e/0c/3a.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 6,
+                "averageRating": 4.3
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 1,
+                "averageRating": 3
+              }
+            ],
+            "totalReviews": 7,
+            "combinedAverageRating": 4.142857
+          },
+          "duration": {
+            "fixedDurationInMinutes": 240
+          },
+          "confirmationType": "MANUAL",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 104.61,
+              "fromPriceBeforeDiscount": 104.61
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/AKIHABARA-Investigating-the-Otaku-Culture-and-the-Maid-Cafe/d334-467578P6?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            11929,
+            12028,
+            367661,
+            12046,
+            367658,
+            20245,
+            21911,
+            21860
+          ],
+          "flags": [
+            "FREE_CANCELLATION"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "30791P656",
+          "title": "Tokyo Private Half-Day Tour with a Local – Secrets & Highlights",
+          "description": "See Tokyo through the eyes of a local on a private, personalized half-day walking tour tailored to your interests. Instead of following a fixed route, you’ll enjoy a flexible experience shaped by what you want to explore, guided by someone who knows the city like a friend.\n\nYour host will lead you to iconic sights, lesser-known alleys, and cultural gems while sharing stories that bring each neighborhood to life. Whether you’re drawn to historic temples, vibrant markets, quiet parks, or artisan shops, your itinerary will reflect your unique style of travel.\n\nAfter booking, you’ll complete a brief questionnaire to share your interests. We’ll then match you with a like-minded local host who will contact you directly to help plan your perfect day.",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/15/e8/16/99.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/15/e8/16/99.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 16,
+                "averageRating": 4.9
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 37,
+                "averageRating": 4.9
+              }
+            ],
+            "totalReviews": 53,
+            "combinedAverageRating": 4.943396
+          },
+          "duration": {
+            "fixedDurationInMinutes": 240
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 141.2,
+              "fromPriceBeforeDiscount": 141.2
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/A-Half-Day-in-Tokyo-with-a-Local-Private-and-Personalized/d334-30791P656?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            11938,
+            12029,
+            11941,
+            367654,
+            367661,
+            11929,
+            367653,
+            12046,
+            12075,
+            12028,
+            21972
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR",
+            "SPECIAL_OFFER"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "133677P1",
+          "title": "Licensed Guide Shinjuku Dramatic Tour (Tokyo)",
+          "description": "You can learn about the culture and history of Shinjuku from a national government-licensed guide interpreter, also known as a licensed guide, for 2 hours.\n\nYou can also experience the vibrant cityscape. Moreover, we offer a secret site in Kabukicho at night, which can't be an ordinary tour. That is exactly what is the main dish of a dramatic tour.\n\n",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/10/0a/1d/c5.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/10/0a/1d/c5.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 2,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 1,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 3,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 120
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 26.18,
+              "fromPriceBeforeDiscount": 26.18
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/LICENSED-GUIDE-DRAMATIC-TOUR/d334-133677P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            11938,
+            11941,
+            12029,
+            367661,
+            12046,
+            12028
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "22178P37",
+          "title": "Gotokuji and Setagaya Walking Tour: Home of the Lucky Cat Statue",
+          "description": "Discover a different side of Tokyo in this charming 3.0 hour walking tour through Setagaya, a leafy, upscale neighborhood known for its peaceful shrines, historic charm, and the birthplace of Japan’s beloved lucky cat. Perfect for those wanting to escape the crowds and see a more local, authentic side of the city all just a short ride from central Tokyo.\n\n・Visit Gotokuji Temple, home to over 1,000 lucky cats and the legendary origin of the maneki-neko\n・Stroll through tranquil shrines like Setagaya Hachimangu and Shoinjinja, steeped in Edo and Meiji-era history\n・Experience local life in stylish shopping streets and cafés, where Tokyo’s modern charm meets timeless tradition\n・During the walk through the shopping street, enjoy a free drink (up to ¥800) ",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/26/d3/1a.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/26/d3/1a.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 4,
+                "averageRating": 5
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 1,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 5,
+            "combinedAverageRating": 5
+          },
+          "duration": {
+            "fixedDurationInMinutes": 210
+          },
+          "confirmationType": "MANUAL",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 72.01,
+              "fromPriceBeforeDiscount": 72.01
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Meet-the-lucky-cats-in-suburban-Tokyo-Gotokuji-Walking-Tour/d334-22178P37?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            11929,
+            12028,
+            11941,
+            11938,
+            12029,
+            12046,
+            367661
+          ],
+          "flags": [
+            "FREE_CANCELLATION",
+            "PRIVATE_TOUR"
+          ],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        },
+        {
+          "productCode": "203632P1",
+          "title": "Flavours of Tokyo: A Journey Through Time - Small Group Food Tour",
+          "description": "This 5.5 hours tour takes you on a journey through time, through food! Spanning three geographical districts of Tokyo and three periods of time this food tour covers the foundation of Japanese food and cooking (the Edo period), the most popular present-day foods in Japan and finishes in the future with some fusion twists on traditional flavours. Visit Nihonbashi, Ginza / Tokyo Station and Akihabara. Enjoy 14 Japanese food tastings. Come hungry! \n\nYou will need to be able to walk at a reasonable pace in a group environment and should expect to walk about 6.5 km or 4 miles in total over the 5.5 hours. You will also need to be able to walk up and down a large of number of stairs at subway stations. If you are not able to meet the walking requirement, the small group tour is not suitable for you, please contact us to change to a private tour. ",
+          "images": [
+            {
+              "imageSource": "SUPPLIER_PROVIDED",
+              "caption": "",
+              "isCover": true,
+              "variants": [
+                {
+                  "height": 100,
+                  "width": 100,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 200,
+                  "width": 200,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 400,
+                  "width": 400,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 240,
+                  "width": 360,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 320,
+                  "width": 480,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 360,
+                  "width": 540,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 446,
+                  "width": 674,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 480,
+                  "width": 720,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 118,
+                  "width": 210,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/11/c8/84/cd.jpg"
+                },
+                {
+                  "height": 75,
+                  "width": 75,
+                  "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/11/c8/84/cd.jpg"
+                }
+              ]
+            }
+          ],
+          "reviews": {
+            "sources": [
+              {
+                "provider": "VIATOR",
+                "totalCount": 18,
+                "averageRating": 4.8
+              },
+              {
+                "provider": "TRIPADVISOR",
+                "totalCount": 129,
+                "averageRating": 5
+              }
+            ],
+            "totalReviews": 147,
+            "combinedAverageRating": 4.9659863
+          },
+          "duration": {
+            "fixedDurationInMinutes": 330
+          },
+          "confirmationType": "INSTANT",
+          "itineraryType": "STANDARD",
+          "pricing": {
+            "summary": {
+              "fromPrice": 176,
+              "fromPriceBeforeDiscount": 176
+            },
+            "currency": "USD"
+          },
+          "productUrl": "https://www.viator.com/tours/Tokyo/Small-Group-Tokyo-Food-Tour-A-Journey-Through-Time-Through-Food/d334-203632P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+          "destinations": [
+            {
+              "ref": "334",
+              "primary": true
+            }
+          ],
+          "tags": [
+            367661,
+            12075,
+            21721,
+            21911,
+            12028,
+            367654,
+            12046,
+            21860,
+            11938,
+            367653,
+            11929,
+            12053
+          ],
+          "flags": [],
+          "translationInfo": {
+            "containsMachineTranslatedText": false,
+            "translationSource": "ORIGINAL"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "duration_ms": 698,
+    "success": true,
+    "searchTerm": "Neko Shrine & café Tokyo"
+  }
+}

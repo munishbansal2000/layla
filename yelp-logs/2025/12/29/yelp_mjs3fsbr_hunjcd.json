@@ -1,0 +1,243 @@
+{
+  "id": "yelp_mjs3fsbr_hunjcd",
+  "timestamp": "2025-12-30T04:35:02.823Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Narisawa",
+      "location": "Minato, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Minato, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Bd7aW46VVy_dj3_DK9t3YA",
+          "alias": "ナリサワ-港区-2",
+          "name": "Narisawa",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/c0Vy6X_hiKl5b4XYmG2mDQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%8A%E3%83%AA%E3%82%B5%E3%83%AF-%E6%B8%AF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 67,
+          "categories": [
+            {
+              "alias": "asianfusion",
+              "title": "Asian Fusion"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.671529,
+            "longitude": 139.722034
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "南青山2-6-15",
+            "address2": "",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "107-0062",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "南青山2-6-15",
+              "Minato, 東京都 〒107-0062",
+              "Japan"
+            ]
+          },
+          "phone": "+81357850799",
+          "display_phone": "+81 3-5785-0799",
+          "distance": 3187.046236187314,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1830",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.narisawa-yoshihiro.com/jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "k4dJyx0EUfCy4QbmPcpo-A",
+          "alias": "タカザワ-港区",
+          "name": "TAKAZAWA",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/pnxN_V6nIFPRF19eMycNSg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%BF%E3%82%AB%E3%82%B6%E3%83%AF-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "asianfusion",
+              "title": "Asian Fusion"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.673758,
+            "longitude": 139.738574
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "赤坂3-5-2",
+            "address2": "サンヨー赤坂ビル裏側 2F",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂3-5-2",
+              "サンヨー赤坂ビル裏側 2F",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+81335055052",
+          "display_phone": "+81 3-3505-5052",
+          "distance": 2686.5782871596903,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.takazawa-y.co.jp/gallery/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 139.7457504272461,
+          "latitude": 35.650311082652024
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 600,
+    "success": true
+  }
+}

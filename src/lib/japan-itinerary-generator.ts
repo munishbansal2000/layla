@@ -30,6 +30,18 @@ import type {
 // Types
 // ============================================
 
+// Pre-booked activity from user input
+export interface PreBookedActivity {
+  name: string;
+  date: string; // YYYY-MM-DD
+  time?: string; // HH:MM (24hr)
+  city?: string;
+  duration?: number; // minutes
+  category?: string;
+  confirmationNumber?: string;
+  notes?: string;
+}
+
 export interface JapanItineraryRequest {
   cities: string[];
   startDate: string;
@@ -38,6 +50,7 @@ export interface JapanItineraryRequest {
   pace?: "relaxed" | "moderate" | "packed";
   interests?: string[];
   includeKlookExperiences?: boolean;
+  preBookedActivities?: PreBookedActivity[]; // User's pre-booked activities to lock into slots
 }
 
 interface SlotConfig {
@@ -279,6 +292,111 @@ const JAPAN_TIPS: string[] = [
 ];
 
 // ============================================
+// Pre-booked Activity Helpers
+// ============================================
+
+/**
+ * Find the appropriate slot type for a given time
+ */
+function getSlotTypeForTime(time: string, pace: string): SlotConfig["slotType"] | null {
+  const [hours, minutes] = time.split(":").map(Number);
+  const timeInMinutes = hours * 60 + minutes;
+
+  const configs = SLOT_CONFIGS[pace] || SLOT_CONFIGS.moderate;
+
+  // First pass: find exact match within the slot's actual time range (no buffer)
+  for (const config of configs) {
+    const [startHours, startMinutes] = config.timeRange.start.split(":").map(Number);
+    const [endHours, endMinutes] = config.timeRange.end.split(":").map(Number);
+    const startInMinutes = startHours * 60 + startMinutes;
+    const endInMinutes = endHours * 60 + endMinutes;
+
+    // Check if the time falls within this slot's actual range
+    if (timeInMinutes >= startInMinutes && timeInMinutes <= endInMinutes) {
+      return config.slotType;
+    }
+  }
+
+  // Second pass: find match with buffer (for edge cases)
+  for (const config of configs) {
+    const [startHours, startMinutes] = config.timeRange.start.split(":").map(Number);
+    const [endHours, endMinutes] = config.timeRange.end.split(":").map(Number);
+    const startInMinutes = startHours * 60 + startMinutes;
+    const endInMinutes = endHours * 60 + endMinutes;
+
+    // Check if the time falls within this slot's range with buffer
+    if (timeInMinutes >= startInMinutes - 30 && timeInMinutes <= endInMinutes + 30) {
+      return config.slotType;
+    }
+  }
+
+  // Default based on time of day
+  if (timeInMinutes >= 12 * 60 && timeInMinutes < 18 * 60) {
+    return "afternoon";
+  } else if (timeInMinutes >= 18 * 60) {
+    return "evening";
+  } else {
+    return "morning";
+  }
+}
+
+/**
+ * Create a locked activity option from a pre-booked activity
+ */
+function createPreBookedActivityOption(
+  prebooked: PreBookedActivity,
+  dayNumber: number
+): ActivityOption {
+  return {
+    id: `prebooked-${dayNumber}-${prebooked.name.toLowerCase().replace(/\s+/g, "-")}`,
+    rank: 1,
+    score: 200, // High score to indicate user preference
+    activity: {
+      name: prebooked.name,
+      description: prebooked.notes || `Pre-booked: ${prebooked.name}${prebooked.confirmationNumber ? ` (Confirmation: ${prebooked.confirmationNumber})` : ""}`,
+      category: prebooked.category || "experience",
+      duration: prebooked.duration || 120,
+      place: {
+        name: prebooked.name,
+        address: "",
+        neighborhood: prebooked.city || "",
+        coordinates: { lat: 0, lng: 0 },
+        rating: undefined,
+        reviewCount: undefined,
+        photos: [],
+      },
+      isFree: false,
+      tags: ["pre-booked", "confirmed", "locked"],
+      source: "local-data",
+    },
+    matchReasons: [
+      "🔒 Pre-booked by you",
+      prebooked.confirmationNumber ? `Confirmation: ${prebooked.confirmationNumber}` : "User reservation",
+    ],
+    tradeoffs: [],
+  };
+}
+
+/**
+ * Get pre-booked activities for a specific date
+ */
+function getPreBookedForDate(
+  preBooked: PreBookedActivity[] | undefined,
+  dateStr: string
+): PreBookedActivity[] {
+  if (!preBooked || preBooked.length === 0) return [];
+
+  return preBooked.filter((pb) => {
+    // Handle date matching
+    if (!pb.date) return false;
+
+    // Normalize date format
+    const pbDate = pb.date.includes("T") ? pb.date.split("T")[0] : pb.date;
+    return pbDate === dateStr;
+  });
+}
+
+// ============================================
 // Itinerary Generation
 // ============================================
 
@@ -387,6 +505,20 @@ export async function generateJapanItinerary(
         });
       }
 
+      // Get pre-booked activities for this date
+      const preBookedForDate = getPreBookedForDate(request.preBookedActivities, dateStr);
+      const preBookedBySlotType = new Map<string, PreBookedActivity>();
+
+      // Map pre-booked activities to their target slot types
+      for (const prebooked of preBookedForDate) {
+        if (prebooked.time) {
+          const targetSlotType = getSlotTypeForTime(prebooked.time, pace);
+          if (targetSlotType) {
+            preBookedBySlotType.set(targetSlotType, prebooked);
+          }
+        }
+      }
+
       // Generate activity/meal slots
       let previousCoordinates = DEFAULT_ACCOMMODATIONS[cityKey]?.coordinates;
 
@@ -399,13 +531,33 @@ export async function generateJapanItinerary(
         const slotId = `day${dayNumber}-${slotConfig.slotType}`;
         const options: ActivityOption[] = [];
 
-        if (slotConfig.isMeal) {
+        // Check if there's a pre-booked activity for this slot
+        const preBookedForSlot = preBookedBySlotType.get(slotConfig.slotType);
+
+        if (preBookedForSlot) {
+          // Create locked option from pre-booked activity
+          const lockedOption = createPreBookedActivityOption(preBookedForSlot, dayNumber);
+          options.push(lockedOption);
+
+          // Still add alternatives but mark the slot as having a locked selection
+          if (!slotConfig.isMeal) {
+            // Get some alternatives
+            const { attractions } = await getPOIsForTimeSlot(city, slotConfig.slotType);
+            const availableAttractions = attractions.filter((a) => !usedPOIs.has(a.id));
+            for (let i = 0; i < Math.min(2, availableAttractions.length); i++) {
+              const poi = availableAttractions[i];
+              options.push(poiToActivityOption(poi, i + 2)); // Start at rank 2
+            }
+          }
+        } else if (slotConfig.isMeal) {
           // Get restaurants
           const { restaurants } = await getPOIsForTimeSlot(city, slotConfig.slotType);
           const availableRestaurants = restaurants.filter((r) => !usedPOIs.has(r.id));
 
           for (let i = 0; i < Math.min(3, availableRestaurants.length); i++) {
             options.push(restaurantToActivityOption(availableRestaurants[i], i + 1));
+            // Mark first restaurant option as used to avoid duplicates in other meal slots
+            if (i === 0) usedPOIs.add(availableRestaurants[i].id);
           }
         } else {
           // Get attractions
@@ -467,6 +619,53 @@ export async function generateJapanItinerary(
       // Create day title
       const dayTitle = generateDayTitle(cityData.mustSee.overall, usedPOIs, d + 1, numDays, !!cityTransition);
 
+      // Get accommodation for this city
+      const accommodation = DEFAULT_ACCOMMODATIONS[cityKey];
+
+      // Calculate hotel commute data
+      let commuteFromHotel: StructuredCommuteInfo | undefined;
+      let commuteToHotel: StructuredCommuteInfo | undefined;
+
+      if (accommodation && slots.length > 0) {
+        // Find first activity with coordinates
+        const firstSlotWithActivity = slots.find(s => s.options.length > 0 && s.options[0].activity.place?.coordinates);
+        const firstActivityCoords = firstSlotWithActivity?.options[0].activity.place?.coordinates;
+
+        if (firstActivityCoords) {
+          const distance = calculateDistance(accommodation.coordinates, firstActivityCoords);
+          const method = distance > 2000 ? "transit" : "walk";
+          const duration = estimateTravelTime(distance, method);
+
+          commuteFromHotel = {
+            duration,
+            distance: Math.round(distance),
+            method,
+            instructions: method === "walk"
+              ? `Walk from ${accommodation.name} to first activity`
+              : `Take transit from ${accommodation.neighborhood} to first activity`,
+          };
+        }
+
+        // Find last activity with coordinates
+        const lastSlotWithActivity = [...slots].reverse().find(s => s.options.length > 0 && s.options[0].activity.place?.coordinates);
+        const lastActivityCoords = lastSlotWithActivity?.options[0].activity.place?.coordinates;
+
+        if (lastActivityCoords) {
+          const distance = calculateDistance(lastActivityCoords, accommodation.coordinates);
+          const method = distance > 2000 ? "transit" : "walk";
+          const duration = estimateTravelTime(distance, method);
+
+          commuteToHotel = {
+            duration,
+            distance: Math.round(distance),
+            method,
+            instructions: method === "walk"
+              ? `Walk back to ${accommodation.name}`
+              : `Take transit back to ${accommodation.neighborhood}`,
+          };
+        }
+      }
+
       allDays.push({
         dayNumber,
         date: dateStr,
@@ -474,7 +673,9 @@ export async function generateJapanItinerary(
         title: dayTitle,
         slots,
         cityTransition,
-        accommodation: DEFAULT_ACCOMMODATIONS[cityKey],
+        accommodation,
+        commuteFromHotel,
+        commuteToHotel,
       });
 
       currentDate.setDate(currentDate.getDate() + 1);

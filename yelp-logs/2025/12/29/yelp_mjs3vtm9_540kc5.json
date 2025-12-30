@@ -1,0 +1,511 @@
+{
+  "id": "yelp_mjs3vtm9_540kc5",
+  "timestamp": "2025-12-30T04:47:30.993Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Kushikatsu Daruma",
+      "location": "Shinsaibashi, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shinsaibashi, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "F0I4PJRFeIYfvkl-72dzEQ",
+          "alias": "串かつだるま-大阪市",
+          "name": "Kushikatsu daruma",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/NguNdsUkQMVUq3BNyEjJNg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%81%8B%E3%81%A4%E3%81%A0%E3%82%8B%E3%81%BE-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 20,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 34.6677837333924,
+            "longitude": 135.502180939546
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区難波1丁目5-24",
+            "address2": "ダルマビル難波本店",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0076",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区難波1丁目5-24",
+              "ダルマビル難波本店",
+              "Osaka, 大阪府 〒542-0076",
+              "Japan"
+            ]
+          },
+          "phone": "+81662132033",
+          "display_phone": "+81 6-6213-2033",
+          "distance": 523.9260598000669,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "y8f5W_HKz5pnbyf4rDQO_g",
+          "alias": "串かつ-だるま-新世界総本店-大阪市-3",
+          "name": "Kushikatsu daruma",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/2vM3wAzmYzKRzuwc0ziEvA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%81%8B%E3%81%A4-%E3%81%A0%E3%82%8B%E3%81%BE-%E6%96%B0%E4%B8%96%E7%95%8C%E7%B7%8F%E6%9C%AC%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82-3?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 26,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 34.6516009,
+            "longitude": 135.506191
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "浪速区恵美須東2-3-9",
+            "address2": "",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "556-0002",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "浪速区恵美須東2-3-9",
+              "Osaka, 大阪府 〒556-0002",
+              "Japan"
+            ]
+          },
+          "phone": "+81666457056",
+          "display_phone": "+81 6-6645-7056",
+          "distance": 2360.359144666366,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "-JZyWS5zIZ5x-tPiGcjEKw",
+          "alias": "元祖串かつ-だるま-道頓堀店-大阪市",
+          "name": "Ganzo Kushikatsu Daruma Dōtonbori",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/bHmG9-ckRRWsKYh3caQ6zg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%85%83%E7%A5%96%E4%B8%B2%E3%81%8B%E3%81%A4-%E3%81%A0%E3%82%8B%E3%81%BE-%E9%81%93%E9%A0%93%E5%A0%80%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 51,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 34.668832,
+            "longitude": 135.503001
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区道頓堀1-6-4",
+            "address2": "エリカビル",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0071",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区道頓堀1-6-4",
+              "エリカビル",
+              "Osaka, 大阪府 〒542-0071",
+              "Japan"
+            ]
+          },
+          "phone": "+81662138101",
+          "display_phone": "+81 6-6213-8101",
+          "distance": 436.4695215561636,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.kushikatu-daruma.com/tenpo_doutonbori.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "LJKgcruU5oA4NC9WANHvWg",
+          "alias": "串かつだるま-大阪市-北区",
+          "name": "Kushikatsu Daruma",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/U2nTjhC8lkUJVzSHSSfKiA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%B2%E3%81%8B%E3%81%A4%E3%81%A0%E3%82%8B%E3%81%BE-%E5%A4%A7%E9%98%AA%E5%B8%82-%E5%8C%97%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.7024985010308,
+            "longitude": 135.494468212527
+          },
+          "transactions": [],
+          "location": {
+            "address1": "梅田3丁目1-3　ルクア 10F",
+            "address2": "ルクア大阪店",
+            "address3": null,
+            "city": "大阪市 北区",
+            "zip_code": "530-0001",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "梅田3丁目1-3　ルクア 10F",
+              "ルクア大阪店",
+              "大阪市 北区, 大阪府 〒530-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81664857977",
+          "display_phone": "+81 6-6485-7977",
+          "distance": 3400.3033144724322,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "dJFPHOQ_2JsuYpx8stbmUg",
+          "alias": "だるま-法善寺店-大阪市",
+          "name": "Daruma Hozenji",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/CngX0MBrjBvKgroAcvSC-g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%A0%E3%82%8B%E3%81%BE-%E6%B3%95%E5%96%84%E5%AF%BA%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 14,
+          "categories": [
+            {
+              "alias": "kushikatsu",
+              "title": "Kushikatsu"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 34.6680184452003,
+            "longitude": 135.502881426202
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "難波1-1-4",
+            "address2": null,
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0076",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "難波1-1-4",
+              "Osaka, 大阪府 〒542-0076",
+              "Japan"
+            ]
+          },
+          "phone": "+81662118112",
+          "display_phone": "+81 6-6211-8112",
+          "distance": 516.177899720797,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 10,
+      "region": {
+        "center": {
+          "longitude": 135.5009937286377,
+          "latitude": 34.672393239204546
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 454,
+    "success": true
+  }
+}

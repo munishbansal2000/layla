@@ -12,10 +12,12 @@
         "test:coverage": "vitest run --coverage"
     },
     "dependencies": {
+        "@google/generative-ai": "^0.24.1",
         "@tanstack/react-query": "^5.90.12",
         "@types/leaflet": "^1.9.21",
         "clsx": "^2.1.1",
         "date-fns": "^4.1.0",
+        "dotenv": "^17.2.3",
         "framer-motion": "^12.23.26",
         "leaflet": "^1.9.4",
         "lucide-react": "^0.562.0",
@@ -24,6 +26,7 @@
         "react": "19.2.3",
         "react-dom": "19.2.3",
         "react-leaflet": "^5.0.0",
+        "react-leaflet-cluster": "^4.0.0",
         "tailwind-merge": "^3.4.0",
         "zustand": "^5.0.9"
     },

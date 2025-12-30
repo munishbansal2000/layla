@@ -1,0 +1,222 @@
+{
+  "id": "yelp_mjs6gybt_nyxxo0",
+  "timestamp": "2025-12-30T05:59:56.106Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "latitude": "34.6908703",
+      "longitude": "135.8758904",
+      "radius": "1500",
+      "categories": "restaurants",
+      "limit": "10",
+      "sort_by": "rating"
+    }
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "zszRTPK_GB71N5yfu6XjFw",
+          "alias": "峠茶屋-奈良市",
+          "name": " Tōge Chaya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/vURo3gg1LNxF1kPZ_VN3bg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%B3%A0%E8%8C%B6%E5%B1%8B-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "tea",
+              "title": "Tea Rooms"
+            },
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6773567199707,
+            "longitude": 135.883514404297
+          },
+          "transactions": [],
+          "location": {
+            "address1": "誓多林町57-3",
+            "address2": "",
+            "address3": "",
+            "city": "Nara",
+            "zip_code": "630-2171",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "誓多林町57-3",
+              "Nara, 奈良県 〒630-2171",
+              "Japan"
+            ]
+          },
+          "phone": "+81742810498",
+          "display_phone": "+81 742-81-0498",
+          "distance": 1666.631054279788,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "1700",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "cKf7__L5N-iU3qq__2RrBw",
+          "alias": "月日星星-奈良市",
+          "name": "月日星星",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%88%E6%97%A5%E6%98%9F%E6%98%9F-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 34.6904060272,
+            "longitude": 135.888749416
+          },
+          "transactions": [],
+          "location": {
+            "address1": "生琉里町147",
+            "address2": null,
+            "address3": null,
+            "city": "Nara",
+            "zip_code": "630-1123",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "生琉里町147",
+              "Nara, 奈良県 〒630-1123",
+              "Japan"
+            ]
+          },
+          "phone": "+81742950161",
+          "display_phone": "+81 742-95-0161",
+          "distance": 1176.813261471107,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "BNXXR_13UDQtBpbqCWwI6Q",
+          "alias": "月日亭-奈良市",
+          "name": "月日亭",
+          "image_url": "",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9C%88%E6%97%A5%E4%BA%AD-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 34.6850788293,
+            "longitude": 135.852241121
+          },
+          "transactions": [],
+          "location": {
+            "address1": "春日野町158",
+            "address2": null,
+            "address3": null,
+            "city": "Nara",
+            "zip_code": "630-8212",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "春日野町158",
+              "Nara, 奈良県 〒630-8212",
+              "Japan"
+            ]
+          },
+          "phone": "+81742262021",
+          "display_phone": "+81 742-26-2021",
+          "distance": 2256.146877199004,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 135.8758904,
+          "latitude": 34.6908703
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 651,
+    "success": true
+  }
+}

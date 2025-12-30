@@ -1,0 +1,596 @@
+{
+  "id": "yelp_mjs5vvpw_dfs1ef",
+  "timestamp": "2025-12-30T05:43:32.948Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "和食 一茶",
+      "location": "Nara",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Nara"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "aTMqfiCHJ7mqQYfB0DcMEg",
+          "alias": "酒菜と大和だし茶漬け-風神-奈良市",
+          "name": "Shusai to Yamatodashi Chadzuke Fūjin",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/nE31AjtmuSOCqWdl3x5oZQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%85%92%E8%8F%9C%E3%81%A8%E5%A4%A7%E5%92%8C%E3%81%A0%E3%81%97%E8%8C%B6%E6%BC%AC%E3%81%91-%E9%A2%A8%E7%A5%9E-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "sukiyaki",
+              "title": "Sukiyaki"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6839956,
+            "longitude": 135.828991
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "東向中町5−1",
+            "address2": "浅川ハーベストビル2F",
+            "address3": "",
+            "city": "Nara",
+            "zip_code": "630-8215",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "東向中町5−1",
+              "浅川ハーベストビル2F",
+              "Nara, 奈良県 〒630-8215",
+              "Japan"
+            ]
+          },
+          "phone": "+81742261008",
+          "display_phone": "+81 742-26-1008",
+          "distance": 6504.318565157708,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "BQktHBnE6bDCMkNXIzs0uQ",
+          "alias": "小菜中華-hiro-岐阜市",
+          "name": "Shosaichuca hiro",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/nzzpSH5UcX_1_efx-KHGyg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%B0%8F%E8%8F%9C%E4%B8%AD%E8%8F%AF-hiro-%E5%B2%90%E9%98%9C%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "dimsum",
+              "title": "Dim Sum"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.423738,
+            "longitude": 136.75924
+          },
+          "transactions": [],
+          "location": {
+            "address1": "鷹見町13-7",
+            "address2": "OKAMOTOビル 1F",
+            "address3": null,
+            "city": "Gifu",
+            "zip_code": "500-8821",
+            "country": "JP",
+            "state": "21",
+            "display_address": [
+              "鷹見町13-7",
+              "OKAMOTOビル 1F",
+              "Gifu, 岐阜県 〒500-8821",
+              "Japan"
+            ]
+          },
+          "phone": "+81582638210",
+          "display_phone": "+81 58-263-8210",
+          "distance": 116086.80205757261,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1330",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "P2Jod3F8lZEypTn16LE-tg",
+          "alias": "京都祇園-天ぷら-八坂-圓堂-京都市",
+          "name": "京都祇園「天ぷら 八坂 圓堂」",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/7ybrRAmEsQUm5AyCj2LPSQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BA%AC%E9%83%BD%E7%A5%87%E5%9C%92-%E5%A4%A9%E3%81%B7%E3%82%89-%E5%85%AB%E5%9D%82-%E5%9C%93%E5%A0%82-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 16,
+          "categories": [
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            },
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 34.9989484277957,
+            "longitude": 135.775116747714
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "東山区小松町566",
+            "address2": "(八坂通東大路西入)",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "605-0811",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区小松町566",
+              "(八坂通東大路西入)",
+              "Kyoto, 京都府 〒605-0811",
+              "Japan"
+            ]
+          },
+          "phone": "+81755511488",
+          "display_phone": "+81 75-551-1488",
+          "distance": 39411.822451236025,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1530",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.gion-endo.com/menu_lunch.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "REKgemD-K1QMor7ZzIGsGQ",
+          "alias": "骨付き肉専門店-八代目-中村精肉堂-神戸市",
+          "name": "Honetsukiniku Senmonten Hachidaime Nakamura Seinikudō",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/8rE82gmiSFjvcKhyh6Agww/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%AA%A8%E4%BB%98%E3%81%8D%E8%82%89%E5%B0%82%E9%96%80%E5%BA%97-%E5%85%AB%E4%BB%A3%E7%9B%AE-%E4%B8%AD%E6%9D%91%E7%B2%BE%E8%82%89%E5%A0%82-%E7%A5%9E%E6%88%B8%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "steak",
+              "title": "Steakhouses"
+            },
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 34.6965833934821,
+            "longitude": 135.192902466135
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "中央区加納町4-8-17",
+            "address2": "TAKAI ビル1F",
+            "address3": null,
+            "city": "Kobe",
+            "zip_code": "650-0001",
+            "country": "JP",
+            "state": "28",
+            "display_address": [
+              "中央区加納町4-8-17",
+              "TAKAI ビル1F",
+              "Kobe, 兵庫県 〒650-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81783819868",
+          "display_phone": "+81 78-381-9868",
+          "distance": 64130.58165971463,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "ZPDeRoqHgRIlC0EM1rqBEg",
+          "alias": "鶏ダイニング-月のおどり-大阪市",
+          "name": "Tsuki no Odori -Yakitori Chicken Dining-",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XgafjzQxCqrcY22vbVUtPw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%B6%8F%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0-%E6%9C%88%E3%81%AE%E3%81%8A%E3%81%A9%E3%82%8A-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "yakitori",
+              "title": "Yakitori"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 3.8,
+          "coordinates": {
+            "latitude": 34.6688627,
+            "longitude": 135.5049628
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区道頓堀1-1-11",
+            "address2": "24Kビル 2F",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "542-0071",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区道頓堀1-1-11",
+              "24Kビル 2F",
+              "Osaka, 大阪府 〒542-0071",
+              "Japan"
+            ]
+          },
+          "phone": "+81662139988",
+          "display_phone": "+81 6-6213-9988",
+          "distance": 35477.297545519425,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 7,
+      "region": {
+        "center": {
+          "longitude": 135.89263916015625,
+          "latitude": 34.65788994989545
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1339,
+    "success": true
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "id": "yelp_mjs5w9aq_ozr2p1",
+  "timestamp": "2025-12-30T05:43:50.546Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "ベトナム料理 コムゴン",
+      "location": "Nara",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Nara"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "rRyyslA42fiV2NECi5Tndg",
+          "alias": "コムゴン-奈良市",
+          "name": "Komugon",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/nlTU7y8WyV3v7PmXKhooNw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B3%E3%83%A0%E3%82%B4%E3%83%B3-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "vietnamese",
+              "title": "Vietnamese"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6830832219,
+            "longitude": 135.82854437
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "東向南町19",
+            "address2": "2F",
+            "address3": null,
+            "city": "Nara",
+            "zip_code": "630-8216",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "東向南町19",
+              "2F",
+              "Nara, 奈良県 〒630-8216",
+              "Japan"
+            ]
+          },
+          "phone": "+81742267779",
+          "display_phone": "+81 742-26-7779",
+          "distance": 6496.536759104406,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "oObXpPi2uFvNk2m_BC8gbQ",
+          "alias": "チャオルア-大阪市-西区",
+          "name": "Chao Lua",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/NjZfwK9MadWX54SaGeHL_A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%81%E3%83%A3%E3%82%AA%E3%83%AB%E3%82%A2-%E5%A4%A7%E9%98%AA%E5%B8%82-%E8%A5%BF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "vietnamese",
+              "title": "Vietnamese"
+            }
+          ],
+          "rating": 4.2,
+          "coordinates": {
+            "latitude": 34.6716925793455,
+            "longitude": 135.495516390556
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "南堀江1丁目14-1",
+            "address2": null,
+            "address3": null,
+            "city": "大阪市 西区",
+            "zip_code": "550-0015",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "南堀江1丁目14-1",
+              "大阪市 西区, 大阪府 〒550-0015",
+              "Japan"
+            ]
+          },
+          "phone": "+81665376789",
+          "display_phone": "+81 6-6537-6789",
+          "distance": 36352.05758353397,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "43UqZEfnwKnvcNTHkPdfuw",
+          "alias": "ベトナム酒飯-ビアホイ-大阪市",
+          "name": "VIETNAM Shuhan BIA HOI",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Iggd6nvq7EylLK3nVryDkQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E9%85%92%E9%A3%AF-%E3%83%93%E3%82%A2%E3%83%9B%E3%82%A4-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 8,
+          "categories": [
+            {
+              "alias": "vietnamese",
+              "title": "Vietnamese"
+            },
+            {
+              "alias": "panasian",
+              "title": "Pan Asian"
+            }
+          ],
+          "rating": 3.6,
+          "coordinates": {
+            "latitude": 34.7050603549092,
+            "longitude": 135.501208726713
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "北区角田町2-15",
+            "address2": "シログチビル B1",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0017",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区角田町2-15",
+              "シログチビル B1",
+              "Osaka, 大阪府 〒530-0017",
+              "Japan"
+            ]
+          },
+          "phone": "+81662922345",
+          "display_phone": "+81 6-6292-2345",
+          "distance": 36174.108090166366,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "6i7JV2NCLWH-XQ7cubqxAQ",
+          "alias": "cafe-malacca-大阪市-6",
+          "name": "Cafe Malacca",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/gnJ1KAsdRiBrulexAZ_naA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/cafe-malacca-%E5%A4%A7%E9%98%AA%E5%B8%82-6?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "coffee",
+              "title": "Coffee & Tea"
+            },
+            {
+              "alias": "asianfusion",
+              "title": "Asian Fusion"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.707457,
+            "longitude": 135.508474
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "北区黒崎町5-14",
+            "address2": "カフェマラッカ",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0023",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区黒崎町5-14",
+              "カフェマラッカ",
+              "Osaka, 大阪府 〒530-0023",
+              "Japan"
+            ]
+          },
+          "phone": "+81669406276",
+          "display_phone": "+81 6-6940-6276",
+          "distance": 35556.76400148109,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.cafemalacca.com/menu",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "yZIQE379YGPRVrP69Ti3QQ",
+          "alias": "スノーライオン-大阪市-2",
+          "name": "Snow Lion",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/KY7jwAw9ei4WpXTEpRvuow/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3-%E5%A4%A7%E9%98%AA%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 4,
+          "categories": [
+            {
+              "alias": "asianfusion",
+              "title": "Asian Fusion"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "himalayan",
+              "title": "Himalayan/Nepalese"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.6789591,
+            "longitude": 135.4957892
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "西区新町1-14-2",
+            "address2": "新町中央ビル 2F",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "550-0013",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "西区新町1-14-2",
+              "新町中央ビル 2F",
+              "Osaka, 大阪府 〒550-0013",
+              "Japan"
+            ]
+          },
+          "phone": "+81665859592",
+          "display_phone": "+81 6-6585-9592",
+          "distance": 36368.638325449545,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 7,
+      "region": {
+        "center": {
+          "longitude": 135.89263916015625,
+          "latitude": 34.65788994989545
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1127,
+    "success": true
+  }
+}

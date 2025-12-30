@@ -14,11 +14,11 @@
 // 3. Return a redirect signal when ready to generate itinerary
 
 import { NextRequest, NextResponse } from "next/server";
-import type { ApiResponse, ChatMessage, StructuredItineraryData, ItineraryResponseMetadata } from "@/types";
+import type { ApiResponse, ChatMessage } from "@/types";
 import { generateId } from "@/lib/utils";
-import openai, { SYSTEM_PROMPTS, generateStructuredItinerary } from "@/lib/openai";
+import { llm } from "@/lib/llm";
+import { getSystemPrompt } from "@/lib/prompts";
 import { logOpenAIRequest, createLogEntry } from "@/lib/openai-logger";
-import type { TripContext } from "@/types/structured-itinerary";
 
 // ============================================
 // TYPES
@@ -208,43 +208,35 @@ export async function POST(request: NextRequest) {
     let aiResponse: string;
 
     // Generate conversational response
-    if (process.env.OPENAI_API_KEY) {
-      try {
-        const startTime = Date.now();
-        const messages = [
-          { role: "system" as const, content: SYSTEM_PROMPTS.travelPlanner },
-          ...history.map(m => ({ role: m.role as "user" | "assistant", content: m.content })),
-        ];
+    try {
+      const startTime = Date.now();
+      const systemPrompt = getSystemPrompt("travelPlanner");
+      const messages = [
+        { role: "system" as const, content: systemPrompt },
+        ...history.map(m => ({ role: m.role as "user" | "assistant", content: m.content })),
+      ];
 
-        const response = await openai.chat.completions.create({
-          model: "gpt-4o-mini",
-          messages,
-          temperature: 0.7,
-          max_tokens: 500,
-        });
+      aiResponse = await llm.chat(
+        history.map(m => ({ role: m.role as "user" | "assistant" | "system", content: m.content })),
+        { systemPrompt, maxTokens: 500 }
+      );
 
-        aiResponse = response.choices[0]?.message?.content || getContextualResponse(context);
+      // Log the request
+      const logEntry = createLogEntry(
+        "chat",
+        { model: llm.getConfig().model, messages, temperature: 0.7, max_tokens: 500 },
+        {
+          id: `chat-${Date.now()}`,
+          content: aiResponse,
+          finish_reason: "stop",
+        },
+        Date.now() - startTime,
+        true
+      );
+      await logOpenAIRequest(logEntry);
 
-        // Log the request
-        const logEntry = createLogEntry(
-          "chat",
-          { model: "gpt-4o-mini", messages, temperature: 0.7, max_tokens: 500 },
-          {
-            id: response.id,
-            content: aiResponse,
-            finish_reason: response.choices[0]?.finish_reason || "stop",
-            usage: response.usage,
-          },
-          Date.now() - startTime,
-          true
-        );
-        await logOpenAIRequest(logEntry);
-
-      } catch (error) {
-        console.error("OpenAI API error:", error);
-        aiResponse = getContextualResponse(context);
-      }
-    } else {
+    } catch (error) {
+      console.error("LLM API error:", error);
       aiResponse = getContextualResponse(context);
     }
 

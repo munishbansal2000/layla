@@ -1,0 +1,87 @@
+{
+  "id": "yelp_mjs50txb_akcnsa",
+  "timestamp": "2025-12-30T05:19:24.287Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "PANELLA",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "X0g6By3AJ38ksrECsMt4Yg",
+          "alias": "パネイラ-台東区",
+          "name": "PANELLA",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/rQGZdKtmS9DahZedyZJcyw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%91%E3%83%8D%E3%82%A4%E3%83%A9-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "bars",
+              "title": "Bars"
+            },
+            {
+              "alias": "italian",
+              "title": "Italian"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 35.7190750010511,
+            "longitude": 139.766391281345
+          },
+          "transactions": [],
+          "location": {
+            "address1": "谷中1-3-7",
+            "address2": null,
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "110-0001",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "谷中1-3-7",
+              "Taitō, 東京都 〒110-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81338223557",
+          "display_phone": "+81 3-3822-3557",
+          "distance": 3787.779425465964,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1031,
+    "success": true
+  }
+}

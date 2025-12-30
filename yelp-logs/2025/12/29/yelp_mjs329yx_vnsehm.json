@@ -1,0 +1,514 @@
+{
+  "id": "yelp_mjs329yx_vnsehm",
+  "timestamp": "2025-12-30T04:24:32.505Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Ichiran Ramen",
+      "location": "Shibuya, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shibuya, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "A9axTK277WBe-8W-sI_hnA",
+          "alias": "一蘭-渋谷店-渋谷区-2",
+          "name": "Ichiran Shibuya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/RlTCz2nPj8btd3bcJeS5zg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E6%B8%8B%E8%B0%B7%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 753,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.661131,
+            "longitude": 139.700987
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "神南1-22-7",
+            "address2": "岩本ビルB1F",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0041",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "神南1-22-7",
+              "岩本ビルB1F",
+              "Shibuya, 東京都 〒150-0041",
+              "Japan"
+            ]
+          },
+          "phone": "+815018082546",
+          "display_phone": "+81 50-1808-2546",
+          "distance": 1089.4144321022366,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "s8RSiDWR3Q8SniN44-5oGg",
+          "alias": "一蘭-新宿中央東口店-新宿区-2",
+          "name": "Ichiran Shinjuku Chuo Higashiguchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0qc9l-41Lojvg65pFoo-qA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E6%96%B0%E5%AE%BF%E4%B8%AD%E5%A4%AE%E6%9D%B1%E5%8F%A3%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 564,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.69053,
+            "longitude": 139.7027647
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "新宿3-34-11",
+            "address2": "ピースビルB1F",
+            "address3": "",
+            "city": "Shinjuku",
+            "zip_code": "160-0022",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "新宿3-34-11",
+              "ピースビルB1F",
+              "Shinjuku, 東京都 〒160-0022",
+              "Japan"
+            ]
+          },
+          "phone": "+815018082529",
+          "display_phone": "+81 50-1808-2529",
+          "distance": 2951.780853526885,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "jKntxxccnW_YfRsSM11C3g",
+          "alias": "一蘭-原宿店-渋谷区",
+          "name": "ICHIRAN Harajuku",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ixIN8bo0KoCgEH6jLw3xsg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E5%8E%9F%E5%AE%BF%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 87,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.667882,
+            "longitude": 139.705215
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "神宮前6-5-6",
+            "address2": "サンポウ綜合ビル2F",
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "150-0001",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "神宮前6-5-6",
+              "サンポウ綜合ビル2F",
+              "Shibuya, 東京都 〒150-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+815018082569",
+          "display_phone": "+81 50-1808-2569",
+          "distance": 1349.0554892524,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "DY1Lulu0wV3PMen9AE0l9w",
+          "alias": "一蘭-渋谷スペイン坂店-渋谷区",
+          "name": "ICHIRAN Shibuya Spain-zaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/cKa5wwoEPJhxn-DQTdY--w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E6%B8%8B%E8%B0%B7%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E5%9D%82%E5%BA%97-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 77,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.660989,
+            "longitude": 139.69871
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "宇田川町13-7",
+            "address2": "コヤスワンB1F",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0042",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "宇田川町13-7",
+              "コヤスワンB1F",
+              "Shibuya, 東京都 〒150-0042",
+              "Japan"
+            ]
+          },
+          "phone": "+81334640787",
+          "display_phone": "+81 3-3464-0787",
+          "distance": 924.9671550361205,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "f_8llqbP3uGdY0fvLR6m_g",
+          "alias": "一蘭-新宿歌舞伎町店-新宿区-2",
+          "name": " ICHIRAN Shinjuku Kabukicho",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ANANmcs2bh8o_XBsnKRohQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E6%96%B0%E5%AE%BF%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E5%BA%97-%E6%96%B0%E5%AE%BF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 142,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.694412,
+            "longitude": 139.701537
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "歌舞伎町1-17-10",
+            "address2": "歌舞伎町CR.B&Vビル B1F",
+            "address3": null,
+            "city": "Shinjuku",
+            "zip_code": "160-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "歌舞伎町1-17-10",
+              "歌舞伎町CR.B&Vビル B1F",
+              "Shinjuku, 東京都 〒160-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81362337667",
+          "display_phone": "+81 3-6233-7667",
+          "distance": 3320.6444940750443,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 99,
+      "region": {
+        "center": {
+          "longitude": 139.6904754638672,
+          "latitude": 35.665932452641115
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 619,
+    "success": true
+  }
+}

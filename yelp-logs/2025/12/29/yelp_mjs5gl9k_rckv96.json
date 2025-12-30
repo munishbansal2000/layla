@@ -1,0 +1,360 @@
+{
+  "id": "yelp_mjs5gl9k_rckv96",
+  "timestamp": "2025-12-30T05:31:39.560Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Omen",
+      "location": "Sakyo, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Sakyo, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "gCwJ9aND-jdzpP5SO2JqkQ",
+          "alias": "おめん-四条先斗町店-京都市",
+          "name": "Omen Shijō Pontochō",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/2BYtNtHxsxjz13tv23cTKg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8A%E3%82%81%E3%82%93-%E5%9B%9B%E6%9D%A1%E5%85%88%E6%96%97%E7%94%BA%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 71,
+          "categories": [
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.003937,
+            "longitude": 135.770858
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中京区四条通先斗町西入ル柏屋町171-1",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "604-8014",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区四条通先斗町西入ル柏屋町171-1",
+              "Kyoto, 京都府 〒604-8014",
+              "Japan"
+            ]
+          },
+          "phone": "+81752530377",
+          "display_phone": "+81 75-253-0377",
+          "distance": 17867.927135547958,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://omen.co.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "RoMhqUVt0uD5stqe2DbwiA",
+          "alias": "おめん-銀閣寺本店-京都市",
+          "name": "Omen Ginkakuji Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/KFZpoxYRSPGMr-zZP-n1Ag/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8A%E3%82%81%E3%82%93-%E9%8A%80%E9%96%A3%E5%AF%BA%E6%9C%AC%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 24,
+          "categories": [
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.0262806411583,
+            "longitude": 135.794972218573
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "左京区浄土寺石橋町74",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "606-8406",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "左京区浄土寺石橋町74",
+              "Kyoto, 京都府 〒606-8406",
+              "Japan"
+            ]
+          },
+          "phone": "+81757718994",
+          "display_phone": "+81 75-771-8994",
+          "distance": 15261.867181383306,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.omen.co.jp/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "yweAhON6kwz5xavlFeFNug",
+          "alias": "おめん-高台寺店-京都市",
+          "name": "Omen Kodaiji",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/v3hAIgZsOI76g_nYeFUbDg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8A%E3%82%81%E3%82%93-%E9%AB%98%E5%8F%B0%E5%AF%BA%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "udon",
+              "title": "Udon"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.999191,
+            "longitude": 135.779938
+          },
+          "transactions": [],
+          "location": {
+            "address1": "高台寺南門通下河原東入桝屋町362",
+            "address2": "",
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "605-0826",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "高台寺南門通下河原東入桝屋町362",
+              "Kyoto, 京都府 〒605-0826",
+              "Japan"
+            ]
+          },
+          "phone": "+81755415007",
+          "display_phone": "+81 75-541-5007",
+          "distance": 18316.94314591793,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 6,
+      "region": {
+        "center": {
+          "longitude": 135.79376220703125,
+          "latitude": 35.16353049173577
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 460,
+    "success": true
+  }
+}

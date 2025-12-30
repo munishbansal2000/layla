@@ -1,0 +1,603 @@
+{
+  "id": "yelp_mjs5136k_gwdhpi",
+  "timestamp": "2025-12-30T05:19:36.284Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "THE SPICE",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "jGpZ4NVWzS9ZFOPBZ2R03w",
+          "alias": "spice-cafe-墨田区",
+          "name": "Spice Cafe",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/vzxHz7JvcaGfgnZARN1Y9Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/spice-cafe-%E5%A2%A8%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            },
+            {
+              "alias": "indpak",
+              "title": "Indian"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.7097189,
+            "longitude": 139.8200036
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "文花1-6-10",
+            "address2": "",
+            "address3": "",
+            "city": "Sumida",
+            "zip_code": "131-0044",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "文花1-6-10",
+              "Sumida, 東京都 〒131-0044",
+              "Japan"
+            ]
+          },
+          "phone": "+81336134020",
+          "display_phone": "+81 3-3613-4020",
+          "distance": 5542.839966901401,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "T1SJYu_HBpG25p6Ll_AiNA",
+          "alias": "ザ-スパイス-港区",
+          "name": "The Spice",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XPKWFQ3sBgOCXRSJx6M07Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B6-%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "indpak",
+              "title": "Indian"
+            },
+            {
+              "alias": "bars",
+              "title": "Bars"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6708297729492,
+            "longitude": 139.734497070312
+          },
+          "transactions": [],
+          "location": {
+            "address1": "赤坂5-5-8",
+            "address2": "赤坂ファイブビル 1F",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂5-5-8",
+              "赤坂ファイブビル 1F",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+81355455369",
+          "display_phone": "+81 3-5545-5369",
+          "distance": 3304.1519003968424,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "OVm9fPPOFwW0jv9yw0ImQg",
+          "alias": "spice-lab-tokyo-中央区",
+          "name": "SPICE LAB TOKYO",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/5vSUVDXf2DmmZa9IdO2vPg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/spice-lab-tokyo-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "indpak",
+              "title": "Indian"
+            },
+            {
+              "alias": "asianfusion",
+              "title": "Asian Fusion"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.672119140625,
+            "longitude": 139.770797729492
+          },
+          "transactions": [],
+          "location": {
+            "address1": "銀座6-4-3",
+            "address2": "GICROS GINZA GEMS 10F",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座6-4-3",
+              "GICROS GINZA GEMS 10F",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81362746821",
+          "display_phone": "+81 3-6274-6821",
+          "distance": 1563.799616425097,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://spicelabtokyo.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "nJjoSmrjwONj5kB3fCwwoQ",
+          "alias": "スパイス-渋谷区",
+          "name": "Spice",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/sRiprjKmzWzGlLrngu0I2g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "japacurry",
+              "title": "Japanese Curry"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.6755134150483,
+            "longitude": 139.677967004133
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "西原2-28-2",
+            "address2": null,
+            "address3": null,
+            "city": "Shibuya",
+            "zip_code": "151-0066",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "西原2-28-2",
+              "Shibuya, 東京都 〒151-0066",
+              "Japan"
+            ]
+          },
+          "phone": "+81334601843",
+          "display_phone": "+81 3-3460-1843",
+          "distance": 8083.197147784273,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "ZMDDgvM8hi6g1gyu4TMnjQ",
+          "alias": "スパイスボックス-千代田区",
+          "name": "Spice Box",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ExiKePQhif8dJKrN8Q5TUQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "indpak",
+              "title": "Indian"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6922680260028,
+            "longitude": 139.765845684825
+          },
+          "transactions": [],
+          "location": {
+            "address1": "内神田1-15-12",
+            "address2": "第二斉木ビル 1F",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "内神田1-15-12",
+              "第二斉木ビル 1F",
+              "Chiyoda, 東京都",
+              "Japan"
+            ]
+          },
+          "phone": "",
+          "display_phone": "",
+          "distance": 810.5065389276735,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0900",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 385,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 667,
+    "success": true
+  }
+}

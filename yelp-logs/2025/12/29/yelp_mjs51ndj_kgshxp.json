@@ -1,0 +1,328 @@
+{
+  "id": "yelp_mjs51ndj_kgshxp",
+  "timestamp": "2025-12-30T05:20:02.455Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "魏飯夷堂",
+      "location": "Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Zbq4JJEE59--kwSqMxPujw",
+          "alias": "魏飯夷堂-三条店-京都市",
+          "name": "Gihan Ebisudo Sanjo",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/fYHBRC9kZiD6-eF5ZtGojQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%AD%8F%E9%A3%AF%E5%A4%B7%E5%A0%82-%E4%B8%89%E6%9D%A1%E5%BA%97-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "dimsum",
+              "title": "Dim Sum"
+            },
+            {
+              "alias": "dumplings",
+              "title": "Dumplings"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.008662,
+            "longitude": 135.750692
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中京区 三条岩上西入る 橋西町661",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "604-8332",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区 三条岩上西入る 橋西町661",
+              "Kyoto, 京都府 〒604-8332",
+              "Japan"
+            ]
+          },
+          "phone": "+81758418071",
+          "display_phone": "+81 75-841-8071",
+          "distance": 1171.0674808443548,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "oZL5vGdUGYkvjfT37fHTQA",
+          "alias": "魏飯夷堂-北新地店-大阪市-2",
+          "name": "Gihan Ebisudō Kitashinchi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/J2pe42L4Z98w8CDmNgTV6g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%AD%8F%E9%A3%AF%E5%A4%B7%E5%A0%82-%E5%8C%97%E6%96%B0%E5%9C%B0%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "dimsum",
+              "title": "Dim Sum"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 34.69611,
+            "longitude": 135.5
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区堂島1-1-13",
+            "address2": "ライズホテル大阪北新地 1・2F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0003",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区堂島1-1-13",
+              "ライズホテル大阪北新地 1・2F",
+              "Osaka, 大阪府 〒530-0003",
+              "Japan"
+            ]
+          },
+          "phone": "+81663468850",
+          "display_phone": "+81 6-6346-8850",
+          "distance": 42256.24741549676,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0630",
+                  "end": "1000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0630",
+                  "end": "1000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0630",
+                  "end": "1000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0630",
+                  "end": "1000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0630",
+                  "end": "1000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0630",
+                  "end": "1000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2200",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 4,
+      "region": {
+        "center": {
+          "longitude": 135.7635498046875,
+          "latitude": 35.00858416531922
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 838,
+    "success": true
+  }
+}

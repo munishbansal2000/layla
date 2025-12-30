@@ -1,0 +1,508 @@
+{
+  "id": "yelp_mjs51z9x_kzi3rj",
+  "timestamp": "2025-12-30T05:20:17.877Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "みなみ食堂",
+      "location": "Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "zb30WIwnF26nC48NOCTFVg",
+          "alias": "食堂-もとや-南店-大阪市",
+          "name": "Shokudō Motoya Minami",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/TPuJz7yCavqSBTYHS_pyQg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%A3%9F%E5%A0%82-%E3%82%82%E3%81%A8%E3%82%84-%E5%8D%97%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "canteen",
+              "title": "Canteen"
+            },
+            {
+              "alias": "tempura",
+              "title": "Tempura"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6993183,
+            "longitude": 135.5335846
+          },
+          "transactions": [],
+          "location": {
+            "address1": "都島区東野田町5-2-7",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "534-0024",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "都島区東野田町5-2-7",
+              "Osaka, 大阪府 〒534-0024",
+              "Japan"
+            ]
+          },
+          "phone": "+81668816826",
+          "display_phone": "+81 6-6881-6826",
+          "distance": 4821.13917640689,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "XSMgqdV39qt8NDb7OAUr_A",
+          "alias": "なごみ食堂-神戸市",
+          "name": "Magomi shyokudou",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/ZtEhTmSjhKRCtTgikdUpeQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%AA%E3%81%94%E3%81%BF%E9%A3%9F%E5%A0%82-%E7%A5%9E%E6%88%B8%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "coffee",
+              "title": "Coffee & Tea"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+            "latitude": 34.7229080200195,
+            "longitude": 135.273849487305
+          },
+          "transactions": [],
+          "location": {
+            "address1": "東灘区田中町3-8-15",
+            "address2": "1階",
+            "address3": "",
+            "city": "Kobe",
+            "zip_code": "658-0081",
+            "country": "JP",
+            "state": "28",
+            "display_address": [
+              "東灘区田中町3-8-15",
+              "1階",
+              "Kobe, 兵庫県 〒658-0081",
+              "Japan"
+            ]
+          },
+          "phone": "+81784113907",
+          "display_phone": "+81 78-411-3907",
+          "distance": 20153.704572349623,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "SqjG1QbX69gWkoMiYBt6tQ",
+          "alias": "みなと食堂-明石市",
+          "name": "みなと食堂",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/1bYhkBehHB4iTHAso2dcOw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%BF%E3%81%AA%E3%81%A8%E9%A3%9F%E5%A0%82-%E6%98%8E%E7%9F%B3%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6454772693,
+            "longitude": 134.99045496
+          },
+          "transactions": [],
+          "location": {
+            "address1": "本町1丁目19-7",
+            "address2": null,
+            "address3": null,
+            "city": "Akashi",
+            "zip_code": "673-0892",
+            "country": "JP",
+            "state": "28",
+            "display_address": [
+              "本町1丁目19-7",
+              "Akashi, 兵庫県 〒673-0892",
+              "Japan"
+            ]
+          },
+          "phone": "+81789112681",
+          "display_phone": "+81 78-911-2681",
+          "distance": 45607.06312051997,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0700",
+                  "end": "1930",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "n_LTt8UhRNy-GXrxSchkgQ",
+          "alias": "daru食堂-大阪市",
+          "name": "Daru shokudō",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/mRnkx90VUQmpX6Ky4tlD2Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/daru%E9%A3%9F%E5%A0%82-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "teppanyaki",
+              "title": "Teppanyaki"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.697943,
+            "longitude": 135.495518
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区曽根崎新地1",
+            "address2": "",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区曽根崎新地1",
+              "Osaka, 大阪府",
+              "Japan"
+            ]
+          },
+          "phone": "+81661478707",
+          "display_phone": "+81 6-6147-8707",
+          "distance": 2311.798286560011,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0730",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "IZLW8Skp0KDbMtpY9Kripg",
+          "alias": "地魚食堂-鯛之鯛-梅田店-大阪市",
+          "name": "Jizakana Shokudou Tainotai Umeda",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/yGvpd9T6rZJcC8qYCscupw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%9C%B0%E9%AD%9A%E9%A3%9F%E5%A0%82-%E9%AF%9B%E4%B9%8B%E9%AF%9B-%E6%A2%85%E7%94%B0%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "robatayaki",
+              "title": "Robatayaki"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.7025413513184,
+            "longitude": 135.504684448242
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "北区堂山町1-2",
+            "address2": "R&EビルB1",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0027",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区堂山町1-2",
+              "R&EビルB1",
+              "Osaka, 大阪府 〒530-0027",
+              "Japan"
+            ]
+          },
+          "phone": "+81661308865",
+          "display_phone": "+81 6-6130-8865",
+          "distance": 3121.6926210360793,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 29,
+      "region": {
+        "center": {
+          "longitude": 135.48751831054688,
+          "latitude": 34.67822047791179
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 979,
+    "success": true
+  }
+}

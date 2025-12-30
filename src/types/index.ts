@@ -10,6 +10,9 @@ export * from "./activity-suggestion";
 // Re-export structured itinerary types (Phase 1: Options, Places, Commute, Food)
 export * from "./structured-itinerary";
 
+// Re-export trip input types (flights/hotels as anchors, transfers)
+export * from "./trip-input";
+
 // Import types we need for aliases and extensions
 import type {
   Coordinates,

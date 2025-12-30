@@ -1,0 +1,79 @@
+{
+  "id": "yelp_mjs50nx3_nxps86",
+  "timestamp": "2025-12-30T05:19:16.503Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "LaVasara",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "edFTaunJuPHGihNZcxS5_A",
+          "alias": "ラバサラ-カフェアンドグリル-浅草店-台東区",
+          "name": "Lavasara Cafe&Grill Asakusa",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/HvbbLl20fek2reg7uSy0HQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%A9%E3%83%90%E3%82%B5%E3%83%A9-%E3%82%AB%E3%83%95%E3%82%A7%E3%82%A2%E3%83%B3%E3%83%89%E3%82%B0%E3%83%AA%E3%83%AB-%E6%B5%85%E8%8D%89%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 7,
+          "categories": [
+            {
+              "alias": "italian",
+              "title": "Italian"
+            }
+          ],
+          "rating": 3.4,
+          "coordinates": {
+            "latitude": 35.7146110534668,
+            "longitude": 139.794128417969
+          },
+          "transactions": [],
+          "location": {
+            "address1": "浅草２丁目１－３",
+            "address2": "",
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "111-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "浅草２丁目１－３",
+              "Taitō, 東京都 〒111-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81362317838",
+          "display_phone": "+81 3-6231-7838",
+          "distance": 4151.5746346683145,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 2,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 706,
+    "success": true
+  }
+}

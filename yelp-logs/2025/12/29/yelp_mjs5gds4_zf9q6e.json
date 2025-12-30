@@ -1,0 +1,179 @@
+{
+  "id": "yelp_mjs5gds4_zf9q6e",
+  "timestamp": "2025-12-30T05:31:29.860Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Kyoto Gogyo",
+      "location": "Nakagyo, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Nakagyo, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "DbQ9dTLLQz6ZDuZeugtqFw",
+          "alias": "京都-五行-京都市",
+          "name": "Kyoto GOGYO",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/VK7xUqzb73AhwPsJc_7p0Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BA%AC%E9%83%BD-%E4%BA%94%E8%A1%8C-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 106,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "hotpot",
+              "title": "Hot Pot"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.005337,
+            "longitude": 135.76378
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中京区柳馬場通蛸薬師下ル十文字町452",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "604-8121",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区柳馬場通蛸薬師下ル十文字町452",
+              "Kyoto, 京都府 〒604-8121",
+              "Japan"
+            ]
+          },
+          "phone": "+81752545567",
+          "display_phone": "+81 75-254-5567",
+          "distance": 1510.3663919756862,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1600",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.ramendining-gogyo.com/kyoto-menu",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 2,
+      "region": {
+        "center": {
+          "longitude": 135.74792861938477,
+          "latitude": 35.00932795405244
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 721,
+    "success": true
+  }
+}

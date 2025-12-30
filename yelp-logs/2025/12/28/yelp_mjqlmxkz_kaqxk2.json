@@ -1,0 +1,449 @@
+{
+  "id": "yelp_mjqlmxkz_kaqxk2",
+  "timestamp": "2025-12-29T03:28:56.963Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "ramen lunch",
+      "latitude": "35.7147",
+      "longitude": "139.7966",
+      "radius": "2000",
+      "categories": "restaurants",
+      "limit": "4",
+      "sort_by": "rating"
+    }
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "0Avpuc4MZrIM985-Te9qvw",
+          "alias": "饗-くろ喜-千代田区-2",
+          "name": "Motenashi Kuroki ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Wkzza5nzp9hBpoUtpVyGFw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%A5%97-%E3%81%8F%E3%82%8D%E5%96%9C-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 24,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.9,
+          "coordinates": {
+            "latitude": 35.698835,
+            "longitude": 139.780141
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "神田和泉町2-15",
+            "address2": "四連ビル3号館 1F",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "101-0024",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "神田和泉町2-15",
+              "四連ビル3号館 1F",
+              "Chiyoda, 東京都 〒101-0024",
+              "Japan"
+            ]
+          },
+          "phone": "+81338637117",
+          "display_phone": "+81 3-3863-7117",
+          "distance": 2306.642493648649,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2030",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2030",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2030",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2030",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2100",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "aIKn86_X2zJ_k2y7r_LZ2w",
+          "alias": "九州じゃんがら-秋葉原本店-千代田区",
+          "name": "Kyushu Jangara Akihabara Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/RdJSk5BgosAAXQ85b-GyLg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B9%9D%E5%B7%9E%E3%81%98%E3%82%83%E3%82%93%E3%81%8C%E3%82%89-%E7%A7%8B%E8%91%89%E5%8E%9F%E6%9C%AC%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 92,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "donburi",
+              "title": "Donburi"
+            },
+            {
+              "alias": "noodles",
+              "title": "Noodles"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.700808,
+            "longitude": 139.770676
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "外神田3-11-6",
+            "address2": "",
+            "address3": null,
+            "city": "Chiyoda",
+            "zip_code": "101-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "外神田3-11-6",
+              "Chiyoda, 東京都 〒101-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81332514059",
+          "display_phone": "+81 3-3251-4059",
+          "distance": 2804.4626572829393,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0930",
+                  "end": "2330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0930",
+                  "end": "2330",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "AyDaNWOJWDnlofMjDVAtfQ",
+          "alias": "一風堂-浅草rox-3g店-台東区",
+          "name": "IPPUDO Asakusa ROX･3G",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LDUDXKb1oTEAoTiQVe_OCA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E9%A2%A8%E5%A0%82-%E6%B5%85%E8%8D%89rox-3g%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 39,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.712436,
+            "longitude": 139.793646
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "浅草1-26-5",
+            "address2": "浅草 ROX・3G 1F",
+            "address3": "",
+            "city": "Taitō",
+            "zip_code": "111-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "浅草1-26-5",
+              "浅草 ROX・3G 1F",
+              "Taitō, 東京都 〒111-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81362317739",
+          "display_phone": "+81 3-6231-7739",
+          "distance": 366.7479275920079,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ippudo.com/products/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "0xDpum5PoOiI4uDm-uNycA",
+          "alias": "カラシビ味噌らー麺-鬼金棒-千代田区-2",
+          "name": "Karashibi Miso Ramen Kikanbo",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/LpQ7WV4EsES8BUhZG7Ktlw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%AB%E3%83%A9%E3%82%B7%E3%83%93%E5%91%B3%E5%99%8C%E3%82%89%E3%83%BC%E9%BA%BA-%E9%AC%BC%E9%87%91%E6%A3%92-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 150,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6936531066895,
+            "longitude": 139.772415161133
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "鍛冶町2-10-10",
+            "address2": "",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "101-0044",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "鍛冶町2-10-10",
+              "Chiyoda, 東京都 〒101-0044",
+              "Japan"
+            ]
+          },
+          "phone": "+81332562960",
+          "display_phone": "+81 3-3256-2960",
+          "distance": 3209.0431644056994,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 46,
+      "region": {
+        "center": {
+          "longitude": 139.7966,
+          "latitude": 35.7147
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 624,
+    "success": true
+  }
+}

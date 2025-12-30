@@ -1,0 +1,123 @@
+{
+  "id": "yelp_mjs5gag4_xmh60y",
+  "timestamp": "2025-12-30T05:31:25.540Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Ueno Yabu Soba",
+      "location": "Ueno, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Ueno, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "jvIAg3nq8DgyJWiEPLj4HQ",
+          "alias": "上野-藪そば-台東区",
+          "name": "Ueno Yabusoba",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/kk1qRuKf9hZOdbB4gxKAkw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%8A%E9%87%8E-%E8%97%AA%E3%81%9D%E3%81%B0-%E5%8F%B0%E6%9D%B1%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 19,
+          "categories": [
+            {
+              "alias": "soba",
+              "title": "Soba"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.710199,
+            "longitude": 139.775461
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "上野6-9-16",
+            "address2": null,
+            "address3": null,
+            "city": "Taitō",
+            "zip_code": "110-0005",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "上野6-9-16",
+              "Taitō, 東京都 〒110-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81338314728",
+          "display_phone": "+81 3-3831-4728",
+          "distance": 204.5357381806035,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 139.77407455444336,
+          "latitude": 35.70874429933522
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1067,
+    "success": true
+  }
+}

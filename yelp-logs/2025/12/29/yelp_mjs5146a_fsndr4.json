@@ -1,0 +1,179 @@
+{
+  "id": "yelp_mjs5146a_fsndr4",
+  "timestamp": "2025-12-30T05:19:37.570Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Singapore Bak Kut Teh",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "McaUt8uDnjcEJwtqnliNnA",
+          "alias": "新加坡肉骨茶-港区",
+          "name": "SINGAPORE BAK KUT TEH",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/BaZCXwH4OSGTyoWJuOCCuQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%82%89%E9%AA%A8%E8%8C%B6-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "singaporean",
+              "title": "Singaporean"
+            },
+            {
+              "alias": "panasian",
+              "title": "Pan Asian"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.67136,
+            "longitude": 139.735151
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "赤坂5-4-14",
+            "address2": "",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂5-4-14",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+818047341128",
+          "display_phone": "+81 80-4734-1128",
+          "distance": 3228.1801863394226,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "3dDGGHyn87cx4Ms6COLw3Q",
+          "alias": "新加坡肉骨茶-麻布十番店-港区",
+          "name": "Singapore Bak Kut Teh Azabujuban",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/zqUHzYI8AjgpCjioIoFiMw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%82%89%E9%AA%A8%E8%8C%B6-%E9%BA%BB%E5%B8%83%E5%8D%81%E7%95%AA%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "singaporean",
+              "title": "Singaporean"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 35.6545181274414,
+            "longitude": 139.735305786133
+          },
+          "transactions": [],
+          "location": {
+            "address1": "麻布十番1-7-12",
+            "address2": "OHMIYAビル B1F",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "106-0045",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "麻布十番1-7-12",
+              "OHMIYAビル B1F",
+              "Minato, 東京都 〒106-0045",
+              "Japan"
+            ]
+          },
+          "phone": "+81364347732",
+          "display_phone": "+81 3-6434-7732",
+          "distance": 4325.227023840249,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 837,
+    "success": true
+  }
+}

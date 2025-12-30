@@ -1,0 +1,659 @@
+{
+  "id": "yelp_mjs51z86_m3ebkl",
+  "timestamp": "2025-12-30T05:20:17.814Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "グリル　アイ",
+      "location": "Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "shm6Qub_1Sjykuq3NoTlIw",
+          "alias": "グリルアイ-大阪市-北区",
+          "name": "グリルアイ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/W-Lf86CuTbTWIVu3NoOUdA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B0%E3%83%AA%E3%83%AB%E3%82%A2%E3%82%A4-%E5%A4%A7%E9%98%AA%E5%B8%82-%E5%8C%97%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "cafeteria",
+              "title": "Cafeteria"
+            },
+            {
+              "alias": "westernjapanese",
+              "title": "Western Style Japanese Food"
+            },
+            {
+              "alias": "canteen",
+              "title": "Canteen"
+            }
+          ],
+          "rating": 3,
+          "coordinates": {
+            "latitude": 34.7109198629087,
+            "longitude": 135.49861422938
+          },
+          "transactions": [],
+          "location": {
+            "address1": "豊崎3丁目15-2",
+            "address2": null,
+            "address3": null,
+            "city": "大阪市 北区",
+            "zip_code": "531-0072",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "豊崎3丁目15-2",
+              "大阪市 北区, 大阪府 〒531-0072",
+              "Japan"
+            ]
+          },
+          "phone": "+81663727926",
+          "display_phone": "+81 6-6372-7926",
+          "distance": 3774.862419781917,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "fePg9SlzeO_Op_FRr8pUtQ",
+          "alias": "グルメバイキング-オリンピア-大阪市",
+          "name": "Gourmet Buffet Olympia",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/OMQ0i-pLvUq9F58rmrQGoA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%90%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0-%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%82%A2-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "buffets",
+              "title": "Buffets"
+            },
+            {
+              "alias": "chinese",
+              "title": "Chinese"
+            },
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 34.70505,
+            "longitude": 135.49745
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "北区芝田1-1-35",
+            "address2": "B1F",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "530-0012",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区芝田1-1-35",
+              "B1F",
+              "Osaka, 大阪府 〒530-0012",
+              "Japan"
+            ]
+          },
+          "phone": "+81663725240",
+          "display_phone": "+81 6-6372-5240",
+          "distance": 3118.431481192952,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1300",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1330",
+                  "end": "1500",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "1900",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1930",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "https://www.hankyu-hotel.com/hotel/hh/osakashh/contents/restaurants/olympia/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "Q3LdnASLPnc31rDmYI9B_A",
+          "alias": "アール-リバーサイドグリル-ビアガーデン-大阪市",
+          "name": "“R” Riverside Grill & Beer Garden",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/3NVAyO3WxT0g-QyVBvJrTQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%A2%E3%83%BC%E3%83%AB-%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%82%B0%E3%83%AA%E3%83%AB-%E3%83%93%E3%82%A2%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "bistros",
+              "title": "Bistros"
+            },
+            {
+              "alias": "brasseries",
+              "title": "Brasseries"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.6923966792425,
+            "longitude": 135.50792137869
+          },
+          "transactions": [],
+          "location": {
+            "address1": "北区中之島1丁目",
+            "address2": "中之島公園バラ園内",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "530-0005",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "北区中之島1丁目",
+              "中之島公園バラ園内",
+              "Osaka, 大阪府 〒530-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81662020112",
+          "display_phone": "+81 6-6202-0112",
+          "distance": 2442.341179667371,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1600",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.nakanoshima-beergarden.com/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "sMN5LgA7WSGtbReV3VAhPg",
+          "alias": "bar-sip-中央区",
+          "name": "Bar Sip",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/kMLaqBtBjDBvrksrgTPIYg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/bar-sip-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 2,
+          "categories": [
+            {
+              "alias": "whiskeybars",
+              "title": "Whiskey Bars"
+            },
+            {
+              "alias": "gastropubs",
+              "title": "Gastropubs"
+            },
+            {
+              "alias": "cocktailbars",
+              "title": "Cocktail Bars"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 34.669575,
+            "longitude": 135.504464
+          },
+          "transactions": [],
+          "location": {
+            "address1": "中央区宗右衛門町2-16",
+            "address2": "アンドラビルB1F",
+            "address3": "",
+            "city": "中央区",
+            "zip_code": "542-0084",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区宗右衛門町2-16",
+              "アンドラビルB1F",
+              "中央区, 大阪府 〒542-0084",
+              "Japan"
+            ]
+          },
+          "phone": "+81662111221",
+          "display_phone": "+81 6-6211-1221",
+          "distance": 1823.6005570573698,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "nyL_LfmAaf15o8aj7WHnPw",
+          "alias": "ザ-グッドシング-大阪市-2",
+          "name": "The Good Thing",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/C1cIEM4MWxxZB4pRu6UcdQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%82%B6-%E3%82%B0%E3%83%83%E3%83%89%E3%82%B7%E3%83%B3%E3%82%B0-%E5%A4%A7%E9%98%AA%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 18,
+          "categories": [
+            {
+              "alias": "beerbar",
+              "title": "Beer Bar"
+            },
+            {
+              "alias": "gastropubs",
+              "title": "Gastropubs"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 34.6779589,
+            "longitude": 135.4979937
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区南船場4-14-1",
+            "address2": "南船場BRICK102",
+            "address3": "",
+            "city": "Osaka",
+            "zip_code": "542-0081",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区南船場4-14-1",
+              "南船場BRICK102",
+              "Osaka, 大阪府 〒542-0081",
+              "Japan"
+            ]
+          },
+          "phone": "+81647048708",
+          "display_phone": "+81 6-4704-8708",
+          "distance": 958.3356684086461,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1500",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1500",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1500",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1500",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1500",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1500",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.thegoodthing.jp/menu",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 75,
+      "region": {
+        "center": {
+          "longitude": 135.48751831054688,
+          "latitude": 34.67822047791179
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 912,
+    "success": true
+  }
+}

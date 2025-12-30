@@ -9,15 +9,643 @@
  * 3. Nearby attractions for must-see POIs (within 500m)
  * 4. Nearby restaurants for must-see POIs (within 500m)
  * 5. Travel time matrix between must-see POIs
- * 6. Placeholder structure for Viator experiences
+ * 6. Klook experiences matching
+ * 7. NEW: Wikidata admission fee data
  *
  * Usage:
  *   node scripts/enhance-japan-poi-dataset.mjs
  *   node scripts/enhance-japan-poi-dataset.mjs --city tokyo
+ *   node scripts/enhance-japan-poi-dataset.mjs --city tokyo --skip-wikidata
  */
 
 import { promises as fs } from "fs";
 import path from "path";
+
+// ============================================
+// WIKIDATA SPARQL CONFIGURATION
+// ============================================
+
+const WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql";
+const WIKIDATA_USER_AGENT = "JapanPOIEnhancer/1.0 (layla-clone project)";
+
+// Rate limiting for Wikidata queries
+const WIKIDATA_DELAY_MS = 2000; // 2 seconds between queries to be nice
+
+// ============================================
+// TICKET REQUIREMENT TYPES
+// ============================================
+
+const TICKET_REQUIRED_CATEGORIES = [
+    "museum",
+    "aquarium",
+    "zoo",
+    "theme_park",
+    "observation_deck",
+    "tower",
+    "castle_museum",
+    "amusement_park",
+];
+
+const FREE_ENTRY_CATEGORIES = [
+    "park",
+    "nature",
+    "landmark",
+    "street",
+    "neighborhood",
+    "beach",
+];
+
+const TICKET_OPTIONAL_CATEGORIES = [
+    "temple",
+    "shrine",
+    "castle_grounds",
+    "market",
+    "shopping",
+];
+
+// Known ticket requirements for famous places (manual curation)
+const KNOWN_TICKET_REQUIREMENTS = {
+    // Required tickets - with booking advice
+    "tokyo skytree": {
+        requirement: "required",
+        fee: "2100-3100 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 1,
+            walkUpAvailable: true,
+            peakTimes: ["weekends", "holidays", "sunset hours"],
+            tips: "Book online to skip ticket counter queues"
+        }
+    },
+    "tokyo tower": {
+        requirement: "required",
+        fee: "1200 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["weekends", "sunset hours"],
+            tips: "Walk-up tickets available, short waits except weekends"
+        }
+    },
+    "teamlab borderless": {
+        requirement: "required",
+        fee: "3800 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 14,
+            walkUpAvailable: false,
+            peakTimes: ["weekends", "holidays", "school breaks"],
+            tips: "MUST book in advance - sells out weeks ahead. No walk-up tickets."
+        }
+    },
+    "teamlab planets": {
+        requirement: "required",
+        fee: "3800 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 7,
+            walkUpAvailable: false,
+            peakTimes: ["weekends", "holidays"],
+            tips: "Book at least 1 week ahead. Timed entry slots."
+        }
+    },
+    "shibuya sky": {
+        requirement: "required",
+        fee: "2200 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 3,
+            walkUpAvailable: true,
+            peakTimes: ["sunset hours", "weekends", "clear weather days"],
+            tips: "Book sunset slots 3+ days ahead. Walk-up available for non-peak times."
+        }
+    },
+    "tokyo disneyland": {
+        requirement: "required",
+        fee: "7900-10900 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 30,
+            walkUpAvailable: false,
+            peakTimes: ["weekends", "holidays", "school breaks", "special events"],
+            tips: "Book 1+ month ahead. Sells out on weekends/holidays."
+        }
+    },
+    "tokyo disneysea": {
+        requirement: "required",
+        fee: "7900-10900 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 30,
+            walkUpAvailable: false,
+            peakTimes: ["weekends", "holidays", "school breaks"],
+            tips: "Book 1+ month ahead. More popular than Disneyland."
+        }
+    },
+    "universal studios japan": {
+        requirement: "required",
+        fee: "8600+ JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 14,
+            walkUpAvailable: true,
+            peakTimes: ["weekends", "holidays", "school breaks"],
+            tips: "Book 2+ weeks ahead for weekends. Express Pass recommended."
+        }
+    },
+    "ghibli museum": {
+        requirement: "required",
+        fee: "1000 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 30,
+            walkUpAvailable: false,
+            peakTimes: ["always busy"],
+            tips: "MUST book 1 month ahead via Lawson. No walk-up. Very limited tickets."
+        }
+    },
+    "legoland": { requirement: "required", fee: "5800 JPY" },
+    "edo-tokyo museum": { requirement: "required", fee: "600 JPY" },
+    "mori art museum": { requirement: "required", fee: "1800 JPY" },
+    "kinkaku-ji": {
+        requirement: "required",
+        fee: "500 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["morning", "autumn foliage", "weekends"],
+            tips: "Arrive early morning (8:30am opening) to avoid crowds"
+        }
+    },
+    "ginkaku-ji": { requirement: "required", fee: "500 JPY" },
+    "ryoan-ji": { requirement: "required", fee: "600 JPY" },
+    "kiyomizu-dera": {
+        requirement: "required",
+        fee: "400 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["morning", "autumn foliage", "cherry blossom"],
+            tips: "Opens 6am - go early to beat crowds"
+        }
+    },
+    "todai-ji": {
+        requirement: "required",
+        fee: "600 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["mid-morning", "weekends"],
+            tips: "Arrive early. Deer feeding is free in the surrounding park."
+        }
+    },
+    "nijo castle": { requirement: "required", fee: "1300 JPY" },
+    "hiroshima castle": { requirement: "required", fee: "370 JPY" },
+    "osaka castle": { requirement: "required", fee: "600 JPY" },
+    "peace memorial museum": {
+        requirement: "required",
+        fee: "200 JPY",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["August", "weekends"],
+            tips: "Allow 2+ hours. Very moving experience."
+        }
+    },
+    "shinjuku gyoen": { requirement: "required", fee: "500 JPY" },
+    "hamarikyu gardens": { requirement: "required", fee: "300 JPY" },
+    "hakone open air museum": { requirement: "required", fee: "1600 JPY" },
+    "pola museum": { requirement: "required", fee: "1800 JPY" },
+    "owakudani": { requirement: "required", fee: "Ropeway fee varies" },
+    "narita-san": { requirement: "optional", fee: "Free (gardens extra)" },
+
+    // Optional enhancements
+    "senso-ji": { requirement: "optional", fee: "Free" },
+    "sensoji": { requirement: "optional", fee: "Free" },
+    "meiji shrine": { requirement: "optional", fee: "Free" },
+    "fushimi inari": {
+        requirement: "optional",
+        fee: "Free",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["mid-morning to afternoon"],
+            tips: "Go at sunrise or after 5pm for fewer crowds. Full hike takes 2-3 hours."
+        }
+    },
+    "arashiyama bamboo": {
+        requirement: "optional",
+        fee: "Free",
+        bookingAdvice: {
+            advanceBookingRequired: false,
+            walkUpAvailable: true,
+            peakTimes: ["10am-4pm"],
+            tips: "Arrive before 8am for empty photos. Combine with Tenryu-ji temple."
+        }
+    },
+    "nara park": { requirement: "optional", fee: "Free" },
+    "imperial palace": {
+        requirement: "optional",
+        fee: "Free (tour required)",
+        bookingAdvice: {
+            advanceBookingRequired: true,
+            recommendedBookingDays: 7,
+            walkUpAvailable: true,
+            tips: "Inner grounds require free tour reservation. East Gardens are open access."
+        }
+    },
+    "tsukiji market": { requirement: "optional", fee: "Free" },
+    "dotonbori": { requirement: "optional", fee: "Free" },
+    "gion": { requirement: "optional", fee: "Free" },
+
+    // Free entry
+    "yoyogi park": { requirement: "free", fee: "Free" },
+    "ueno park": { requirement: "free", fee: "Free" },
+    "shibuya crossing": { requirement: "free", fee: "Free" },
+    "takeshita street": { requirement: "free", fee: "Free" },
+    "akihabara": { requirement: "free", fee: "Free" },
+    "ginza": { requirement: "free", fee: "Free" },
+    "peace memorial park": { requirement: "free", fee: "Free" },
+    "atomic bomb dome": { requirement: "free", fee: "Free" },
+};
+
+// ============================================
+// WIKIDATA ADMISSION FEE QUERY
+// ============================================
+
+/**
+ * Query Wikidata for admission fee information for places in a city
+ * Uses SPARQL to find:
+ * - P2555: admission fee
+ * - P5023: visitor fee
+ * - P2130: cost
+ * Also gets P31 (instance of) to help classify places
+ */
+async function queryWikidataAdmissionFees(cityName, cityCoords) {
+    const lat = cityCoords ?.lat || 35.6762;
+    const lng = cityCoords ?.lng || 139.6503;
+    const radius = 30; // km radius around city center
+
+    // SPARQL query to find tourist attractions with admission fees
+    const query = `
+SELECT DISTINCT ?place ?placeLabel ?placeJaLabel ?lat ?lng ?feeAmount ?feeCurrency ?typeLabel ?image ?website ?description WHERE {
+  # Find places near the city coordinates
+  SERVICE wikibase:around {
+    ?place wdt:P625 ?location .
+    bd:serviceParam wikibase:center "Point(${lng} ${lat})"^^geo:wktLiteral .
+    bd:serviceParam wikibase:radius "${radius}" .
+  }
+
+  # Get coordinates
+  ?place wdt:P625 ?location .
+  BIND(geof:latitude(?location) AS ?lat)
+  BIND(geof:longitude(?location) AS ?lng)
+
+  # Must be a tourist attraction, museum, temple, shrine, or similar
+  ?place wdt:P31 ?type .
+  VALUES ?type {
+    wd:Q33506    # museum
+    wd:Q207694   # art museum
+    wd:Q16970    # temple
+    wd:Q845945   # Buddhist temple
+    wd:Q9141     # shrine
+    wd:Q2977    # castle
+    wd:Q18674739 # observation tower
+    wd:Q12570    # tower
+    wd:Q41176    # building
+    wd:Q35112127 # sky tower
+    wd:Q22698    # park
+    wd:Q847017   # garden
+    wd:Q1244442  # national park
+    wd:Q570116   # tourist attraction
+    wd:Q473972   # theme park
+    wd:Q1195942  # amusement park
+    wd:Q178706   # zoo
+    wd:Q45782    # aquarium
+    wd:Q23413    # palace
+  }
+
+  # Try to get admission fee (P2555)
+  OPTIONAL {
+    ?place p:P2555 ?feeStatement .
+    ?feeStatement ps:P2555 ?feeAmount .
+    OPTIONAL { ?feeStatement pq:P3005 ?feeCurrency . }
+  }
+
+  # Also try cost (P2130)
+  OPTIONAL {
+    ?place wdt:P2130 ?cost .
+  }
+
+  # Optional: image
+  OPTIONAL { ?place wdt:P18 ?image . }
+
+  # Optional: official website
+  OPTIONAL { ?place wdt:P856 ?website . }
+
+  # Get labels
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en,ja" .
+    ?place rdfs:label ?placeLabel .
+    ?type rdfs:label ?typeLabel .
+  }
+
+  # Japanese label
+  OPTIONAL {
+    ?place rdfs:label ?placeJaLabel .
+    FILTER(LANG(?placeJaLabel) = "ja")
+  }
+
+  # English description
+  OPTIONAL {
+    ?place schema:description ?description .
+    FILTER(LANG(?description) = "en")
+  }
+}
+ORDER BY DESC(?feeAmount)
+LIMIT 200
+`;
+
+    try {
+        console.log(`[Wikidata] Querying admission fees for ${cityName}...`);
+
+        const response = await fetch(WIKIDATA_ENDPOINT, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Accept": "application/sparql-results+json",
+                "User-Agent": WIKIDATA_USER_AGENT,
+            },
+            body: `query=${encodeURIComponent(query)}`,
+        });
+
+        if (!response.ok) {
+            console.warn(`[Wikidata] Query failed: ${response.status} ${response.statusText}`);
+            return [];
+        }
+
+        const data = await response.json();
+        const results = data.results ?.bindings || [];
+
+        console.log(`[Wikidata] Found ${results.length} places with admission info`);
+
+        // Parse results
+        const places = results.map(r => ({
+            wikidataId: r.place ?.value ?.replace("http://www.wikidata.org/entity/", ""),
+            name: r.placeLabel ?.value,
+            nameJa: r.placeJaLabel ?.value,
+            lat: parseFloat(r.lat ?.value),
+            lng: parseFloat(r.lng ?.value),
+            admissionFee: r.feeAmount ?.value ? parseFloat(r.feeAmount.value) : null,
+            feeCurrency: r.feeCurrency ?.value ?.replace("http://www.wikidata.org/entity/", "") || "JPY",
+            type: r.typeLabel ?.value,
+            image: r.image ?.value,
+            website: r.website ?.value,
+            description: r.description ?.value,
+        }));
+
+        return places;
+    } catch (error) {
+        console.warn(`[Wikidata] Query error: ${error.message}`);
+        return [];
+    }
+}
+
+/**
+ * Simple helper to delay execution
+ */
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * Determine ticket requirement from various sources
+ */
+function determineTicketRequirement(poi, wikidataInfo, klookExperiences) {
+    const nameLower = normalizeText(poi.name);
+    const nameJaLower = normalizeText(poi.nameJa);
+
+    // 1. Check curated known places first (most reliable)
+    for (const [place, info] of Object.entries(KNOWN_TICKET_REQUIREMENTS)) {
+        const placeNorm = normalizeText(place);
+        if (nameLower.includes(placeNorm) || placeNorm.includes(nameLower) ||
+            (nameJaLower && (nameJaLower.includes(placeNorm) || placeNorm.includes(nameJaLower)))) {
+            return {
+                requirement: info.requirement,
+                fee: info.fee,
+                source: "curated",
+                confidence: 1.0,
+                bookingAdvice: info.bookingAdvice || null,
+            };
+        }
+    }
+
+    // 2. Check Wikidata admission fee data
+    if (wikidataInfo) {
+        if (wikidataInfo.admissionFee !== null && wikidataInfo.admissionFee > 0) {
+            return {
+                requirement: "required",
+                fee: `${wikidataInfo.admissionFee} ${wikidataInfo.feeCurrency || "JPY"}`,
+                source: "wikidata",
+                wikidataId: wikidataInfo.wikidataId,
+                confidence: 0.9,
+            };
+        }
+        // Wikidata says it's free (fee = 0)
+        if (wikidataInfo.admissionFee === 0) {
+            return {
+                requirement: "free",
+                fee: "Free",
+                source: "wikidata",
+                wikidataId: wikidataInfo.wikidataId,
+                confidence: 0.9,
+            };
+        }
+    }
+
+    // 3. Check OSM fee tag (from original POI data)
+    // OSM has fee tag: "yes", "no", "donation", or specific amounts
+    const osmFee = poi.osmTags ?.fee;
+    if (osmFee) {
+        const feeLower = osmFee.toLowerCase();
+        if (feeLower === "yes") {
+            return {
+                requirement: "required",
+                fee: "Admission fee required",
+                source: "osm",
+                confidence: 0.85,
+            };
+        }
+        if (feeLower === "no") {
+            return {
+                requirement: "free",
+                fee: "Free",
+                source: "osm",
+                confidence: 0.85,
+            };
+        }
+        if (feeLower === "donation" || feeLower === "optional") {
+            return {
+                requirement: "optional",
+                fee: "Donation suggested",
+                source: "osm",
+                confidence: 0.85,
+            };
+        }
+        // Specific amount like "500 JPY" or "¥300"
+        if (/\d/.test(osmFee)) {
+            return {
+                requirement: "required",
+                fee: osmFee,
+                source: "osm",
+                confidence: 0.85,
+            };
+        }
+    }
+
+    // 4. Infer from Klook experiences
+    if (klookExperiences && klookExperiences.length > 0) {
+        const hasTicketExp = klookExperiences.some(e => {
+            const nameLower = (e.name || "").toLowerCase();
+            return nameLower.includes("ticket") ||
+                nameLower.includes("admission") ||
+                nameLower.includes("entry") ||
+                nameLower.includes("pass");
+        });
+
+        if (hasTicketExp) {
+            const ticketExp = klookExperiences.find(e => {
+                const n = (e.name || "").toLowerCase();
+                return n.includes("ticket") || n.includes("admission");
+            });
+
+            return {
+                requirement: "required",
+                fee: ticketExp ?.price ?.display || "Varies",
+                source: "klook",
+                confidence: 0.7,
+            };
+        }
+
+        // Has experiences but none are tickets - optional enhancement
+        return {
+            requirement: "optional",
+            fee: "Free (tours available)",
+            source: "klook-inferred",
+            confidence: 0.6,
+        };
+    }
+
+    // 4. Infer from category
+    const category = (poi.category || "").toLowerCase();
+    const subcategory = (poi.subcategory || "").toLowerCase();
+
+    if (TICKET_REQUIRED_CATEGORIES.some(c => category.includes(c) || subcategory.includes(c))) {
+        return {
+            requirement: "required",
+            fee: "Varies",
+            source: "category",
+            confidence: 0.5,
+        };
+    }
+
+    if (FREE_ENTRY_CATEGORIES.some(c => category.includes(c) || subcategory.includes(c))) {
+        return {
+            requirement: "free",
+            fee: "Free",
+            source: "category",
+            confidence: 0.5,
+        };
+    }
+
+    if (TICKET_OPTIONAL_CATEGORIES.some(c => category.includes(c) || subcategory.includes(c))) {
+        return {
+            requirement: "optional",
+            fee: "Usually free",
+            source: "category",
+            confidence: 0.4,
+        };
+    }
+
+    // 5. Default to optional (unknown)
+    return {
+        requirement: "optional",
+        fee: "Unknown",
+        source: "default",
+        confidence: 0.2,
+    };
+}
+
+/**
+ * Match Wikidata places to must-see POIs by coordinates and name
+ */
+function matchWikidataToPOIs(mustSeePois, wikidataPlaces) {
+    const matches = new Map();
+
+    for (const poi of mustSeePois) {
+        const poiNameNorm = normalizeText(poi.name);
+        const poiNameJaNorm = normalizeText(poi.nameJa);
+
+        // Find best matching Wikidata entry
+        let bestMatch = null;
+        let bestScore = 0;
+
+        for (const wdPlace of wikidataPlaces) {
+            let score = 0;
+
+            // Distance check (within 500m)
+            const distance = haversineDistance(
+                poi.coordinates.lat,
+                poi.coordinates.lng,
+                wdPlace.lat,
+                wdPlace.lng
+            );
+
+            if (distance > 500) continue; // Too far
+
+            // Distance score (closer = better)
+            score += Math.max(0, 1 - distance / 500);
+
+            // Name matching
+            const wdNameNorm = normalizeText(wdPlace.name);
+            const wdNameJaNorm = normalizeText(wdPlace.nameJa);
+
+            // Exact match
+            if (poiNameNorm === wdNameNorm || poiNameJaNorm === wdNameJaNorm) {
+                score += 3;
+            }
+            // Substring match
+            else if (poiNameNorm.includes(wdNameNorm) || wdNameNorm.includes(poiNameNorm)) {
+                score += 2;
+            }
+            // Japanese name match
+            else if (poiNameJaNorm && wdNameJaNorm &&
+                (poiNameJaNorm.includes(wdNameJaNorm) || wdNameJaNorm.includes(poiNameJaNorm))) {
+                score += 2;
+            }
+            // Partial word match
+            else {
+                const poiWords = poiNameNorm.split(/\s+/).filter(w => w.length >= 3);
+                const wdWords = wdNameNorm.split(/\s+/).filter(w => w.length >= 3);
+                const matchingWords = poiWords.filter(w => wdWords.some(wd => wd.includes(w) || w.includes(wd)));
+                if (matchingWords.length > 0) {
+                    score += matchingWords.length * 0.5;
+                }
+            }
+
+            if (score > bestScore) {
+                bestScore = score;
+                bestMatch = wdPlace;
+            }
+        }
+
+        if (bestMatch && bestScore >= 1) {
+            matches.set(poi.id, bestMatch);
+        }
+    }
+
+    return matches;
+}
 
 // ============================================
 // CONFIGURATION
@@ -921,7 +1549,7 @@ function buildClusterTravelMatrix(clusters) {
 // MAIN PROCESSING
 // ============================================
 
-async function enhanceCity(cityKey) {
+async function enhanceCity(cityKey, skipWikidata = false) {
     console.log(`\n${"=".repeat(60)}`);
     console.log(`Enhancing: ${cityKey.toUpperCase()}`);
     console.log(`${"=".repeat(60)}`);
@@ -968,22 +1596,63 @@ async function enhanceCity(cityKey) {
         }
     }
 
-    // Step 4: Build travel time matrix for must-see POIs
+    // Step 4: Query Wikidata for admission fees
+    let wikidataMatches = new Map();
+    if (!skipWikidata) {
+        console.log(`[Wikidata] Querying admission fee data...`);
+        const cityCoords = getCityCoords(cityKey);
+        const wikidataPlaces = await queryWikidataAdmissionFees(cityKey, cityCoords);
+
+        if (wikidataPlaces.length > 0) {
+            wikidataMatches = matchWikidataToPOIs(mustSee.overall, wikidataPlaces);
+            console.log(`[Wikidata] Matched ${wikidataMatches.size} POIs with Wikidata admission data`);
+        }
+
+        // Be nice to Wikidata servers
+        await delay(WIKIDATA_DELAY_MS);
+    } else {
+        console.log(`[Wikidata] Skipping Wikidata query (--skip-wikidata flag)`);
+    }
+
+    // Step 5: Add ticket information to must-see POIs
+    console.log(`[Tickets] Adding ticket requirement information...`);
+    let ticketStats = { required: 0, optional: 0, free: 0 };
+
+    for (const poi of mustSee.overall) {
+        const wikidataInfo = wikidataMatches.get(poi.id);
+        const ticketInfo = determineTicketRequirement(poi, wikidataInfo, poi.paidExperiences);
+
+        poi.ticketInfo = ticketInfo;
+        ticketStats[ticketInfo.requirement]++;
+    }
+
+    console.log(`[Tickets] Ticket requirements: ${ticketStats.required} required, ${ticketStats.optional} optional, ${ticketStats.free} free`);
+
+    // Also add ticket info to category lists
+    for (const category of Object.keys(mustSee.byCategory)) {
+        for (const poi of mustSee.byCategory[category]) {
+            const wikidataInfo = wikidataMatches.get(poi.id);
+            const ticketInfo = determineTicketRequirement(poi, wikidataInfo, poi.paidExperiences);
+            poi.ticketInfo = ticketInfo;
+        }
+    }
+
+    // Step 6: Build travel time matrix for must-see POIs
     console.log(`[Travel] Building travel time matrix...`);
     const travelMatrix = buildTravelTimeMatrix(mustSee.overall);
     console.log(`[Travel] Matrix built: ${Object.keys(travelMatrix).length} x ${Object.keys(travelMatrix).length}`);
 
-    // Step 5: Build clusters
+    // Step 7: Build clusters
     console.log(`[Clusters] Building geographic clusters...`);
     const clusters = buildClusters(pois, cityKey);
     const totalClustered = clusters.reduce((sum, c) => sum + c.pois.length, 0);
     console.log(`[Clusters] Created ${clusters.length} clusters covering ${totalClustered} POIs`);
 
-    // Step 6: Build inter-cluster travel matrix
+    // Step 8: Build inter-cluster travel matrix
     console.log(`[Clusters] Building inter-cluster travel matrix...`);
     const clusterTravel = buildClusterTravelMatrix(clusters);
 
-    // Step 7: Compile enhanced data
+    // Step 9: Compile enhanced data
     const enhancedData = {
         city: cityData.city,
         cityJa: cityData.cityJa,
@@ -998,6 +1667,7 @@ async function enhanceCity(cityKey) {
             attractionCount: pois.filter(p => CONFIG.attractionCategories.includes(p.category)).length,
             restaurantCount: pois.filter(p => CONFIG.foodCategories.includes(p.category)).length,
             paidExperienceCount: mustSee.overall.reduce((sum, p) => sum + (p.paidExperiences && p.paidExperiences.length ? p.paidExperiences.length : 0), 0),
+            ticketStats,
         },
 
         // Must-see attractions
@@ -1032,12 +1702,28 @@ async function enhanceCity(cityKey) {
     console.log(`  Must-see attractions: ${mustSee.overall.length}`);
     console.log(`  Clusters: ${clusters.length}`);
     console.log(`  Paid experiences: ${klookActivities.length}`);
+    console.log(`  Ticket info: ${ticketStats.required} required, ${ticketStats.optional} optional, ${ticketStats.free} free`);
     console.log(`  Top clusters:`);
     for (const cluster of clusters.slice(0, 5)) {
         console.log(`    - ${cluster.name}: ${cluster.pois.length} attractions, ${cluster.nearbyRestaurantCount} restaurants`);
     }
 
     return enhancedData;
+}
+
+/**
+ * Get city center coordinates
+ */
+function getCityCoords(cityKey) {
+    const coords = {
+        tokyo: { lat: 35.6762, lng: 139.6503 },
+        kyoto: { lat: 35.0116, lng: 135.7681 },
+        osaka: { lat: 34.6937, lng: 135.5023 },
+        nara: { lat: 34.6851, lng: 135.8048 },
+        hiroshima: { lat: 34.3853, lng: 132.4553 },
+        hakone: { lat: 35.2326, lng: 139.1069 },
+    };
+    return coords[cityKey] || coords.tokyo;
 }
 
 async function buildEnhancedIndex(cities) {
@@ -1082,11 +1768,15 @@ async function main() {
     // Parse command line args
     const args = process.argv.slice(2);
     let citiesToProcess = [];
+    let skipWikidata = false;
 
     for (let i = 0; i < args.length; i++) {
         if (args[i] === "--city" && args[i + 1]) {
             citiesToProcess = args[i + 1].split(",").map(c => c.trim().toLowerCase());
             i++;
+        }
+        if (args[i] === "--skip-wikidata") {
+            skipWikidata = true;
         }
     }
 
@@ -1097,11 +1787,14 @@ async function main() {
     }
 
     console.log(`\nCities to enhance: ${citiesToProcess.join(", ")}`);
+    if (skipWikidata) {
+        console.log(`[Config] Skipping Wikidata queries`);
+    }
 
     // Process each city
     for (const cityKey of citiesToProcess) {
         try {
-            await enhanceCity(cityKey);
+            await enhanceCity(cityKey, skipWikidata);
         } catch (error) {
             console.error(`Error enhancing ${cityKey}:`, error.message);
         }

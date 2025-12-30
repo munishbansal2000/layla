@@ -1,0 +1,473 @@
+{
+  "id": "yelp_mjs32so8_2r2k01",
+  "timestamp": "2025-12-30T04:24:56.744Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Mizuno",
+      "location": "Dotonbori, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Dotonbori, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Cc0ClDTGMkuX4AQOi7UInQ",
+          "alias": "美津の-大阪市-2",
+          "name": "Mizuno",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/WE66H4gfEQ6jfBDWAwd__g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%BE%8E%E6%B4%A5%E3%81%AE-%E5%A4%A7%E9%98%AA%E5%B8%82-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 169,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            }
+          ],
+          "rating": 3.9,
+          "coordinates": {
+            "latitude": 34.66835,
+            "longitude": 135.503222
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区道頓堀1-4-15",
+            "address2": null,
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0071",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区道頓堀1-4-15",
+              "Osaka, 大阪府 〒542-0071",
+              "Japan"
+            ]
+          },
+          "phone": "+81662126360",
+          "display_phone": "+81 6-6212-6360",
+          "distance": 34.41289888404811,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.mizuno-osaka.com/menu.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "EnSQUThijKbs8JnkCIuC6w",
+          "alias": "福太郎-本店-大阪市-3",
+          "name": "Fukutarō Honten",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/N062INGfRmrmlyGEACmxMg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%A6%8F%E5%A4%AA%E9%83%8E-%E6%9C%AC%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82-3?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 82,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 34.665535,
+            "longitude": 135.504486
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区千日前2-3-17",
+            "address2": "",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0074",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区千日前2-3-17",
+              "Osaka, 大阪府 〒542-0074",
+              "Japan"
+            ]
+          },
+          "phone": "+81666342951",
+          "display_phone": "+81 6-6634-2951",
+          "distance": 367.8155510180062,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0030",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0030",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0030",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0030",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1700",
+                  "end": "0030",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "PlArwOQJ79AJEVIFPtk3KA",
+          "alias": "一蘭-道頓堀店本館-大阪市",
+          "name": "ICHIRAN Dotonbori",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/S729LiIgFdwvQQkiiqYaMw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%80%E8%98%AD-%E9%81%93%E9%A0%93%E5%A0%80%E5%BA%97%E6%9C%AC%E9%A4%A8-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 301,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 34.669212,
+            "longitude": 135.503039
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区宗右衛門町7-18",
+            "address2": "田舎そばビル 1F",
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0084",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区宗右衛門町7-18",
+              "田舎そばビル 1F",
+              "Osaka, 大阪府 〒542-0084",
+              "Japan"
+            ]
+          },
+          "phone": "+815018082557",
+          "display_phone": "+81 50-1808-2557",
+          "distance": 62.948911705611444,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0000",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.ichiran.co.jp/oshinagaki/oshinagaki.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "MBnY4vzd77nyyB5Dg0IpWw",
+          "alias": "花丸軒-法善寺店-大阪市",
+          "name": "Hanamaruken Hozenji",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/aIL8uLD6jS2FiknFSgDS0w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E8%8A%B1%E4%B8%B8%E8%BB%92-%E6%B3%95%E5%96%84%E5%AF%BA%E5%BA%97-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 97,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "dumplings",
+              "title": "Dumplings"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.667904,
+            "longitude": 135.503075
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中央区難波1-2-1",
+            "address2": null,
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0076",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区難波1-2-1",
+              "Osaka, 大阪府 〒542-0076",
+              "Japan"
+            ]
+          },
+          "phone": "+81662130131",
+          "display_phone": "+81 6-6213-0131",
+          "distance": 83.3773167706278,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "0900",
+                  "end": "0900",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "sFcUvd_hUcPZKvRxGhRmrg",
+          "alias": "おかる-大阪市",
+          "name": "Okaru ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/eO4Ad-gDlz4QZkpQOt3Wqw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8A%E3%81%8B%E3%82%8B-%E5%A4%A7%E9%98%AA%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "okonomiyaki",
+              "title": "Okonomiyaki"
+            },
+            {
+              "alias": "soba",
+              "title": "Soba"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 34.6675365677978,
+            "longitude": 135.503415284815
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "中央区千日前1-9-19",
+            "address2": null,
+            "address3": null,
+            "city": "Osaka",
+            "zip_code": "542-0074",
+            "country": "JP",
+            "state": "27",
+            "display_address": [
+              "中央区千日前1-9-19",
+              "Osaka, 大阪府 〒542-0074",
+              "Japan"
+            ]
+          },
+          "phone": "+81662110985",
+          "display_phone": "+81 6-6211-0985",
+          "distance": 126.56356073364424,
+          "business_hours": [],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 12,
+      "region": {
+        "center": {
+          "longitude": 135.5031394958496,
+          "latitude": 34.66865195241771
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 414,
+    "success": true
+  }
+}

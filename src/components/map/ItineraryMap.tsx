@@ -31,6 +31,12 @@ const Polyline = dynamic(
   { ssr: false }
 );
 
+// Dynamically import MarkerClusterGroup for clustering overlapping markers
+const MarkerClusterGroup = dynamic(
+  () => import("react-leaflet-cluster").then((mod) => mod.default),
+  { ssr: false }
+);
+
 // MapUpdater component - dynamically import the whole module to avoid SSR issues
 const MapUpdaterWrapper = dynamic(() => import("./MapUpdaterWrapper"), {
   ssr: false,
@@ -400,46 +406,83 @@ export function ItineraryMap({
           />
         )}
 
-        {/* Activity markers */}
-        {markers.map((marker) => {
-          const color = SLOT_TYPE_COLORS[marker.slotType] || "#6b7280";
-          const icon = createCustomIcon(color, marker.order);
-          const isSelected = selectedSlotId === marker.id;
-
-          return (
-            <Marker
-              key={marker.id}
-              position={[marker.coordinates.lat, marker.coordinates.lng]}
-              icon={icon}
-              eventHandlers={{
-                click: () => onMarkerClick?.(marker),
-              }}
-            >
-              <Popup>
-                <div className="min-w-[200px]">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span
-                      className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold"
-                      style={{ backgroundColor: color }}
-                    >
-                      {marker.order}
-                    </span>
-                    <span className="text-xs uppercase text-gray-500">
-                      {marker.slotType}
-                    </span>
-                  </div>
-                  <h3 className="font-semibold text-gray-900">{marker.name}</h3>
-                  <p className="text-sm text-gray-600 mt-1 line-clamp-2">
-                    {marker.description}
-                  </p>
-                  <div className="mt-2 text-xs text-gray-400">
-                    {marker.category}
-                  </div>
+        {/* Activity markers with clustering for overlapping locations */}
+        <MarkerClusterGroup
+          chunkedLoading
+          spiderfyOnMaxZoom={true}
+          showCoverageOnHover={false}
+          maxClusterRadius={40}
+          disableClusteringAtZoom={16}
+          iconCreateFunction={(cluster: { getChildCount: () => number }) => {
+            if (typeof window === "undefined") return null;
+            const L = require("leaflet");
+            const count = cluster.getChildCount();
+            return L.divIcon({
+              className: "custom-cluster",
+              html: `
+                <div style="
+                  width: 40px;
+                  height: 40px;
+                  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+                  border: 3px solid white;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: white;
+                  font-weight: bold;
+                  font-size: 14px;
+                  box-shadow: 0 2px 10px rgba(99, 102, 241, 0.5);
+                ">
+                  ${count}
                 </div>
-              </Popup>
-            </Marker>
-          );
-        })}
+              `,
+              iconSize: [40, 40],
+              iconAnchor: [20, 20],
+            });
+          }}
+        >
+          {markers.map((marker) => {
+            const color = SLOT_TYPE_COLORS[marker.slotType] || "#6b7280";
+            const icon = createCustomIcon(color, marker.order);
+
+            return (
+              <Marker
+                key={marker.id}
+                position={[marker.coordinates.lat, marker.coordinates.lng]}
+                icon={icon}
+                eventHandlers={{
+                  click: () => onMarkerClick?.(marker),
+                }}
+              >
+                <Popup>
+                  <div className="min-w-[200px]">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span
+                        className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold"
+                        style={{ backgroundColor: color }}
+                      >
+                        {marker.order}
+                      </span>
+                      <span className="text-xs uppercase text-gray-500">
+                        {marker.slotType}
+                      </span>
+                    </div>
+                    <h3 className="font-semibold text-gray-900">
+                      {marker.name}
+                    </h3>
+                    <p className="text-sm text-gray-600 mt-1 line-clamp-2">
+                      {marker.description}
+                    </p>
+                    <div className="mt-2 text-xs text-gray-400">
+                      {marker.category}
+                    </div>
+                  </div>
+                </Popup>
+              </Marker>
+            );
+          })}
+        </MarkerClusterGroup>
 
         {/* Hotel/Accommodation marker */}
         {accommodation && (

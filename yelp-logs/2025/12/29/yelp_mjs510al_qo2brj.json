@@ -1,0 +1,573 @@
+{
+  "id": "yelp_mjs510al_qo2brj",
+  "timestamp": "2025-12-30T05:19:32.541Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "中華料理 やまだ",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "kMTpDMb4opty9MfVZNIxiw",
+          "alias": "中国ラーメン揚州商人-赤坂店-港区",
+          "name": "Chūgoku Rāmen Yōshūshōnin Akasaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/IMM5Zdp1EFoWC39ywX4uvg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B8%AD%E5%9B%BD%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%8F%9A%E5%B7%9E%E5%95%86%E4%BA%BA-%E8%B5%A4%E5%9D%82%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "chinese",
+              "title": "Chinese"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 35.674977,
+            "longitude": 139.736224
+          },
+          "transactions": [],
+          "location": {
+            "address1": "赤坂3-17-8",
+            "address2": "都ビル　1Ｆ",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂3-17-8",
+              "都ビル　1Ｆ",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+81335832544",
+          "display_phone": "+81 3-3583-2544",
+          "distance": 2969.6258726093524,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0430",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "vAo-nKrZ_RADdmg2kzuFoQ",
+          "alias": "炎麻堂-赤坂店-港区",
+          "name": "Enmadou Akasaka",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/5S5JIIDVK5SNqGOAXQ1hIA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%82%8E%E9%BA%BB%E5%A0%82-%E8%B5%A4%E5%9D%82%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "szechuan",
+              "title": "Szechuan"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6750106811523,
+            "longitude": 139.736282348633
+          },
+          "transactions": [],
+          "location": {
+            "address1": "赤坂3-17-8",
+            "address2": "都ビル B1",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "107-0052",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂3-17-8",
+              "都ビル B1",
+              "Minato, 東京都 〒107-0052",
+              "Japan"
+            ]
+          },
+          "phone": "+81332240550",
+          "display_phone": "+81 3-3224-0550",
+          "distance": 2911.9930592359547,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1600",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "iSdDu-O6ZPWi6miHZE5FbA",
+          "alias": "亀戸ぎょうざ-両国支店-墨田区",
+          "name": "Kameido Gyōza Ryōgoku",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/XD3qFxQ-so3RwyYwTCSpoQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%BA%80%E6%88%B8%E3%81%8E%E3%82%87%E3%81%86%E3%81%96-%E4%B8%A1%E5%9B%BD%E6%94%AF%E5%BA%97-%E5%A2%A8%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 9,
+          "categories": [
+            {
+              "alias": "chinese",
+              "title": "Chinese"
+            },
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "dumplings",
+              "title": "Dumplings"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.6950310911855,
+            "longitude": 139.797298046574
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "両国4-34-10",
+            "address2": "",
+            "address3": null,
+            "city": "Sumida",
+            "zip_code": "130-0026",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "両国4-34-10",
+              "Sumida, 東京都 〒130-0026",
+              "Japan"
+            ]
+          },
+          "phone": "+81336313740",
+          "display_phone": "+81 3-3631-3740",
+          "distance": 2980.0532695517413,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2030",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "7JMVlfGpZfQgggQqeCXjyw",
+          "alias": "ちょもらんま酒場-八重洲地下街店-中央区",
+          "name": "Chomoranma Sakaba Yaesu Chikagai",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/G8jOKGbNZHDRF46JwV8VAw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%A1%E3%82%87%E3%82%82%E3%82%89%E3%82%93%E3%81%BE%E9%85%92%E5%A0%B4-%E5%85%AB%E9%87%8D%E6%B4%B2%E5%9C%B0%E4%B8%8B%E8%A1%97%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "chinese",
+              "title": "Chinese"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            },
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            }
+          ],
+          "rating": 3.7,
+          "coordinates": {
+            "latitude": 35.6800631352021,
+            "longitude": 139.769672717444
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "八重洲2-1",
+            "address2": "八重洲地下1番通り",
+            "address3": "",
+            "city": "Chūō",
+            "zip_code": "",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "八重洲2-1",
+              "八重洲地下1番通り",
+              "Chūō, 東京都",
+              "Japan"
+            ]
+          },
+          "phone": "+81335175652",
+          "display_phone": "+81 3-3517-5652",
+          "distance": 612.52108270577,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "WfilTjtW6KKlwFnmjWOgNg",
+          "alias": "支那麺-はしご-赤坂店-港区",
+          "name": "Shinamenhashigo",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/l3VptS3kjek3y8rr8UQ1_w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%94%AF%E9%82%A3%E9%BA%BA-%E3%81%AF%E3%81%97%E3%81%94-%E8%B5%A4%E5%9D%82%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 17,
+          "categories": [
+            {
+              "alias": "ramen",
+              "title": "Ramen"
+            },
+            {
+              "alias": "chinese",
+              "title": "Chinese"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.6580696105957,
+            "longitude": 139.751403808594
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "赤坂2-2-21",
+            "address2": "永田町法曹ビル　1Ｆ",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "105-0000",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "赤坂2-2-21",
+              "永田町法曹ビル　1Ｆ",
+              "Minato, 東京都 〒105-0000",
+              "Japan"
+            ]
+          },
+          "phone": "+81335835225",
+          "display_phone": "+81 3-3583-5225",
+          "distance": 2678.8068305742277,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1100",
+                  "end": "0100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 33,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1084,
+    "success": true
+  }
+}

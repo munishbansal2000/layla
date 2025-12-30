@@ -1,0 +1,231 @@
+{
+  "id": "yelp_mjs50xc4_bdx18d",
+  "timestamp": "2025-12-30T05:19:28.708Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "焼肉4.3.3",
+      "location": "Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "ytfDUd6sF0qmTuNk5f4BlA",
+          "alias": "焼肉ライク-秋葉原電気街店-千代田区",
+          "name": "YAKINIKU LIKE Akihabara Denkigai",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/FwpYoCccQUf_QQYG0AxI2A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%84%BC%E8%82%89%E3%83%A9%E3%82%A4%E3%82%AF-%E7%A7%8B%E8%91%89%E5%8E%9F%E9%9B%BB%E6%B0%97%E8%A1%97%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 13,
+          "categories": [
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            },
+            {
+              "alias": "horumon",
+              "title": "Horumon"
+            },
+            {
+              "alias": "canteen",
+              "title": "Canteen"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.7009506225586,
+            "longitude": 139.769607543945
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "外神田1-4-11",
+            "address2": "2F",
+            "address3": null,
+            "city": "Chiyoda",
+            "zip_code": "101-0021",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "外神田1-4-11",
+              "2F",
+              "Chiyoda, 東京都 〒101-0021",
+              "Japan"
+            ]
+          },
+          "phone": "+81362609800",
+          "display_phone": "+81 3-6260-9800",
+          "distance": 1550.7496172113752,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "JEC_HdczoBqukh1gGVU3tA",
+          "alias": "433-六本木店-港区-2",
+          "name": "433 Roppongi ",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/nrxCPFSRgVH6WeaH7XsguQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/433-%E5%85%AD%E6%9C%AC%E6%9C%A8%E5%BA%97-%E6%B8%AF%E5%8C%BA-2?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            },
+            {
+              "alias": "steak",
+              "title": "Steakhouses"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 35.6645812988281,
+            "longitude": 139.731750488281
+          },
+          "transactions": [],
+          "location": {
+            "address1": "六本木4-12-4",
+            "address2": "飯田ビル 2F",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "106-0032",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "六本木4-12-4",
+              "飯田ビル 2F",
+              "Minato, 東京都 〒106-0032",
+              "Japan"
+            ]
+          },
+          "phone": "+81367211662",
+          "display_phone": "+81 3-6721-1662",
+          "distance": 3888.213007759777,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": true,
+                  "start": "1800",
+                  "end": "0400",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 2,
+      "region": {
+        "center": {
+          "longitude": 139.76669311523438,
+          "latitude": 35.685011526354074
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1330,
+    "success": true
+  }
+}

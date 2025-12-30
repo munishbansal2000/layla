@@ -1,0 +1,656 @@
+{
+  "id": "yelp_mjs32bxj_b7q9ee",
+  "timestamp": "2025-12-30T04:24:35.047Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Ginza Kyubey",
+      "location": "Ginza, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Ginza, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "0gxqSYCeVWilIOOOjZtSdA",
+          "alias": "久兵衛-銀座本店-中央区",
+          "name": "Kyubey Ginza",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/2H51MNZDndDpdafqNKR8ZQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B9%85%E5%85%B5%E8%A1%9B-%E9%8A%80%E5%BA%A7%E6%9C%AC%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 146,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6685097691225,
+            "longitude": 139.761222451596
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "銀座8-7-6",
+            "address2": "銀座本店",
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座8-7-6",
+              "銀座本店",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81335716523",
+          "display_phone": "+81 3-3571-6523",
+          "distance": 566.9591156926106,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "rjARZsYuxmV2jPxhzYIHvQ",
+          "alias": "銀座久兵衛-ニューオータニタワー店-千代田区",
+          "name": "Ginza Kyubey New Otani Tower",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/YY-XF5TDMWz_LpEOxSh9nA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%8A%80%E5%BA%A7%E4%B9%85%E5%85%B5%E8%A1%9B-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AA%E3%83%BC%E3%82%BF%E3%83%8B%E3%82%BF%E3%83%AF%E3%83%BC%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 10,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+            "latitude": 35.6810509,
+            "longitude": 139.7351855
+          },
+          "transactions": [],
+          "location": {
+            "address1": "紀尾井町 4-1",
+            "address2": "ホテルニューオータニ タワーロビー階",
+            "address3": "",
+            "city": "Chiyoda",
+            "zip_code": "102-0094",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "紀尾井町 4-1",
+              "ホテルニューオータニ タワーロビー階",
+              "Chiyoda, 東京都 〒102-0094",
+              "Japan"
+            ]
+          },
+          "phone": "+81332214145",
+          "display_phone": "+81 3-3221-4145",
+          "distance": 3033.3360372064053,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1400",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "r0VfIyn-l9KnidfTMlfgAQ",
+          "alias": "寿司一-中央区",
+          "name": "Sushi Ichi",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0o3e1DwB-rwCl6ztZknZGg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%AF%BF%E5%8F%B8%E4%B8%80-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 5,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 35.672664642334,
+            "longitude": 139.76545715332
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "銀座3丁目4-4",
+            "address2": "1F",
+            "address3": "",
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座3丁目4-4",
+              "1F",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81335670014",
+          "display_phone": "+81 3-3567-0014",
+          "distance": 184.15790589859446,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1200",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1800",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "LZnpFIqN3Q9JHGymAl1_1A",
+          "alias": "銀座-寿司幸-本店-丸の内店-千代田区",
+          "name": "Ginza Sushiko Marunouchi Building",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/cev8yvv0d50mJhcakaWqXQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%8A%80%E5%BA%A7-%E5%AF%BF%E5%8F%B8%E5%B9%B8-%E6%9C%AC%E5%BA%97-%E4%B8%B8%E3%81%AE%E5%86%85%E5%BA%97-%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.8,
+          "coordinates": {
+            "latitude": 35.681097585635,
+            "longitude": 139.763630072857
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "丸の内2丁目4-1",
+            "address2": "丸の内ビルディング35F",
+            "address3": null,
+            "city": "Chiyoda",
+            "zip_code": "100-0005",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "丸の内2丁目4-1",
+              "丸の内ビルディング35F",
+              "Chiyoda, 東京都 〒100-0005",
+              "Japan"
+            ]
+          },
+          "phone": "+81332401908",
+          "display_phone": "+81 3-3240-1908",
+          "distance": 1126.564809908483,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "xz5XNWI3vBhN70SoMx3plA",
+          "alias": "久兵衛-ホテルオークラ店-港区",
+          "name": "Kyubey Hotel Okura branch",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/7KjRoIyBMLzRajEqB91Mvw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E4%B9%85%E5%85%B5%E8%A1%9B-%E3%83%9B%E3%83%86%E3%83%AB%E3%82%AA%E3%83%BC%E3%82%AF%E3%83%A9%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 6,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.6668687139854,
+            "longitude": 139.744125008583
+          },
+          "transactions": [],
+          "location": {
+            "address1": "虎ノ門2-10-4",
+            "address2": "ホテルオークラ東京 本館 5F",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "105-0001",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "虎ノ門2-10-4",
+              "ホテルオークラ東京 本館 5F",
+              "Minato, 東京都 〒105-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81335056067",
+          "display_phone": "+81 3-3505-6067",
+          "distance": 2080.79646836077,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1430",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1730",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.kyubey.jp/shoplist_ookura",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 8,
+      "region": {
+        "center": {
+          "longitude": 139.76652145385742,
+          "latitude": 35.67124214455786
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 521,
+    "success": true
+  }
+}

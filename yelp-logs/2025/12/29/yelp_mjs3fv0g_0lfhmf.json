@@ -1,0 +1,236 @@
+{
+  "id": "yelp_mjs3fv0g_0lfhmf",
+  "timestamp": "2025-12-30T04:35:06.304Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Nanzenji Junsei",
+      "location": "Sakyo, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Sakyo, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "fZLk6HvGwJ0QRtrIf_sGuA",
+          "alias": "南禅寺-順正-左京区",
+          "name": "Nanzenji Junsei",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/n2EsUdZzBdcxlGheOO0seg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E5%8D%97%E7%A6%85%E5%AF%BA-%E9%A0%86%E6%AD%A3-%E5%B7%A6%E4%BA%AC%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "tofu",
+              "title": "Tofu Shops"
+            },
+            {
+              "alias": "kaiseki",
+              "title": "Kaiseki"
+            },
+            {
+              "alias": "hotpot",
+              "title": "Hot Pot"
+            }
+          ],
+          "rating": 4.7,
+          "coordinates": {
+            "latitude": 35.011308,
+            "longitude": 135.7900692
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "左京区南禅寺草川町60",
+            "address2": "",
+            "address3": "",
+            "city": "左京区",
+            "zip_code": "606-8437",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "左京区南禅寺草川町60",
+              "左京区, 京都府 〒606-8437",
+              "Japan"
+            ]
+          },
+          "phone": "+81757612311",
+          "display_phone": "+81 75-761-2311",
+          "distance": 16929.685000470563,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2130",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "-H7mqqAP4l1PnQV3OBFZDg",
+          "alias": "清水-順正-おかべ家-京都市",
+          "name": "Kiyomizu Junsei Okabeya",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/MzhjXiYojDPCfRoaFT-gEg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%B8%85%E6%B0%B4-%E9%A0%86%E6%AD%A3-%E3%81%8A%E3%81%8B%E3%81%B9%E5%AE%B6-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "japanese",
+              "title": "Japanese"
+            },
+            {
+              "alias": "tofu",
+              "title": "Tofu Shops"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 34.9956824,
+            "longitude": 135.7811589
+          },
+          "transactions": [],
+          "price": "￥￥",
+          "location": {
+            "address1": "東山区清水2丁目239",
+            "address2": null,
+            "address3": null,
+            "city": "Kyoto",
+            "zip_code": "605-0862",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "東山区清水2丁目239",
+              "Kyoto, 京都府 〒605-0862",
+              "Japan"
+            ]
+          },
+          "phone": "+81755417111",
+          "display_phone": "+81 75-541-7111",
+          "distance": 18699.038552838014,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1030",
+                  "end": "1700",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://okabeya.com/index.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 3,
+      "region": {
+        "center": {
+          "longitude": 135.79376220703125,
+          "latitude": 35.16353049173577
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 548,
+    "success": true
+  }
+}

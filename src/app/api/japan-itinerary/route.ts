@@ -1,14 +1,14 @@
 // ============================================
 // Japan Itinerary API Route
-// Generates itineraries from locally curated Japan POI data
-// In production, this can be swapped to call real APIs
+// Generates itineraries using unified itinerary-service
+// Supports both data-driven and LLM-based generation
 // ============================================
 
 import { NextResponse } from "next/server";
 import {
-  generateJapanItinerary,
-  type JapanItineraryRequest,
-} from "@/lib/japan-itinerary-generator";
+  itineraryService,
+  type ItineraryRequest,
+} from "@/lib/itinerary-service";
 import { getAvailableCities } from "@/lib/japan-data-service";
 
 // ============================================
@@ -18,6 +18,7 @@ import { getAvailableCities } from "@/lib/japan-data-service";
 export async function POST(request: Request) {
   try {
     const body = await request.json();
+    console.log("[japan-itinerary] POST request body:", JSON.stringify(body, null, 2));
 
     // Validate required fields
     const { cities, startDate } = body;
@@ -48,23 +49,26 @@ export async function POST(request: Request) {
 
     // Validate cities are available
     const availableCities = await getAvailableCities();
+    console.log("[japan-itinerary] Available cities from index:", availableCities);
+    console.log("[japan-itinerary] Requested cities:", cities);
+
     const invalidCities = cities.filter(
       (c: string) => !availableCities.includes(c.toLowerCase())
     );
+    console.log("[japan-itinerary] Invalid cities:", invalidCities);
 
     if (invalidCities.length > 0) {
-      return NextResponse.json(
-        {
-          success: false,
-          error: `Cities not available: ${invalidCities.join(", ")}`,
-          availableCities,
-        },
-        { status: 400 }
-      );
+      const errorResponse = {
+        success: false,
+        error: `Cities not available: ${invalidCities.join(", ")}`,
+        availableCities,
+      };
+      console.log("[japan-itinerary] Returning 400 error:", errorResponse);
+      return NextResponse.json(errorResponse, { status: 400 });
     }
 
-    // Build request
-    const itineraryRequest: JapanItineraryRequest = {
+    // Build request using unified itinerary service
+    const itineraryRequest: ItineraryRequest = {
       cities,
       startDate,
       daysPerCity: body.daysPerCity,
@@ -72,34 +76,21 @@ export async function POST(request: Request) {
       pace: body.pace || "moderate",
       interests: body.interests || [],
       includeKlookExperiences: body.includeKlookExperiences !== false,
+      // LLM-specific options
+      userPreferences: body.userPreferences,
+      tripContext: body.tripContext,
+      travelers: body.travelers,
+      budget: body.budget,
     };
 
-    // Generate itinerary
-    const itinerary = await generateJapanItinerary(itineraryRequest);
+    console.log("[japan-itinerary] Itinerary request:", JSON.stringify(itineraryRequest, null, 2));
 
-    // Calculate metadata
-    const totalSlots = itinerary.days.reduce((sum, d) => sum + d.slots.length, 0);
-    const totalOptions = itinerary.days.reduce(
-      (sum, d) => sum + d.slots.reduce((s, slot) => s + slot.options.length, 0),
-      0
-    );
+    // Generate itinerary using unified service
+    const result = await itineraryService.generate(itineraryRequest);
 
     return NextResponse.json({
       success: true,
-      data: {
-        itinerary,
-        metadata: {
-          generatedAt: new Date().toISOString(),
-          source: "local-japan-data",
-          totalDays: itinerary.days.length,
-          totalSlots,
-          totalOptions,
-          cities: itinerary.days.reduce((acc, d) => {
-            if (!acc.includes(d.city)) acc.push(d.city);
-            return acc;
-          }, [] as string[]),
-        },
-      },
+      data: result,
     });
   } catch (error) {
     console.error("[japan-itinerary] Error generating itinerary:", error);

@@ -72,6 +72,26 @@ function CommuteMethodIcon({ method }: { method: string }) {
   }
 }
 
+// Google Maps travel mode mapping
+const GOOGLE_MAPS_TRAVEL_MODE: Record<string, string> = {
+  walk: "walking",
+  transit: "transit",
+  taxi: "driving",
+  drive: "driving",
+};
+
+// Generate Google Maps directions URL
+function generateGoogleMapsDirectionsUrl(
+  origin: { lat: number; lng: number },
+  destination: { lat: number; lng: number },
+  travelMode: string = "transit"
+): string {
+  const originStr = `${origin.lat},${origin.lng}`;
+  const destStr = `${destination.lat},${destination.lng}`;
+  const mode = GOOGLE_MAPS_TRAVEL_MODE[travelMode] || "transit";
+  return `https://www.google.com/maps/dir/?api=1&origin=${originStr}&destination=${destStr}&travelmode=${mode}`;
+}
+
 // Format duration to human readable
 function formatDuration(minutes: number): string {
   if (minutes < 60) return `${minutes}min`;
@@ -259,10 +279,14 @@ function ActivityOptionCard({
 // Time Slot Section
 function TimeSlotSection({
   slot,
+  slotIndex,
+  allSlots,
   selectedOptions,
   onSelectOption,
 }: {
   slot: TestItinerarySlot;
+  slotIndex: number;
+  allSlots: TestItinerarySlot[];
   selectedOptions: Record<string, string>;
   onSelectOption: (slotId: string, optionId: string) => void;
 }) {
@@ -276,6 +300,27 @@ function TimeSlotSection({
     (o) => o.id !== selectedOptionId
   );
 
+  // Get previous slot's activity coordinates for directions link
+  const prevSlot = slotIndex > 0 ? allSlots[slotIndex - 1] : null;
+  const prevSelectedOptionId = prevSlot
+    ? selectedOptions[prevSlot.slotId] || prevSlot.options[0]?.id
+    : null;
+  const prevSelectedOption = prevSlot?.options.find(
+    (o) => o.id === prevSelectedOptionId
+  );
+  const prevActivityCoords = prevSelectedOption?.activity?.place?.coordinates;
+  const currentActivityCoords = selectedOption?.activity?.place?.coordinates;
+
+  // Generate Google Maps directions URL
+  const commuteGoogleMapsUrl =
+    slot.commuteFromPrevious && prevActivityCoords && currentActivityCoords
+      ? generateGoogleMapsDirectionsUrl(
+          prevActivityCoords,
+          currentActivityCoords,
+          slot.commuteFromPrevious.method
+        )
+      : null;
+
   return (
     <div className="relative">
       {/* Commute info */}
@@ -285,9 +330,20 @@ function TimeSlotSection({
             <CommuteMethodIcon method={slot.commuteFromPrevious.method} />
             <span>{formatDuration(slot.commuteFromPrevious.duration)}</span>
           </div>
-          <span className="text-gray-400 truncate">
+          <span className="text-gray-400 truncate flex-1">
             {slot.commuteFromPrevious.instructions}
           </span>
+          {commuteGoogleMapsUrl && (
+            <a
+              href={commuteGoogleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded hover:bg-blue-200 dark:hover:bg-blue-800/40 transition-colors"
+              title="Open directions in Google Maps"
+            >
+              🗺️ Directions
+            </a>
+          )}
         </div>
       )}
 
@@ -402,10 +458,12 @@ function DayView({
 
       {/* Time slots */}
       <div className="space-y-6">
-        {day.slots.map((slot) => (
+        {day.slots.map((slot, slotIndex) => (
           <TimeSlotSection
             key={slot.slotId}
             slot={slot}
+            slotIndex={slotIndex}
+            allSlots={day.slots}
             selectedOptions={selectedOptions}
             onSelectOption={onSelectOption}
           />

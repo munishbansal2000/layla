@@ -1,0 +1,61 @@
+{
+    "fallbackSuggestions": {
+        "morning": [
+            { "id": "morning-temple", "name": "Visit a local temple or shrine", "category": "Culture", "duration": 60, "icon": "⛩️" },
+            { "id": "morning-walk", "name": "Morning walk in the park", "category": "Nature", "duration": 45, "icon": "🌳" },
+            { "id": "morning-market", "name": "Explore local morning market", "category": "Shopping", "duration": 90, "icon": "🛒" },
+            { "id": "morning-museum", "name": "Museum visit", "category": "Culture", "duration": 120, "icon": "🏛️" }
+        ],
+        "breakfast": [
+            { "id": "breakfast-cafe", "name": "Cozy café breakfast", "category": "Food", "duration": 45, "icon": "☕" },
+            { "id": "breakfast-local", "name": "Traditional local breakfast", "category": "Food", "duration": 60, "icon": "🍳" },
+            { "id": "breakfast-bakery", "name": "Artisan bakery", "category": "Food", "duration": 30, "icon": "🥐" }
+        ],
+        "lunch": [
+            { "id": "lunch-local", "name": "Local restaurant", "category": "Food", "duration": 60, "icon": "🍜" },
+            { "id": "lunch-street", "name": "Street food adventure", "category": "Food", "duration": 45, "icon": "🥡" },
+            { "id": "lunch-upscale", "name": "Fine dining experience", "category": "Food", "duration": 90, "icon": "🍽️" }
+        ],
+        "afternoon": [
+            { "id": "afternoon-garden", "name": "Visit a garden", "category": "Nature", "duration": 90, "icon": "🌸" },
+            { "id": "afternoon-shopping", "name": "Shopping district", "category": "Shopping", "duration": 120, "icon": "🛍️" },
+            { "id": "afternoon-workshop", "name": "Cultural workshop", "category": "Experience", "duration": 120, "icon": "🎨" },
+            { "id": "afternoon-viewpoint", "name": "Scenic viewpoint", "category": "Sightseeing", "duration": 60, "icon": "🏞️" }
+        ],
+        "dinner": [
+            { "id": "dinner-traditional", "name": "Traditional dinner", "category": "Food", "duration": 90, "icon": "🍱" },
+            { "id": "dinner-izakaya", "name": "Izakaya / pub experience", "category": "Food", "duration": 120, "icon": "🍶" },
+            { "id": "dinner-fusion", "name": "Modern fusion restaurant", "category": "Food", "duration": 90, "icon": "🍴" }
+        ],
+        "evening": [
+            { "id": "evening-nightlife", "name": "Night district exploration", "category": "Entertainment", "duration": 120, "icon": "🌃" },
+            { "id": "evening-show", "name": "Traditional performance", "category": "Culture", "duration": 90, "icon": "🎭" },
+            { "id": "evening-bar", "name": "Rooftop bar", "category": "Entertainment", "duration": 60, "icon": "🍸" },
+            { "id": "evening-walk", "name": "Night walk", "category": "Sightseeing", "duration": 45, "icon": "🌙" }
+        ]
+    },
+    "categoryIcons": {
+        "temple": "⛩️",
+        "shrine": "⛩️",
+        "museum": "🏛️",
+        "park": "🌸",
+        "garden": "🌸",
+        "restaurant": "🍽️",
+        "ramen": "🍜",
+        "sushi": "🍣",
+        "cafe": "☕",
+        "shopping": "🛍️",
+        "market": "🏬",
+        "viewpoint": "🗼",
+        "landmark": "🏯",
+        "nightlife": "🌙",
+        "bar": "🍸",
+        "experience": "✨",
+        "culture": "⛩️",
+        "nature": "🌳",
+        "entertainment": "🎭",
+        "food": "🍽️",
+        "sightseeing": "🏞️",
+        "default": "📍"
+    }
+}

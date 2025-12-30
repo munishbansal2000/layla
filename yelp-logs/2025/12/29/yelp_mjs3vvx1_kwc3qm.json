@@ -1,0 +1,233 @@
+{
+  "id": "yelp_mjs3vvx1_kwc3qm",
+  "timestamp": "2025-12-30T04:47:33.973Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Harajuku Takeshita Street",
+      "location": "Harajuku, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Harajuku, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "Av4j87ND3hYxz9bIma_rGA",
+          "alias": "noa-cafe-渋谷区",
+          "name": "Noa Cafe",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/MB4hZawfBIOr9FC4ct2UJg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/noa-cafe-%E6%B8%8B%E8%B0%B7%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 20,
+          "categories": [
+            {
+              "alias": "cakeshop",
+              "title": "Patisserie/Cake Shop"
+            },
+            {
+              "alias": "cafes",
+              "title": "Cafes"
+            }
+          ],
+          "rating": 3.7,
+          "coordinates": {
+            "latitude": 35.6715370758032,
+            "longitude": 139.703502155583
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "神宮前1-17-5",
+            "address2": "",
+            "address3": "",
+            "city": "Shibuya",
+            "zip_code": "150-0001",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "神宮前1-17-5",
+              "Shibuya, 東京都 〒150-0001",
+              "Japan"
+            ]
+          },
+          "phone": "+81334017655",
+          "display_phone": "+81 3-3401-7655",
+          "distance": 604.6403498218016,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "0800",
+                  "end": "2330",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.noacafe.jp/harajuku/menu/",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "CP77J8rYcFyUD1Z6J9Totg",
+          "alias": "マリオンクレープ-東京タワー店-港区",
+          "name": "Marion Crepes Tokyo Tower",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/lb8X16fI2Ge01oIVkOVGhQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%83%9E%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%97-%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 12,
+          "categories": [
+            {
+              "alias": "creperies",
+              "title": "Creperies"
+            },
+            {
+              "alias": "cakeshop",
+              "title": "Patisserie/Cake Shop"
+            }
+          ],
+          "rating": 4.4,
+          "coordinates": {
+            "latitude": 35.6584588221049,
+            "longitude": 139.745954983282
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "芝公園4-2-8",
+            "address2": "東京タワー内正面入口横",
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "105-0011",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "芝公園4-2-8",
+              "東京タワー内正面入口横",
+              "Minato, 東京都 〒105-0011",
+              "Japan"
+            ]
+          },
+          "phone": "+81334381441",
+          "display_phone": "+81 3-3438-1441",
+          "distance": 3517.369683916379,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1000",
+                  "end": "2100",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 2,
+      "region": {
+        "center": {
+          "longitude": 139.70901489257812,
+          "latitude": 35.66845302313966
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1381,
+    "success": true
+  }
+}

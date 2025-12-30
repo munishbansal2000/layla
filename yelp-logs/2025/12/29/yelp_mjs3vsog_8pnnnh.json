@@ -1,0 +1,476 @@
+{
+  "id": "yelp_mjs3vsog_8pnnnh",
+  "timestamp": "2025-12-30T04:47:29.776Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Yakiniku Jumbo",
+      "location": "Shinjuku, Tokyo",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Shinjuku, Tokyo"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "DLXSuHDq316bcK6Z1eiMqQ",
+          "alias": "焼肉ジャンボ-白金店-港区",
+          "name": "Yakiniku Jumbo Shirogane",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/zG7TupB89Y0KrWV0YUSZeQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%84%BC%E8%82%89%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C-%E7%99%BD%E9%87%91%E5%BA%97-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 27,
+          "categories": [
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            },
+            {
+              "alias": "horumon",
+              "title": "Horumon"
+            }
+          ],
+          "rating": 4.6,
+          "coordinates": {
+            "latitude": 35.6469818835631,
+            "longitude": 139.731447633819
+          },
+          "transactions": [],
+          "price": "￥￥￥￥",
+          "location": {
+            "address1": "白金3-1-1",
+            "address2": "第一麻布ビル 1F",
+            "address3": "",
+            "city": "Minato",
+            "zip_code": "108-0072",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "白金3-1-1",
+              "第一麻布ビル 1F",
+              "Minato, 東京都 〒108-0072",
+              "Japan"
+            ]
+          },
+          "phone": "+81357954129",
+          "display_phone": "+81 3-5795-4129",
+          "distance": 6335.483351852351,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": "http://www.kuroge-wagyu.com/js/food.html",
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "p8bvl0wYijDHtqp_A7vjmg",
+          "alias": "銀座焼肉ホルモン牛屋銀兵衛-中央区",
+          "name": "Ginza Yakiniku Horumon Gyuya Ginbee",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/EHD639o0EbWTnjN0rSVYLQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E9%8A%80%E5%BA%A7%E7%84%BC%E8%82%89%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E7%89%9B%E5%B1%8B%E9%8A%80%E5%85%B5%E8%A1%9B-%E4%B8%AD%E5%A4%AE%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            }
+          ],
+          "rating": 4,
+          "coordinates": {
+            "latitude": 35.6706820018451,
+            "longitude": 139.76036021406
+          },
+          "transactions": [],
+          "price": "￥￥￥",
+          "location": {
+            "address1": "銀座7丁目2-8",
+            "address2": null,
+            "address3": null,
+            "city": "Chūō",
+            "zip_code": "104-0061",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "銀座7丁目2-8",
+              "Chūō, 東京都 〒104-0061",
+              "Japan"
+            ]
+          },
+          "phone": "+81362285600",
+          "display_phone": "+81 3-6228-5600",
+          "distance": 5523.706245218998,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "0000",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "TW5ULW9pstUv9ZzgNmESUQ",
+          "alias": "精香園-港区",
+          "name": "Seikoen",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/FXynmvLelJOb-oVsliUDsw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E7%B2%BE%E9%A6%99%E5%9C%92-%E6%B8%AF%E5%8C%BA?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 3,
+          "categories": [
+            {
+              "alias": "korean",
+              "title": "Korean"
+            },
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            },
+            {
+              "alias": "horumon",
+              "title": "Horumon"
+            }
+          ],
+          "rating": 4.3,
+          "coordinates": {
+            "latitude": 35.6403006225692,
+            "longitude": 139.747369483643
+          },
+          "transactions": [],
+          "location": {
+            "address1": "芝浦4丁目9-12",
+            "address2": null,
+            "address3": null,
+            "city": "Minato",
+            "zip_code": "108-0023",
+            "country": "JP",
+            "state": "13",
+            "display_address": [
+              "芝浦4丁目9-12",
+              "Minato, 東京都 〒108-0023",
+              "Japan"
+            ]
+          },
+          "phone": "+81334522540",
+          "display_phone": "+81 3-3452-2540",
+          "distance": 7528.689383671923,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2230",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2230",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2230",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2230",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2230",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1400",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2230",
+                  "day": 5
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        },
+        {
+          "id": "RNQS1kYQ83dzIoz6CnMdVQ",
+          "alias": "東京寿司-itamae-sushi-甲府店-甲府市",
+          "name": "Tokyo Sushi Itamae Sushi Kofu",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/RMijH21X2I26ymYIcvuwxA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%B1%E4%BA%AC%E5%AF%BF%E5%8F%B8-itamae-sushi-%E7%94%B2%E5%BA%9C%E5%BA%97-%E7%94%B2%E5%BA%9C%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 0,
+          "categories": [
+            {
+              "alias": "sushi",
+              "title": "Sushi Bars"
+            },
+            {
+              "alias": "seafood",
+              "title": "Seafood"
+            },
+            {
+              "alias": "izakaya",
+              "title": "Izakaya"
+            }
+          ],
+          "rating": 0,
+          "coordinates": {
+            "latitude": 35.662419,
+            "longitude": 138.570383
+          },
+          "transactions": [],
+          "location": {
+            "address1": "丸の内1-15-6",
+            "address2": "地球堂ビル B1F・1F",
+            "address3": "",
+            "city": "Kofu",
+            "zip_code": "400-0031",
+            "country": "JP",
+            "state": "19",
+            "display_address": [
+              "丸の内1-15-6",
+              "地球堂ビル B1F・1F",
+              "Kofu, 山梨県 〒400-0031",
+              "Japan"
+            ]
+          },
+          "phone": "+81552301501",
+          "display_phone": "+81 55-230-1501",
+          "distance": 103274.73857588468,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1130",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": false
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 5,
+      "region": {
+        "center": {
+          "longitude": 139.7127914428711,
+          "latitude": 35.701905765117345
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 771,
+    "success": true
+  }
+}

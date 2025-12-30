@@ -1,0 +1,23 @@
+{
+  "id": "viator_mjs6v9ua_0ykm47",
+  "timestamp": "2025-12-30T06:11:04.210Z",
+  "type": "freetext",
+  "request": {
+    "endpoint": "/search/freetext",
+    "method": "POST",
+    "params": {
+      "searchTerm": "KOIZUMI YAKUMO PARK LAFKADIO HEARN Tokyo",
+      "count": 10
+    }
+  },
+  "response": {
+    "products": {
+      "totalCount": 0
+    }
+  },
+  "metadata": {
+    "duration_ms": 544,
+    "success": true,
+    "searchTerm": "KOIZUMI YAKUMO PARK LAFKADIO HEARN Tokyo"
+  }
+}

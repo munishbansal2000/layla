@@ -1,0 +1,129 @@
+{
+  "id": "yelp_mjs32gqr_3dx2c1",
+  "timestamp": "2025-12-30T04:24:41.283Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Gion Kappa",
+      "location": "Gion, Kyoto",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Gion, Kyoto"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "T_e2Jh4LNYx9apVnjIibpg",
+          "alias": "かっぱ寿司-京のとんぼ-京都市",
+          "name": "Kappa Zushi Kyō no Tonbo",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/Onw77FGjrjI67V-WUp7BMA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E3%81%8B%E3%81%A3%E3%81%B1%E5%AF%BF%E5%8F%B8-%E4%BA%AC%E3%81%AE%E3%81%A8%E3%82%93%E3%81%BC-%E4%BA%AC%E9%83%BD%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 11,
+          "categories": [
+            {
+              "alias": "conveyorsushi",
+              "title": "Conveyor Belt Sushi"
+            }
+          ],
+          "rating": 4.1,
+          "coordinates": {
+            "latitude": 35.005614,
+            "longitude": 135.768963
+          },
+          "transactions": [],
+          "price": "￥",
+          "location": {
+            "address1": "中京区河原町通蛸薬師下ル塩屋町330",
+            "address2": "",
+            "address3": "",
+            "city": "Kyoto",
+            "zip_code": "604-8027",
+            "country": "JP",
+            "state": "26",
+            "display_address": [
+              "中京区河原町通蛸薬師下ル塩屋町330",
+              "Kyoto, 京都府 〒604-8027",
+              "Japan"
+            ]
+          },
+          "phone": "+81752296878",
+          "display_phone": "+81 75-229-6878",
+          "distance": 915.0330524951584,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 3
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "2200",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.7789134979248,
+          "latitude": 35.0044791241568
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 942,
+    "success": true
+  }
+}

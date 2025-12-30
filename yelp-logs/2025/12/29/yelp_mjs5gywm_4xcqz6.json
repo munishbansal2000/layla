@@ -1,0 +1,158 @@
+{
+  "id": "yelp_mjs5gywm_4xcqz6",
+  "timestamp": "2025-12-30T05:31:57.238Z",
+  "type": "search",
+  "request": {
+    "endpoint": "https://api.yelp.com/v3/businesses/search",
+    "params": {
+      "term": "Hajime Yakiniku",
+      "location": "Osaka, Osaka",
+      "categories": "restaurants",
+      "limit": "5",
+      "sort_by": "best_match"
+    },
+    "location": "Osaka, Osaka"
+  },
+  "response": {
+    "data": {
+      "businesses": [
+        {
+          "id": "-GZss-ZQ2-T29Ee34d0Xzw",
+          "alias": "板前焼肉一-奈良市",
+          "name": "ITAMAE YAKINIKU HAJIME",
+          "image_url": "https://s3-media0.fl.yelpcdn.com/bphoto/n6vI2_dKdIapyng2wDLRJw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/%E6%9D%BF%E5%89%8D%E7%84%BC%E8%82%89%E4%B8%80-%E5%A5%88%E8%89%AF%E5%B8%82?adjust_creative=WdVsoHzdCUOluYcrn56Qdw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WdVsoHzdCUOluYcrn56Qdw",
+          "review_count": 1,
+          "categories": [
+            {
+              "alias": "yakiniku",
+              "title": "Yakiniku"
+            }
+          ],
+          "rating": 5,
+          "coordinates": {
+            "latitude": 34.713586,
+            "longitude": 135.750013
+          },
+          "transactions": [],
+          "location": {
+            "address1": "登美ヶ丘2-3-13",
+            "address2": null,
+            "address3": null,
+            "city": "Nara",
+            "zip_code": "631-0004",
+            "country": "JP",
+            "state": "29",
+            "display_address": [
+              "登美ヶ丘2-3-13",
+              "Nara, 奈良県 〒631-0004",
+              "Japan"
+            ]
+          },
+          "phone": "+81742532911",
+          "display_phone": "+81 742-53-2911",
+          "distance": 22357.356589085306,
+          "business_hours": [
+            {
+              "open": [
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 0
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 1
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 2
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 4
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 5
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1100",
+                  "end": "1500",
+                  "day": 6
+                },
+                {
+                  "is_overnight": false,
+                  "start": "1700",
+                  "end": "2300",
+                  "day": 6
+                }
+              ],
+              "hours_type": "REGULAR",
+              "is_open_now": true
+            }
+          ],
+          "attributes": {
+            "business_temp_closed": null,
+            "menu_url": null,
+            "open24_hours": null,
+            "waitlist_reservation": null
+          }
+        }
+      ],
+      "total": 1,
+      "region": {
+        "center": {
+          "longitude": 135.50811767578125,
+          "latitude": 34.68399691750767
+        }
+      }
+    },
+    "status": 200
+  },
+  "metadata": {
+    "duration_ms": 1208,
+    "success": true
+  }
+}

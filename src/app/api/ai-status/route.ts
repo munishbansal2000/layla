@@ -1,18 +1,21 @@
 import { NextResponse } from "next/server";
-import { getAIModeInfo } from "@/lib/openai";
+import { llm } from "@/lib/llm";
 import { getLogStats, getAvailableReplays } from "@/lib/openai-logger";
 
 // GET /api/ai-status - Get current AI mode and stats
 export async function GET() {
   try {
-    const modeInfo = getAIModeInfo();
+    const providerInfo = llm.getProviderInfo();
     const stats = await getLogStats();
     const recentReplays = await getAvailableReplays("chat", 5);
 
     return NextResponse.json({
       success: true,
       data: {
-        ...modeInfo,
+        mode: providerInfo.mode,
+        provider: providerInfo.provider,
+        model: providerInfo.model,
+        description: providerInfo.description,
         stats: {
           totalLogs: stats.total,
           chatLogs: stats.byType.chat,
@@ -28,6 +31,9 @@ export async function GET() {
           preview: r.preview.substring(0, 50) + "...",
         })),
         howToSwitch: {
+          toOllama: "Set AI_PROVIDER=ollama in .env.local and restart the server",
+          toGemini: "Set AI_PROVIDER=gemini in .env.local and restart the server",
+          toOpenAI: "Set AI_PROVIDER=openai in .env.local and restart the server",
           toTest: "Set AI_MODE=test in .env.local and restart the server",
           toProd: "Set AI_MODE=prod in .env.local and restart the server",
         },
