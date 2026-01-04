@@ -64,21 +64,21 @@
                   "tradeoffs": [],
                   "viatorEnhancements": [
                     {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
+                      "productCode": "175777P13",
+                      "title": "Asakusa Senso-ji Temple and Old Tokyo Walking Tour",
+                      "description": "The Asakusa Walking Tour in Tokyo offers a captivating exploration of the historic district, blending traditional and modern elements. The focal point, Senso-ji Temple, Tokyo's oldest Buddhist temple, stands with its Thunder Gate and Nakamise Shopping Street. Participants delve into the temple's history, exploring intricate architecture and partaking in rituals. Guides share compelling stories, enriching the understanding of Senso-ji's cultural significance. Meandering through Asakusa reveals charming shops, crafts, and local eateries, creating a vibrant tapestry. This immersive tour promises a sensory journey through Tokyo's cultural heritage, balancing ancient allure with dynamic energy.",
                       "enhancementType": "guided-tour",
                       "price": {
-                        "amount": 425.49,
+                        "amount": 20,
                         "currency": "USD",
-                        "originalAmount": 425.49
+                        "originalAmount": 20
                       },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
+                      "duration": 120,
+                      "rating": 4.8207173,
+                      "reviewCount": 502,
+                      "bookingUrl": "https://www.viator.com/tours/Asakusa/Asakusa-Sensoji-Temple-Walking-Tour-Tokyo/d59194-175777P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/3e/fb/95.jpg",
                       "matchReason": "Get expert insights about Sensō-ji with a professional guide",
                       "flags": {
                         "skipTheLine": false,
@@ -89,71 +89,72 @@
                       },
                       "bestTimeOfDay": "flexible",
                       "tags": [
+                        "Desert Adventures",
+                        "Hiking",
+                        "Experiences"
+                      ]
+                    },
+                    {
+                      "productCode": "456539P20",
+                      "title": "Tokyo: Asakusa Senso-ji Temple & Old Town Walking Tour",
+                      "description": "Step into Tokyo’s past on this immersive Asakusa walking tour. Visit Senso-ji, the city’s oldest temple, pass through Kaminarimon Gate, and stroll Nakamise Street lined with shops, lanterns, and local treats. Once the heart of Edo-era culture, Asakusa still echoes with tradition. Your guide will share stories of geisha districts, hidden shrines, and the area’s evolution—revealing both famous sights and hidden gems for a deeper connection to Japan’s living history.\n\n【Tour Highlights】\n\n・Insightful stories and cultural context shared along the way\n\n・Engaging commentary on history and tradition during the tour\n\n・Learn fascinating cultural insights and historical details as you explore\n\n・Expert narration highlighting Asakusa’s rich heritage\n\n・A guided journey filled with history, legends, and cultural background",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 19.64,
+                        "currency": "USD",
+                        "originalAmount": 19.64
+                      },
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 214,
+                      "bookingUrl": "https://www.viator.com/tours/Asakusa/Asakusa-Private-Food-Walking-Tour-for-Family-Lunch-and-5-bites/d59194-456539P20?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/b7/0c/d3.jpg",
+                      "matchReason": "Get expert insights about Sensō-ji with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Photography Tours",
+                        "Hiking",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "477979P3",
+                      "title": "Tokyo: Private Asakusa & Senso-ji Temple Tour with 3 food stops",
+                      "description": "Discover the best of Asakusa through its many unique sides!\n\nYou’ll learn about the rich history and spiritual depth of Senso-ji Temple by a friendly yet knowledgeable expert guide, feel the lively energy of Nakamise Street with its colorful shops and friendly vendors, and enjoy three local foods loved by Japanese people—already included in the tour. \nThe area is filled with traditional goods and unique items that show Asakusa’s character, and you can also experience Japan’s kitchen culture by seeing beautifully crafted tableware made with traditional techniques in the nearby Kappabashi district.\n\nDiscover Japan through the eyes of a local guide!\n\n・Visit Senso-ji Temple and learn its rich, fascinating history from a friendly and knowledgeable local guide.\n・Stroll through Nakamise Street and enjoy three hand-picked street foods selected by your local guide.\n・Hear cultural insights and stories that a Japanese local guide is especially able to share.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 52.37,
+                        "currency": "USD",
+                        "originalAmount": 52.37
+                      },
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 15,
+                      "bookingUrl": "https://www.viator.com/tours/Asakusa/Tokyo-Sensoji-Temple-and-Street-Food-Private-Tour-with-guide/d59194-477979P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/53/d9/c6.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Sensō-ji",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
                         "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Sensō-ji",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Sensō-ji",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
+                        "Photography Tours",
+                        "Hiking",
+                        "Desert Adventures"
                       ]
                     }
                   ]
@@ -433,102 +434,7 @@
                     "#7 must-see in the city",
                     "4.7 rating (2,241 reviews)"
                   ],
-                  "tradeoffs": [],
-                  "viatorEnhancements": [
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at House & Garden by Ryue Nishizawa",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at House & Garden by Ryue Nishizawa",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
-                      "enhancementType": "guided-tour",
-                      "price": {
-                        "amount": 425.49,
-                        "currency": "USD",
-                        "originalAmount": 425.49
-                      },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
-                      "matchReason": "Get expert insights about House & Garden by Ryue Nishizawa with a professional guide",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": false
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    }
-                  ]
+                  "tradeoffs": []
                 },
                 {
                   "id": "osm:node/6163717796",
@@ -814,102 +720,7 @@
                     "#8 must-see in the city",
                     "4.7 rating (2,241 reviews)"
                   ],
-                  "tradeoffs": [],
-                  "viatorEnhancements": [
-                    {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
-                      "enhancementType": "guided-tour",
-                      "price": {
-                        "amount": 425.49,
-                        "currency": "USD",
-                        "originalAmount": 425.49
-                      },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
-                      "matchReason": "Get expert insights about Shimokitazawa Gate with a professional guide",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": false
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Shimokitazawa Gate",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Shimokitazawa Gate",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
-                      ]
-                    }
-                  ]
+                  "tradeoffs": []
                 },
                 {
                   "id": "osm:node/11801372169",
@@ -1089,21 +900,78 @@
                   "tradeoffs": [],
                   "viatorEnhancements": [
                     {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
+                      "productCode": "59380P53",
+                      "title": "Nezu Shrine and Yanaka: Afternoon Downtown Walking Tour",
+                      "description": "This walking tour takes you to Yanaka, a traditional downtown area where the local people's lives are still alive, and the historic Nezu Shrine with its vermilion torii (shrine gates). \nAs a hometown for many artists, it is also dotted with art museums and art galleries. Let's explore Yanaka, a good old town with small temples and unique shops.\n\nThis is a tour of shrines and temples this area, one of the best temple towns in Tokyo. The city is home to many artists, as it has one of the best art universities in Japan. \nWe will visit art galleries. \nWe will also visiting a small temple with deep roots in the local community. \nWe will visit a downtown shopping street where you can feel the life of local people.\nOne drink is included. You can enjoy a relaxing break at a café. \n\nA certified guide will take you around the area.\n\nThere are many narrow alleys in the area, but with the professional guide, you will not get lost and will be able to enjoy the hard-to-understand paths.",
                       "enhancementType": "guided-tour",
                       "price": {
-                        "amount": 425.49,
+                        "amount": 92.17,
                         "currency": "USD",
-                        "originalAmount": 425.49
+                        "originalAmount": 92.17
                       },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "duration": 210,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Yanaka-Nezu-Shrine-and-the-downtown-area-A-walking-tour-of/d334-59380P53?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
                       "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/d6/88/08.jpg",
+                      "matchReason": "Get expert insights about Neko Shrine & café with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "afternoon",
+                      "tags": [
+                        "Spa & Wellness",
+                        "Architecture Tours"
+                      ]
+                    },
+                    {
+                      "productCode": "5574233P2",
+                      "title": "Tokyo Yanaka Old Town Walking Tour (Private/Local guide)",
+                      "description": "Highlight:\n-Guided by a local\n-Learn about Japanese aesthetics and religion at local shrines and temples.\n-Experience Tokyo’s daily life through cafés, street food, and hidden alleys.\n-Visit galleries, antique shops, and craft stores in Tokyo’s artistic area.\n\nTour Plan (3 hours / Private):\nThe tour price includes a drink at a local café and street food.\nMeet at Nezu Station / End at Nippori Station\n\nNezu Shrine > Hidden Alleyways > Cafe Break > Galleries, Antique & Craft Shops > Yanaka Ginza Street Food Walk\n\nStep away from the rush of daily life and slow down with a stroll through the historic streets of the Yanaka, Nezu, and Sendagi area. This tour is all about soaking in the quiet charm of Tokyo, exploring its rich history, and enjoying little moments of discovery along the way.\nI’ll guide you through this special neighborhood with care, hoping it becomes a place you’ll always remember.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 58.91,
+                        "currency": "USD",
+                        "originalAmount": 58.91
+                      },
+                      "duration": 180,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Yanaka-Old-Town-Walking-Tour/d334-5574233P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/81/9f/98.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Neko Shrine & café",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Spa & Wellness",
+                        "Sightseeing",
+                        "Photography Tours"
+                      ]
+                    },
+                    {
+                      "productCode": "22178P37",
+                      "title": "Gotokuji and Setagaya Walking Tour: Home of the Lucky Cat Statue",
+                      "description": "Discover a different side of Tokyo in this charming 3.0 hour walking tour through Setagaya, a leafy, upscale neighborhood known for its peaceful shrines, historic charm, and the birthplace of Japan’s beloved lucky cat. Perfect for those wanting to escape the crowds and see a more local, authentic side of the city all just a short ride from central Tokyo.\n\n・Visit Gotokuji Temple, home to over 1,000 lucky cats and the legendary origin of the maneki-neko\n・Stroll through tranquil shrines like Setagaya Hachimangu and Shoinjinja, steeped in Edo and Meiji-era history\n・Experience local life in stylish shopping streets and cafés, where Tokyo’s modern charm meets timeless tradition\n・During the walk through the shopping street, enjoy a free drink (up to ¥800) ",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 72.01,
+                        "currency": "USD",
+                        "originalAmount": 72.01
+                      },
+                      "duration": 210,
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Meet-the-lucky-cats-in-suburban-Tokyo-Gotokuji-Walking-Tour/d334-22178P37?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "manual",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/26/d3/1a.jpg",
                       "matchReason": "Get expert insights about Neko Shrine & café with a professional guide",
                       "flags": {
                         "skipTheLine": false,
@@ -1114,71 +982,10 @@
                       },
                       "bestTimeOfDay": "flexible",
                       "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Neko Shrine & café",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
                         "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Neko Shrine & café",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
+                        "Sightseeing",
+                        "Cruises",
+                        "Desert Adventures"
                       ]
                     }
                   ]
@@ -1458,102 +1265,7 @@
                     "#9 must-see in the city",
                     "4.7 rating (2,241 reviews)"
                   ],
-                  "tradeoffs": [],
-                  "viatorEnhancements": [
-                    {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
-                      "enhancementType": "guided-tour",
-                      "price": {
-                        "amount": 425.49,
-                        "currency": "USD",
-                        "originalAmount": 425.49
-                      },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
-                      "matchReason": "Get expert insights about KOIZUMI YAKUMO PARK LAFKADIO HEARN with a professional guide",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": false
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at KOIZUMI YAKUMO PARK LAFKADIO HEARN",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at KOIZUMI YAKUMO PARK LAFKADIO HEARN",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
-                      ]
-                    }
-                  ]
+                  "tradeoffs": []
                 },
                 {
                   "id": "osm:node/13264304601",
@@ -1842,96 +1554,93 @@
                   "tradeoffs": [],
                   "viatorEnhancements": [
                     {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
+                      "productCode": "175777P34",
+                      "title": "Harajuku Meiji Shrine Walking Tour in Tokyo",
+                      "description": "Explore the rich cultural tapestry of Tokyo on the Harajuku Meiji Shrine Walking Tour. This immersive 2 hours journey takes you through iconic sites, including the serene Meiji Shrine and vibrant Takeshita Street, all while uncovering the stories that shaped Tokyo's unique street culture. With a local guide, gain insider knowledge and appreciate the blend of tradition and modernity that defines this bustling city. Conveniently meet at JR Harajuku Station and conclude your tour at Omotesando, easily accessible by public transport.\n\n- Duration: 2 hours of guided exploration\n- Discover key sites like Meiji Shrine and Tokyu Plaza\n- Group size is limited for a personalized experience\n- Comfortable footwear recommended for walking around Tokyo",
                       "enhancementType": "guided-tour",
                       "price": {
-                        "amount": 425.49,
+                        "amount": 25,
                         "currency": "USD",
-                        "originalAmount": 425.49
+                        "originalAmount": 25
                       },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 50,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Harajuku-Meiji-Shrine-Walking-Tour-in-Tokyo/d334-175777P34?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/3e/d7/be.jpg",
                       "matchReason": "Get expert insights about Takeshita Street with a professional guide",
                       "flags": {
                         "skipTheLine": false,
                         "freeCancellation": true,
                         "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Hiking"
+                      ]
+                    },
+                    {
+                      "productCode": "442381P56",
+                      "title": "Tokyo: Harajuku From Meiji shrine to Shibuya Crossing",
+                      "description": "Embark on a captivating 2-hour journey through Tokyo's vibrant Harajuku district! Begin with Immersing yourself in the serenity of Meiji Jingu Shrine, guided by a knowledgeable local sharing its rich history, while making new friends in the process. \n\nTransitioning into modern Harajuku, stroll down the iconic Takeshita Street, and discover kawaii things that you like.\n\nWalk on down to Shibuya, and at the renowned Shibuya Crossing, capture group photos against the pulsating city backdrop!\nContinue to the famous Hachiko statue, where your guide unveils the sad tale behind this symbol of loyalty. \n\nOur adventure concludes with a fond farewell, overlooking the dynamic Shibuya Crossing from a scenic vantage point. Join us for a memorable blend of tradition, modernity, and the heartbeat of Tokyo!",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 79.21,
+                        "currency": "USD",
+                        "originalAmount": 79.21
+                      },
+                      "duration": 120,
+                      "rating": 4.9259257,
+                      "reviewCount": 27,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/From-Meiji-shrine-to-Shibuya-Crossing-2-hours/d334-442381P56?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/4c/2f/5c.jpg",
+                      "matchReason": "Get expert insights about Takeshita Street with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
                         "newOnViator": false,
                         "privateOption": false
                       },
                       "bestTimeOfDay": "flexible",
                       "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
+                        "Hiking",
+                        "Photography Tours"
                       ]
                     },
                     {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
+                      "productCode": "92163P280",
+                      "title": "Tokyo Harajuku Walking Tour Meiji Jingu Yoyogi Park and More",
+                      "description": "Explore the vibrant heart of Tokyo with a 3-hour walking tour through Harajuku's most iconic spots. Visit the serene Meiji Jingu Shrine, nestled in lush greenery, before heading to Yoyogi Park for a peaceful retreat in the city. Stroll along the lively Takeshita Street, the epicenter of youth fashion and pop culture, and discover the stylish Omotesando Avenue, known for its chic shopping and lifestyle. This small-group tour allows for personalized experiences led by local experts who share unique insights into Tokyo's rich culture and history.\n\n- 3-hour guided walking tour of Harajuku's highlights\n- Visit the famous Meiji Jingu Shrine and Yoyogi Park\n- Explore the trendy Takeshita Street and Omotesando Avenue\n- Small group sizes ensure a fun, social atmosphere, max 9 people",
+                      "enhancementType": "guided-tour",
                       "price": {
-                        "amount": 275.27,
+                        "amount": 42,
                         "currency": "USD",
-                        "originalAmount": 275.27
+                        "originalAmount": 42
                       },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Takeshita Street",
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Bokun-Free-Product-3/d334-92163P280?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/55/01/44.jpg",
+                      "matchReason": "Get expert insights about Takeshita Street with a professional guide",
                       "flags": {
                         "skipTheLine": false,
                         "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
+                        "likelyToSellOut": true,
+                        "newOnViator": true,
+                        "privateOption": false
                       },
                       "bestTimeOfDay": "flexible",
                       "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
                         "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Takeshita Street",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
+                        "Theater",
+                        "Spa & Wellness"
                       ]
                     }
                   ]
@@ -2114,21 +1823,21 @@
                   "tradeoffs": [],
                   "viatorEnhancements": [
                     {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
+                      "productCode": "7233P80",
+                      "title": "Sanctuaries and Franciscan Sites surround Assisi",
+                      "description": "This small group tour will allow you to know about the most authentic places to feel the spirituality of Saint Francis of Assisi.",
                       "enhancementType": "guided-tour",
                       "price": {
-                        "amount": 425.49,
+                        "amount": 215.97,
                         "currency": "USD",
-                        "originalAmount": 425.49
+                        "originalAmount": 215.97
                       },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
+                      "duration": 150,
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "bookingUrl": "https://www.viator.com/tours/Assisi/Explore-Sanctuaries-and-Franciscan-Sites-outside-Assisi-by-Driver-and-Guide/d27667-7233P80?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/74/22/39.jpg",
                       "matchReason": "Get expert insights about Franciscan Chapel Center with a professional guide",
                       "flags": {
                         "skipTheLine": false,
@@ -2139,71 +1848,73 @@
                       },
                       "bestTimeOfDay": "flexible",
                       "tags": [
+                        "Cruises",
+                        "Nature & Wildlife",
+                        "Small Group",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "132136P13",
+                      "title": "Évora Walking Tour: Small Group Tour with Chapel of Bones Tickets",
+                      "description": "Discover the historic city of Évora, a UNESCO World Heritage Site, on a small-group tour with an experienced local guide. Explore the main attractions of Évora's historic center, including the Chapel of Bones, a religious temple completely covered in human bones. The entrance of this monument it´s included, with \"skip the line\" ticket.\n\nVisit the Roman Temple and the medieval streets of Évora. Learn about the city's rich history and culture from your guide.\n\nEnjoy a fun and interactive experience with a small group of up to 16 people, in english.\n\nMain Attractions\n- Chapel Of Bones\n- Roman Temple\n- Giraldo Square\n- Church of St. Francis\n- Typical Crafts\n\nTour Themes\n- Architecture/Urbanism\n- Arts/Crafts\n- Religious/Spiritual\n- Myths/Legends\n- Art History",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 41.15,
+                        "currency": "USD",
+                        "originalAmount": 46.79
+                      },
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "bookingUrl": "https://www.viator.com/tours/Setubal-District/Evora-Small-Group-Tour-Discover-the-UNESCO-Heritage-City/d5016-132136P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/25/6f/fc.jpg",
+                      "matchReason": "Get expert insights about Franciscan Chapel Center with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Experiences",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "283463P3",
+                      "title": "Private Évora Tour - Megaliths, Historical Center and Cork Region",
+                      "description": "Discover the rich history, culture, and natural beauty of Alentejo: Évora, a UNESCO World Heritage city, is known for its well-preserved Roman Temple, Gothic Cathedral, and the atmospheric Chapel of Bones. \n\nThe surrounding area is filled with ancient megalithic structures such as the Almendres Cromlech and the Cromlech of Vale Maria do Meio, a glimpse into the past of the region and its ancient cultures. \n\nThe landscape, characterized by the vast cork oak forests, is a must-see attraction, as it provides a beautiful and peaceful atmosphere, but also offers an insight into the region's traditional cork industry. \n\nOn this tour, you'll also have the opportunity to visit a cork factory to learn all about the history of cork production and the process of making cork products.\n\nThere will also be time for lunch in a traditional regional restaurant, to sample the local cuisine. \n\nThis is a truly unique and fulfilling experience that combines history, culture, and nature all in one.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 239.97,
+                        "currency": "USD",
+                        "originalAmount": 239.97
+                      },
+                      "duration": 360,
+                      "rating": 5,
+                      "reviewCount": 16,
+                      "bookingUrl": "https://www.viator.com/tours/Sintra/Unlock-the-Secrets-of-Evoras-Heritage-Megalithic-Wonders-and-Cork-Region/d50861-283463P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/86/5c/15.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Franciscan Chapel Center",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
                         "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Franciscan Chapel Center",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
+                        "Theater",
+                        "Hiking",
                         "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Franciscan Chapel Center",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
+                        "Desert Adventures"
                       ]
                     }
                   ]
@@ -2483,102 +2194,7 @@
                     "#11 must-see in the city",
                     "4.7 rating (2,006 reviews)"
                   ],
-                  "tradeoffs": [],
-                  "viatorEnhancements": [
-                    {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
-                      "enhancementType": "guided-tour",
-                      "price": {
-                        "amount": 425.49,
-                        "currency": "USD",
-                        "originalAmount": 425.49
-                      },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
-                      "matchReason": "Get expert insights about Moriyama House with a professional guide",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": false
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Moriyama House",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Spa & Wellness",
-                        "Sightseeing"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 297.29,
-                        "currency": "USD",
-                        "originalAmount": 297.29
-                      },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Moriyama House",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
-                        "Sightseeing"
-                      ]
-                    }
-                  ]
+                  "tradeoffs": []
                 },
                 {
                   "id": "osm:node/6127218291",
@@ -2867,21 +2483,21 @@
                   "tradeoffs": [],
                   "viatorEnhancements": [
                     {
-                      "productCode": "297993P5",
-                      "title": "Tokyo Architecture and Contemporary Art Walking Tour with a local guide",
-                      "description": "Tokyo has many buildings designed by the world’s leading architects who won The Pritzker Architecture Prize.\nWe will show you various beautiful buildings in Tokyo.\nTokyo is also known as the home of cutting edge design. \nArchitecture and art are things that cannot be overlooked in understanding the charms of Tokyo. You will definitely find buildings and arts designed by your favorite architects and artists. Our guides are also knowledgeable about history, geography and culture throughout Japan and they are friendly, professional, and qualified with extensive years of experience. \n\n(Some art galleries are included in the tour)\n*This tour does not have a private vehicle. The public transportation such as taxis, trains, subways will used and the tour fee does not include these costs.\n",
+                      "productCode": "481975P1",
+                      "title": "Shinjuku Kabukichou local areas Exploring Tour in Bar or Hot Bath",
+                      "description": "Kabukicho is one of the largest entertainment districts not only in Japan but in Asia.\n\nAs an electronics district and a financial district, it also has a rich entertainment culture and nightlife.\n\nRather than physical souvenirs, the best souvenirs will be fun memories of a different culture from a different country!\n\nI will guide you around Shinjuku local areas. not only bars.\nlike big discount store [Don Quijote][Godzilla Head] ,and around Kabukicho.\n\nYou can experience traditional Japanese bars[Golden Gai][Memorable bai] & talking with other tourist and locals in metropolis Shinjuku.\n\nIf you want to go Japanese public bath ,I can guide you public hot bath[Sentou] near here ,even if you have a Tattoos.\n\nDo you know [Hanazono shrine] is entertainer Deity spot?\nYou can see entertainer Deity in kabukityou area shrine.\n\nBy visiting local bars, public baths and shrines, you can learn about Japanese traditions and history, interact with the locals and get to know Japan on a deeper level.",
                       "enhancementType": "guided-tour",
                       "price": {
-                        "amount": 425.49,
+                        "amount": 98.19,
                         "currency": "USD",
-                        "originalAmount": 425.49
+                        "originalAmount": 98.19
                       },
-                      "duration": 360,
-                      "rating": 4.9333334,
-                      "reviewCount": 15,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Architecture-and-Contemporary-Art-Walking-Tour-with-a-local-guide/d334-297993P5?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Shinjuku-traditional-japanese-bar-at-Golden-gai/d334-481975P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
                       "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/e3/49/e1.jpg",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/e2/4e/01.jpg",
                       "matchReason": "Get expert insights about Godzilla Store with a professional guide",
                       "flags": {
                         "skipTheLine": false,
@@ -2892,70 +2508,41 @@
                       },
                       "bestTimeOfDay": "flexible",
                       "tags": [
-                        "Sightseeing",
-                        "Desert Adventures",
-                        "Tours"
-                      ]
-                    },
-                    {
-                      "productCode": "104654P21",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride. Rate for groups",
-                      "description": "This tour is a private walking tour for 5 hours. You can enjoy it only in guides with you.\n\nStart your day, the walk of the Japanese style garden Hamarikyu. At the place, you can enjoy powdered green tea \"Matcha\" and Japanese sweets \"Wagashi\".\n\n Move to Asakusa on a water bus from Hamarikyu. The scenery to see from the water bus is a superb view.\n\nFinish the day by uncovering the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Asakusa Kannon Temple (Senso-ji). You’ll also get to do some shopping in Tokyo Nakamisestreet,\n\nWay of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple. They have “Sensu”,”Kaminari-Okoshi”,Japanese style dolls and more. These are good for souvenir to your family and friends.\n\nAlso, you con enjoy Japanese traditional meal.(like Sushi,Soba,Templa).Meals are not included.\n",
-                      "enhancementType": "private-tour",
-                      "price": {
-                        "amount": 275.27,
-                        "currency": "USD",
-                        "originalAmount": 275.27
-                      },
-                      "duration": 300,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Walking-Tour-with-a-water-bus-ride-Hamarikyu-to-Asakusa-Rate-for-groups/d334-104654P21?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/9a/ce/19.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Godzilla Store",
-                      "flags": {
-                        "skipTheLine": false,
-                        "freeCancellation": true,
-                        "likelyToSellOut": false,
-                        "newOnViator": false,
-                        "privateOption": true
-                      },
-                      "bestTimeOfDay": "flexible",
-                      "tags": [
                         "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
                         "Spa & Wellness",
+                        "Small Group",
+                        "Photography Tours",
+                        "Architecture Tours",
                         "Sightseeing"
                       ]
                     },
                     {
-                      "productCode": "104654P22",
-                      "title": "Private Walking Tour of Tokyo with a water bus ride",
-                      "description": "This is a private sightseeing tour of Tokyo highlights by public transportation. You can enjoy it only in guides with you.\n\nVisit Tokyo’s important places Including Tsukiji outer market, HamaRikyu, Asakusa Senso-ji Temple, Tokyo Skytree. You can also enjoy a water bus ride from HamaRikyu to Asakusa.\n\nTsukiji Outer Market, try some fresh seafood and casual Japanese foods. \n\nThe walk of the Japanese style garden Hamarikyu.\n\nMove to Asakusa from Hamarikyu by water bus. The scenery to see from the water bus is a superb view.\n\nStroll the beautiful historical sights of the ancient Asakusa area and Tokyo’s oldest Buddhist site, Senso-ji Temple.\n\nGet to do some shopping in Tokyo Nakamisestreet. It’s way of around 250m to continue from Kaminari-mon Gate to Hozo-mon Gate of Senso-ji Temple.\n\nVisit Ameyoko Shopping Street.\n\nEnjoy the View of Tokyo from Tokyo Skytree which has taken the title of Japan’s tallest building.\n",
-                      "enhancementType": "private-tour",
+                      "productCode": "174545P120",
+                      "title": "Tokyo: Shinjuku Night Adventure Kabukicho & Golden Local Bar Hop",
+                      "description": "Enjoy all that Shinjuku has to offer during the evening and night hours.\nAfter meeting your guide at Shinjuku Station, you will first head to Kabukicho, the busiest shopping district in Japan. The neon signs glowing brightly, Godzilla's head peeking out from a building. The atmosphere of this bustling town is like no other.\nNext stop is Golden Gai, lined with local bars, where a variety of unique establishments await you.\nDiscuss with your guide and ask him or her to take you to the stores you want to visit.\nDon't worry if you don't speak Japanese, you can enjoy a night out in Shinjuku in just two hours.",
+                      "enhancementType": "night-tour",
                       "price": {
-                        "amount": 297.29,
+                        "amount": 122.74,
                         "currency": "USD",
-                        "originalAmount": 297.29
+                        "originalAmount": 122.74
                       },
-                      "duration": 480,
-                      "bookingUrl": "https://www.viator.com/tours/Tokyo/1day-Private-Walking-Tour-Asakusa-Skytree-water-bus-ride-Rate-for-groups/d334-104654P22?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
-                      "confirmationType": "manual",
-                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/80/27/2a.jpg",
-                      "matchReason": "Enjoy an exclusive private experience at Godzilla Store",
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Shinjuku-Night-Adventure-Kabukicho-and-Golden-Local-Bar-Hop/d334-174545P120?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/68/14/11.jpg",
+                      "matchReason": "Experience Godzilla Store in a magical evening setting",
                       "flags": {
                         "skipTheLine": false,
                         "freeCancellation": true,
                         "likelyToSellOut": false,
                         "newOnViator": false,
-                        "privateOption": true
+                        "privateOption": false
                       },
-                      "bestTimeOfDay": "flexible",
+                      "bestTimeOfDay": "evening",
                       "tags": [
-                        "Golf",
-                        "Nature & Wildlife",
-                        "Tours",
-                        "Desert Adventures",
+                        "Photography Tours",
                         "Sightseeing"
                       ]
                     }
@@ -3809,7 +3396,95 @@
                     "#1 must-see in the city",
                     "4.8 rating (1,981 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "174545P310",
+                      "title": "Kyoto: Golden Pavilion and Ryoan-ji Zen Garden Guided Tour",
+                      "description": "Discover two of Kyoto’s most iconic World Heritage sites in one unforgettable experience—Kinkaku-ji (Golden Pavilion) and Ryoan-ji Temple. Start your journey with these must-see landmarks, each offering a distinct glimpse into Japan’s rich cultural and spiritual heritage.\n\nMarvel at the shimmering gold-leaf facade of Kinkaku-ji, perfectly mirrored in a tranquil pond, and explore its elegant gardens steeped in centuries of history. Then shift into quiet reflection at Ryoan-ji, home to Japan’s most famous Zen rock garden—a masterpiece of minimalism that invites calm and contemplation.\n\nWith insights from a knowledgeable local guide, this tour brings both the brilliance and serenity of Kyoto’s Zen tradition to life. Don’t miss this rare opportunity to experience two of the city’s most beloved and contrasting treasures in a single, expertly guided visit.",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 90.01,
+                        "currency": "USD",
+                        "originalAmount": 90.01
+                      },
+                      "duration": 210,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Kyoto-Golden-Pavilion-and-Ryoan-ji-Zen-Garden-Guided-Tour/d332-174545P310?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/ce/00/63.jpg",
+                      "matchReason": "Get expert insights about Ryōan-ji with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Spa & Wellness"
+                      ]
+                    },
+                    {
+                      "productCode": "461758P42",
+                      "title": "Kinkakuji and Ryoanji, must sees in Kyoto",
+                      "description": "Discover the timeless allure of Kyoto's iconic temples with our Kinkakuji and Ryoanji must-sees in Kyoto. This journey invites you to explore two of the city's most renowned and serene treasures.\n\nBegin your day at Kinkaku-ji, the Golden Pavilion, a UNESCO World Heritage site adorned in shimmering gold leaf. Explore the meticulously landscaped gardens and reflect by the tranquil pond that mirrors the temple's radiant beauty.\n\nContinue to Ryoan-ji, where you'll encounter the enigmatic rock garden, a masterpiece of Zen minimalism. Find serenity amidst the carefully arranged stones, an oasis of peace and contemplation.\n\nWhether you're drawn to the opulence of gold or the simplicity of stone, this tour promises a profound encounter with Kyoto's timeless treasures.\n\n**Rain, shine, or a bit of both— our walking tours still go on!**",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 78.55,
+                        "currency": "USD",
+                        "originalAmount": 78.55
+                      },
+                      "duration": 210,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Kinkakuji-and-Ryoanji-must-sees-in-KYOTO/d332-461758P42?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/73/45/9c.jpg",
+                      "matchReason": "Get expert insights about Ryōan-ji with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Spa & Wellness",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "59185P40",
+                      "title": "Kyoto Full Course Tour: Explore 10 Must-See Sights & Hidden Gems",
+                      "description": "Welcome to Kyoto, Japan!\n\nLet’s dive into and discover Kyoto's kaleidoscope of sights and sounds.\nExplore as many as 10 attractions in the city on this full day tour.\nWe take you to the must-see sights and show you the hidden gems of each location.\nLet’s stroll the city on foot and by bus like a local.\n\nTransportation in Kyoto is very complicated.\nHowever, all our guides were born and raised in Japan, have lived for a long time close to the area, and are well-trained expert locals.\nSo, we can take you to so many places, within a limited timeframe.\n\nThough the tour, you can learn about our history, culture, society, values, etiquette, how to take public transportations, and everyday life.\n\n【Highlights】\n(Meet at JR Saga-Arashiyama station at 8:50)\nArashiyama Area, Randen Tram Line, Ryoan-ji Temple, Conveyor belt sushi for lunch(Sushi, Vege-Sushi, Ramen, Kara-Age, Beer, Mochi too), Kinkakuji Temple, Fushimi Inari Shrine, Kiyomizu-zaka slope, Kiyomizu Temple, Yasaka Pagoda, Gion area",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 98.19,
+                        "currency": "USD",
+                        "originalAmount": 98.19
+                      },
+                      "duration": 570,
+                      "rating": 4.64,
+                      "reviewCount": 25,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Guided-Tour-of-Seikado-Bunko-Art-Museum-and-Futako-Tamagawa-Area-in-Tokyo/d332-59185P40?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/6a/98/3e.jpg",
+                      "matchReason": "Get expert insights about Ryōan-ji with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": false,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Nature & Wildlife",
+                        "Desert Adventures",
+                        "Golf"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/4968235322",
@@ -4375,7 +4050,78 @@
                     "#9 must-see in the city",
                     "4.7 rating (1,771 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "5489452P1",
+                      "title": "Kyomai Dance by Maiko Geiko and Visits of Gion Art Museum Kyoto",
+                      "description": "An invitation to the graceful world of geiko and maiko in Gion woven over three centuries\nThe Gion Kobu quarter of Kyoto’s Kagai district embodies a centuries-old history. Although times have changed, ancient traditions continue to be passed down with great care. The Gion Kagai Art Museum, established in historic Gion-machi, is the only facility in the world where visitors can discover the sophisticated culture of geiko and maiko. Experience the pride of Kyoto’s Kagai culture and the spirit of our predecessors.\n\n-Performance time is approximately 15 minutes (2 songs).\n-Kyomai dance performances are usually performed by 1 maiko or geiko. On some days, the 3rd and 4th sessions may be performed by 2. \n-If you cannot find available ticket here, Please visit our website. \n\nIn the Kagai districts of Kyoto, women who perform traditional dance in ozashiki banquet rooms and on stage and entertain guests are referred to as geiko (and not geisha). Women training to become geiko are called maiko.",
+                      "enhancementType": "night-tour",
+                      "price": {
+                        "amount": 25.53,
+                        "currency": "USD",
+                        "originalAmount": 25.53
+                      },
+                      "duration": 20,
+                      "rating": 4.790323,
+                      "reviewCount": 62,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Gion-Kagai-Art-Museum/d332-5489452P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/2b/c4/96.jpg",
+                      "matchReason": "Experience Gion Quarter in a magical evening setting",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "evening",
+                      "tags": [
+                        "Theme Parks",
+                        "Experiences",
+                        "Nightlife",
+                        "Hiking"
+                      ]
+                    },
+                    {
+                      "productCode": "92136P56",
+                      "title": "Kyoto Full-Day Private Tour (Osaka departure) with Government-Licensed Guide",
+                      "description": "Temples, shrines, and tea ceremonies. The traditions of ancient Japan are still alive and well in the old capitol, Kyoto. Walking around this beautiful city can feel like you are in a time machine as its architecture has been preserved for centuries. Kiyomizu Temple towers over the historical Gion district, famous for its rich history of geisha. There is much history in this city that you don’t want to miss so book our Government Licensed and Experienced English-speaking guides for a walking tour of Kyoto!\n\nOnce your reservation is made, a guide will be in touch to plan your personalized tour. Choose 4 to 5 spots that you wish to visit and your guide will plan a personalized itinerary. If you do not know where to visit, ask the guide to send you their recommended itinerary based on your interests. Whether you are a history buff, love the beauty of old Japanese architecture, or just want to enjoy a green tea parfait, Kyoto has something for you!",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 189.83,
+                        "currency": "USD",
+                        "originalAmount": 189.83
+                      },
+                      "duration": 480,
+                      "rating": 4.894737,
+                      "reviewCount": 57,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Kyoto-Full-day-Private-Custom-Trip-from-Osaka-with-National-Licensed-Guide/d333-92136P56?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/5b/2e/e2.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Gion Quarter",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Nature & Wildlife",
+                        "Architecture Tours",
+                        "Tours",
+                        "Golf",
+                        "Experiences",
+                        "Cruises",
+                        "Desert Adventures",
+                        "Sightseeing",
+                        "Hiking"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/4987463521",
@@ -4835,7 +4581,97 @@
                     "#10 must-see in the city",
                     "4.7 rating (1,771 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "5601599P2",
+                      "title": "Corsini Ceramics : Discover our Workshop and Decorate with Us",
+                      "description": "- Enters an artisan workshop active since 1957, in the heart of Chianti.\n - Discover the processes and secrets of Tuscan ceramics up close DA.\n - Experience the most creative part: decorate with your own hands a custom ceramic object, followed by expert craftsmen.\n - Bring with you an authentic and unrepeatable memory, fruit of your creativity.\n - End with a visit to the artisan shop, where you can admire Collections and unique handmade pieces.\nAn authentic experience that combines art and creativity, turning your visit into an unforgettable moment.\nLet yourself be conquered by the real Tuscany: we are waiting for you in the heart of Chianti.",
+                      "enhancementType": "workshop",
+                      "price": {
+                        "amount": 125.98,
+                        "currency": "USD",
+                        "originalAmount": 125.98
+                      },
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 2,
+                      "bookingUrl": "https://www.viator.com/tours/Florence/Experience-Tuscan-Ceramics-and-Visit-the-Workshop-and-Decorate-with-Us/d519-5601599P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/f2/f3/a7.jpg",
+                      "matchReason": "Hands-on learning experience near onko ceramic shop",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "157761P2",
+                      "title": "Unique Ceramics Pottery Workshop in Hanoi Old Quarter",
+                      "description": "- Expert Guidance: Learn from a skilled pottery teacher from the renowned Bat Trang ceramics village.\n- Hands-On Experience: Engage in every step of pottery making, from molding clay to glazing and painting.\n- Cultural Immersion: Explore a local pottery workshop and gain insights into the traditional craftsmanship of Vietnamese artisans.\n- Convenient Location: Enjoy a \"miniature Bat Trang\" experience right in Hanoi's Old Quarter, without needing to travel far.\n- Take Home a Creation: Bring home a unique, handcrafted pottery piece as a memorable souvenir.",
+                      "enhancementType": "workshop",
+                      "price": {
+                        "amount": 48,
+                        "currency": "USD",
+                        "originalAmount": 48
+                      },
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "bookingUrl": "https://www.viator.com/tours/Hanoi/UNIQUE-CERAMICS-POTTERY-WORKSHOP-IN-HANOI-OLD-QUARTER/d351-157761P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/14/06/aa/60.jpg",
+                      "matchReason": "Hands-on learning experience near onko ceramic shop",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "11491P1",
+                      "title": "Ceramic Making Experience in Zakynthos",
+                      "description": "Have a great ceramic making experience! Get the chance to express yourself through pottery in this 2 and 1/2 hours ceramic class. Come with your friends or with your kids and play with clay while learning the basic skills of ceramic art. Make your own ceramics under the directions of ceramic artist Dionysia Avouri, the owner of Adamieion Ceramic Art Studio. During the workshop you create a turtle and a second more free form, with the style and decoration depending on your creativity and imagination! We fire your creations and you collect them after three (3) days or we send them to your home. The studio is located in a pleasant environment among olive trees and vineyards. Admire some of the oldest olive trees on the island, aged more than 1.000 years old! You, your friends and your kids are welcome to play and create with clay, away from the noisy tourist resorts. You have the opportunity to create your own unique souvenirs, your ...ceramic memories from your holidays in Zakynthos.",
+                      "enhancementType": "experience",
+                      "price": {
+                        "amount": 65.99,
+                        "currency": "USD",
+                        "originalAmount": 65.99
+                      },
+                      "duration": 150,
+                      "rating": 4.9534163,
+                      "reviewCount": 322,
+                      "bookingUrl": "https://www.viator.com/tours/Zakynthos/Ceramic-Courses-Make-Your-Own-Ceramics/d23524-11491P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/6a/e1/a2.jpg",
+                      "matchReason": "Enhance your visit to onko ceramic shop with this unique experience",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Hiking",
+                        "Experiences"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/12850263611",
@@ -6247,7 +6083,107 @@
                     "#4 must-see in the city",
                     "4.6 rating (2,412 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "293458P13",
+                      "title": "Perfect Nara Park Half-Day Bus Tour with English Speaking Guide",
+                      "description": "**Important Notice**If you need to change the participation date or number of participants after making a reservation, please cancel your original booking and place a new one. Changes made without canceling the original reservation will not be accepted.\n\nDiscover the wonders of Nara on this immersive tour, visiting two UNESCO World Heritage Sites: Todaiji Temple, with its impressive Nandaimon Gate and the iconic Great Buddha Hall, and the serene Kasuga Taisha Shrine, known for its beautiful main shrine.\n\nExperience the breathtaking views from the summit of Mt. Wakakusa, a grass-covered mountain offering a panoramic vista that will leave you in awe.\n\nOur expert English-speaking guide will lead you throughout the day, providing insightful commentary and stories about these historical sites.\n\nAs a special bonus, you will receive a “Nara-Yamatoji 2-Day Pass,” which allows unlimited rides on local buses within the designated area, along with an exclusive original handkerchief.",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 65.46,
+                        "currency": "USD",
+                        "originalAmount": 65.46
+                      },
+                      "duration": 240,
+                      "rating": 5,
+                      "reviewCount": 49,
+                      "bookingUrl": "https://www.viator.com/tours/Nara/English-guided-sightseeing-bus-Perfect-Nara-Park-Tour/d50510-293458P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/2a/c0/49.jpg",
+                      "matchReason": "Get expert insights about Kasuga Taisha Museum (Treasure Hall) with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Nature & Wildlife",
+                        "Spa & Wellness"
+                      ]
+                    },
+                    {
+                      "productCode": "2142P1007",
+                      "title": "1-Day Kyoto Uji & Nara Tour with Tea Ceremony",
+                      "description": "Embark on a captivating journey through Japan's cultural heartland with our Uji and Nara 1-Day Tour. This immersive excursion combines the serene beauty of Uji with the ancient wonders of Nara. Begin in Uji, the heart of Japanese tea culture, with an authentic tea ceremony and a visit to the UNESCO World Heritage Byodo-in Temple. Marvel at its restored Phoenix Hall, showcasing vibrant ancient architecture.\n\nThe afternoon takes you to historic Nara. Be awestruck by the Great Buddha at Todai-ji Temple and explore Kasuga Taisha Shrine's lantern-lined corridors. Enjoy a unique experience in Nara Park, where friendly deer roam freely.",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 121.1,
+                        "currency": "USD",
+                        "originalAmount": 121.1
+                      },
+                      "duration": 660,
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Uji-Walking-Tour-1-Day-Uji-and-Nara-Tour/d332-2142P1007?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "manual",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/d8/16/75.jpg",
+                      "matchReason": "Get expert insights about Kasuga Taisha Museum (Treasure Hall) with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Golf",
+                        "Nature & Wildlife",
+                        "Tours"
+                      ]
+                    },
+                    {
+                      "productCode": "457137P11",
+                      "title": "Kyoto & Nara Private Day Tour",
+                      "description": "Discover the cultural treasures of Kyoto and Nara on a captivating day tour. Begin in Kyoto, exploring iconic landmarks like the serene Arashiyama Bamboo Forest, renowned for its towering bamboo stalks. Visit the iconic Fushimi Inari Taisha, with its thousands of vermillion torii gates forming a mesmerizing tunnel through the forested hillside.\n\nNext, venture to Nara, Japan's first capital, famous for its friendly deer and UNESCO World Heritage sites. Witness the majestic Todai-ji Temple, home to the world's largest bronze Buddha statue, and stroll through Nara Park, where sacred deer roam freely. \n\nConclude your tour at Kasuga Taisha Shrine, adorned with thousands of vermilion lanterns. Reflect on the profound history and beauty of Kyoto and Nara, leaving you with cherished memories of Japan's cultural treasures.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 523.68,
+                        "currency": "USD",
+                        "originalAmount": 523.68
+                      },
+                      "duration": 600,
+                      "rating": 4.4651165,
+                      "reviewCount": 43,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/From-Osaka-Kyoto-Kyoto-and-Nara-Private-Customized-Day-Tour/d333-457137P11?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/d8/09/e9.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Kasuga Taisha Museum (Treasure Hall)",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Desert Tours",
+                        "Theater",
+                        "Nature & Wildlife",
+                        "Desert Adventures",
+                        "Sightseeing",
+                        "Experiences",
+                        "Tours",
+                        "Small Group",
+                        "Golf"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/3161041884",
@@ -6710,7 +6646,73 @@
                     "#7 must-see in the city",
                     "4.5 rating (1,316 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "8647P704",
+                      "title": "Private 4-hour Jewish Walking Tour in Athens ",
+                      "description": "For this private tour, have your tour guide pick you up from central point in Plaka. \n\nYour first stop in Athens will be Beit Shalom Synagogue.\n\nClose to it, you will see the ancient cemetery of Keramikos from the 8th century BC.\n\nAfter that, you will get to see the new Jewish Museum, which is considered one of the most important Jewish museums in Europe.\n\nAfter visiting the museum, the private guide will take you to the Acropolis, passing by the gates of the Holy Rock of Athens you will see the Propylaea, the Temple of Athena Nike, the temple of Erechtheion with the Maidens, and Parthenon\n\nLater on, the private tour will continue to the center of the city, taking you to the central Syntagma square.\n\nThe total duration of the tour will be 4 hours. All the tickets are at your own expense. ",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 239.97,
+                        "currency": "USD",
+                        "originalAmount": 239.97
+                      },
+                      "duration": 240,
+                      "bookingUrl": "https://www.viator.com/tours/Northeast-Aegean-Islands/Private-4-hour-Jewish-Walking-Tour-in-Athens/d50329-8647P704?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0e/80/7e/d5.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Beit shalom",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Architecture Tours",
+                        "Desert Adventures",
+                        "Spa & Wellness",
+                        "Sightseeing"
+                      ]
+                    },
+                    {
+                      "productCode": "225599P9",
+                      "title": "Private Jewish Tour: São Paulo Synagogues & Museums (5 Hours)",
+                      "description": "Shalom ve Baruch Haba!\nWelcome to our Private Jewish Tour in São Paulo, led by an expert guide who will take you on a fascinating journey through the history, culture, and traditions of the Jewish community in Brazil's largest city.\n\nOn this 5-hour tour, you'll discover significant sites such as São Paulo's first synagogue, founded in 1912 in the Bom Retiro neighborhood, the traditional and Jewish neighborhood of Higienópolis, and the Jewish Museum of São Paulo, which was recently restored and reopened to the public with modern and moving exhibitions.\n\nWe'll also visit a Beit Chabad synagogue, and to complete the experience, you can enjoy a meal at a kosher restaurant (optional). Along the way, your guide will also present other city landmarks and interesting facts.\n\nImportant tip: Museum admissions and meals are not included in the tour price.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 331.72,
+                        "currency": "USD",
+                        "originalAmount": 331.72
+                      },
+                      "duration": 300,
+                      "rating": 5,
+                      "reviewCount": 7,
+                      "bookingUrl": "https://www.viator.com/tours/Sao-Paulo/Jewish-tour-in-Sao-Paulo-Architecture-history-and-cuisine-6-hours/d5112-225599P9?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/85/e6/1f.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Beit shalom",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Desert Adventures",
+                        "Small Group",
+                        "Tours",
+                        "Spa & Wellness",
+                        "Nature & Wildlife"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:way/343231395",
@@ -6987,7 +6989,71 @@
                     "#5 must-see in the city",
                     "4.6 rating (2,104 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "213190P55",
+                      "title": "Private Journey in Nara’s Historical Wonder",
+                      "description": "Embark on an enriching journey through Nara, a city where history and nature intertwine beautifully, on this private, exclusive tour. Your family will be captivated by the majestic Todai-ji Temple, home to the world’s largest bronze Buddha. Roam the verdant paths of Nara Park, mingling with friendly deer that symbolize the city’s harmony with nature. Discover the spiritual serenity of Kasuga Taisha Shrine, adorned with ancient lanterns, and feel the historical significance at the UNESCO-listed Horyu-ji Temple. Explore the charming streets of Naramachi, a district echoing with tales of the past. Witness the architectural splendor of Kofuku-ji and Yakushiji temples, each an oasis of Buddhist heritage. Uncover the hidden beauty of Shinyakushiji Temple, and delve into Japan’s rich cultural history at the Nara National Museum. Stroll through Heijō Palace Site Historical Park, imagining the grandeur of bygone eras. Visit Toshodai-ji Temple, a symbol of Nara’s enduring spiritual legacy.\n\n",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 1202.24,
+                        "currency": "USD",
+                        "originalAmount": 1202.24
+                      },
+                      "duration": 480,
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "bookingUrl": "https://www.viator.com/tours/Nara/Naras-Historical-Wonders-A-Journey-Through-Time-and-Nature/d50510-213190P55?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/33/1a/f6.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Naramachi Museum",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": false,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Golf",
+                        "Nature & Wildlife",
+                        "Small Group",
+                        "Desert Adventures",
+                        "Sightseeing"
+                      ]
+                    },
+                    {
+                      "productCode": "452423P185",
+                      "title": "Explore the Timeless Heritage of Nara from Kyoto",
+                      "description": "Explore the deeper side of Nara, Japan’s ancient capital, on this enriching cultural tour. Begin at Kōfuku-ji Temple, once central to the powerful Fujiwara clan. Admire its iconic Five-Story Pagoda and the National Treasure Museum, home to masterpieces like the Ashura statue. Wander through Naramachi, a charming old merchant district where traditional townhouses, artisan shops, and cafés reflect a blend of history and creativity. Next, visit the majestic Tōdai-ji Temple, where the colossal Great Buddha (Daibutsu) awaits inside one of the world’s largest wooden buildings. End your journey in the peaceful beauty of Isuien Garden, a masterpiece of Japanese landscaping that harmonizes nature, architecture, and art. This tour goes beyond sightseeing—it’s a meaningful journey into the spirit of Japan through history, faith, and tradition.\n",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 340,
+                        "currency": "USD",
+                        "originalAmount": 340
+                      },
+                      "duration": 480,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Explore-the-Timeless-Heritage-of-Nara-from-Kyoto/d332-452423P185?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "manual",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/30/21/8f.jpg",
+                      "matchReason": "Get expert insights about Naramachi Museum with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Tours",
+                        "Golf"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/4934654222",
@@ -7273,7 +7339,100 @@
                     "#8 must-see in the city",
                     "4.6 rating (784 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "109628P18",
+                      "title": "Jakarta: Miniature Park, National Museum & Traditional House Tour",
+                      "description": "Indonesia is the largest archipelago in the world with totally more than 17.000 islands. Indonesian territory is divided into 34 provinces, and each province has various ethnic groups, a total of ethnic groups in Indonesia is more than 1000 ethnic groups with different languages, cultures and ways of life. Created especially for those who have never been to Indonesia, this tour provides a glimpse introduction of Indonesia: The History, People, Culture, and Social life.",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 70,
+                        "currency": "USD",
+                        "originalAmount": 70
+                      },
+                      "duration": 360,
+                      "rating": 4.6875,
+                      "reviewCount": 16,
+                      "bookingUrl": "https://www.viator.com/tours/Jakarta/Jakarta-Private-Tour-Full-day-of-Indonesian-Tribes-and-Culture/d4633-109628P18?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/1d/09/c1.jpg",
+                      "matchReason": "Get expert insights about Traditional house with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Small Group",
+                        "Nature & Wildlife",
+                        "Hiking",
+                        "Desert Adventures",
+                        "Sightseeing",
+                        "Architecture Tours"
+                      ]
+                    },
+                    {
+                      "productCode": "246074P11",
+                      "title": "Bali Cooking Class at Balinese Traditional House",
+                      "description": "Experience the complete journey of the day at Balinese Traditional House “Ketut’s House” with Balinese authentic kitchen. Our chef will share his knowledge about the local ingredients you select that would be used during the cooking than prepare for your cooking class and refresh with a drink . During class, our chef will share his insights on how to prepare and cook few of locals’ favorite authentic Indonesian dishes. Roll up your sleeve and start chopping. Enjoy the delicious Indonesian dishes you have prepared at the Balinese house overlooking the garden.\n- Cook and eat with a Balinese family in their traditional walled compound. (Chef speak English)\n- Learn to cook several dishes, then enjoy your creations \n\n",
+                      "enhancementType": "skip-the-line",
+                      "price": {
+                        "amount": 26,
+                        "currency": "USD",
+                        "originalAmount": 26
+                      },
+                      "duration": 120,
+                      "bookingUrl": "https://www.viator.com/tours/Ubud/Bali-Day-Tour-The-Gate-of-Heaven-and-East-Bali-Full-Day-Tour/d5467-246074P11?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/fe/49/61.jpg",
+                      "matchReason": "Skip the queues at Traditional house with this priority access tour",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Photography Tours",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "459254P1",
+                      "title": "Japanese Cooking Class at a Traditional House in Nagano",
+                      "description": "The class is held at the over 130 years old house.\nIt was built in Machiya style and was used to be a house of Shoya, the biggest merchant in the city at that time. You can have a look around the unique inside.\nWe will show you traditional life style such as Koto, a Japanese harp and an old sawing machine, which have been carefully stored for a long time in Kura, an old style storage in back of the house.\n\nThe kitchen is made of Sake barrel lids came from a local brewery.\nIt’s located on the second floor, you will see the beautiful Japanese garden.\n\nWe provide aprons, so you don’t need to bring anything.\nWe will give you a recipe that you can cook at your country.\nThe class consists of some basics of Japanese cooking, such as how to make Dashi broth, and introduction of local made ingredients, which are not normally seen at regular supermarkets. We will explain for you to cook at home when you go back.\n\nRecipes are adjustable for vegetarians and vegans.",
+                      "enhancementType": "workshop",
+                      "price": {
+                        "amount": 104.74,
+                        "currency": "USD",
+                        "originalAmount": 104.74
+                      },
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "bookingUrl": "https://www.viator.com/tours/Nagano/Japanese-Cooking-Class-at-a-Traditional-House-in-Nagano/d23523-459254P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/4f/e6/3d.jpg",
+                      "matchReason": "Hands-on learning experience near Traditional house",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Photography Tours"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/3689032300",
@@ -7728,7 +7887,103 @@
                     "#2 must-see in the city",
                     "4.7 rating (2,476 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "174545P41",
+                      "title": "1.5 Hour Food Tour at the Kuromon Market in Osaka",
+                      "description": "Welcome to Kuromon Ichiba Market, Osaka’s vibrant food hub where you can indulge in a feast of fresh seafood, delicious street food, and authentic Japanese delicacies. Located in the heart of Osaka, this bustling market offers a sensory adventure with succulent sushi, tender tempura, savory takoyaki, and sweet mochi. Experience top-quality ingredients and traditional Japanese hospitality while sampling a wide range of dishes and immersing yourself in Osaka’s rich culinary culture.",
+                      "enhancementType": "food-tour",
+                      "price": {
+                        "amount": 42.55,
+                        "currency": "USD",
+                        "originalAmount": 42.55
+                      },
+                      "duration": 90,
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Osaka-Food-Tour-at-the-Kuromon-Market-in-1-Hour/d333-174545P41?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/17/0f/65/14.jpg",
+                      "matchReason": "Combine Kuromon Ichiba Market with local culinary experiences",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Desert Adventures",
+                        "Photography Tours"
+                      ]
+                    },
+                    {
+                      "productCode": "213190P53",
+                      "title": "Osaka Flavor Walk Private Tour: Dotombori District & Beyond",
+                      "description": "Experience the pulsating energy of Osaka on a tour through its vibrant heart, starting at the iconic Dotombori district. Begin your private, exclusive adventure with the famed Dotombori Glico Sign, a symbol of the city’s lively character and a popular spot for a quintessential Osaka photo. Immerse yourself in the dynamic Dotombori District, famous for its dazzling neon lights and an array of shops, theaters, and restaurants. This area truly epitomizes Osaka’s reputation as Japan’s kitchen, with endless opportunities to savor local delicacies like takoyaki and okonomiyaki. Next, delve into the bustling Minami (Namba) area, a nexus of entertainment, shopping, and nightlife. As you explore, pass by the charming Hozenji Yokocho alley, offering a stark contrast with its quaint, traditional eateries and tranquil atmosphere. Glimpse the culinary haven of Kuromon Ichiba Market, known for its fresh seafood and local produce, and the lively Misono Namba, a hub for various entertainments.\n\n",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 532.73,
+                        "currency": "USD",
+                        "originalAmount": 532.73
+                      },
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Osaka-Flavor-Walk-Dotombori-District-and-Beyond/d333-213190P53?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/33/1a/82.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Kuromon Ichiba Market",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": false,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Desert Adventures",
+                        "Spa & Wellness"
+                      ]
+                    },
+                    {
+                      "productCode": "33348P8",
+                      "title": "Deep Dive: Osaka Food Markets from Local to Luxurious!",
+                      "description": "Ohhhh Tokyo, with your big corporate headquarters and massive mobs of people doing very important things. And then Kyoto, with your high culture, fancy temples, gardens, and refinement. Yay. But this is OSAKA, and -- how to put it nicely? -- we don't care about your charmed lives. We care about eating.\n\nCome see (1) an upscale department store marketplace, (2) the famous Kuromon Ichiba, where delicacies raw and cooked clamor for your tongue, (3) a Japanese infused Korea Town where few tourists venture to tread, and (4) a historic neighborhood resplendent with meats, fish, vegetables, plus other staples and stupefieables catering to locals. At your side will be a native English speaking, friendly, Osaka-infused soul, eager to explain every little aspect of this big world of food. Get ready to dig in on this adventure of sights, smells, and flavors!",
+                      "enhancementType": "food-tour",
+                      "price": {
+                        "amount": 91,
+                        "currency": "USD",
+                        "originalAmount": 91
+                      },
+                      "duration": 240,
+                      "rating": 4.8,
+                      "reviewCount": 30,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Deep-Dive-Osaka-Food-Markets-from-Local-to-Luxurious/d333-33348P8?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/3b/5e/2b.jpg",
+                      "matchReason": "Combine Kuromon Ichiba Market with local culinary experiences",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Photography Tours",
+                        "Desert Adventures",
+                        "Spa & Wellness",
+                        "Sightseeing",
+                        "Hiking"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/5780512254",
@@ -8014,7 +8269,46 @@
                     "#4 must-see in the city",
                     "4.7 rating (2,006 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "92136P56",
+                      "title": "Kyoto Full-Day Private Tour (Osaka departure) with Government-Licensed Guide",
+                      "description": "Temples, shrines, and tea ceremonies. The traditions of ancient Japan are still alive and well in the old capitol, Kyoto. Walking around this beautiful city can feel like you are in a time machine as its architecture has been preserved for centuries. Kiyomizu Temple towers over the historical Gion district, famous for its rich history of geisha. There is much history in this city that you don’t want to miss so book our Government Licensed and Experienced English-speaking guides for a walking tour of Kyoto!\n\nOnce your reservation is made, a guide will be in touch to plan your personalized tour. Choose 4 to 5 spots that you wish to visit and your guide will plan a personalized itinerary. If you do not know where to visit, ask the guide to send you their recommended itinerary based on your interests. Whether you are a history buff, love the beauty of old Japanese architecture, or just want to enjoy a green tea parfait, Kyoto has something for you!",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 189.83,
+                        "currency": "USD",
+                        "originalAmount": 189.83
+                      },
+                      "duration": 480,
+                      "rating": 4.894737,
+                      "reviewCount": 57,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Kyoto-Full-day-Private-Custom-Trip-from-Osaka-with-National-Licensed-Guide/d333-92136P56?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/5b/2e/e2.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Umeda green bear fontaine",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Nature & Wildlife",
+                        "Architecture Tours",
+                        "Tours",
+                        "Golf",
+                        "Experiences",
+                        "Cruises",
+                        "Desert Adventures",
+                        "Sightseeing",
+                        "Hiking"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:node/10018047076",
@@ -8192,7 +8486,106 @@
                     "#3 must-see in the city",
                     "4.7 rating (1,373 reviews)"
                   ],
-                  "tradeoffs": []
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "201736P8",
+                      "title": "Half-Day Private Guided Tour to Osaka Minami\n",
+                      "description": "Come with us on foot to visit Minami, Osaka’s busiest area, for half a day!\n\nWe start with the American Village. To us the latest trends of young people in the region! Then we take a walk on Midosuji Avenue, the equivalent of the Champs-Élysées in Osaka.\n\nWe go to Shinsaibashisuji, the shopping street, where you can find everything! The march continues along the Dotonbori River. The famous Glico Man welcomes us there.\n\nWe then pass Hozenji Yokocho, which denotes its traditional architecture, and we visit the peaceful Hozenji Buddhist temple.\n\nA little further, Denden Town, Osaka's electronic and pop culture district! We stroll there before arriving at Shinsekai, with a retro atmosphere, and with its Tsutenkaku tower.\n\nAfter this day, you will learn more about the contemporary history of Japan. You’ll have had enough eyes full of this beautiful modern city! Are you coming? We are waiting for you!",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 137.47,
+                        "currency": "USD",
+                        "originalAmount": 137.47
+                      },
+                      "duration": 240,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Osaka-Minami-Osaka-my-friend/d333-201736P8?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/a7/4f/c4.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Minami Osaka Church",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Spa & Wellness",
+                        "Golf",
+                        "Sightseeing"
+                      ]
+                    },
+                    {
+                      "productCode": "85886P194",
+                      "title": "The Deepest Drinking District! Osaka Bar Hopping Tour",
+                      "description": "The area between Shinsaibashi and Namba, known as Minami, is one of Osaka's most popular shopping districts. It has hundreds of years of history where geisha gather. It is also famous as a drinking district, where people from all over the Kansai region gather at night.\nIn this tour, your tour guide will introduce you to some of the best restaurants in the back streets and alleyways that only the locals know.\nYou will be sitting close to other customers, so you'll have a great time talking to the locals.\nYou can visit the bar beside the temple to enjoy whiskey, and enjoy cruising through Minami's nighttime cityscape and the classic ramen as a last meal on the day.",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 90.01,
+                        "currency": "USD",
+                        "originalAmount": 90.01
+                      },
+                      "duration": 210,
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "bookingUrl": "https://www.viator.com/tours/Namba/Private-Tour-A-Tour-to-Introduce-Nightlife-and-Entertainment-in-Osaka/d51459-85886P194?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "manual",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/95/37/c6.jpg",
+                      "matchReason": "Get expert insights about Minami Osaka Church with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Photography Tours",
+                        "Desert Adventures",
+                        "Spa & Wellness",
+                        "Sightseeing"
+                      ]
+                    },
+                    {
+                      "productCode": "33348P14",
+                      "title": "Osaka’s Best and Brightest: Private Full-Day Tour by Vehicle",
+                      "description": "Looking for a full-day, private vehicle tour that covers top spots with a fun, knowledgeable, and truly fluent English speaker? You've found it. We show you Dotonbori, Osaka Castle, Shin-sekai, a view from high above, and more! Plus, get some local insight and interesting commentary at some of our other recommended stops. All of this at your pace, with your own personal driver/guide, and high quality vehicle service. Your guide is *guaranteed* to be a native English speaker or honest equivalent.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 600,
+                        "currency": "USD",
+                        "originalAmount": 600
+                      },
+                      "duration": 450,
+                      "rating": 4.9310346,
+                      "reviewCount": 145,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Osakas-Best-and-Brightest-by-Private-Vehicle/d333-33348P14?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/e6/ec/6d.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Minami Osaka Church",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Nature & Wildlife",
+                        "Experiences",
+                        "Cruises",
+                        "Golf",
+                        "Tours",
+                        "Hiking",
+                        "Small Group",
+                        "Sightseeing"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "osm:way/383445302",
@@ -8917,7 +9310,7 @@
       }
     },
     "metadata": {
-      "generatedAt": "2025-12-30T06:21:28.811Z",
+      "generatedAt": "2025-12-30T15:31:26.559Z",
       "provider": "data",
       "source": "japan-data-service",
       "totalDays": 11,
@@ -8933,7 +9326,7 @@
         "failed": 0,
         "providers": {},
         "avgConfidence": 0,
-        "totalDuration": 13
+        "totalDuration": 15
       },
       "commuteCalculation": {
         "totalCommutes": 44,
@@ -8945,9 +9338,9 @@
       },
       "viatorEnrichment": {
         "totalActivities": 161,
-        "enhancedActivities": 9,
-        "totalTours": 27,
-        "searchDuration": 1298
+        "enhancedActivities": 15,
+        "totalTours": 39,
+        "searchDuration": 70124
       }
     }
   }

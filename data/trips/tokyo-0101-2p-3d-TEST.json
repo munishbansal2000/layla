@@ -1,0 +1,332 @@
+{
+    "tripId": "tokyo-0101-2p-3d-TEST",
+    "destination": "Tokyo",
+    "country": "Japan",
+    "days": [{
+            "dayNumber": 1,
+            "date": "2025-01-01",
+            "city": "Tokyo",
+            "title": "Asakusa & Traditional Tokyo",
+            "slots": [{
+                    "slotId": "d1-slot-1",
+                    "slotType": "morning",
+                    "timeRange": { "start": "09:00", "end": "11:00" },
+                    "options": [{
+                        "id": "d1-opt-1",
+                        "rank": 1,
+                        "score": 0.95,
+                        "activity": {
+                            "name": "Senso-ji Temple",
+                            "description": "Tokyo's oldest temple with the iconic Thunder Gate",
+                            "category": "temple",
+                            "duration": 120,
+                            "place": {
+                                "name": "Senso-ji Temple",
+                                "address": "2-3-1 Asakusa, Taito City, Tokyo",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7148, "lng": 139.7967 }
+                            },
+                            "isFree": true,
+                            "tags": ["temple", "cultural", "photography"]
+                        },
+                        "matchReasons": ["Top temple in Tokyo"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d1-opt-1"
+                },
+                {
+                    "slotId": "d1-slot-2",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:00", "end": "13:30" },
+                    "options": [{
+                        "id": "d1-opt-2",
+                        "rank": 1,
+                        "score": 0.88,
+                        "activity": {
+                            "name": "Nakamise Shopping Street",
+                            "description": "Traditional shopping street with snacks and souvenirs",
+                            "category": "food",
+                            "duration": 90,
+                            "place": {
+                                "name": "Nakamise Street",
+                                "address": "Asakusa, Taito City, Tokyo",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7125, "lng": 139.7966 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1500, "currency": "JPY" },
+                            "tags": ["food", "shopping", "traditional"]
+                        },
+                        "matchReasons": ["Close to Senso-ji"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d1-opt-2"
+                },
+                {
+                    "slotId": "d1-slot-3",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:00", "end": "17:00" },
+                    "options": [{
+                        "id": "d1-opt-3",
+                        "rank": 1,
+                        "score": 0.92,
+                        "activity": {
+                            "name": "Tokyo Skytree",
+                            "description": "World's tallest tower with observation decks",
+                            "category": "landmark",
+                            "duration": 180,
+                            "place": {
+                                "name": "Tokyo Skytree",
+                                "address": "1-1-2 Oshiage, Sumida City, Tokyo",
+                                "neighborhood": "Sumida",
+                                "coordinates": { "lat": 35.7101, "lng": 139.8107 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2100, "currency": "JPY" },
+                            "tags": ["tower", "views", "photography"]
+                        },
+                        "matchReasons": ["Iconic Tokyo landmark"],
+                        "tradeoffs": ["Can be crowded"]
+                    }],
+                    "selectedOptionId": "d1-opt-3"
+                },
+                {
+                    "slotId": "d1-slot-4",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:00", "end": "20:00" },
+                    "options": [{
+                        "id": "d1-opt-4",
+                        "rank": 1,
+                        "score": 0.85,
+                        "activity": {
+                            "name": "Hoppy Street Izakaya",
+                            "description": "Traditional Japanese pub experience",
+                            "category": "food",
+                            "duration": 120,
+                            "place": {
+                                "name": "Hoppy Street",
+                                "address": "Asakusa, Taito City, Tokyo",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7123, "lng": 139.7944 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3000, "currency": "JPY" },
+                            "tags": ["izakaya", "dinner", "drinks"]
+                        },
+                        "matchReasons": ["Authentic experience"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d1-opt-4"
+                }
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "date": "2025-01-02",
+            "city": "Tokyo",
+            "title": "Modern Tokyo & Shibuya",
+            "slots": [{
+                    "slotId": "d2-slot-1",
+                    "slotType": "morning",
+                    "timeRange": { "start": "10:00", "end": "12:00" },
+                    "options": [{
+                        "id": "d2-opt-1",
+                        "rank": 1,
+                        "score": 0.90,
+                        "activity": {
+                            "name": "Meiji Shrine",
+                            "description": "Serene Shinto shrine in a forested setting",
+                            "category": "shrine",
+                            "duration": 120,
+                            "place": {
+                                "name": "Meiji Shrine",
+                                "address": "1-1 Yoyogikamizonocho, Shibuya City, Tokyo",
+                                "neighborhood": "Harajuku",
+                                "coordinates": { "lat": 35.6764, "lng": 139.6993 }
+                            },
+                            "isFree": true,
+                            "tags": ["shrine", "nature", "peaceful"]
+                        },
+                        "matchReasons": ["Most visited shrine in Japan"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d2-opt-1"
+                },
+                {
+                    "slotId": "d2-slot-2",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:30", "end": "14:00" },
+                    "options": [{
+                        "id": "d2-opt-2",
+                        "rank": 1,
+                        "score": 0.87,
+                        "activity": {
+                            "name": "Harajuku Takeshita Street",
+                            "description": "Colorful street with trendy fashion and crepes",
+                            "category": "food",
+                            "duration": 90,
+                            "place": {
+                                "name": "Takeshita Street",
+                                "address": "Jingumae, Shibuya City, Tokyo",
+                                "neighborhood": "Harajuku",
+                                "coordinates": { "lat": 35.6702, "lng": 139.7027 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2000, "currency": "JPY" },
+                            "tags": ["shopping", "fashion", "food"]
+                        },
+                        "matchReasons": ["Youth culture hotspot"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d2-opt-2"
+                },
+                {
+                    "slotId": "d2-slot-3",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:30", "end": "17:30" },
+                    "options": [{
+                        "id": "d2-opt-3",
+                        "rank": 1,
+                        "score": 0.94,
+                        "activity": {
+                            "name": "teamLab Borderless",
+                            "description": "Immersive digital art museum",
+                            "category": "museum",
+                            "duration": 180,
+                            "place": {
+                                "name": "teamLab Borderless",
+                                "address": "Azabudai Hills, Minato City, Tokyo",
+                                "neighborhood": "Azabudai",
+                                "coordinates": { "lat": 35.6586, "lng": 139.7454 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3200, "currency": "JPY" },
+                            "tags": ["museum", "art", "digital", "immersive"]
+                        },
+                        "matchReasons": ["World-famous art experience"],
+                        "tradeoffs": ["Advance booking required"]
+                    }],
+                    "selectedOptionId": "d2-opt-3"
+                },
+                {
+                    "slotId": "d2-slot-4",
+                    "slotType": "evening",
+                    "timeRange": { "start": "18:30", "end": "21:00" },
+                    "options": [{
+                        "id": "d2-opt-4",
+                        "rank": 1,
+                        "score": 0.93,
+                        "activity": {
+                            "name": "Shibuya Crossing & Sky",
+                            "description": "Famous scramble crossing and rooftop observation",
+                            "category": "landmark",
+                            "duration": 150,
+                            "place": {
+                                "name": "Shibuya Crossing",
+                                "address": "Shibuya, Tokyo",
+                                "neighborhood": "Shibuya",
+                                "coordinates": { "lat": 35.6595, "lng": 139.7004 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2000, "currency": "JPY" },
+                            "tags": ["landmark", "nightlife", "views"]
+                        },
+                        "matchReasons": ["Iconic Tokyo experience"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d2-opt-4"
+                }
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "date": "2025-01-03",
+            "city": "Tokyo",
+            "title": "Tsukiji, Ginza & Farewell",
+            "slots": [{
+                    "slotId": "d3-slot-1",
+                    "slotType": "morning",
+                    "timeRange": { "start": "08:00", "end": "10:30" },
+                    "options": [{
+                        "id": "d3-opt-1",
+                        "rank": 1,
+                        "score": 0.96,
+                        "activity": {
+                            "name": "Tsukiji Outer Market",
+                            "description": "Fresh sushi breakfast and food market exploration",
+                            "category": "food",
+                            "duration": 150,
+                            "place": {
+                                "name": "Tsukiji Outer Market",
+                                "address": "4-16-2 Tsukiji, Chuo City, Tokyo",
+                                "neighborhood": "Tsukiji",
+                                "coordinates": { "lat": 35.6654, "lng": 139.7706 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3000, "currency": "JPY" },
+                            "tags": ["sushi", "market", "breakfast", "seafood"]
+                        },
+                        "matchReasons": ["Must-do Tokyo food experience"],
+                        "tradeoffs": ["Best to arrive early"]
+                    }],
+                    "selectedOptionId": "d3-opt-1"
+                },
+                {
+                    "slotId": "d3-slot-2",
+                    "slotType": "late_morning",
+                    "timeRange": { "start": "11:00", "end": "13:00" },
+                    "options": [{
+                        "id": "d3-opt-2",
+                        "rank": 1,
+                        "score": 0.84,
+                        "activity": {
+                            "name": "Ginza Shopping District",
+                            "description": "Upscale shopping and department stores",
+                            "category": "shopping",
+                            "duration": 120,
+                            "place": {
+                                "name": "Ginza",
+                                "address": "Ginza, Chuo City, Tokyo",
+                                "neighborhood": "Ginza",
+                                "coordinates": { "lat": 35.6718, "lng": 139.7649 }
+                            },
+                            "isFree": true,
+                            "tags": ["shopping", "luxury", "department stores"]
+                        },
+                        "matchReasons": ["Tokyo's premier shopping area"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d3-opt-2"
+                },
+                {
+                    "slotId": "d3-slot-3",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "13:30", "end": "15:00" },
+                    "options": [{
+                        "id": "d3-opt-3",
+                        "rank": 1,
+                        "score": 0.88,
+                        "activity": {
+                            "name": "Tokyo Station Ramen Street",
+                            "description": "Eight top ramen shops in one location",
+                            "category": "food",
+                            "duration": 90,
+                            "place": {
+                                "name": "Tokyo Ramen Street",
+                                "address": "B1F Tokyo Station, Chiyoda City, Tokyo",
+                                "neighborhood": "Marunouchi",
+                                "coordinates": { "lat": 35.6812, "lng": 139.7669 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1200, "currency": "JPY" },
+                            "tags": ["ramen", "lunch", "station"]
+                        },
+                        "matchReasons": ["Convenient final meal near station"],
+                        "tradeoffs": []
+                    }],
+                    "selectedOptionId": "d3-opt-3"
+                }
+            ]
+        }
+    ]
+}

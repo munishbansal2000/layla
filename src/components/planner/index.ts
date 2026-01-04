@@ -30,8 +30,8 @@ export type { ActivityScoreCardProps } from "./ActivityScoreCard";
 export { SwapOptionsModal } from "./SwapOptionsModal";
 export type { SwapOptionsModalProps, SwapOption } from "./SwapOptionsModal";
 
-// Trip Planner Pane (main component)
-export { TripPlannerPane } from "./TripPlannerPane";
+// NOTE: TripPlannerPane has been deprecated and moved to _archive.
+// Use TripApp from '@/components/trip' instead for unified trip planning.
 
 // Trip Planner Sub-components (extracted for reusability)
 export {

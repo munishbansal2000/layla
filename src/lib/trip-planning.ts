@@ -155,20 +155,41 @@ export function createEmptyDaySchedule(
   };
 }
 
+/**
+ * Parse a date string in "YYYY-MM-DD" format to a local Date object.
+ * This avoids timezone issues where new Date("2026-03-15") interprets
+ * the date as UTC midnight, causing date shifts in non-UTC timezones.
+ */
+function parseDateLocal(dateStr: string): Date {
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // month is 0-indexed
+    const day = parseInt(parts[2], 10);
+    return new Date(year, month, day, 0, 0, 0, 0);
+  }
+  // Fallback for other formats
+  return new Date(dateStr);
+}
+
 export function calculateTripDays(startDate: string, endDate: string): number {
-  const start = new Date(startDate);
-  const end = new Date(endDate);
+  const start = parseDateLocal(startDate);
+  const end = parseDateLocal(endDate);
   return Math.ceil((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24)) + 1;
 }
 
 export function generateDateRange(startDate: string, endDate: string): string[] {
   const dates: string[] = [];
-  const start = new Date(startDate);
-  const end = new Date(endDate);
+  const start = parseDateLocal(startDate);
+  const end = parseDateLocal(endDate);
 
   const current = new Date(start);
   while (current <= end) {
-    dates.push(current.toISOString().split("T")[0]);
+    // Format as YYYY-MM-DD using local date components to avoid timezone issues
+    const year = current.getFullYear();
+    const month = String(current.getMonth() + 1).padStart(2, '0');
+    const day = String(current.getDate()).padStart(2, '0');
+    dates.push(`${year}-${month}-${day}`);
     current.setDate(current.getDate() + 1);
   }
 

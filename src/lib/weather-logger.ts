@@ -1,8 +1,27 @@
-import { promises as fs } from "fs";
-import path from "path";
+// Only import fs on server-side (not in browser)
+const isServer = typeof window === "undefined";
+let fsModule: typeof import("fs").promises | null = null;
+let pathModule: typeof import("path") | null = null;
+
+// Lazy load fs and path modules (server-only)
+async function getFs() {
+  if (!isServer) return null;
+  if (!fsModule) {
+    fsModule = (await import("fs")).promises;
+  }
+  return fsModule;
+}
+
+async function getPath() {
+  if (!isServer) return null;
+  if (!pathModule) {
+    pathModule = await import("path");
+  }
+  return pathModule;
+}
 
 // ===========================================
-// OpenWeather Request/Response Logging & Caching
+// Weather API Request/Response Logging
 // ===========================================
 
 export interface WeatherLogEntry {

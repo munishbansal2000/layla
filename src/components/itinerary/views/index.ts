@@ -8,3 +8,7 @@ export { TabbedDayView, type TabbedDayViewProps } from "./TabbedDayView";
 export { ListDayView, type ListDayViewProps } from "./ListDayView";
 export { DayCard, type DayCardProps } from "./DayCard";
 export { DayContent, type DayContentProps } from "./DayContent";
+export {
+  ImprovedItineraryView,
+  type default as ImprovedItineraryViewDefault,
+} from "./ImprovedItineraryView";

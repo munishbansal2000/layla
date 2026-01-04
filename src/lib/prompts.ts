@@ -30,7 +30,8 @@ export type PromptName =
   | "questionAnswering"
   | "suggestionRequest"
   | "slotSuggestions"
-  | "itineraryGeneration";
+  | "itineraryGeneration"
+  | "itineraryGenerationCompact";
 
 export interface PromptConfig {
   standard: string;
@@ -942,6 +943,148 @@ CONSTRAINTS:
 - MUST-AVOID: Never include these
 - ANCHORS: Keep at exact specified time, behavior: "anchor"
 - Group activities by neighborhood`,
+  },
+
+  // ------------------------------------------
+  // 10. ITINERARY GENERATION COMPACT (Token-Efficient Format)
+  // ------------------------------------------
+  itineraryGenerationCompact: {
+    standard: `You are an expert travel itinerary generator. Generate COMPACT itineraries using minimal JSON.
+
+CRITICAL: Use this token-efficient format to reduce response size by 50-60%.
+
+Return JSON with this COMPACT structure:
+{
+  "dest": "Tokyo",
+  "days": [
+    {
+      "c": "Tokyo",
+      "t": "Shibuya & Harajuku",
+      "tr": ["airport_arrival", "NRT", "Tokyo", "narita-express", 90],
+      "m": [
+        ["Meiji Jingu", "shrine", 90, 35.6764, 139.6993, "Harajuku"]
+      ],
+      "x": [
+        ["teamLab Planets", "museum", 150, 35.6493, 139.7897, "Toyosu", "14:00"]
+      ],
+      "a": [
+        ["Shibuya Crossing", "landmark", 45, 35.6595, 139.7004, "Shibuya"]
+      ]
+    }
+  ],
+  "tips": ["Get a Suica card", "JR Pass for Shinkansen"]
+}
+
+COMPACT FORMAT RULES:
+- "dest": destination country or region
+- "c": city name for the day
+- "t": day title/theme
+- SLOT KEYS: m=morning, a=afternoon, e=evening (SKIP lunch/dinner - filled automatically)
+- "x": ANCHORS - activities with FIXED start times (CRITICAL - see ANCHOR RULES below)
+- "tr": TRANSFER - [type, from, to, mode, duration_mins]
+  * type: "airport_arrival" | "inter_city" | "airport_departure"
+  * from/to: city or airport code
+  * mode: "narita-express" | "shinkansen" | "haruka-express" | "train" | "bus"
+  * duration: minutes
+- ACTIVITY ARRAY FORMAT: [name, category, duration_mins, lat, lng, neighborhood]
+  * name: Real venue name (string)
+  * category: temple|shrine|museum|park|landmark|market|viewpoint|neighborhood|cultural-experience|gaming|anime
+  * duration: minutes (number)
+  * lat/lng: coordinates (numbers, NOT array)
+  * neighborhood: area name (string)
+- ANCHOR ARRAY FORMAT: [name, category, duration_mins, lat, lng, neighborhood, startTime]
+  * Same as activity but with startTime (e.g., "14:00")
+- 2-3 activities per slot (first = recommended, rest = alternatives)
+- "tips": array of 3-5 travel tips
+
+⚠️ ANCHOR RULES (CRITICAL):
+- PRE-BOOKED activities have FIXED times that CANNOT be changed
+- Put anchors in "x" array with their exact start time
+- Plan OTHER activities AROUND anchors:
+  * If anchor is at 14:00, morning slot ends before 14:00, afternoon slot starts AFTER anchor ends
+  * If anchor is at 05:30 (early morning), skip "m" slot - anchor IS the morning activity
+  * If anchor is at 11:00, morning ends at 11:00, then anchor, then lunch after anchor
+- NEVER put an anchor in m/a/e slots - always use "x"
+- Cluster nearby activities before/after anchors
+
+⚠️ TRANSFER RULES (CRITICAL):
+- Day 1 with airport arrival: Adjust start time based on arrival + transfer duration
+  * If arrive 15:00 + 90min transfer = activities start ~16:30
+  * Skip morning slot on arrival day if arriving afternoon
+- Inter-city transfer day: Add "tr" with transfer details
+  * Morning activities in origin city, afternoon in destination city
+- Departure day: End activities before departure time
+  * If flight at 10:00, only early morning activities before leaving for airport
+
+⚠️ TRAVELER-SPECIFIC RULES:
+- Kids interested in Pokemon/gaming: Include Pokemon Center, Nintendo Store (TOKYO Shibuya Parco: 35.6620, 139.6994)
+- Kids interested in anime: Include anime stores, Akihabara, character cafes
+- Dietary restrictions: Note in tips, affects restaurant selection
+
+WHAT TO SKIP:
+- NO descriptions (UI will generate from category)
+- NO matchReasons/tradeoffs (derived from context)
+- NO ids/ranks/scores (derived from array position)
+- NO isFree/tags/source (inferred from category)
+- NO lunch/dinner slots (filled by restaurant API)
+- NO slotId/timeRange/behavior (derived from slot key)
+- NO estimatedBudget (calculated separately)
+
+CATEGORY MAPPING:
+- temple, shrine → cultural/religious
+- museum, gallery → museum
+- park, garden → park/nature
+- observation deck, tower → viewpoint
+- neighborhood walk → neighborhood
+- market, food hall → market
+- Nintendo Store, Pokemon Center → gaming
+- anime cafe, character store → anime
+
+GEOGRAPHIC CLUSTERING (CRITICAL):
+- Each day should focus on 1-2 adjacent neighborhoods
+- Morning and afternoon activities should be in the same area
+- All alternatives within a slot should be nearby each other
+- Don't zig-zag across the city
+
+PACE ADJUSTMENTS:
+- relaxed: 2 activities per slot, skip evening
+- moderate: 2-3 activities per slot
+- packed: 3 activities per slot, include evening
+
+Example with anchors and transfers:
+{
+  "dest": "Japan",
+  "days": [
+    {"c":"Tokyo","t":"Arrival & Asakusa","tr":["airport_arrival","NRT","Tokyo","narita-express",90],"a":[["Senso-ji Temple","temple",90,35.7147,139.7967,"Asakusa"],["Nakamise Street","market",45,35.7137,139.7962,"Asakusa"]]},
+    {"c":"Tokyo","t":"Art & Gaming","m":[["Akihabara","neighborhood",120,35.6996,139.7732,"Akihabara"],["Pokemon Center Mega Tokyo","gaming",60,35.7289,139.7180,"Ikebukuro"]],"x":[["teamLab Planets","museum",150,35.6493,139.7897,"Toyosu","14:00"]],"a":[["Nintendo Store Tokyo","gaming",90,35.6620,139.6994,"Shibuya"]]},
+    {"c":"Tokyo","t":"Culinary Experience","x":[["Tokyo Sushi Academy","cultural-experience",180,35.6952,139.6941,"Shinjuku","11:00"]],"a":[["Shinjuku Gyoen","park",90,35.6852,139.7101,"Shinjuku"],["Harajuku","neighborhood",90,35.6708,139.7021,"Harajuku"]]},
+    {"c":"Kyoto","t":"Bamboo & Deer","tr":["inter_city","Tokyo","Kyoto","shinkansen",140],"m":[["Arashiyama Bamboo Grove","park",120,35.0167,135.6711,"Arashiyama"]],"a":[["Nara Deer Park","park",180,34.6854,135.8390,"Nara"]]},
+    {"c":"Kyoto","t":"Shrine & Departure","x":[["Fushimi Inari","shrine",180,34.9671,135.7727,"Fushimi","05:30"]],"tr":["airport_departure","Kyoto","KIX","haruka-express",75]}
+  ],
+  "tips":["Get JR Pass","IC card for metros","Cash for small shops","Pokemon Center in Ikebukuro has best selection"]
+}`,
+
+    ollama: `Generate COMPACT travel itinerary. Minimal JSON format.
+
+FORMAT:
+{
+  "dest": "Japan",
+  "days": [
+    {
+      "c": "Tokyo",
+      "t": "Day Theme",
+      "m": [["Venue Name", "category", 90, 35.68, 139.75, "Area"]],
+      "a": [["Venue Name", "category", 120, 35.67, 139.74, "Area"]]
+    }
+  ],
+  "tips": ["Tip 1", "Tip 2"]
+}
+
+SLOT KEYS: m=morning, a=afternoon, e=evening (NO lunch/dinner)
+ARRAY: [name, category, duration, lat, lng, neighborhood]
+CATEGORIES: temple, shrine, museum, park, landmark, viewpoint, market, neighborhood
+
+2-3 activities per slot. Use real venue names. Group by neighborhood.`,
   },
 };
 

@@ -15,21 +15,150 @@ import type {
   TripValidationError,
   TripValidationWarning,
   TransferAnchor,
+  TransferMode,
 } from '@/types/trip-input';
 import {
   generateTransferId,
   generateLegId,
 } from '@/types/trip-input';
+import { searchNominatim } from './openstreetmap';
+
+// Cache for station lookups to avoid repeated API calls
+const stationCache = new Map<string, { name: string; coordinates: { lat: number; lng: number } } | null>();
+
+// ============================================
+// OPENSTREETMAP STATION LOOKUP
+// ============================================
+
+/**
+ * Find the main train station for a city using OpenStreetMap/Nominatim
+ */
+async function findMainStation(city: string): Promise<{ name: string; coordinates: { lat: number; lng: number } } | null> {
+  // Check cache first
+  const cacheKey = city.toLowerCase();
+  if (stationCache.has(cacheKey)) {
+    console.log(`[TransferInference] Cache hit for ${city}`);
+    return stationCache.get(cacheKey) || null;
+  }
+
+  // Try multiple query formats - include "railway" and city name for better results
+  const queries = [
+    `${city} railway station`,   // Most specific - "Tokyo railway station"
+    `${city} Station railway`,   // Alternative - helps filter non-railway results
+    `${city} central station`,   // Works for European cities
+  ];
+
+  for (const query of queries) {
+    try {
+      console.log(`[TransferInference] Query: "${query}"`);
+      const results = await searchNominatim({
+        q: query,
+        limit: 10,  // Get more results to filter
+      });
+
+      console.log(`[TransferInference] Got ${results.length} results`);
+
+      // Log all results for debugging
+      results.forEach((r, i) => {
+        const resultCity = r.address?.city || r.address?.town || r.address?.county || 'N/A';
+        console.log(`[TransferInference]   [${i}] type=${r.type} class=${r.class} city=${resultCity} display=${r.display_name.substring(0, 60)}`);
+      });
+
+      // Look for railway station results
+      // Since we search with city name in query (e.g., "Tokyo railway station"),
+      // the first railway station result should be correct
+      const stationResult = results.find(r => {
+        // Must be a railway-related type
+        const isRailway =
+          r.type === 'station' ||
+          r.type === 'railway' ||
+          r.type === 'train_station' ||
+          r.class === 'railway' ||
+          (r.extratags && r.extratags.train === 'yes');
+
+        console.log(`[TransferInference]   Checking: type=${r.type} class=${r.class} isRailway=${isRailway} (${r.display_name.substring(0, 40)})`);
+
+        return isRailway;
+      });
+
+      if (stationResult) {
+        const station = {
+          name: stationResult.namedetails?.['name:en'] ||
+                stationResult.namedetails?.name ||
+                stationResult.display_name.split(',')[0],
+          coordinates: {
+            lat: parseFloat(stationResult.lat),
+            lng: parseFloat(stationResult.lon),
+          },
+        };
+        stationCache.set(cacheKey, station);
+        console.log(`[TransferInference] ✅ Found station for ${city}: ${station.name} at ${station.coordinates.lat}, ${station.coordinates.lng}`);
+        return station;
+      }
+    } catch (error) {
+      console.warn(`[TransferInference] Query "${query}" failed:`, error);
+    }
+  }
+
+  // Fallback: just use city name + "Station"
+  console.log(`[TransferInference] ❌ No station found for ${city}, using fallback`);
+  stationCache.set(cacheKey, null);
+  return null;
+}
+
+/**
+ * Find airport by code using OpenStreetMap/Nominatim
+ */
+async function findAirport(airportCode: string): Promise<{ name: string; coordinates: { lat: number; lng: number } } | null> {
+  const cacheKey = `airport-${airportCode.toUpperCase()}`;
+  if (stationCache.has(cacheKey)) {
+    return stationCache.get(cacheKey) || null;
+  }
+
+  try {
+    const results = await searchNominatim({
+      q: `${airportCode} airport`,
+      limit: 3,
+    });
+
+    const airportResult = results.find(r =>
+      r.type === 'aerodrome' ||
+      r.class === 'aeroway' ||
+      r.display_name.toLowerCase().includes('airport') ||
+      r.display_name.toLowerCase().includes('空港')
+    ) || results[0];
+
+    if (airportResult) {
+      const airport = {
+        name: airportResult.namedetails?.['name:en'] ||
+              airportResult.namedetails?.name ||
+              airportResult.display_name.split(',')[0],
+        coordinates: {
+          lat: parseFloat(airportResult.lat),
+          lng: parseFloat(airportResult.lon),
+        },
+      };
+      stationCache.set(cacheKey, airport);
+      console.log(`[TransferInference] Found airport ${airportCode}: ${airport.name}`);
+      return airport;
+    }
+  } catch (error) {
+    console.warn(`[TransferInference] Failed to find airport ${airportCode}:`, error);
+  }
+
+  stationCache.set(cacheKey, null);
+  return null;
+}
 
 // ============================================
 // MAIN INFERENCE FUNCTION
 // ============================================
 
-export function inferTripStructure(
+export async function inferTripStructure(
   flights: FlightAnchor[],
   hotels: HotelAnchor[],
   existingTransfers: TransferAnchor[] = []
-): DerivedTripStructure {
+): Promise<DerivedTripStructure> {
   const errors: TripValidationError[] = [];
   const warnings: TripValidationWarning[] = [];
 
@@ -143,8 +272,8 @@ export function inferTripStructure(
       toLeg.arrivalFlight = connectingFlight;
       toLeg.arrivalTransfer = fromAirportTransfer;
     } else {
-      // Ground transfer needed
-      const transfer = inferInterCityTransfer(fromLeg, toLeg, existingTransfers);
+      // Ground transfer needed - use async lookup for stations
+      const transfer = await inferInterCityTransfer(fromLeg, toLeg, existingTransfers);
       transfers.push(transfer);
 
       fromLeg.departureTransfer = transfer;
@@ -156,20 +285,37 @@ export function inferTripStructure(
   if (departureFlight && legs.length > 0 && departureFlight !== arrivalFlight) {
     const lastLeg = legs[legs.length - 1];
     const transfer = inferDepartureTransfer(lastLeg, departureFlight, existingTransfers);
-    transfers.push(transfer);
-    lastLeg.departureFlight = departureFlight;
-    lastLeg.departureTransfer = transfer;
 
-    // Check for conflicts
-    if (transfer.status === 'conflict') {
-      errors.push({
-        type: 'mismatch',
-        message: transfer.conflict || 'Airport location mismatch',
-        legId: lastLeg.id,
-        transferId: transfer.id,
-      });
-      lastLeg.hasConflict = true;
-      lastLeg.conflictMessage = transfer.conflict;
+    // Handle array of transfers (when inter-city + airport transfer needed)
+    if (Array.isArray(transfer)) {
+      transfers.push(...transfer);
+      lastLeg.departureFlight = departureFlight;
+      lastLeg.departureTransfer = transfer[0]; // Inter-city transfer first
+
+      // Add warning about needing inter-city transfer
+      if (transfer[0].warning) {
+        warnings.push({
+          type: 'long_transfer',
+          message: transfer[0].warning,
+          legId: lastLeg.id,
+        });
+      }
+    } else {
+      transfers.push(transfer);
+      lastLeg.departureFlight = departureFlight;
+      lastLeg.departureTransfer = transfer;
+
+      // Check for conflicts
+      if (transfer.status === 'conflict') {
+        errors.push({
+          type: 'mismatch',
+          message: transfer.conflict || 'Airport location mismatch',
+          legId: lastLeg.id,
+          transferId: transfer.id,
+        });
+        lastLeg.hasConflict = true;
+        lastLeg.conflictMessage = transfer.conflict;
+      }
     }
   }
 
@@ -256,7 +402,7 @@ function inferDepartureTransfer(
   lastLeg: TripLeg,
   flight: FlightAnchor,
   existingTransfers: TransferAnchor[]
-): InferredTransfer {
+): InferredTransfer | InferredTransfer[] {
   const airportCity = extractCityFromAirportCode(flight.from);
   const hotelCity = lastLeg.city;
 
@@ -280,9 +426,49 @@ function inferDepartureTransfer(
     name: getAirportName(flight.from),
   };
 
-  // Check for city mismatch
+  // Check for city mismatch - this is NOT a conflict, just requires inter-city transfer
   const hasMismatch = !isCityMatch(airportCity, hotelCity);
 
+  if (hasMismatch) {
+    // Need TWO transfers: inter-city (hotel → departure city) + airport (city → airport)
+    const interCityTransfer: InferredTransfer = {
+      id: generateTransferId(),
+      type: 'inter_city',
+      from,
+      to: {
+        type: 'city',
+        city: airportCity,
+        name: `${airportCity} area`,
+      },
+      date: flight.date,
+      earliestDeparture: '06:00', // Early morning to catch flight
+      latestArrival: flight.time ? subtractTime(flight.time, 240) : '12:00', // 4 hours before flight
+      options: getInterCityTransferOptions(hotelCity, airportCity),
+      status: 'needs_input',
+      warning: `Need to travel from ${hotelCity} to ${airportCity} for departure flight`,
+    };
+
+    const airportTransfer: InferredTransfer = {
+      id: generateTransferId(),
+      type: 'airport_departure',
+      from: {
+        type: 'city',
+        city: airportCity,
+        name: `${airportCity} station`,
+      },
+      to,
+      date: flight.date,
+      earliestDeparture: flight.time ? subtractTime(flight.time, 180) : '09:00',
+      latestArrival: flight.time ? subtractTime(flight.time, 120) : '15:00', // 2 hours before flight
+      options: getTransferOptions({ type: 'city', city: airportCity }, to, airportCity),
+      selected: existing,
+      status: existing ? 'booked' : 'suggested',
+    };
+
+    return [interCityTransfer, airportTransfer];
+  }
+
+  // Same city - single airport transfer
   return {
     id: generateTransferId(),
     type: 'airport_departure',
@@ -291,12 +477,9 @@ function inferDepartureTransfer(
     date: flight.date,
     earliestDeparture: '06:00', // Hotel checkout usually morning
     latestArrival: flight.time ? subtractTime(flight.time, 180) : '15:00', // 3 hours before flight
-    options: hasMismatch ? [] : getTransferOptions(from, to, hotelCity),
+    options: getTransferOptions(from, to, hotelCity),
     selected: existing,
-    status: existing ? 'booked' : hasMismatch ? 'conflict' : 'suggested',
-    conflict: hasMismatch
-      ? `Last hotel is in ${hotelCity} but flight departs from ${flight.from} (${airportCity})`
-      : undefined,
+    status: existing ? 'booked' : 'suggested',
     warning: !hasMismatch && flight.time
       ? `Flight departs at ${flight.time}. Plan to leave hotel by ${subtractTime(flight.time, 180)}`
       : undefined,
@@ -380,11 +563,11 @@ function inferFromAirportTransfer(
   };
 }
 
-function inferInterCityTransfer(
+async function inferInterCityTransfer(
   fromLeg: TripLeg,
   toLeg: TripLeg,
   existingTransfers: TransferAnchor[]
-): InferredTransfer {
+): Promise<InferredTransfer> {
   const isSameCity = isCityMatch(fromLeg.city, toLeg.city);
 
   const from: TransferEndpoint = {
@@ -407,11 +590,38 @@ function inferInterCityTransfer(
     t.date === fromLeg.endDate
   );
 
+  // For inter-city transfers, look up stations from OpenStreetMap
+  let via = undefined;
+  if (!isSameCity) {
+    // Look up stations in parallel
+    const [departureStation, arrivalStation] = await Promise.all([
+      findMainStation(fromLeg.city),
+      findMainStation(toLeg.city),
+    ]);
+
+    via = {
+      departure: {
+        type: 'station' as const,
+        name: departureStation?.name || `${fromLeg.city} Station`,
+        city: fromLeg.city,
+        coordinates: departureStation?.coordinates,
+      },
+      arrival: {
+        type: 'station' as const,
+        name: arrivalStation?.name || `${toLeg.city} Station`,
+        city: toLeg.city,
+        coordinates: arrivalStation?.coordinates,
+      },
+      mode: getInterCityTransportMode(fromLeg.city, toLeg.city),
+    };
+  }
+
   return {
     id: generateTransferId(),
     type: isSameCity ? 'same_city' : 'inter_city',
     from,
     to,
+    via,
     date: fromLeg.endDate,
     earliestDeparture: '10:00', // After checkout
     latestArrival: '15:00', // Before check-in
@@ -424,12 +634,110 @@ function inferInterCityTransfer(
 }
 
 // ============================================
+// STATION/TRANSPORT HELPERS
+// ============================================
+// Note: Station lookups are now done dynamically via OpenStreetMap/Nominatim
+// using the findMainStation() and findAirport() async functions defined above
+
+// Cache for city country lookups
+const cityCountryCache = new Map<string, string | null>();
+
+/**
+ * Look up what country a city is in using OpenStreetMap
+ */
+async function getCityCountry(city: string): Promise<string | null> {
+  const cacheKey = city.toLowerCase();
+  if (cityCountryCache.has(cacheKey)) {
+    return cityCountryCache.get(cacheKey) || null;
+  }
+
+  try {
+    const results = await searchNominatim({
+      q: city,
+      limit: 1,
+      addressdetails: 1,
+    });
+
+    if (results[0]?.address?.country) {
+      const country = results[0].address.country;
+      cityCountryCache.set(cacheKey, country);
+      console.log(`[TransferInference] ${city} is in ${country}`);
+      return country;
+    }
+  } catch (error) {
+    console.warn(`[TransferInference] Failed to lookup country for ${city}:`, error);
+  }
+
+  cityCountryCache.set(cacheKey, null);
+  return null;
+}
+
+/**
+ * Get the appropriate inter-city transport mode by looking up countries
+ */
+async function getInterCityTransportModeAsync(fromCity: string, toCity: string): Promise<TransferMode> {
+  // Look up countries in parallel
+  const [fromCountry, toCountry] = await Promise.all([
+    getCityCountry(fromCity),
+    getCityCountry(toCity),
+  ]);
+
+  // Japan - use Shinkansen
+  if (fromCountry === 'Japan' && toCountry === 'Japan') {
+    return 'shinkansen';
+  }
+
+  // China - high speed rail
+  if (fromCountry === 'China' && toCountry === 'China') {
+    return 'train';
+  }
+
+  // European countries with high-speed rail
+  const hsrCountries = ['France', 'Germany', 'Spain', 'Italy', 'United Kingdom', 'Belgium', 'Netherlands', 'Switzerland', 'Austria'];
+  if (fromCountry && toCountry && hsrCountries.includes(fromCountry) && hsrCountries.includes(toCountry)) {
+    return 'train';
+  }
+
+  // Default to train
+  return 'train';
+}
+
+// Synchronous fallback (uses cached country data if available)
+function getInterCityTransportMode(fromCity: string, toCity: string): TransferMode {
+  const fromCountry = cityCountryCache.get(fromCity.toLowerCase());
+  const toCountry = cityCountryCache.get(toCity.toLowerCase());
+
+  if (fromCountry === 'Japan' && toCountry === 'Japan') {
+    return 'shinkansen';
+  }
+
+  return 'train';
+}
+
+// ============================================
 // UTILITY FUNCTIONS
 // ============================================
 
+/**
+ * Parse a date string in "YYYY-MM-DD" format as LOCAL time.
+ * Using `new Date("2026-03-15")` interprets as UTC midnight,
+ * which causes date shift in timezones behind UTC.
+ */
+function parseDateLocal(dateStr: string): Date {
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // month is 0-indexed
+    const day = parseInt(parts[2], 10);
+    return new Date(year, month, day, 0, 0, 0, 0);
+  }
+  // Fallback (may have timezone issues)
+  return new Date(dateStr);
+}
+
 function calculateNights(startDate: string, endDate: string): number {
-  const start = new Date(startDate);
-  const end = new Date(endDate);
+  const start = parseDateLocal(startDate);
+  const end = parseDateLocal(endDate);
   return Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
 }
 
@@ -441,68 +749,74 @@ function subtractTime(time: string, minutes: number): string {
   return `${String(newHours).padStart(2, '0')}:${String(newMins).padStart(2, '0')}`;
 }
 
-// City extraction from airport code (simplified - would use real data in production)
-const AIRPORT_TO_CITY: Record<string, string> = {
-  'NRT': 'Tokyo',
-  'HND': 'Tokyo',
-  'KIX': 'Osaka',
-  'ITM': 'Osaka',
-  'NGO': 'Nagoya',
-  'FUK': 'Fukuoka',
-  'CTS': 'Sapporo',
-  'OKA': 'Okinawa',
-  'CDG': 'Paris',
-  'ORY': 'Paris',
-  'LHR': 'London',
-  'LGW': 'London',
-  'STN': 'London',
-  'JFK': 'New York',
-  'EWR': 'New York',
-  'LGA': 'New York',
-  'LAX': 'Los Angeles',
-  'SFO': 'San Francisco',
-  'SEA': 'Seattle',
-  'ORD': 'Chicago',
-  'BOS': 'Boston',
-  'MIA': 'Miami',
-  'FCO': 'Rome',
-  'MXP': 'Milan',
-  'BCN': 'Barcelona',
-  'MAD': 'Madrid',
-  'AMS': 'Amsterdam',
-  'FRA': 'Frankfurt',
-  'MUC': 'Munich',
-  'ZRH': 'Zurich',
-  'VIE': 'Vienna',
-  'SIN': 'Singapore',
-  'HKG': 'Hong Kong',
-  'ICN': 'Seoul',
-  'PEK': 'Beijing',
-  'PVG': 'Shanghai',
-  'BKK': 'Bangkok',
-  'SYD': 'Sydney',
-  'MEL': 'Melbourne',
-};
+// ============================================
+// AIRPORT LOOKUP (OpenStreetMap + Cache)
+// ============================================
 
-const AIRPORT_NAMES: Record<string, string> = {
-  'NRT': 'Narita International Airport',
-  'HND': 'Haneda Airport',
-  'KIX': 'Kansai International Airport',
-  'ITM': 'Itami Airport',
-  'CDG': 'Charles de Gaulle Airport',
-  'ORY': 'Orly Airport',
-  'LHR': 'Heathrow Airport',
-  'JFK': 'John F. Kennedy International Airport',
-  'LAX': 'Los Angeles International Airport',
-  'SFO': 'San Francisco International Airport',
-};
+// Cache for airport lookups - populated by async functions
+const airportCache = new Map<string, { city: string; name: string; coordinates?: { lat: number; lng: number } }>();
 
+/**
+ * Look up airport info from OpenStreetMap
+ */
+async function lookupAirport(code: string): Promise<{ city: string; name: string; coordinates?: { lat: number; lng: number } }> {
+  const upperCode = code.toUpperCase();
+
+  // Check cache first
+  if (airportCache.has(upperCode)) {
+    return airportCache.get(upperCode)!;
+  }
+
+  try {
+    const results = await searchNominatim({
+      q: `${upperCode} international airport`,
+      limit: 5,
+    });
+
+    const airportResult = results.find(r =>
+      r.type === 'aerodrome' ||
+      r.class === 'aeroway' ||
+      r.display_name.toLowerCase().includes('airport') ||
+      r.display_name.toLowerCase().includes('空港')
+    ) || results[0];
+
+    if (airportResult) {
+      const info = {
+        city: airportResult.address?.city ||
+              airportResult.address?.town ||
+              airportResult.address?.county ||
+              upperCode,
+        name: airportResult.namedetails?.['name:en'] ||
+              airportResult.namedetails?.name ||
+              airportResult.display_name.split(',')[0],
+        coordinates: {
+          lat: parseFloat(airportResult.lat),
+          lng: parseFloat(airportResult.lon),
+        },
+      };
+      airportCache.set(upperCode, info);
+      console.log(`[TransferInference] Looked up airport ${upperCode}: ${info.name} in ${info.city}`);
+      return info;
+    }
+  } catch (error) {
+    console.warn(`[TransferInference] Failed to lookup airport ${upperCode}:`, error);
+  }
+
+  // Fallback - cache it to avoid repeated failed lookups
+  const fallback = { city: upperCode, name: `${upperCode} Airport` };
+  airportCache.set(upperCode, fallback);
+  return fallback;
+}
+
+// Synchronous versions that use cache (call async version first to populate)
 function extractCityFromAirportCode(code: string): string {
-  return AIRPORT_TO_CITY[code.toUpperCase()] || code;
+  const cached = airportCache.get(code.toUpperCase());
+  return cached?.city || code;
 }
 
 function getAirportName(code: string): string {
-  return AIRPORT_NAMES[code.toUpperCase()] || `${code} Airport`;
+  const cached = airportCache.get(code.toUpperCase());
+  return cached?.name || `${code} Airport`;
 }
 
 function isCityMatch(city1: string, city2: string): boolean {
@@ -510,258 +824,150 @@ function isCityMatch(city1: string, city2: string): boolean {
 }
 
 // ============================================
-// TRANSFER OPTIONS (would be API-driven in production)
+// TRANSFER OPTIONS (Dynamic - no hardcoded durations)
 // ============================================
 
+// Transport modes that are generally available
+const TRANSPORT_MODES = {
+  airport: ['train', 'bus', 'taxi', 'private_car'] as const,
+  city: ['taxi', 'subway', 'bus', 'walk'] as const,
+  intercity: ['train', 'bus', 'rental_car'] as const,
+};
+
+/**
+ * Get transfer options - returns mode types only
+ * Durations are calculated separately by routing service
+ */
 function getTransferOptions(
   from: TransferEndpoint,
   to: TransferEndpoint,
-  city: string
+  _city: string
 ): TransferOption[] {
-  // Japan-specific options
-  if (['Tokyo', 'Osaka', 'Kyoto', 'Nagoya'].includes(city)) {
-    if (from.type === 'airport' || to.type === 'airport') {
-      return getJapanAirportTransferOptions(from, to);
-    }
+  if (from.type === 'airport' || to.type === 'airport') {
+    return TRANSPORT_MODES.airport.map(mode => ({
+      id: mode,
+      mode: mode,
+      name: getModeName(mode),
+      recommended: mode === 'train',
+    }));
   }
 
-  // Default options
-  return [
-    {
-      id: 'taxi',
-      mode: 'taxi',
-      name: 'Taxi/Rideshare',
-      duration: 45,
-      cost: { amount: 50, currency: 'USD' },
-      recommended: false,
-    },
-    {
-      id: 'shuttle',
-      mode: 'bus',
-      name: 'Airport Shuttle',
-      duration: 60,
-      cost: { amount: 15, currency: 'USD' },
-      recommended: true,
-    },
-  ];
-}
-
-function getJapanAirportTransferOptions(
-  from: TransferEndpoint,
-  to: TransferEndpoint
-): TransferOption[] {
-  const isNarita = from.code === 'NRT' || to.code === 'NRT';
-  const isHaneda = from.code === 'HND' || to.code === 'HND';
-  const isKansai = from.code === 'KIX' || to.code === 'KIX';
-
-  if (isNarita) {
-    return [
-      {
-        id: 'nex',
-        mode: 'train',
-        name: 'Narita Express (N\'EX)',
-        duration: 60,
-        cost: { amount: 3250, currency: 'JPY' },
-        frequency: 'Every 30-60 min',
-        recommended: true,
-        bookingUrl: 'https://www.jreast.co.jp/e/nex/',
-      },
-      {
-        id: 'limousine',
-        mode: 'bus',
-        name: 'Airport Limousine Bus',
-        duration: 85,
-        cost: { amount: 3200, currency: 'JPY' },
-        frequency: 'Every 20 min',
-        bookingUrl: 'https://www.limousinebus.co.jp/en/',
-      },
-      {
-        id: 'skyliner',
-        mode: 'train',
-        name: 'Keisei Skyliner',
-        duration: 45,
-        cost: { amount: 2520, currency: 'JPY' },
-        frequency: 'Every 20-40 min',
-        notes: 'To Ueno/Nippori stations',
-      },
-      {
-        id: 'private',
-        mode: 'private_car',
-        name: 'Private Transfer',
-        duration: 90,
-        cost: { amount: 25000, currency: 'JPY' },
-        notes: 'Door-to-door service',
-      },
-    ];
-  }
-
-  if (isHaneda) {
-    return [
-      {
-        id: 'monorail',
-        mode: 'train',
-        name: 'Tokyo Monorail',
-        duration: 25,
-        cost: { amount: 500, currency: 'JPY' },
-        frequency: 'Every 4 min',
-        recommended: true,
-      },
-      {
-        id: 'keikyu',
-        mode: 'train',
-        name: 'Keikyu Line',
-        duration: 20,
-        cost: { amount: 300, currency: 'JPY' },
-        frequency: 'Every 10 min',
-      },
-      {
-        id: 'limousine',
-        mode: 'bus',
-        name: 'Airport Limousine Bus',
-        duration: 45,
-        cost: { amount: 1300, currency: 'JPY' },
-      },
-    ];
-  }
-
-  if (isKansai) {
-    return [
-      {
-        id: 'haruka',
-        mode: 'train',
-        name: 'Haruka Express',
-        duration: 75,
-        cost: { amount: 2900, currency: 'JPY' },
-        frequency: 'Every 30 min',
-        recommended: true,
-        notes: 'Direct to Kyoto',
-      },
-      {
-        id: 'nankai',
-        mode: 'train',
-        name: 'Nankai Rapi:t',
-        duration: 40,
-        cost: { amount: 1450, currency: 'JPY' },
-        frequency: 'Every 30 min',
-        notes: 'To Namba (Osaka)',
-      },
-      {
-        id: 'limousine',
-        mode: 'bus',
-        name: 'Airport Limousine Bus',
-        duration: 60,
-        cost: { amount: 1600, currency: 'JPY' },
-      },
-    ];
-  }
-
-  return [];
+  return TRANSPORT_MODES.city.map(mode => ({
+    id: mode,
+    mode: mode,
+    name: getModeName(mode),
+    recommended: mode === 'taxi',
+  }));
 }
 
 function getSameCityTransferOptions(
-  from: TransferEndpoint,
-  to: TransferEndpoint
+  _from: TransferEndpoint,
+  _to: TransferEndpoint
 ): TransferOption[] {
-  return [
-    {
-      id: 'taxi',
-      mode: 'taxi',
-      name: 'Taxi',
-      duration: 20,
-      cost: { amount: 2000, currency: 'JPY' },
-      recommended: true,
-    },
-    {
-      id: 'subway',
-      mode: 'subway',
-      name: 'Subway/Metro',
-      duration: 30,
-      cost: { amount: 300, currency: 'JPY' },
-    },
-  ];
+  return TRANSPORT_MODES.city.map(mode => ({
+    id: mode,
+    mode: mode,
+    name: getModeName(mode),
+    recommended: mode === 'taxi',
+  }));
 }
 
 function getInterCityTransferOptions(
-  fromCity: string,
-  toCity: string
+  _fromCity: string,
+  _toCity: string
 ): TransferOption[] {
-  // Japan intercity
-  const japanCities = ['Tokyo', 'Osaka', 'Kyoto', 'Nagoya', 'Hiroshima', 'Fukuoka'];
-  if (japanCities.includes(fromCity) && japanCities.includes(toCity)) {
-    return [
-      {
-        id: 'shinkansen',
-        mode: 'shinkansen',
-        name: 'Shinkansen (Bullet Train)',
-        duration: getShinkansenDuration(fromCity, toCity),
-        cost: { amount: getShinkansenPrice(fromCity, toCity), currency: 'JPY' },
-        recommended: true,
-        bookingUrl: 'https://www.jrailpass.com/',
-      },
-      {
-        id: 'highway-bus',
-        mode: 'bus',
-        name: 'Highway Bus',
-        duration: getShinkansenDuration(fromCity, toCity) * 3,
-        cost: { amount: Math.round(getShinkansenPrice(fromCity, toCity) * 0.3), currency: 'JPY' },
-        notes: 'Budget option, overnight available',
-      },
-    ];
+  return TRANSPORT_MODES.intercity.map(mode => ({
+    id: mode,
+    mode: mode,
+    name: getModeName(mode),
+    recommended: mode === 'train',
+  }));
+}
+
+/**
+ * Get human-readable name for transport mode
+ */
+function getModeName(mode: string): string {
+  const names: Record<string, string> = {
+    train: 'Train',
+    bus: 'Bus',
+    taxi: 'Taxi/Rideshare',
+    private_car: 'Private Transfer',
+    subway: 'Subway/Metro',
+    walk: 'Walk',
+    rental_car: 'Rental Car',
+    shinkansen: 'High-Speed Rail',
+  };
+  return names[mode] || mode;
+}
+
+// ============================================
+// TRAVEL TIME ESTIMATION (via distance calculation)
+// ============================================
+
+/**
+ * Estimate travel time between cities using OpenStreetMap geocoding and distance
+ */
+async function estimateTravelTime(fromCity: string, toCity: string, mode: string): Promise<number> {
+  try {
+    // Get coordinates for both cities
+    const [fromResults, toResults] = await Promise.all([
+      searchNominatim({ q: fromCity, limit: 1 }),
+      searchNominatim({ q: toCity, limit: 1 }),
+    ]);
+
+    if (fromResults[0] && toResults[0]) {
+      const fromLat = parseFloat(fromResults[0].lat);
+      const fromLng = parseFloat(fromResults[0].lon);
+      const toLat = parseFloat(toResults[0].lat);
+      const toLng = parseFloat(toResults[0].lon);
+
+      // Calculate distance using Haversine formula
+      const distance = haversineDistance(fromLat, fromLng, toLat, toLng);
+
+      // Estimate time based on mode
+      const speeds: Record<string, number> = {
+        shinkansen: 250, // km/h average
+        train: 150,
+        bus: 80,
+        car: 100,
+      };
+
+      const speed = speeds[mode] || 100;
+      const timeHours = distance / speed;
+      const timeMinutes = Math.round(timeHours * 60);
+
+      // Add buffer for boarding, stops, etc.
+      const buffer = mode === 'shinkansen' ? 15 : mode === 'train' ? 30 : 45;
+
+      return timeMinutes + buffer;
+    }
+  } catch (error) {
+    console.warn(`[TransferInference] Failed to estimate travel time:`, error);
   }
 
-  // Default options
-  return [
-    {
-      id: 'train',
-      mode: 'train',
-      name: 'Train',
-      duration: 180,
-      recommended: true,
-    },
-    {
-      id: 'bus',
-      mode: 'bus',
-      name: 'Bus',
-      duration: 300,
-    },
-    {
-      id: 'rental',
-      mode: 'rental_car',
-      name: 'Rental Car',
-      duration: 240,
-      notes: 'Self-drive option',
-    },
-  ];
-}
-
-function getShinkansenDuration(from: string, to: string): number {
-  const routes: Record<string, number> = {
-    'Tokyo-Osaka': 135,
-    'Tokyo-Kyoto': 135,
-    'Tokyo-Nagoya': 100,
-    'Tokyo-Hiroshima': 240,
-    'Tokyo-Fukuoka': 300,
-    'Osaka-Kyoto': 15,
-    'Osaka-Hiroshima': 90,
-    'Kyoto-Hiroshima': 100,
+  // Fallback estimates
+  const fallbacks: Record<string, number> = {
+    shinkansen: 120,
+    train: 180,
+    bus: 300,
+    car: 240,
   };
 
-  const key = [from, to].sort().join('-');
-  return routes[key] || 180;
+  return fallbacks[mode] || 180;
 }
 
-function getShinkansenPrice(from: string, to: string): number {
-  const routes: Record<string, number> = {
-    'Tokyo-Osaka': 13870,
-    'Tokyo-Kyoto': 13320,
-    'Tokyo-Nagoya': 10560,
-    'Tokyo-Hiroshima': 18380,
-    'Tokyo-Fukuoka': 22220,
-    'Osaka-Kyoto': 560,
-    'Osaka-Hiroshima': 10240,
-    'Kyoto-Hiroshima': 10890,
-  };
-
-  const key = [from, to].sort().join('-');
-  return routes[key] || 10000;
+/**
+ * Calculate distance between two coordinates using Haversine formula
+ */
+function haversineDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371; // Earth's radius in km
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
 }

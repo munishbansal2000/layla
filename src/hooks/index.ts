@@ -3,29 +3,6 @@
 // ============================================
 // Central exports for all custom hooks
 
-// Itinerary API Hook
-export {
-  useItinerary,
-  useItineraryList,
-  generateItinerary,
-  getItinerary,
-  updateItinerary,
-  deleteItinerary,
-  getSwapOptions,
-  swapActivity,
-  processSwipe,
-  lockActivity,
-  confirmItinerary,
-} from "./useItinerary";
-export type {
-  ItineraryRequest,
-  DayScheduleSlot,
-  DaySchedule,
-  Itinerary,
-  SwapOption,
-  GenerateResponse,
-} from "./useItinerary";
-
 // Activity Selection Hook
 export {
   useActivitySelection,
@@ -57,3 +34,11 @@ export type {
 
 // Weather Hook
 export { useWeather, getWeatherForDate } from "./useWeather";
+
+// Itinerary Validation Hook
+export { useItineraryValidation } from "./useItineraryValidation";
+export type { UseItineraryValidationOptions, UseItineraryValidationReturn } from "./useItineraryValidation";
+
+// Itinerary Chat Hook
+export { useItineraryChat } from "./useItineraryChat";
+export type { UseItineraryChatOptions, UseItineraryChatReturn } from "./useItineraryChat";

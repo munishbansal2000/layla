@@ -446,6 +446,23 @@ function generateId(): string {
 }
 
 /**
+ * Parse a date string in "YYYY-MM-DD" format as LOCAL time.
+ * Using `new Date("2026-03-15")` interprets as UTC midnight,
+ * which causes date shift in timezones behind UTC.
+ */
+function parseDateLocal(dateStr: string): Date {
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // month is 0-indexed
+    const day = parseInt(parts[2], 10);
+    return new Date(year, month, day, 0, 0, 0, 0);
+  }
+  // Fallback (may have timezone issues)
+  return new Date(dateStr);
+}
+
+/**
  * Calculate distance between two coordinates (Haversine formula)
  */
 function calculateDistance(
@@ -1172,8 +1189,9 @@ export class ScheduleBuilder {
     restaurantsByCity: Map<string, ScoredActivity[]>,
     weatherByDate?: Map<string, WeatherForecast>
   ): Promise<TripSchedule> {
-    const start = new Date(startDate);
-    const end = new Date(endDate);
+    // Parse dates as local time to avoid timezone shift issues
+    const start = parseDateLocal(startDate);
+    const end = parseDateLocal(endDate);
     const numDays =
       Math.ceil((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24)) + 1;
 

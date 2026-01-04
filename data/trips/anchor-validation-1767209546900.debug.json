@@ -1,0 +1,226 @@
+{
+  "tripId": "anchor-validation-1767209546900",
+  "generatedAt": "2025-12-31T19:31:57.553Z",
+  "version": "1.0.0",
+  "requestStructures": {
+    "flightConstraints": {
+      "flights": [
+        {
+          "id": "flight-1767208463877-z6rp4tygb",
+          "from": "SFO",
+          "to": "NRT",
+          "date": "2026-03-15",
+          "time": "15:00"
+        },
+        {
+          "id": "flight-1767208463877-rvop8hf4k",
+          "from": "NRT",
+          "to": "SFO",
+          "date": "2026-03-20",
+          "time": "10:00"
+        }
+      ]
+    },
+    "anchors": [
+      {
+        "id": "activity-1767208463877-v8feruw2d",
+        "name": "teamLab Planets",
+        "category": "other",
+        "city": "Tokyo",
+        "date": "2026-03-16",
+        "startTime": "14:00",
+        "duration": 180
+      },
+      {
+        "id": "activity-1767208463877-ipaa50yft",
+        "name": "sushi-making class at Tokyo Sushi Academy",
+        "category": "other",
+        "city": "Tokyo",
+        "date": "2026-03-17",
+        "startTime": "11:00",
+        "duration": 118
+      },
+      {
+        "id": "activity-1767208463877-c8gin42k4",
+        "name": "Fushimi Inari sunrise tour",
+        "category": "other",
+        "city": "kyoto",
+        "date": "2026-03-19",
+        "startTime": "05:30",
+        "duration": 120
+      }
+    ],
+    "hotels": [
+      {
+        "id": "hotel-1767208463877-p2hwben1m",
+        "city": "Tokyo",
+        "name": "Park Hyatt",
+        "checkIn": "2026-03-15",
+        "checkOut": "2026-03-18"
+      },
+      {
+        "id": "hotel-1767208463877-qzk2wv6mi",
+        "city": "Kyoto",
+        "name": "Ritz-Carlton",
+        "checkIn": "2026-03-18",
+        "checkOut": "2026-03-20"
+      }
+    ]
+  },
+  "userRequest": {
+    "tripPrompt": "\n\n5 days in Japan for 2 adults and 2 kids (ages 8 and 12), starting March 15 2026. \n\nWe're flying from SFO to Tokyo Narita on March 15, arriving at 3pm. Return flight from Kyoto on March 20 at 10am.\n\nWe have a hotel booked in Tokyo from March 15-18 at Park Hyatt in Tokyo, then moving to Kyoto at Ritz-Carlton (in Kyoto) from March 18-20\n\nWe already booked teamLab Planets on March 16 at 2pm, a sushi-making class at Tokyo Sushi Academy on March 17 at 11am, and Fushimi Inari sunrise tour on March 19 at 5:30am.\n\nWe love ramen, temples, anime, and art. The kids are really into Pokemon and gaming. \nWe're vegetarian so no meat, but fish is okay. \nBudget is moderate but we'll splurge on special experiences. \nKeep the pace relaxed since we're traveling with kids.\n\nMust visit: Senso-ji Temple, Arashiyama Bamboo Grove, Nara Deer Park, Nintendo Store \nPlease avoid: crowded tourist traps, any sushi restaurants (we don't like raw fish), theme parks\n\n",
+    "rawRequest": {
+      "flights": [
+        {
+          "id": "flight-1767208463877-z6rp4tygb",
+          "from": "SFO",
+          "to": "NRT",
+          "date": "2026-03-15",
+          "time": "15:00"
+        },
+        {
+          "id": "flight-1767208463877-rvop8hf4k",
+          "from": "NRT",
+          "to": "SFO",
+          "date": "2026-03-20",
+          "time": "10:00"
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel-1767208463877-p2hwben1m",
+          "city": "Tokyo",
+          "name": "Park Hyatt",
+          "checkIn": "2026-03-15",
+          "checkOut": "2026-03-18"
+        },
+        {
+          "id": "hotel-1767208463877-qzk2wv6mi",
+          "city": "Kyoto",
+          "name": "Ritz-Carlton",
+          "checkIn": "2026-03-18",
+          "checkOut": "2026-03-20"
+        }
+      ],
+      "activities": [
+        {
+          "id": "activity-1767208463877-v8feruw2d",
+          "name": "teamLab Planets",
+          "category": "other",
+          "city": "Tokyo",
+          "date": "2026-03-16",
+          "startTime": "14:00",
+          "duration": 180
+        },
+        {
+          "id": "activity-1767208463877-ipaa50yft",
+          "name": "sushi-making class at Tokyo Sushi Academy",
+          "category": "other",
+          "city": "Tokyo",
+          "date": "2026-03-17",
+          "startTime": "11:00",
+          "duration": 118
+        },
+        {
+          "id": "activity-1767208463877-c8gin42k4",
+          "name": "Fushimi Inari sunrise tour",
+          "category": "other",
+          "city": "kyoto",
+          "date": "2026-03-19",
+          "startTime": "05:30",
+          "duration": 120
+        }
+      ],
+      "tripPrompt": "\n\n5 days in Japan for 2 adults and 2 kids (ages 8 and 12), starting March 15 2026. \n\nWe're flying from SFO to Tokyo Narita on March 15, arriving at 3pm. Return flight from Kyoto on March 20 at 10am.\n\nWe have a hotel booked in Tokyo from March 15-18 at Park Hyatt in Tokyo, then moving to Kyoto at Ritz-Carlton (in Kyoto) from March 18-20\n\nWe already booked teamLab Planets on March 16 at 2pm, a sushi-making class at Tokyo Sushi Academy on March 17 at 11am, and Fushimi Inari sunrise tour on March 19 at 5:30am.\n\nWe love ramen, temples, anime, and art. The kids are really into Pokemon and gaming. \nWe're vegetarian so no meat, but fish is okay. \nBudget is moderate but we'll splurge on special experiences. \nKeep the pace relaxed since we're traveling with kids.\n\nMust visit: Senso-ji Temple, Arashiyama Bamboo Grove, Nara Deer Park, Nintendo Store \nPlease avoid: crowded tourist traps, any sushi restaurants (we don't like raw fish), theme parks\n\n",
+      "includeLLMValidation": true
+    },
+    "timestamp": "2025-12-31T19:31:57.554Z"
+  },
+  "llmRequest": {
+    "provider": "openai",
+    "systemPrompt": "You are a travel planning assistant that validates trip bookings for logical consistency and potential issues.\n\nAnalyze the provided trip anchors (flights, hotels, activities) and identify:\n\n1. ERRORS - Blocking issues that must be fixed:\n   - Impossible logistics (activity in city with no hotel/flight access)\n   - Date/time conflicts that can't be resolved\n   - Missing critical information\n\n2. WARNINGS - Problems to consider:\n   - Tight connections (flight landing close to activity time)\n   - City mismatches (flying to Tokyo but hotel in Osaka without transport)\n   - Unaccounted gaps (nights without hotel)\n   - Geographic impossibilities (Fushimi Inari listed in Tokyo - it's in Kyoto)\n\n3. SUGGESTIONS - Improvements:\n   - Better timing recommendations\n   - Missing bookings to consider\n   - Travel tips based on itinerary\n\n4. MISSING_INFO - What's unaccounted:\n   - Nights without accommodation\n   - Days with no planned activities\n   - Transport between cities\n\nRespond ONLY with valid JSON in this exact format:\n{\n  \"errors\": [\n    { \"message\": \"string\", \"affectedAnchors\": [\"anchorId1\"], \"suggestion\": \"how to fix\" }\n  ],\n  \"warnings\": [\n    { \"message\": \"string\", \"affectedAnchors\": [\"anchorId1\"], \"suggestion\": \"what to consider\" }\n  ],\n  \"suggestions\": [\n    { \"message\": \"string\", \"priority\": \"high|medium|low\" }\n  ],\n  \"missingInfo\": [\n    { \"message\": \"string\", \"field\": \"optional field name\" }\n  ]\n}",
+    "userPrompt": "TRIP DESCRIPTION: \n\n5 days in Japan for 2 adults and 2 kids (ages 8 and 12), starting March 15 2026. \n\nWe're flying from SFO to Tokyo Narita on March 15, arriving at 3pm. Return flight from Kyoto on March 20 at 10am.\n\nWe have a hotel booked in Tokyo from March 15-18 at Park Hyatt in Tokyo, then moving to Kyoto at Ritz-Carlton (in Kyoto) from March 18-20\n\nWe already booked teamLab Planets on March 16 at 2pm, a sushi-making class at Tokyo Sushi Academy on March 17 at 11am, and Fushimi Inari sunrise tour on March 19 at 5:30am.\n\nWe love ramen, temples, anime, and art. The kids are really into Pokemon and gaming. \nWe're vegetarian so no meat, but fish is okay. \nBudget is moderate but we'll splurge on special experiences. \nKeep the pace relaxed since we're traveling with kids.\n\nMust visit: Senso-ji Temple, Arashiyama Bamboo Grove, Nara Deer Park, Nintendo Store \nPlease avoid: crowded tourist traps, any sushi restaurants (we don't like raw fish), theme parks\n\n\n\nFLIGHTS:\n- [flight-1767208463877-z6rp4tygb] SFO → NRT on 2026-03-15 at 15:00\n- [flight-1767208463877-rvop8hf4k] NRT → SFO on 2026-03-20 at 10:00\n\nHOTELS:\n- [hotel-1767208463877-p2hwben1m] Tokyo: 2026-03-15 to 2026-03-18 (Park Hyatt)\n- [hotel-1767208463877-qzk2wv6mi] Kyoto: 2026-03-18 to 2026-03-20 (Ritz-Carlton)\n\nACTIVITIES:\n- [activity-1767208463877-v8feruw2d] \"teamLab Planets\" in Tokyo on 2026-03-16 at 14:00 (180min)\n- [activity-1767208463877-ipaa50yft] \"sushi-making class at Tokyo Sushi Academy\" in Tokyo on 2026-03-17 at 11:00 (118min)\n- [activity-1767208463877-c8gin42k4] \"Fushimi Inari sunrise tour\" in kyoto on 2026-03-19 at 05:30 (120min)\n\nAnalyze these bookings for logical issues, conflicts, and missing information. Consider geography (which cities are attractions actually in), timing (can they make it?), and completeness (any gaps?).",
+    "jsonMode": true,
+    "timestamp": "2025-12-31T19:31:57.555Z"
+  },
+  "llmResponse": {
+    "rawResponse": "{\"errors\":[{\"message\":\"Fushimi Inari is located in Kyoto, but the sunrise tour is booked for March 19 at 5:30am from Tokyo hotel\",\"affectedAnchors\":[\"hotel-1767208463877-qzk2wv6mi\",\"activity-1767208463877-c8gin42k4\"],\"suggestion\":\"Rebook the Fushimi Inari sunrise tour for March 19 at a time that allows for transportation from Tokyo to Kyoto\"}],\"warnings\":[{\"message\":\"The teamLab Planets activity is booked in Tokyo on March 16, but it's unclear if there's sufficient time to travel between the hotel and the activity\",\"affectedAnchors\":[\"activity-1767208463877-v8feruw2d\"],\"suggestion\":\"Consider booking a morning or afternoon slot for teamLab Planets to ensure enough time for transportation\"},{\"message\":\"The Fushimi Inari sunrise tour is booked in Kyoto on March 19 at 5:30am, but the return flight from Kyoto isn't until 10am\",\"affectedAnchors\":[\"activity-1767208463877-c8gin42k4\"],\"suggestion\":\"Consider booking an evening or overnight activity for March 19 to avoid rushing back to the airport\"}],\"suggestions\":[{\"message\":\"Book a morning visit to Senso-ji Temple on March 16, followed by lunch at a nearby ramen restaurant\",\"priority\":\"medium\"},{\"message\":\"Visit the Nintendo Store in Osaka for some gaming fun (located about an hour away from Kyoto)\",\"priority\":\"high\"}],\"missingInfo\":[{\"message\":\"Transportation between Tokyo and Kyoto on March 18 is not accounted for\",\"field\":\"transportation\"},{\"message\":\"Nights without hotel booking: March 20 (return flight from Kyoto)\",\"field\":\"accommodation\"}]}",
+    "parsedResponse": {
+      "errors": [
+        {
+          "message": "Fushimi Inari is located in Kyoto, but the sunrise tour is booked for March 19 at 5:30am from Tokyo hotel",
+          "affectedAnchors": [
+            "hotel-1767208463877-qzk2wv6mi",
+            "activity-1767208463877-c8gin42k4"
+          ],
+          "suggestion": "Rebook the Fushimi Inari sunrise tour for March 19 at a time that allows for transportation from Tokyo to Kyoto"
+        }
+      ],
+      "warnings": [
+        {
+          "message": "The teamLab Planets activity is booked in Tokyo on March 16, but it's unclear if there's sufficient time to travel between the hotel and the activity",
+          "affectedAnchors": [
+            "activity-1767208463877-v8feruw2d"
+          ],
+          "suggestion": "Consider booking a morning or afternoon slot for teamLab Planets to ensure enough time for transportation"
+        },
+        {
+          "message": "The Fushimi Inari sunrise tour is booked in Kyoto on March 19 at 5:30am, but the return flight from Kyoto isn't until 10am",
+          "affectedAnchors": [
+            "activity-1767208463877-c8gin42k4"
+          ],
+          "suggestion": "Consider booking an evening or overnight activity for March 19 to avoid rushing back to the airport"
+        }
+      ],
+      "suggestions": [
+        {
+          "message": "Book a morning visit to Senso-ji Temple on March 16, followed by lunch at a nearby ramen restaurant",
+          "priority": "medium"
+        },
+        {
+          "message": "Visit the Nintendo Store in Osaka for some gaming fun (located about an hour away from Kyoto)",
+          "priority": "high"
+        }
+      ],
+      "missingInfo": [
+        {
+          "message": "Transportation between Tokyo and Kyoto on March 18 is not accounted for",
+          "field": "transportation"
+        },
+        {
+          "message": "Nights without hotel booking: March 20 (return flight from Kyoto)",
+          "field": "accommodation"
+        }
+      ]
+    },
+    "processingTimeMs": 29345,
+    "timestamp": "2025-12-31T19:32:26.900Z"
+  },
+  "remediation": {
+    "algorithmicChanges": [],
+    "llmChanges": [
+      {
+        "type": "LLM_ERROR",
+        "day": 0,
+        "slot": null,
+        "reason": "Fushimi Inari is located in Kyoto, but the sunrise tour is booked for March 19 at 5:30am from Tokyo hotel"
+      },
+      {
+        "type": "LLM_WARNING",
+        "day": 0,
+        "slot": null,
+        "reason": "The teamLab Planets activity is booked in Tokyo on March 16, but it's unclear if there's sufficient time to travel between the hotel and the activity"
+      },
+      {
+        "type": "LLM_WARNING",
+        "day": 0,
+        "slot": null,
+        "reason": "The Fushimi Inari sunrise tour is booked in Kyoto on March 19 at 5:30am, but the return flight from Kyoto isn't until 10am"
+      }
+    ],
+    "totalChanges": 3,
+    "llmCallCount": 1,
+    "processingTimeMs": 29347,
+    "timestamp": "2025-12-31T19:32:26.900Z"
+  }
+}

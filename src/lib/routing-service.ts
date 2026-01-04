@@ -2,8 +2,8 @@
  * Routing Service
  *
  * Provides commute planning and optimization for trip itineraries.
- * Integrates with Google Maps for directions and with OpenStreetMap
- * as a fallback for basic distance calculations.
+ * Integrates with OSRM (OpenStreetMap Routing) as primary routing engine,
+ * with Google Maps as fallback, and basic distance estimation as final fallback.
  *
  * Features:
  * - Multi-modal routing (walking, transit, driving, taxi)
@@ -11,6 +11,11 @@
  * - Route optimization for day plans
  * - Family-friendly adjustments (stroller, kids)
  * - Last train warnings
+ *
+ * Routing Priority:
+ * 1. OSRM (OpenStreetMap) - Free, no API key required
+ * 2. Google Maps - Requires API key, more accurate for transit
+ * 3. Haversine estimation - Fallback when no API available
  */
 
 import {
@@ -29,6 +34,130 @@ import {
   TravelMode,
   LatLng,
 } from "./google-maps";
+
+// ============================================
+// OSRM (OpenStreetMap Routing Machine) CONFIG
+// ============================================
+
+// Public OSRM demo server (for development/testing)
+// For production, consider self-hosting: https://github.com/Project-OSRM/osrm-backend
+const OSRM_BASE_URL = process.env.OSRM_BASE_URL || "https://router.project-osrm.org";
+
+// OSRM profile to CommuteMethod mapping
+type OSRMProfile = "car" | "bike" | "foot";
+
+interface OSRMRoute {
+  distance: number; // meters
+  duration: number; // seconds
+  geometry: string; // encoded polyline
+  legs: Array<{
+    distance: number;
+    duration: number;
+    steps: Array<{
+      distance: number;
+      duration: number;
+      name: string;
+      maneuver: {
+        type: string;
+        modifier?: string;
+        location: [number, number];
+      };
+    }>;
+  }>;
+}
+
+interface OSRMResponse {
+  code: string;
+  routes: OSRMRoute[];
+  waypoints: Array<{
+    name: string;
+    location: [number, number];
+  }>;
+}
+
+/**
+ * Check if OSRM is available (always true for public demo server)
+ */
+export function isOSRMConfigured(): boolean {
+  return true;
+}
+
+/**
+ * Get route from OSRM
+ */
+async function getOSRMRoute(
+  origin: LatLng,
+  destination: LatLng,
+  profile: OSRMProfile = "foot"
+): Promise<OSRMRoute | null> {
+  try {
+    const url = `${OSRM_BASE_URL}/route/v1/${profile}/${origin.lng},${origin.lat};${destination.lng},${destination.lat}?overview=full&geometries=polyline&steps=true`;
+
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "LaylaClone/1.0 (travel-planning-app)",
+      },
+    });
+
+    if (!response.ok) {
+      console.warn(`[OSRM] HTTP error: ${response.status}`);
+      return null;
+    }
+
+    const data: OSRMResponse = await response.json();
+
+    if (data.code !== "Ok" || !data.routes?.length) {
+      console.warn(`[OSRM] No route found: ${data.code}`);
+      return null;
+    }
+
+    return data.routes[0];
+  } catch (error) {
+    console.warn(`[OSRM] Route fetch failed:`, error);
+    return null;
+  }
+}
+
+/**
+ * Map CommuteMethod to OSRM profile
+ */
+function commuteMethodToOSRMProfile(method: CommuteMethod): OSRMProfile {
+  switch (method) {
+    case "walk":
+      return "foot";
+    case "bicycle":
+      return "bike";
+    case "driving":
+    case "taxi":
+      return "car";
+    default:
+      return "foot"; // OSRM doesn't support transit, fallback to walking
+  }
+}
+
+/**
+ * Get travel duration from OSRM
+ */
+async function getOSRMDuration(
+  origin: LatLng,
+  destination: LatLng,
+  method: CommuteMethod
+): Promise<number | null> {
+  // OSRM doesn't support transit - return null to fallback
+  if (method === "transit" || method === "mixed") {
+    return null;
+  }
+
+  const profile = commuteMethodToOSRMProfile(method);
+  const route = await getOSRMRoute(origin, destination, profile);
+
+  if (route) {
+    console.log(`[OSRM] Got route: ${route.distance}m, ${route.duration}s`);
+    return route.duration;
+  }
+
+  return null;
+}
 
 // ============================================
 // TYPES
@@ -291,6 +420,11 @@ async function getEstimatedCommuteOptions(
 
 /**
  * Get travel time between two points
+ *
+ * Routing Priority:
+ * 1. OSRM (OpenStreetMap) - Free, no API key required (walk, bike, drive)
+ * 2. Google Maps - More accurate for transit, requires API key
+ * 3. Haversine estimation - Fallback when no API available
  */
 export async function getCommuteDuration(
   origin: LatLng | string,
@@ -298,32 +432,62 @@ export async function getCommuteDuration(
   mode: CommuteMethod = "transit",
   preferences?: CommutePreferences
 ): Promise<number | null> {
-  if (!isGoogleMapsConfigured()) {
-    // Fallback estimation
-    const distance = await calculateDistanceBetween(origin, destination);
-    if (!distance) return null;
+  // Convert string addresses to LatLng if needed
+  const originLatLng = typeof origin === "string" ? null : origin;
+  const destLatLng = typeof destination === "string" ? null : destination;
 
-    switch (mode) {
-      case "walk":
-        return distance / WALKING_SPEEDS[preferences?.walkingSpeed || "normal"];
-      case "transit":
-        return estimateTransitDuration(distance);
-      case "taxi":
-      case "driving":
-        return estimateDrivingDuration(distance);
-      default:
-        return estimateTransitDuration(distance);
+  // 1. Try OSRM first (free, no API key needed) - works for walk, bike, drive
+  if (originLatLng && destLatLng && mode !== "transit" && mode !== "mixed") {
+    console.log(`[RoutingService] Trying OSRM first for ${mode}...`);
+    const osrmDuration = await getOSRMDuration(originLatLng, destLatLng, mode);
+
+    if (osrmDuration !== null) {
+      console.log(`[RoutingService] OSRM succeeded: ${osrmDuration}s`);
+      return adjustDurationForPreferences(osrmDuration, preferences || {});
     }
+    console.log(`[RoutingService] OSRM failed, trying next provider...`);
   }
 
-  const travelTime = await getTravelTime(origin, destination, {
-    mode: mapCommuteToTravelMode(mode),
-    departureTime: "now",
-  });
+  // 2. Try Google Maps (required for transit, optional for other modes)
+  if (isGoogleMapsConfigured()) {
+    console.log(`[RoutingService] Trying Google Maps...`);
+    const travelTime = await getTravelTime(origin, destination, {
+      mode: mapCommuteToTravelMode(mode),
+      departureTime: "now",
+    });
 
-  if (!travelTime) return null;
+    if (travelTime) {
+      console.log(`[RoutingService] Google Maps succeeded: ${travelTime.duration}s`);
+      return adjustDurationForPreferences(travelTime.duration, preferences || {});
+    }
+    console.log(`[RoutingService] Google Maps failed, using estimation...`);
+  }
 
-  return adjustDurationForPreferences(travelTime.duration, preferences || {});
+  // 3. Fallback: Haversine distance-based estimation
+  console.log(`[RoutingService] Using Haversine estimation fallback...`);
+  const distance = await calculateDistanceBetween(origin, destination);
+  if (!distance) return null;
+
+  let estimatedDuration: number;
+  switch (mode) {
+    case "walk":
+      estimatedDuration = distance / WALKING_SPEEDS[preferences?.walkingSpeed || "normal"];
+      break;
+    case "transit":
+      estimatedDuration = estimateTransitDuration(distance);
+      break;
+    case "taxi":
+    case "driving":
+      estimatedDuration = estimateDrivingDuration(distance);
+      break;
+    case "bicycle":
+      estimatedDuration = (distance / 1000) * (3600 / 15); // ~15 km/h average
+      break;
+    default:
+      estimatedDuration = estimateTransitDuration(distance);
+  }
+
+  return adjustDurationForPreferences(estimatedDuration, preferences || {});
 }
 
 /**

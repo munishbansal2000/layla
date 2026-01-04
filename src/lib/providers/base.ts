@@ -66,13 +66,18 @@ export abstract class BaseProvider implements LLMProvider {
   // ===========================================
 
   async chat(messages: ChatMessage[], options?: ChatOptions): Promise<string> {
-    const mode = getAIMode();
+    const globalMode = getAIMode();
     const startTime = Date.now();
+
+    // Check for provider-specific mode override (e.g., OLLAMA_MODE=prod)
+    const providerModeEnvVar = `${this.provider.toUpperCase()}_MODE`;
+    const providerMode = process.env[providerModeEnvVar];
+    const mode = providerMode || globalMode;
 
     // Build full messages with system prompt
     const allMessages = this.buildMessagesWithSystem(messages, options?.systemPrompt);
 
-    // In test mode, try cache first
+    // In test mode, try cache first (unless provider has its own mode override)
     if (mode === "test") {
       console.log(`[${this.provider}] Test mode - checking for replay match...`);
       const replayMatch = await findReplayMatch("chat", allMessages, {
@@ -86,6 +91,19 @@ export abstract class BaseProvider implements LLMProvider {
       }
       console.log(`[${this.provider}] No replay match - calling API...`);
     }
+
+    // Log request details (always, so we can see what's being sent)
+    console.log(`\n[${this.provider}] ========== REQUEST ==========`);
+    console.log(`[${this.provider}] Model: ${this.getModel()}`);
+    console.log(`[${this.provider}] Messages: ${allMessages.length} total`);
+    allMessages.forEach((msg, i) => {
+      const contentPreview = msg.content.length > 200
+        ? msg.content.substring(0, 200) + '...'
+        : msg.content;
+      console.log(`[${this.provider}]   [${i}] ${msg.role}: "${contentPreview.replace(/\n/g, '\\n')}"`);
+    });
+    console.log(`[${this.provider}] Options: temp=${options?.temperature ?? 0.7}, maxTokens=${options?.maxTokens ?? 1000}, jsonMode=${options?.jsonMode ?? false}`);
+    console.log(`[${this.provider}] ==============================\n`);
 
     // Call the actual API
     try {
@@ -119,6 +137,18 @@ export abstract class BaseProvider implements LLMProvider {
 
       logOpenAIRequest(logEntry).catch(console.error);
       console.log(`[${this.provider}] Response logged: ${logEntry.id}`);
+
+      // Log response details
+      console.log(`\n[${this.provider}] ========== RESPONSE ==========`);
+      console.log(`[${this.provider}] Duration: ${durationMs}ms`);
+      if (result.usage) {
+        console.log(`[${this.provider}] Tokens: prompt=${result.usage.promptTokens}, completion=${result.usage.completionTokens}, total=${result.usage.totalTokens}`);
+      }
+      const responsePreview = result.content.length > 500
+        ? result.content.substring(0, 500) + '...'
+        : result.content;
+      console.log(`[${this.provider}] Content: "${responsePreview.replace(/\n/g, '\\n')}"`);
+      console.log(`[${this.provider}] ===============================\n`);
 
       return result.content;
     } catch (error) {

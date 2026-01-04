@@ -2,10 +2,12 @@
 // GET/PUT /api/itinerary/[id]/slot/[slotId]
 // ============================================
 // Get swap options and execute swaps for a specific slot
+// Uses itinerary-service for slot operations
 
 import { NextRequest, NextResponse } from "next/server";
-import { getItineraryOrchestrator } from "@/lib/itinerary-orchestrator";
+import { getSwapOptions, swapActivity } from "@/lib/itinerary-service";
 import { getItineraryStore } from "@/lib/itinerary-store";
+import type { ActivityOption } from "@/types/structured-itinerary";
 
 // ============================================
 // GET - Get swap options for a slot
@@ -18,17 +20,34 @@ export async function GET(
   try {
     const { id, slotId } = await params;
     const store = getItineraryStore();
-    const itinerary = store.get(id);
+    const storedItinerary = store.get(id);
 
-    if (!itinerary) {
+    if (!storedItinerary) {
       return NextResponse.json(
         { success: false, error: { code: "NOT_FOUND", message: "Itinerary not found" } },
         { status: 404 }
       );
     }
 
-    const orchestrator = getItineraryOrchestrator();
-    const slotDetails = orchestrator.getSwapOptions(itinerary, slotId);
+    // Convert stored GeneratedItinerary to StructuredItineraryData format
+    // For now, we need to find the day number from the slot ID
+    const slotIdParts = slotId.match(/day(\d+)/);
+    const dayNumber = slotIdParts ? parseInt(slotIdParts[1], 10) : 1;
+
+    // Get the structured itinerary from the store's raw data
+    // The store may have either format, so handle both
+    const itinerary = (storedItinerary as { days?: Array<{ dayNumber: number; city: string; slots: unknown[] }> }).days
+      ? storedItinerary as unknown as import("@/types/structured-itinerary").StructuredItineraryData
+      : null;
+
+    if (!itinerary) {
+      return NextResponse.json(
+        { success: false, error: { code: "INVALID_FORMAT", message: "Itinerary format not supported for swap operations" } },
+        { status: 400 }
+      );
+    }
+
+    const slotDetails = await getSwapOptions(itinerary, dayNumber, slotId);
 
     if (!slotDetails) {
       return NextResponse.json(
@@ -42,23 +61,19 @@ export async function GET(
       data: {
         slot: {
           id: slotDetails.slotId,
-          dayIndex: slotDetails.dayIndex,
-          currentActivity: slotDetails.scheduledActivity.activity,
-          scheduledStart: slotDetails.scheduledActivity.scheduledStart,
-          scheduledEnd: slotDetails.scheduledActivity.scheduledEnd,
-          isLocked: slotDetails.scheduledActivity.isLocked,
+          dayNumber: slotDetails.dayNumber,
+          currentActivity: slotDetails.currentActivity,
         },
         alternatives: slotDetails.alternatives.map((alt) => ({
-          activityId: alt.activity.activity.id,
+          activityId: alt.id,
           name: alt.activity.activity.name,
           description: alt.activity.activity.description,
           category: alt.activity.activity.category,
-          score: alt.swapScore,
+          score: alt.score,
           reason: alt.reason,
           benefits: alt.benefits,
           tradeoffs: alt.tradeoffs,
-          commuteFromPrevious: alt.commuteFromPrevious,
-          commuteToNext: alt.commuteToNext,
+          distance: alt.distance,
         })),
       },
     });
@@ -90,34 +105,51 @@ export async function PUT(
     const { id, slotId } = await params;
     const body = await request.json();
 
-    if (!body.newActivityId) {
+    if (!body.newActivity) {
       return NextResponse.json(
-        { success: false, error: { code: "INVALID_REQUEST", message: "newActivityId is required" } },
+        { success: false, error: { code: "INVALID_REQUEST", message: "newActivity is required" } },
         { status: 400 }
       );
     }
 
     const store = getItineraryStore();
-    const itinerary = store.get(id);
+    const storedItinerary = store.get(id);
 
-    if (!itinerary) {
+    if (!storedItinerary) {
       return NextResponse.json(
         { success: false, error: { code: "NOT_FOUND", message: "Itinerary not found" } },
         { status: 404 }
       );
     }
 
-    const orchestrator = getItineraryOrchestrator();
-    const updatedItinerary = orchestrator.swapActivity(itinerary, slotId, body.newActivityId);
+    // Parse day number from slot ID
+    const slotIdParts = slotId.match(/day(\d+)/);
+    const dayNumber = slotIdParts ? parseInt(slotIdParts[1], 10) : 1;
 
-    store.save(updatedItinerary);
+    // Get the structured itinerary
+    const itinerary = (storedItinerary as { days?: Array<{ dayNumber: number }> }).days
+      ? storedItinerary as unknown as import("@/types/structured-itinerary").StructuredItineraryData
+      : null;
+
+    if (!itinerary) {
+      return NextResponse.json(
+        { success: false, error: { code: "INVALID_FORMAT", message: "Itinerary format not supported for swap operations" } },
+        { status: 400 }
+      );
+    }
+
+    const newActivity = body.newActivity as ActivityOption;
+    const updatedItinerary = swapActivity(itinerary, dayNumber, slotId, newActivity);
+
+    // Save the updated itinerary
+    store.save(updatedItinerary as unknown as import("@/lib/itinerary-store").StoredItinerary);
 
     return NextResponse.json({
       success: true,
       data: {
         itinerary: updatedItinerary,
         swappedSlot: slotId,
-        newActivityId: body.newActivityId,
+        newActivity: newActivity,
       },
     });
   } catch (error) {

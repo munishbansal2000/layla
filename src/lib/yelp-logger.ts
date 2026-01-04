@@ -1,5 +1,24 @@
-import { promises as fs } from "fs";
-import path from "path";
+// Only import fs on server-side (not in browser)
+const isServer = typeof window === "undefined";
+let fs: typeof import("fs").promises | null = null;
+let path: typeof import("path") | null = null;
+
+// Lazy load fs and path modules (server-only)
+async function getFs() {
+  if (!isServer) return null;
+  if (!fs) {
+    fs = (await import("fs")).promises;
+  }
+  return fs;
+}
+
+async function getPath() {
+  if (!isServer) return null;
+  if (!path) {
+    path = await import("path");
+  }
+  return path;
+}
 
 // ===========================================
 // Yelp Request/Response Logging & Caching
@@ -62,10 +81,13 @@ const memoryCache = new Map<string, { data: unknown; timestamp: number }>();
 // ===========================================
 
 async function ensureLogDir(): Promise<void> {
+  const fsModule = await getFs();
+  if (!fsModule) return; // Skip on client-side
+
   try {
-    await fs.access(LOG_DIR);
+    await fsModule.access(LOG_DIR);
   } catch {
-    await fs.mkdir(LOG_DIR, { recursive: true });
+    await fsModule.mkdir(LOG_DIR, { recursive: true });
   }
 }
 
@@ -108,6 +130,9 @@ export function generateCacheKey(
 export async function getCachedResponse(
   cacheKey: string
 ): Promise<{ data: unknown; entry: YelpLogEntry } | null> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+
   // Check memory cache first
   const memCached = memoryCache.get(cacheKey);
   if (memCached && Date.now() - memCached.timestamp < CACHE_TTL_MS) {
@@ -115,12 +140,15 @@ export async function getCachedResponse(
     return { data: memCached.data, entry: null as unknown as YelpLogEntry };
   }
 
+  // Skip file cache on client-side
+  if (!fsModule || !pathModule) return null;
+
   // Check file cache
   await ensureLogDir();
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const indexContent = await fs.readFile(indexPath, "utf-8");
+    const indexContent = await fsModule.readFile(indexPath, "utf-8");
     const index: YelpLogIndex = JSON.parse(indexContent);
 
     // Find matching cache entry
@@ -160,13 +188,17 @@ export async function getCachedResponse(
  * Update cache hit counter
  */
 async function incrementCacheHits(): Promise<void> {
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return;
+
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     const index: YelpLogIndex = JSON.parse(content);
     index.cache_hits = (index.cache_hits || 0) + 1;
-    await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+    await fsModule.writeFile(indexPath, JSON.stringify(index, null, 2));
   } catch {
     // Ignore
   }
@@ -177,25 +209,34 @@ async function incrementCacheHits(): Promise<void> {
 // ===========================================
 
 export async function logYelpRequest(entry: YelpLogEntry, cacheKey: string): Promise<string> {
-  await ensureLogDir();
+  const fsModule = await getFs();
+  const pathModule = await getPath();
 
-  const datePath = getDatePath();
-  const fullDir = path.join(LOG_DIR, datePath);
-
-  // Create date-based subdirectory
-  await fs.mkdir(fullDir, { recursive: true });
-
-  // Save individual log entry
-  const logFile = path.join(fullDir, `${entry.id}.json`);
-  await fs.writeFile(logFile, JSON.stringify(entry, null, 2));
-
-  // Update memory cache
+  // Update memory cache regardless of server/client
   if (entry.metadata.success) {
     memoryCache.set(cacheKey, {
       data: entry.response.data,
       timestamp: Date.now(),
     });
   }
+
+  // Skip file logging on client-side
+  if (!fsModule || !pathModule) {
+    console.log("[YelpLogger] Skipping file log - not running on server");
+    return entry.id;
+  }
+
+  await ensureLogDir();
+
+  const datePath = getDatePath();
+  const fullDir = pathModule.join(LOG_DIR, datePath);
+
+  // Create date-based subdirectory
+  await fsModule.mkdir(fullDir, { recursive: true });
+
+  // Save individual log entry
+  const logFile = pathModule.join(fullDir, `${entry.id}.json`);
+  await fsModule.writeFile(logFile, JSON.stringify(entry, null, 2));
 
   // Update index
   await updateLogIndex(entry, cacheKey);
@@ -204,12 +245,16 @@ export async function logYelpRequest(entry: YelpLogEntry, cacheKey: string): Pro
 }
 
 async function updateLogIndex(entry: YelpLogEntry, cacheKey: string): Promise<void> {
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return;
+
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   let index: YelpLogIndex;
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     index = JSON.parse(content);
   } catch {
     index = {
@@ -241,7 +286,7 @@ async function updateLogIndex(entry: YelpLogEntry, cacheKey: string): Promise<vo
   index.total_entries++;
   index.last_updated = new Date().toISOString();
 
-  await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+  await fsModule.writeFile(indexPath, JSON.stringify(index, null, 2));
 }
 
 // ===========================================
@@ -249,21 +294,25 @@ async function updateLogIndex(entry: YelpLogEntry, cacheKey: string): Promise<vo
 // ===========================================
 
 export async function getLogEntry(id: string): Promise<YelpLogEntry | null> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return null;
+
   await ensureLogDir();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const indexContent = await fs.readFile(indexPath, "utf-8");
+    const indexContent = await fsModule.readFile(indexPath, "utf-8");
     const index: YelpLogIndex = JSON.parse(indexContent);
 
     const entry = index.entries.find((e) => e.id === id);
     if (entry) {
       const date = new Date(entry.timestamp);
       const datePath = `${date.getFullYear()}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getDate()).padStart(2, "0")}`;
-      const logFile = path.join(LOG_DIR, datePath, `${id}.json`);
+      const logFile = pathModule.join(LOG_DIR, datePath, `${id}.json`);
 
-      const content = await fs.readFile(logFile, "utf-8");
+      const content = await fsModule.readFile(logFile, "utf-8");
       return JSON.parse(content);
     }
   } catch {
@@ -274,12 +323,23 @@ export async function getLogEntry(id: string): Promise<YelpLogEntry | null> {
 }
 
 export async function getLogIndex(): Promise<YelpLogIndex> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) {
+    return {
+      total_entries: 0,
+      last_updated: new Date().toISOString(),
+      cache_hits: 0,
+      entries: [],
+    };
+  }
+
   await ensureLogDir();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     return JSON.parse(content);
   } catch {
     return {

@@ -4,11 +4,18 @@
  * Based on: docs/REALTIME_RESHUFFLING_ALGORITHM.md - Phase 2
  *
  * Features:
- * - Periodic weather polling (every 30 minutes)
- * - Weather change detection
+ * - Morning sweep: Check all day's activities against weather forecast
+ * - Periodic weather polling (configurable, default 30 minutes)
+ * - Weather change detection with schedule-aware conflict analysis
  * - Indoor/outdoor activity classification
  * - Weather-triggered reshuffling events
  * - Severe weather alerts
+ * - React hook for webapp integration
+ *
+ * Webapp Lifecycle:
+ * - Morning sweep on page load / visibility change
+ * - Polling while tab is active
+ * - Pause when tab hidden, resume on visibility
  *
  * Integration:
  * - Uses existing weather.ts for API calls
@@ -873,8 +880,221 @@ export class WeatherMonitor {
 }
 
 // ============================================
-// FACTORY FUNCTION
+// MORNING SWEEP TYPES
 // ============================================
+
+/**
+ * Activity for morning sweep analysis
+ */
+export interface ScheduledActivity {
+  slotId: string;
+  name: string;
+  category: ActivityCategory;
+  startTime: string; // ISO string or HH:MM
+  endTime: string;
+  isOutdoor?: boolean;
+}
+
+/**
+ * Weather conflict from morning sweep
+ */
+export interface WeatherConflict {
+  slotId: string;
+  activityName: string;
+  scheduledTime: string;
+  weatherCondition: string;
+  viability: WeatherImpact;
+  reason: string;
+  recommendations: string[];
+  suggestedAction: "reschedule" | "swap_indoor" | "add_preparation" | "cancel";
+}
+
+/**
+ * Morning sweep result
+ */
+export interface MorningSweepResult {
+  sweepTime: Date;
+  city: string;
+  dayDate: string;
+  overallViability: WeatherImpact;
+  conflicts: WeatherConflict[];
+  alerts: WeatherAlert[];
+  hourlyBreakdown: Array<{
+    hour: number;
+    viability: WeatherImpact;
+    condition: string;
+    temperature: number;
+  }>;
+  recommendations: string[];
+}
+
+// ============================================
+// MORNING SWEEP METHODS (added to WeatherMonitor)
+// ============================================
+
+declare module "./weather-monitor" {
+  interface WeatherMonitor {
+    performMorningSweep(activities: ScheduledActivity[]): Promise<MorningSweepResult | null>;
+    analyzeActivityConflicts(
+      activities: ScheduledActivity[],
+      forecast: DailyForecast
+    ): WeatherConflict[];
+  }
+}
+
+/**
+ * Perform morning sweep - check all day's activities against weather
+ */
+WeatherMonitor.prototype.performMorningSweep = async function (
+  activities: ScheduledActivity[]
+): Promise<MorningSweepResult | null> {
+  if (!this.getState()) {
+    console.error("[WeatherMonitor] Cannot perform morning sweep - not initialized");
+    return null;
+  }
+
+  const state = this.getState()!;
+  const today = new Date();
+  const todayStr = today.toISOString().split("T")[0];
+
+  console.log(`[WeatherMonitor] Performing morning sweep for ${activities.length} activities`);
+
+  // Refresh weather data
+  await this.checkWeather();
+
+  // Get today's forecast
+  const todayForecast = state.dailyForecast.find(
+    (f) => f.date.toISOString().split("T")[0] === todayStr
+  );
+
+  if (!todayForecast) {
+    console.warn("[WeatherMonitor] No forecast available for today");
+    return null;
+  }
+
+  // Analyze overall viability
+  const overallViability = analyzeOutdoorViability(todayForecast, this.getConfig());
+
+  // Find conflicts with scheduled activities
+  const conflicts = this.analyzeActivityConflicts(activities, todayForecast);
+
+  // Build hourly breakdown (estimate from daily forecast)
+  const hourlyBreakdown: MorningSweepResult["hourlyBreakdown"] = [];
+  for (let hour = 8; hour <= 22; hour++) {
+    // Interpolate temperature through the day
+    const tempRange = todayForecast.temp.max - todayForecast.temp.min;
+    const peakHour = 14; // Hottest around 2 PM
+    const tempOffset = 1 - Math.abs(hour - peakHour) / 8;
+    const estimatedTemp = todayForecast.temp.min + tempRange * Math.max(0, tempOffset);
+
+    hourlyBreakdown.push({
+      hour,
+      viability: overallViability.viability,
+      condition: todayForecast.weather.main,
+      temperature: Math.round(estimatedTemp),
+    });
+  }
+
+  // Build recommendations
+  const recommendations: string[] = [...overallViability.recommendations];
+
+  if (conflicts.length > 0) {
+    const outdoorConflicts = conflicts.filter((c) => c.suggestedAction === "swap_indoor");
+    if (outdoorConflicts.length > 0) {
+      recommendations.push(
+        `Consider swapping ${outdoorConflicts.length} outdoor activities for indoor alternatives`
+      );
+    }
+  }
+
+  // Get current alerts
+  const alerts = state.alerts.filter(
+    (a) => a.startTime.toISOString().split("T")[0] === todayStr
+  );
+
+  const result: MorningSweepResult = {
+    sweepTime: new Date(),
+    city: state.location.city,
+    dayDate: todayStr,
+    overallViability: overallViability.viability,
+    conflicts,
+    alerts,
+    hourlyBreakdown,
+    recommendations,
+  };
+
+  console.log(
+    `[WeatherMonitor] Morning sweep complete: ${overallViability.viability} conditions, ${conflicts.length} conflicts`
+  );
+
+  return result;
+};
+
+/**
+ * Analyze conflicts between activities and weather
+ */
+WeatherMonitor.prototype.analyzeActivityConflicts = function (
+  activities: ScheduledActivity[],
+  forecast: DailyForecast
+): WeatherConflict[] {
+  const conflicts: WeatherConflict[] = [];
+  const viability = analyzeOutdoorViability(forecast, this.getConfig());
+
+  // Only check for conflicts if weather is poor or worse
+  if (viability.viability === "good" || viability.viability === "fair") {
+    return conflicts;
+  }
+
+  for (const activity of activities) {
+    const isOutdoor =
+      activity.isOutdoor !== undefined
+        ? activity.isOutdoor
+        : isOutdoorActivity(activity.category) || isPartiallyOutdoorActivity(activity.category);
+
+    if (!isOutdoor) {
+      continue; // Indoor activities not affected
+    }
+
+    const dependency = getOutdoorDependency(activity.category);
+    let suggestedAction: WeatherConflict["suggestedAction"];
+
+    if (viability.viability === "impossible") {
+      suggestedAction = dependency === "high" ? "cancel" : "swap_indoor";
+    } else {
+      // Poor conditions
+      suggestedAction = dependency === "high" ? "swap_indoor" : "add_preparation";
+    }
+
+    conflicts.push({
+      slotId: activity.slotId,
+      activityName: activity.name,
+      scheduledTime: activity.startTime,
+      weatherCondition: forecast.weather.description,
+      viability: viability.viability,
+      reason: viability.reason,
+      recommendations: viability.recommendations,
+      suggestedAction,
+    });
+  }
+
+  return conflicts;
+};
+
+// ============================================
+// SINGLETON & FACTORY
+// ============================================
+
+let weatherMonitorInstance: WeatherMonitor | null = null;
+
+/**
+ * Get singleton weather monitor instance
+ */
+export function getWeatherMonitor(): WeatherMonitor {
+  if (!weatherMonitorInstance) {
+    weatherMonitorInstance = new WeatherMonitor();
+  }
+  return weatherMonitorInstance;
+}
 
 /**
  * Create a weather monitor instance
@@ -884,6 +1104,252 @@ export function createWeatherMonitor(
 ): WeatherMonitor {
   const fullConfig = { ...DEFAULT_WEATHER_MONITOR_CONFIG, ...config };
   return new WeatherMonitor(fullConfig);
+}
+
+// ============================================
+// REACT HOOK FOR WEBAPP
+// ============================================
+
+import { useState, useEffect, useCallback, useRef } from "react";
+
+/**
+ * React hook for weather monitoring in webapp context
+ *
+ * Features:
+ * - Morning sweep on mount
+ * - Periodic polling while tab is visible
+ * - Pause/resume on visibility change
+ * - Weather conflict detection for day's activities
+ */
+export function useWeatherMonitor(
+  tripId: string | undefined,
+  city: string | undefined,
+  country?: string,
+  options: {
+    pollIntervalMinutes?: number;
+    enableMorningSweep?: boolean;
+    activities?: ScheduledActivity[];
+  } = {}
+) {
+  const { pollIntervalMinutes = 30, enableMorningSweep = true, activities = [] } = options;
+
+  const [isInitialized, setIsInitialized] = useState(false);
+  const [isMonitoring, setIsMonitoring] = useState(false);
+  const [currentWeather, setCurrentWeather] = useState<CurrentWeather | null>(null);
+  const [dailyForecast, setDailyForecast] = useState<DailyForecast[]>([]);
+  const [alerts, setAlerts] = useState<WeatherAlert[]>([]);
+  const [conflicts, setConflicts] = useState<WeatherConflict[]>([]);
+  const [morningSweepResult, setMorningSweepResult] = useState<MorningSweepResult | null>(null);
+  const [lastCheck, setLastCheck] = useState<Date | null>(null);
+  const [viability, setViability] = useState<OutdoorViability | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  const monitorRef = useRef<WeatherMonitor | null>(null);
+  const pollIntervalRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Initialize weather monitor
+  useEffect(() => {
+    if (!tripId || !city) {
+      return;
+    }
+
+    const initializeMonitor = async () => {
+      try {
+        setError(null);
+        const monitor = getWeatherMonitor();
+        monitorRef.current = monitor;
+
+        // Initialize with location
+        const state = await monitor.initialize(tripId, city, country);
+
+        if (state) {
+          setIsInitialized(true);
+          setCurrentWeather(state.currentWeather);
+          setDailyForecast(state.dailyForecast);
+          setAlerts(state.alerts);
+          setLastCheck(state.lastCheck);
+          setViability(monitor.getCurrentViability());
+
+          // Set up callbacks
+          monitor.onWeatherChange((trigger) => {
+            console.log("[useWeatherMonitor] Weather change detected:", trigger);
+            // Refresh state
+            const newState = monitor.getState();
+            if (newState) {
+              setCurrentWeather(newState.currentWeather);
+              setAlerts(newState.alerts);
+              setLastCheck(newState.lastCheck);
+              setViability(monitor.getCurrentViability());
+            }
+          });
+
+          monitor.onWeatherAlert((alert) => {
+            console.log("[useWeatherMonitor] Weather alert:", alert);
+            setAlerts((prev) => [...prev, alert]);
+          });
+
+          // Perform morning sweep if enabled
+          if (enableMorningSweep && activities.length > 0) {
+            const sweepResult = await monitor.performMorningSweep(activities);
+            if (sweepResult) {
+              setMorningSweepResult(sweepResult);
+              setConflicts(sweepResult.conflicts);
+            }
+          }
+        }
+      } catch (err) {
+        console.error("[useWeatherMonitor] Initialization failed:", err);
+        setError(err instanceof Error ? err.message : "Failed to initialize weather monitor");
+      }
+    };
+
+    initializeMonitor();
+
+    return () => {
+      if (pollIntervalRef.current) {
+        clearInterval(pollIntervalRef.current);
+        pollIntervalRef.current = null;
+      }
+    };
+  }, [tripId, city, country, enableMorningSweep, activities.length]);
+
+  // Set up polling while tab is visible
+  useEffect(() => {
+    if (!isInitialized || !monitorRef.current) {
+      return;
+    }
+
+    const startPolling = () => {
+      if (pollIntervalRef.current) {
+        clearInterval(pollIntervalRef.current);
+      }
+
+      setIsMonitoring(true);
+      pollIntervalRef.current = setInterval(async () => {
+        if (monitorRef.current) {
+          await monitorRef.current.checkWeather();
+          const state = monitorRef.current.getState();
+          if (state) {
+            setCurrentWeather(state.currentWeather);
+            setAlerts(state.alerts);
+            setLastCheck(state.lastCheck);
+            setViability(monitorRef.current.getCurrentViability());
+          }
+        }
+      }, pollIntervalMinutes * 60 * 1000);
+    };
+
+    const stopPolling = () => {
+      if (pollIntervalRef.current) {
+        clearInterval(pollIntervalRef.current);
+        pollIntervalRef.current = null;
+      }
+      setIsMonitoring(false);
+    };
+
+    // Handle visibility change
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        stopPolling();
+      } else {
+        startPolling();
+        // Also refresh immediately when tab becomes visible
+        if (monitorRef.current) {
+          monitorRef.current.checkWeather();
+        }
+      }
+    };
+
+    // Start polling initially if tab is visible
+    if (!document.hidden) {
+      startPolling();
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      stopPolling();
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [isInitialized, pollIntervalMinutes]);
+
+  // Re-run morning sweep when activities change
+  useEffect(() => {
+    if (!isInitialized || !monitorRef.current || !enableMorningSweep || activities.length === 0) {
+      return;
+    }
+
+    const runSweep = async () => {
+      const sweepResult = await monitorRef.current!.performMorningSweep(activities);
+      if (sweepResult) {
+        setMorningSweepResult(sweepResult);
+        setConflicts(sweepResult.conflicts);
+      }
+    };
+
+    runSweep();
+  }, [isInitialized, enableMorningSweep, JSON.stringify(activities.map((a) => a.slotId))]);
+
+  // Manual refresh
+  const refresh = useCallback(async () => {
+    if (!monitorRef.current) {
+      return;
+    }
+
+    await monitorRef.current.checkWeather();
+    const state = monitorRef.current.getState();
+    if (state) {
+      setCurrentWeather(state.currentWeather);
+      setDailyForecast(state.dailyForecast);
+      setAlerts(state.alerts);
+      setLastCheck(state.lastCheck);
+      setViability(monitorRef.current.getCurrentViability());
+    }
+
+    // Re-run morning sweep
+    if (enableMorningSweep && activities.length > 0) {
+      const sweepResult = await monitorRef.current.performMorningSweep(activities);
+      if (sweepResult) {
+        setMorningSweepResult(sweepResult);
+        setConflicts(sweepResult.conflicts);
+      }
+    }
+  }, [enableMorningSweep, activities]);
+
+  // Dismiss alert
+  const dismissAlert = useCallback((alertId: string) => {
+    setAlerts((prev) => prev.filter((a) => a.id !== alertId));
+  }, []);
+
+  // Get viability for specific date
+  const getViabilityForDate = useCallback(
+    (date: Date): OutdoorViability | null => {
+      if (!monitorRef.current) {
+        return null;
+      }
+      return monitorRef.current.getViabilityForDate(date);
+    },
+    []
+  );
+
+  return {
+    // State
+    isInitialized,
+    isMonitoring,
+    currentWeather,
+    dailyForecast,
+    alerts,
+    conflicts,
+    morningSweepResult,
+    lastCheck,
+    viability,
+    error,
+
+    // Actions
+    refresh,
+    dismissAlert,
+    getViabilityForDate,
+  };
 }
 
 // ============================================

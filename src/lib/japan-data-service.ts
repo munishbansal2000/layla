@@ -717,7 +717,7 @@ export function poiToActivityOption(poi: MustSeePOI, rank: number) {
     score: Math.round(poi.mustSeeScore * 10 + poi.rating * 10), // Combined score
     activity: {
       name: poi.name,
-      description: `Visit ${poi.name} (${poi.nameJa})`,
+      description: poi.nameJa ? `Visit ${poi.name} (${poi.nameJa})` : `Visit ${poi.name}`,
       category: poi.category,
       duration: poi.category === "museum" ? 120 : poi.category === "park" ? 60 : 90,
       place: {

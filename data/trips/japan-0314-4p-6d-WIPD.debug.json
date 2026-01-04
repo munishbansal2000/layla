@@ -1,0 +1,739 @@
+{
+  "tripId": "japan-0314-4p-6d-WIPD",
+  "generatedAt": "2025-12-31T19:33:20.518Z",
+  "version": "1.0.0",
+  "requestStructures": {
+    "itineraryRequest": {
+      "cities": [
+        "Tokyo",
+        "Kyoto"
+      ],
+      "startDate": "2026-03-15",
+      "totalDays": 6,
+      "pace": "normal",
+      "interests": [
+        "ramen",
+        "temples",
+        "art"
+      ],
+      "travelers": {
+        "adults": 2,
+        "children": 2,
+        "childrenAges": [
+          8,
+          12
+        ]
+      },
+      "budget": "moderate",
+      "tripContext": "Trip mode: family",
+      "arrivalFlightTime": "15:00",
+      "departureFlightTime": "10:00",
+      "arrivalAirport": "NRT",
+      "departureAirport": "NRT",
+      "transfers": [
+        {
+          "type": "airport_arrival",
+          "date": "2026-03-15",
+          "fromCity": "Tokyo",
+          "toCity": "Tokyo",
+          "mode": "train",
+          "duration": 60
+        },
+        {
+          "type": "inter_city",
+          "date": "2026-03-18",
+          "fromCity": "Tokyo",
+          "toCity": "Kyoto",
+          "mode": "shinkansen",
+          "duration": 180
+        },
+        {
+          "type": "inter_city",
+          "date": "2026-03-20",
+          "fromCity": "Kyoto",
+          "toCity": "Tokyo",
+          "mode": "shinkansen",
+          "duration": 180
+        },
+        {
+          "type": "airport_departure",
+          "date": "2026-03-20",
+          "fromCity": "Tokyo",
+          "toCity": "Tokyo",
+          "mode": "train",
+          "duration": 60
+        }
+      ],
+      "mustHave": [
+        "Senso-ji Temple",
+        "Arashiyama Bamboo Grove",
+        "Nara Deer Park",
+        "Nintendo Store"
+      ],
+      "anchors": [
+        {
+          "name": "teamLab Planets",
+          "city": "Tokyo",
+          "date": "2026-03-16",
+          "startTime": "14:00",
+          "duration": 180,
+          "category": "other"
+        },
+        {
+          "name": "sushi-making class at Tokyo Sushi Academy",
+          "city": "Tokyo",
+          "date": "2026-03-17",
+          "startTime": "11:00",
+          "duration": 118,
+          "category": "other"
+        },
+        {
+          "name": "Fushimi Inari sunrise tour",
+          "city": "kyoto",
+          "date": "2026-03-19",
+          "startTime": "05:30",
+          "duration": 120,
+          "category": "other"
+        }
+      ],
+      "clusterByNeighborhood": true,
+      "enrichWithPlaceResolution": true,
+      "enrichWithCommute": true,
+      "placeResolutionOptions": {
+        "skipExpensiveProviders": true,
+        "minConfidence": 0.5
+      }
+    },
+    "flightConstraints": {
+      "arrivalFlightTime": "15:00",
+      "departureFlightTime": "10:00"
+    },
+    "transfers": "[circular reference]",
+    "anchors": "[circular reference]"
+  },
+  "userRequest": {
+    "tripPrompt": "\n\n5 days in Japan for 2 adults and 2 kids (ages 8 and 12), starting March 15 2026. \n\nWe're flying from SFO to Tokyo Narita on March 15, arriving at 3pm. Return flight from Kyoto on March 20 at 10am.\n\nWe have a hotel booked in Tokyo from March 15-18 at Park Hyatt in Tokyo, then moving to Kyoto at Ritz-Carlton (in Kyoto) from March 18-20\n\nWe already booked teamLab Planets on March 16 at 2pm, a sushi-making class at Tokyo Sushi Academy on March 17 at 11am, and Fushimi Inari sunrise tour on March 19 at 5:30am.\n\nWe love ramen, temples, anime, and art. The kids are really into Pokemon and gaming. \nWe're vegetarian so no meat, but fish is okay. \nBudget is moderate but we'll splurge on special experiences. \nKeep the pace relaxed since we're traveling with kids.\n\nMust visit: Senso-ji Temple, Arashiyama Bamboo Grove, Nara Deer Park, Nintendo Store \nPlease avoid: crowded tourist traps, any sushi restaurants (we don't like raw fish), theme parks\n\n",
+    "rawRequest": {
+      "tripPrompt": "\n\n5 days in Japan for 2 adults and 2 kids (ages 8 and 12), starting March 15 2026. \n\nWe're flying from SFO to Tokyo Narita on March 15, arriving at 3pm. Return flight from Kyoto on March 20 at 10am.\n\nWe have a hotel booked in Tokyo from March 15-18 at Park Hyatt in Tokyo, then moving to Kyoto at Ritz-Carlton (in Kyoto) from March 18-20\n\nWe already booked teamLab Planets on March 16 at 2pm, a sushi-making class at Tokyo Sushi Academy on March 17 at 11am, and Fushimi Inari sunrise tour on March 19 at 5:30am.\n\nWe love ramen, temples, anime, and art. The kids are really into Pokemon and gaming. \nWe're vegetarian so no meat, but fish is okay. \nBudget is moderate but we'll splurge on special experiences. \nKeep the pace relaxed since we're traveling with kids.\n\nMust visit: Senso-ji Temple, Arashiyama Bamboo Grove, Nara Deer Park, Nintendo Store \nPlease avoid: crowded tourist traps, any sushi restaurants (we don't like raw fish), theme parks\n\n",
+      "destination": "Tokyo, Kyoto, Japan",
+      "cities": [
+        "Tokyo",
+        "Kyoto"
+      ],
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-20",
+      "pace": "normal",
+      "travelers": {
+        "adults": 2,
+        "children": 2,
+        "childrenAges": [
+          8,
+          12
+        ]
+      },
+      "budget": "moderate",
+      "interests": [
+        "ramen",
+        "temples",
+        "art"
+      ],
+      "tripMode": "family",
+      "mustHave": [
+        "Senso-ji Temple",
+        "Arashiyama Bamboo Grove",
+        "Nara Deer Park",
+        "Nintendo Store"
+      ],
+      "anchors": [
+        {
+          "name": "teamLab Planets",
+          "city": "Tokyo",
+          "date": "2026-03-16",
+          "startTime": "14:00",
+          "duration": 180,
+          "category": "other"
+        },
+        {
+          "name": "sushi-making class at Tokyo Sushi Academy",
+          "city": "Tokyo",
+          "date": "2026-03-17",
+          "startTime": "11:00",
+          "duration": 118,
+          "category": "other"
+        },
+        {
+          "name": "Fushimi Inari sunrise tour",
+          "city": "kyoto",
+          "date": "2026-03-19",
+          "startTime": "05:30",
+          "duration": 120,
+          "category": "other"
+        }
+      ],
+      "clusterByNeighborhood": true,
+      "arrivalFlightTime": "15:00",
+      "departureFlightTime": "10:00",
+      "arrivalAirport": "NRT",
+      "departureAirport": "NRT",
+      "transfers": [
+        {
+          "type": "airport_arrival",
+          "date": "2026-03-15",
+          "fromCity": "Tokyo",
+          "toCity": "Tokyo",
+          "mode": "train",
+          "duration": 60
+        },
+        {
+          "type": "inter_city",
+          "date": "2026-03-18",
+          "fromCity": "Tokyo",
+          "toCity": "Kyoto",
+          "mode": "shinkansen",
+          "duration": 180
+        },
+        {
+          "type": "inter_city",
+          "date": "2026-03-20",
+          "fromCity": "Kyoto",
+          "toCity": "Tokyo",
+          "mode": "shinkansen",
+          "duration": 180
+        },
+        {
+          "type": "airport_departure",
+          "date": "2026-03-20",
+          "fromCity": "Tokyo",
+          "toCity": "Tokyo",
+          "mode": "train",
+          "duration": 60
+        }
+      ],
+      "includeViatorTours": false
+    },
+    "parsedRequest": {
+      "tripPrompt": "\n\n5 days in Japan for 2 adults and 2 kids (ages 8 and 12), starting March 15 2026. \n\nWe're flying from SFO to Tokyo Narita on March 15, arriving at 3pm. Return flight from Kyoto on March 20 at 10am.\n\nWe have a hotel booked in Tokyo from March 15-18 at Park Hyatt in Tokyo, then moving to Kyoto at Ritz-Carlton (in Kyoto) from March 18-20\n\nWe already booked teamLab Planets on March 16 at 2pm, a sushi-making class at Tokyo Sushi Academy on March 17 at 11am, and Fushimi Inari sunrise tour on March 19 at 5:30am.\n\nWe love ramen, temples, anime, and art. The kids are really into Pokemon and gaming. \nWe're vegetarian so no meat, but fish is okay. \nBudget is moderate but we'll splurge on special experiences. \nKeep the pace relaxed since we're traveling with kids.\n\nMust visit: Senso-ji Temple, Arashiyama Bamboo Grove, Nara Deer Park, Nintendo Store \nPlease avoid: crowded tourist traps, any sushi restaurants (we don't like raw fish), theme parks\n\n",
+      "destination": "Tokyo, Kyoto, Japan",
+      "cities": [
+        "Tokyo",
+        "Kyoto"
+      ],
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-20",
+      "pace": "normal",
+      "travelers": {
+        "adults": 2,
+        "children": 2,
+        "childrenAges": [
+          8,
+          12
+        ]
+      },
+      "budget": "moderate",
+      "interests": [
+        "ramen",
+        "temples",
+        "art"
+      ],
+      "tripMode": "family",
+      "mustHave": [
+        "Senso-ji Temple",
+        "Arashiyama Bamboo Grove",
+        "Nara Deer Park",
+        "Nintendo Store"
+      ],
+      "anchors": [
+        {
+          "name": "teamLab Planets",
+          "city": "Tokyo",
+          "date": "2026-03-16",
+          "startTime": "14:00",
+          "duration": 180,
+          "category": "other"
+        },
+        {
+          "name": "sushi-making class at Tokyo Sushi Academy",
+          "city": "Tokyo",
+          "date": "2026-03-17",
+          "startTime": "11:00",
+          "duration": 118,
+          "category": "other"
+        },
+        {
+          "name": "Fushimi Inari sunrise tour",
+          "city": "kyoto",
+          "date": "2026-03-19",
+          "startTime": "05:30",
+          "duration": 120,
+          "category": "other"
+        }
+      ],
+      "clusterByNeighborhood": true,
+      "arrivalFlightTime": "15:00",
+      "departureFlightTime": "10:00",
+      "arrivalAirport": "NRT",
+      "departureAirport": "NRT",
+      "transfers": [
+        {
+          "type": "airport_arrival",
+          "date": "2026-03-15",
+          "fromCity": "Tokyo",
+          "toCity": "Tokyo",
+          "mode": "train",
+          "duration": 60
+        },
+        {
+          "type": "inter_city",
+          "date": "2026-03-18",
+          "fromCity": "Tokyo",
+          "toCity": "Kyoto",
+          "mode": "shinkansen",
+          "duration": 180
+        },
+        {
+          "type": "inter_city",
+          "date": "2026-03-20",
+          "fromCity": "Kyoto",
+          "toCity": "Tokyo",
+          "mode": "shinkansen",
+          "duration": 180
+        },
+        {
+          "type": "airport_departure",
+          "date": "2026-03-20",
+          "fromCity": "Tokyo",
+          "toCity": "Tokyo",
+          "mode": "train",
+          "duration": 60
+        }
+      ],
+      "includeViatorTours": false
+    },
+    "validatedContext": {
+      "destination": "Tokyo, Kyoto, Japan",
+      "startDate": "2026-03-15",
+      "endDate": "2026-03-20",
+      "travelers": {
+        "adults": 2,
+        "children": 2,
+        "childrenAges": [
+          8,
+          12
+        ]
+      },
+      "budget": "moderate",
+      "pace": "normal",
+      "interests": [
+        "ramen",
+        "temples",
+        "art"
+      ],
+      "tripMode": "family",
+      "cities": [
+        "Tokyo",
+        "Kyoto"
+      ],
+      "mustHave": [
+        "Senso-ji Temple",
+        "Arashiyama Bamboo Grove",
+        "Nara Deer Park",
+        "Nintendo Store"
+      ],
+      "anchors": [
+        {
+          "name": "teamLab Planets",
+          "city": "Tokyo",
+          "date": "2026-03-16",
+          "startTime": "14:00",
+          "duration": 180,
+          "category": "other"
+        },
+        {
+          "name": "sushi-making class at Tokyo Sushi Academy",
+          "city": "Tokyo",
+          "date": "2026-03-17",
+          "startTime": "11:00",
+          "duration": 118,
+          "category": "other"
+        },
+        {
+          "name": "Fushimi Inari sunrise tour",
+          "city": "kyoto",
+          "date": "2026-03-19",
+          "startTime": "05:30",
+          "duration": 120,
+          "category": "other"
+        }
+      ],
+      "clusterByNeighborhood": true
+    },
+    "timestamp": "2025-12-31T19:33:20.522Z"
+  },
+  "remediation": {
+    "algorithmicChanges": [
+      {
+        "type": "ADDED_ARRIVAL_COORDINATES",
+        "day": 4,
+        "slot": "day4-intercity-transfer",
+        "reason": "Added inferred arrival coordinates for \"Shinkansen: Tokyo → Kyoto\" (35.6762, 139.6503)"
+      },
+      {
+        "type": "ADDED_ARRIVAL_COORDINATES",
+        "day": 6,
+        "slot": "day6-intercity-transfer",
+        "reason": "Added inferred arrival coordinates for \"Shinkansen: Kyoto → Tokyo\" (35.6762, 139.6503)"
+      },
+      {
+        "type": "REMOVED_DUPLICATE",
+        "day": 2,
+        "slot": "day2-dinner",
+        "reason": "Removed duplicate \"ginzasushimasa\" (already on Day 2)"
+      },
+      {
+        "type": "FIXED_MEAL_BEHAVIOR",
+        "day": 5,
+        "slot": "day5-anchor-fushimi-inari-sunrise-tour",
+        "reason": "Changed behavior from \"anchor\" to \"meal\" for \"breakfast\""
+      },
+      {
+        "type": "FIXED_ANCHOR_BEHAVIOR",
+        "day": 5,
+        "slot": "day5-anchor-fushimi-inari-sunrise-tour",
+        "reason": "Changed behavior from \"meal\" to \"anchor\" for pre-booked \"Fushimi Inari sunrise tour\""
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 1,
+        "slot": "day1-afternoon",
+        "reason": "Empty slot \"afternoon\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 1,
+        "slot": "day1-dinner",
+        "reason": "Empty slot \"dinner\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 2,
+        "slot": "day2-morning",
+        "reason": "Empty slot \"morning\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 2,
+        "slot": "day2-afternoon",
+        "reason": "Empty slot \"afternoon\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 3,
+        "slot": "day3-morning",
+        "reason": "Empty slot \"morning\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 3,
+        "slot": "day3-lunch",
+        "reason": "Empty slot \"lunch\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 3,
+        "slot": "day3-afternoon",
+        "reason": "Empty slot \"afternoon\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 3,
+        "slot": "day3-dinner",
+        "reason": "Empty slot \"dinner\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 4,
+        "slot": "day4-morning",
+        "reason": "Empty slot \"morning\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 4,
+        "slot": "day4-lunch",
+        "reason": "Empty slot \"lunch\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 4,
+        "slot": "day4-afternoon",
+        "reason": "Empty slot \"afternoon\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 4,
+        "slot": "day4-dinner",
+        "reason": "Empty slot \"dinner\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 5,
+        "slot": "day5-morning",
+        "reason": "Empty slot \"morning\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 5,
+        "slot": "day5-lunch",
+        "reason": "Empty slot \"lunch\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 5,
+        "slot": "day5-afternoon",
+        "reason": "Empty slot \"afternoon\" flagged for activity suggestion"
+      },
+      {
+        "type": "FLAGGED_EMPTY_SLOT",
+        "day": 5,
+        "slot": "day5-dinner",
+        "reason": "Empty slot \"dinner\" flagged for activity suggestion"
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 1,
+        "slot": "d1-slot-1",
+        "reason": "Renumbered slot from \"day1-arrival-transfer\" to \"d1-slot-1\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 1,
+        "slot": "d1-slot-2",
+        "reason": "Renumbered slot from \"day1-afternoon\" to \"d1-slot-2\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 1,
+        "slot": "d1-slot-3",
+        "reason": "Renumbered slot from \"day1-dinner\" to \"d1-slot-3\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 2,
+        "slot": "d2-slot-1",
+        "reason": "Renumbered slot from \"day2-morning\" to \"d2-slot-1\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 2,
+        "slot": "d2-slot-2",
+        "reason": "Renumbered slot from \"day2-lunch\" to \"d2-slot-2\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 2,
+        "slot": "d2-slot-3",
+        "reason": "Renumbered slot from \"day2-afternoon\" to \"d2-slot-3\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 2,
+        "slot": "d2-slot-4",
+        "reason": "Renumbered slot from \"day2-anchor-teamlab-planets\" to \"d2-slot-4\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 3,
+        "slot": "d3-slot-1",
+        "reason": "Renumbered slot from \"day3-morning\" to \"d3-slot-1\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 3,
+        "slot": "d3-slot-2",
+        "reason": "Renumbered slot from \"day3-anchor-sushi-making-class-at-tokyo-sushi-academy\" to \"d3-slot-2\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 3,
+        "slot": "d3-slot-3",
+        "reason": "Renumbered slot from \"day3-lunch\" to \"d3-slot-3\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 3,
+        "slot": "d3-slot-4",
+        "reason": "Renumbered slot from \"day3-afternoon\" to \"d3-slot-4\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 3,
+        "slot": "d3-slot-5",
+        "reason": "Renumbered slot from \"day3-dinner\" to \"d3-slot-5\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 4,
+        "slot": "d4-slot-1",
+        "reason": "Renumbered slot from \"day4-morning\" to \"d4-slot-1\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 4,
+        "slot": "d4-slot-2",
+        "reason": "Renumbered slot from \"day4-intercity-transfer\" to \"d4-slot-2\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 4,
+        "slot": "d4-slot-3",
+        "reason": "Renumbered slot from \"day4-lunch\" to \"d4-slot-3\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 4,
+        "slot": "d4-slot-4",
+        "reason": "Renumbered slot from \"day4-afternoon\" to \"d4-slot-4\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 4,
+        "slot": "d4-slot-5",
+        "reason": "Renumbered slot from \"day4-dinner\" to \"d4-slot-5\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 5,
+        "slot": "d5-slot-1",
+        "reason": "Renumbered slot from \"day5-anchor-fushimi-inari-sunrise-tour\" to \"d5-slot-1\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 5,
+        "slot": "d5-slot-2",
+        "reason": "Renumbered slot from \"day5-morning\" to \"d5-slot-2\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 5,
+        "slot": "d5-slot-3",
+        "reason": "Renumbered slot from \"day5-lunch\" to \"d5-slot-3\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 5,
+        "slot": "d5-slot-4",
+        "reason": "Renumbered slot from \"day5-afternoon\" to \"d5-slot-4\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 5,
+        "slot": "d5-slot-5",
+        "reason": "Renumbered slot from \"day5-dinner\" to \"d5-slot-5\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 6,
+        "slot": "d6-slot-1",
+        "reason": "Renumbered slot from \"day6-intercity-transfer\" to \"d6-slot-1\""
+      },
+      {
+        "type": "FIXED_SLOT_ID",
+        "day": 6,
+        "slot": "d6-slot-2",
+        "reason": "Renumbered slot from \"day6-departure-transfer\" to \"d6-slot-2\""
+      }
+    ],
+    "llmChanges": [],
+    "totalChanges": 45,
+    "llmCallCount": 0,
+    "processingTimeMs": 0,
+    "timestamp": "2025-12-31T19:36:37.122Z"
+  },
+  "validation": {
+    "validationState": {
+      "isValid": false,
+      "healthScore": 75,
+      "lastValidatedAt": "2025-12-31T19:36:37.123Z"
+    },
+    "violations": [
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d1-slot-3"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d2-slot-2"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d2-slot-3"
+      },
+      {
+        "layer": "travel",
+        "severity": "error",
+        "message": "Not enough time to travel from \"undefined\" to \"teamLab Planets\" (need 12min, have -240min)",
+        "affectedSlotId": "d2-slot-4",
+        "resolution": "Add a 252min buffer or adjust timing"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d3-slot-4"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d3-slot-5"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d4-slot-4"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d4-slot-5"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d5-slot-3"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d5-slot-4"
+      },
+      {
+        "layer": "travel",
+        "severity": "info",
+        "message": "Tight transition (0min) between activities",
+        "affectedSlotId": "d5-slot-5"
+      }
+    ],
+    "healthScore": 75,
+    "timestamp": "2025-12-31T19:36:37.123Z"
+  },
+  "itinerarySummary": {
+    "destination": "Japan",
+    "totalDays": 6,
+    "totalSlots": 24,
+    "totalOptions": 10,
+    "cities": [
+      "Tokyo",
+      "Kyoto"
+    ]
+  }
+}

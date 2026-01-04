@@ -40,11 +40,17 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# OpenAI logs (contains API requests/responses)
-/openai-logs
-
 # API keys documentation (contains sensitive keys)
 docs/apis.md
 
 # Large data files
 data/japan-pois-enhanced/*.json
+
+# Service response logs and cache
+/openai-logs
+/google-places-logs
+/viator-logs
+/weather-logs
+/yelp-logs
+/place-resolver-cache
+/output

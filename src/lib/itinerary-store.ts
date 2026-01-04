@@ -4,7 +4,59 @@
 // In-memory store for managing itinerary state during a session.
 // In production, this would be backed by a database (Redis, PostgreSQL, etc.)
 
-import { GeneratedItinerary, ItineraryStats } from "./itinerary-orchestrator";
+import type { DayWithOptions } from "@/types/structured-itinerary";
+
+// ============================================
+// TYPES
+// ============================================
+
+/**
+ * Statistics for a generated itinerary
+ */
+export interface ItineraryStats {
+  totalActivities: number;
+  totalMeals: number;
+  estimatedCost: { min: number; max: number; currency: string };
+  freeActivities: number;
+  averageScore: number;
+  neighborhoods: string[];
+  categories: Record<string, number>;
+}
+
+/**
+ * Stored itinerary structure
+ * This can store either the old GeneratedItinerary format or the new StructuredItineraryData
+ */
+export interface StoredItinerary {
+  id: string;
+  status?: "draft" | "reviewing" | "confirmed" | "in-progress";
+  destination?: string | { name: string; coordinates?: { lat: number; lng: number }; country?: string };
+  country?: string;
+  dateRange?: {
+    start: string;
+    end: string;
+    totalDays: number;
+  };
+  days: DayWithOptions[];
+  stats?: ItineraryStats;
+  generatedAt?: string;
+  lastModifiedAt?: string;
+  // Additional fields for legacy compatibility
+  tripMode?: string;
+  pace?: string;
+  budget?: string;
+  activityPool?: unknown[];
+  scoredActivities?: unknown[];
+  swipeQueue?: unknown[];
+  keptActivities?: string[];
+  rejectedActivities?: string[];
+  savedForLater?: string[];
+  generalTips?: string[];
+  estimatedBudget?: { total: { min: number; max: number }; currency: string };
+}
+
+// Type alias for backward compatibility
+export type GeneratedItinerary = StoredItinerary;
 
 // ============================================
 // TYPES

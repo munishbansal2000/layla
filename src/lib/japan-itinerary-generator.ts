@@ -51,6 +51,9 @@ export interface JapanItineraryRequest {
   interests?: string[];
   includeKlookExperiences?: boolean;
   preBookedActivities?: PreBookedActivity[]; // User's pre-booked activities to lock into slots
+  // Flight constraints
+  arrivalFlightTime?: string; // HH:MM - when user arrives at first city
+  departureFlightTime?: string; // HH:MM - when user departs from last city
 }
 
 interface SlotConfig {
@@ -434,7 +437,18 @@ export async function generateJapanItinerary(
   });
 
   const allDays: DayWithOptions[] = [];
-  let currentDate = new Date(startDate);
+  // Parse date manually to avoid timezone issues where new Date("2026-03-15")
+  // interprets as UTC midnight, causing date shifts in non-UTC timezones
+  const startParts = startDate.split('-');
+  let currentDate: Date;
+  if (startParts.length === 3) {
+    const year = parseInt(startParts[0], 10);
+    const month = parseInt(startParts[1], 10) - 1; // month is 0-indexed
+    const day = parseInt(startParts[2], 10);
+    currentDate = new Date(year, month, day, 0, 0, 0, 0);
+  } else {
+    currentDate = new Date(startDate);
+  }
   let dayNumber = 1;
   const usedPOIs = new Set<string>();
 
@@ -460,11 +474,14 @@ export async function generateJapanItinerary(
       }
 
       // Generate slots for this day
-      const slotConfigs = SLOT_CONFIGS[pace];
+      const slotConfigs = SLOT_CONFIGS[pace] || SLOT_CONFIGS.moderate;
       const slots: SlotWithOptions[] = [];
 
-      // If transition day, add transit slot
+      // If transition day, add transit slot with BOTH departure and arrival coordinates
       if (cityTransition) {
+        // Get arrival station coordinates from the destination city's default accommodation area
+        const arrivalCoordinates = DEFAULT_ACCOMMODATIONS[cityKey]?.coordinates || { lat: 0, lng: 0 };
+
         slots.push({
           slotId: `day${dayNumber}-transit`,
           slotType: "morning",
@@ -489,6 +506,13 @@ export async function generateJapanItinerary(
                   coordinates: DEFAULT_ACCOMMODATIONS[previousCity!]?.coordinates || { lat: 0, lng: 0 },
                   rating: undefined,
                   reviewCount: undefined,
+                },
+                // Add arrival place for proper commute calculation after transport
+                arrivalPlace: {
+                  name: cityTransition.arrivalStation || "",
+                  address: cityTransition.arrivalStation || "",
+                  neighborhood: cityTransition.to,
+                  coordinates: arrivalCoordinates,
                 },
                 isFree: false,
                 estimatedCost: cityTransition.estimatedCost,
@@ -522,9 +546,46 @@ export async function generateJapanItinerary(
       // Generate activity/meal slots
       let previousCoordinates = DEFAULT_ACCOMMODATIONS[cityKey]?.coordinates;
 
+      // If this is the first day and we have arrival time, calculate earliest slot start
+      const isFirstDay = dayNumber === 1;
+      let earliestSlotStart: number | null = null;
+      if (isFirstDay && request.arrivalFlightTime) {
+        const [arrivalHours, arrivalMins] = request.arrivalFlightTime.split(":").map(Number);
+        // Add 2 hours buffer for customs/immigration/transport from airport
+        earliestSlotStart = (arrivalHours * 60 + arrivalMins) + 120;
+      }
+
+      // If this is the last day and we have departure time, calculate latest slot end
+      const isLastDay = dayNumber === allDays.length + 1 && // We haven't pushed this day yet
+        cityIndex === cities.length - 1 && d === numDays - 1;
+      let latestSlotEnd: number | null = null;
+      if (request.departureFlightTime && isLastDay) {
+        const [depHours, depMins] = request.departureFlightTime.split(":").map(Number);
+        // Need to leave 3 hours before flight for transport + check-in
+        latestSlotEnd = (depHours * 60 + depMins) - 180;
+      }
+
       for (const slotConfig of slotConfigs) {
         // Skip morning slot if transition day (already has transit)
         if (isTransitionDay && cityTransition && slotConfig.slotType === "morning") {
+          continue;
+        }
+
+        // Parse slot times
+        const [slotStartHours, slotStartMins] = slotConfig.timeRange.start.split(":").map(Number);
+        const [slotEndHours, slotEndMins] = slotConfig.timeRange.end.split(":").map(Number);
+        const slotStartMins24 = slotStartHours * 60 + slotStartMins;
+        const slotEndMins24 = slotEndHours * 60 + slotEndMins;
+
+        // Skip slots that end before earliest allowed start (Day 1 arrival constraint)
+        if (isFirstDay && earliestSlotStart !== null && slotEndMins24 <= earliestSlotStart) {
+          console.log(`[generator] Skipping slot ${slotConfig.slotType} on Day 1 - ends before arrival + 2h buffer`);
+          continue;
+        }
+
+        // Skip slots that start after latest allowed end (Last day departure constraint)
+        if (isLastDay && latestSlotEnd !== null && slotStartMins24 >= latestSlotEnd) {
+          console.log(`[generator] Skipping slot ${slotConfig.slotType} on last day - starts after departure - 3h buffer`);
           continue;
         }
 
@@ -581,11 +642,26 @@ export async function generateJapanItinerary(
         }
 
         // Calculate commute from previous activity
+        // Special case: if previous slot was a transport/travel slot, use its arrivalPlace coordinates
         let commuteFromPrevious: StructuredCommuteInfo | undefined;
-        if (previousCoordinates && options.length > 0 && options[0].activity.place?.coordinates) {
+
+        // Check if we should use arrival coordinates from a previous transport slot
+        let effectivePreviousCoordinates = previousCoordinates;
+        if (slots.length > 0) {
+          const lastSlot = slots[slots.length - 1];
+          if (lastSlot.behavior === "travel" && lastSlot.options.length > 0) {
+            const transportActivity = lastSlot.options[0].activity;
+            if (transportActivity.arrivalPlace?.coordinates) {
+              // Use the arrival coordinates from the transport activity
+              effectivePreviousCoordinates = transportActivity.arrivalPlace.coordinates;
+            }
+          }
+        }
+
+        if (effectivePreviousCoordinates && options.length > 0 && options[0].activity.place?.coordinates) {
           const coords = options[0].activity.place.coordinates;
           if (coords.lat !== 0 && coords.lng !== 0) {
-            const distance = calculateDistance(previousCoordinates, coords);
+            const distance = calculateDistance(effectivePreviousCoordinates, coords);
             const method = distance > 2000 ? "transit" : "walk";
             const duration = estimateTravelTime(distance, method);
 

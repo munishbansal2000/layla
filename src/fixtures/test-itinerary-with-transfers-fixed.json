@@ -1,0 +1,3033 @@
+{
+  "destination": "Japan",
+  "country": "Japan",
+  "days": [
+    {
+      "dayNumber": 1,
+      "date": "2026-03-15",
+      "city": "Tokyo",
+      "title": "Arrival & First Impressions",
+      "slots": [
+        {
+          "slotId": "d1-slot-1",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/5091797524",
+              "rank": 1,
+              "score": 124,
+              "activity": {
+                "name": "House & Garden by Ryue Nishizawa",
+                "description": "Visit House & Garden by Ryue Nishizawa",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "House & Garden by Ryue Nishizawa",
+                  "address": "",
+                  "neighborhood": "Ginza",
+                  "coordinates": {
+                    "lat": 35.6743193,
+                    "lng": 139.7785075
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-7"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#7 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/6163717796",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "Shimokitazawa Gate",
+                "description": "Visit Shimokitazawa Gate",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Shimokitazawa Gate",
+                  "address": "",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.6622042,
+                    "lng": 139.6681299
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-8"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#8 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 9,
+            "distance": 1499,
+            "method": "walk",
+            "instructions": "Walk 1.5 km"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        },
+        {
+          "slotId": "d1-slot-2",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "19:00",
+            "end": "21:00"
+          },
+          "options": [
+            {
+              "id": "yelp-dinner-B_Dj_BjGQYhoxdrmiyG0-w",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "Shunsai Oguraya",
+                "description": "Seafood - $$",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Shunsai Oguraya",
+                  "address": "池尻2-31-18",
+                  "neighborhood": "Setagaya",
+                  "coordinates": {
+                    "lat": 35.649677,
+                    "lng": 139.683465
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/OlmONkUIBhjzoAtxjIeV2w/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "2 km from Shimokitazawa Gate",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-zrgmv4MexBlsV5zK3Yu5Ag",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Sumibi Kushiyaki Fuku",
+                "description": "Yakitori - $$",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Sumibi Kushiyaki Fuku",
+                  "address": "西原3-23-4",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.670466,
+                    "lng": 139.683411
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/c2eyWSHX7BOM8DpyTgmdHg/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "1.7 km from Shimokitazawa Gate",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-F-Pvz0cCQXuLSs5RxhyYZw",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "Bharati Indian Restaurant",
+                "description": "Indian - $$",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Bharati Indian Restaurant",
+                  "address": "元代々木町2-9",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.6701253870865,
+                    "lng": 139.687486136684
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/IxLhlsOMic3Dqet_vo0sWg/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "2 km from Shimokitazawa Gate",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 27,
+            "distance": 9013,
+            "method": "transit",
+            "instructions": "Take transit (9 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d1-slot-3",
+          "slotType": "evening",
+          "timeRange": {
+            "start": "21:00",
+            "end": "23:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/6163717796",
+              "rank": 1,
+              "score": 124,
+              "activity": {
+                "name": "Shimokitazawa Gate",
+                "description": "Visit Shimokitazawa Gate",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Shimokitazawa Gate",
+                  "address": "",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.6622042,
+                    "lng": 139.6681299
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-8"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#8 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/11801372169",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "description": "Visit KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                  "address": "",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.6996534,
+                    "lng": 139.7049386
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-9"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#9 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 10,
+            "distance": 1965,
+            "method": "walk",
+            "instructions": "Walk 2 km"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        }
+      ],
+      "accommodation": {
+        "name": "Shibuya Excel Hotel Tokyu",
+        "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+        "neighborhood": "Shibuya",
+        "coordinates": {
+          "lat": 35.6594,
+          "lng": 139.6989
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.3
+      },
+      "commuteFromHotel": {
+        "duration": 31,
+        "distance": 10628,
+        "method": "transit",
+        "instructions": "Take transit from Shibuya Excel Hotel Tokyu"
+      },
+      "commuteToHotel": {
+        "duration": 12,
+        "distance": 2797,
+        "method": "transit",
+        "instructions": "Take transit to Shibuya Excel Hotel Tokyu"
+      }
+    },
+    {
+      "dayNumber": 2,
+      "date": "2026-03-16",
+      "city": "Tokyo",
+      "title": "Exploring Asakusa & Ueno",
+      "slots": [
+        {
+          "slotId": "d2-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/6911413785",
+              "rank": 1,
+              "score": 127,
+              "activity": {
+                "name": "Neko Shrine & café",
+                "description": "Visit Neko Shrine & café",
+                "category": "temple",
+                "duration": 90,
+                "place": {
+                  "name": "Neko Shrine & café",
+                  "address": "",
+                  "neighborhood": "Ueno",
+                  "coordinates": {
+                    "lat": 35.7208004,
+                    "lng": 139.766148
+                  },
+                  "rating": 4.8,
+                  "reviewCount": 1601,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": true,
+                "tags": [
+                  "temple",
+                  "must-see",
+                  "rank-2"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#2 must-see in the city",
+                "4.8 rating (1,601 reviews)"
+              ],
+              "tradeoffs": [],
+              "viatorEnhancements": [
+                {
+                  "productCode": "5574233P2",
+                  "title": "Tokyo Yanaka Old Town Walking Tour (Private/Local guide)",
+                  "description": "Highlight:\n-Guided by a local\n-Learn about Japanese aesthetics and religion at local shrines and temples.\n-Experience Tokyo’s daily life through cafés, street food, and hidden alleys.\n-Visit galleries, antique shops, and craft stores in Tokyo’s artistic area.\n\nTour Plan (3 hours / Private):\nThe tour price includes a drink at a local café and street food.\nMeet at Nezu Station / End at Nippori Station\n\nNezu Shrine > Hidden Alleyways > Cafe Break > Galleries, Antique & Craft Shops > Yanaka Ginza Street Food Walk\n\nStep away from the rush of daily life and slow down with a stroll through the historic streets of the Yanaka, Nezu, and Sendagi area. This tour is all about soaking in the quiet charm of Tokyo, exploring its rich history, and enjoying little moments of discovery along the way.\nI’ll guide you through this special neighborhood with care, hoping it becomes a place you’ll always remember.",
+                  "enhancementType": "private-tour",
+                  "price": {
+                    "amount": 58.92,
+                    "currency": "USD",
+                    "originalAmount": 58.92
+                  },
+                  "duration": 180,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-Yanaka-Old-Town-Walking-Tour/d334-5574233P2?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/81/9f/98.jpg",
+                  "matchReason": "Enjoy an exclusive private experience at Neko Shrine & café",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": true,
+                    "privateOption": true
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Spa & Wellness",
+                    "Sightseeing",
+                    "Photography Tours"
+                  ]
+                },
+                {
+                  "productCode": "22178P37",
+                  "title": "Gotokuji and Setagaya Walking Tour: Home of the Lucky Cat Statue",
+                  "description": "Discover a different side of Tokyo in this charming 3.0 hour walking tour through Setagaya, a leafy, upscale neighborhood known for its peaceful shrines, historic charm, and the birthplace of Japan’s beloved lucky cat. Perfect for those wanting to escape the crowds and see a more local, authentic side of the city all just a short ride from central Tokyo.\n\n・Visit Gotokuji Temple, home to over 1,000 lucky cats and the legendary origin of the maneki-neko\n・Stroll through tranquil shrines like Setagaya Hachimangu and Shoinjinja, steeped in Edo and Meiji-era history\n・Experience local life in stylish shopping streets and cafés, where Tokyo’s modern charm meets timeless tradition\n・During the walk through the shopping street, enjoy a free drink (up to ¥800) ",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 72.01,
+                    "currency": "USD",
+                    "originalAmount": 72.01
+                  },
+                  "duration": 210,
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/Meet-the-lucky-cats-in-suburban-Tokyo-Gotokuji-Walking-Tour/d334-22178P37?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "manual",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/26/d3/1a.jpg",
+                  "matchReason": "Get expert insights about Neko Shrine & café with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Spa & Wellness",
+                    "Sightseeing",
+                    "Cruises",
+                    "Desert Adventures"
+                  ]
+                },
+                {
+                  "productCode": "142397P6",
+                  "title": "Bali Sunrise Without Hiking: Temples, Rice Terraces & Waterfall",
+                  "description": "Skip the long hike and enjoy Bali’s sunrise the easy way. Start your day at 5 AM with a hotel pickup and head to a cozy café in Kintamani for coffee, breakfast, and breathtaking views of Mount Batur at sunrise. Continue your journey with visits to Tirta Empul Temple for a traditional purification ritual, the ancient cliff-carved shrines of Gunung Kawi, a short walk to the hidden Manuaba Waterfall, and the peaceful Abian Rice Terrace. Finish by early afternoon, or extend your adventure with more activities at your own pace.\n",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 52.04,
+                    "currency": "USD",
+                    "originalAmount": 52.04
+                  },
+                  "duration": 360,
+                  "rating": 5,
+                  "reviewCount": 17,
+                  "bookingUrl": "https://www.viator.com/tours/Ubud/Hidden-Bali-Adventures/d5467-142397P6?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/2a/36/09.jpg",
+                  "matchReason": "Get expert insights about Neko Shrine & café with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "morning",
+                  "tags": [
+                    "Desert Adventures",
+                    "Hiking"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "osm:way/147604518",
+              "rank": 2,
+              "score": 127,
+              "activity": {
+                "name": "Franciscan Chapel Center",
+                "description": "Visit Franciscan Chapel Center",
+                "category": "temple",
+                "duration": 90,
+                "place": {
+                  "name": "Franciscan Chapel Center",
+                  "address": "",
+                  "neighborhood": "Roppongi",
+                  "coordinates": {
+                    "lat": 35.6648646,
+                    "lng": 139.7336166
+                  },
+                  "rating": 4.8,
+                  "reviewCount": 1582,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": true,
+                "tags": [
+                  "temple",
+                  "must-see",
+                  "rank-3"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#3 must-see in the city",
+                "4.8 rating (1,582 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        },
+        {
+          "slotId": "d2-slot-2",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "13:30"
+          },
+          "options": [
+            {
+              "id": "yelp-lunch-TkfzSqgkPs4RskGynsAU9g",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "Saya Honten",
+                "description": "Steakhouses - $$",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Saya Honten",
+                  "address": "内藤町1-7",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.684868099255,
+                    "lng": 139.715772866329
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/7g5JEKqV8BilIROg5ljFLQ/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "1.9 km from KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-lunch-6dZdhtOkfcwwwbi0f9vV7A",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Suzuya Shinjuku honten",
+                "description": "Tonkatsu - $",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Suzuya Shinjuku honten",
+                  "address": "歌舞伎町1-23-15",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.694001,
+                    "lng": 139.701002
+                  },
+                  "rating": 5,
+                  "reviewCount": 7,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/ioN1DjTizQCaNfW5dZx-sw/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.7 km from KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "5 rating (7 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-lunch-3hRJOuT9kaM-Gi3YMmQngQ",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "Hidachisō Senya",
+                "description": "Sake Bars - $",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Hidachisō Senya",
+                  "address": "百人町1-9-14",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.699631,
+                    "lng": 139.699907
+                  },
+                  "rating": 5,
+                  "reviewCount": 7,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/01yePzTQqb_RCdnVFBtebw/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.5 km from KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "5 rating (7 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 20,
+            "distance": 6054,
+            "method": "transit",
+            "instructions": "Take transit (6 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d2-slot-3",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/11801372169",
+              "rank": 1,
+              "score": 124,
+              "activity": {
+                "name": "KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "description": "Visit KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "KOIZUMI YAKUMO PARK LAFKADIO HEARN",
+                  "address": "",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.6996534,
+                    "lng": 139.7049386
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-9"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#9 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/13264304601",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "Takeshita Street",
+                "description": "Visit Takeshita Street (Takeshita Street)",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Takeshita Street",
+                  "address": "",
+                  "neighborhood": "Harajuku",
+                  "coordinates": {
+                    "lat": 35.6715932,
+                    "lng": 139.7030663
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-10"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#10 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 10,
+            "distance": 1913,
+            "method": "walk",
+            "instructions": "Walk 1.9 km"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        },
+        {
+          "slotId": "d2-slot-4",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "19:00",
+            "end": "21:00"
+          },
+          "options": [
+            {
+              "id": "yelp-dinner-r0VzAnFYLnE0YKw5TZqI0A",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "Sebastian",
+                "description": "Bars - $",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Sebastian",
+                  "address": "神山町7-15",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.6644814640629,
+                    "lng": 139.693629453899
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/Y2mPaoK0fGshgGteL03tFA/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "1.2 km from Takeshita Street",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-SHjGK-amJ6Z4e6OV8tRpBA",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Yoshinoya",
+                "description": "Gyudon - $",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Yoshinoya",
+                  "address": "神宮前1丁目17-1",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.6714373284329,
+                    "lng": 139.703233359601
+                  },
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/U9Rpw-_vsmdjGxRUuGdpew/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0 km from Takeshita Street",
+                "5 rating (8 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-vVR50thtmiBIqJ_n8v9nkw",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "HIDEOUT BURRITO",
+                "description": "Gastropubs - $$",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "HIDEOUT BURRITO",
+                  "address": "宇田川町35-4",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.661507,
+                    "lng": 139.697
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/Cns0v9rzWM7EqYCYAgm_lg/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "1.2 km from Takeshita Street",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 15,
+            "distance": 4042,
+            "method": "transit",
+            "instructions": "Take transit (4 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d2-slot-5",
+          "slotType": "evening",
+          "timeRange": {
+            "start": "21:00",
+            "end": "23:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/13264304601",
+              "rank": 1,
+              "score": 124,
+              "activity": {
+                "name": "Takeshita Street",
+                "description": "Visit Takeshita Street (Takeshita Street)",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Takeshita Street",
+                  "address": "",
+                  "neighborhood": "Harajuku",
+                  "coordinates": {
+                    "lat": 35.6715932,
+                    "lng": 139.7030663
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-10"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#10 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": [],
+              "viatorEnhancements": [
+                {
+                  "productCode": "175777P34",
+                  "title": "Harajuku Meiji Shrine Walking Tour in Tokyo",
+                  "description": "Explore the rich cultural tapestry of Tokyo on the Harajuku Meiji Shrine Walking Tour. This immersive 2 hours journey takes you through iconic sites, including the serene Meiji Shrine and vibrant Takeshita Street, all while uncovering the stories that shaped Tokyo's unique street culture. With a local guide, gain insider knowledge and appreciate the blend of tradition and modernity that defines this bustling city. Conveniently meet at JR Harajuku Station and conclude your tour at Omotesando, easily accessible by public transport.\n\n- Duration: 2 hours of guided exploration\n- Discover key sites like Meiji Shrine and Tokyu Plaza\n- Group size is limited for a personalized experience\n- Comfortable footwear recommended for walking around Tokyo",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 25,
+                    "currency": "USD",
+                    "originalAmount": 25
+                  },
+                  "duration": 120,
+                  "rating": 5,
+                  "reviewCount": 50,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/Harajuku-Meiji-Shrine-Walking-Tour-in-Tokyo/d334-175777P34?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/3e/d7/be.jpg",
+                  "matchReason": "Get expert insights about Takeshita Street with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": true,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Desert Adventures",
+                    "Hiking"
+                  ]
+                },
+                {
+                  "productCode": "441495P7",
+                  "title": "Harajuku Highlights: Where Tradition Meets Tokyo Pop",
+                  "description": "Join the “Blend of Tradition & Pop Culture for Family Tour.” Start with a quiet visit to Meiji Shrine. Stroll through tall torii gates and a peaceful forest. Learn about Japan’s spiritual heritage in a calm setting. Next, explore Takeshita Street with the whole family. Enjoy colorful shops and sweet treats that kids will love. Finally, unwind at Mipig Café. Sip a warm drink while miniature pigs roam nearby. This tour is perfect for families who want a balanced mix of tradition and modern fun. Book now to create cherished memories in Tokyo.",
+                  "enhancementType": "experience",
+                  "price": {
+                    "amount": 50,
+                    "currency": "USD",
+                    "originalAmount": 50
+                  },
+                  "duration": 120,
+                  "rating": 5,
+                  "reviewCount": 4,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/Harajuku-Blend-of-Tradition-and-Pop-Culture-for-Family-Tour/d334-441495P7?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/6e/75/f9.jpg",
+                  "matchReason": "Enhance your visit to Takeshita Street with this unique experience",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Desert Adventures"
+                  ]
+                },
+                {
+                  "productCode": "442381P56",
+                  "title": "Tokyo: Harajuku From Meiji shrine to Shibuya Crossing",
+                  "description": "Embark on a captivating 2-hour journey through Tokyo's vibrant Harajuku district! Begin with Immersing yourself in the serenity of Meiji Jingu Shrine, guided by a knowledgeable local sharing its rich history, while making new friends in the process. \n\nTransitioning into modern Harajuku, stroll down the iconic Takeshita Street, and discover kawaii things that you like.\n\nWalk on down to Shibuya, and at the renowned Shibuya Crossing, capture group photos against the pulsating city backdrop!\nContinue to the famous Hachiko statue, where your guide unveils the sad tale behind this symbol of loyalty. \n\nOur adventure concludes with a fond farewell, overlooking the dynamic Shibuya Crossing from a scenic vantage point. Join us for a memorable blend of tradition, modernity, and the heartbeat of Tokyo!",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 79.22,
+                    "currency": "USD",
+                    "originalAmount": 79.22
+                  },
+                  "duration": 120,
+                  "rating": 4.9259257,
+                  "reviewCount": 27,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/From-Meiji-shrine-to-Shibuya-Crossing-2-hours/d334-442381P56?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/4c/2f/5c.jpg",
+                  "matchReason": "Get expert insights about Takeshita Street with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": true,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Hiking",
+                    "Photography Tours"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "osm:node/5091810521",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "Moriyama House",
+                "description": "Visit Moriyama House",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Moriyama House",
+                  "address": "",
+                  "neighborhood": "Odaiba",
+                  "coordinates": {
+                    "lat": 35.5675985,
+                    "lng": 139.7097284
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2006,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-11"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#11 must-see in the city",
+                "4.7 rating (2,006 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 8,
+            "distance": 1163,
+            "method": "walk",
+            "instructions": "Walk 1.2 km"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        }
+      ],
+      "accommodation": {
+        "name": "Shibuya Excel Hotel Tokyu",
+        "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+        "neighborhood": "Shibuya",
+        "coordinates": {
+          "lat": 35.6594,
+          "lng": 139.6989
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.3
+      },
+      "commuteFromHotel": {
+        "duration": 27,
+        "distance": 9138,
+        "method": "transit",
+        "instructions": "Take transit from Shibuya Excel Hotel Tokyu"
+      },
+      "commuteToHotel": {
+        "duration": 8,
+        "distance": 1407,
+        "method": "walk",
+        "instructions": "Walk to Shibuya Excel Hotel Tokyu"
+      }
+    },
+    {
+      "dayNumber": 3,
+      "date": "2026-03-17",
+      "city": "Tokyo",
+      "title": "Final Exploration",
+      "slots": [
+        {
+          "slotId": "d3-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [
+            {
+              "id": "osm:way/147604518",
+              "rank": 1,
+              "score": 127,
+              "activity": {
+                "name": "Franciscan Chapel Center",
+                "description": "Visit Franciscan Chapel Center",
+                "category": "temple",
+                "duration": 90,
+                "place": {
+                  "name": "Franciscan Chapel Center",
+                  "address": "",
+                  "neighborhood": "Roppongi",
+                  "coordinates": {
+                    "lat": 35.6648646,
+                    "lng": 139.7336166
+                  },
+                  "rating": 4.8,
+                  "reviewCount": 1582,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": true,
+                "tags": [
+                  "temple",
+                  "must-see",
+                  "rank-3"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#3 must-see in the city",
+                "4.8 rating (1,582 reviews)"
+              ],
+              "tradeoffs": [],
+              "viatorEnhancements": [
+                {
+                  "productCode": "7233P80",
+                  "title": "Sanctuaries and Franciscan Sites surround Assisi",
+                  "description": "This small group tour will allow you to know about the most authentic places to feel the spirituality of Saint Francis of Assisi.",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 215.42,
+                    "currency": "USD",
+                    "originalAmount": 215.42
+                  },
+                  "duration": 150,
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "bookingUrl": "https://www.viator.com/tours/Assisi/Explore-Sanctuaries-and-Franciscan-Sites-outside-Assisi-by-Driver-and-Guide/d27667-7233P80?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/74/22/39.jpg",
+                  "matchReason": "Get expert insights about Franciscan Chapel Center with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Cruises",
+                    "Nature & Wildlife",
+                    "Small Group",
+                    "Desert Adventures"
+                  ]
+                },
+                {
+                  "productCode": "132136P13",
+                  "title": "Évora Walking Tour: Small Group Tour with Chapel of Bones Tickets",
+                  "description": "Discover the historic city of Évora, a UNESCO World Heritage Site, on a small-group tour with an experienced local guide. Explore the main attractions of Évora's historic center, including the Chapel of Bones, a religious temple completely covered in human bones. The entrance of this monument it´s included, with \"skip the line\" ticket.\n\nVisit the Roman Temple and the medieval streets of Évora. Learn about the city's rich history and culture from your guide.\n\nEnjoy a fun and interactive experience with a small group of up to 16 people, in english.\n\nMain Attractions\n- Chapel Of Bones\n- Roman Temple\n- Giraldo Square\n- Church of St. Francis\n- Typical Crafts\n\nTour Themes\n- Architecture/Urbanism\n- Arts/Crafts\n- Religious/Spiritual\n- Myths/Legends\n- Art History",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 41.05,
+                    "currency": "USD",
+                    "originalAmount": 46.67
+                  },
+                  "duration": 120,
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "bookingUrl": "https://www.viator.com/tours/Setubal-District/Evora-Small-Group-Tour-Discover-the-UNESCO-Heritage-City/d5016-132136P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/25/6f/fc.jpg",
+                  "matchReason": "Get expert insights about Franciscan Chapel Center with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": true,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Experiences",
+                    "Desert Adventures"
+                  ]
+                },
+                {
+                  "productCode": "283463P3",
+                  "title": "Private Évora Tour - Megaliths, Historical Center and Cork Region",
+                  "description": "Discover the rich history, culture, and natural beauty of Alentejo: Évora, a UNESCO World Heritage city, is known for its well-preserved Roman Temple, Gothic Cathedral, and the atmospheric Chapel of Bones. \n\nThe surrounding area is filled with ancient megalithic structures such as the Almendres Cromlech and the Cromlech of Vale Maria do Meio, a glimpse into the past of the region and its ancient cultures. \n\nThe landscape, characterized by the vast cork oak forests, is a must-see attraction, as it provides a beautiful and peaceful atmosphere, but also offers an insight into the region's traditional cork industry. \n\nOn this tour, you'll also have the opportunity to visit a cork factory to learn all about the history of cork production and the process of making cork products.\n\nThere will also be time for lunch in a traditional regional restaurant, to sample the local cuisine. \n\nThis is a truly unique and fulfilling experience that combines history, culture, and nature all in one.",
+                  "enhancementType": "private-tour",
+                  "price": {
+                    "amount": 239.35,
+                    "currency": "USD",
+                    "originalAmount": 239.35
+                  },
+                  "duration": 360,
+                  "rating": 5,
+                  "reviewCount": 16,
+                  "bookingUrl": "https://www.viator.com/tours/Sintra/Unlock-the-Secrets-of-Evoras-Heritage-Megalithic-Wonders-and-Cork-Region/d50861-283463P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/86/5c/15.jpg",
+                  "matchReason": "Enjoy an exclusive private experience at Franciscan Chapel Center",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": true
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Nature & Wildlife",
+                    "Theater",
+                    "Hiking",
+                    "Sightseeing",
+                    "Desert Adventures"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "osm:node/5896227298",
+              "rank": 2,
+              "score": 126,
+              "activity": {
+                "name": "Senpukuji",
+                "description": "Visit Senpukuji",
+                "category": "temple",
+                "duration": 90,
+                "place": {
+                  "name": "Senpukuji",
+                  "address": "",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.6970577,
+                    "lng": 139.7129687
+                  },
+                  "rating": 4.8,
+                  "reviewCount": 1202,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": true,
+                "tags": [
+                  "temple",
+                  "must-see",
+                  "rank-4"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#4 must-see in the city",
+                "4.8 rating (1,202 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        },
+        {
+          "slotId": "d3-slot-2",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "13:30"
+          },
+          "options": [
+            {
+              "id": "yelp-lunch-OjMuJx_kdqUMrJmszerA6Q",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "CURRY HOUSE CoCo Ichibanya JR Omori Station Higashiguchi",
+                "description": "Japanese Curry - $",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "CURRY HOUSE CoCo Ichibanya JR Omori Station Higashiguchi",
+                  "address": "大森北1-8-15",
+                  "neighborhood": "Ōta",
+                  "coordinates": {
+                    "lat": 35.586855,
+                    "lng": 139.727211
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/yBrvXue3HZ38UR4m8xr6Cw/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "2.7 km from Moriyama House",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-lunch-UIEi1UkPX_-7dMAFEehtTA",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Mawashi Zushi Katsu Midori Granduo Kamata",
+                "description": "Conveyor Belt Sushi - $$",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Mawashi Zushi Katsu Midori Granduo Kamata",
+                  "address": "蒲田5-13-1",
+                  "neighborhood": "Ōta",
+                  "coordinates": {
+                    "lat": 35.56269,
+                    "lng": 139.716533
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 12,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/F3EtrzTy_G2UAndzsRy3bQ/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.8 km from Moriyama House",
+                "4.7 rating (12 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-lunch-QyhPdtrn8TBxBPD-9ES80A",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "Hatsune Sushi",
+                "description": "Sushi Bars - $$",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Hatsune Sushi",
+                  "address": "西蒲田5-20-2",
+                  "neighborhood": "Ōta",
+                  "coordinates": {
+                    "lat": 35.565512178665,
+                    "lng": 139.714573865783
+                  },
+                  "rating": 4.6,
+                  "reviewCount": 8,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/gAJgjTg1UNKKM2N1oP3SOQ/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.5 km from Moriyama House",
+                "4.6 rating (8 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 26,
+            "distance": 8694,
+            "method": "transit",
+            "instructions": "Take transit (9 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d3-slot-3",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/5091810521",
+              "rank": 1,
+              "score": 124,
+              "activity": {
+                "name": "Moriyama House",
+                "description": "Visit Moriyama House",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Moriyama House",
+                  "address": "",
+                  "neighborhood": "Odaiba",
+                  "coordinates": {
+                    "lat": 35.5675985,
+                    "lng": 139.7097284
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2006,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-11"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#11 must-see in the city",
+                "4.7 rating (2,006 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/6127218291",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "Godzilla Store",
+                "description": "Visit Godzilla Store",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Godzilla Store",
+                  "address": "",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.69017,
+                    "lng": 139.7060551
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2006,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-12"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#12 must-see in the city",
+                "4.7 rating (2,006 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 11,
+            "distance": 2662,
+            "method": "transit",
+            "instructions": "Take transit (3 km)"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        },
+        {
+          "slotId": "d3-slot-4",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "19:00",
+            "end": "21:00"
+          },
+          "options": [
+            {
+              "id": "yelp-dinner-SHjGK-amJ6Z4e6OV8tRpBA",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "Yoshinoya",
+                "description": "Gyudon - $",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Yoshinoya",
+                  "address": "神宮前1丁目17-1",
+                  "neighborhood": "Shibuya",
+                  "coordinates": {
+                    "lat": 35.6714373284329,
+                    "lng": 139.703233359601
+                  },
+                  "rating": 5,
+                  "reviewCount": 8,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/U9Rpw-_vsmdjGxRUuGdpew/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "2.1 km from Godzilla Store",
+                "5 rating (8 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-TkfzSqgkPs4RskGynsAU9g",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Saya Honten",
+                "description": "Steakhouses - $$",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Saya Honten",
+                  "address": "内藤町1-7",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.684868099255,
+                    "lng": 139.715772866329
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/7g5JEKqV8BilIROg5ljFLQ/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "1.1 km from Godzilla Store",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-6dZdhtOkfcwwwbi0f9vV7A",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "Suzuya Shinjuku honten",
+                "description": "Tonkatsu - $",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Suzuya Shinjuku honten",
+                  "address": "歌舞伎町1-23-15",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.694001,
+                    "lng": 139.701002
+                  },
+                  "rating": 5,
+                  "reviewCount": 7,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/ioN1DjTizQCaNfW5dZx-sw/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.6 km from Godzilla Store",
+                "5 rating (7 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 33,
+            "distance": 11561,
+            "method": "transit",
+            "instructions": "Take transit (12 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d3-slot-5",
+          "slotType": "evening",
+          "timeRange": {
+            "start": "21:00",
+            "end": "23:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/6127218291",
+              "rank": 1,
+              "score": 124,
+              "activity": {
+                "name": "Godzilla Store",
+                "description": "Visit Godzilla Store",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Godzilla Store",
+                  "address": "",
+                  "neighborhood": "Shinjuku",
+                  "coordinates": {
+                    "lat": 35.69017,
+                    "lng": 139.7060551
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2006,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-12"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#12 must-see in the city",
+                "4.7 rating (2,006 reviews)"
+              ],
+              "tradeoffs": [],
+              "viatorEnhancements": [
+                {
+                  "productCode": "481975P1",
+                  "title": "Shinjuku Kabukichou local areas Exploring Tour in Bar or Hot Bath",
+                  "description": "Kabukicho is one of the largest entertainment districts not only in Japan but in Asia.\n\nAs an electronics district and a financial district, it also has a rich entertainment culture and nightlife.\n\nRather than physical souvenirs, the best souvenirs will be fun memories of a different culture from a different country!\n\nI will guide you around Shinjuku local areas. not only bars.\nlike big discount store [Don Quijote][Godzilla Head] ,and around Kabukicho.\n\nYou can experience traditional Japanese bars[Golden Gai][Memorable bai] & talking with other tourist and locals in metropolis Shinjuku.\n\nIf you want to go Japanese public bath ,I can guide you public hot bath[Sentou] near here ,even if you have a Tattoos.\n\nDo you know [Hanazono shrine] is entertainer Deity spot?\nYou can see entertainer Deity in kabukityou area shrine.\n\nBy visiting local bars, public baths and shrines, you can learn about Japanese traditions and history, interact with the locals and get to know Japan on a deeper level.",
+                  "enhancementType": "guided-tour",
+                  "price": {
+                    "amount": 98.2,
+                    "currency": "USD",
+                    "originalAmount": 98.2
+                  },
+                  "duration": 180,
+                  "rating": 5,
+                  "reviewCount": 1,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/Shinjuku-traditional-japanese-bar-at-Golden-gai/d334-481975P1?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "manual",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/e2/4e/01.jpg",
+                  "matchReason": "Get expert insights about Godzilla Store with a professional guide",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "flexible",
+                  "tags": [
+                    "Nature & Wildlife",
+                    "Spa & Wellness",
+                    "Small Group",
+                    "Photography Tours",
+                    "Architecture Tours",
+                    "Sightseeing"
+                  ]
+                },
+                {
+                  "productCode": "174545P120",
+                  "title": "Tokyo: Shinjuku Night Adventure Kabukicho & Golden Local Bar Hop",
+                  "description": "Enjoy all that Shinjuku has to offer during the evening and night hours.\nAfter meeting your guide at Shinjuku Station, you will first head to Kabukicho, the busiest shopping district in Japan. The neon signs glowing brightly, Godzilla's head peeking out from a building. The atmosphere of this bustling town is like no other.\nNext stop is Golden Gai, lined with local bars, where a variety of unique establishments await you.\nDiscuss with your guide and ask him or her to take you to the stores you want to visit.\nDon't worry if you don't speak Japanese, you can enjoy a night out in Shinjuku in just two hours.",
+                  "enhancementType": "night-tour",
+                  "price": {
+                    "amount": 122.75,
+                    "currency": "USD",
+                    "originalAmount": 122.75
+                  },
+                  "duration": 120,
+                  "rating": 5,
+                  "reviewCount": 1,
+                  "bookingUrl": "https://www.viator.com/tours/Tokyo/Shinjuku-Night-Adventure-Kabukicho-and-Golden-Local-Bar-Hop/d334-174545P120?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                  "confirmationType": "instant",
+                  "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/68/14/11.jpg",
+                  "matchReason": "Experience Godzilla Store in a magical evening setting",
+                  "flags": {
+                    "skipTheLine": false,
+                    "freeCancellation": true,
+                    "likelyToSellOut": false,
+                    "newOnViator": false,
+                    "privateOption": false
+                  },
+                  "bestTimeOfDay": "evening",
+                  "tags": [
+                    "Photography Tours",
+                    "Sightseeing"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "osm:node/3362908050",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "川崎大師仲見世通モール化定礎",
+                "description": "Visit 川崎大師仲見世通モール化定礎 (川崎大師仲見世通モール化定礎)",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "川崎大師仲見世通モール化定礎",
+                  "address": "",
+                  "neighborhood": "Odaiba",
+                  "coordinates": {
+                    "lat": 35.53453,
+                    "lng": 139.730525
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 1771,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-13"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#13 must-see in the city",
+                "4.7 rating (1,771 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-70672",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "SHIBUYA SKY Ticket",
+                "description": "Observation decks • Tokyo",
+                "category": "observation_deck",
+                "duration": 120,
+                "place": {
+                  "name": "SHIBUYA SKY Ticket",
+                  "address": "Tokyo",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.658,
+                    "lng": 139.7016
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/yjob4pwe3quwy452qk5q.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2753,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "observation_deck",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/70672-shibuya-sky-tokyo/"
+              },
+              "matchReasons": [
+                "2,000,000 bookings",
+                "4.7 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 10,
+            "distance": 2099,
+            "method": "transit",
+            "instructions": "Take transit (2 km)"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        }
+      ],
+      "accommodation": {
+        "name": "Shibuya Excel Hotel Tokyu",
+        "address": "1-12-2 Dogenzaka, Shibuya City, Tokyo",
+        "neighborhood": "Shibuya",
+        "coordinates": {
+          "lat": 35.6594,
+          "lng": 139.6989
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.3
+      },
+      "commuteFromHotel": {
+        "duration": 13,
+        "distance": 3195,
+        "method": "transit",
+        "instructions": "Take transit from Shibuya Excel Hotel Tokyu"
+      },
+      "commuteToHotel": {
+        "duration": 13,
+        "distance": 3482,
+        "method": "transit",
+        "instructions": "Take transit to Shibuya Excel Hotel Tokyu"
+      }
+    },
+    {
+      "dayNumber": 4,
+      "date": "2026-03-18",
+      "city": "Kyoto",
+      "title": "Travel Day & Exploration",
+      "slots": [
+        {
+          "slotId": "d4-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "08:00",
+            "end": "10:15"
+          },
+          "options": [
+            {
+              "id": "opt-4-transit",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Nozomi Shinkansen to Kyoto",
+                "description": "Travel from Tokyo to Kyoto via Nozomi Shinkansen",
+                "category": "transport",
+                "duration": 135,
+                "place": {
+                  "name": "Tokyo Station",
+                  "address": "Tokyo Station",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 35.6594,
+                    "lng": 139.6989
+                  }
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 13320,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "transport",
+                  "shinkansen",
+                  "scenic"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "Fastest way to travel",
+                "Iconic Japanese experience"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": "opt-4-transit",
+          "behavior": "travel",
+          "rigidityScore": 1
+        },
+        {
+          "slotId": "d4-slot-2",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "13:30"
+          },
+          "options": [
+            {
+              "id": "osm:node/11534695739",
+              "rank": 1,
+              "score": 94,
+              "activity": {
+                "name": "Pontakosakura",
+                "description": "Local restaurant",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Pontakosakura",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0067596,
+                    "lng": 135.7711121
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 405,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "local"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "4.7 rating",
+                "2 min walk from attraction"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/11811363130",
+              "rank": 2,
+              "score": 94,
+              "activity": {
+                "name": "ぎおん徳屋",
+                "description": "Local restaurant",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "ぎおん徳屋",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0025005,
+                    "lng": 135.7748881
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 450,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "local"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "4.7 rating",
+                "3 min walk from attraction"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/10696154606",
+              "rank": 3,
+              "score": 94,
+              "activity": {
+                "name": "札幌かに家",
+                "description": "Local restaurant",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "札幌かに家",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.0019691,
+                    "lng": 135.7772358
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 450,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "local"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "4.7 rating",
+                "4 min walk from attraction"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 878,
+            "distance": 363590,
+            "method": "transit",
+            "instructions": "Take transit (364 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d4-slot-3",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/6163744230",
+              "rank": 1,
+              "score": 125,
+              "activity": {
+                "name": "Konjaku Nishimura",
+                "description": "Visit Konjaku Nishimura",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Konjaku Nishimura",
+                  "address": "",
+                  "neighborhood": "Gion",
+                  "coordinates": {
+                    "lat": 35.0068778,
+                    "lng": 135.7727304
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2476,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-4"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#4 must-see in the city",
+                "4.7 rating (2,476 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/6341121886",
+              "rank": 2,
+              "score": 125,
+              "activity": {
+                "name": "Tsuzaki Muraoka",
+                "description": "Visit Tsuzaki Muraoka",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Tsuzaki Muraoka",
+                  "address": "",
+                  "neighborhood": "Arashiyama",
+                  "coordinates": {
+                    "lat": 35.014681,
+                    "lng": 135.6725827
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2476,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-5"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#5 must-see in the city",
+                "4.7 rating (2,476 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-167098",
+              "rank": 3,
+              "score": 96,
+              "activity": {
+                "name": "teamLab Biovortex Kyoto Ticket",
+                "description": "Museums • Kyoto",
+                "category": "museum",
+                "duration": 120,
+                "place": {
+                  "name": "teamLab Biovortex Kyoto Ticket",
+                  "address": "Kyoto",
+                  "neighborhood": "Kyoto",
+                  "coordinates": {
+                    "lat": 35.0116,
+                    "lng": 135.7681
+                  },
+                  "rating": 4.8,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/aecfpzb3ura4qhg0nwvr.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 3794,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "museum",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/167098-teamlab-kyoto/"
+              },
+              "matchReasons": [
+                "70,000 bookings",
+                "4.8 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 5,
+            "distance": 148,
+            "method": "walk",
+            "instructions": "Walk 0.1 km"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        },
+        {
+          "slotId": "d4-slot-4",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "19:00",
+            "end": "21:00"
+          },
+          "options": [
+            {
+              "id": "yelp-dinner-xCVrP_KEGOotwm58PZpztQ",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "Ex Cafe Kyoto Arashiyama",
+                "description": "Cafes - $",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Ex Cafe Kyoto Arashiyama",
+                  "address": "嵯峨天龍寺造路町35-3",
+                  "neighborhood": "右京区",
+                  "coordinates": {
+                    "lat": 35.0146650584,
+                    "lng": 135.678098307
+                  },
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/k0v7paZMjWl9acOZoa6Y5w/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.5 km from Tsuzaki Muraoka",
+                "5 rating (6 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-kTA6MyR73mL0K55c7-HnGg",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Cafe Takahashi",
+                "description": "Cafes - $",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Cafe Takahashi",
+                  "address": "右京区嵯峨天龍寺芒ノ馬場町10-2",
+                  "neighborhood": "Kyoto",
+                  "coordinates": {
+                    "lat": 35.014554,
+                    "lng": 135.675313
+                  },
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/FHUynrHGH5neoujeNw8eCw/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 1000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.2 km from Tsuzaki Muraoka",
+                "5 rating (6 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-dinner-gGp66dQsHdeWjieuVzzmYg",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "Kyo SUIRAN",
+                "description": "Kaiseki - $$",
+                "category": "restaurant",
+                "duration": 90,
+                "place": {
+                  "name": "Kyo SUIRAN",
+                  "address": "嵯峨天龍寺芒ノ馬場町12",
+                  "neighborhood": "Kyoto",
+                  "coordinates": {
+                    "lat": 35.013627,
+                    "lng": 135.673282
+                  },
+                  "rating": 5,
+                  "reviewCount": 5,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/a2WzCH7xb206deMKj9SgNA/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "dinner"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "0.1 km from Tsuzaki Muraoka",
+                "5 rating (5 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 26,
+            "distance": 8662,
+            "method": "transit",
+            "instructions": "Take transit (9 km)"
+          },
+          "behavior": "meal",
+          "rigidityScore": 0.6
+        },
+        {
+          "slotId": "d4-slot-5",
+          "slotType": "evening",
+          "timeRange": {
+            "start": "21:00",
+            "end": "23:00"
+          },
+          "options": [
+            {
+              "id": "osm:node/6341121886",
+              "rank": 1,
+              "score": 125,
+              "activity": {
+                "name": "Tsuzaki Muraoka",
+                "description": "Visit Tsuzaki Muraoka",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "Tsuzaki Muraoka",
+                  "address": "",
+                  "neighborhood": "Arashiyama",
+                  "coordinates": {
+                    "lat": 35.014681,
+                    "lng": 135.6725827
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2476,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-5"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#5 must-see in the city",
+                "4.7 rating (2,476 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "osm:node/3848522062",
+              "rank": 2,
+              "score": 124,
+              "activity": {
+                "name": "龍安寺山",
+                "description": "Visit 龍安寺山 (龍安寺山)",
+                "category": "landmark",
+                "duration": 90,
+                "place": {
+                  "name": "龍安寺山",
+                  "address": "",
+                  "neighborhood": "Kinkaku-ji Area",
+                  "coordinates": {
+                    "lat": 35.0308839,
+                    "lng": 135.7194647
+                  },
+                  "rating": 4.7,
+                  "reviewCount": 2241,
+                  "photos": [
+                    "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop",
+                    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 500,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "landmark",
+                  "must-see",
+                  "rank-6"
+                ],
+                "source": "local-data"
+              },
+              "matchReasons": [
+                "#6 must-see in the city",
+                "4.7 rating (2,241 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "klook-167098",
+              "rank": 3,
+              "score": 96,
+              "activity": {
+                "name": "teamLab Biovortex Kyoto Ticket",
+                "description": "Museums • Kyoto",
+                "category": "museum",
+                "duration": 120,
+                "place": {
+                  "name": "teamLab Biovortex Kyoto Ticket",
+                  "address": "Kyoto",
+                  "neighborhood": "Kyoto",
+                  "coordinates": {
+                    "lat": 35.0116,
+                    "lng": 135.7681
+                  },
+                  "rating": 4.8,
+                  "reviewCount": 0,
+                  "photos": [
+                    "https://res.klook.com/image/upload/activities/aecfpzb3ura4qhg0nwvr.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 3794,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "museum",
+                  "bookable",
+                  "experience"
+                ],
+                "source": "klook",
+                "bookingUrl": "https://www.klook.com/activity/167098-teamlab-kyoto/"
+              },
+              "matchReasons": [
+                "70,000 bookings",
+                "4.8 rating"
+              ],
+              "tradeoffs": [
+                "Advance booking required"
+              ]
+            }
+          ],
+          "selectedOptionId": null,
+          "commuteFromPrevious": {
+            "duration": 6,
+            "distance": 502,
+            "method": "walk",
+            "instructions": "Walk 0.5 km"
+          },
+          "behavior": "flex",
+          "rigidityScore": 0.4
+        }
+      ],
+      "cityTransition": {
+        "from": "Tokyo",
+        "to": "Kyoto",
+        "method": "shinkansen",
+        "duration": 135,
+        "departureTime": "08:00",
+        "arrivalTime": "10:15",
+        "trainName": "Nozomi Shinkansen",
+        "estimatedCost": {
+          "amount": 13320,
+          "currency": "JPY"
+        },
+        "departureStation": "Tokyo Station",
+        "arrivalStation": "Kyoto Station"
+      },
+      "accommodation": {
+        "name": "Hotel Granvia Kyoto",
+        "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku, Kyoto",
+        "neighborhood": "Kyoto Station",
+        "coordinates": {
+          "lat": 34.9853,
+          "lng": 135.7585
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.5
+      },
+      "commuteFromHotel": {
+        "duration": 882,
+        "distance": 365239,
+        "method": "transit",
+        "instructions": "Take transit from Hotel Granvia Kyoto"
+      },
+      "commuteToHotel": {
+        "duration": 25,
+        "distance": 8480,
+        "method": "transit",
+        "instructions": "Take transit to Hotel Granvia Kyoto"
+      }
+    },
+    {
+      "dayNumber": 5,
+      "date": "2026-03-19",
+      "city": "Kyoto",
+      "title": "Final Exploration",
+      "slots": [],
+      "accommodation": {
+        "name": "Hotel Granvia Kyoto",
+        "address": "Karasuma-dori Shiokoji-sagaru, Shimogyo-ku, Kyoto",
+        "neighborhood": "Kyoto Station",
+        "coordinates": {
+          "lat": 34.9853,
+          "lng": 135.7585
+        },
+        "checkIn": "15:00",
+        "checkOut": "11:00",
+        "type": "hotel",
+        "rating": 4.5
+      },
+      "commuteFromHotel": {
+        "duration": 21,
+        "distance": 6503,
+        "method": "transit",
+        "instructions": "Take transit from Hotel Granvia Kyoto"
+      },
+      "commuteToHotel": {
+        "duration": 11,
+        "distance": 2423,
+        "method": "transit",
+        "instructions": "Take transit to Hotel Granvia Kyoto"
+      }
+    }
+  ],
+  "generalTips": [
+    "Get a JR Pass for the Shinkansen and JR trains - saves money on Tokyo-Kyoto-Osaka route",
+    "Get a Suica or ICOCA card for easy transit payments",
+    "Download Google Maps offline for each city",
+    "Most shops accept credit cards, but keep ¥10,000-20,000 cash for small vendors",
+    "Temple visits are best in early morning to avoid crowds",
+    "Many restaurants are cash-only, especially traditional ones",
+    "Convenience stores (7-Eleven, Lawson, FamilyMart) have great food and ATMs",
+    "Shoes off before entering traditional spaces - wear easy slip-on shoes",
+    "Trash cans are rare - carry a small bag for your waste",
+    "Tipping is not customary and can be considered rude"
+  ],
+  "estimatedBudget": {
+    "total": {
+      "min": 79640,
+      "max": 141140
+    },
+    "currency": "JPY",
+    "breakdown": {
+      "activities": {
+        "min": 5000,
+        "max": 6000
+      },
+      "food": {
+        "min": 12000,
+        "max": 22500
+      },
+      "transport": {
+        "min": 30640,
+        "max": 32640
+      }
+    }
+  }
+}

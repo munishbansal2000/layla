@@ -1,5 +1,21 @@
 "use client";
 
+/**
+ * TripPlannerPane Component
+ *
+ * @deprecated This component is deprecated. Use TripApp from '@/components/trip' instead.
+ * TripApp provides a unified trip planning experience that combines the best of TripPlannerPane
+ * and the previous TripApp, with consistent flow, settings, and execution mode.
+ *
+ * This component is kept for backward compatibility with test pages.
+ *
+ * Migration guide:
+ * - Replace <TripPlannerPane /> with <TripApp />
+ * - TripApp handles plan → view phases internally
+ * - Execution mode is an overlay within the view phase
+ * - Settings are accessible via a modal in the header
+ */
+
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -15,6 +31,7 @@ import {
   Heart,
   GripVertical,
   Sparkles,
+  Play,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import type {
@@ -32,11 +49,11 @@ import {
 import { useTripStore } from "@/store/trip-store";
 import {
   ActivitySelectionFlow,
-  useSelectionSession,
-  type SelectionSlot,
-  type ScoredActivityOption,
-  type SelectionSession,
-} from "./ActivitySelectionFlow";
+  type SwipeHistoryItem,
+  type ActivitySelectionFlowProps,
+  type SwipeOption,
+  type SwipeDecision,
+} from "../planner/ActivitySelectionFlow";
 import type {
   TripMode,
   PaceMode,
@@ -50,7 +67,10 @@ import type {
   ScheduledActivity,
 } from "@/lib/schedule-builder";
 import type { GeneratedItinerary } from "@/lib/itinerary-orchestrator";
-import { SwapOptionsModal, type SwapOption } from "./SwapOptionsModal";
+import {
+  SwapOptionsModal,
+  type SwapOption,
+} from "../reshuffling/SwapOptionsModal";
 import { UnifiedItineraryView } from "../itinerary/UnifiedItineraryView";
 import { ReshuffleModal, UndoToast } from "../reshuffling";
 import { useReshuffling } from "@/hooks/useReshuffling";
@@ -81,6 +101,24 @@ import {
   type GeneratedDaySchedule,
   type GeneratedSlot,
 } from "./trip-planner";
+
+// Import execution components
+import {
+  ExecutionControlBar,
+  useExecutionState,
+  type ScenarioType,
+  type ActivityExecutionStatus,
+} from "@/components/execution";
+import {
+  ExecutionNotificationFeed,
+  useExecutionNotifications,
+} from "@/components/execution/ExecutionNotifications";
+import {
+  ExecutionDecisionModal,
+  useExecutionDecisions,
+  createLateWakeupDecision,
+  createDelayedDepartureDecision,
+} from "@/components/execution/ExecutionDecisionModal";
 
 // ============================================
 // Mock Data for Testing
@@ -1268,6 +1306,256 @@ export function TripPlannerPane({
   // Get current day schedule
   const currentDay = schedule[selectedDayIndex];
 
+  // ============================================
+  // EXECUTION MODE STATE & HOOKS
+  // ============================================
+  const [isExecutionMode, setIsExecutionMode] = useState(false);
+
+  // Execution state hook
+  const executionState = useExecutionState(currentDay?.slots?.length || 0);
+
+  // Execution notifications hook
+  const executionNotifications = useExecutionNotifications();
+
+  // Execution decisions hook
+  const executionDecisions = useExecutionDecisions();
+
+  // Activity execution statuses (mapped by slot ID)
+  const [activityStatuses, setActivityStatuses] = useState<
+    Map<string, ActivityExecutionStatus>
+  >(new Map());
+
+  // Handle starting execution mode
+  const handleStartExecutionMode = useCallback(() => {
+    setIsExecutionMode(true);
+
+    // Initialize activity statuses
+    const initialStatuses = new Map<string, ActivityExecutionStatus>();
+    currentDay?.slots?.forEach((slot, index) => {
+      initialStatuses.set(slot.id, index === 0 ? "pending" : "upcoming");
+    });
+    setActivityStatuses(initialStatuses);
+
+    // Set total activities
+    executionState.setTotalActivities(currentDay?.slots?.length || 0);
+
+    // Set simulated start time (8 AM on the current day)
+    const startTime = new Date();
+    startTime.setHours(8, 0, 0, 0);
+    executionState.start(startTime);
+
+    // Update current activity to first one
+    if (currentDay?.slots?.[0]) {
+      executionState.updateCurrentActivity(
+        currentDay.slots[0].id,
+        currentDay.slots[0].activity?.name || "First Activity"
+      );
+    }
+
+    // Send initial notification
+    executionNotifications.addNotification({
+      type: "info",
+      title: "Day Started",
+      message: `Starting Day ${selectedDayIndex + 1} execution. ${
+        currentDay?.slots?.length || 0
+      } activities planned.`,
+      priority: "normal",
+    });
+  }, [currentDay, selectedDayIndex, executionState, executionNotifications]);
+
+  // Handle stopping execution mode
+  const handleStopExecutionMode = useCallback(() => {
+    setIsExecutionMode(false);
+    executionState.stop();
+    setActivityStatuses(new Map());
+    executionNotifications.clearAllNotifications();
+  }, [executionState, executionNotifications]);
+
+  // Handle scenario triggers
+  const handleTriggerScenario = useCallback(
+    (scenario: ScenarioType) => {
+      const currentActivityName =
+        executionState.state.currentActivityName || "Current Activity";
+      const nextSlotIndex = executionState.state.completedActivities;
+      const nextActivityName =
+        currentDay?.slots?.[nextSlotIndex + 1]?.activity?.name ||
+        "Next Activity";
+
+      switch (scenario) {
+        case "late_wakeup": {
+          const delayMinutes = 45;
+          executionState.addDelay(delayMinutes);
+
+          executionNotifications.addNotification({
+            type: "scenario_trigger",
+            title: "Late Wakeup Triggered",
+            message: `Simulating ${delayMinutes} minute delay from late wakeup`,
+            priority: "high",
+          });
+
+          // Show decision modal
+          const hasBooking = currentDay?.slots?.some(
+            (s) => s.activity?.viatorProductCode
+          );
+          const bookingSlot = currentDay?.slots?.find(
+            (s) => s.activity?.viatorProductCode
+          );
+
+          executionDecisions.showDecision(
+            createLateWakeupDecision(
+              executionState.state.simulatedTime.current.toLocaleTimeString(
+                "en-US",
+                { hour: "2-digit", minute: "2-digit" }
+              ),
+              delayMinutes,
+              currentDay?.slots?.[0]?.activity?.name || "Breakfast",
+              nextActivityName,
+              !!hasBooking,
+              hasBooking && bookingSlot
+                ? {
+                    name: bookingSlot.activity?.name || "Booking",
+                    time: bookingSlot.timeSlot.startTime,
+                    buffer: 15,
+                  }
+                : undefined
+            )
+          );
+          break;
+        }
+
+        case "delayed_departure": {
+          const delayMinutes = 25;
+          executionState.addDelay(delayMinutes);
+
+          executionNotifications.addNotification({
+            type: "delay_warning",
+            title: "Delayed Departure",
+            message: `Running ${delayMinutes} min behind schedule`,
+            priority: "high",
+          });
+
+          const hasBooking = currentDay?.slots
+            ?.slice(nextSlotIndex + 1)
+            .some((s) => s.activity?.viatorProductCode);
+
+          executionDecisions.showDecision(
+            createDelayedDepartureDecision(
+              executionState.state.simulatedTime.current.toLocaleTimeString(
+                "en-US",
+                { hour: "2-digit", minute: "2-digit" }
+              ),
+              delayMinutes,
+              currentActivityName,
+              nextActivityName,
+              !!hasBooking
+            )
+          );
+          break;
+        }
+
+        case "slow_activity": {
+          executionState.addDelay(20);
+          executionNotifications.addNotification({
+            type: "activity_ending",
+            title: "Activity Running Long",
+            message: `${currentActivityName} is taking longer than expected`,
+            priority: "normal",
+            actionLabel: "Extend 15 min",
+            onAction: () => executionState.addDelay(15),
+          });
+          break;
+        }
+
+        case "booking_risk": {
+          executionNotifications.addNotification({
+            type: "booking_at_risk",
+            title: "Booking at Risk!",
+            message:
+              "You may miss your timed reservation if you don't leave soon",
+            priority: "urgent",
+            autoDismiss: false,
+          });
+          break;
+        }
+      }
+    },
+    [currentDay, executionState, executionNotifications, executionDecisions]
+  );
+
+  // Handle decision selection
+  const handleDecisionSelect = useCallback(
+    async (optionId: string) => {
+      await executionDecisions.handleSelect(optionId, async (id) => {
+        // Process the decision
+        executionNotifications.addNotification({
+          type: "info",
+          title: "Decision Applied",
+          message: `Applied: ${id}`,
+          priority: "normal",
+        });
+
+        // Handle specific decision outcomes
+        if (id === "skip_breakfast" || id === "skip_next") {
+          const currentSlotIndex = executionState.state.completedActivities;
+          if (currentDay?.slots?.[currentSlotIndex]) {
+            setActivityStatuses((prev) => {
+              const updated = new Map(prev);
+              updated.set(currentDay.slots[currentSlotIndex].id, "skipped");
+              return updated;
+            });
+            executionState.completeActivity();
+          }
+        }
+      });
+    },
+    [executionDecisions, executionNotifications, executionState, currentDay]
+  );
+
+  // Handle skip activity
+  const handleSkipActivity = useCallback(() => {
+    const currentSlotIndex = executionState.state.completedActivities;
+    if (currentDay?.slots?.[currentSlotIndex]) {
+      setActivityStatuses((prev) => {
+        const updated = new Map(prev);
+        updated.set(currentDay.slots[currentSlotIndex].id, "skipped");
+        if (currentDay.slots[currentSlotIndex + 1]) {
+          updated.set(currentDay.slots[currentSlotIndex + 1].id, "pending");
+        }
+        return updated;
+      });
+
+      executionState.completeActivity();
+
+      const nextSlot = currentDay.slots[currentSlotIndex + 1];
+      if (nextSlot) {
+        executionState.updateCurrentActivity(
+          nextSlot.id,
+          nextSlot.activity?.name || null
+        );
+      }
+
+      executionNotifications.addNotification({
+        type: "skip_suggestion",
+        title: "Activity Skipped",
+        message: `Skipped ${
+          currentDay.slots[currentSlotIndex].activity?.name || "activity"
+        }`,
+        priority: "normal",
+      });
+    }
+  }, [currentDay, executionState, executionNotifications]);
+
+  // Handle extend activity
+  const handleExtendActivity = useCallback(() => {
+    executionNotifications.addNotification({
+      type: "extension_available",
+      title: "Activity Extended",
+      message: "Added 15 minutes to current activity",
+      priority: "normal",
+    });
+    executionState.addDelay(15);
+  }, [executionNotifications, executionState]);
+
   // Get suggested activities for a specific slot
   const getSuggestionsForSlot = useMemo(() => {
     return (slot: TimeSlot): ViatorActivitySuggestion[] => {
@@ -1535,6 +1823,23 @@ export function TripPlannerPane({
 
       {/* Footer */}
       <div className="flex-shrink-0 p-4 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+        {/* Execution Control Bar - Show when in execution mode */}
+        {isExecutionMode && (
+          <div className="mb-4">
+            <ExecutionControlBar
+              state={executionState.state}
+              onStart={handleStartExecutionMode}
+              onPause={executionState.pause}
+              onResume={executionState.resume}
+              onStop={handleStopExecutionMode}
+              onSpeedChange={executionState.setSpeed}
+              onTriggerScenario={handleTriggerScenario}
+              onSkipActivity={handleSkipActivity}
+              onExtendActivity={handleExtendActivity}
+            />
+          </div>
+        )}
+
         {/* Generation Status */}
         {generationStatus === "generating" && (
           <div className="mb-3 flex items-center justify-center gap-2 text-purple-600 dark:text-purple-400">
@@ -1574,6 +1879,28 @@ export function TripPlannerPane({
               )}
           </div>
           <div className="flex items-center gap-2">
+            {/* Execution Mode Toggle */}
+            {!isExecutionMode && currentDay && currentDay.slots.length > 0 && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleStartExecutionMode}
+                className="border-green-600 text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20"
+              >
+                <Play className="w-4 h-4 mr-1" />
+                Execute Day
+              </Button>
+            )}
+            {isExecutionMode && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleStopExecutionMode}
+                className="border-red-600 text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20"
+              >
+                Exit Execution
+              </Button>
+            )}
             <Button variant="outline" size="sm" onClick={handleStartSwipeMode}>
               <Heart className="w-4 h-4 mr-1" />
               Swipe Mode
@@ -1706,6 +2033,27 @@ export function TripPlannerPane({
         autoHideDelay={5000}
         showUndoButton={!!reshuffling.state.undoToken}
       />
+
+      {/* Execution Mode Components */}
+      {isExecutionMode && (
+        <>
+          {/* Notification Feed */}
+          <ExecutionNotificationFeed
+            notifications={executionNotifications.notifications}
+            onDismiss={executionNotifications.dismissNotification}
+            position="top-right"
+          />
+
+          {/* Decision Modal */}
+          <ExecutionDecisionModal
+            isOpen={!!executionDecisions.currentDecision}
+            decision={executionDecisions.currentDecision}
+            onSelect={handleDecisionSelect}
+            onDismiss={executionDecisions.dismissDecision}
+            isProcessing={executionDecisions.isProcessing}
+          />
+        </>
+      )}
     </div>
   );
 }

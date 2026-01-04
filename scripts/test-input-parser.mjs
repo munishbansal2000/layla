@@ -260,8 +260,12 @@ async function runTest(testCase) {
     console.log(`${"─".repeat(60)}`);
     console.log(`\n📥 Input:\n   "${testCase.input}"\n`);
 
+    // Use current date as reference (or override with REFERENCE_DATE env var)
+    const referenceDate = process.env.REFERENCE_DATE || new Date().toISOString().split("T")[0];
+    console.log(`📅 Reference Date: ${referenceDate}`);
+
     const startTime = Date.now();
-    const result = await parseTripInput(testCase.input, "2025-01-15");
+    const result = await parseTripInput(testCase.input, referenceDate);
     const durationMs = Date.now() - startTime;
 
     if (result.error) {

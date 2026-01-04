@@ -1,0 +1,757 @@
+{
+  "destination": "Japan",
+  "country": "Japan",
+  "days": [
+    {
+      "dayNumber": 1,
+      "date": "2026-03-15",
+      "city": "Tokyo",
+      "title": "Day 1 in Tokyo",
+      "slots": [
+        {
+          "slotId": "d1-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "15:30",
+            "end": "16:30"
+          },
+          "behavior": "travel",
+          "options": [
+            {
+              "id": "opt-arrival-transfer",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Airport → Hotel Transfer",
+                "description": "Transfer from NRT to hotel in Tokyo. Via train",
+                "category": "transport",
+                "duration": 60,
+                "place": {
+                  "name": "NRT",
+                  "address": "",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "tags": [
+                  "transfer",
+                  "airport",
+                  "arrival"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [
+                "Airport arrival transfer"
+              ],
+              "tradeoffs": []
+            }
+          ]
+        },
+        {
+          "slotId": "d1-slot-2",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d1-slot-3",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "18:00",
+            "end": "20:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "date": "2026-03-16",
+      "city": "Tokyo",
+      "title": "Day 2 in Tokyo",
+      "slots": [
+        {
+          "slotId": "d2-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d2-slot-2",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "14:00"
+          },
+          "options": [
+            {
+              "id": "yelp-lunch-osbAvDe_e_8KjaQpYzgb9Q",
+              "rank": 1,
+              "score": 85,
+              "activity": {
+                "name": "ginzasushimasa",
+                "description": "Sushi Bars - $$$$",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "ginzasushimasa",
+                  "address": "銀座5-14-5",
+                  "neighborhood": "Chūō",
+                  "coordinates": {
+                    "lat": 35.6687537889281,
+                    "lng": 139.767420882974
+                  },
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/gzyDzo3nz02sPGYe0a_QOA/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 5000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "3 km from teamLab Planets",
+                "5 rating (6 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-lunch-T4Qnye_LlyxSL2NMWL8xCw",
+              "rank": 2,
+              "score": 80,
+              "activity": {
+                "name": "Shutoku 2nd",
+                "description": "Sushi Bars - $$",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Shutoku 2nd",
+                  "address": "築地6-26-6",
+                  "neighborhood": "Chūō",
+                  "coordinates": {
+                    "lat": 35.664606,
+                    "lng": 139.771138
+                  },
+                  "rating": 5,
+                  "reviewCount": 9,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/zQ9dycaBR5b6jnFmTxA3MQ/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "2.4 km from teamLab Planets",
+                "5 rating (9 reviews)"
+              ],
+              "tradeoffs": []
+            },
+            {
+              "id": "yelp-lunch-NcTs33kwTtGNajbXT6a3kQ",
+              "rank": 3,
+              "score": 75,
+              "activity": {
+                "name": "Shou ",
+                "description": "Seafood - $$",
+                "category": "restaurant",
+                "duration": 60,
+                "place": {
+                  "name": "Shou ",
+                  "address": "豊洲6-5-1",
+                  "neighborhood": "Koto",
+                  "coordinates": {
+                    "lat": 35.6434,
+                    "lng": 139.780865
+                  },
+                  "rating": 5,
+                  "reviewCount": 6,
+                  "photos": [
+                    "https://s3-media0.fl.yelpcdn.com/bphoto/s-XmKze_lNu1wCbc9-EbTw/o.jpg"
+                  ]
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 2000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "restaurant",
+                  "lunch"
+                ],
+                "source": "yelp"
+              },
+              "matchReasons": [
+                "1 km from teamLab Planets",
+                "5 rating (6 reviews)"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "behavior": "meal",
+          "selectedOptionId": null
+        },
+        {
+          "slotId": "d2-slot-3",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d2-slot-4",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "17:00"
+          },
+          "behavior": "anchor",
+          "options": [
+            {
+              "id": "opt-anchor-teamlab-planets",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "teamLab Planets",
+                "description": "Pre-booked activity: teamLab Planets",
+                "category": "other",
+                "duration": 180,
+                "place": {
+                  "name": "teamLab Planets",
+                  "address": "チームラボ プラネッツ, 16, 豊洲六丁目, 豊洲, 江東区, 東京都, 135-0061, 日本",
+                  "neighborhood": "豊洲六丁目",
+                  "coordinates": {
+                    "lat": 35.64938,
+                    "lng": 139.789728
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "tags": [
+                  "pre-booked",
+                  "anchor"
+                ],
+                "source": "osm"
+              },
+              "matchReasons": [
+                "Pre-booked activity - fixed time"
+              ],
+              "tradeoffs": []
+            }
+          ],
+          "commuteFromPrevious": {
+            "duration": 12,
+            "distance": 2950,
+            "method": "transit",
+            "instructions": "Take transit (3 km)"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "date": "2026-03-17",
+      "city": "Tokyo",
+      "title": "Day 3 in Tokyo",
+      "slots": [
+        {
+          "slotId": "d3-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d3-slot-2",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "11:00",
+            "end": "12:58"
+          },
+          "behavior": "anchor",
+          "options": [
+            {
+              "id": "opt-anchor-sushi-making-class-at-tokyo-sushi-academy",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "sushi-making class at Tokyo Sushi Academy",
+                "description": "Pre-booked activity: sushi-making class at Tokyo Sushi Academy",
+                "category": "other",
+                "duration": 118,
+                "place": {
+                  "name": "sushi-making class at Tokyo Sushi Academy",
+                  "address": "",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "tags": [
+                  "pre-booked",
+                  "anchor"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [
+                "Pre-booked activity - fixed time"
+              ],
+              "tradeoffs": []
+            }
+          ]
+        },
+        {
+          "slotId": "d3-slot-3",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "14:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        },
+        {
+          "slotId": "d3-slot-4",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d3-slot-5",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "18:00",
+            "end": "20:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "date": "2026-03-18",
+      "city": "Kyoto",
+      "title": "Day 4 in Kyoto",
+      "slots": [
+        {
+          "slotId": "d4-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d4-slot-2",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "10:00",
+            "end": "13:00"
+          },
+          "behavior": "travel",
+          "options": [
+            {
+              "id": "opt-intercity-transfer-Tokyo-Kyoto",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Shinkansen: Tokyo → Kyoto",
+                "description": "Shinkansen from Tokyo to Kyoto. Approximate travel time: 3h 0m. Check out of hotel before departure.",
+                "category": "transport",
+                "duration": 180,
+                "place": {
+                  "name": "Tokyo Station",
+                  "address": "",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 14000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "transfer",
+                  "shinkansen",
+                  "intercity",
+                  "shinkansen"
+                ],
+                "source": "ai",
+                "arrivalPlace": {
+                  "name": "Arrival from Shinkansen: Tokyo → Kyoto",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.6762,
+                    "lng": 139.6503
+                  }
+                }
+              },
+              "matchReasons": [
+                "Inter-city transfer to Kyoto"
+              ],
+              "tradeoffs": []
+            }
+          ]
+        },
+        {
+          "slotId": "d4-slot-3",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "14:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        },
+        {
+          "slotId": "d4-slot-4",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d4-slot-5",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "18:00",
+            "end": "20:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "date": "2026-03-19",
+      "city": "Kyoto",
+      "title": "Day 5 in Kyoto",
+      "slots": [
+        {
+          "slotId": "d5-slot-1",
+          "slotType": "breakfast",
+          "timeRange": {
+            "start": "05:30",
+            "end": "07:30"
+          },
+          "behavior": "anchor",
+          "options": [
+            {
+              "id": "opt-anchor-fushimi-inari-sunrise-tour",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Fushimi Inari sunrise tour",
+                "description": "Pre-booked activity: Fushimi Inari sunrise tour",
+                "category": "other",
+                "duration": 120,
+                "place": {
+                  "name": "Fushimi Inari sunrise tour",
+                  "address": "",
+                  "neighborhood": "kyoto",
+                  "coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "tags": [
+                  "pre-booked",
+                  "anchor"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [
+                "Pre-booked activity - fixed time"
+              ],
+              "tradeoffs": []
+            }
+          ]
+        },
+        {
+          "slotId": "d5-slot-2",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "09:00",
+            "end": "12:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d5-slot-3",
+          "slotType": "lunch",
+          "timeRange": {
+            "start": "12:00",
+            "end": "14:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        },
+        {
+          "slotId": "d5-slot-4",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "14:00",
+            "end": "18:00"
+          },
+          "options": [],
+          "behavior": "flex",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "attraction"
+          }
+        },
+        {
+          "slotId": "d5-slot-5",
+          "slotType": "dinner",
+          "timeRange": {
+            "start": "18:00",
+            "end": "20:00"
+          },
+          "options": [],
+          "behavior": "meal",
+          "metadata": {
+            "needsActivity": true,
+            "suggestedCategory": "restaurant"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "date": "2026-03-20",
+      "city": "Kyoto",
+      "title": "Day 6 in Kyoto",
+      "slots": [
+        {
+          "slotId": "d6-slot-1",
+          "slotType": "morning",
+          "timeRange": {
+            "start": "10:00",
+            "end": "13:00"
+          },
+          "behavior": "travel",
+          "options": [
+            {
+              "id": "opt-intercity-transfer-Kyoto-Tokyo",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Shinkansen: Kyoto → Tokyo",
+                "description": "Shinkansen from Kyoto to Tokyo. Approximate travel time: 3h 0m. Check out of hotel before departure.",
+                "category": "transport",
+                "duration": 180,
+                "place": {
+                  "name": "Kyoto Station",
+                  "address": "",
+                  "neighborhood": "Kyoto",
+                  "coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "estimatedCost": {
+                  "amount": 14000,
+                  "currency": "JPY"
+                },
+                "tags": [
+                  "transfer",
+                  "shinkansen",
+                  "intercity",
+                  "shinkansen"
+                ],
+                "source": "ai",
+                "arrivalPlace": {
+                  "name": "Arrival from Shinkansen: Kyoto → Tokyo",
+                  "address": "",
+                  "neighborhood": "",
+                  "coordinates": {
+                    "lat": 35.6762,
+                    "lng": 139.6503
+                  }
+                }
+              },
+              "matchReasons": [
+                "Inter-city transfer to Tokyo"
+              ],
+              "tradeoffs": []
+            }
+          ]
+        },
+        {
+          "slotId": "d6-slot-2",
+          "slotType": "afternoon",
+          "timeRange": {
+            "start": "06:00",
+            "end": "07:00"
+          },
+          "behavior": "travel",
+          "options": [
+            {
+              "id": "opt-departure-transfer",
+              "rank": 1,
+              "score": 100,
+              "activity": {
+                "name": "Hotel → Airport Transfer",
+                "description": "Transfer from hotel to NRT. Flight departs at 10:00. Via train",
+                "category": "transport",
+                "duration": 60,
+                "place": {
+                  "name": "NRT",
+                  "address": "",
+                  "neighborhood": "Tokyo",
+                  "coordinates": {
+                    "lat": 0,
+                    "lng": 0
+                  },
+                  "photos": []
+                },
+                "isFree": false,
+                "tags": [
+                  "transfer",
+                  "airport",
+                  "departure"
+                ],
+                "source": "ai"
+              },
+              "matchReasons": [
+                "Airport departure transfer"
+              ],
+              "tradeoffs": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generalTips": [
+    "Get a JR Pass for Shinkansen and JR trains",
+    "Get a Suica or ICOCA card for easy transit payments",
+    "Download Google Maps offline for each city",
+    "Most shops accept credit cards, but keep some cash for small vendors",
+    "Temple visits are best in early morning to avoid crowds"
+  ],
+  "estimatedBudget": {
+    "total": {
+      "min": 50000,
+      "max": 100000
+    },
+    "currency": "JPY"
+  },
+  "tripId": "japan-0314-4p-6d-WIPD"
+}

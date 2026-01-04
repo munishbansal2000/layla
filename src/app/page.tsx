@@ -7,7 +7,7 @@ import { Header } from "@/components/layout/Header";
 import { ChatInterface } from "@/components/chat/ChatInterface";
 import { ItineraryView } from "@/components/itinerary/ItineraryView";
 import { DestinationGrid } from "@/components/ui/DestinationCard";
-import { TripPlannerPane } from "@/components/planner/TripPlannerPane";
+import { UnifiedItineraryView } from "@/components/itinerary/UnifiedItineraryView";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { useTripStore } from "@/store/trip-store";
@@ -370,7 +370,7 @@ export default function HomePage() {
             )}
           </div>
 
-          {/* Right: Trip Planner Pane (70% width) */}
+          {/* Right: Unified Itinerary View (70% width) */}
           <AnimatePresence>
             {showPlannerPane && (
               <motion.div
@@ -378,13 +378,51 @@ export default function HomePage() {
                 animate={{ x: 0, opacity: 1 }}
                 exit={{ x: 100, opacity: 0 }}
                 transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                className="flex-1 bg-white dark:bg-gray-800 shadow-2xl z-40 overflow-hidden"
+                className="flex-1 bg-white dark:bg-gray-800 shadow-2xl z-40 overflow-y-auto"
               >
-                <TripPlannerPane
-                  context={tripContext}
-                  structuredItinerary={structuredItinerary}
-                  onClose={() => setShowPlannerPane(false)}
-                />
+                {structuredItinerary ? (
+                  <div className="max-w-4xl mx-auto p-6">
+                    <div className="flex items-center justify-between mb-6">
+                      <div>
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+                          {structuredItinerary.destination}
+                        </h2>
+                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                          {structuredItinerary.days.length} days •{" "}
+                          {structuredItinerary.days
+                            .map((d) => d.city)
+                            .filter((v, i, a) => a.indexOf(v) === i)
+                            .join(" → ")}
+                        </p>
+                      </div>
+                      <button
+                        onClick={() => setShowPlannerPane(false)}
+                        className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                      >
+                        Close
+                      </button>
+                    </div>
+                    <UnifiedItineraryView
+                      itinerary={structuredItinerary}
+                      enableReordering={true}
+                      defaultViewMode="tabbed"
+                    />
+                  </div>
+                ) : (
+                  <div className="flex items-center justify-center h-full p-8">
+                    <div className="text-center">
+                      <p className="text-gray-500 dark:text-gray-400 mb-2">
+                        Tell me about your trip to see your itinerary here
+                      </p>
+                      <button
+                        onClick={() => setShowPlannerPane(false)}
+                        className="mt-4 px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                )}
               </motion.div>
             )}
           </AnimatePresence>

@@ -155,8 +155,12 @@ export interface ActivityOption {
     category: string;
     duration: number; // minutes
 
-    // Place data for maps
+    // Place data for maps (departure/origin location for transport activities)
     place: PlaceData | null;
+
+    // For transport activities: arrival/destination location
+    // Used for calculating commutes AFTER the transport activity
+    arrivalPlace?: PlaceData;
 
     // Cost info
     isFree: boolean;
@@ -170,6 +174,9 @@ export interface ActivityOption {
 
     // Source of this activity
     source: "ai" | "yelp" | "viator" | "google-places" | "local-data" | "klook" | "osm";
+
+    // Booking URL for paid experiences
+    bookingUrl?: string;
   };
 
   // For restaurants: dietary preference match
@@ -390,6 +397,8 @@ export interface DayWithOptions {
 // ============================================
 
 export interface StructuredItineraryData {
+  /** Unique trip ID for execution and cross-page sync (e.g., "tokyo-A3F2") */
+  tripId?: string;
   destination: string;
   country?: string;
   days: DayWithOptions[];

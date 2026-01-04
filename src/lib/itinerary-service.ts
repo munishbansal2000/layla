@@ -17,6 +17,7 @@
 
 import { llm, type ChatMessage, type AIProvider } from "./llm";
 import { getSystemPrompt } from "./prompts";
+import { getValidationDebugLogger } from "./validation-debug-logger";
 import type {
   StructuredItineraryData,
   DayWithOptions,
@@ -73,8 +74,37 @@ export interface ItineraryRequest {
   // Activity anchors - pre-booked activities with fixed times
   anchors?: ActivityAnchor[];
 
+  // Flight time constraints - for adjusting first/last day activities
+  arrivalFlightTime?: string; // HH:mm - when arriving on first day (e.g., "14:30")
+  departureFlightTime?: string; // HH:mm - when departing on last day (e.g., "16:00")
+  arrivalAirport?: string; // Airport code (e.g., "NRT")
+  departureAirport?: string; // Airport code (e.g., "KIX")
+
+  // Inter-city transfer info (derived from transfer-inference)
+  transfers?: Array<{
+    type: "airport_arrival" | "airport_departure" | "inter_city" | "same_city";
+    date: string;
+    fromCity: string;
+    toCity: string;
+    mode?: string; // "shinkansen", "train", "bus", etc.
+    duration?: number; // minutes
+  }>;
+
   // Clustering preference
   clusterByNeighborhood?: boolean; // Group activities geographically (default: true)
+
+  // Hotels/accommodations - for hotel↔activity commute calculation
+  hotels?: Array<{
+    name: string;
+    city: string;
+    checkIn: string;  // YYYY-MM-DD
+    checkOut: string; // YYYY-MM-DD
+    coordinates?: {
+      lat: number;
+      lng: number;
+    };
+    address?: string;
+  }>;
 
   // Enrichment options
   enrichWithPlaceResolution?: boolean;
@@ -299,6 +329,621 @@ function validateConstraints(
   }
 }
 
+/**
+ * Extract significant keywords from a name for matching
+ * Filters out common words, short words, and venue type suffixes
+ */
+function extractSignificantKeywords(name: string): string[] {
+  const stopWords = new Set([
+    "the", "a", "an", "at", "in", "on", "to", "for", "of", "and", "or", "with",
+    "tour", "trip", "visit", "experience", "class", "making", "sunrise", "sunset",
+    "morning", "afternoon", "evening", "night", "day", "private", "guided",
+    "temple", "shrine", "museum", "park", "castle", "palace", "garden", "market",
+    "station", "airport", "hotel", "restaurant", "from", "via"
+  ]);
+
+  return name
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, " ") // Remove punctuation except hyphens
+    .split(/[\s-]+/)
+    .filter(word =>
+      word.length >= 3 && // Must be 3+ chars
+      !stopWords.has(word) && // Not a stop word
+      !/^\d+$/.test(word) // Not purely numeric
+    );
+}
+
+/**
+ * Calculate how well an activity name matches an anchor name
+ * Returns a score from 0 to 100
+ */
+function calculateAnchorMatchScore(activityName: string, anchorName: string): number {
+  const activityLower = activityName.toLowerCase();
+  const anchorLower = anchorName.toLowerCase();
+
+  // Direct containment is best match
+  if (activityLower.includes(anchorLower) || anchorLower.includes(activityLower)) {
+    return 100;
+  }
+
+  // Extract significant keywords
+  const anchorKeywords = extractSignificantKeywords(anchorName);
+  const activityKeywords = extractSignificantKeywords(activityName);
+
+  if (anchorKeywords.length === 0) return 0;
+
+  // Count matching keywords
+  let matchedKeywords = 0;
+  let significantMatches = 0; // Keywords 5+ chars
+
+  for (const anchorWord of anchorKeywords) {
+    const isSignificant = anchorWord.length >= 5;
+
+    // Check for exact match or very close match (start/end)
+    const hasMatch = activityKeywords.some(actWord =>
+      actWord === anchorWord ||
+      (anchorWord.length >= 4 && actWord.includes(anchorWord)) ||
+      (actWord.length >= 4 && anchorWord.includes(actWord))
+    );
+
+    if (hasMatch) {
+      matchedKeywords++;
+      if (isSignificant) significantMatches++;
+    }
+  }
+
+  // Need at least one significant match or multiple small matches
+  if (significantMatches === 0 && matchedKeywords < 2) {
+    return 0;
+  }
+
+  // Calculate score based on keyword overlap
+  const keywordRatio = matchedKeywords / anchorKeywords.length;
+  return Math.round(keywordRatio * 80) + (significantMatches > 0 ? 20 : 0);
+}
+
+/**
+ * Inject missing anchors into the generated itinerary
+ * If the LLM didn't include an anchor, we add it as a new slot
+ */
+function injectMissingAnchors(
+  itinerary: StructuredItineraryData,
+  anchors: ActivityAnchor[]
+): StructuredItineraryData {
+  if (anchors.length === 0) return itinerary;
+
+  // Create a mutable copy
+  const result = JSON.parse(JSON.stringify(itinerary)) as StructuredItineraryData;
+
+  // Minimum score needed to consider it a match
+  const MATCH_THRESHOLD = 50;
+
+  for (const anchor of anchors) {
+    const anchorDate = anchor.date;
+
+    // Find the day for this anchor
+    const dayIndex = result.days.findIndex((d) => d.date === anchorDate);
+    if (dayIndex === -1) {
+      console.log(
+        `[itinerary-service] Anchor "${anchor.name}" on ${anchorDate} - day not found, skipping injection`
+      );
+      continue;
+    }
+
+    const day = result.days[dayIndex];
+
+    // Check if anchor already exists in any slot
+    let anchorFound = false;
+    let bestMatch: { slot: typeof day.slots[0]; option: typeof day.slots[0]["options"][0]; score: number } | null = null;
+
+    for (const slot of day.slots) {
+      for (const option of slot.options) {
+        const activityName = option.activity?.name || "";
+        const score = calculateAnchorMatchScore(activityName, anchor.name);
+
+        if (score >= MATCH_THRESHOLD) {
+          if (!bestMatch || score > bestMatch.score) {
+            bestMatch = { slot, option, score };
+          }
+        }
+      }
+    }
+
+    if (bestMatch) {
+      anchorFound = true;
+      // Ensure slot is marked as anchor behavior
+      if (bestMatch.slot.behavior !== "anchor") {
+        bestMatch.slot.behavior = "anchor";
+        console.log(
+          `[itinerary-service] ✓ Matched anchor "${anchor.name}" to "${bestMatch.option.activity?.name}" (score: ${bestMatch.score})`
+        );
+      }
+    }
+
+    if (!anchorFound) {
+      console.log(
+        `[itinerary-service] 📌 Injecting missing anchor "${anchor.name}" into day ${day.dayNumber}`
+      );
+
+      // Determine the slot type based on the anchor's start time
+      let slotType: SlotWithOptions["slotType"] = "morning";
+      if (anchor.startTime) {
+        const hour = parseInt(anchor.startTime.split(":")[0], 10);
+        if (hour >= 18) slotType = "evening";
+        else if (hour >= 14) slotType = "afternoon";
+        else if (hour >= 12) slotType = "lunch";
+        else if (hour >= 9) slotType = "morning";
+        else slotType = "breakfast";
+      }
+
+      // Create a new slot for this anchor
+      const newSlot = {
+        slotId: `day${day.dayNumber}-anchor-${anchor.name.toLowerCase().replace(/\s+/g, "-")}`,
+        slotType,
+        timeRange: {
+          start: anchor.startTime || "09:00",
+          end: anchor.endTime || (anchor.duration ? calculateEndTime(anchor.startTime || "09:00", anchor.duration) : "11:00"),
+        },
+        behavior: "anchor" as const,
+        options: [
+          {
+            id: `opt-anchor-${anchor.name.toLowerCase().replace(/\s+/g, "-")}`,
+            rank: 1,
+            score: 100,
+            activity: {
+              name: anchor.name,
+              description: anchor.notes || `Pre-booked activity: ${anchor.name}`,
+              category: anchor.category || "experience",
+              duration: anchor.duration || 120,
+              place: {
+                name: anchor.name,
+                address: "",
+                neighborhood: anchor.city || day.city,
+                coordinates: { lat: 0, lng: 0 }, // Will be resolved later if place resolution is enabled
+                photos: [],
+              },
+              isFree: false,
+              tags: ["pre-booked", "anchor"],
+              source: "ai" as const,
+            },
+            matchReasons: ["Pre-booked activity - fixed time"],
+            tradeoffs: [],
+          },
+        ],
+      };
+
+      // Insert the slot at the appropriate position based on time
+      let insertIndex = day.slots.length;
+      if (anchor.startTime) {
+        const anchorHour = parseInt(anchor.startTime.split(":")[0], 10);
+        for (let i = 0; i < day.slots.length; i++) {
+          const slotStart = day.slots[i].timeRange?.start || "00:00";
+          const slotHour = parseInt(slotStart.split(":")[0], 10);
+          if (anchorHour < slotHour) {
+            insertIndex = i;
+            break;
+          }
+        }
+      }
+
+      day.slots.splice(insertIndex, 0, newSlot);
+      console.log(
+        `[itinerary-service] ✓ Injected anchor "${anchor.name}" at position ${insertIndex} (${slotType} slot)`
+      );
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Calculate end time given start time and duration in minutes
+ */
+function calculateEndTime(startTime: string, durationMinutes: number): string {
+  const [hours, minutes] = startTime.split(":").map(Number);
+  const totalMinutes = hours * 60 + minutes + durationMinutes;
+  const endHours = Math.floor(totalMinutes / 60) % 24;
+  const endMinutes = totalMinutes % 60;
+  return `${endHours.toString().padStart(2, "0")}:${endMinutes.toString().padStart(2, "0")}`;
+}
+
+// ============================================
+// REMOVE IMPOSSIBLE SLOTS
+// ============================================
+
+/**
+ * Remove slots that occur before arrival (Day 1) or after departure (last day)
+ * These are impossible to do given the flight times.
+ */
+function removeImpossibleSlots(
+  itinerary: StructuredItineraryData,
+  arrivalFlightTime?: string,
+  departureFlightTime?: string
+): StructuredItineraryData {
+  if (!arrivalFlightTime && !departureFlightTime) {
+    return itinerary;
+  }
+
+  console.log(`[itinerary-service] Removing impossible slots (arrival: ${arrivalFlightTime}, departure: ${departureFlightTime})`);
+
+  const result = JSON.parse(JSON.stringify(itinerary)) as StructuredItineraryData;
+
+  // Process Day 1 - remove slots that END before arrival + transfer time
+  if (arrivalFlightTime && result.days.length > 0) {
+    const day1 = result.days[0];
+    const arrivalHour = parseInt(arrivalFlightTime.split(":")[0], 10);
+    const arrivalMin = parseInt(arrivalFlightTime.split(":")[1] || "0", 10);
+
+    // Add ~2 hours for immigration, baggage, and airport transfer
+    const earliestActivityMins = (arrivalHour * 60 + arrivalMin) + 120;
+
+    const originalSlotCount = day1.slots.length;
+    day1.slots = day1.slots.filter(slot => {
+      // Always keep travel slots (airport transfer)
+      if (slot.behavior === "travel") {
+        return true;
+      }
+
+      // Check if slot ENDS before earliest possible activity time
+      // This removes slots that are completely before arrival
+      const slotEnd = slot.timeRange?.end || "23:59";
+      const [endHour, endMin] = slotEnd.split(":").map(Number);
+      const slotEndMins = endHour * 60 + endMin;
+
+      if (slotEndMins <= earliestActivityMins) {
+        console.log(`[itinerary-service] Removing Day 1 slot "${slot.slotType}" (${slot.timeRange?.start}-${slot.timeRange?.end}) - ends before arrival`);
+        return false;
+      }
+
+      return true;
+    });
+
+    const removedCount = originalSlotCount - day1.slots.length;
+    if (removedCount > 0) {
+      console.log(`[itinerary-service] Removed ${removedCount} impossible slots from Day 1`);
+    }
+  }
+
+  // Process last day - remove slots that START after latest possible activity time
+  if (departureFlightTime && result.days.length > 0) {
+    const lastDay = result.days[result.days.length - 1];
+    const departureHour = parseInt(departureFlightTime.split(":")[0], 10);
+    const departureMin = parseInt(departureFlightTime.split(":")[1] || "0", 10);
+
+    // Need to leave for airport 3 hours before flight
+    const latestActivityMins = (departureHour * 60 + departureMin) - 180;
+
+    const originalSlotCount = lastDay.slots.length;
+    lastDay.slots = lastDay.slots.filter(slot => {
+      // Always keep travel slots (airport transfer)
+      if (slot.behavior === "travel") {
+        return true;
+      }
+
+      // Check if slot STARTS after latest possible activity time
+      const slotStart = slot.timeRange?.start || "00:00";
+      const [startHour, startMin] = slotStart.split(":").map(Number);
+      const slotStartMins = startHour * 60 + startMin;
+
+      if (slotStartMins >= latestActivityMins) {
+        console.log(`[itinerary-service] Removing last day slot "${slot.slotType}" (${slot.timeRange?.start}-${slot.timeRange?.end}) - starts after departure prep`);
+        return false;
+      }
+
+      return true;
+    });
+
+    const removedCount = originalSlotCount - lastDay.slots.length;
+    if (removedCount > 0) {
+      console.log(`[itinerary-service] Removed ${removedCount} impossible slots from last day`);
+    }
+  }
+
+  return result;
+}
+
+// ============================================
+// TRANSFER SLOT INJECTION (POST-PROCESSING)
+// ============================================
+
+/**
+ * Transfer info passed from TripApp (derived from transfer-inference)
+ */
+interface TransferInfo {
+  type: "airport_arrival" | "airport_departure" | "inter_city" | "same_city";
+  date: string;
+  fromCity: string;
+  toCity: string;
+  mode?: string;
+  duration?: number; // minutes
+}
+
+/**
+ * Inject transfer slots into the generated itinerary
+ * This adds:
+ * - Airport → Hotel slot on arrival day (Day 1)
+ * - Hotel → Airport slot on departure day (Last day)
+ * - Shinkansen/train slots on inter-city transfer days
+ *
+ * Also considers anchor bookings on transfer days to:
+ * - Schedule transfers around fixed anchor times
+ * - Warn if anchor timing conflicts with transfer feasibility
+ */
+function injectTransferSlots(
+  itinerary: StructuredItineraryData,
+  transfers: TransferInfo[],
+  arrivalFlightTime?: string,
+  departureFlightTime?: string,
+  arrivalAirport?: string,
+  departureAirport?: string,
+  anchors?: ActivityAnchor[]
+): StructuredItineraryData {
+  if (!transfers || transfers.length === 0) {
+    return itinerary;
+  }
+
+  console.log(`[itinerary-service] Injecting ${transfers.length} transfer slots...`);
+
+  // Deep copy
+  const result = JSON.parse(JSON.stringify(itinerary)) as StructuredItineraryData;
+
+  for (const transfer of transfers) {
+    // Find the day matching this transfer date
+    const dayIndex = result.days.findIndex((d) => d.date === transfer.date);
+    if (dayIndex === -1) {
+      console.log(`[itinerary-service] Transfer date ${transfer.date} not found in itinerary, skipping`);
+      continue;
+    }
+
+    const day = result.days[dayIndex];
+    const durationMins = transfer.duration || 90; // Default 90 mins if not specified
+
+    // Check for anchor bookings on this transfer day
+    const dayAnchors = anchors?.filter(a => a.date === transfer.date) || [];
+    const originCityAnchors = dayAnchors.filter(a =>
+      a.city?.toLowerCase() === transfer.fromCity.toLowerCase()
+    );
+    const destCityAnchors = dayAnchors.filter(a =>
+      a.city?.toLowerCase() === transfer.toCity.toLowerCase()
+    );
+
+    if (dayAnchors.length > 0) {
+      console.log(`[itinerary-service] Found ${dayAnchors.length} anchors on transfer day ${transfer.date}:`,
+        dayAnchors.map(a => `${a.name} (${a.city} @ ${a.startTime || "no time"})`).join(", ")
+      );
+    }
+
+    if (transfer.type === "airport_arrival") {
+      // Airport → Hotel: Insert at beginning of day
+      const arrivalTime = arrivalFlightTime || "14:00";
+      // Add ~30 mins for immigration/baggage, then transfer duration
+      const transferStartTime = calculateEndTime(arrivalTime, 30);
+      const transferEndTime = calculateEndTime(transferStartTime, durationMins);
+
+      const arrivalSlot: SlotWithOptions = {
+        slotId: `day${day.dayNumber}-arrival-transfer`,
+        slotType: "morning", // Will be first slot
+        timeRange: {
+          start: transferStartTime,
+          end: transferEndTime,
+        },
+        behavior: "travel" as const,
+        options: [{
+          id: `opt-arrival-transfer`,
+          rank: 1,
+          score: 100,
+          activity: {
+            name: `Airport → Hotel Transfer`,
+            description: `Transfer from ${arrivalAirport || "airport"} to hotel in ${transfer.toCity}. ${transfer.mode ? `Via ${transfer.mode}` : ""}`,
+            category: "transport",
+            duration: durationMins,
+            place: {
+              name: arrivalAirport || "Airport",
+              address: "",
+              neighborhood: transfer.toCity,
+              coordinates: { lat: 0, lng: 0 },
+              photos: [],
+            },
+            isFree: false,
+            tags: ["transfer", "airport", "arrival"],
+            source: "ai" as const,
+          },
+          matchReasons: ["Airport arrival transfer"],
+          tradeoffs: [],
+        }],
+      };
+
+      // Insert at the beginning
+      day.slots.unshift(arrivalSlot);
+      console.log(`[itinerary-service] ✓ Injected airport arrival transfer on day ${day.dayNumber}`);
+
+    } else if (transfer.type === "airport_departure") {
+      // Hotel → Airport: Insert at end of day
+      const departureTime = departureFlightTime || "16:00";
+      // Need to arrive 2-3 hours before flight
+      const latestArrivalTime = calculateEndTime(departureTime, -180);
+      // Transfer starts based on duration
+      const transferStartTime = calculateEndTime(latestArrivalTime, -durationMins);
+
+      const departureSlot: SlotWithOptions = {
+        slotId: `day${day.dayNumber}-departure-transfer`,
+        slotType: "afternoon",
+        timeRange: {
+          start: transferStartTime,
+          end: latestArrivalTime,
+        },
+        behavior: "travel" as const,
+        options: [{
+          id: `opt-departure-transfer`,
+          rank: 1,
+          score: 100,
+          activity: {
+            name: `Hotel → Airport Transfer`,
+            description: `Transfer from hotel to ${departureAirport || "airport"}. Flight departs at ${departureFlightTime || "TBD"}. ${transfer.mode ? `Via ${transfer.mode}` : ""}`,
+            category: "transport",
+            duration: durationMins,
+            place: {
+              name: departureAirport || "Airport",
+              address: "",
+              neighborhood: transfer.fromCity,
+              coordinates: { lat: 0, lng: 0 },
+              photos: [],
+            },
+            isFree: false,
+            tags: ["transfer", "airport", "departure"],
+            source: "ai" as const,
+          },
+          matchReasons: ["Airport departure transfer"],
+          tradeoffs: [],
+        }],
+      };
+
+      // Insert at the end
+      day.slots.push(departureSlot);
+      console.log(`[itinerary-service] ✓ Injected airport departure transfer on day ${day.dayNumber}`);
+
+    } else if (transfer.type === "inter_city") {
+      // Inter-city Shinkansen: Need to consider anchors
+      const modeDisplay = transfer.mode === "shinkansen" ? "Shinkansen" : (transfer.mode || "Train");
+
+      // Default timing: leave at 10:00 after hotel checkout
+      let transferStartTime = "10:00";
+      let transferEndTime = calculateEndTime(transferStartTime, durationMins);
+
+      // Check for anchors in DESTINATION city - we need to arrive before these
+      if (destCityAnchors.length > 0) {
+        const earliestDestAnchor = destCityAnchors
+          .filter(a => a.startTime)
+          .sort((a, b) => (a.startTime || "23:59").localeCompare(b.startTime || "23:59"))[0];
+
+        if (earliestDestAnchor?.startTime) {
+          // Need to arrive before anchor, with buffer for check-in and transit
+          const anchorHour = parseInt(earliestDestAnchor.startTime.split(":")[0], 10);
+          const anchorMin = parseInt(earliestDestAnchor.startTime.split(":")[1] || "0", 10);
+
+          // Calculate latest arrival: anchor time - 60 mins buffer (for hotel check-in, local transit)
+          const latestArrivalMins = (anchorHour * 60 + anchorMin) - 60;
+
+          // Calculate required departure time: arrival - transfer duration
+          const requiredDepartureMins = latestArrivalMins - durationMins;
+
+          if (requiredDepartureMins < 7 * 60) { // Before 7:00 AM
+            console.warn(`[itinerary-service] ⚠️ Anchor "${earliestDestAnchor.name}" at ${earliestDestAnchor.startTime} in ${transfer.toCity} may conflict with transfer - would need to leave before 7:00 AM`);
+            // Still schedule early transfer, but warn
+            transferStartTime = "07:00";
+          } else {
+            const depHours = Math.floor(requiredDepartureMins / 60);
+            const depMins = requiredDepartureMins % 60;
+            transferStartTime = `${depHours.toString().padStart(2, "0")}:${depMins.toString().padStart(2, "0")}`;
+            console.log(`[itinerary-service] Adjusted transfer to ${transferStartTime} to arrive before "${earliestDestAnchor.name}" at ${earliestDestAnchor.startTime}`);
+          }
+
+          transferEndTime = calculateEndTime(transferStartTime, durationMins);
+        }
+      }
+
+      // Check for anchors in ORIGIN city - we need to leave after these
+      if (originCityAnchors.length > 0) {
+        const latestOriginAnchor = originCityAnchors
+          .filter(a => a.startTime)
+          .sort((a, b) => (b.startTime || "00:00").localeCompare(a.startTime || "00:00"))[0];
+
+        if (latestOriginAnchor?.startTime) {
+          const anchorEndTime = latestOriginAnchor.endTime ||
+            calculateEndTime(latestOriginAnchor.startTime, latestOriginAnchor.duration || 120);
+
+          // Departure should be after anchor ends + 30 min buffer
+          const anchorEndHour = parseInt(anchorEndTime.split(":")[0], 10);
+          const anchorEndMin = parseInt(anchorEndTime.split(":")[1] || "0", 10);
+          const earliestDepartureMins = (anchorEndHour * 60 + anchorEndMin) + 30;
+
+          const currentDepartureMins = parseInt(transferStartTime.split(":")[0], 10) * 60 +
+            parseInt(transferStartTime.split(":")[1] || "0", 10);
+
+          if (earliestDepartureMins > currentDepartureMins) {
+            const depHours = Math.floor(earliestDepartureMins / 60);
+            const depMins = earliestDepartureMins % 60;
+            transferStartTime = `${depHours.toString().padStart(2, "0")}:${depMins.toString().padStart(2, "0")}`;
+            transferEndTime = calculateEndTime(transferStartTime, durationMins);
+            console.log(`[itinerary-service] Delayed transfer to ${transferStartTime} to accommodate "${latestOriginAnchor.name}" in ${transfer.fromCity}`);
+          }
+
+          // Check if this conflicts with destination anchors
+          if (destCityAnchors.length > 0) {
+            const earliestDestAnchor = destCityAnchors
+              .filter(a => a.startTime)
+              .sort((a, b) => (a.startTime || "23:59").localeCompare(b.startTime || "23:59"))[0];
+
+            if (earliestDestAnchor?.startTime) {
+              const arrivalMins = parseInt(transferEndTime.split(":")[0], 10) * 60 +
+                parseInt(transferEndTime.split(":")[1] || "0", 10);
+              const destAnchorMins = parseInt(earliestDestAnchor.startTime.split(":")[0], 10) * 60 +
+                parseInt(earliestDestAnchor.startTime.split(":")[1] || "0", 10);
+
+              if (arrivalMins + 60 > destAnchorMins) { // Adding 60 min buffer
+                console.warn(`[itinerary-service] ⚠️ CONFLICT: Anchor "${latestOriginAnchor.name}" in ${transfer.fromCity} and "${earliestDestAnchor.name}" in ${transfer.toCity} - impossible to do both with ${durationMins} min transfer`);
+              }
+            }
+          }
+        }
+      }
+
+      const transferSlot: SlotWithOptions = {
+        slotId: `day${day.dayNumber}-intercity-transfer`,
+        slotType: "morning",
+        timeRange: {
+          start: transferStartTime,
+          end: transferEndTime,
+        },
+        behavior: "travel" as const,
+        options: [{
+          id: `opt-intercity-transfer-${transfer.fromCity}-${transfer.toCity}`,
+          rank: 1,
+          score: 100,
+          activity: {
+            name: `${modeDisplay}: ${transfer.fromCity} → ${transfer.toCity}`,
+            description: `${modeDisplay} from ${transfer.fromCity} to ${transfer.toCity}. Approximate travel time: ${Math.round(durationMins / 60)}h ${durationMins % 60}m. Check out of hotel before departure.`,
+            category: "transport",
+            duration: durationMins,
+            place: {
+              name: `${transfer.fromCity} Station`,
+              address: "",
+              neighborhood: transfer.fromCity,
+              coordinates: { lat: 0, lng: 0 },
+              photos: [],
+            },
+            isFree: false,
+            estimatedCost: transfer.mode === "shinkansen" ? { amount: 14000, currency: "JPY" } : undefined,
+            tags: ["transfer", "shinkansen", "intercity", modeDisplay.toLowerCase()],
+            source: "ai" as const,
+          },
+          matchReasons: [`Inter-city transfer to ${transfer.toCity}`],
+          tradeoffs: [],
+        }],
+      };
+
+      // Insert at the appropriate position based on transfer start time
+      let insertIndex = 0;
+      const transferStartHour = parseInt(transferStartTime.split(":")[0], 10);
+
+      for (let i = 0; i < day.slots.length; i++) {
+        const slotStart = day.slots[i].timeRange?.start || "00:00";
+        const slotHour = parseInt(slotStart.split(":")[0], 10);
+        if (transferStartHour <= slotHour) {
+          insertIndex = i;
+          break;
+        }
+        insertIndex = i + 1;
+      }
+
+      day.slots.splice(insertIndex, 0, transferSlot);
+      console.log(`[itinerary-service] ✓ Injected ${modeDisplay} transfer ${transfer.fromCity}→${transfer.toCity} at ${transferStartTime} on day ${day.dayNumber}`);
+    }
+  }
+
+  return result;
+}
+
 // ============================================
 // DATA PROVIDER (japan-itinerary-generator)
 // ============================================
@@ -366,6 +1011,15 @@ async function generateFromLLM(
     mustAvoid = [],
     anchors = [],
     clusterByNeighborhood = true,
+    // Flight time constraints
+    arrivalFlightTime,
+    departureFlightTime,
+    arrivalAirport,
+    departureAirport,
+    // Inter-city transfers
+    transfers = [],
+    // Hotels/accommodations
+    hotels = [],
   } = request;
 
   // Calculate number of days
@@ -385,8 +1039,75 @@ async function generateFromLLM(
   // Build constraints section
   const constraintsSection = buildConstraintsSection(mustHave, mustAvoid, anchors, clusterByNeighborhood);
 
+  // Build flight and transfer day constraints for LLM
+  // This tells LLM to adjust day structure - we'll inject actual transfer slots in post-processing
+  let flightAndTransferSection = "";
+  const flightTransferNotes: string[] = [];
+
+  if (arrivalFlightTime) {
+    const arrivalHour = parseInt(arrivalFlightTime.split(":")[0], 10);
+    let guidance = "";
+    if (arrivalHour >= 18) {
+      guidance = "Day 1: ARRIVAL ONLY - Skip all activities except optional dinner near hotel";
+    } else if (arrivalHour >= 14) {
+      guidance = "Day 1: Skip morning/lunch - Start with late afternoon activity near hotel";
+    } else if (arrivalHour >= 11) {
+      guidance = "Day 1: Skip morning - Start with lunch, then afternoon activities";
+    } else {
+      guidance = "Day 1: Early arrival - Full day possible but keep activities light (jet lag)";
+    }
+    flightTransferNotes.push(`ARRIVAL: Flight lands at ${arrivalFlightTime}${arrivalAirport ? ` at ${arrivalAirport}` : ""}\n  → ${guidance}`);
+  }
+
+  if (departureFlightTime) {
+    const departureHour = parseInt(departureFlightTime.split(":")[0], 10);
+    let guidance = "";
+    if (departureHour <= 10) {
+      guidance = `Day ${numDays}: NO activities - Early morning airport transfer only`;
+    } else if (departureHour <= 13) {
+      guidance = `Day ${numDays}: Skip all activities - Hotel checkout and head to airport`;
+    } else if (departureHour <= 16) {
+      guidance = `Day ${numDays}: Light morning only (near hotel) - Head to airport by noon`;
+    } else {
+      guidance = `Day ${numDays}: Morning + early lunch okay - Head to airport by 2pm`;
+    }
+    flightTransferNotes.push(`DEPARTURE: Flight departs at ${departureFlightTime}${departureAirport ? ` from ${departureAirport}` : ""}\n  → ${guidance}`);
+  }
+
+  // Add inter-city transfer day guidance
+  const interCityTransfers = transfers.filter(t => t.type === "inter_city");
+  for (const transfer of interCityTransfers) {
+    const modeStr = transfer.mode || "Shinkansen";
+    const durationHours = transfer.duration ? Math.round(transfer.duration / 60) : 2;
+    flightTransferNotes.push(`TRANSFER DAY (${transfer.date}): ${transfer.fromCity} → ${transfer.toCity} via ${modeStr} (~${durationHours}h)
+  → Morning: Hotel checkout in ${transfer.fromCity}, light activity or straight to station
+  → Afternoon/Evening: Activities in ${transfer.toCity} after arrival`);
+  }
+
+  if (flightTransferNotes.length > 0) {
+    flightAndTransferSection = `
+FLIGHT & TRANSFER DAY ADJUSTMENTS:
+${flightTransferNotes.map(note => `• ${note}`).join("\n")}
+
+NOTE: Transfer slots (airport↔hotel, Shinkansen) will be added automatically - just plan activities around them.`;
+  }
+
   // Get the system prompt
   const systemPrompt = getSystemPrompt("itineraryGeneration");
+
+  // Build hotels section for prompt
+  let hotelsSection = "";
+  if (hotels && hotels.length > 0) {
+    const hotelsList = hotels.map(h =>
+      `  - ${h.name} in ${h.city} (${h.checkIn} to ${h.checkOut})`
+    ).join("\n");
+    hotelsSection = `
+HOTELS/ACCOMMODATIONS (User's pre-booked hotels):
+${hotelsList}
+- Use these hotels for hotel↔activity commute planning
+- First activity each day should consider proximity to that night's hotel
+- Last activity each day should allow reasonable time to return to hotel`;
+  }
 
   const userPrompt = `Generate a ${numDays}-day travel itinerary for Japan.
 
@@ -401,6 +1122,8 @@ TRIP DETAILS:
 ${userPreferences ? `- Preferences: ${userPreferences}` : ""}
 ${tripContext ? `- Context: ${tripContext}` : ""}
 ${constraintsSection}
+${flightAndTransferSection}
+${hotelsSection}
 
 REQUIREMENTS:
 1. Generate exactly ${numDays} days
@@ -417,26 +1140,175 @@ ${clusterByNeighborhood ? `10. Group activities by neighborhood to minimize trav
 Return valid JSON matching the StructuredItineraryData format.`;
 
   try {
-    console.log(`[itinerary-service] Generating ${numDays}-day itinerary via ${aiProvider} for ${cities.join(", ")}`);
+    // Calculate appropriate token limit based on itinerary size
+    // A full day with 5 slots × 3 options each = ~15 activities per day
+    // Each activity with full details ≈ 200 tokens
+    // Plus day structure, slot structure = ~3500 tokens per day
+    const tokensPerDay = 3500;
+    const baseTokens = 3000; // For destination, tips, budget, etc.
+    const calculatedMaxTokens = Math.min(32000, baseTokens + (numDays * tokensPerDay));
+
+    console.log(`[itinerary-service] Generating ${numDays}-day itinerary via ${aiProvider} for ${cities.join(", ")} (maxTokens: ${calculatedMaxTokens})`);
     if (mustHave.length > 0) console.log(`[itinerary-service] Must-have: ${mustHave.join(", ")}`);
     if (mustAvoid.length > 0) console.log(`[itinerary-service] Must-avoid: ${mustAvoid.join(", ")}`);
     if (anchors.length > 0) console.log(`[itinerary-service] Anchors: ${anchors.map(a => a.name).join(", ")}`);
 
+    // DRY RUN MODE - Log the full request without making the API call
+    const isDryRun = process.env.LLM_DRY_RUN === 'true';
+    if (isDryRun) {
+      console.log('\n' + '='.repeat(80));
+      console.log('[DRY RUN] LLM call disabled - showing request details only');
+      console.log('='.repeat(80));
+      console.log('\n[DRY RUN] SYSTEM PROMPT:');
+      console.log('-'.repeat(40));
+      console.log(systemPrompt);
+      console.log('\n[DRY RUN] USER PROMPT:');
+      console.log('-'.repeat(40));
+      console.log(userPrompt);
+      console.log('\n[DRY RUN] REQUEST CONFIG:');
+      console.log('-'.repeat(40));
+      console.log(JSON.stringify({
+        provider: aiProvider,
+        model: 'gpt-4o-mini',
+        temperature: 0.7,
+        maxTokens: calculatedMaxTokens,
+        jsonMode: true,
+        numDays,
+        cities,
+        startDate,
+        travelers: travelerInfo,
+        budget,
+        pace,
+        interests,
+        mustHave,
+        mustAvoid,
+        anchors: anchors.map(a => ({
+          name: a.name,
+          city: a.city,
+          date: a.date,
+          startTime: a.startTime,
+          endTime: a.endTime,
+        })),
+      }, null, 2));
+      console.log('='.repeat(80) + '\n');
+
+      // Return a mock response
+      const mockItinerary: StructuredItineraryData = {
+        destination: cities.join(", ") + ", Japan",
+        country: "Japan",
+        days: Array.from({ length: numDays }, (_, i) => ({
+          dayNumber: i + 1,
+          date: new Date(new Date(startDate).getTime() + i * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
+          city: cities[Math.floor(i / Math.ceil(numDays / cities.length))] || cities[0],
+          title: `[DRY RUN] Day ${i + 1}`,
+          slots: [
+            {
+              slotId: `day${i + 1}-morning`,
+              slotType: 'morning',
+              timeRange: { start: '09:00', end: '12:00' },
+              options: [{
+                id: `opt-${i}-1`,
+                rank: 1,
+                score: 80,
+                activity: {
+                  name: '[DRY RUN] Mock Activity',
+                  description: 'This is a mock activity - LLM calls are disabled',
+                  category: 'attraction',
+                  duration: 120,
+                  place: { name: 'Mock Place', address: '', neighborhood: 'Mock Area', coordinates: { lat: 35.68, lng: 139.75 }, photos: [] },
+                  isFree: true,
+                  tags: [],
+                  source: 'ai' as const,
+                },
+                matchReasons: ['DRY RUN MODE'],
+                tradeoffs: [],
+              }],
+              behavior: 'flex',
+            },
+          ],
+        })),
+        generalTips: ['[DRY RUN] LLM calls are disabled. Set LLM_DRY_RUN=false to enable.'],
+        estimatedBudget: { total: { min: 0, max: 0 }, currency: 'JPY' },
+      };
+
+      return {
+        itinerary: mockItinerary,
+        message: '[DRY RUN] LLM calls disabled - this is a mock itinerary. Check console for full request details.',
+        metadata: {
+          generatedAt: new Date().toISOString(),
+          provider: 'llm',
+          source: `dry-run-${aiProvider}`,
+          totalDays: numDays,
+          totalSlots: numDays,
+          totalOptions: numDays,
+          cities,
+        },
+      };
+    }
+
     // Use the unified llm.chat() with provider override
     const messages: ChatMessage[] = [{ role: "user", content: userPrompt }];
+
+    // Capture LLM request for debugging
+    const debugLogger = getValidationDebugLogger();
+    debugLogger.captureLLMRequest(aiProvider, systemPrompt, userPrompt, {
+      model: "gpt-4o-mini",
+      temperature: 0.7,
+      maxTokens: calculatedMaxTokens,
+      jsonMode: true,
+    });
+
+    const startTime = Date.now();
     const response = await llm.chat(messages, {
       systemPrompt,
       temperature: 0.7,
-      maxTokens: 8000,
+      maxTokens: calculatedMaxTokens,
       jsonMode: true,
       providerOverride: aiProvider,
     });
+    const processingTimeMs = Date.now() - startTime;
 
-    // Parse the response
-    const parsed = JSON.parse(response) as Partial<StructuredItineraryData>;
+    // Parse the response with robust JSON extraction
+    let parseErrors: string[] = [];
+    let parsed: Partial<StructuredItineraryData>;
+    try {
+      parsed = parseJsonResponse(response) as Partial<StructuredItineraryData>;
+    } catch (parseError) {
+      parseErrors.push(parseError instanceof Error ? parseError.message : String(parseError));
+      parsed = {};
+    }
+
+    // Capture LLM response for debugging
+    debugLogger.captureLLMResponse(
+      response,
+      parsed,
+      parseErrors.length > 0 ? parseErrors : undefined,
+      processingTimeMs
+    );
 
     // Normalize and validate the response
-    const itinerary = normalizeItinerary(parsed, cities, startDate, numDays, anchors);
+    let itinerary = normalizeItinerary(parsed, cities, startDate, numDays, anchors, request.hotels);
+
+    // Inject any missing anchors that the LLM didn't include
+    if (anchors.length > 0) {
+      itinerary = injectMissingAnchors(itinerary, anchors);
+    }
+
+    // Inject transfer slots (airport→hotel, hotel→airport, Shinkansen)
+    if (transfers.length > 0) {
+      itinerary = injectTransferSlots(
+        itinerary,
+        transfers,
+        arrivalFlightTime,
+        departureFlightTime,
+        arrivalAirport,
+        departureAirport,
+        anchors // Pass anchors for transfer day conflict detection
+      );
+    }
+
+    // Remove impossible slots on arrival/departure days (before arrival, after departure prep)
+    itinerary = removeImpossibleSlots(itinerary, arrivalFlightTime, departureFlightTime);
 
     // Validate constraints were honored
     validateConstraints(itinerary, mustHave, mustAvoid, anchors);
@@ -470,6 +1342,98 @@ Return valid JSON matching the StructuredItineraryData format.`;
 }
 
 // ============================================
+// JSON PARSING HELPERS
+// ============================================
+
+/**
+ * Robustly parse JSON response from LLM
+ * Handles common issues like:
+ * - Markdown code blocks around JSON
+ * - Single quotes instead of double quotes
+ * - Trailing commas
+ * - Unescaped special characters
+ */
+function parseJsonResponse(response: string): unknown {
+  // Step 1: Extract JSON from markdown code blocks if present
+  let content = response;
+
+  // Try to find JSON in code blocks: ```json ... ``` or ``` ... ```
+  const codeBlockMatch = content.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (codeBlockMatch) {
+    content = codeBlockMatch[1].trim();
+  } else {
+    // Try to find JSON between braces (find the outermost { ... })
+    const firstBrace = content.indexOf("{");
+    const lastBrace = content.lastIndexOf("}");
+    if (firstBrace !== -1 && lastBrace > firstBrace) {
+      content = content.substring(firstBrace, lastBrace + 1);
+    }
+  }
+
+  // Step 2: Try parsing directly first
+  try {
+    return JSON.parse(content);
+  } catch (firstError) {
+    console.log("[itinerary-service] Direct JSON parse failed, attempting repair...");
+
+    // Step 3: Attempt to repair common JSON issues
+    let repaired = content;
+
+    // Remove any leading/trailing whitespace or newlines
+    repaired = repaired.trim();
+
+    // Fix trailing commas before } or ]
+    repaired = repaired.replace(/,(\s*[}\]])/g, "$1");
+
+    // Fix single quotes used instead of double quotes (careful with apostrophes in text)
+    // Only replace single quotes that appear to be JSON delimiters
+    // This regex matches: 'key': or : 'value' or ['item']
+    repaired = repaired.replace(/:\s*'([^']*?)'/g, ': "$1"');
+    repaired = repaired.replace(/'(\w+)':/g, '"$1":');
+
+    // Fix unescaped newlines in strings (replace with \n)
+    repaired = repaired.replace(/\n/g, "\\n");
+    repaired = repaired.replace(/\\n\\n/g, "\\n"); // Clean up double newlines
+    repaired = repaired.replace(/\\n\s*\\n/g, "\\n");
+
+    // Restore actual newlines between JSON properties (not inside strings)
+    repaired = repaired.replace(/\\n(\s*["\]}])/g, "\n$1");
+    repaired = repaired.replace(/([{\[,])\\n(\s*")/g, "$1\n$2");
+
+    // Try parsing the repaired JSON
+    try {
+      return JSON.parse(repaired);
+    } catch (secondError) {
+      // Step 4: More aggressive repair - try to find valid JSON structure
+      console.log("[itinerary-service] Repair attempt failed, trying more aggressive extraction...");
+
+      // Try to extract just the "days" array which is the critical part
+      const daysMatch = content.match(/"days"\s*:\s*\[([\s\S]*?)\](?=\s*[,}])/);
+      if (daysMatch) {
+        try {
+          const daysArray = JSON.parse(`[${daysMatch[1]}]`);
+          console.log("[itinerary-service] Extracted days array successfully");
+          return { days: daysArray };
+        } catch {
+          // Continue to throw original error
+        }
+      }
+
+      // If all repair attempts fail, throw with helpful error info
+      const errorMsg = firstError instanceof Error ? firstError.message : "Unknown error";
+      const position = errorMsg.match(/position (\d+)/);
+      if (position) {
+        const pos = parseInt(position[1], 10);
+        const context = content.substring(Math.max(0, pos - 50), Math.min(content.length, pos + 50));
+        console.error(`[itinerary-service] JSON error near position ${pos}: ...${context}...`);
+      }
+
+      throw firstError;
+    }
+  }
+}
+
+// ============================================
 // NORMALIZATION HELPERS
 // ============================================
 
@@ -478,7 +1442,8 @@ function normalizeItinerary(
   cities: string[],
   startDate: string,
   numDays: number,
-  anchors: ActivityAnchor[] = []
+  anchors: ActivityAnchor[] = [],
+  hotels?: ItineraryRequest["hotels"]
 ): StructuredItineraryData {
   const days: DayWithOptions[] = [];
   let currentDate = new Date(startDate);
@@ -501,12 +1466,34 @@ function normalizeItinerary(
       cityForDay = cities[Math.min(cityIndex, cities.length - 1)];
     }
 
+    // Find hotel for this day based on check-in/check-out dates
+    let accommodation: DayWithOptions["accommodation"] = undefined;
+    if (hotels && hotels.length > 0) {
+      const hotelForDay = hotels.find(hotel => {
+        const checkIn = new Date(hotel.checkIn);
+        const checkOut = new Date(hotel.checkOut);
+        const dayDate = new Date(dateStr);
+        // Day is covered if: checkIn <= dayDate < checkOut
+        return dayDate >= checkIn && dayDate < checkOut;
+      });
+
+      if (hotelForDay) {
+        accommodation = {
+          name: hotelForDay.name,
+          address: hotelForDay.address || "",
+          neighborhood: hotelForDay.city,
+          coordinates: hotelForDay.coordinates || { lat: 0, lng: 0 },
+        };
+      }
+    }
+
     const day: DayWithOptions = {
       dayNumber: i + 1,
       date: dateStr,
       city: cityForDay,
       title: parsedDay?.title || `Day ${i + 1} in ${cityForDay}`,
       slots: normalizeSlots(parsedDay?.slots || [], i + 1),
+      accommodation,
     };
 
     days.push(day);
@@ -837,6 +1824,41 @@ async function enrichWithCommute(
       const enrichedSlots: SlotWithOptions[] = [];
       let previousCoords: { lat: number; lng: number } | null = null;
 
+      // Get hotel/accommodation coordinates for this day
+      const hotelCoords = day.accommodation?.coordinates;
+
+      // Find first and last activity with valid coordinates
+      let firstActivityCoords: { lat: number; lng: number } | null = null;
+      let lastActivityCoords: { lat: number; lng: number } | null = null;
+
+      for (const slot of day.slots) {
+        const selectedOption = slot.options.find(o => o.id === slot.selectedOptionId) || slot.options[0];
+        const coords = selectedOption?.activity?.place?.coordinates;
+        if (coords && coords.lat !== 0 && coords.lng !== 0) {
+          if (!firstActivityCoords) {
+            firstActivityCoords = coords;
+          }
+          lastActivityCoords = coords;
+        }
+      }
+
+      // Calculate hotel → first activity commute
+      let commuteFromHotel: StructuredCommuteInfo | undefined;
+      if (hotelCoords && firstActivityCoords) {
+        commuteFromHotel = await calculateCommuteWithFallback(
+          routingService,
+          hotelCoords,
+          firstActivityCoords,
+          day.accommodation?.name || "Hotel"
+        );
+        if (commuteFromHotel) {
+          totalCommutes++;
+          totalDuration += commuteFromHotel.duration;
+          methodCounts[commuteFromHotel.method] = (methodCounts[commuteFromHotel.method] || 0) + 1;
+        }
+      }
+
+      // Calculate slot-to-slot commutes
       for (const slot of day.slots) {
         const selectedOption = slot.options.find(o => o.id === slot.selectedOptionId) || slot.options[0];
         const currentCoords = selectedOption?.activity?.place?.coordinates;
@@ -844,33 +1866,15 @@ async function enrichWithCommute(
         let commuteFromPrevious: StructuredCommuteInfo | undefined;
 
         if (previousCoords && currentCoords && currentCoords.lat !== 0 && currentCoords.lng !== 0) {
-          try {
-            // Get commute duration and estimate other details
-            const duration = await routingService.getCommuteDuration(previousCoords, currentCoords);
-
-            if (duration !== null) {
-              // Estimate distance using Haversine formula
-              const distance = calculateHaversineDistance(previousCoords, currentCoords);
-              // Determine method based on distance
-              const method = distance > 2000 ? "transit" : "walk";
-
-              // Convert duration from seconds to minutes and round to whole number
-              const durationMinutes = Math.round(duration / 60);
-
-              commuteFromPrevious = {
-                duration: durationMinutes,
-                distance: Math.round(distance),
-                method: method as StructuredCommuteInfo["method"],
-                instructions: method === "walk"
-                  ? `Walk ${Math.round(distance / 100) / 10} km`
-                  : `Take transit (${Math.round(distance / 1000)} km)`,
-              };
-              totalCommutes++;
-              totalDuration += durationMinutes;
-              methodCounts[method] = (methodCounts[method] || 0) + 1;
-            }
-          } catch (error) {
-            console.warn(`[itinerary-service] Commute calc failed for slot ${slot.slotId}:`, error);
+          commuteFromPrevious = await calculateCommuteWithFallback(
+            routingService,
+            previousCoords,
+            currentCoords
+          );
+          if (commuteFromPrevious) {
+            totalCommutes++;
+            totalDuration += commuteFromPrevious.duration;
+            methodCounts[commuteFromPrevious.method] = (methodCounts[commuteFromPrevious.method] || 0) + 1;
           }
         }
 
@@ -884,9 +1888,28 @@ async function enrichWithCommute(
         }
       }
 
+      // Calculate last activity → hotel commute
+      let commuteToHotel: StructuredCommuteInfo | undefined;
+      if (hotelCoords && lastActivityCoords) {
+        commuteToHotel = await calculateCommuteWithFallback(
+          routingService,
+          lastActivityCoords,
+          hotelCoords,
+          undefined,
+          day.accommodation?.name || "Hotel"
+        );
+        if (commuteToHotel) {
+          totalCommutes++;
+          totalDuration += commuteToHotel.duration;
+          methodCounts[commuteToHotel.method] = (methodCounts[commuteToHotel.method] || 0) + 1;
+        }
+      }
+
       return {
         ...day,
         slots: enrichedSlots,
+        commuteFromHotel,
+        commuteToHotel,
       };
     })
   );
@@ -904,6 +1927,77 @@ async function enrichWithCommute(
       avgDuration: totalCommutes > 0 ? totalDuration / totalCommutes : 0,
       methodCounts,
     },
+  };
+}
+
+/**
+ * Calculate commute between two points using routing service with fallback
+ */
+async function calculateCommuteWithFallback(
+  routingService: typeof import("./routing-service"),
+  from: { lat: number; lng: number },
+  to: { lat: number; lng: number },
+  fromLabel?: string,
+  toLabel?: string
+): Promise<StructuredCommuteInfo | undefined> {
+  try {
+    // Try to get commute duration from routing service (uses Google Maps if available)
+    const duration = await routingService.getCommuteDuration(from, to);
+
+    if (duration !== null) {
+      // Estimate distance using Haversine formula
+      const distance = calculateHaversineDistance(from, to);
+      // Determine method based on distance
+      const method = distance > 2000 ? "transit" : "walk";
+
+      // Convert duration from seconds to minutes and round to whole number
+      const durationMinutes = Math.round(duration / 60);
+
+      // Build instruction text
+      let instructions: string;
+      if (fromLabel && toLabel) {
+        instructions = method === "walk"
+          ? `Walk from ${fromLabel} to ${toLabel}`
+          : `Take transit from ${fromLabel} to ${toLabel}`;
+      } else if (fromLabel) {
+        instructions = method === "walk"
+          ? `Walk from ${fromLabel}`
+          : `Take transit from ${fromLabel}`;
+      } else if (toLabel) {
+        instructions = method === "walk"
+          ? `Walk to ${toLabel}`
+          : `Take transit to ${toLabel}`;
+      } else {
+        instructions = method === "walk"
+          ? `Walk ${Math.round(distance / 100) / 10} km`
+          : `Take transit (${Math.round(distance / 1000)} km)`;
+      }
+
+      return {
+        duration: durationMinutes,
+        distance: Math.round(distance),
+        method: method as StructuredCommuteInfo["method"],
+        instructions,
+      };
+    }
+  } catch (error) {
+    console.warn(`[itinerary-service] Commute calc failed:`, error);
+  }
+
+  // Fallback: use distance-based estimation
+  const distance = calculateHaversineDistance(from, to);
+  const method = distance > 2000 ? "transit" : "walk";
+  const durationMinutes = method === "walk"
+    ? Math.round(distance / 80) // ~80m per minute walking
+    : Math.round(distance / 500) + 5; // ~500m per minute transit + 5min wait
+
+  return {
+    duration: durationMinutes,
+    distance: Math.round(distance),
+    method: method as StructuredCommuteInfo["method"],
+    instructions: method === "walk"
+      ? `Walk ${Math.round(distance / 100) / 10} km`
+      : `Take transit (${Math.round(distance / 1000)} km)`,
   };
 }
 
@@ -1577,22 +2671,24 @@ async function scoreToursWithLLM(
       `${i + 1}. "${t.title}" - ${t.description.slice(0, 100)}...`
     ).join("\n");
 
-    const prompt = `You are a travel expert matching tours to activities.
+const prompt = `Score tour relevance for an activity. Return ONLY a JSON array, no other text.
 
 Activity: "${activityName}" (${activityCategory}) in ${city}
 
-Available tours:
+Tours:
 ${tourList}
 
-Score each tour's relevance to the activity (0-100):
-- 100: Tour specifically about this exact place/activity
-- 80-99: Tour includes this place as a main stop
-- 50-79: Tour is in the same area/theme
-- 20-49: Loosely related
-- 0-19: Not relevant
+Scoring guide:
+- 100: Tour specifically about this exact place
+- 80-99: Tour includes this place as main stop
+- 50-79: Tour in same area/theme
+- 0-49: Not relevant (exclude from output)
 
-Return JSON array with format: [{"index": 1, "score": 85, "reason": "brief reason"}]
-Only include tours scoring 50+. Return [] if none are relevant.`;
+Output format: [{"index": 1, "score": 85, "reason": "short reason"}]
+Return [] if no tours score 50+.
+IMPORTANT: Output ONLY the JSON array, nothing else.`;
+
+    console.log(`[itinerary-service] Calling Ollama LLM for tour scoring...`);
 
     // Dynamic import to avoid circular dependencies
     const { llm } = await import("./llm");
@@ -1606,18 +2702,51 @@ Only include tours scoring 50+. Return [] if none are relevant.`;
       }
     );
 
-    // Parse the response - try to extract JSON from the response
+    console.log(`[itinerary-service] Ollama raw response: ${response.substring(0, 200)}...`);
+
+    // Parse the response - extract JSON from various formats
+    // Ollama often returns: "Here's the result:\n```\n[...]\n```" or just text + JSON
     let jsonStr = response;
-    // Try to find JSON array in the response
-    const jsonMatch = response.match(/\[[\s\S]*\]/);
-    if (jsonMatch) {
-      jsonStr = jsonMatch[0];
+
+    // First, try to extract from markdown code blocks: ```json [...] ``` or ``` [...] ```
+    const codeBlockMatch = response.match(/```(?:json)?\s*(\[[\s\S]*?\])\s*```/);
+    if (codeBlockMatch) {
+      jsonStr = codeBlockMatch[1];
+      console.log(`[itinerary-service] Extracted JSON from code block`);
+    } else {
+      // Try to find bare JSON array in the response
+      const jsonMatch = response.match(/\[[\s\S]*\]/);
+      if (jsonMatch) {
+        jsonStr = jsonMatch[0];
+        console.log(`[itinerary-service] Extracted bare JSON array`);
+      } else {
+        // If no array found, return empty (no relevant tours)
+        console.log(`[itinerary-service] No JSON array found in LLM response, returning empty`);
+        return [];
+      }
+    }
+
+    // Clean up the JSON string (remove any trailing text after the array)
+    // Find the matching closing bracket for the opening bracket
+    let depth = 0;
+    let endIndex = 0;
+    for (let i = 0; i < jsonStr.length; i++) {
+      if (jsonStr[i] === '[') depth++;
+      if (jsonStr[i] === ']') depth--;
+      if (depth === 0 && jsonStr[i] === ']') {
+        endIndex = i + 1;
+        break;
+      }
+    }
+    if (endIndex > 0) {
+      jsonStr = jsonStr.substring(0, endIndex);
     }
 
     const scores = JSON.parse(jsonStr) as Array<{ index: number; score: number; reason: string }>;
+    console.log(`[itinerary-service] Parsed ${scores.length} scores from LLM`);
 
     // Map back to product codes
-    return scores
+    const result = scores
       .filter(s => s.score >= 50)
       .map(s => ({
         productCode: tours[s.index - 1]?.productCode || "",
@@ -1626,8 +2755,11 @@ Only include tours scoring 50+. Return [] if none are relevant.`;
       }))
       .filter(s => s.productCode);
 
+    console.log(`[itinerary-service] LLM scoring returned ${result.length} relevant tours (score >= 50)`);
+    return result;
+
   } catch (error) {
-    console.warn(`[itinerary-service] LLM tour scoring failed:`, error);
+    console.error(`[itinerary-service] LLM tour scoring failed:`, error);
     return [];
   }
 }
@@ -1639,7 +2771,9 @@ Only include tours scoring 50+. Return [] if none are relevant.`;
 async function searchViatorForActivity(
   activityName: string,
   activityCategory: string,
-  city: string
+  city: string,
+  slotType?: string,
+  timeRange?: { start: string; end: string }
 ): Promise<ViatorEnhancement[]> {
   // Dynamic import to avoid circular dependencies
   const viator = await import("./viator");
@@ -1817,9 +2951,20 @@ async function searchViatorForActivity(
     // Sort by score (highest first)
     scoredProducts.sort((a, b) => b.score - a.score);
 
-    // Take top products - prefer high scorers but include some if none score well
+    // CRITICAL: Filter out low-scoring products before LLM
+    // Tours with score < 30 have no real connection to the activity
+    // (just matching city name or having good reviews isn't enough)
+    const MIN_KEYWORD_SCORE = 30;
+    const relevantProducts = scoredProducts.filter(p => p.score >= MIN_KEYWORD_SCORE);
+
+    if (relevantProducts.length === 0) {
+      console.log(`[itinerary-service] No tours scored >= ${MIN_KEYWORD_SCORE} for "${activityName}" - skipping`);
+      return [];
+    }
+
+    // Take top products for LLM scoring
     let topProducts: Array<{ product: typeof scoredProducts[0]["product"]; score: number; llmScore?: number; llmReason?: string }> =
-      scoredProducts.slice(0, 5);
+      relevantProducts.slice(0, 5);
 
     console.log(`[itinerary-service] Top scored products (keyword): ${topProducts.map(p => `"${p.product.title}" (${p.score})`).join(", ")}`);
 
@@ -1854,14 +2999,22 @@ async function searchViatorForActivity(
       console.log(`[itinerary-service] After LLM re-ranking: ${topProducts.map(p => `"${p.product.title}" (llm:${p.llmScore})`).join(", ")}`);
     }
 
-    // Take top 3 for final results
-    const relevantProducts = topProducts.slice(0, 3).map(p => p.product);
+    // Take top 3 for final results - filter out LLM score 0 (irrelevant)
+    const finalProducts = topProducts
+      .filter(p => !p.llmScore || p.llmScore > 0) // Keep if no LLM scoring OR if LLM score > 0
+      .slice(0, 3)
+      .map(p => p.product);
 
-    // Convert to ViatorEnhancement format (take top 3 relevant)
-    const enhancements: ViatorEnhancement[] = relevantProducts.slice(0, 3).map((product) => {
+    if (finalProducts.length === 0) {
+      console.log(`[itinerary-service] No relevant tours after LLM filtering for "${activityName}"`);
+      return [];
+    }
+
+    // Convert to ViatorEnhancement format
+    const enhancements: ViatorEnhancement[] = finalProducts.map((product) => {
       const tags = viator.getTagNames(
         Array.isArray(product.tags)
-          ? product.tags.map((t) => (typeof t === "number" ? t : t.tagId)).filter((id) => id > 0)
+          ? product.tags.map((t: number | { tagId: number }) => (typeof t === "number" ? t : t.tagId)).filter((id: number) => id > 0)
           : []
       );
 
@@ -1944,6 +3097,8 @@ export async function enrichWithViatorTours(
     optionIndex: number;
     activity: ActivityOption;
     city: string;
+    slotType: string;
+    timeRange?: { start: string; end: string };
   }> = [];
 
   for (let dayIndex = 0; dayIndex < itinerary.days.length; dayIndex++) {
@@ -1970,6 +3125,8 @@ export async function enrichWithViatorTours(
             optionIndex,
             activity: option,
             city: day.city,
+            slotType: slot.slotType,
+            timeRange: slot.timeRange,
           });
         }
       }
@@ -1987,11 +3144,13 @@ export async function enrichWithViatorTours(
     const batch = activitiesToEnrich.slice(i, i + BATCH_SIZE);
 
     const batchResults = await Promise.all(
-      batch.map(async ({ dayIndex, slotIndex, optionIndex, activity, city }) => {
+      batch.map(async ({ dayIndex, slotIndex, optionIndex, activity, city, slotType, timeRange }) => {
         const enhancements = await searchViatorForActivity(
           activity.activity.name,
           activity.activity.category,
-          city
+          city,
+          slotType,
+          timeRange
         );
 
         return {
@@ -2043,14 +3202,390 @@ export async function enrichWithViatorTours(
 }
 
 // ============================================
+// SLOT OPERATIONS: SWAP & FILL
+// ============================================
+
+import { suggestions as suggestionsService } from "./suggestions-service";
+
+/**
+ * Options for a swap operation
+ */
+export interface SwapOption {
+  id: string;
+  activity: ActivityOption;
+  score: number;
+  reason: string;
+  benefits: string[];
+  tradeoffs: string[];
+  distance?: number;
+  commuteFromPrevious?: number;
+  commuteToNext?: number;
+}
+
+/**
+ * Result of getting swap options for a slot
+ */
+export interface SlotSwapOptions {
+  slotId: string;
+  dayNumber: number;
+  currentActivity: ActivityOption | null;
+  alternatives: SwapOption[];
+}
+
+/**
+ * Get swap options for a specific slot in an itinerary
+ */
+export async function getSwapOptions(
+  itinerary: StructuredItineraryData,
+  dayNumber: number,
+  slotId: string
+): Promise<SlotSwapOptions | null> {
+  // Find the day and slot
+  const day = itinerary.days.find((d) => d.dayNumber === dayNumber);
+  if (!day) {
+    console.warn(`[itinerary-service] Day ${dayNumber} not found`);
+    return null;
+  }
+
+  const slot = day.slots.find((s) => s.slotId === slotId);
+  if (!slot) {
+    console.warn(`[itinerary-service] Slot ${slotId} not found in day ${dayNumber}`);
+    return null;
+  }
+
+  // Get current activity (selected or first option)
+  const currentActivity =
+    slot.options.find((o) => o.id === slot.selectedOptionId) || slot.options[0] || null;
+
+  // Collect existing activity names to exclude from suggestions
+  const existingNames: string[] = [];
+  for (const d of itinerary.days) {
+    for (const s of d.slots) {
+      for (const opt of s.options) {
+        if (opt.activity?.name) {
+          existingNames.push(opt.activity.name.toLowerCase());
+        }
+      }
+    }
+  }
+
+  // Get previous activity coordinates for proximity-based suggestions
+  let previousCoords: { lat: number; lng: number } | null = null;
+  const slotIndex = day.slots.findIndex((s) => s.slotId === slotId);
+  if (slotIndex > 0) {
+    const prevSlot = day.slots[slotIndex - 1];
+    const prevOption =
+      prevSlot.options.find((o) => o.id === prevSlot.selectedOptionId) ||
+      prevSlot.options[0];
+    if (prevOption?.activity?.place?.coordinates) {
+      previousCoords = prevOption.activity.place.coordinates;
+    }
+  }
+
+  // Use suggestions service to get alternatives
+  const suggestionsResponse = await suggestionsService.getSuggestions({
+    city: day.city,
+    slotType: slot.slotType as "morning" | "lunch" | "afternoon" | "dinner" | "evening",
+    coordinates: previousCoords || undefined,
+    limit: 5,
+    excludeNames: existingNames,
+  });
+
+  // Convert suggestions to SwapOptions
+  const alternatives: SwapOption[] = suggestionsResponse.suggestions.map((sugg, index) => ({
+    id: sugg.id,
+    activity: {
+      id: sugg.id,
+      rank: index + 1,
+      score: 80 - index * 5,
+      activity: {
+        name: sugg.activity.name,
+        description: sugg.activity.description || "",
+        category: sugg.activity.category as ActivityOption["activity"]["category"],
+        duration: sugg.activity.duration,
+        place: {
+          name: sugg.activity.place?.name || sugg.activity.name,
+          address: "",
+          neighborhood: sugg.activity.place?.neighborhood || "",
+          coordinates: sugg.activity.place?.coordinates || { lat: 0, lng: 0 },
+          rating: sugg.activity.place?.rating,
+          photos: sugg.activity.place?.photos || [],
+        },
+        isFree: sugg.ticketRequirement === "free",
+        tags: [],
+        source: sugg.source === "data" ? "local-data" : "ai",
+      },
+      matchReasons: [sugg.type === "restaurant" ? "Nearby restaurant" : "Alternative activity"],
+      tradeoffs: [],
+    },
+    score: 80 - index * 5,
+    reason:
+      sugg.type === "restaurant"
+        ? "Nearby dining option"
+        : sugg.type === "experience"
+          ? "Bookable experience"
+          : "Alternative attraction",
+    benefits: [
+      sugg.activity.place?.rating ? `${sugg.activity.place.rating} rating` : "Well-reviewed",
+      sugg.distance ? `${Math.round(sugg.distance / 100) / 10} km away` : "Nearby",
+    ],
+    tradeoffs:
+      sugg.ticketRequirement === "required" ? ["Requires advance booking"] : [],
+    distance: sugg.distance || undefined,
+  }));
+
+  return {
+    slotId,
+    dayNumber,
+    currentActivity,
+    alternatives,
+  };
+}
+
+/**
+ * Swap an activity in a slot with a new one
+ */
+export function swapActivity(
+  itinerary: StructuredItineraryData,
+  dayNumber: number,
+  slotId: string,
+  newActivity: ActivityOption
+): StructuredItineraryData {
+  // Create a deep copy to avoid mutating the original
+  const updated: StructuredItineraryData = JSON.parse(JSON.stringify(itinerary));
+
+  const day = updated.days.find((d) => d.dayNumber === dayNumber);
+  if (!day) {
+    throw new Error(`Day ${dayNumber} not found in itinerary`);
+  }
+
+  const slot = day.slots.find((s) => s.slotId === slotId);
+  if (!slot) {
+    throw new Error(`Slot ${slotId} not found in day ${dayNumber}`);
+  }
+
+  // Add the new activity as the first option and select it
+  slot.options = [newActivity, ...slot.options.filter((o) => o.id !== newActivity.id)];
+  slot.selectedOptionId = newActivity.id;
+
+  return updated;
+}
+
+/**
+ * Fill an empty slot with suggestions
+ */
+export async function fillSlot(
+  itinerary: StructuredItineraryData,
+  dayNumber: number,
+  slotId: string,
+  options?: {
+    coordinates?: { lat: number; lng: number };
+    preferences?: string;
+  }
+): Promise<StructuredItineraryData> {
+  // Create a deep copy
+  const updated: StructuredItineraryData = JSON.parse(JSON.stringify(itinerary));
+
+  const day = updated.days.find((d) => d.dayNumber === dayNumber);
+  if (!day) {
+    throw new Error(`Day ${dayNumber} not found in itinerary`);
+  }
+
+  const slot = day.slots.find((s) => s.slotId === slotId);
+  if (!slot) {
+    throw new Error(`Slot ${slotId} not found in day ${dayNumber}`);
+  }
+
+  // Collect existing activity names
+  const existingNames: string[] = [];
+  for (const d of updated.days) {
+    for (const s of d.slots) {
+      for (const opt of s.options) {
+        if (opt.activity?.name) {
+          existingNames.push(opt.activity.name.toLowerCase());
+        }
+      }
+    }
+  }
+
+  // Get suggestions
+  const suggestionsResponse = await suggestionsService.getSuggestions({
+    city: day.city,
+    slotType: slot.slotType as "morning" | "lunch" | "afternoon" | "dinner" | "evening",
+    coordinates: options?.coordinates,
+    limit: 3,
+    excludeNames: existingNames,
+    userPreferences: options?.preferences,
+  });
+
+  // Convert suggestions to ActivityOptions
+  const newOptions: ActivityOption[] = suggestionsResponse.suggestions.map(
+    (sugg, index) => ({
+      id: sugg.id,
+      rank: index + 1,
+      score: 85 - index * 5,
+      activity: {
+        name: sugg.activity.name,
+        description: sugg.activity.description || "",
+        category: sugg.activity.category as ActivityOption["activity"]["category"],
+        duration: sugg.activity.duration,
+        place: {
+          name: sugg.activity.place?.name || sugg.activity.name,
+          address: "",
+          neighborhood: sugg.activity.place?.neighborhood || "",
+          coordinates: sugg.activity.place?.coordinates || { lat: 0, lng: 0 },
+          rating: sugg.activity.place?.rating,
+          photos: sugg.activity.place?.photos || [],
+        },
+        isFree: sugg.ticketRequirement === "free",
+        tags: [],
+        source: sugg.source === "data" ? "local-data" : "ai",
+      },
+      matchReasons: ["Auto-suggested for empty slot"],
+      tradeoffs: [],
+    })
+  );
+
+  slot.options = newOptions;
+  slot.selectedOptionId = newOptions[0]?.id || null;
+
+  return updated;
+}
+
+/**
+ * Reorder days in an itinerary
+ */
+export function reorderDays(
+  itinerary: StructuredItineraryData,
+  fromIndex: number,
+  toIndex: number
+): StructuredItineraryData {
+  if (fromIndex === toIndex) return itinerary;
+
+  const updated: StructuredItineraryData = JSON.parse(JSON.stringify(itinerary));
+
+  // Remove the day from its current position
+  const [movedDay] = updated.days.splice(fromIndex, 1);
+
+  // Insert at new position
+  updated.days.splice(toIndex, 0, movedDay);
+
+  // Recalculate day numbers and dates
+  const startDate = new Date(updated.days[0]?.date || new Date());
+  for (let i = 0; i < updated.days.length; i++) {
+    updated.days[i].dayNumber = i + 1;
+    const newDate = new Date(startDate);
+    newDate.setDate(startDate.getDate() + i);
+    updated.days[i].date = newDate.toISOString().split("T")[0];
+  }
+
+  return updated;
+}
+
+/**
+ * Reorder slots within a day
+ */
+export function reorderSlots(
+  itinerary: StructuredItineraryData,
+  dayNumber: number,
+  fromIndex: number,
+  toIndex: number
+): StructuredItineraryData {
+  if (fromIndex === toIndex) return itinerary;
+
+  const updated: StructuredItineraryData = JSON.parse(JSON.stringify(itinerary));
+
+  const day = updated.days.find((d) => d.dayNumber === dayNumber);
+  if (!day) {
+    throw new Error(`Day ${dayNumber} not found in itinerary`);
+  }
+
+  // Remove the slot from its current position
+  const [movedSlot] = day.slots.splice(fromIndex, 1);
+
+  // Insert at new position
+  day.slots.splice(toIndex, 0, movedSlot);
+
+  return updated;
+}
+
+/**
+ * Remove a slot from a day
+ */
+export function removeSlot(
+  itinerary: StructuredItineraryData,
+  dayNumber: number,
+  slotId: string
+): StructuredItineraryData {
+  const updated: StructuredItineraryData = JSON.parse(JSON.stringify(itinerary));
+
+  const day = updated.days.find((d) => d.dayNumber === dayNumber);
+  if (!day) {
+    throw new Error(`Day ${dayNumber} not found in itinerary`);
+  }
+
+  day.slots = day.slots.filter((s) => s.slotId !== slotId);
+
+  return updated;
+}
+
+/**
+ * Add a new empty slot to a day
+ */
+export function addSlot(
+  itinerary: StructuredItineraryData,
+  dayNumber: number,
+  slotType: SlotWithOptions["slotType"],
+  position?: number
+): StructuredItineraryData {
+  const updated: StructuredItineraryData = JSON.parse(JSON.stringify(itinerary));
+
+  const day = updated.days.find((d) => d.dayNumber === dayNumber);
+  if (!day) {
+    throw new Error(`Day ${dayNumber} not found in itinerary`);
+  }
+
+  const newSlot: SlotWithOptions = {
+    slotId: `day${dayNumber}-${slotType}-${Date.now()}`,
+    slotType,
+    timeRange: getDefaultTimeRange(slotType),
+    options: [],
+    behavior: slotType === "lunch" || slotType === "dinner" ? "meal" : "flex",
+  };
+
+  if (position !== undefined && position >= 0 && position <= day.slots.length) {
+    day.slots.splice(position, 0, newSlot);
+  } else {
+    day.slots.push(newSlot);
+  }
+
+  return updated;
+}
+
+// ============================================
 // EXPORTS
 // ============================================
 
 export const itineraryService = {
+  // Generation
   generate,
   getProvider: getItineraryProvider,
   getConfig: getItineraryConfig,
   getProviderInfo,
+  enrichWithViatorTours,
+
+  // Slot operations
+  getSwapOptions,
+  swapActivity,
+  fillSlot,
+
+  // Reordering
+  reorderDays,
+  reorderSlots,
+
+  // Slot management
+  addSlot,
+  removeSlot,
 };
 
 export default itineraryService;

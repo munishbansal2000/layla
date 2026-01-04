@@ -698,37 +698,6 @@ export class ItineraryValidationService {
     };
   }
 
-  private _checkDuplicateActivity(
-    suggestion: ActivityOption,
-    itinerary: StructuredItineraryData
-  ): { isValid: boolean; reason?: string } {
-    const suggestionName = suggestion.activity.name.toLowerCase();
-    const suggestionPlaceId = suggestion.activity.place?.googlePlaceId;
-
-    for (const day of itinerary.days) {
-      for (const slot of day.slots) {
-        for (const option of slot.options) {
-          // Check by name
-          if (option.activity?.name?.toLowerCase() === suggestionName) {
-            return {
-              isValid: false,
-              reason: `"${suggestion.activity.name}" is already in the itinerary on Day ${day.dayNumber}`,
-            };
-          }
-          // Check by place ID
-          if (suggestionPlaceId && option.activity?.place?.googlePlaceId === suggestionPlaceId) {
-            return {
-              isValid: false,
-              reason: `This location is already in the itinerary on Day ${day.dayNumber}`,
-            };
-          }
-        }
-      }
-    }
-
-    return { isValid: true };
-  }
-
   /**
    * Optimized duplicate check using pre-computed lookup (O(1) vs O(n))
    */

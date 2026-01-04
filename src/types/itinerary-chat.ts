@@ -13,6 +13,7 @@ import type {
   ActivityOption,
   SlotBehavior,
 } from "./structured-itinerary";
+import type { QueuedEvent } from "@/lib/execution/execution-queue";
 
 // ============================================
 // INTENT TYPES
@@ -284,6 +285,8 @@ export interface ItineraryChatMessage {
   intent?: ItineraryIntent;
   constraintAnalysis?: ConstraintAnalysis;
   appliedChanges?: boolean;
+  /** Execution event with interactive actions (if this message is from execution queue) */
+  executionEvent?: QueuedEvent;
 }
 
 /**

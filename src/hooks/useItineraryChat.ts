@@ -21,6 +21,7 @@ import type {
   ChangePreview,
   ConstraintAnalysis,
 } from "@/types/itinerary-chat";
+import type { QueuedEvent } from "@/lib/execution/execution-queue";
 
 // ============================================
 // TYPES
@@ -78,6 +79,10 @@ export interface UseItineraryChatReturn {
   clearMessages: () => void;
   dismissNudge: (index: number) => void;
   clearPendingUiAction: () => void;
+
+  // External message injection (for execution events)
+  addAgentMessage: (content: string, options?: { actions?: QuickAction[]; executionEvent?: QueuedEvent }) => void;
+  addSystemMessage: (content: string) => void;
 }
 
 interface HistoryEntry {
@@ -581,6 +586,31 @@ export function useItineraryChat(
     }));
   }, []);
 
+  // Add agent message externally (for execution events)
+  const addAgentMessage = useCallback(
+    (content: string, options?: { actions?: QuickAction[]; executionEvent?: QueuedEvent }) => {
+      const message = createAssistantMessage(content);
+      // If an executionEvent is provided, attach it to the message for interactive rendering
+      if (options?.executionEvent) {
+        message.executionEvent = options.executionEvent;
+      }
+      setChatState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        quickActions: options?.actions || prev.quickActions,
+      }));
+    },
+    []
+  );
+
+  // Add system message externally
+  const addSystemMessage = useCallback((content: string) => {
+    setChatState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, createSystemMessage(content)],
+    }));
+  }, []);
+
   // Initialize history with initial state
   if (historyRef.current.length === 0) {
     historyRef.current.push({
@@ -618,6 +648,10 @@ export function useItineraryChat(
     clearMessages,
     dismissNudge,
     clearPendingUiAction,
+
+    // External message injection (for execution events)
+    addAgentMessage,
+    addSystemMessage,
   };
 }
 

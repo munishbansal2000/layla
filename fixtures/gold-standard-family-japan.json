@@ -1,0 +1,1200 @@
+{
+    "destination": "Tokyo & Kyoto, Japan",
+    "country": "Japan",
+    "tripId": "japan-family-gold-v1",
+    "travelers": {
+        "adults": 2,
+        "children": 2,
+        "childrenAges": [8, 12]
+    },
+    "dateRange": {
+        "start": "2026-03-15",
+        "end": "2026-03-20"
+    },
+    "arrival": {
+        "port": "Narita International Airport (NRT)",
+        "portType": "airport",
+        "arrivalTime": "15:00",
+        "commuteToHotel": {
+            "duration": 90,
+            "distance": 68000,
+            "method": "transit",
+            "instructions": "Take Narita Express (N'EX) direct to Shinjuku Station",
+            "commuteType": "arrival",
+            "fromName": "Narita Airport Terminal 1",
+            "toName": "Park Hyatt Tokyo",
+            "trainLines": ["Narita Express"],
+            "cost": { "amount": 3250, "currency": "JPY" }
+        }
+    },
+    "departure": {
+        "port": "Kansai International Airport (KIX)",
+        "portType": "airport",
+        "departureTime": "10:00",
+        "commuteFromHotel": {
+            "duration": 90,
+            "distance": 85000,
+            "method": "transit",
+            "instructions": "Take taxi to Kyoto Station, then JR Haruka Express to KIX",
+            "commuteType": "departure",
+            "fromName": "The Ritz-Carlton, Kyoto",
+            "toName": "Kansai International Airport",
+            "trainLines": ["Haruka Express"],
+            "cost": { "amount": 2900, "currency": "JPY" }
+        }
+    },
+    "days": [{
+            "dayNumber": 1,
+            "date": "2026-03-15",
+            "city": "Tokyo",
+            "title": "Arrival Day - Welcome to Tokyo",
+            "summary": "Arrive at Narita, transfer to Shinjuku, and enjoy a relaxed evening near the hotel.",
+            "accommodation": {
+                "name": "Park Hyatt Tokyo",
+                "address": "3-7-1-2 Nishi Shinjuku, Shinjuku City, Tokyo 163-1055",
+                "neighborhood": "Nishi-Shinjuku",
+                "coordinates": { "lat": 35.6855, "lng": 139.6907 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.8
+            },
+            "commuteFromHotel": null,
+            "commuteToHotel": {
+                "duration": 10,
+                "distance": 800,
+                "method": "walk",
+                "instructions": "Walk from AFURI Ramen back to Park Hyatt Tokyo",
+                "commuteType": "activity-to-hotel",
+                "fromName": "AFURI Ramen Shinjuku",
+                "toName": "Park Hyatt Tokyo"
+            },
+            "slots": [{
+                    "slotId": "d1-transfer-arrival",
+                    "slotType": "morning",
+                    "timeRange": { "start": "15:00", "end": "16:30" },
+                    "options": [{
+                        "id": "transfer-nrt-tokyo",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Narita Express to Shinjuku",
+                            "description": "Take the Narita Express (N'EX) direct to Shinjuku Station. The journey takes approximately 90 minutes.",
+                            "category": "transfer",
+                            "duration": 90,
+                            "place": {
+                                "name": "Narita Airport Terminal 1",
+                                "address": "Narita Airport, Chiba Prefecture",
+                                "neighborhood": "Narita",
+                                "coordinates": { "lat": 35.7647, "lng": 140.3864 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3250, "currency": "JPY" },
+                            "tags": ["transfer", "train", "airport"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Direct train to Shinjuku", "Kid-friendly with luggage space"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor"
+                },
+                {
+                    "slotId": "d1-checkin",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "16:30", "end": "18:00" },
+                    "options": [{
+                        "id": "hotel-checkin",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Check-in at Park Hyatt Tokyo",
+                            "description": "Check into your hotel and freshen up after the long flight.",
+                            "category": "hotel",
+                            "duration": 90,
+                            "place": {
+                                "name": "Park Hyatt Tokyo",
+                                "address": "3-7-1-2 Nishi Shinjuku, Shinjuku City, Tokyo 163-1055",
+                                "neighborhood": "Nishi-Shinjuku",
+                                "coordinates": { "lat": 35.6855, "lng": 139.6907 }
+                            },
+                            "isFree": true,
+                            "tags": ["hotel", "rest", "family"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Rest after long flight"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor"
+                },
+                {
+                    "slotId": "d1-evening",
+                    "slotType": "evening",
+                    "timeRange": { "start": "18:00", "end": "19:30" },
+                    "options": [{
+                        "id": "shinjuku-walk",
+                        "rank": 1,
+                        "score": 85,
+                        "activity": {
+                            "name": "Evening Walk in Shinjuku",
+                            "description": "Take a gentle stroll through Shinjuku's neon-lit streets.",
+                            "category": "neighborhood",
+                            "duration": 60,
+                            "place": {
+                                "name": "Shinjuku Station Area",
+                                "address": "Shinjuku, Tokyo",
+                                "neighborhood": "Shinjuku",
+                                "coordinates": { "lat": 35.6896, "lng": 139.7006 }
+                            },
+                            "isFree": true,
+                            "tags": ["walking", "sightseeing", "family-friendly"],
+                            "source": "ai"
+                        },
+                        "matchReasons": ["Close to hotel", "Easy pace for jet-lagged family"],
+                        "tradeoffs": ["May be crowded during rush hour"]
+                    }],
+                    "behavior": "flex",
+                    "commuteFromPrevious": {
+                        "duration": 10,
+                        "distance": 800,
+                        "method": "walk",
+                        "instructions": "Walk from Park Hyatt to Shinjuku Station area",
+                        "commuteType": "hotel-to-activity",
+                        "fromName": "Park Hyatt Tokyo",
+                        "toName": "Shinjuku Station Area"
+                    }
+                },
+                {
+                    "slotId": "d1-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "19:30", "end": "21:00" },
+                    "options": [{
+                        "id": "afuri-ramen",
+                        "rank": 1,
+                        "score": 92,
+                        "activity": {
+                            "name": "AFURI Ramen Shinjuku",
+                            "description": "Famous for their light, yuzu-flavored ramen with vegetarian options.",
+                            "category": "restaurant",
+                            "duration": 60,
+                            "place": {
+                                "name": "AFURI Ramen Shinjuku",
+                                "address": "1-1-7 Kabukicho, Shinjuku City, Tokyo",
+                                "neighborhood": "Kabukicho",
+                                "coordinates": { "lat": 35.6942, "lng": 139.7034 },
+                                "rating": 4.5,
+                                "reviewCount": 1250
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1200, "currency": "JPY" },
+                            "tags": ["ramen", "vegetarian-friendly", "family-friendly"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Vegetarian ramen options", "Close to hotel"],
+                        "tradeoffs": ["Popular spot, may have short wait"]
+                    }],
+                    "behavior": "meal",
+                    "commuteFromPrevious": {
+                        "duration": 5,
+                        "distance": 400,
+                        "method": "walk",
+                        "instructions": "Short walk through Shinjuku",
+                        "commuteType": "between-activities",
+                        "fromName": "Shinjuku Station Area",
+                        "toName": "AFURI Ramen Shinjuku"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "date": "2026-03-16",
+            "city": "Tokyo",
+            "title": "Art & Gaming Adventure",
+            "summary": "Nintendo, Pokemon, and the immersive art of teamLab Planets.",
+            "accommodation": {
+                "name": "Park Hyatt Tokyo",
+                "address": "3-7-1-2 Nishi Shinjuku, Shinjuku City, Tokyo 163-1055",
+                "neighborhood": "Nishi-Shinjuku",
+                "coordinates": { "lat": 35.6855, "lng": 139.6907 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.8
+            },
+            "commuteFromHotel": {
+                "duration": 25,
+                "distance": 5200,
+                "method": "transit",
+                "instructions": "Take JR Yamanote Line from Shinjuku to Shibuya (5 min), then walk to PARCO",
+                "commuteType": "hotel-to-activity",
+                "fromName": "Park Hyatt Tokyo",
+                "toName": "Nintendo Tokyo"
+            },
+            "commuteToHotel": {
+                "duration": 30,
+                "distance": 12000,
+                "method": "transit",
+                "instructions": "Take subway from Akihabara to Shinjuku",
+                "commuteType": "activity-to-hotel",
+                "fromName": "Kanda Matsuya",
+                "toName": "Park Hyatt Tokyo"
+            },
+            "slots": [{
+                    "slotId": "d2-morning",
+                    "slotType": "morning",
+                    "timeRange": { "start": "09:30", "end": "12:00" },
+                    "options": [{
+                        "id": "nintendo-store",
+                        "rank": 1,
+                        "score": 95,
+                        "activity": {
+                            "name": "Nintendo Tokyo",
+                            "description": "The official Nintendo store at Shibuya PARCO! A must-visit for gaming fans.",
+                            "category": "gaming",
+                            "duration": 90,
+                            "place": {
+                                "name": "Nintendo Tokyo",
+                                "address": "Shibuya PARCO 6F, 15-1 Udagawacho, Shibuya City, Tokyo",
+                                "neighborhood": "Shibuya",
+                                "coordinates": { "lat": 35.6620, "lng": 139.6994 }
+                            },
+                            "isFree": true,
+                            "tags": ["gaming", "shopping", "kid-friendly", "must-visit"],
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "126591P9",
+                            "title": "Tokyo Gaming & Anime Walking Tour",
+                            "description": "Expert guide takes you through Shibuya's gaming culture, including Nintendo Tokyo and Pokemon Center.",
+                            "enhancementType": "guided-tour",
+                            "price": { "amount": 8500, "currency": "JPY" },
+                            "duration": 180,
+                            "rating": 4.8,
+                            "reviewCount": 342,
+                            "bookingUrl": "https://www.viator.com/tours/Tokyo/Gaming-Tour/d334-126591P9",
+                            "confirmationType": "instant",
+                            "matchReason": "Perfect for gaming fans - covers Nintendo and Pokemon stores with expert guide",
+                            "flags": { "freeCancellation": true }
+                        }],
+                        "matchReasons": ["Kids love gaming", "Must-visit item", "Free entry"],
+                        "tradeoffs": ["Can get crowded"]
+                    }],
+                    "behavior": "flex",
+                    "commuteFromPrevious": {
+                        "duration": 25,
+                        "distance": 5200,
+                        "method": "transit",
+                        "instructions": "Take JR Yamanote Line from Shinjuku to Shibuya",
+                        "commuteType": "hotel-to-activity",
+                        "fromName": "Park Hyatt Tokyo",
+                        "toName": "Nintendo Tokyo"
+                    }
+                },
+                {
+                    "slotId": "d2-lunch",
+                    "slotType": "lunch",
+                    "timeRange": { "start": "12:00", "end": "13:30" },
+                    "options": [{
+                        "id": "ts-tantan-shibuya",
+                        "rank": 1,
+                        "score": 92,
+                        "activity": {
+                            "name": "T's TanTan Shibuya",
+                            "description": "100% vegan ramen restaurant with rich, flavorful broths.",
+                            "category": "restaurant",
+                            "duration": 45,
+                            "place": {
+                                "name": "T's TanTan",
+                                "address": "Shibuya Station, Tokyo",
+                                "neighborhood": "Shibuya",
+                                "coordinates": { "lat": 35.6580, "lng": 139.7016 },
+                                "rating": 4.5,
+                                "reviewCount": 650
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1100, "currency": "JPY" },
+                            "tags": ["ramen", "vegan", "vegetarian"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Fully vegetarian", "Excellent vegan ramen"],
+                        "tradeoffs": ["Small space"]
+                    }],
+                    "behavior": "meal",
+                    "commuteFromPrevious": {
+                        "duration": 5,
+                        "distance": 300,
+                        "method": "walk",
+                        "instructions": "Walk from Shibuya PARCO to restaurant",
+                        "commuteType": "between-activities"
+                    }
+                },
+                {
+                    "slotId": "d2-anchor-teamlab",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "14:00", "end": "16:30" },
+                    "options": [{
+                        "id": "teamlab-planets",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "teamLab Planets TOKYO",
+                            "description": "Immersive digital art museum where you wade through water and walk through stunning interactive installations.",
+                            "category": "museum",
+                            "duration": 150,
+                            "place": {
+                                "name": "teamLab Planets TOKYO DMM",
+                                "address": "6-1-16 Toyosu, Koto City, Tokyo 135-0061",
+                                "neighborhood": "Toyosu",
+                                "coordinates": { "lat": 35.6494, "lng": 139.7897 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3200, "currency": "JPY" },
+                            "tags": ["art", "interactive", "kid-friendly", "pre-booked"],
+                            "bookingUrl": "https://teamlabplanets.dmm.com",
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "145851P5",
+                            "title": "teamLab Planets Skip-the-Line Ticket",
+                            "description": "Skip the ticket line and enter directly with pre-purchased timed entry.",
+                            "enhancementType": "skip-the-line",
+                            "price": { "amount": 3800, "currency": "JPY" },
+                            "duration": 150,
+                            "rating": 4.9,
+                            "reviewCount": 1250,
+                            "bookingUrl": "https://www.viator.com/tours/Tokyo/teamLab-Planets/d334-145851P5",
+                            "confirmationType": "instant",
+                            "matchReason": "Skip ticket queues at this popular attraction",
+                            "flags": { "skipTheLine": true, "freeCancellation": true, "likelyToSellOut": true }
+                        }],
+                        "matchReasons": ["Pre-booked anchor activity", "Incredible for all ages"],
+                        "tradeoffs": ["Need to remove shoes/socks"]
+                    }],
+                    "behavior": "anchor",
+                    "commuteFromPrevious": {
+                        "duration": 25,
+                        "distance": 8500,
+                        "method": "transit",
+                        "instructions": "Take Tokyo Metro from Shibuya to Toyosu",
+                        "commuteType": "between-activities",
+                        "fromName": "T's TanTan Shibuya",
+                        "toName": "teamLab Planets TOKYO"
+                    }
+                },
+                {
+                    "slotId": "d2-late-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "16:30", "end": "18:00" },
+                    "options": [{
+                        "id": "akihabara-exploration",
+                        "rank": 1,
+                        "score": 88,
+                        "activity": {
+                            "name": "Akihabara Electric Town",
+                            "description": "The anime and gaming mecca of Tokyo!",
+                            "category": "neighborhood",
+                            "duration": 90,
+                            "place": {
+                                "name": "Akihabara Electric Town",
+                                "address": "Akihabara, Taito City, Tokyo",
+                                "neighborhood": "Akihabara",
+                                "coordinates": { "lat": 35.7023, "lng": 139.7745 }
+                            },
+                            "isFree": true,
+                            "tags": ["anime", "gaming", "shopping", "kid-friendly"],
+                            "source": "ai"
+                        },
+                        "matchReasons": ["Kids love anime and gaming", "Unique Tokyo experience"],
+                        "tradeoffs": ["Can be overwhelming"]
+                    }],
+                    "behavior": "flex",
+                    "commuteFromPrevious": {
+                        "duration": 30,
+                        "distance": 12000,
+                        "method": "transit",
+                        "instructions": "Take Yurakucho Line to Akihabara",
+                        "commuteType": "between-activities",
+                        "fromName": "teamLab Planets TOKYO",
+                        "toName": "Akihabara Electric Town"
+                    }
+                },
+                {
+                    "slotId": "d2-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:30", "end": "20:00" },
+                    "options": [{
+                        "id": "kanda-matsuya",
+                        "rank": 1,
+                        "score": 85,
+                        "activity": {
+                            "name": "Kanda Matsuya",
+                            "description": "Historic soba noodle restaurant since 1884.",
+                            "category": "restaurant",
+                            "duration": 60,
+                            "place": {
+                                "name": "Kanda Matsuya",
+                                "address": "1-13 Kanda Sudacho, Chiyoda City, Tokyo",
+                                "neighborhood": "Kanda",
+                                "coordinates": { "lat": 35.6954, "lng": 139.7688 },
+                                "rating": 4.2,
+                                "reviewCount": 420
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1500, "currency": "JPY" },
+                            "tags": ["soba", "vegetarian-friendly", "historic"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Vegetarian-friendly soba", "Near Akihabara"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "meal",
+                    "commuteFromPrevious": {
+                        "duration": 8,
+                        "distance": 600,
+                        "method": "walk",
+                        "instructions": "Walk through Akihabara",
+                        "commuteType": "between-activities"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "date": "2026-03-17",
+            "city": "Tokyo",
+            "title": "Culinary Class & Temple Culture",
+            "summary": "Learn to make sushi in the morning, then explore Senso-ji Temple.",
+            "accommodation": {
+                "name": "Park Hyatt Tokyo",
+                "address": "3-7-1-2 Nishi Shinjuku, Shinjuku City, Tokyo 163-1055",
+                "neighborhood": "Nishi-Shinjuku",
+                "coordinates": { "lat": 35.6855, "lng": 139.6907 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.8
+            },
+            "commuteFromHotel": {
+                "duration": 10,
+                "distance": 800,
+                "method": "walk",
+                "instructions": "Walk from Park Hyatt to Tokyo Sushi Academy",
+                "commuteType": "hotel-to-activity",
+                "fromName": "Park Hyatt Tokyo",
+                "toName": "Tokyo Sushi Academy"
+            },
+            "commuteToHotel": {
+                "duration": 35,
+                "distance": 8500,
+                "method": "transit",
+                "instructions": "Take subway from Asakusa to Shinjuku",
+                "commuteType": "activity-to-hotel",
+                "fromName": "Asakusa Ramen",
+                "toName": "Park Hyatt Tokyo"
+            },
+            "slots": [{
+                    "slotId": "d3-anchor-sushi-class",
+                    "slotType": "morning",
+                    "timeRange": { "start": "11:00", "end": "14:00" },
+                    "options": [{
+                        "id": "sushi-academy",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Tokyo Sushi Academy - Sushi Making Class",
+                            "description": "Hands-on sushi making experience led by professional sushi chefs.",
+                            "category": "cultural-experience",
+                            "duration": 180,
+                            "place": {
+                                "name": "Tokyo Sushi Academy",
+                                "address": "5-8 Nishi-Shinjuku, Shinjuku City, Tokyo",
+                                "neighborhood": "Nishi-Shinjuku",
+                                "coordinates": { "lat": 35.6952, "lng": 139.6942 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 7000, "currency": "JPY" },
+                            "tags": ["cooking-class", "hands-on", "family-friendly", "pre-booked"],
+                            "bookingUrl": "https://tokyosushiacademy.com",
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "25953P19",
+                            "title": "Authentic Sushi Making Class with Market Tour",
+                            "description": "Learn sushi-making from a master chef, includes morning Tsukiji market visit.",
+                            "enhancementType": "workshop",
+                            "price": { "amount": 12000, "currency": "JPY" },
+                            "duration": 240,
+                            "rating": 4.9,
+                            "reviewCount": 856,
+                            "bookingUrl": "https://www.viator.com/tours/Tokyo/Sushi-Making/d334-25953P19",
+                            "confirmationType": "instant",
+                            "matchReason": "Enhanced experience with market tour and professional instruction",
+                            "flags": { "freeCancellation": true }
+                        }],
+                        "matchReasons": ["Pre-booked anchor activity", "Interactive for kids"],
+                        "tradeoffs": ["Long class duration"]
+                    }],
+                    "behavior": "anchor",
+                    "commuteFromPrevious": {
+                        "duration": 10,
+                        "distance": 800,
+                        "method": "walk",
+                        "instructions": "Walk from Park Hyatt to Tokyo Sushi Academy",
+                        "commuteType": "hotel-to-activity",
+                        "fromName": "Park Hyatt Tokyo",
+                        "toName": "Tokyo Sushi Academy"
+                    }
+                },
+                {
+                    "slotId": "d3-afternoon",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "15:00", "end": "17:30" },
+                    "options": [{
+                        "id": "sensoji-temple",
+                        "rank": 1,
+                        "score": 98,
+                        "activity": {
+                            "name": "Senso-ji Temple & Nakamise Street",
+                            "description": "Tokyo's oldest and most famous Buddhist temple, dating back to 645 AD.",
+                            "category": "temple",
+                            "duration": 120,
+                            "place": {
+                                "name": "Senso-ji Temple",
+                                "address": "2-3-1 Asakusa, Taito City, Tokyo 111-0032",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7147, "lng": 139.7967 }
+                            },
+                            "isFree": true,
+                            "tags": ["temple", "cultural", "must-visit", "photography"],
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "5326P17",
+                            "title": "Asakusa Walking Tour with Local Guide",
+                            "description": "Explore Senso-ji Temple and hidden gems with a knowledgeable local guide.",
+                            "enhancementType": "guided-tour",
+                            "price": { "amount": 5500, "currency": "JPY" },
+                            "duration": 150,
+                            "rating": 4.7,
+                            "reviewCount": 1245,
+                            "bookingUrl": "https://www.viator.com/tours/Tokyo/Asakusa-Tour/d334-5326P17",
+                            "confirmationType": "instant",
+                            "matchReason": "Learn the history and culture from an expert guide",
+                            "flags": { "freeCancellation": true }
+                        }],
+                        "matchReasons": ["Must-visit item", "Free entry", "Kid-friendly activities"],
+                        "tradeoffs": ["Can be crowded in afternoon"]
+                    }],
+                    "behavior": "flex",
+                    "commuteFromPrevious": {
+                        "duration": 35,
+                        "distance": 8500,
+                        "method": "transit",
+                        "instructions": "Take subway from Shinjuku to Asakusa",
+                        "commuteType": "between-activities",
+                        "fromName": "Tokyo Sushi Academy",
+                        "toName": "Senso-ji Temple"
+                    }
+                },
+                {
+                    "slotId": "d3-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:00", "end": "19:30" },
+                    "options": [{
+                        "id": "sometaro-asakusa",
+                        "rank": 1,
+                        "score": 90,
+                        "activity": {
+                            "name": "Sometaro Okonomiyaki",
+                            "description": "Historic okonomiyaki restaurant where you cook your own savory pancakes.",
+                            "category": "restaurant",
+                            "duration": 75,
+                            "place": {
+                                "name": "Sometaro",
+                                "address": "2-2-2 Nishi-Asakusa, Taito City, Tokyo",
+                                "neighborhood": "Asakusa",
+                                "coordinates": { "lat": 35.7122, "lng": 139.7912 },
+                                "rating": 4.5,
+                                "reviewCount": 890
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 1500, "currency": "JPY" },
+                            "tags": ["okonomiyaki", "interactive", "vegetarian-friendly", "historic"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Interactive for kids", "Vegetarian options"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "meal",
+                    "commuteFromPrevious": {
+                        "duration": 5,
+                        "distance": 300,
+                        "method": "walk",
+                        "instructions": "Short walk from Senso-ji",
+                        "commuteType": "between-activities"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 4,
+            "date": "2026-03-18",
+            "city": "Kyoto",
+            "title": "Tokyo to Kyoto - Bamboo Forest Adventure",
+            "summary": "Take the bullet train to Kyoto and explore Arashiyama Bamboo Grove.",
+            "accommodation": {
+                "name": "The Ritz-Carlton, Kyoto",
+                "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo Ward, Kyoto",
+                "neighborhood": "Nijo",
+                "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.9
+            },
+            "commuteFromHotel": {
+                "duration": 35,
+                "distance": 8500,
+                "method": "transit",
+                "instructions": "Take JR Sagano Line from Nijo to Saga-Arashiyama Station",
+                "commuteType": "hotel-to-activity",
+                "fromName": "The Ritz-Carlton, Kyoto",
+                "toName": "Arashiyama Bamboo Grove"
+            },
+            "commuteToHotel": {
+                "duration": 40,
+                "distance": 9000,
+                "method": "transit",
+                "instructions": "Take train from Arashiyama back to Nijo area",
+                "commuteType": "activity-to-hotel",
+                "fromName": "Shoraian Restaurant",
+                "toName": "The Ritz-Carlton, Kyoto"
+            },
+            "cityTransition": {
+                "from": "Tokyo",
+                "to": "Kyoto",
+                "method": "shinkansen",
+                "duration": 135,
+                "departureTime": "09:30",
+                "arrivalTime": "11:45",
+                "trainName": "Nozomi",
+                "departureStation": "Tokyo Station",
+                "arrivalStation": "Kyoto Station",
+                "estimatedCost": { "amount": 13320, "currency": "JPY" },
+                "commuteToStation": {
+                    "duration": 20,
+                    "distance": 6500,
+                    "method": "transit",
+                    "instructions": "Take JR Chuo Line from Shinjuku to Tokyo Station",
+                    "commuteType": "to-station",
+                    "fromName": "Park Hyatt Tokyo",
+                    "toName": "Tokyo Station"
+                },
+                "commuteFromStation": {
+                    "duration": 15,
+                    "distance": 2800,
+                    "method": "taxi",
+                    "instructions": "Taxi from Kyoto Station to Ritz-Carlton",
+                    "commuteType": "from-station",
+                    "fromName": "Kyoto Station",
+                    "toName": "The Ritz-Carlton, Kyoto"
+                }
+            },
+            "slots": [{
+                    "slotId": "d4-checkout",
+                    "slotType": "morning",
+                    "timeRange": { "start": "08:00", "end": "09:00" },
+                    "options": [{
+                        "id": "checkout-pack",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Check-out & Luggage Forward",
+                            "description": "Check out from Park Hyatt Tokyo. Send luggage via Takkyubin to Kyoto.",
+                            "category": "logistics",
+                            "duration": 60,
+                            "place": {
+                                "name": "Park Hyatt Tokyo",
+                                "address": "3-7-1-2 Nishi Shinjuku, Tokyo",
+                                "neighborhood": "Nishi-Shinjuku",
+                                "coordinates": { "lat": 35.6855, "lng": 139.6907 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2000, "currency": "JPY" },
+                            "tags": ["logistics", "hotel"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Send luggage ahead for easy travel with kids"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor"
+                },
+                {
+                    "slotId": "d4-transfer-shinkansen",
+                    "slotType": "morning",
+                    "timeRange": { "start": "09:30", "end": "12:00" },
+                    "options": [{
+                        "id": "shinkansen-kyoto",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Shinkansen to Kyoto",
+                            "description": "Take the famous Tokaido Shinkansen (Nozomi) from Tokyo to Kyoto.",
+                            "category": "transfer",
+                            "duration": 140,
+                            "place": {
+                                "name": "Tokyo Station",
+                                "address": "1-9-1 Marunouchi, Chiyoda City, Tokyo",
+                                "neighborhood": "Marunouchi",
+                                "coordinates": { "lat": 35.6812, "lng": 139.7671 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 13320, "currency": "JPY" },
+                            "tags": ["transfer", "shinkansen", "experience"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Fast and comfortable", "Fun experience for kids"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor",
+                    "commuteFromPrevious": {
+                        "duration": 20,
+                        "distance": 6500,
+                        "method": "transit",
+                        "instructions": "Take JR Chuo Line from Shinjuku to Tokyo Station",
+                        "commuteType": "to-station"
+                    }
+                },
+                {
+                    "slotId": "d4-afternoon-bamboo",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "15:00", "end": "18:00" },
+                    "options": [{
+                        "id": "arashiyama-bamboo",
+                        "rank": 1,
+                        "score": 98,
+                        "activity": {
+                            "name": "Arashiyama Bamboo Grove",
+                            "description": "Walk through the iconic bamboo forest - one of Kyoto's most photographed spots.",
+                            "category": "nature",
+                            "duration": 150,
+                            "place": {
+                                "name": "Arashiyama Bamboo Grove",
+                                "address": "Sagaogurayama, Ukyo Ward, Kyoto",
+                                "neighborhood": "Arashiyama",
+                                "coordinates": { "lat": 35.0167, "lng": 135.6711 }
+                            },
+                            "isFree": true,
+                            "tags": ["nature", "must-visit", "photography", "walking"],
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "5168P12",
+                            "title": "Arashiyama Walking Tour with Bamboo Grove",
+                            "description": "Guided walking tour of Arashiyama including bamboo grove and Tenryu-ji Temple.",
+                            "enhancementType": "guided-tour",
+                            "price": { "amount": 7200, "currency": "JPY" },
+                            "duration": 180,
+                            "rating": 4.8,
+                            "reviewCount": 623,
+                            "bookingUrl": "https://www.viator.com/tours/Kyoto/Arashiyama/d332-5168P12",
+                            "confirmationType": "instant",
+                            "matchReason": "Expert guide reveals hidden spots and history of the bamboo grove",
+                            "flags": { "freeCancellation": true }
+                        }],
+                        "matchReasons": ["Must-visit item", "Magical experience for kids"],
+                        "tradeoffs": ["Can be crowded"]
+                    }],
+                    "behavior": "flex",
+                    "commuteFromPrevious": {
+                        "duration": 35,
+                        "distance": 8500,
+                        "method": "transit",
+                        "instructions": "Take JR Sagano Line from Nijo to Saga-Arashiyama Station",
+                        "commuteType": "hotel-to-activity",
+                        "fromName": "The Ritz-Carlton, Kyoto",
+                        "toName": "Arashiyama Bamboo Grove"
+                    }
+                },
+                {
+                    "slotId": "d4-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:30", "end": "20:00" },
+                    "options": [{
+                        "id": "arashiyama-tofu",
+                        "rank": 1,
+                        "score": 90,
+                        "activity": {
+                            "name": "Shoraian Arashiyama",
+                            "description": "Beautiful tofu restaurant with riverside views.",
+                            "category": "restaurant",
+                            "duration": 75,
+                            "place": {
+                                "name": "Shoraian",
+                                "address": "45 Sagatenryuji Susukinobabacho, Ukyo Ward, Kyoto",
+                                "neighborhood": "Arashiyama",
+                                "coordinates": { "lat": 35.0152, "lng": 135.6721 },
+                                "rating": 4.4,
+                                "reviewCount": 280
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 3500, "currency": "JPY" },
+                            "tags": ["tofu", "vegetarian", "traditional", "scenic"],
+                            "source": "yelp"
+                        },
+                        "matchReasons": ["Fully vegetarian", "Beautiful setting"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "meal",
+                    "commuteFromPrevious": {
+                        "duration": 10,
+                        "distance": 800,
+                        "method": "walk",
+                        "instructions": "Walk from bamboo grove to restaurant",
+                        "commuteType": "between-activities"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 5,
+            "date": "2026-03-19",
+            "city": "Kyoto",
+            "title": "Sunrise at Fushimi Inari & Nara Deer Park",
+            "summary": "Early morning at the famous shrine gates, then a day trip to Nara.",
+            "accommodation": {
+                "name": "The Ritz-Carlton, Kyoto",
+                "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo Ward, Kyoto",
+                "neighborhood": "Nijo",
+                "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+                "checkIn": "15:00",
+                "checkOut": "11:00",
+                "type": "hotel",
+                "rating": 4.9
+            },
+            "commuteFromHotel": {
+                "duration": 25,
+                "distance": 5500,
+                "method": "taxi",
+                "instructions": "Pre-arranged taxi pickup at 5:00am from hotel to Fushimi Inari",
+                "commuteType": "hotel-to-activity",
+                "fromName": "The Ritz-Carlton, Kyoto",
+                "toName": "Fushimi Inari Taisha"
+            },
+            "commuteToHotel": {
+                "duration": 15,
+                "distance": 2000,
+                "method": "taxi",
+                "instructions": "Taxi from Nishiki Market to hotel",
+                "commuteType": "activity-to-hotel",
+                "fromName": "Nishiki Market",
+                "toName": "The Ritz-Carlton, Kyoto"
+            },
+            "slots": [{
+                    "slotId": "d5-anchor-fushimi",
+                    "slotType": "morning",
+                    "timeRange": { "start": "05:30", "end": "08:30" },
+                    "options": [{
+                        "id": "fushimi-inari-sunrise",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Fushimi Inari Sunrise Tour",
+                            "description": "Experience the magic of Fushimi Inari Shrine at sunrise.",
+                            "category": "shrine",
+                            "duration": 180,
+                            "place": {
+                                "name": "Fushimi Inari Taisha",
+                                "address": "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto",
+                                "neighborhood": "Fushimi",
+                                "coordinates": { "lat": 34.9671, "lng": 135.7727 }
+                            },
+                            "isFree": true,
+                            "estimatedCost": { "amount": 5000, "currency": "JPY" },
+                            "tags": ["shrine", "sunrise", "photography", "pre-booked", "guided-tour"],
+                            "bookingUrl": "https://fushimi-inari-tours.com",
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "28853P4",
+                            "title": "Fushimi Inari Sunrise Photography Tour",
+                            "description": "Professional photographer guides you through the shrine at sunrise for incredible photos.",
+                            "enhancementType": "guided-tour",
+                            "price": { "amount": 8500, "currency": "JPY" },
+                            "duration": 180,
+                            "rating": 5.0,
+                            "reviewCount": 312,
+                            "bookingUrl": "https://www.viator.com/tours/Kyoto/Fushimi-Sunrise/d332-28853P4",
+                            "confirmationType": "instant",
+                            "matchReason": "Capture amazing photos with a professional photographer guide",
+                            "flags": { "freeCancellation": true, "privateOption": true }
+                        }],
+                        "matchReasons": ["Pre-booked anchor activity", "Magical early morning experience"],
+                        "tradeoffs": ["Very early wake-up"]
+                    }],
+                    "behavior": "anchor",
+                    "commuteFromPrevious": {
+                        "duration": 25,
+                        "distance": 5500,
+                        "method": "taxi",
+                        "instructions": "Pre-arranged taxi pickup at 5:00am",
+                        "commuteType": "hotel-to-activity",
+                        "fromName": "The Ritz-Carlton, Kyoto",
+                        "toName": "Fushimi Inari Taisha"
+                    }
+                },
+                {
+                    "slotId": "d5-nara-trip",
+                    "slotType": "afternoon",
+                    "timeRange": { "start": "10:30", "end": "16:00" },
+                    "options": [{
+                        "id": "nara-deer-park",
+                        "rank": 1,
+                        "score": 98,
+                        "activity": {
+                            "name": "Nara Deer Park & Todai-ji Temple",
+                            "description": "Day trip to meet the famous bowing deer and see the giant Buddha.",
+                            "category": "nature",
+                            "duration": 300,
+                            "place": {
+                                "name": "Nara Park",
+                                "address": "Nara Park, Nara City, Nara Prefecture",
+                                "neighborhood": "Nara",
+                                "coordinates": { "lat": 34.6851, "lng": 135.8390 }
+                            },
+                            "isFree": true,
+                            "estimatedCost": { "amount": 150, "currency": "JPY" },
+                            "tags": ["nature", "animals", "kid-friendly", "must-visit", "temple"],
+                            "source": "manual"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "6712P9",
+                            "title": "Nara Day Trip from Kyoto with Guide",
+                            "description": "Full guided day trip to Nara including deer park, Todai-ji Temple, and lunch.",
+                            "enhancementType": "day-trip",
+                            "price": { "amount": 15000, "currency": "JPY" },
+                            "duration": 480,
+                            "rating": 4.8,
+                            "reviewCount": 542,
+                            "bookingUrl": "https://www.viator.com/tours/Kyoto/Nara-Day-Trip/d332-6712P9",
+                            "confirmationType": "instant",
+                            "matchReason": "Hassle-free day trip with expert guide and transportation included",
+                            "flags": { "freeCancellation": true }
+                        }],
+                        "matchReasons": ["Must-visit item", "Perfect for kids"],
+                        "tradeoffs": ["Long day trip"]
+                    }],
+                    "behavior": "flex",
+                    "commuteFromPrevious": {
+                        "duration": 50,
+                        "distance": 35000,
+                        "method": "transit",
+                        "instructions": "Take JR Nara Line from Fushimi-Inari to JR Nara",
+                        "commuteType": "between-activities"
+                    }
+                },
+                {
+                    "slotId": "d5-dinner",
+                    "slotType": "dinner",
+                    "timeRange": { "start": "18:30", "end": "20:00" },
+                    "options": [{
+                        "id": "nishiki-market-dinner",
+                        "rank": 1,
+                        "score": 85,
+                        "activity": {
+                            "name": "Nishiki Market Street Food",
+                            "description": "Explore Kyoto's famous kitchen market and graze on street food.",
+                            "category": "market",
+                            "duration": 75,
+                            "place": {
+                                "name": "Nishiki Market",
+                                "address": "Nishikikoji-dori, Nakagyo Ward, Kyoto",
+                                "neighborhood": "Nishiki",
+                                "coordinates": { "lat": 35.0050, "lng": 135.7648 },
+                                "rating": 4.4,
+                                "reviewCount": 3200
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2000, "currency": "JPY" },
+                            "tags": ["market", "street-food", "casual", "fun"],
+                            "source": "yelp"
+                        },
+                        "viatorEnhancements": [{
+                            "productCode": "5168P8",
+                            "title": "Nishiki Market Food Tour",
+                            "description": "Guided food tour through Nishiki Market with tastings at 10+ stalls.",
+                            "enhancementType": "food-tour",
+                            "price": { "amount": 9500, "currency": "JPY" },
+                            "duration": 150,
+                            "rating": 4.9,
+                            "reviewCount": 892,
+                            "bookingUrl": "https://www.viator.com/tours/Kyoto/Nishiki-Food/d332-5168P8",
+                            "confirmationType": "instant",
+                            "matchReason": "Discover hidden food gems with a local foodie guide",
+                            "flags": { "freeCancellation": true }
+                        }],
+                        "matchReasons": ["Fun for kids", "Variety of options"],
+                        "tradeoffs": ["Some stalls close early"]
+                    }],
+                    "behavior": "meal",
+                    "commuteFromPrevious": {
+                        "duration": 50,
+                        "distance": 35000,
+                        "method": "transit",
+                        "instructions": "JR Nara Line back to Kyoto, then walk to market",
+                        "commuteType": "between-activities"
+                    }
+                }
+            ]
+        },
+        {
+            "dayNumber": 6,
+            "date": "2026-03-20",
+            "city": "Kyoto",
+            "title": "Departure Day",
+            "summary": "Final morning before heading to Kansai Airport.",
+            "accommodation": null,
+            "commuteFromHotel": {
+                "duration": 15,
+                "distance": 2800,
+                "method": "taxi",
+                "instructions": "Taxi from Ritz-Carlton to Kyoto Station",
+                "commuteType": "hotel-to-activity",
+                "fromName": "The Ritz-Carlton, Kyoto",
+                "toName": "Kyoto Station"
+            },
+            "commuteToHotel": null,
+            "slots": [{
+                    "slotId": "d6-checkout",
+                    "slotType": "morning",
+                    "timeRange": { "start": "06:30", "end": "07:30" },
+                    "options": [{
+                        "id": "checkout-pack-kix",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Check-out & Departure Prep",
+                            "description": "Early check-out from Ritz-Carlton.",
+                            "category": "logistics",
+                            "duration": 60,
+                            "place": {
+                                "name": "The Ritz-Carlton, Kyoto",
+                                "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo Ward, Kyoto",
+                                "neighborhood": "Nijo",
+                                "coordinates": { "lat": 35.0116, "lng": 135.7681 }
+                            },
+                            "isFree": true,
+                            "tags": ["logistics", "hotel"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Necessary for flight timing"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor"
+                },
+                {
+                    "slotId": "d6-transfer-kix",
+                    "slotType": "morning",
+                    "timeRange": { "start": "07:45", "end": "09:00" },
+                    "options": [{
+                        "id": "haruka-kix",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Haruka Express to Kansai Airport",
+                            "description": "Take the JR Haruka Express from Kyoto Station to KIX.",
+                            "category": "transfer",
+                            "duration": 75,
+                            "place": {
+                                "name": "Kyoto Station",
+                                "address": "Higashishiokoji, Shimogyo Ward, Kyoto",
+                                "neighborhood": "Kyoto Station",
+                                "coordinates": { "lat": 34.9858, "lng": 135.7589 }
+                            },
+                            "isFree": false,
+                            "estimatedCost": { "amount": 2900, "currency": "JPY" },
+                            "tags": ["transfer", "airport", "train"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Direct train to KIX"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor",
+                    "commuteFromPrevious": {
+                        "duration": 15,
+                        "distance": 2800,
+                        "method": "taxi",
+                        "instructions": "Taxi from Ritz-Carlton to Kyoto Station",
+                        "commuteType": "hotel-to-activity"
+                    }
+                },
+                {
+                    "slotId": "d6-departure",
+                    "slotType": "morning",
+                    "timeRange": { "start": "09:00", "end": "10:00" },
+                    "options": [{
+                        "id": "flight-departure",
+                        "rank": 1,
+                        "score": 100,
+                        "activity": {
+                            "name": "Flight KIX → SFO",
+                            "description": "Depart from Kansai International Airport.",
+                            "category": "transfer",
+                            "duration": 60,
+                            "place": {
+                                "name": "Kansai International Airport",
+                                "address": "1 Senshukukokita, Izumisano, Osaka",
+                                "neighborhood": "KIX",
+                                "coordinates": { "lat": 34.4320, "lng": 135.2304 }
+                            },
+                            "isFree": false,
+                            "tags": ["airport", "departure", "flight"],
+                            "source": "manual"
+                        },
+                        "matchReasons": ["Flight home"],
+                        "tradeoffs": []
+                    }],
+                    "behavior": "anchor"
+                }
+            ]
+        }
+    ],
+    "generalTips": [
+        "Get a JR Pass for the Shinkansen and JR trains - saves money on the Tokyo-Kyoto journey",
+        "Buy IC cards (Suica or ICOCA) for each family member for easy metro/train payments",
+        "Download Google Maps offline for each city before you go",
+        "Most restaurants can accommodate vegetarian requests - say 'yasai dake' (vegetables only)",
+        "Convenience stores (7-Eleven, Lawson) have great vegetarian onigiri for quick snacks",
+        "Kids eat free or half-price at most attractions under 12",
+        "Takkyubin luggage forwarding is a lifesaver with kids - send bags ahead to next hotel",
+        "Temple etiquette: bow at gates, walk on sides (not center), and be quiet inside",
+        "Deer at Nara bow back when you bow to them - teach the kids before you go!",
+        "Many places are cash-only - carry yen with you"
+    ],
+    "estimatedBudget": {
+        "total": { "min": 450000, "max": 600000 },
+        "breakdown": {
+            "accommodation": { "min": 180000, "max": 220000 },
+            "transport": { "min": 80000, "max": 100000 },
+            "food": { "min": 100000, "max": 150000 },
+            "activities": { "min": 50000, "max": 80000 },
+            "shopping": { "min": 40000, "max": 50000 }
+        },
+        "currency": "JPY"
+    },
+    "metadata": {
+        "generatedAt": "2026-01-01T00:00:00Z",
+        "source": "gold-standard-manual",
+        "version": "2.0",
+        "constraints": {
+            "anchors": [
+                { "name": "teamLab Planets", "date": "2026-03-16", "time": "14:00", "duration": 150 },
+                { "name": "Tokyo Sushi Academy", "date": "2026-03-17", "time": "11:00", "duration": 180 },
+                { "name": "Fushimi Inari Sunrise Tour", "date": "2026-03-19", "time": "05:30", "duration": 180 }
+            ],
+            "mustHave": ["Senso-ji Temple", "Arashiyama Bamboo Grove", "Nara Deer Park", "Nintendo Store"],
+            "mustAvoid": ["crowded tourist traps", "sushi restaurants", "theme parks"],
+            "dietary": ["vegetarian", "no meat", "fish okay"]
+        }
+    }
+}

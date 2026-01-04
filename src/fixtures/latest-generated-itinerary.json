@@ -1,0 +1,2982 @@
+{
+  "success": true,
+  "data": {
+    "message": "Welcome to your 6-day adventure in Tokyo and Kyoto, Japan! This itinerary is designed for family who want to explore ramen, temples, anime, all while taking it easy with plenty of downtime. From iconic landmarks to hidden gems, every day brings new highlights. Let's dive in! 🌸",
+    "itinerary": {
+      "destination": "Japan",
+      "country": "Japan",
+      "days": [
+        {
+          "dayNumber": 1,
+          "date": "2026-03-15",
+          "city": "Tokyo",
+          "title": "Arrival in Tokyo",
+          "slots": [
+            {
+              "slotId": "day1-arrival-transfer",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "15:30",
+                "end": "16:30"
+              },
+              "behavior": "travel",
+              "options": [
+                {
+                  "id": "opt-arrival-transfer",
+                  "rank": 1,
+                  "score": 100,
+                  "activity": {
+                    "name": "Airport → Hotel Transfer",
+                    "description": "Transfer from NRT to hotel in Tokyo. Via train",
+                    "category": "transport",
+                    "duration": 60,
+                    "place": {
+                      "name": "NRT",
+                      "address": "",
+                      "neighborhood": "Tokyo",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [
+                      "transfer",
+                      "airport",
+                      "arrival"
+                    ],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Airport arrival transfer"
+                  ],
+                  "tradeoffs": []
+                }
+              ]
+            },
+            {
+              "slotId": "day1-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day1-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "14:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-lunch-cy2wovyOhHSQ9YNli7jPCQ",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Okachimachi Tenpura Sakedokoro Tenmasa",
+                    "description": "Tempura - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Okachimachi Tenpura Sakedokoro Tenmasa",
+                      "address": "台東3-8-8",
+                      "neighborhood": "Taitō",
+                      "coordinates": {
+                        "lat": 35.70456,
+                        "lng": 139.778526
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/OT4OuaHdVGlA8JxMwwJdqA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.8 km from Senso-ji Temple",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-_AhddRMknDzJrtlQrbyq5A",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Banninriki ",
+                    "description": "Ramen - $",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Banninriki ",
+                      "address": "入谷1-24-2",
+                      "neighborhood": "Taitō",
+                      "coordinates": {
+                        "lat": 35.7212776438829,
+                        "lng": 139.78638086468
+                      },
+                      "rating": 5,
+                      "reviewCount": 9,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/UZChrynwRQw5utmkB-uSQg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.2 km from Senso-ji Temple",
+                    "5 rating (9 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-siO72gH03_2ZH94u-vmwyA",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "HATCOFFEE",
+                    "description": "Cafes - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "HATCOFFEE",
+                      "address": "寿3-15-6",
+                      "neighborhood": "Taitō",
+                      "coordinates": {
+                        "lat": 35.7072954320728,
+                        "lng": 139.793303
+                      },
+                      "rating": 5,
+                      "reviewCount": 8,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/_VpM8h7P-MRHkMr-RPUmrw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.7 km from Senso-ji Temple",
+                    "5 rating (8 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day1-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "16:00",
+                "end": "18:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Senso-ji Temple",
+                    "description": "Tokyo's oldest temple with vibrant culture.",
+                    "category": "temple",
+                    "duration": 60,
+                    "place": {
+                      "name": "Sensō-ji",
+                      "address": "金龍山 浅草寺, 1, 浅草二丁目, 浅草, 台東区, 東京都, 111-0032, 日本",
+                      "neighborhood": "浅草二丁目",
+                      "coordinates": {
+                        "lat": 35.7134032,
+                        "lng": 139.7955265
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "User requested: must-visit"
+                  ],
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "175777P13",
+                      "title": "Asakusa Senso-ji Temple and Old Tokyo Walking Tour",
+                      "description": "The Asakusa Walking Tour in Tokyo offers a captivating exploration of the historic district, blending traditional and modern elements. The focal point, Senso-ji Temple, Tokyo's oldest Buddhist temple, stands with its Thunder Gate and Nakamise Shopping Street. Participants delve into the temple's history, exploring intricate architecture and partaking in rituals. Guides share compelling stories, enriching the understanding of Senso-ji's cultural significance. Meandering through Asakusa reveals charming shops, crafts, and local eateries, creating a vibrant tapestry. This immersive tour promises a sensory journey through Tokyo's cultural heritage, balancing ancient allure with dynamic energy.",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 20,
+                        "currency": "USD",
+                        "originalAmount": 20
+                      },
+                      "duration": 120,
+                      "rating": 4.8210735,
+                      "reviewCount": 503,
+                      "bookingUrl": "https://www.viator.com/tours/Asakusa/Asakusa-Sensoji-Temple-Walking-Tour-Tokyo/d59194-175777P13?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/3e/fb/95.jpg",
+                      "matchReason": "Get expert insights about Senso-ji Temple with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Desert Adventures",
+                        "Hiking",
+                        "Experiences"
+                      ]
+                    },
+                    {
+                      "productCode": "456539P20",
+                      "title": "Tokyo: Asakusa Senso-ji Temple & Old Town Walking Tour",
+                      "description": "Step into Tokyo’s past on this immersive Asakusa walking tour. Visit Senso-ji, the city’s oldest temple, pass through Kaminarimon Gate, and stroll Nakamise Street lined with shops, lanterns, and local treats. Once the heart of Edo-era culture, Asakusa still echoes with tradition. Your guide will share stories of geisha districts, hidden shrines, and the area’s evolution—revealing both famous sights and hidden gems for a deeper connection to Japan’s living history.\n\n【Tour Highlights】\n\n・Insightful stories and cultural context shared along the way\n\n・Engaging commentary on history and tradition during the tour\n\n・Learn fascinating cultural insights and historical details as you explore\n\n・Expert narration highlighting Asakusa’s rich heritage\n\n・A guided journey filled with history, legends, and cultural background",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 19.64,
+                        "currency": "USD",
+                        "originalAmount": 19.64
+                      },
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 214,
+                      "bookingUrl": "https://www.viator.com/tours/Asakusa/Asakusa-Private-Food-Walking-Tour-for-Family-Lunch-and-5-bites/d59194-456539P20?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/b7/0c/d3.jpg",
+                      "matchReason": "Get expert insights about Senso-ji Temple with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Photography Tours",
+                        "Hiking",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "477979P3",
+                      "title": "Tokyo: Private Asakusa & Senso-ji Temple Tour with 3 food stops",
+                      "description": "Discover the best of Asakusa through its many unique sides!\n\nYou’ll learn about the rich history and spiritual depth of Senso-ji Temple by a friendly yet knowledgeable expert guide, feel the lively energy of Nakamise Street with its colorful shops and friendly vendors, and enjoy three local foods loved by Japanese people—already included in the tour. \nThe area is filled with traditional goods and unique items that show Asakusa’s character, and you can also experience Japan’s kitchen culture by seeing beautifully crafted tableware made with traditional techniques in the nearby Kappabashi district.\n\nDiscover Japan through the eyes of a local guide!\n\n・Visit Senso-ji Temple and learn its rich, fascinating history from a friendly and knowledgeable local guide.\n・Stroll through Nakamise Street and enjoy three hand-picked street foods selected by your local guide.\n・Hear cultural insights and stories that a Japanese local guide is especially able to share.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 52.37,
+                        "currency": "USD",
+                        "originalAmount": 52.37
+                      },
+                      "duration": 120,
+                      "rating": 5,
+                      "reviewCount": 15,
+                      "bookingUrl": "https://www.viator.com/tours/Asakusa/Tokyo-Sensoji-Temple-and-Street-Food-Private-Tour-with-guide/d59194-477979P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/53/d9/c6.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Senso-ji Temple",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Photography Tours",
+                        "Hiking",
+                        "Desert Adventures"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Asakusa Culture and Tourism Center",
+                    "description": "Enjoy panoramic views of Tokyo.",
+                    "category": "viewpoint",
+                    "duration": 30,
+                    "place": {
+                      "name": "Asakusa Culture and Tourism Center",
+                      "address": "浅草文化観光センター, 9, 雷門二丁目, 雷門, 台東区, 東京都, 111-0034, 日本",
+                      "neighborhood": "雷門二丁目",
+                      "coordinates": {
+                        "lat": 35.7106419,
+                        "lng": 139.7965189
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-3",
+                  "rank": 3,
+                  "score": 60,
+                  "activity": {
+                    "name": "Nakamise Street",
+                    "description": "Explore shops with traditional snacks and souvenirs.",
+                    "category": "market",
+                    "duration": 30,
+                    "place": {
+                      "name": "Nakamise Street",
+                      "address": "仲見世通り, 浅草一丁目, 浅草, 台東区, 東京都, 110-0032, 日本",
+                      "neighborhood": "浅草一丁目",
+                      "coordinates": {
+                        "lat": 35.7125206,
+                        "lng": 139.7965171
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 9,
+                "distance": 1823,
+                "method": "walk",
+                "instructions": "Walk 1.8 km"
+              }
+            },
+            {
+              "slotId": "day1-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:30",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Itadakimasu",
+                    "description": "Vegetarian-friendly ramen restaurant.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Itadakimasu",
+                      "address": "",
+                      "neighborhood": "Asakusa",
+                      "coordinates": {
+                        "lat": 35.7105,
+                        "lng": 139.794
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Saido",
+                    "description": "Pescatarian-friendly ramen with fresh seafood.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "SAIDO",
+                      "address": "自由が丘2-15-10",
+                      "neighborhood": "Meguro",
+                      "coordinates": {
+                        "lat": 35.607902,
+                        "lng": 139.66609199
+                      },
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/jaQRU5GnJozvMX27YfUltg/o.jpg"
+                      ],
+                      "rating": 5,
+                      "reviewCount": 3
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-3",
+                  "rank": 3,
+                  "score": 60,
+                  "activity": {
+                    "name": "Naritaya",
+                    "description": "Famous for its vegetarian ramen options.",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "NARITAYA",
+                      "address": "浅草2-7-13",
+                      "neighborhood": "Taitō",
+                      "coordinates": {
+                        "lat": 35.714748,
+                        "lng": 139.795078
+                      },
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/04cYmLPNFyKYIgZfEyXfwg/o.jpg"
+                      ],
+                      "rating": 4.2,
+                      "reviewCount": 9
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 6,
+                "distance": 351,
+                "method": "walk",
+                "instructions": "Walk 0.4 km"
+              }
+            }
+          ]
+        },
+        {
+          "dayNumber": 2,
+          "date": "2026-03-16",
+          "city": "Tokyo",
+          "title": "Exploring Tokyo",
+          "slots": [
+            {
+              "slotId": "day2-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "12:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ueno Park",
+                    "description": "A large public park with museums and a zoo.",
+                    "category": "park",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ueno Park",
+                      "address": "上野公園, 台東区, 東京都, 110-0007, 日本",
+                      "neighborhood": "上野公園",
+                      "coordinates": {
+                        "lat": 35.7152915,
+                        "lng": 139.7738278
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "319176P10",
+                      "title": "Tokyo National Museum & Ueno Park Private guided tour",
+                      "description": "Are you interested in Japanese art, history, culture, and lifestyle? A visit to Japan's oldest and most renowned museum, the Tokyo National Museum, could be a perfect choice.\nBuilt in the early 20th century, the Honkan (main building) has been designated as an Important Cultural Property and consists of two floors. We will begin our exploration on the 2nd floor, where you’ll learn about Japan's history through the exhibits. On the 1st floor, the rooms are categorized by artifact type, including Buddhist statues, samurai swords, kimonos, and more.\nThe museum also features a well-regarded shop and a stunning Japanese-style garden with teahouses. Additionally, we will enjoy a leisurely stroll through Ueno Park. Once the property of a renowned temple during the Samurai Era, the park is rich in historical sites and remains.\nWe also offer a range of reasonable, tiered pricing options!\n",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 137.48,
+                        "currency": "USD",
+                        "originalAmount": 137.48
+                      },
+                      "duration": 240,
+                      "rating": 5,
+                      "reviewCount": 1,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Tokyo-National-Museum-and-Ueno-Park-Private-guided-tour/d334-319176P10?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/47/79/6f.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Ueno Park",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Spa & Wellness",
+                        "Architecture Tours"
+                      ]
+                    },
+                    {
+                      "productCode": "92163P272",
+                      "title": "Ueno Park and Ameyoko Street Food Market Half Day Walking Tour",
+                      "description": "Ueno Park offers a blend of nature and culture in Tokyo, featuring the serene Kiyomizu Kannon-dō Temple and the picturesque Shinobazu Pond. This half-day tour includes a visit to the renowned Tokyo National Museum, showcasing Japan's rich artistic heritage, followed by a stroll through the lively Ameyoko Shopping Street, famous for its diverse street food options and vibrant market atmosphere. Perfect for solo travelers and small groups, this tour is led by local guides who provide insights into the area's history and culture.\n\n- Explore Ueno Park, home to cultural landmarks and scenic views\n- Visit the Tokyo National Museum to discover centuries-old treasures\n- Enjoy the bustling atmosphere of Ameyoko Shopping Street, known for street food\n- Small group size ensures personalized attention and a fun social experience",
+                      "enhancementType": "food-tour",
+                      "price": {
+                        "amount": 45,
+                        "currency": "USD",
+                        "originalAmount": 45
+                      },
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 3,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Ueno-Park-and-Ameyoko-Street-Food-Market-Half-Day-Walking-Tour/d334-92163P272?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/19/32/15.jpg",
+                      "matchReason": "Combine Ueno Park with local culinary experiences",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Spa & Wellness",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "39185P3",
+                      "title": "Private Ueno Park Architecture Walking Tour",
+                      "description": "Ueno Park known for its beautiful cherry blossoms is an important cultural and art center in Tokyo. It is also home to many museums with great exhibitions, concert halls, educational institutions, and a zoo and always bustling with people. Don't just walk by without checking out the great architecture there as it is a wonderful place to see the great works from the early 1900 till recently designed by great architects such as Le Corbusier, Kunio Maekawa, Tadao Ando, and Yoshio Taniguchi. We will navigate you through these witnesses of the history of relaxing Ueno park.",
+                      "enhancementType": "private-tour",
+                      "price": {
+                        "amount": 147.3,
+                        "currency": "USD",
+                        "originalAmount": 147.3
+                      },
+                      "duration": 210,
+                      "rating": 4.875,
+                      "reviewCount": 8,
+                      "bookingUrl": "https://www.viator.com/tours/Tokyo/Private-Ueno-Park-Architecture-Walking-Tour/d334-39185P3?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/71/48/bc.jpg",
+                      "matchReason": "Enjoy an exclusive private experience at Ueno Park",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": false,
+                        "privateOption": true
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Sightseeing",
+                        "Spa & Wellness"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Tokyo National Museum",
+                    "description": "Japan's oldest and largest museum.",
+                    "category": "museum",
+                    "duration": 90,
+                    "place": {
+                      "name": "Tokyo National Museum",
+                      "address": "東京国立博物館, 9, 上野公園, 台東区, 東京都, 110-8712, 日本",
+                      "neighborhood": "上野公園",
+                      "coordinates": {
+                        "lat": 35.7190448,
+                        "lng": 139.7759676
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-3",
+                  "rank": 3,
+                  "score": 60,
+                  "activity": {
+                    "name": "Ueno Zoo",
+                    "description": "Home to various animal species.",
+                    "category": "zoo",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ueno Zoo",
+                      "address": "Ueno Zoo, 動物園通り, 上野四丁目, 上野公園, 台東区, 東京都, 110-0007, 日本",
+                      "neighborhood": "上野四丁目",
+                      "coordinates": {
+                        "lat": 35.7126734,
+                        "lng": 139.7722793
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day2-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:30",
+                "end": "14:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-lunch-T4Qnye_LlyxSL2NMWL8xCw",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Shutoku 2nd",
+                    "description": "Sushi Bars - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Shutoku 2nd",
+                      "address": "築地6-26-6",
+                      "neighborhood": "Chūō",
+                      "coordinates": {
+                        "lat": 35.664606,
+                        "lng": 139.771138
+                      },
+                      "rating": 5,
+                      "reviewCount": 9,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/zQ9dycaBR5b6jnFmTxA3MQ/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "2.4 km from teamLab Planets",
+                    "5 rating (9 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-osbAvDe_e_8KjaQpYzgb9Q",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "ginzasushimasa",
+                    "description": "Sushi Bars - $$$$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "ginzasushimasa",
+                      "address": "銀座5-14-5",
+                      "neighborhood": "Chūō",
+                      "coordinates": {
+                        "lat": 35.6687537889281,
+                        "lng": 139.767420882974
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/gzyDzo3nz02sPGYe0a_QOA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 5000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "3 km from teamLab Planets",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-NcTs33kwTtGNajbXT6a3kQ",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Shou ",
+                    "description": "Seafood - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Shou ",
+                      "address": "豊洲6-5-1",
+                      "neighborhood": "Koto",
+                      "coordinates": {
+                        "lat": 35.6434,
+                        "lng": 139.780865
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/s-XmKze_lNu1wCbc9-EbTw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1 km from teamLab Planets",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 19,
+                "distance": 5641,
+                "method": "transit",
+                "instructions": "Take transit (6 km)"
+              },
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day2-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "16:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "teamLab Planets",
+                    "description": "An immersive digital art exhibition.",
+                    "category": "art",
+                    "duration": 120,
+                    "place": {
+                      "name": "teamLab Planets",
+                      "address": "チームラボ プラネッツ, 16, 豊洲六丁目, 豊洲, 江東区, 東京都, 135-0061, 日本",
+                      "neighborhood": "豊洲六丁目",
+                      "coordinates": {
+                        "lat": 35.64938,
+                        "lng": 139.789728
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Pre-booked activity"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Tokyo Skytree",
+                    "description": "The tallest structure in Japan with observation decks.",
+                    "category": "viewpoint",
+                    "duration": 120,
+                    "place": {
+                      "name": "Tokyo Skytree",
+                      "address": "東京スカイツリー, 2, 押上一丁目, 押上, 墨田区, 東京都, 131-0045, 日本",
+                      "neighborhood": "押上一丁目",
+                      "coordinates": {
+                        "lat": 35.7100543,
+                        "lng": 139.8107141
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-3",
+                  "rank": 3,
+                  "score": 60,
+                  "activity": {
+                    "name": "Senso-ji Temple Night View",
+                    "description": "Experience a beautifully illuminated temple at night.",
+                    "category": "temple",
+                    "duration": 60,
+                    "place": {
+                      "name": "Senso-ji Temple",
+                      "address": "",
+                      "neighborhood": "Asakusa",
+                      "coordinates": {
+                        "lat": 35.7116,
+                        "lng": 139.7967
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor",
+              "commuteFromPrevious": {
+                "duration": 11,
+                "distance": 2385,
+                "method": "transit",
+                "instructions": "Take transit (2 km)"
+              }
+            },
+            {
+              "slotId": "day2-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "19:30"
+              },
+              "options": [
+                {
+                  "id": "yelp-dinner-T4Qnye_LlyxSL2NMWL8xCw",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Shutoku 2nd",
+                    "description": "Sushi Bars - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Shutoku 2nd",
+                      "address": "築地6-26-6",
+                      "neighborhood": "Chūō",
+                      "coordinates": {
+                        "lat": 35.664606,
+                        "lng": 139.771138
+                      },
+                      "rating": 5,
+                      "reviewCount": 9,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/zQ9dycaBR5b6jnFmTxA3MQ/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "2.4 km from teamLab Planets",
+                    "5 rating (9 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-osbAvDe_e_8KjaQpYzgb9Q",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "ginzasushimasa",
+                    "description": "Sushi Bars - $$$$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "ginzasushimasa",
+                      "address": "銀座5-14-5",
+                      "neighborhood": "Chūō",
+                      "coordinates": {
+                        "lat": 35.6687537889281,
+                        "lng": 139.767420882974
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/gzyDzo3nz02sPGYe0a_QOA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 5000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "3 km from teamLab Planets",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-NcTs33kwTtGNajbXT6a3kQ",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Shou ",
+                    "description": "Seafood - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Shou ",
+                      "address": "豊洲6-5-1",
+                      "neighborhood": "Koto",
+                      "coordinates": {
+                        "lat": 35.6434,
+                        "lng": 139.780865
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/s-XmKze_lNu1wCbc9-EbTw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1 km from teamLab Planets",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 11,
+                "distance": 2385,
+                "method": "transit",
+                "instructions": "Take transit (2 km)"
+              },
+              "selectedOptionId": null
+            }
+          ]
+        },
+        {
+          "dayNumber": 3,
+          "date": "2026-03-17",
+          "city": "Tokyo",
+          "title": "Cultural Experiences",
+          "slots": [
+            {
+              "slotId": "day3-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "11:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Akihabara",
+                    "description": "A district known for anime, manga, and gaming culture.",
+                    "category": "shopping",
+                    "duration": 120,
+                    "place": {
+                      "name": "Akihabara",
+                      "address": "秋葉原, 台東区, 東京都, 110-0006, 日本",
+                      "neighborhood": "秋葉原",
+                      "coordinates": {
+                        "lat": 35.7018928,
+                        "lng": 139.7743684
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Maid Café",
+                    "description": "Experience unique themed dining in Akihabara.",
+                    "category": "café",
+                    "duration": 60,
+                    "place": {
+                      "name": "Cure Maid Cafe",
+                      "address": "キュアメイドカフェ, ラジオデパート通り, 外神田一丁目, 外神田, 千代田区, 東京都, 101-0021, 日本",
+                      "neighborhood": "外神田一丁目",
+                      "coordinates": {
+                        "lat": 35.698346,
+                        "lng": 139.7708508
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-3",
+                  "rank": 3,
+                  "score": 60,
+                  "activity": {
+                    "name": "Gachapon Hall",
+                    "description": "Collectible capsule toy machines, fun for kids.",
+                    "category": "attraction",
+                    "duration": 60,
+                    "place": {
+                      "name": "Gachapon Hall",
+                      "address": "",
+                      "neighborhood": "Akihabara",
+                      "coordinates": {
+                        "lat": 35.6989,
+                        "lng": 139.776
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day3-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "11:30",
+                "end": "13:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-lunch-UXT087ui-uG3zm1o3d6bnA",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Hello Coffee",
+                    "description": "Coffee & Tea - $",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Hello Coffee",
+                      "address": "南区清水2丁目4-9",
+                      "neighborhood": "Fukuoka",
+                      "coordinates": {
+                        "lat": 33.5728814135,
+                        "lng": 130.422306045
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/Gew0kZRdZL1EIGM62AR6iw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.9 km from Nintendo Store",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-93QwX5CT3Vnfe-ae1wc07w",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tatsumi Sushi",
+                    "description": "Sushi Bars - $$$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Tatsumi Sushi",
+                      "address": "博多区 下川端町8-431",
+                      "neighborhood": "Fukuoka",
+                      "coordinates": {
+                        "lat": 33.5963402,
+                        "lng": 130.4065456
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/wKRkgFzGf2fXnDA52GdZNg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 3500,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.4 km from Nintendo Store",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-upz9rGEJex85W-smtD9t1g",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Ajinomasafuku Tenjin Core Honten",
+                    "description": "Cafeteria - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Ajinomasafuku Tenjin Core Honten",
+                      "address": "中央区天神1丁目11-11",
+                      "neighborhood": "Fukuoka",
+                      "coordinates": {
+                        "lat": 33.5906992196,
+                        "lng": 130.399679833
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/MZvonXPX4w7BFnwFEcem-w/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.9 km from Nintendo Store",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 2135,
+                "distance": 887331,
+                "method": "transit",
+                "instructions": "Take transit (887 km)"
+              },
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day3-anchor-sushi-making-class-at-tokyo-sushi-academy",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "11:00",
+                "end": "14:00"
+              },
+              "behavior": "anchor",
+              "options": [
+                {
+                  "id": "opt-anchor-sushi-making-class-at-tokyo-sushi-academy",
+                  "rank": 1,
+                  "score": 100,
+                  "activity": {
+                    "name": "Sushi-making class at Tokyo Sushi Academy",
+                    "description": "Pre-booked activity: Sushi-making class at Tokyo Sushi Academy",
+                    "category": "experience",
+                    "duration": 180,
+                    "place": {
+                      "name": "Sushi-making class at Tokyo Sushi Academy",
+                      "address": "",
+                      "neighborhood": "Tokyo",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [
+                      "pre-booked",
+                      "anchor"
+                    ],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Pre-booked activity - fixed time"
+                  ],
+                  "tradeoffs": []
+                }
+              ]
+            },
+            {
+              "slotId": "day3-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "17:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Nintendo Store",
+                    "description": "A must-visit for gaming fans, featuring merchandise and games.",
+                    "category": "store",
+                    "duration": 120,
+                    "place": {
+                      "name": "Nintendo Store",
+                      "address": "Nintendo Store, 博多祇園連絡通路, 博多駅前二丁目, 博多区, 福岡市, 福岡県, 812-0011, 日本",
+                      "neighborhood": "博多区",
+                      "coordinates": {
+                        "lat": 33.5901396,
+                        "lng": 130.4199019
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "User requested: must-visit"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Shibuya Crossing",
+                    "description": "Experience the world's busiest pedestrian crossing.",
+                    "category": "attraction",
+                    "duration": 60,
+                    "place": {
+                      "name": "Shibuya Sta.",
+                      "address": "渋谷駅前交差点, 渋谷センター街, 宇田川町, 渋谷区, 東京都, 150-8377, 日本",
+                      "neighborhood": "宇田川町",
+                      "coordinates": {
+                        "lat": 35.6594951,
+                        "lng": 139.7004982
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-3",
+                  "rank": 3,
+                  "score": 60,
+                  "activity": {
+                    "name": "Hachiko Statue",
+                    "description": "Famous statue of the loyal dog Hachiko.",
+                    "category": "statue",
+                    "duration": 30,
+                    "place": {
+                      "name": "Hachiko Memorial Statue",
+                      "address": "忠犬ハチ公像, 1, 道玄坂一丁目, 道玄坂, 渋谷区, 東京都, 150-0043, 日本",
+                      "neighborhood": "道玄坂",
+                      "coordinates": {
+                        "lat": 35.6590597,
+                        "lng": 139.7006279
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 10,
+                "distance": 1932,
+                "method": "walk",
+                "instructions": "Walk 1.9 km"
+              }
+            },
+            {
+              "slotId": "day3-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "19:30"
+              },
+              "options": [
+                {
+                  "id": "yelp-dinner-UXT087ui-uG3zm1o3d6bnA",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Hello Coffee",
+                    "description": "Coffee & Tea - $",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Hello Coffee",
+                      "address": "南区清水2丁目4-9",
+                      "neighborhood": "Fukuoka",
+                      "coordinates": {
+                        "lat": 33.5728814135,
+                        "lng": 130.422306045
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/Gew0kZRdZL1EIGM62AR6iw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.9 km from Nintendo Store",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-93QwX5CT3Vnfe-ae1wc07w",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Tatsumi Sushi",
+                    "description": "Sushi Bars - $$$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Tatsumi Sushi",
+                      "address": "博多区 下川端町8-431",
+                      "neighborhood": "Fukuoka",
+                      "coordinates": {
+                        "lat": 33.5963402,
+                        "lng": 130.4065456
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/wKRkgFzGf2fXnDA52GdZNg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 3500,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.4 km from Nintendo Store",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-upz9rGEJex85W-smtD9t1g",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Ajinomasafuku Tenjin Core Honten",
+                    "description": "Cafeteria - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ajinomasafuku Tenjin Core Honten",
+                      "address": "中央区天神1丁目11-11",
+                      "neighborhood": "Fukuoka",
+                      "coordinates": {
+                        "lat": 33.5906992196,
+                        "lng": 130.399679833
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/MZvonXPX4w7BFnwFEcem-w/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.9 km from Nintendo Store",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 10,
+                "distance": 1932,
+                "method": "walk",
+                "instructions": "Walk 1.9 km"
+              },
+              "selectedOptionId": null
+            }
+          ]
+        },
+        {
+          "dayNumber": 4,
+          "date": "2026-03-18",
+          "city": "Kyoto",
+          "title": "Travel to Kyoto",
+          "slots": [
+            {
+              "slotId": "day4-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "09:00",
+                "end": "11:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Check-out from Hotel",
+                    "description": "Prepare for transfer to Kyoto.",
+                    "category": "transfer",
+                    "duration": 60,
+                    "place": {
+                      "name": "Hotel",
+                      "address": "",
+                      "neighborhood": "Tokyo",
+                      "coordinates": {
+                        "lat": 35.6762,
+                        "lng": 139.6503
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Light Morning Walk",
+                    "description": "Enjoy a short walk around the hotel area.",
+                    "category": "park",
+                    "duration": 60,
+                    "place": {
+                      "name": "Shinjuku Gyoen",
+                      "address": "",
+                      "neighborhood": "Shinjuku",
+                      "coordinates": {
+                        "lat": 35.6852,
+                        "lng": 139.71
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day4-intercity-transfer",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "10:00",
+                "end": "12:15"
+              },
+              "behavior": "travel",
+              "options": [
+                {
+                  "id": "opt-intercity-transfer-Tokyo-Kyoto",
+                  "rank": 1,
+                  "score": 100,
+                  "activity": {
+                    "name": "Shinkansen: Tokyo → Kyoto",
+                    "description": "Shinkansen from Tokyo to Kyoto. Approximate travel time: 2h 15m. Check out of hotel before departure.",
+                    "category": "transport",
+                    "duration": 135,
+                    "place": {
+                      "name": "Tokyo Station",
+                      "address": "",
+                      "neighborhood": "Tokyo",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 14000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "transfer",
+                      "shinkansen",
+                      "intercity",
+                      "shinkansen"
+                    ],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Inter-city transfer to Kyoto"
+                  ],
+                  "tradeoffs": []
+                }
+              ]
+            },
+            {
+              "slotId": "day4-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "14:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-lunch-HVGe5ZgiXSQflcANqvebLQ",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Kanoko",
+                    "description": "Soba - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Kanoko",
+                      "address": "伏見区深草稲荷中之町59番地",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 34.968187,
+                        "lng": 135.770767
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/EwfHRtyHRRJVG6TGzCEzRg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.3 km from Fushimi Inari Taisha",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-AnppUWlSLULOUO41oUVYlw",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ramen Factory Kyoto",
+                    "description": "Ramen - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Ramen Factory Kyoto",
+                      "address": "東山区本町15-814-18",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 34.980227,
+                        "lng": 135.771653
+                      },
+                      "rating": 5,
+                      "reviewCount": 11,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/2E3mJFUh3O80UiksHIiQuw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.5 km from Fushimi Inari Taisha",
+                    "5 rating (11 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-HbT2hGGzIrSlLBzR9-QsOQ",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Yakiniku Yaruki Kyōtoeki　Hachijōguchi",
+                    "description": "Barbeque - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Yakiniku Yaruki Kyōtoeki　Hachijōguchi",
+                      "address": "南区東九条上殿田町50-1",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 34.983817,
+                        "lng": 135.759124
+                      },
+                      "rating": 5,
+                      "reviewCount": 13,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/9N3G_WbHzhuzKJmVBu6QQA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "2.3 km from Fushimi Inari Taisha",
+                    "5 rating (13 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 871,
+                "distance": 360642,
+                "method": "transit",
+                "instructions": "Take transit (361 km)"
+              },
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day4-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "18:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Fushimi Inari Taisha",
+                    "description": "Famous for its thousands of vermillion torii gates.",
+                    "category": "temple",
+                    "duration": 120,
+                    "place": {
+                      "name": "Fushimi Inari Shrine",
+                      "address": "伏見稲荷大社 境内案内図, 十石橋, 深草開土口町, 伏見区, 京都市, 京都府, 612-0807, 日本",
+                      "neighborhood": "伏見区",
+                      "coordinates": {
+                        "lat": 34.9672545,
+                        "lng": 135.7737731
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": [],
+                  "viatorEnhancements": [
+                    {
+                      "productCode": "92163P221",
+                      "title": "Kyoto: Fushimi Inari Taisha Small Group Guided Walking Tour",
+                      "description": "Discover the captivating and iconic Shinto shrine known as Fushimi Inari Taisha\nMarvel at the thousands of bright red torii gates\nOpt to hike along the trails of Mount Inari and take in the breathtaking views\nLearn historical facts and tidbits from a friendly and knowledgeable guide\nBook at any time – last-minute bookings are accepted!",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 30,
+                        "currency": "USD",
+                        "originalAmount": 30
+                      },
+                      "duration": 180,
+                      "rating": 5,
+                      "reviewCount": 4,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Kyoto-Fushimi-Inari-Taisha-Small-Group-Guided-Walking-Tour/d332-92163P221?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/1d/cb/8a.jpg",
+                      "matchReason": "Get expert insights about Fushimi Inari Taisha with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": false,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Spa & Wellness",
+                        "Desert Adventures"
+                      ]
+                    },
+                    {
+                      "productCode": "174545P249",
+                      "title": "Kyoto: Fushimi Inari Taisha Night Tour with Guide",
+                      "description": "Discover a side of Fushimi Inari Taisha few ever see—after dark. As the crowds fade and silence takes over, follow your expert guide through glowing vermilion torii gates and forested mountain paths under the stars. This exclusive night experience reveals a mystical, serene world hidden within one of Kyoto’s most iconic landmarks. With panoramic night views of the city from Mount Inari and the comfort of a local guide, you’ll explore safely and meaningfully. Perfect for travelers seeking beauty, mystery, and a deeper connection to Kyoto’s spiritual heart.",
+                      "enhancementType": "night-tour",
+                      "price": {
+                        "amount": 101.48,
+                        "currency": "USD",
+                        "originalAmount": 101.48
+                      },
+                      "duration": 120,
+                      "bookingUrl": "https://www.viator.com/tours/Kyoto/Kyoto-Fushimi-Inari-Taisha-Night-Tour-with-Guide/d332-174545P249?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/16/19/89/ff.jpg",
+                      "matchReason": "Experience Fushimi Inari Taisha in a magical evening setting",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": false,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "evening",
+                      "tags": [
+                        "Sightseeing"
+                      ]
+                    },
+                    {
+                      "productCode": "366941P517",
+                      "title": "Kiyomizu Temple, Fushimi Inari Taisha: Kyoto & Nara Park Day Tour",
+                      "description": "This full-day adventure takes you to three of Japan’s most iconic and breathtaking landmarks. Start your journey at the majestic Kiyomizu-dera Temple, perched on a hillside with sweeping views of Kyoto. Wander its historic wooden terrace, explore sacred halls, and enjoy the charm of the nearby Sannenzaka and Ninenzaka streets—perfect for traditional snacks and souvenirs.\nNext, head to the vibrant Fushimi Inari Taisha, famous for its endless path of bright red torii gates winding through a mystical forest. This Shinto shrine is one of Japan’s most photographed spots—and for good reason. Take in the peaceful atmosphere and learn about the deep cultural significance of this spiritual site.\n\nYour final stop is Nara Park, home to friendly, free-roaming deer and the world-renowned Tōdai-ji Temple. Feed the deer, stroll through beautiful park grounds, and marvel at the Great Buddha inside one of the largest wooden buildings on Earth.\n",
+                      "enhancementType": "guided-tour",
+                      "price": {
+                        "amount": 80,
+                        "currency": "USD",
+                        "originalAmount": 80
+                      },
+                      "duration": 540,
+                      "bookingUrl": "https://www.viator.com/tours/Osaka/Kiyomizu-Temple-Fushimi-Inari-Taisha-and-Nara-Park-Day-Tour-Osaka/d333-366941P517?mcid=42383&pid=P00282187&medium=api&api_version=2.0",
+                      "confirmationType": "instant",
+                      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/7f/33/b0.jpg",
+                      "matchReason": "Get expert insights about Fushimi Inari Taisha with a professional guide",
+                      "flags": {
+                        "skipTheLine": false,
+                        "freeCancellation": true,
+                        "likelyToSellOut": true,
+                        "newOnViator": true,
+                        "privateOption": false
+                      },
+                      "bestTimeOfDay": "flexible",
+                      "tags": [
+                        "Nature & Wildlife",
+                        "Golf",
+                        "Desert Adventures"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Kiyomizu-dera Temple",
+                    "description": "Historic temple with beautiful views.",
+                    "category": "temple",
+                    "duration": 120,
+                    "place": {
+                      "name": "Kiyomizu-dera Temple",
+                      "address": "清水寺, 東大路通, 月見町, 梅林町, 東山区, 京都市, 京都府, 605-0864, 日本",
+                      "neighborhood": "東山区",
+                      "coordinates": {
+                        "lat": 34.9978412,
+                        "lng": 135.7771061
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 6,
+                "distance": 293,
+                "method": "walk",
+                "instructions": "Walk 0.3 km"
+              }
+            },
+            {
+              "slotId": "day4-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-dinner-HVGe5ZgiXSQflcANqvebLQ",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Kanoko",
+                    "description": "Soba - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kanoko",
+                      "address": "伏見区深草稲荷中之町59番地",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 34.968187,
+                        "lng": 135.770767
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/EwfHRtyHRRJVG6TGzCEzRg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.3 km from Fushimi Inari Taisha",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-AnppUWlSLULOUO41oUVYlw",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Ramen Factory Kyoto",
+                    "description": "Ramen - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ramen Factory Kyoto",
+                      "address": "東山区本町15-814-18",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 34.980227,
+                        "lng": 135.771653
+                      },
+                      "rating": 5,
+                      "reviewCount": 11,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/2E3mJFUh3O80UiksHIiQuw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1.5 km from Fushimi Inari Taisha",
+                    "5 rating (11 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-HbT2hGGzIrSlLBzR9-QsOQ",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Yakiniku Yaruki Kyōtoeki　Hachijōguchi",
+                    "description": "Barbeque - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Yakiniku Yaruki Kyōtoeki　Hachijōguchi",
+                      "address": "南区東九条上殿田町50-1",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 34.983817,
+                        "lng": 135.759124
+                      },
+                      "rating": 5,
+                      "reviewCount": 13,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/9N3G_WbHzhuzKJmVBu6QQA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "2.3 km from Fushimi Inari Taisha",
+                    "5 rating (13 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 6,
+                "distance": 293,
+                "method": "walk",
+                "instructions": "Walk 0.3 km"
+              },
+              "selectedOptionId": null
+            }
+          ]
+        },
+        {
+          "dayNumber": 5,
+          "date": "2026-03-19",
+          "city": "Kyoto",
+          "title": "Nature and Culture",
+          "slots": [
+            {
+              "slotId": "day5-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "05:30",
+                "end": "08:30"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Fushimi Inari Sunrise Tour",
+                    "description": "Experience the beauty of Fushimi Inari at sunrise.",
+                    "category": "tour",
+                    "duration": 180,
+                    "place": {
+                      "name": "Fushimi Inari Taisha",
+                      "address": "",
+                      "neighborhood": "Fushimi",
+                      "coordinates": {
+                        "lat": 34.9671,
+                        "lng": 135.772
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Pre-booked activity"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day5-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "13:30"
+              },
+              "options": [
+                {
+                  "id": "yelp-lunch-xCVrP_KEGOotwm58PZpztQ",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Ex Cafe Kyoto Arashiyama",
+                    "description": "Cafes - $",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Ex Cafe Kyoto Arashiyama",
+                      "address": "嵯峨天龍寺造路町35-3",
+                      "neighborhood": "右京区",
+                      "coordinates": {
+                        "lat": 35.0146650584,
+                        "lng": 135.678098307
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/k0v7paZMjWl9acOZoa6Y5w/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.7 km from Arashiyama Bamboo Grove",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-kTA6MyR73mL0K55c7-HnGg",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Cafe Takahashi",
+                    "description": "Cafes - $",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Cafe Takahashi",
+                      "address": "右京区嵯峨天龍寺芒ノ馬場町10-2",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.014554,
+                        "lng": 135.675313
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/FHUynrHGH5neoujeNw8eCw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.5 km from Arashiyama Bamboo Grove",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-gGp66dQsHdeWjieuVzzmYg",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Kyo SUIRAN",
+                    "description": "Kaiseki - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Kyo SUIRAN",
+                      "address": "嵯峨天龍寺芒ノ馬場町12",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.013627,
+                        "lng": 135.673282
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/a2WzCH7xb206deMKj9SgNA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.4 km from Arashiyama Bamboo Grove",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 29,
+                "distance": 10057,
+                "method": "transit",
+                "instructions": "Take transit (10 km)"
+              },
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day5-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "16:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Arashiyama Bamboo Grove",
+                    "description": "A beautiful bamboo forest, perfect for a family stroll.",
+                    "category": "nature",
+                    "duration": 120,
+                    "place": {
+                      "name": "Arashiyama Bamboo Grove",
+                      "address": "嵐山竹林, 竹林の道, 嵯峨野々宮町, 右京区, 京都市, 京都府, 616-0000, 日本",
+                      "neighborhood": "右京区",
+                      "coordinates": {
+                        "lat": 35.0167419,
+                        "lng": 135.6711482
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "User requested: must-visit"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "opt-2",
+                  "rank": 2,
+                  "score": 70,
+                  "activity": {
+                    "name": "Iwatayama Monkey Park",
+                    "description": "A park where you can see monkeys in their natural habitat.",
+                    "category": "park",
+                    "duration": 120,
+                    "place": {
+                      "name": "Monkey Park Iwatayama",
+                      "address": "嵐山モンキーパークいわたやま, 宇多野嵐山山田線, 嵐山中尾下町, 西京区, 京都市, 京都府, 615-0000, 日本",
+                      "neighborhood": "西京区",
+                      "coordinates": {
+                        "lat": 35.0090864,
+                        "lng": 135.6749673
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "osm"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "flex",
+              "commuteFromPrevious": {
+                "duration": 7,
+                "distance": 674,
+                "method": "walk",
+                "instructions": "Walk 0.7 km"
+              }
+            },
+            {
+              "slotId": "day5-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "19:30"
+              },
+              "options": [
+                {
+                  "id": "yelp-dinner-xCVrP_KEGOotwm58PZpztQ",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Ex Cafe Kyoto Arashiyama",
+                    "description": "Cafes - $",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Ex Cafe Kyoto Arashiyama",
+                      "address": "嵯峨天龍寺造路町35-3",
+                      "neighborhood": "右京区",
+                      "coordinates": {
+                        "lat": 35.0146650584,
+                        "lng": 135.678098307
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/k0v7paZMjWl9acOZoa6Y5w/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.7 km from Arashiyama Bamboo Grove",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-kTA6MyR73mL0K55c7-HnGg",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Cafe Takahashi",
+                    "description": "Cafes - $",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Cafe Takahashi",
+                      "address": "右京区嵯峨天龍寺芒ノ馬場町10-2",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.014554,
+                        "lng": 135.675313
+                      },
+                      "rating": 5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/FHUynrHGH5neoujeNw8eCw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.5 km from Arashiyama Bamboo Grove",
+                    "5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-gGp66dQsHdeWjieuVzzmYg",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Kyo SUIRAN",
+                    "description": "Kaiseki - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kyo SUIRAN",
+                      "address": "嵯峨天龍寺芒ノ馬場町12",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 35.013627,
+                        "lng": 135.673282
+                      },
+                      "rating": 5,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/a2WzCH7xb206deMKj9SgNA/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.4 km from Arashiyama Bamboo Grove",
+                    "5 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 7,
+                "distance": 674,
+                "method": "walk",
+                "instructions": "Walk 0.7 km"
+              },
+              "selectedOptionId": null
+            }
+          ]
+        },
+        {
+          "dayNumber": 6,
+          "date": "2026-03-20",
+          "city": "Kyoto",
+          "title": "Departure",
+          "slots": [
+            {
+              "slotId": "day6-morning",
+              "slotType": "morning",
+              "timeRange": {
+                "start": "07:00",
+                "end": "09:00"
+              },
+              "options": [
+                {
+                  "id": "opt-1",
+                  "rank": 1,
+                  "score": 80,
+                  "activity": {
+                    "name": "Transfer to Kansai International Airport",
+                    "description": "Early morning transfer to catch your flight.",
+                    "category": "transfer",
+                    "duration": 120,
+                    "place": {
+                      "name": "Kansai International Airport",
+                      "address": "",
+                      "neighborhood": "Kansai",
+                      "coordinates": {
+                        "lat": 34.4264,
+                        "lng": 135.244
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Good choice"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "anchor"
+            },
+            {
+              "slotId": "day6-lunch",
+              "slotType": "lunch",
+              "timeRange": {
+                "start": "12:00",
+                "end": "14:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-lunch-Uo9gq0qQgiE28VsFykp7zA",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Mosdo Kansai International Airport",
+                    "description": "Burgers - $",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Mosdo Kansai International Airport",
+                      "address": "田尻町泉州空港中一番地",
+                      "neighborhood": "泉南郡",
+                      "coordinates": {
+                        "lat": 34.434378,
+                        "lng": 135.244112
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/RYVtSGAS0sjZl4thMbTtqg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.9 km from Transfer to Kansai International Airport",
+                    "4.6 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-cQW7nxIU2jbWHCv-m11x8Q",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kaitensushi Tekkamaru",
+                    "description": "Sushi Bars - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Kaitensushi Tekkamaru",
+                      "address": "田尻町泉州空港中1番地",
+                      "neighborhood": "Kaizuka",
+                      "coordinates": {
+                        "lat": 34.4340075698896,
+                        "lng": 135.239059155583
+                      },
+                      "rating": 4.5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/Es2H1oRyoKscwWBE2v-_kw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1 km from Transfer to Kansai International Airport",
+                    "4.5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-lunch-LnDV56sGRJ0Yi-50eYNRAw",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Pronto Kansai International Airport Aero Plaza",
+                    "description": "Cafes - $$",
+                    "category": "restaurant",
+                    "duration": 60,
+                    "place": {
+                      "name": "Pronto Kansai International Airport Aero Plaza",
+                      "address": "田尻町泉州空港中1番地",
+                      "neighborhood": "泉南郡",
+                      "coordinates": {
+                        "lat": 34.434173,
+                        "lng": 135.244974
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 10,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/gLW7HDR5w7QCEUVuaW-RYw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "lunch"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.9 km from Transfer to Kansai International Airport",
+                    "4.4 rating (10 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "commuteFromPrevious": {
+                "duration": 7,
+                "distance": 887,
+                "method": "walk",
+                "instructions": "Walk 0.9 km"
+              },
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day6-afternoon",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "14:00",
+                "end": "18:00"
+              },
+              "options": [],
+              "behavior": "flex"
+            },
+            {
+              "slotId": "day6-dinner",
+              "slotType": "dinner",
+              "timeRange": {
+                "start": "18:00",
+                "end": "20:00"
+              },
+              "options": [
+                {
+                  "id": "yelp-dinner-Uo9gq0qQgiE28VsFykp7zA",
+                  "rank": 1,
+                  "score": 85,
+                  "activity": {
+                    "name": "Mosdo Kansai International Airport",
+                    "description": "Burgers - $",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Mosdo Kansai International Airport",
+                      "address": "田尻町泉州空港中一番地",
+                      "neighborhood": "泉南郡",
+                      "coordinates": {
+                        "lat": 34.434378,
+                        "lng": 135.244112
+                      },
+                      "rating": 4.6,
+                      "reviewCount": 5,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/RYVtSGAS0sjZl4thMbTtqg/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 1000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.9 km from Transfer to Kansai International Airport",
+                    "4.6 rating (5 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-cQW7nxIU2jbWHCv-m11x8Q",
+                  "rank": 2,
+                  "score": 80,
+                  "activity": {
+                    "name": "Kaitensushi Tekkamaru",
+                    "description": "Sushi Bars - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Kaitensushi Tekkamaru",
+                      "address": "田尻町泉州空港中1番地",
+                      "neighborhood": "Kaizuka",
+                      "coordinates": {
+                        "lat": 34.4340075698896,
+                        "lng": 135.239059155583
+                      },
+                      "rating": 4.5,
+                      "reviewCount": 6,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/Es2H1oRyoKscwWBE2v-_kw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "1 km from Transfer to Kansai International Airport",
+                    "4.5 rating (6 reviews)"
+                  ],
+                  "tradeoffs": []
+                },
+                {
+                  "id": "yelp-dinner-LnDV56sGRJ0Yi-50eYNRAw",
+                  "rank": 3,
+                  "score": 75,
+                  "activity": {
+                    "name": "Pronto Kansai International Airport Aero Plaza",
+                    "description": "Cafes - $$",
+                    "category": "restaurant",
+                    "duration": 90,
+                    "place": {
+                      "name": "Pronto Kansai International Airport Aero Plaza",
+                      "address": "田尻町泉州空港中1番地",
+                      "neighborhood": "泉南郡",
+                      "coordinates": {
+                        "lat": 34.434173,
+                        "lng": 135.244974
+                      },
+                      "rating": 4.4,
+                      "reviewCount": 10,
+                      "photos": [
+                        "https://s3-media0.fl.yelpcdn.com/bphoto/gLW7HDR5w7QCEUVuaW-RYw/o.jpg"
+                      ]
+                    },
+                    "isFree": false,
+                    "estimatedCost": {
+                      "amount": 2000,
+                      "currency": "JPY"
+                    },
+                    "tags": [
+                      "restaurant",
+                      "dinner"
+                    ],
+                    "source": "yelp"
+                  },
+                  "matchReasons": [
+                    "0.9 km from Transfer to Kansai International Airport",
+                    "4.4 rating (10 reviews)"
+                  ],
+                  "tradeoffs": []
+                }
+              ],
+              "behavior": "meal",
+              "selectedOptionId": null
+            },
+            {
+              "slotId": "day6-departure-transfer",
+              "slotType": "afternoon",
+              "timeRange": {
+                "start": "05:45",
+                "end": "07:00"
+              },
+              "behavior": "travel",
+              "options": [
+                {
+                  "id": "opt-departure-transfer",
+                  "rank": 1,
+                  "score": 100,
+                  "activity": {
+                    "name": "Hotel → Airport Transfer",
+                    "description": "Transfer from hotel to KIX. Flight departs at 10:00. Via train",
+                    "category": "transport",
+                    "duration": 75,
+                    "place": {
+                      "name": "KIX",
+                      "address": "",
+                      "neighborhood": "Kyoto",
+                      "coordinates": {
+                        "lat": 0,
+                        "lng": 0
+                      },
+                      "photos": []
+                    },
+                    "isFree": false,
+                    "tags": [
+                      "transfer",
+                      "airport",
+                      "departure"
+                    ],
+                    "source": "ai"
+                  },
+                  "matchReasons": [
+                    "Airport departure transfer"
+                  ],
+                  "tradeoffs": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "generalTips": [
+        "Always have cash, as not all places accept credit cards.",
+        "Learn a few basic Japanese phrases for better communication.",
+        "Respect local customs and etiquette, especially in temples."
+      ],
+      "estimatedBudget": {
+        "total": {
+          "min": 200000,
+          "max": 300000
+        },
+        "currency": "JPY"
+      }
+    },
+    "metadata": {
+      "generatedAt": "2025-12-31T16:00:37.447Z",
+      "provider": "llm",
+      "source": "llm-openai",
+      "totalDays": 6,
+      "totalSlots": 28,
+      "totalOptions": 46,
+      "hasPlaces": true,
+      "hasCommute": true,
+      "hasFoodPreferences": true,
+      "hasViatorEnhancements": true,
+      "placeResolution": {
+        "totalPlaces": 46,
+        "resolved": 33,
+        "failed": 13,
+        "providers": {
+          "osm": 18,
+          "yelp": 15
+        },
+        "avgConfidence": 0.9323232323232321,
+        "totalDuration": 62394
+      },
+      "commuteCalculation": {
+        "totalCommutes": 15,
+        "avgDuration": 209.6,
+        "methodCounts": {
+          "walk": 9,
+          "transit": 6
+        }
+      },
+      "viatorEnrichment": {
+        "totalActivities": 63,
+        "enhancedActivities": 3,
+        "totalTours": 9,
+        "searchDuration": 22251
+      }
+    }
+  }
+}

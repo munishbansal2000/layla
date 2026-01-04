@@ -150,6 +150,11 @@ export function SlotOptions({
   // Get current activity coordinates for commute directions
   const currentActivityCoords = currentOption?.activity?.place?.coordinates;
 
+  // Check if this is a transport/travel slot
+  const isTransportSlot =
+    slot.behavior === "travel" ||
+    currentOption?.activity?.category === "transport";
+
   return (
     <div className="slot-container mb-4">
       {/* Commute Block (if not first slot) */}
@@ -161,65 +166,209 @@ export function SlotOptions({
         />
       )}
 
-      {/* Slot Header */}
-      <div className="flex items-center justify-between mb-2">
-        <div className="flex items-center gap-2 text-sm text-gray-500">
-          <span>{slotInfo.icon}</span>
-          <span className="font-medium">{slotInfo.label}</span>
-          <span className="text-gray-400">
-            {slot.timeRange.start} - {slot.timeRange.end}
-          </span>
+      {/* Transport/Travel Slot - Special rendering */}
+      {isTransportSlot && currentOption && (
+        <TransportSlotCard slot={slot} option={currentOption} />
+      )}
+
+      {/* Regular Slot */}
+      {!isTransportSlot && (
+        <>
+          {/* Slot Header */}
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-2 text-sm text-gray-500">
+              <span>{slotInfo.icon}</span>
+              <span className="font-medium">{slotInfo.label}</span>
+              <span className="text-gray-400">
+                {slot.timeRange.start} - {slot.timeRange.end}
+              </span>
+            </div>
+
+            {/* Card Counter */}
+            {totalOptions > 1 && (
+              <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded-full">
+                {currentCardIndex + 1} / {totalOptions}
+              </span>
+            )}
+          </div>
+
+          {/* Carousel View - Always On */}
+          {currentOption && (
+            <SwipeCarousel
+              options={slot.options}
+              currentIndex={currentCardIndex}
+              selectedOptionId={slot.selectedOptionId}
+              onNavigate={handleNavigate}
+              onSelect={handleSelect}
+            />
+          )}
+
+          {/* Empty Slot - Fill the Slot UI */}
+          {!currentOption && (
+            <div className="p-4 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-900/50">
+              <div className="flex items-center justify-center gap-2 text-gray-500 dark:text-gray-400 mb-3">
+                <Clock className="w-4 h-4" />
+                <span className="text-sm font-medium">Free Time</span>
+              </div>
+
+              {!showSuggestions ? (
+                <button
+                  onClick={() => setShowSuggestions(true)}
+                  className="w-full py-3 px-4 border-2 border-dashed border-purple-300 dark:border-purple-700 rounded-lg text-purple-600 dark:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors flex items-center justify-center gap-2 group"
+                >
+                  <span className="text-lg group-hover:scale-110 transition-transform">
+                    +
+                  </span>
+                  <span className="font-medium">Fill this slot</span>
+                </button>
+              ) : (
+                <FillSlotSuggestions
+                  slot={slot}
+                  dayIndex={dayIndex}
+                  allDaySlots={allDaySlots}
+                  city={city}
+                  onFillSlotWithActivity={onFillSlotWithActivity}
+                  onClose={() => setShowSuggestions(false)}
+                />
+              )}
+            </div>
+          )}
+        </>
+      )}
+    </div>
+  );
+}
+
+// ============================================
+// TRANSPORT SLOT CARD - Special rendering for transfer slots
+// ============================================
+
+interface TransportSlotCardProps {
+  slot: SlotWithOptions;
+  option: ActivityOption;
+}
+
+function TransportSlotCard({ slot, option }: TransportSlotCardProps) {
+  const activity = option.activity;
+  const tags = activity.tags || [];
+
+  // Determine transport type from tags or name
+  const isShinkansen =
+    tags.includes("shinkansen") ||
+    activity.name.toLowerCase().includes("shinkansen");
+  const isAirportArrival =
+    tags.includes("arrival") ||
+    activity.name.toLowerCase().includes("airport → hotel");
+  const isAirportDeparture =
+    tags.includes("departure") ||
+    activity.name.toLowerCase().includes("hotel → airport");
+  const isIntercity = tags.includes("intercity") || activity.name.includes("→");
+
+  // Choose icon and color based on type
+  let icon = "🚃";
+  let bgColor = "bg-blue-50 dark:bg-blue-900/20";
+  let borderColor = "border-blue-200 dark:border-blue-800";
+  let textColor = "text-blue-700 dark:text-blue-300";
+  let accentColor = "text-blue-600 dark:text-blue-400";
+
+  if (isShinkansen) {
+    icon = "🚅";
+    bgColor = "bg-emerald-50 dark:bg-emerald-900/20";
+    borderColor = "border-emerald-200 dark:border-emerald-800";
+    textColor = "text-emerald-700 dark:text-emerald-300";
+    accentColor = "text-emerald-600 dark:text-emerald-400";
+  } else if (isAirportArrival) {
+    icon = "✈️🛬";
+    bgColor = "bg-purple-50 dark:bg-purple-900/20";
+    borderColor = "border-purple-200 dark:border-purple-800";
+    textColor = "text-purple-700 dark:text-purple-300";
+    accentColor = "text-purple-600 dark:text-purple-400";
+  } else if (isAirportDeparture) {
+    icon = "✈️🛫";
+    bgColor = "bg-orange-50 dark:bg-orange-900/20";
+    borderColor = "border-orange-200 dark:border-orange-800";
+    textColor = "text-orange-700 dark:text-orange-300";
+    accentColor = "text-orange-600 dark:text-orange-400";
+  }
+
+  // Format duration
+  const durationHours = Math.floor(activity.duration / 60);
+  const durationMins = activity.duration % 60;
+  const durationStr =
+    durationHours > 0
+      ? `${durationHours}h ${durationMins > 0 ? `${durationMins}m` : ""}`
+      : `${durationMins}m`;
+
+  return (
+    <div className={cn("rounded-xl border-2 p-4", bgColor, borderColor)}>
+      {/* Header with icon and time */}
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-3">
+          <span className="text-2xl">{icon}</span>
+          <div>
+            <div className={cn("font-semibold", textColor)}>
+              {activity.name}
+            </div>
+            <div className={cn("text-sm", accentColor)}>
+              {slot.timeRange.start} - {slot.timeRange.end}
+            </div>
+          </div>
         </div>
 
-        {/* Card Counter */}
-        {totalOptions > 1 && (
-          <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded-full">
-            {currentCardIndex + 1} / {totalOptions}
+        {/* Duration badge */}
+        <div
+          className={cn(
+            "px-3 py-1 rounded-full text-sm font-medium",
+            bgColor,
+            textColor
+          )}
+        >
+          <Clock className="w-3 h-3 inline mr-1" />
+          {durationStr}
+        </div>
+      </div>
+
+      {/* Description */}
+      {activity.description && (
+        <p className={cn("text-sm mb-3", accentColor)}>
+          {activity.description}
+        </p>
+      )}
+
+      {/* Cost if available */}
+      {activity.estimatedCost && (
+        <div className={cn("flex items-center gap-1 text-sm", accentColor)}>
+          <DollarSign className="w-3 h-3" />
+          <span>
+            ~{activity.estimatedCost.currency === "JPY" ? "¥" : "$"}
+            {activity.estimatedCost.amount.toLocaleString()}
+          </span>
+        </div>
+      )}
+
+      {/* Transfer type badge */}
+      <div className="mt-3 flex flex-wrap gap-2">
+        {isShinkansen && (
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-100 dark:bg-emerald-800 text-emerald-800 dark:text-emerald-200">
+            🚅 Shinkansen
+          </span>
+        )}
+        {isAirportArrival && (
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-200">
+            ✈️ Airport Arrival
+          </span>
+        )}
+        {isAirportDeparture && (
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-orange-100 dark:bg-orange-800 text-orange-800 dark:text-orange-200">
+            ✈️ Airport Departure
+          </span>
+        )}
+        {isIntercity && !isShinkansen && (
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-200">
+            🚃 Inter-city Transfer
           </span>
         )}
       </div>
-
-      {/* Carousel View - Always On */}
-      {currentOption && (
-        <SwipeCarousel
-          options={slot.options}
-          currentIndex={currentCardIndex}
-          selectedOptionId={slot.selectedOptionId}
-          onNavigate={handleNavigate}
-          onSelect={handleSelect}
-        />
-      )}
-
-      {/* Empty Slot - Fill the Slot UI */}
-      {!currentOption && (
-        <div className="p-4 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-900/50">
-          <div className="flex items-center justify-center gap-2 text-gray-500 dark:text-gray-400 mb-3">
-            <Clock className="w-4 h-4" />
-            <span className="text-sm font-medium">Free Time</span>
-          </div>
-
-          {!showSuggestions ? (
-            <button
-              onClick={() => setShowSuggestions(true)}
-              className="w-full py-3 px-4 border-2 border-dashed border-purple-300 dark:border-purple-700 rounded-lg text-purple-600 dark:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors flex items-center justify-center gap-2 group"
-            >
-              <span className="text-lg group-hover:scale-110 transition-transform">
-                +
-              </span>
-              <span className="font-medium">Fill this slot</span>
-            </button>
-          ) : (
-            <FillSlotSuggestions
-              slot={slot}
-              dayIndex={dayIndex}
-              allDaySlots={allDaySlots}
-              city={city}
-              onFillSlotWithActivity={onFillSlotWithActivity}
-              onClose={() => setShowSuggestions(false)}
-            />
-          )}
-        </div>
-      )}
     </div>
   );
 }

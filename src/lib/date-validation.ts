@@ -28,15 +28,51 @@ export function getToday(): Date {
 }
 
 /**
- * Parse a date string and return a Date object normalized to start of day
+ * Parse a date string and return a Date object normalized to start of day.
+ *
+ * IMPORTANT: This function parses date strings as LOCAL time, not UTC.
+ * Using `new Date("2026-03-15")` interprets the date as UTC midnight,
+ * which causes the date to shift when displayed in timezones behind UTC.
+ *
+ * This function parses "YYYY-MM-DD" format manually to avoid timezone issues.
  */
 export function parseDate(dateString: string): Date | null {
+  if (!dateString) return null;
+
+  // Parse "YYYY-MM-DD" format manually to avoid timezone issues
+  // new Date("2026-03-15") interprets as UTC midnight, causing date shift
+  const parts = dateString.split('-');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // month is 0-indexed
+    const day = parseInt(parts[2], 10);
+
+    if (!isNaN(year) && !isNaN(month) && !isNaN(day)) {
+      const date = new Date(year, month, day, 0, 0, 0, 0);
+      if (!isNaN(date.getTime())) {
+        return date;
+      }
+    }
+  }
+
+  // Fallback for other formats (but these may have timezone issues)
   const date = new Date(dateString);
   if (isNaN(date.getTime())) {
     return null;
   }
   date.setHours(0, 0, 0, 0);
   return date;
+}
+
+/**
+ * Parse a date string safely for LOCAL time interpretation.
+ * Use this everywhere dates need to be parsed from "YYYY-MM-DD" strings.
+ *
+ * @param dateString - Date in "YYYY-MM-DD" format
+ * @returns Date object in local time, or null if invalid
+ */
+export function parseDateLocal(dateString: string): Date | null {
+  return parseDate(dateString);
 }
 
 /**

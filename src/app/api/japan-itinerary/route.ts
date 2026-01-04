@@ -81,6 +81,10 @@ export async function POST(request: Request) {
       tripContext: body.tripContext,
       travelers: body.travelers,
       budget: body.budget,
+      // Constraints and anchors
+      mustHave: body.mustHave,
+      mustAvoid: body.mustAvoid,
+      anchors: body.preBookedActivities, // Map preBookedActivities to anchors
     };
 
     console.log("[japan-itinerary] Itinerary request:", JSON.stringify(itineraryRequest, null, 2));

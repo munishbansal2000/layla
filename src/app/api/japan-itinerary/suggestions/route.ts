@@ -17,7 +17,9 @@ export async function POST(request: NextRequest) {
     const text = await request.text();
 
     if (!text || text.trim() === "") {
-      console.error("[suggestions API] Empty request body received");
+      // This can happen with React Strict Mode double-rendering or browser prefetch
+      // Log at debug level to reduce noise
+      console.debug("[suggestions API] Empty request body received (ignoring)");
       return NextResponse.json(
         { success: false, error: "Request body is empty" },
         { status: 400 }

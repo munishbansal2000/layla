@@ -1,5 +1,24 @@
-import { promises as fs } from "fs";
-import path from "path";
+// Only import fs on server-side (not in browser)
+const isServer = typeof window === "undefined";
+let fs: typeof import("fs").promises | null = null;
+let path: typeof import("path") | null = null;
+
+// Lazy load fs and path modules (server-only)
+async function getFs() {
+  if (!isServer) return null;
+  if (!fs) {
+    fs = (await import("fs")).promises;
+  }
+  return fs;
+}
+
+async function getPath() {
+  if (!isServer) return null;
+  if (!path) {
+    path = await import("path");
+  }
+  return path;
+}
 
 // ===========================================
 // OpenAI Request/Response Logging Types
@@ -64,10 +83,13 @@ const MAX_LOG_ENTRIES = 1000; // Max entries to keep in index
 
 // Ensure log directory exists
 async function ensureLogDir(): Promise<void> {
+  const fsModule = await getFs();
+  if (!fsModule) return; // Skip on client-side
+
   try {
-    await fs.access(LOG_DIR);
+    await fsModule.access(LOG_DIR);
   } catch {
-    await fs.mkdir(LOG_DIR, { recursive: true });
+    await fsModule.mkdir(LOG_DIR, { recursive: true });
   }
 }
 
@@ -92,17 +114,24 @@ function getDatePath(): string {
 // ===========================================
 
 export async function logOpenAIRequest(entry: OpenAILogEntry): Promise<string> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) {
+    console.log("[OpenAILogger] Skipping log - not running on server");
+    return entry.id;
+  }
+
   await ensureLogDir();
 
   const datePath = getDatePath();
-  const fullDir = path.join(LOG_DIR, datePath);
+  const fullDir = pathModule.join(LOG_DIR, datePath);
 
   // Create date-based subdirectory
-  await fs.mkdir(fullDir, { recursive: true });
+  await fsModule.mkdir(fullDir, { recursive: true });
 
   // Save individual log entry
-  const logFile = path.join(fullDir, `${entry.id}.json`);
-  await fs.writeFile(logFile, JSON.stringify(entry, null, 2));
+  const logFile = pathModule.join(fullDir, `${entry.id}.json`);
+  await fsModule.writeFile(logFile, JSON.stringify(entry, null, 2));
 
   // Update index
   await updateLogIndex(entry);
@@ -111,12 +140,16 @@ export async function logOpenAIRequest(entry: OpenAILogEntry): Promise<string> {
 }
 
 async function updateLogIndex(entry: OpenAILogEntry): Promise<void> {
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return;
+
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   let index: LogIndex;
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     index = JSON.parse(content);
   } catch {
     index = {
@@ -149,7 +182,7 @@ async function updateLogIndex(entry: OpenAILogEntry): Promise<void> {
   index.total_entries++;
   index.last_updated = new Date().toISOString();
 
-  await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+  await fsModule.writeFile(indexPath, JSON.stringify(index, null, 2));
 }
 
 // ===========================================
@@ -157,22 +190,26 @@ async function updateLogIndex(entry: OpenAILogEntry): Promise<void> {
 // ===========================================
 
 export async function getLogEntry(id: string): Promise<OpenAILogEntry | null> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return null;
+
   await ensureLogDir();
 
   // Search in index first to find the date
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const indexContent = await fs.readFile(indexPath, "utf-8");
+    const indexContent = await fsModule.readFile(indexPath, "utf-8");
     const index: LogIndex = JSON.parse(indexContent);
 
     const entry = index.entries.find((e) => e.id === id);
     if (entry) {
       const date = new Date(entry.timestamp);
       const datePath = `${date.getFullYear()}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getDate()).padStart(2, "0")}`;
-      const logFile = path.join(LOG_DIR, datePath, `${id}.json`);
+      const logFile = pathModule.join(LOG_DIR, datePath, `${id}.json`);
 
-      const content = await fs.readFile(logFile, "utf-8");
+      const content = await fsModule.readFile(logFile, "utf-8");
       return JSON.parse(content);
     }
   } catch {
@@ -183,12 +220,22 @@ export async function getLogEntry(id: string): Promise<OpenAILogEntry | null> {
 }
 
 export async function getLogIndex(): Promise<LogIndex> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) {
+    return {
+      total_entries: 0,
+      last_updated: new Date().toISOString(),
+      entries: [],
+    };
+  }
+
   await ensureLogDir();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     return JSON.parse(content);
   } catch {
     return {
@@ -347,6 +394,12 @@ export async function findReplayMatch(
 
     // No match found for chat - don't use fuzzy matching as it breaks context
     console.log("[Replay] No exact conversation match - will call OpenAI");
+    console.log("[Replay] Cache miss reason: No cached entry matches the current conversation");
+    console.log(`[Replay] Current conversation has ${userMessages.length} user message(s)`);
+    if (userMessages.length > 0) {
+      console.log(`[Replay] Last user message: "${userMessages[userMessages.length - 1].substring(0, 100)}${userMessages[userMessages.length - 1].length > 100 ? '...' : ''}"`);
+    }
+    console.log(`[Replay] Checked ${candidates.length} cached entries, none matched`);
     return { found: false };
   }
 
@@ -554,6 +607,10 @@ export async function getLogStats(): Promise<{
 }
 
 export async function clearOldLogs(daysToKeep: number = 30): Promise<number> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return 0;
+
   const cutoffDate = new Date();
   cutoffDate.setDate(cutoffDate.getDate() - daysToKeep);
 
@@ -566,10 +623,10 @@ export async function clearOldLogs(daysToKeep: number = 30): Promise<number> {
       const log = await getLogEntry(entry.id);
       if (log) {
         const datePath = `${entryDate.getFullYear()}/${String(entryDate.getMonth() + 1).padStart(2, "0")}/${String(entryDate.getDate()).padStart(2, "0")}`;
-        const logFile = path.join(LOG_DIR, datePath, `${entry.id}.json`);
+        const logFile = pathModule.join(LOG_DIR, datePath, `${entry.id}.json`);
 
         try {
-          await fs.unlink(logFile);
+          await fsModule.unlink(logFile);
           deletedCount++;
         } catch {
           // File may already be deleted
@@ -583,8 +640,8 @@ export async function clearOldLogs(daysToKeep: number = 30): Promise<number> {
   index.entries = newEntries;
   index.last_updated = new Date().toISOString();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
-  await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
+  await fsModule.writeFile(indexPath, JSON.stringify(index, null, 2));
 
   return deletedCount;
 }

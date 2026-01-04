@@ -1,5 +1,24 @@
-import { promises as fs } from "fs";
-import path from "path";
+// Only import fs on server-side (not in browser)
+const isServer = typeof window === "undefined";
+let fs: typeof import("fs").promises | null = null;
+let path: typeof import("path") | null = null;
+
+// Lazy load fs and path modules (server-only)
+async function getFs() {
+  if (!isServer) return null;
+  if (!fs) {
+    fs = (await import("fs")).promises;
+  }
+  return fs;
+}
+
+async function getPath() {
+  if (!isServer) return null;
+  if (!path) {
+    path = await import("path");
+  }
+  return path;
+}
 
 // ===========================================
 // Viator API Request/Response Logging Types
@@ -8,7 +27,7 @@ import path from "path";
 export interface ViatorLogEntry {
   id: string;
   timestamp: string;
-  type: "search" | "destinations" | "product-details" | "availability";
+  type: "search" | "destinations" | "product-details" | "availability" | "freetext" | "attractions";
 
   // Request details
   request: {
@@ -56,10 +75,13 @@ const LOG_DIR = process.env.VIATOR_LOG_DIR || "./viator-logs";
 const MAX_LOG_ENTRIES = 500;
 
 async function ensureLogDir(): Promise<void> {
+  const fsModule = await getFs();
+  if (!fsModule) return; // Skip on client-side
+
   try {
-    await fs.access(LOG_DIR);
+    await fsModule.access(LOG_DIR);
   } catch {
-    await fs.mkdir(LOG_DIR, { recursive: true });
+    await fsModule.mkdir(LOG_DIR, { recursive: true });
   }
 }
 
@@ -87,7 +109,7 @@ export function generateCacheKey(
 ): string {
   const relevantParams: Record<string, unknown> = {};
 
-  switch (type) {
+switch (type) {
     case "search":
       relevantParams.destId = params.destId;
       relevantParams.destName = params.destName;
@@ -104,6 +126,14 @@ export function generateCacheKey(
     case "availability":
       relevantParams.productCode = params.productCode;
       relevantParams.date = params.date;
+      break;
+    case "freetext":
+      relevantParams.searchTerm = params.searchTerm;
+      relevantParams.count = params.count;
+      break;
+    case "attractions":
+      relevantParams.destId = params.destId;
+      relevantParams.count = params.count;
       break;
   }
 
@@ -125,15 +155,22 @@ export function generateCacheKey(
 // ===========================================
 
 export async function logViatorRequest(entry: ViatorLogEntry): Promise<string> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) {
+    console.log("[ViatorLogger] Skipping log - not running on server");
+    return entry.id;
+  }
+
   await ensureLogDir();
 
   const datePath = getDatePath();
-  const fullDir = path.join(LOG_DIR, datePath);
+  const fullDir = pathModule.join(LOG_DIR, datePath);
 
-  await fs.mkdir(fullDir, { recursive: true });
+  await fsModule.mkdir(fullDir, { recursive: true });
 
-  const logFile = path.join(fullDir, `${entry.id}.json`);
-  await fs.writeFile(logFile, JSON.stringify(entry, null, 2));
+  const logFile = pathModule.join(fullDir, `${entry.id}.json`);
+  await fsModule.writeFile(logFile, JSON.stringify(entry, null, 2));
 
   await updateViatorLogIndex(entry);
 
@@ -141,12 +178,16 @@ export async function logViatorRequest(entry: ViatorLogEntry): Promise<string> {
 }
 
 async function updateViatorLogIndex(entry: ViatorLogEntry): Promise<void> {
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return;
+
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   let index: ViatorLogIndex;
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     index = JSON.parse(content);
   } catch {
     index = {
@@ -193,7 +234,7 @@ async function updateViatorLogIndex(entry: ViatorLogEntry): Promise<void> {
   index.total_entries++;
   index.last_updated = new Date().toISOString();
 
-  await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+  await fsModule.writeFile(indexPath, JSON.stringify(index, null, 2));
 }
 
 // ===========================================
@@ -201,21 +242,25 @@ async function updateViatorLogIndex(entry: ViatorLogEntry): Promise<void> {
 // ===========================================
 
 export async function getViatorLogEntry(id: string): Promise<ViatorLogEntry | null> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return null;
+
   await ensureLogDir();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const indexContent = await fs.readFile(indexPath, "utf-8");
+    const indexContent = await fsModule.readFile(indexPath, "utf-8");
     const index: ViatorLogIndex = JSON.parse(indexContent);
 
     const entry = index.entries.find((e) => e.id === id);
     if (entry) {
       const date = new Date(entry.timestamp);
       const datePath = `${date.getFullYear()}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getDate()).padStart(2, "0")}`;
-      const logFile = path.join(LOG_DIR, datePath, `${id}.json`);
+      const logFile = pathModule.join(LOG_DIR, datePath, `${id}.json`);
 
-      const content = await fs.readFile(logFile, "utf-8");
+      const content = await fsModule.readFile(logFile, "utf-8");
       return JSON.parse(content);
     }
   } catch {
@@ -226,12 +271,22 @@ export async function getViatorLogEntry(id: string): Promise<ViatorLogEntry | nu
 }
 
 export async function getViatorLogIndex(): Promise<ViatorLogIndex> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) {
+    return {
+      total_entries: 0,
+      last_updated: new Date().toISOString(),
+      entries: [],
+    };
+  }
+
   await ensureLogDir();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
 
   try {
-    const content = await fs.readFile(indexPath, "utf-8");
+    const content = await fsModule.readFile(indexPath, "utf-8");
     return JSON.parse(content);
   } catch {
     return {
@@ -365,6 +420,10 @@ export async function getViatorCacheStats(): Promise<{
  * Clear expired cache entries
  */
 export async function clearExpiredViatorCache(maxAgeMs: number = 7 * 24 * 60 * 60 * 1000): Promise<number> {
+  const fsModule = await getFs();
+  const pathModule = await getPath();
+  if (!fsModule || !pathModule) return 0;
+
   const index = await getViatorLogIndex();
   const cutoffTime = Date.now() - maxAgeMs;
   let deletedCount = 0;
@@ -379,8 +438,8 @@ export async function clearExpiredViatorCache(maxAgeMs: number = 7 * 24 * 60 * 6
       try {
         const date = new Date(entry.timestamp);
         const datePath = `${date.getFullYear()}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getDate()).padStart(2, "0")}`;
-        const logFile = path.join(LOG_DIR, datePath, `${entry.id}.json`);
-        await fs.unlink(logFile);
+        const logFile = pathModule.join(LOG_DIR, datePath, `${entry.id}.json`);
+        await fsModule.unlink(logFile);
         deletedCount++;
       } catch {
         // File may already be deleted
@@ -394,8 +453,8 @@ export async function clearExpiredViatorCache(maxAgeMs: number = 7 * 24 * 60 * 6
   index.entries = validEntries;
   index.last_updated = new Date().toISOString();
 
-  const indexPath = path.join(LOG_DIR, "index.json");
-  await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+  const indexPath = pathModule.join(LOG_DIR, "index.json");
+  await fsModule.writeFile(indexPath, JSON.stringify(index, null, 2));
 
   return deletedCount;
 }

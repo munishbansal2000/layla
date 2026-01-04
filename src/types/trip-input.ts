@@ -139,7 +139,7 @@ export interface TransferAnchor {
 }
 
 export interface TransferEndpoint {
-  type: 'airport' | 'hotel' | 'station' | 'port' | 'other';
+  type: 'airport' | 'hotel' | 'station' | 'port' | 'city' | 'other';
   code?: string;             // Airport/station code
   name?: string;             // Location name
   city: string;
@@ -170,7 +170,7 @@ export interface TransferOption {
   id: string;
   mode: TransferMode;
   name?: string;             // e.g., "Narita Express", "Shinkansen Nozomi"
-  duration: number;          // minutes
+  duration?: number;         // minutes - calculated dynamically by routing service
   cost?: {
     amount: number;
     currency: string;
@@ -188,6 +188,13 @@ export interface InferredTransfer {
   from: TransferEndpoint;
   to: TransferEndpoint;
 
+  // For inter-city transfers: intermediate waypoints (station/airport)
+  via?: {
+    departure: TransferEndpoint;  // e.g., Tokyo Station
+    arrival: TransferEndpoint;    // e.g., Kyoto Station
+    mode: TransferMode;           // e.g., 'shinkansen'
+  };
+
   date: string;              // ISO date
   earliestDeparture?: string; // e.g., hotel checkout time
   latestArrival?: string;     // e.g., flight departure, hotel checkin
@@ -203,6 +210,25 @@ export interface InferredTransfer {
 
   // User's selection (if any)
   selected?: TransferAnchor;
+
+  // Commute breakdown for multi-leg transfers
+  commuteToStation?: {
+    duration: number;        // minutes
+    distance: number;        // meters
+    mode: TransferMode;
+  };
+  mainTransport?: {
+    duration: number;        // minutes
+    mode: TransferMode;
+    fromStation: string;
+    toStation: string;
+  };
+  commuteFromStation?: {
+    duration: number;        // minutes
+    distance: number;        // meters
+    mode: TransferMode;
+  };
+  totalDuration?: number;    // Total time in minutes
 
   // Status
   status: TransferStatus;

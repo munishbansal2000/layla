@@ -5,8 +5,7 @@
 //
 // This endpoint now handles ONLY conversational Q&A.
 // For itinerary generation, use:
-//   - POST /api/itinerary/generate (new orchestrator API)
-//   - POST /api/trips/generate (legacy wrapper)
+//   - POST /api/itinerary/generate-structured (main API)
 //
 // This endpoint will:
 // 1. Handle clarifying questions about trip preferences
@@ -260,7 +259,7 @@ export async function POST(request: NextRequest) {
     const generationInfo = context.isReadyToGenerate ? {
       readyToGenerate: true,
       suggestedAction: "generate_itinerary",
-      generationEndpoint: "/api/itinerary/generate",
+      generationEndpoint: "/api/itinerary/generate-structured",
       extractedContext: context,
     } : null;
 
@@ -270,8 +269,8 @@ export async function POST(request: NextRequest) {
       context,
       generationInfo,
       deprecated: {
-        notice: "This endpoint no longer generates itineraries. Use /api/itinerary/generate instead.",
-        useInstead: "/api/itinerary/generate",
+        notice: "This endpoint handles Q&A only. Use /api/itinerary/generate-structured for generation.",
+        useInstead: "/api/itinerary/generate-structured",
       },
     };
 

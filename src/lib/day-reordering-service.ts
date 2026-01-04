@@ -6,7 +6,7 @@
  */
 
 import type { DaySchedule, ScheduledActivity } from "./schedule-builder";
-import type { GeneratedItinerary } from "./itinerary-orchestrator";
+import type { StoredItinerary as GeneratedItinerary } from "./itinerary-store";
 import { getItineraryStore } from "./itinerary-store";
 
 // ============================================
